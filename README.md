@@ -1,64 +1,85 @@
-# bhd-trigger-pack
+# espanso-dist
 
-Standalone espanso trigger pack — 12,000+ word family triggers for fast typing.
-Install without cloning the source repository.
+Standalone espanso trigger pack — 13,000+ word family triggers for fast typing.
+Install on any machine without cloning the source espanso-config repository.
+
+> **Source of truth**: [espanso-config](https://github.com/buihongduc132/espanso-config)
+> This repo is auto-generated from `word_version_tokenized/` via `mise run espanso-dist-push`.
 
 ## Quick Install
 
 ```bash
-curl -sL https://raw.githubusercontent.com/bhd/bhd-trigger-pack/main/install.sh | bash
+# Public access (set GITHUB_TOKEN for private repos)
+GITHUB_TOKEN=ghp_xxx curl -sL https://raw.githubusercontent.com/buihongduc132/espanso-dist/main/install.sh | bash
 ```
 
-## What's Included
+## TUI Installer
 
-- **12,000+ triggers** covering common words, word families, phrases, and shortcuts
-- **Comma-tokenized** triggers (e.g., `exql,` → "exclude", `izt,` → "this is")
-- **Pre-configured** espanso settings (Inject backend, keyboard layout, toggle key)
+The installer runs an interactive TUI that:
 
-## Requirements
+- **Detects OS** (Linux / macOS / Windows) and arch automatically
+- **Locates espanso** binary and config dir (XDG, Flatpak, Homebrew, AppImage, etc.)
+- **Raises clear errors** with troubleshooting hints when something is wrong
+- **Suggests mise task** for future automated updates
 
-- [espanso](https://espanso.org/) v2.x installed and running
-- `curl` or `wget` for downloading
+```
+╔══════════════════════════════════════════════════════════╗
+║            bhd-trigger-pack  Installer                  ║
+║            vlinux · x86_64 · espanso triggers            ║
+╚══════════════════════════════════════════════════════════╝
+
+━━━ System Detection ━━━
+  ✔ OS:     linux (Linux)
+  ✔ Arch:   x86_64
+  ✔ Shell:  /bin/zsh
+  ✔ Espanso binary:     ~/.local/bin/espanso
+  ✔ Espanso version:    espanso 2.3.0
+  ✔ HTTP client:        curl
+```
 
 ## Commands
 
-| Command                    | Description                          |
-| -------------------------- | ------------------------------------ |
-| `./install.sh`             | Fresh install                        |
-| `./install.sh --update`    | Check for updates, download if newer |
-| `./install.sh --force`     | Force reinstall                      |
-| `./install.sh --version`   | Show installed version               |
-| `./install.sh --uninstall` | Remove all files                     |
+| Command                          | Description                                |
+| -------------------------------- | ------------------------------------------ |
+| `./install.sh`                   | Interactive TUI install                    |
+| `./install.sh --update`          | Check for updates, download if newer       |
+| `./install.sh --force`           | Force reinstall                            |
+| `./install.sh --non-interactive` | Skip all prompts, use defaults             |
+| `./install.sh --version`         | Show installed version                     |
+| `./install.sh --uninstall`       | Remove all trigger pack files              |
+| `./install.sh --mise`            | Print mise task snippet for future updates |
 
 ## Self-Update
 
-After initial install, the installer is saved to `~/.config/espanso/install.sh`:
+After initial install, the installer saves itself for future updates:
 
 ```bash
 # Update from saved installer
 ~/.config/espanso/install.sh --update
 
-# Or one-liner (always latest)
-curl -sL https://raw.githubusercontent.com/bhd/bhd-trigger-pack/main/install.sh | bash -s -- --update
+# Non-interactive (for scripts / CI)
+~/.config/espanso/install.sh --update --non-interactive
 ```
 
-## Manual Install
+## Wire as mise Task (Recommended)
 
-```bash
-# Clone and copy
-git clone https://github.com/bhd/bhd-trigger-pack.git /tmp/bhd-trigger-pack
-mkdir -p ~/.config/espanso/match
-cp /tmp/bhd-trigger-pack/match/*.yml ~/.config/espanso/match/
-mkdir -p ~/.config/espanso/config
-cp /tmp/bhd-trigger-pack/default.yml ~/.config/espanso/config/default.yml
-espanso restart
+The installer prints a ready-to-use mise task snippet. Add this to your `mise.toml`:
+
+```toml
+[tasks.espanso-sync]
+description = "Update bhd-trigger-pack from GitHub"
+run = "bash ~/.config/espanso/install.sh --update --non-interactive"
 ```
 
-## Custom Repository
+Then: `mise run espanso-sync`
 
-```bash
-BHD_TRIGGER_PACK_REPO=yourname/your-fork ./install.sh
-```
+## Env Overrides
+
+| Variable                | Description                      | Default                      |
+| ----------------------- | -------------------------------- | ---------------------------- |
+| `BHD_TRIGGER_PACK_REPO` | Custom GitHub repo               | `buihongduc132/espanso-dist` |
+| `ESPANSO_CONFIG_DIR`    | Custom espanso config dir        | auto-detected per OS         |
+| `GITHUB_TOKEN`          | GitHub token (for private repos) | none                         |
 
 ## Trigger Examples
 
@@ -70,7 +91,6 @@ BHD_TRIGGER_PACK_REPO=yourname/your-fork ./install.sh
 | `pwj,`  | project   |
 | `pwjs,` | projects  |
 | `qle,`  | clear     |
-| `qles,` | clears    |
 | `qlep,` | cleared   |
 | `qlei,` | clearing  |
 | `hwl,`  | how long  |
