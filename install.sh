@@ -368,7 +368,7 @@ download_pack() {
 	# Validate
 	if [[ ! -d "$tmpdir/match" ]] && [[ ! -f "$tmpdir/default.yml" ]]; then
 		die "Download produced no match files" \
-			"  1. Check the repo exists:  https://github.com/buihongduc132/espanso-dist\n  2. Check your network / proxy settings\n  3. Try with explicit repo:\n       BHD_TRIGGER_PACK_REPO=owner/repo ./install.sh"
+			"  1. Check the repo exists:  https://github.com/${GITHUB_REPO}\n  2. Check your network / proxy settings\n  3. Try with explicit repo:\n       BHD_TRIGGER_PACK_REPO=owner/repo ./install.sh"
 	fi
 
 	# If match/ is missing but .yml files are at root, move them
@@ -787,7 +787,7 @@ cmd_version() {
 	local ver
 	ver="$(get_local_version "$config_dir")"
 	echo "bhd-trigger-pack v$ver"
-	echo "Source: https://github.com/buihongduc132/espanso-dist"
+	echo "Source: https://github.com/${GITHUB_REPO}"
 }
 
 cmd_uninstall() {
