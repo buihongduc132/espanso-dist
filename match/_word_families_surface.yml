@@ -1,0 +1,77 @@
+# ⚠️  WARNING: AUTO-GENERATED FILE - DO NOT EDIT DIRECTLY!
+# This file is generated from word_version by:
+#   scripts/convert_to_tokenized_word_version.py
+# Edit source in space_version and re-run conversions.
+# Tokenizes trailing spaces in triggers to an explicit token.
+# Removes right_word property for tokenized version.
+# Adds trailing space to replacements that don't have one.
+# Current token: ','
+
+name: word-families-surface
+parent: default
+matches:
+- replace: 'surface '
+  _tags: [to, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['suwf,']
+- replace: 'surfaces '
+  _tags: [to, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['suwfs,']
+- replace: 'surfacing '
+  _tags: [ing, to, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['suwfi,']
+- replace: 'surfaced '
+  _tags: [ed, to, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['suwfp,']
+- replace: 'surfacor '
+  _tags: [noun, to, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['suwfw,']
+- replace: 'surfacors '
+  _tags: [noun, to, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['suwfws,']
+- replace: 'surfacement '
+  _tags: [noun, to, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['suwfm,']
+- replace: 'surfaced '
+  _tags: [ed, to, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['suwfl,']
+- replace: 'surfacedly '
+  _tags: [to, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['suwfll,']
+- replace: 'surfaceity '
+  _tags: [noun, to, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['suwfly,']
+- replace: 'surfaceities '
+  _tags: [noun, to, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['suwflys,']
+- replace: 'surfaceable '
+  _tags: [to, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['suwfb,']
+- replace: 'surfaceably '
+  _tags: [to, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['suwfbl,']

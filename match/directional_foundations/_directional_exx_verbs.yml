@@ -1,0 +1,280 @@
+# ⚠️  WARNING: AUTO-GENERATED FILE - DO NOT EDIT DIRECTLY!
+# This file is generated from word_version by:
+#   scripts/convert_to_tokenized_word_version.py
+# Edit source in space_version and re-run conversions.
+# Tokenizes trailing spaces in triggers to an explicit token.
+# Removes right_word property for tokenized version.
+# Adds trailing space to replacements that don't have one.
+# Current token: ','
+
+matches:
+- replace: 'to create '
+  _tags: [to, preposition, directional, exx_verb, 222_group]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['2qw,']
+- replace: 'from create '
+  _tags: [from, preposition, directional, exx_verb, 222_group]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['22qw,']
+- replace: 'to start '
+  _tags: [to, preposition, directional, exx_verb, 222_group]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['2saa,']
+- replace: 'from start '
+  _tags: [from, preposition, directional, exx_verb, 222_group]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['22saa,']
+- replace: 'to stop '
+  _tags: [to, preposition, directional, exx_verb, 222_group]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['2soo,']
+- replace: 'from stop '
+  _tags: [from, preposition, directional, exx_verb, 222_group]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['22soo,']
+- replace: 'to find '
+  _tags: [to, preposition, directional, exx_verb, 222_group]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['2fi,']
+- replace: 'from find '
+  _tags: [from, preposition, directional, exx_verb, 222_group]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['22fi,']
+- replace: 'to document '
+  _tags: [to, preposition, directional, exx_verb, 222_group]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['2doq,']
+- replace: 'from document '
+  _tags: [from, preposition, directional, exx_verb, 222_group]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['22doq,']
+- replace: 'to update '
+  _tags: [to, preposition, directional, exx_verb, 222_group]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['2up,']
+- replace: 'from update '
+  _tags: [from, preposition, directional, exx_verb, 222_group]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['22up,']
+- replace: 'to change '
+  _tags: [to, preposition, directional, exx_verb, 222_group]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['2qh,']
+- replace: 'from change '
+  _tags: [from, preposition, directional, exx_verb, 222_group]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['22qh,']
+- replace: 'to check '
+  _tags: [to, preposition, directional, exx_verb, 222_group]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['2hk,']
+- replace: 'from check '
+  _tags: [from, preposition, directional, exx_verb, 222_group]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['22hk,']
+- replace: 'to replace '
+  _tags: [to, preposition, directional, exx_verb, 222_group]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['2wp,']
+- replace: 'from replace '
+  _tags: [from, preposition, directional, exx_verb, 222_group]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['22wp,']
+- replace: 'to combine '
+  _tags: [to, preposition, directional, exx_verb, 222_group]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['2qb,']
+- replace: 'from combine '
+  _tags: [from, preposition, directional, exx_verb, 222_group]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['22qb,']
+- replace: 'to flow '
+  _tags: [to, preposition, directional, exx_verb, 222_group]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['2fl,']
+- replace: 'from flow '
+  _tags: [from, preposition, directional, exx_verb, 222_group]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['22fl,']
+- replace: 'to config '
+  _tags: [to, preposition, directional, exx_verb, 222_group]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['2qf,']
+- replace: 'from config '
+  _tags: [from, preposition, directional, exx_verb, 222_group]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['22qf,']
+- replace: 'to take '
+  _tags: [to, preposition, directional, foundation_verb, 222_group]
+  allow_duplicate: true
+  propagate_case: true
+  triggers: ['2tk,']
+- replace: 'from take '
+  _tags: [from, preposition, directional, foundation_verb, 222_group]
+  allow_duplicate: true
+  propagate_case: true
+  triggers: ['22tk,']
+- replace: 'to commit '
+  _tags: [to, preposition, directional, exx_verb, 222_group]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['2qmi,']
+- replace: 'from commit '
+  _tags: [from, preposition, directional, exx_verb, 222_group]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['22qmi,']
+- replace: 'to ensure '
+  _tags: [to, preposition, directional, exx_verb, 222_group]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['2ens,']
+- replace: 'from ensure '
+  _tags: [from, preposition, directional, exx_verb, 222_group]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['22ens,']
+- replace: 'to fix '
+  _tags: [to, preposition, directional, exx_verb, 222_group]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['2k,']
+- replace: 'from fix '
+  _tags: [from, preposition, directional, exx_verb, 222_group]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['22k,']
+- replace: 'to follow '
+  _tags: [to, preposition, directional, exx_verb, 222_group]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['2fol,']
+- replace: 'from follow '
+  _tags: [from, preposition, directional, exx_verb, 222_group]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['22fol,']
+- replace: 'to implement '
+  _tags: [to, preposition, directional, exx_verb, 222_group]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['2imp,']
+- replace: 'from implement '
+  _tags: [from, preposition, directional, exx_verb, 222_group]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['22imp,']
+- replace: 'to input '
+  _tags: [to, preposition, directional, exx_verb, 222_group]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['2ip,']
+- replace: 'from input '
+  _tags: [from, preposition, directional, exx_verb, 222_group]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['22ip,']
+- replace: 'to learn '
+  _tags: [to, preposition, directional, exx_verb, 222_group]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['2lrn,']
+- replace: 'from learn '
+  _tags: [from, preposition, directional, exx_verb, 222_group]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['22lrn,']
+- replace: 'to need '
+  _tags: [to, preposition, directional, exx_verb, 222_group]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['2nd,']
+- replace: 'from need '
+  _tags: [from, preposition, directional, exx_verb, 222_group]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['22nd,']
+- replace: 'to process '
+  _tags: [to, preposition, directional, exx_verb, 222_group]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['2pwq,']
+- replace: 'from process '
+  _tags: [from, preposition, directional, exx_verb, 222_group]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['22pwq,']
+- replace: 'to put '
+  _tags: [to, preposition, directional, exx_verb, 222_group]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['2put,']
+- replace: 'from put '
+  _tags: [from, preposition, directional, exx_verb, 222_group]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['22put,']
+- replace: 'to review '
+  _tags: [to, preposition, directional, exx_verb, 222_group]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['2wej,']
+- replace: 'from review '
+  _tags: [from, preposition, directional, exx_verb, 222_group]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['22wej,']
+- replace: 'to rotate '
+  _tags: [to, preposition, directional, exx_verb, 222_group]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['2wot,']
+- replace: 'from rotate '
+  _tags: [from, preposition, directional, exx_verb, 222_group]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['22wot,']
+- replace: 'to select '
+  _tags: [to, preposition, directional, exx_verb, 222_group]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['2sel,']
+- replace: 'from select '
+  _tags: [from, preposition, directional, exx_verb, 222_group]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['22sel,']
+- replace: 'to test '
+  _tags: [to, preposition, directional, exx_verb, 222_group]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['2tes,']
+- replace: 'from test '
+  _tags: [from, preposition, directional, exx_verb, 222_group]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['22tes,']

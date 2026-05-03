@@ -1,0 +1,48 @@
+# ⚠️  WARNING: AUTO-GENERATED FILE - DO NOT EDIT DIRECTLY!
+# This file is generated from word_version by:
+#   scripts/convert_to_tokenized_word_version.py
+# Edit source in space_version and re-run conversions.
+# Tokenizes trailing spaces in triggers to an explicit token.
+# Removes right_word property for tokenized version.
+# Adds trailing space to replacements that don't have one.
+# Current token: ','
+
+name: forms
+parent: default
+matches:
+- replace: '{{output}} '
+  vars:
+  - name: trigger_form
+    type: form
+    params: {layout: 'bbreviation/Trigger
+
+        [[apprv]]
+
+
+        Expansion/Replacement
+
+        [[expansion]]
+
+
+        Expansion Type
+
+        [[expansion_type]]
+
+        Values: [common, phrase, family, bex]
+
+        Default: common
+
+
+        Notes
+
+        [[notes]]
+
+        '}
+  - name: output
+    type: script
+    params:
+      args: ['{{python}}', '{{BASE_DIR}}/scripts/add_new_trigger.py', '{{trigger_form.apprv}}', '{{trigger_form.expansion}}', '{{trigger_form.expansion_type}}', '{{trigger_form.notes}}']
+  _tags: [to, pronoun]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: [':po,']

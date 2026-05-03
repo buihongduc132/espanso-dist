@@ -1,0 +1,112 @@
+# ⚠️  WARNING: AUTO-GENERATED FILE - DO NOT EDIT DIRECTLY!
+# This file is generated from word_version by:
+#   scripts/convert_to_tokenized_word_version.py
+# Edit source in space_version and re-run conversions.
+# Tokenizes trailing spaces in triggers to an explicit token.
+# Removes right_word property for tokenized version.
+# Adds trailing space to replacements that don't have one.
+# Current token: ','
+
+name: word_3_with_without_demonstratives
+parent: default
+matches:
+- replace: 'with this '
+  _tags: [pronoun, will, the, demonstrative, to, be]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['wiz,']
+- replace: 'with that '
+  _tags: [pronoun, will, the, demonstrative, to, have]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['waz,']
+- replace: 'with these '
+  _tags: [pronoun, will, the, demonstrative, to, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['wez,']
+- replace: 'with those '
+  _tags: [pronoun, will, the, demonstrative, to, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['woz,']
+- replace: 'with it '
+  _tags: [will, to, the, pronoun]
+  allow_duplicate: true
+  propagate_case: true
+  triggers: ['wx,']
+- replace: 'without this '
+  _tags: [pronoun, will, the, demonstrative, to, be]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['woiz,']
+- replace: 'without that '
+  _tags: [pronoun, will, the, demonstrative, to, have]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['woaz,']
+- replace: 'without these '
+  _tags: [pronoun, will, the, demonstrative, to, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['woez,']
+- replace: 'without those '
+  _tags: [pronoun, will, the, demonstrative, to, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['wooz,']
+- replace: 'not with this '
+  _tags: [pronoun, will, the, demonstrative, to, negate, be]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['nwiz,']
+- replace: 'not with that '
+  _tags: [pronoun, will, the, demonstrative, to, negate, have]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['nwaz,']
+- replace: 'not with these '
+  _tags: [pronoun, will, the, demonstrative, to, negate, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['nwez,']
+- replace: 'not with those '
+  _tags: [pronoun, will, the, demonstrative, to, negate, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['nwoz,']
+- replace: 'not with it '
+  _tags: [pronoun, will, the, negate, to]
+  allow_duplicate: true
+  propagate_case: true
+  triggers: ['nwx,']
+- replace: 'not without this '
+  _tags: [pronoun, will, the, demonstrative, to, negate, be]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['nwoiz,']
+- replace: 'not without that '
+  _tags: [pronoun, will, the, demonstrative, to, negate, have]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['nwoaz,']
+- replace: 'not without these '
+  _tags: [pronoun, will, the, demonstrative, to, negate, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['nwoez,']
+- replace: 'not without those '
+  _tags: [pronoun, will, the, demonstrative, to, negate, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['nwooz,']
+- replace: 'not without it '
+  _tags: [pronoun, will, the, negate, to]
+  allow_duplicate: true
+  propagate_case: true
+  triggers: ['nwox,']
+- replace: 'without it '
+  _tags: [will, to, the, pronoun]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['wox,']

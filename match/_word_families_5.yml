@@ -1,0 +1,946 @@
+# ⚠️  WARNING: AUTO-GENERATED FILE - DO NOT EDIT DIRECTLY!
+# This file is generated from word_version by:
+#   scripts/convert_to_tokenized_word_version.py
+# Edit source in space_version and re-run conversions.
+# Tokenizes trailing spaces in triggers to an explicit token.
+# Removes right_word property for tokenized version.
+# Adds trailing space to replacements that don't have one.
+# Current token: ','
+
+name: word-families-ext-ake-ike
+parent: default
+matches:
+- replace: 'like '
+  _tags: [pronoun, else]
+  allow_duplicate: true
+  propagate_case: true
+  triggers: ['lk,']
+- replace: 'likeable '
+  _tags: [adjective, can, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['lkb,']
+- replace: 'liking '
+  _tags: [ing, pronoun, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['lki,']
+- replace: 'liked '
+  _tags: [ed, would, else, pronoun]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['lkp,']
+- replace: 'likes '
+  _tags: [pronoun, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['lks,']
+- replace: 'likely '
+  _tags: [pronoun, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['lky,']
+- replace: 'most likely '
+  _tags: [pronoun, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['mlky,']
+- replace: 'likeness '
+  _tags: [noun, pronoun, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['lkm,']
+- replace: 'take '
+  _tags: [to, else]
+  allow_duplicate: true
+  propagate_case: true
+  triggers: ['tk,']
+- replace: 'takable '
+  _tags: [adjective, can, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['tkb,']
+- replace: 'taking '
+  _tags: [to, ing, pronoun]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['tki,']
+- replace: 'taken '
+  _tags: [to, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['tkm,']
+- replace: 'took '
+  _tags: [to, irregular_past]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['tkpp,']
+- replace: 'takes '
+  _tags: [to, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['tks,']
+- replace: 'shake '
+  _tags: [have, should, the, else]
+  allow_duplicate: true
+  propagate_case: true
+  triggers: ['shk,']
+- replace: 'shakeable '
+  _tags: [adjective, can, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['shkb,']
+- replace: 'shaking '
+  _tags: [pronoun, the, ing, should, have]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['shki,']
+- replace: 'shaken '
+  _tags: [have, should, the, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['shkm,']
+- replace: 'shook '
+  _tags: [should, the]
+  allow_duplicate: true
+  propagate_case: true
+  triggers: ['shkpp,']
+- replace: 'wake '
+  _tags: [will, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['wak,']
+- replace: 'wakeable '
+  _tags: [adjective, can, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['wakb,']
+- replace: 'waking '
+  _tags: [will, pronoun, ing]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['waki,']
+- replace: 'woken '
+  _tags: [will, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['wakm,']
+- replace: 'woke '
+  _tags: [will, would, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['wakd,']
+- replace: 'break '
+  _tags: [else]
+  allow_duplicate: true
+  propagate_case: true
+  triggers: ['bwk,']
+- replace: 'breaking '
+  _tags: [ing, pronoun, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['bwki,']
+- triggers: ['bwkm,', 'bwkpp,']
+  replace: 'broken '
+  _tags: [else]
+  propagate_case: true
+  allow_duplicate: false
+- replace: 'broke '
+  _tags: [would, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['bwkd,']
+- replace: 'breakage '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['bwek,']
+- replace: 'breakable '
+  _tags: [else]
+  allow_duplicate: true
+  propagate_case: true
+  triggers: ['bwkb,']
+- replace: 'stake '
+  _tags: [to, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['stk,']
+- replace: 'stakeable '
+  _tags: [adjective, can, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['stkb,']
+- replace: 'staking '
+  _tags: [to, ing, pronoun]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['stki,']
+- replace: 'staked '
+  _tags: [ed, to, else, would]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['stkp,']
+- replace: 'stakes '
+  _tags: [to, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['stks,']
+- replace: 'develop '
+  _tags: [would, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['dej,']
+- replace: 'developed '
+  _tags: [ed, would, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['dejp,']
+- replace: 'developing '
+  _tags: [ing, would, else, pronoun]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['deji,']
+- replace: 'development '
+  _tags: [to, else, would]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['dejm,']
+- replace: 'developer '
+  _tags: [would, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['dejw,']
+- replace: 'view '
+  _tags: [can, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['jie,']
+- replace: 'viewing '
+  _tags: [ing, can, pronoun, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['jiei,']
+- replace: 'viewed '
+  _tags: [ed, can, else, would]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['jiep,']
+- replace: 'views '
+  _tags: [can, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['jies,']
+- replace: 'viewer '
+  _tags: [can, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['jiew,']
+- replace: 'viewing '
+  _tags: [ing, can, pronoun, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['jiem,']
+- replace: 'serve '
+  _tags: [else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['sewj,']
+- replace: 'serving '
+  _tags: [ing, pronoun, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['sewji,']
+- replace: 'served '
+  _tags: [ed, would, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['sewjp,']
+- replace: 'serves '
+  _tags: [else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['sewjs,']
+- replace: 'service '
+  _tags: [can, else, pronoun]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['sewjq,']
+- replace: 'services '
+  _tags: [can, else, pronoun]
+  allow_duplicate: true
+  propagate_case: true
+  triggers: ['sews,']
+- replace: 'server '
+  _tags: [else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['sewjw,']
+- replace: 'servers '
+  _tags: [else]
+  allow_duplicate: true
+  propagate_case: true
+  triggers: ['sewjws,']
+- replace: 'private '
+  _tags: [to, else, pronoun]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['pwij,']
+- replace: 'privacy '
+  _tags: [can, pronoun]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['pwijq,']
+- replace: 'privately '
+  _tags: [to, else, pronoun]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['pwijl,']
+- replace: 'review '
+  _tags: [will, pronoun, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['weji,']
+- replace: 'reviewing '
+  _tags: [will, ing, pronoun, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['wejii,']
+- replace: 'reviewed '
+  _tags: [pronoun, will, ed, would, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['wejip,']
+- replace: 'reviews '
+  _tags: [will, pronoun, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['wejis,']
+- replace: 'reviewer '
+  _tags: [will, pronoun, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['wejiw,']
+- replace: 'package '
+  _tags: [can, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['pkg,']
+- replace: 'packages '
+  _tags: [can, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['pkgs,']
+- replace: 'packaging '
+  _tags: [can, ing, pronoun]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['pkii,']
+- replace: 'packaged '
+  _tags: [ed, can, else, would]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['pkgp,']
+- replace: 'pick '
+  _tags: [can, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['pk,']
+- replace: 'picking '
+  _tags: [ing, can, pronoun, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['pki,']
+- replace: 'picked '
+  _tags: [ed, can, else, would]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['pkp,']
+- replace: 'picks '
+  _tags: [can, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['pks,']
+- replace: 'picker '
+  _tags: [can, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['pkw,']
+- replace: 'picking '
+  _tags: [ing, can, pronoun, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['pkm,']
+- replace: 'pick up '
+  _tags: [can, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['pku,']
+- replace: 'picked up '
+  _tags: [ed, can, else, would]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['pkup,']
+- replace: 'picking up '
+  _tags: [ing, can, pronoun, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['pkui,']
+- replace: 'picks up '
+  _tags: [can, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['pkus,']
+- replace: 'pack '
+  _tags: [can, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['pak,']
+- replace: 'packing '
+  _tags: [ing, can, pronoun, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['paki,']
+- replace: 'packed '
+  _tags: [ed, can, else, would]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['pakp,']
+- replace: 'packs '
+  _tags: [can, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['paks,']
+- replace: 'packer '
+  _tags: [can, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['pakw,']
+- replace: 'packing '
+  _tags: [ing, can, pronoun, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['pakm,']
+- replace: 'experience '
+  _tags: [can, else, pronoun]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['exp,']
+- replace: 'experienced '
+  _tags: [pronoun, can, ed, would, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['expp,']
+- replace: 'experiment '
+  _tags: [to, else, pronoun]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['expm,']
+- replace: 'experimental '
+  _tags: [to, else, pronoun]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['expml,']
+- replace: 'experimenting '
+  _tags: [ing, to, else, pronoun]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['expmi,']
+- replace: 'experimented '
+  _tags: [pronoun, to, ed, would, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['expmp,']
+- replace: 'experimentation '
+  _tags: [noun, to, else, pronoun]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['expmm,']
+- replace: 'expect '
+  _tags: [to, can, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['expe,']
+- replace: 'expected '
+  _tags: [to, can, ed, would, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['expep,']
+- replace: 'expecting '
+  _tags: [pronoun, ing, to, can, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['expei,']
+- replace: 'expectation '
+  _tags: [pronoun, to, can, noun, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['expem,']
+- replace: 'expectations '
+  _tags: [to, can, else, pronoun]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['exps,']
+- replace: 'unexpected '
+  _tags: [to, can, ed, would, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['unexpe,']
+- replace: 'unexpectedly '
+  _tags: [to, can, ed, would, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['unexpel,']
+- replace: 'have '
+  _tags: [have, the, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['ha,']
+- replace: 'having '
+  _tags: [have, the, pronoun, ing]
+  allow_duplicate: true
+  propagate_case: true
+  triggers: ['hai,']
+- replace: 'having it '
+  _tags: [have, the, pronoun, ing, pronoun]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['haix,']
+- replace: 'havings '
+  _tags: [have, the, pronoun, ing, plural]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['hais,']
+- replace: 'having '
+  _tags: [have, the, pronoun, ed, past]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['haip,']
+- replace: 'havable '
+  _tags: [have, the, pronoun, adjective]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['haib,']
+- replace: 'haven''t '
+  _tags: [the, negate, to, else, have]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['ham,']
+- replace: 'archive '
+  _tags: [the, can, else, pronoun]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['awqi,']
+- replace: 'archiving '
+  _tags: [the, can, ing, pronoun]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['awqii,']
+- replace: 'archived '
+  _tags: [pronoun, the, can, ed, would, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['awqip,']
+- replace: 'archive '
+  _tags: [the, can, else, pronoun]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['awqim,']
+- replace: 'archives '
+  _tags: [the, can, else, pronoun]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['awqis,']
+- replace: 'archiver '
+  _tags: [the, can, else, pronoun]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['awqiw,']
+- replace: 'over-archive '
+  _tags: [the, can, else, pronoun]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['oawqi,']
+- replace: 'under-archive '
+  _tags: [the, can, else, pronoun]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['uawqi,']
+- triggers: ['awqe,', 'awqew,']
+  replace: 'architect '
+  _tags: [the, can, else, pronoun]
+  propagate_case: true
+  allow_duplicate: false
+- replace: 'architecting '
+  _tags: [the, can, ing, pronoun]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['awqei,']
+- replace: 'architected '
+  _tags: [pronoun, the, can, ed, would, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['awqep,']
+- replace: 'architecture '
+  _tags: [the, can, else, pronoun]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['awqem,']
+- replace: 'architects '
+  _tags: [the, can, else, pronoun]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['awqes,']
+- replace: 'over-architect '
+  _tags: [the, can, else, pronoun]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['oawqe,']
+- replace: 'under-architect '
+  _tags: [the, can, else, pronoun]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['uawqe,']
+- replace: 'achieve '
+  _tags: [the, can, else, pronoun]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['aqhi,']
+- replace: 'achieved '
+  _tags: [pronoun, the, can, ed, would, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['aqhip,']
+- replace: 'achieving '
+  _tags: [pronoun, the, ing, can, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['aqhii,']
+- replace: 'achievement '
+  _tags: [pronoun, the, to, can, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['aqhim,']
+- replace: 'character '
+  _tags: [the, to, can, else, have]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['qha,']
+- replace: 'characters '
+  _tags: [the, to, can, else, have]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['qhak,']
+- replace: 'characteristic '
+  _tags: [pronoun, the, to, can, be, else, have]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['qhaq,']
+- replace: 'fast '
+  _tags: [to]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['fs,']
+- replace: 'faster '
+  _tags: [to, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['fse,']
+- replace: 'fastest '
+  _tags: [to, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['fst,']
+- replace: 'slow '
+  _tags: [will, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['slo,']
+- replace: 'slowing '
+  _tags: [will, pronoun, ing, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['sloi,']
+- replace: 'slowed '
+  _tags: [will, ed, else, would]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['slop,']
+- replace: 'slows '
+  _tags: [will, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['slos,']
+- replace: 'slower '
+  _tags: [will, pronoun, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['sloe,']
+- replace: 'slowest '
+  _tags: [will, to, else, pronoun]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['slot,']
+- replace: 'custom '
+  _tags: [to, can]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['qust,']
+- replace: 'customized '
+  _tags: [pronoun, to, can, ed, would, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['qustp,']
+- replace: 'customizing '
+  _tags: [to, can, ing, pronoun]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['qusti,']
+- replace: 'customization '
+  _tags: [to, noun, can, pronoun]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['qustm,']
+- replace: 'if it '
+  _tags: [to, pronoun]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['ft,']
+- replace: 'last '
+  _tags: [to, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['lt,']
+- replace: 'second '
+  _tags: [can, else, would]
+  keep_case: true
+  allow_duplicate: false
+  triggers: ['nD,']
+- replace: 'secondary '
+  _tags: [can, else, would]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['ndy,']
+- replace: 'profile '
+  _tags: [pronoun, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['pwf,']
+- replace: 'profiling '
+  _tags: [ing, pronoun, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['pwfi,']
+- replace: 'profiled '
+  _tags: [ed, would, else, pronoun]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['pwfp,']
+- replace: 'profiler '
+  _tags: [pronoun, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['pwfw,']
+- replace: 'profiles '
+  _tags: [pronoun, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['pwfs,']
+- replace: 'professional '
+  _tags: [to, else, pronoun, noun]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['pwo,']
+- replace: 'professionals '
+  _tags: [to, else, pronoun, noun]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['pwos,']
+- replace: 'professionally '
+  _tags: [to, else, pronoun]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['pwol,']
+- replace: 'professionalism '
+  _tags: [noun, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['pwom,']
+- replace: 'handle '
+  _tags: [have, the, would, else]
+  keep_case: true
+  allow_duplicate: false
+  triggers: ['hanD,']
+- replace: 'handling '
+  _tags: [pronoun, the, ing, else, would, have]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['handi,']
+- replace: 'handled '
+  _tags: [ed, the, else, would, have]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['hanpp,']
+- replace: 'handler '
+  _tags: [have, the, would, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['handw,']
+- replace: 'handles '
+  _tags: [have, the, would, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['hands,']
+- replace: 'handleable '
+  _tags: [have, the, would, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['handb,']
+- replace: 'execute '
+  _tags: [to, can, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['exe,']
+- replace: 'executing '
+  _tags: [pronoun, ing, to, can, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['exei,']
+- replace: 'executed '
+  _tags: [to, can, ed, would, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['exep,']
+- replace: 'execution '
+  _tags: [pronoun, to, can, noun, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['exem,']
+- replace: 'executor '
+  _tags: [to, can, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['exew,']
+- replace: 'executable '
+  _tags: [adjective, to, can, else]
+  allow_duplicate: true
+  propagate_case: true
+  triggers: ['exeb,']
+- replace: 'button '
+  _tags: [to]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['but,']
+- replace: 'buttons '
+  _tags: [to]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['buts,']
+- replace: 'fetch '
+  _tags: [to, the, can, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['fetq,']
+- replace: 'fetched '
+  _tags: [the, can, to, ed, would, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['fetqp,']
+- replace: 'fetching '
+  _tags: [pronoun, the, ing, to, can, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['fetqi,']
+- replace: 'fetches '
+  _tags: [to, the, can, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['fetqs,']
+- replace: 'fetcher '
+  _tags: [to, the, can, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['fetqw,']
+- replace: 'engine '
+  _tags: [to, the, can, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['engi,']
+- replace: 'engineering '
+  _tags: [to, the, can, ing, pronoun]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['engii,']
+- replace: 'engineered '
+  _tags: [to, the, can, ed, would, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['engip,']
+- replace: 'engineering '
+  _tags: [to, the, can, noun, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['engim,']
+- replace: 'engineer '
+  _tags: [to, the, can, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['engiw,']
+- replace: 'engines '
+  _tags: [to, the, can, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['engis,']
+- replace: 'engineers '
+  _tags: [to, the, can, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['engiws,']
+- replace: 'over-engine '
+  _tags: [to, the, can, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['oengi,']
+- replace: 'under-engine '
+  _tags: [to, the, can, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['uengi,']
+- replace: 'over-engineer '
+  _tags: [to, the, can, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['oengiw,']
+- replace: 'under-engineer '
+  _tags: [to, the, can, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['uengiw,']
+- replace: 'update them '
+  _tags: [to, can, else, pronoun]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['upmm,']
+- replace: 'quicker '
+  _tags: [to, can, else, pronoun]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['qkw,']
+- replace: 'candidate '
+  _tags: [to, the, can, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['qandi,']
+- replace: 'candidates '
+  _tags: [to, the, can, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['qandis,']
+- replace: 'candidacy '
+  _tags: [to, the, can, noun]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['qandim,']
+- replace: 'executor '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['exeo,']
+enable: false

@@ -1,0 +1,62 @@
+# ⚠️  WARNING: AUTO-GENERATED FILE - DO NOT EDIT DIRECTLY!
+# This file is generated from word_version by:
+#   scripts/convert_to_tokenized_word_version.py
+# Edit source in space_version and re-run conversions.
+# Tokenizes trailing spaces in triggers to an explicit token.
+# Removes right_word property for tokenized version.
+# Adds trailing space to replacements that don't have one.
+# Current token: ','
+
+name: word-families-reuse
+parent: default
+matches:
+- replace: 'reuse '
+  _tags: [to, else, pronoun]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['wus,']
+- replace: 'reuses '
+  _tags: [to, else, pronoun]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['wuss,']
+- replace: 'reusing '
+  _tags: [ing, to, else, pronoun]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['wusi,']
+- replace: 'reused '
+  _tags: [ed, would, to, else, pronoun]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['wusp,']
+- replace: 're-use '
+  _tags: [noun, else, pronoun]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['wusm,']
+- replace: 're-uses '
+  _tags: [noun, else, pronoun]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['wusms,']
+- replace: 'reuser '
+  _tags: [noun, else, pronoun]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['wusw,']
+- replace: 'reusers '
+  _tags: [noun, else, pronoun]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['wusws,']
+- replace: 'reusable '
+  _tags: [else, pronoun]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['wusb,']
+- replace: 'reusably '
+  _tags: [else, pronoun]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['wusbl,']

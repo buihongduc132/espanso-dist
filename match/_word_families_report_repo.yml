@@ -1,0 +1,167 @@
+# ⚠️  WARNING: AUTO-GENERATED FILE - DO NOT EDIT DIRECTLY!
+# This file is generated from word_version by:
+#   scripts/convert_to_tokenized_word_version.py
+# Edit source in space_version and re-run conversions.
+# Tokenizes trailing spaces in triggers to an explicit token.
+# Removes right_word property for tokenized version.
+# Adds trailing space to replacements that don't have one.
+# Current token: ','
+
+name: word-families-report-repo
+parent: default
+matches:
+- replace: 'report '
+  _tags: [noun, verb, to, can, else]
+  allow_duplicate: true
+  propagate_case: true
+  triggers: ['wepw,']
+- replace: 'reports '
+  _tags: [noun, verb, to, can, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['wepws,']
+- replace: 'reporting '
+  _tags: [ing, verb, to, can, else, pronoun]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['wepwi,']
+- replace: 'reported '
+  _tags: [ed, verb, would, to, can, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['wepwp,']
+- replace: 'reporter '
+  _tags: [noun, to, can, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['wepww,']
+- replace: 'reporters '
+  _tags: [noun, to, can, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['wepwws,']
+- replace: 'reportable '
+  _tags: [adjective, to, can, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['wepwj,']
+- replace: 'repository '
+  _tags: [noun, to, can, else]
+  allow_duplicate: true
+  propagate_case: true
+  triggers: ['wepo,']
+- replace: 'repositories '
+  _tags: [noun, to, can, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['wepos,']
+- replace: 'repo '
+  _tags: [noun, to, can, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['wepor,']
+- replace: 'repos '
+  _tags: [noun, to, can, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['wepors,']
+- replace: 'report this '
+  _tags: [demonstrative, verb, to, can, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['wepwiz,']
+- replace: 'report that '
+  _tags: [demonstrative, verb, to, can, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['wepwaz,']
+- replace: 'report these '
+  _tags: [demonstrative, verb, to, can, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['wepwez,']
+- replace: 'report those '
+  _tags: [demonstrative, verb, to, can, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['wepwoz,']
+- replace: 'report the '
+  _tags: [article, verb, to, can, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['wepwh,']
+- replace: 'report all '
+  _tags: [quantifier, verb, to, can, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['wepwa,']
+- replace: 'report all of '
+  _tags: [quantifier, verb, to, can, else, preposition]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['wepwao,']
+- replace: 'report some '
+  _tags: [quantifier, verb, to, can, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['wepwsm,']
+- replace: 'report some of '
+  _tags: [quantifier, verb, to, can, else, preposition]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['wepwsmo,']
+- replace: 'report each '
+  _tags: [quantifier, verb, to, can, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['wepweh,']
+- replace: 'repository this '
+  _tags: [demonstrative, noun, to, can, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['wepoiz,']
+- replace: 'repository that '
+  _tags: [demonstrative, noun, to, can, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['wepoaz,']
+- replace: 'repository these '
+  _tags: [demonstrative, noun, to, can, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['wepoez,']
+- replace: 'repository those '
+  _tags: [demonstrative, noun, to, can, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['wepooz,']
+- replace: 'repository the '
+  _tags: [article, noun, to, can, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['wepoh,']
+- replace: 'repository all '
+  _tags: [quantifier, noun, to, can, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['wepoa,']
+- replace: 'repository all of '
+  _tags: [quantifier, noun, to, can, else, preposition]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['wepoao,']
+- replace: 'repository some '
+  _tags: [quantifier, noun, to, can, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['weposm,']
+- replace: 'repository some of '
+  _tags: [quantifier, noun, to, can, else, preposition]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['weposmo,']
+- replace: 'repository each '
+  _tags: [quantifier, noun, to, can, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['wepoeh,']

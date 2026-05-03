@@ -1,0 +1,78 @@
+# ⚠️  WARNING: AUTO-GENERATED FILE - DO NOT EDIT DIRECTLY!
+# This file is generated from word_version by:
+#   scripts/convert_to_tokenized_word_version.py
+# Edit source in space_version and re-run conversions.
+# Tokenizes trailing spaces in triggers to an explicit token.
+# Removes right_word property for tokenized version.
+# Adds trailing space to replacements that don't have one.
+# Current token: ','
+
+name: word-families-model
+parent: default
+matches:
+- replace: 'model '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['mo,']
+- replace: 'models '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['mos,']
+- replace: 'modeling '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['moi,']
+- replace: 'modeled '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['mop,']
+- replace: 'agent '
+  _tags: [noun, person]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['age,']
+- replace: 'agents '
+  _tags: [noun, person]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['ages,']
+- replace: 'agentic '
+  _tags: [adjective]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['agei,']
+- replace: 'agented '
+  _tags: [ed, verb]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['agep,']
+- replace: 'agency '
+  _tags: [noun]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['agem,']
+- replace: 'agencies '
+  _tags: [noun]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['agems,']
+- replace: 'agentizer '
+  _tags: [noun, person]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['agew,']
+- replace: 'agentizers '
+  _tags: [noun, person]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['agews,']
+- replace: 'sub agents '
+  _tags: [noun, person]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['sai,']
+- replace: 'sub AI AGENTS '
+  _tags: [noun, person]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['saia,']

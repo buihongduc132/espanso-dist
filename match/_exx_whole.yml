@@ -1,0 +1,175 @@
+# ⚠️  WARNING: AUTO-GENERATED FILE - DO NOT EDIT DIRECTLY!
+# This file is generated from word_version by:
+#   scripts/convert_to_tokenized_word_version.py
+# Edit source in space_version and re-run conversions.
+# Tokenizes trailing spaces in triggers to an explicit token.
+# Removes right_word property for tokenized version.
+# Adds trailing space to replacements that don't have one.
+# Current token: ','
+
+matches:
+- replace: 'security '
+  _tags: [to, can, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['seq,']
+- replace: 'securities '
+  _tags: [to, can, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['seqs,']
+- replace: 'securing '
+  _tags: [to, can, ing, pronoun]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['seqi,']
+- replace: 'secured '
+  _tags: [to, can, ed, would, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['seqp,']
+- replace: 'secure '
+  _tags: [to, can, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['seqw,']
+- replace: 'secures '
+  _tags: [to, can, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['seqws,']
+- replace: 'securing '
+  _tags: [to, can, ing, pronoun]
+  allow_duplicate: true
+  propagate_case: true
+  triggers: ['seqwi,']
+- replace: 'secured '
+  _tags: [to, can, ed, would, else]
+  allow_duplicate: true
+  propagate_case: true
+  triggers: ['seqwp,']
+- replace: 'securely '
+  _tags: [to, can, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['seqwl,']
+- replace: 'securement '
+  _tags: [to, can, noun, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['seqwm,']
+- replace: 'encrypt '
+  _tags: [to, can, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['enqy,']
+- replace: 'encrypting '
+  _tags: [to, can, ing, pronoun]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['enqyi,']
+- replace: 'encrypted '
+  _tags: [to, can, ed, would, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['enqyp,']
+- replace: 'encrypts '
+  _tags: [to, can, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['enqys,']
+- replace: 'encryption '
+  _tags: [to, can, noun, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['enqym,']
+- replace: 'decrypt '
+  _tags: [to, can, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['denqy,']
+- replace: 'decrypting '
+  _tags: [to, can, ing, pronoun]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['denqyi,']
+- replace: 'decrypted '
+  _tags: [to, can, ed, would, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['denqyp,']
+- replace: 'decrypts '
+  _tags: [to, can, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['denqys,']
+- replace: 'decryption '
+  _tags: [to, can, noun, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['denqym,']
+- replace: 'wholes '
+  _tags: [the, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['les,']
+- replace: 'whole this '
+  _tags: [demonstrative, the, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['leiz,']
+- replace: 'whole that '
+  _tags: [demonstrative, the, else, have]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['leaz,']
+- replace: 'whole these '
+  _tags: [demonstrative, the, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['leez,']
+- replace: 'whole those '
+  _tags: [demonstrative, the, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['leoz,']
+- replace: 'whole the '
+  _tags: [the, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['leh,']
+- replace: 'whole some '
+  _tags: [the, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['lesm,']
+- replace: 'whole each '
+  _tags: [the, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['leeh,']
+- replace: 'no need '
+  _tags: [phrase, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['ned,']
+- replace: 'no need '
+  _tags: [phrase, else]
+  allow_duplicate: true
+  propagate_case: true
+  triggers: ['nnd,']
+- replace: 'need to '
+  _tags: [phrase, to, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['ed2,']
+- replace: 'needs to '
+  _tags: [phrase, to, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['ed2j,']
+- replace: 'needed to '
+  _tags: [phrase, to, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['ed2p,']

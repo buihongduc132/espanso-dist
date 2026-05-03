@@ -1,0 +1,107 @@
+# ⚠️  WARNING: AUTO-GENERATED FILE - DO NOT EDIT DIRECTLY!
+# This file is generated from word_version by:
+#   scripts/convert_to_tokenized_word_version.py
+# Edit source in space_version and re-run conversions.
+# Tokenizes trailing spaces in triggers to an explicit token.
+# Removes right_word property for tokenized version.
+# Adds trailing space to replacements that don't have one.
+# Current token: ','
+
+name: exx_declare
+parent: default
+matches:
+- replace: 'declare '
+  _tags: [to, can, else, verb]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['fdqle,']
+- replace: 'declares '
+  _tags: [to, can, else, verb]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['fdqles,']
+- replace: 'declaring '
+  _tags: [ing, to, can, else, verb]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['fdqlei,']
+- replace: 'declared '
+  _tags: [ed, would, to, can, else, verb]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['fdqlep,']
+- replace: 'declare this '
+  _tags: [demonstrative, to, can, else, verb]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['fdqleiz,']
+- replace: 'declare that '
+  _tags: [demonstrative, to, can, else, verb]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['fdqleaz,']
+- replace: 'declare these '
+  _tags: [demonstrative, to, can, else, verb]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['fdqleez,']
+- replace: 'declare those '
+  _tags: [demonstrative, to, can, else, verb]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['fdqleoz,']
+- replace: 'be declare '
+  _tags: [to, can, be, verb]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['bdqle,']
+- replace: 'is declare '
+  _tags: [to, can, be, verb]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['bdqles,']
+- replace: 'was declare '
+  _tags: [to, can, be, verb]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['bdqlep,']
+- replace: 'not declare '
+  _tags: [negate, to, can, verb]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['ndqle,']
+- replace: 'is not declare '
+  _tags: [negate, to, can, be, verb]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['ndqles,']
+- replace: 'have declare '
+  _tags: [to, can, have, verb]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['hdqle,']
+- replace: 'has declare '
+  _tags: [to, can, have, verb]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['hdqles,']
+- replace: 'what declare '
+  _tags: [question, to, can, verb]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['wtdqle,']
+- replace: 'where declare '
+  _tags: [question, to, can, verb]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['wrdqle,']
+- replace: 'when declare '
+  _tags: [question, to, can, verb]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['wndqle,']
+- replace: 'why declare '
+  _tags: [question, to, can, verb]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['wydqle,']

@@ -1,0 +1,118 @@
+# ⚠️  WARNING: AUTO-GENERATED FILE - DO NOT EDIT DIRECTLY!
+# This file is generated from word_version by:
+#   scripts/convert_to_tokenized_word_version.py
+# Edit source in space_version and re-run conversions.
+# Tokenizes trailing spaces in triggers to an explicit token.
+# Removes right_word property for tokenized version.
+# Adds trailing space to replacements that don't have one.
+# Current token: ','
+
+matches:
+- replace: 'stop '
+  _tags: [to, can, else]
+  propagate_case: true
+  triggers: ['soo,']
+- replace: 'stop this '
+  _tags: [demonstrative, to, can, else]
+  propagate_case: true
+  triggers: ['sooiz,']
+- replace: 'stop that '
+  _tags: [demonstrative, to, can, else]
+  propagate_case: true
+  triggers: ['sooaz,']
+- replace: 'stop these '
+  _tags: [demonstrative, to, can, else]
+  propagate_case: true
+  triggers: ['sooez,']
+- replace: 'stop those '
+  _tags: [demonstrative, to, can, else]
+  propagate_case: true
+  triggers: ['soooz,']
+- replace: 'stop the '
+  _tags: [article, to, can, else]
+  propagate_case: true
+  triggers: ['sooh,']
+- replace: 'stop all '
+  _tags: [quantifier, to, can, else]
+  propagate_case: true
+  triggers: ['sooa,']
+- replace: 'stop all of '
+  _tags: [quantifier, to, can, else, preposition]
+  propagate_case: true
+  triggers: ['sooao,']
+- replace: 'stop some '
+  _tags: [quantifier, to, can, else]
+  propagate_case: true
+  triggers: ['soosm,']
+- replace: 'stop some of '
+  _tags: [quantifier, to, can, else, preposition]
+  propagate_case: true
+  triggers: ['soosmo,']
+- replace: 'stop each '
+  _tags: [quantifier, to, can, else]
+  propagate_case: true
+  triggers: ['sooeh,']
+- replace: 'stop '
+  _tags: [to, can, else]
+  propagate_case: true
+  triggers: ['sto,']
+- replace: 'stops '
+  _tags: [to, can, else]
+  propagate_case: true
+  triggers: ['stos,']
+- replace: 'stopping '
+  _tags: [ing, to, can, else]
+  propagate_case: true
+  triggers: ['stoi,']
+- replace: 'stopped '
+  _tags: [ed, would, to, can, else]
+  propagate_case: true
+  triggers: ['stop,']
+- replace: 'stop this '
+  _tags: [demonstrative, to, can, else]
+  propagate_case: true
+  triggers: ['stoiz,']
+- replace: 'stop that '
+  _tags: [demonstrative, to, can, else, have]
+  propagate_case: true
+  triggers: ['stoaz,']
+- replace: 'stop these '
+  _tags: [demonstrative, to, can, else]
+  propagate_case: true
+  triggers: ['stoez,']
+- replace: 'stop those '
+  _tags: [demonstrative, to, can, else]
+  propagate_case: true
+  triggers: ['stooz,']
+- replace: 'stopping this '
+  _tags: [demonstrative, ing, to, can, else]
+  propagate_case: true
+  triggers: ['stoiiz,']
+- replace: 'stopping that '
+  _tags: [demonstrative, ing, to, can, else, have]
+  propagate_case: true
+  triggers: ['stoiaz,']
+- replace: 'stopping these '
+  _tags: [demonstrative, ing, to, can, else]
+  propagate_case: true
+  triggers: ['stoiez,']
+- replace: 'stopping those '
+  _tags: [demonstrative, ing, to, can, else]
+  propagate_case: true
+  triggers: ['stoioz,']
+- replace: 'stop the '
+  _tags: [the, to, can, else]
+  propagate_case: true
+  triggers: ['stoh,']
+- replace: 'stopping the '
+  _tags: [the, ing, to, can, else]
+  propagate_case: true
+  triggers: ['stoih,']
+- replace: 'stop all '
+  _tags: [the, to, can, else]
+  propagate_case: true
+  triggers: ['stoa,']
+- replace: 'stop all of '
+  _tags: [the, to, can, else, preposition]
+  propagate_case: true
+  triggers: ['stoao,']

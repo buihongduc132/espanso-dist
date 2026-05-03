@@ -1,0 +1,27 @@
+# ⚠️  WARNING: AUTO-GENERATED FILE - DO NOT EDIT DIRECTLY!
+# This file is generated from word_version by:
+#   scripts/convert_to_tokenized_word_version.py
+# Edit source in space_version and re-run conversions.
+# Tokenizes trailing spaces in triggers to an explicit token.
+# Removes right_word property for tokenized version.
+# Adds trailing space to replacements that don't have one.
+# Current token: ','
+
+name: images
+parent: default
+matches:
+- replace: '{{output}} '
+  regex: :img2:kit
+  vars:
+  - name: output
+    type: shell
+    params: {cmd: xclip -selection clipboard -t image/png -i '/home/bhd/Documents/cc_assets/kit.png' && echo 'DONE'}
+  propagate_case: true
+  allow_duplicate: false
+- replace: '{{clipb}} '
+  regex: ::iimg_(?P<category>[^:]+):(?P<name>.+)__
+  vars:
+  - {name: clipb, type: clipboard}
+  propagate_case: true
+  allow_duplicate: false
+- {regex: '::img:kit', image_path: /home/bhd/Documents/cc_assets/kit.png, propagate_case: true, allow_duplicate: false}

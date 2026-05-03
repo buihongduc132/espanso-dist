@@ -1,0 +1,334 @@
+# ⚠️  WARNING: AUTO-GENERATED FILE - DO NOT EDIT DIRECTLY!
+# This file is generated from word_version by:
+#   scripts/convert_to_tokenized_word_version.py
+# Edit source in space_version and re-run conversions.
+# Tokenizes trailing spaces in triggers to an explicit token.
+# Removes right_word property for tokenized version.
+# Adds trailing space to replacements that don't have one.
+# Current token: ','
+
+matches:
+- replace: 'for what '
+  _tags: [question, will, the, what, to, have]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['4w,']
+- replace: 'for when '
+  _tags: [question, will, when, the, time, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['4wn,']
+- replace: 'for where '
+  _tags: [question, place, will, the, where, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['4ww,']
+- replace: 'for why '
+  _tags: [question, why, will, the]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['4wy,']
+- replace: 'for which '
+  _tags: [will, can, the, pronoun]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['4wh,']
+- replace: 'for who '
+  _tags: [question, who, will]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['4wo,']
+- replace: 'for how '
+  _tags: [question, will, the, how]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['4hw,']
+- replace: 'for them '
+  _tags: [them, the, to, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['4em,']
+- replace: 'for them '
+  _tags: [them, the, to, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['4mm,']
+- replace: 'for they '
+  _tags: [the, to, else, pronoun]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['4ey,']
+- replace: 'for me '
+  _tags: [pronoun, to, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['4m,']
+- replace: 'for their '
+  _tags: [pronoun, possessive, the, to, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['4eiw,']
+- replace: 'for not what '
+  _tags: [question, will, the, what, to, negate, have]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['4nw,']
+- replace: 'for not when '
+  _tags: [question, will, when, the, time, to, negate, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['4nwn,']
+- replace: 'for not where '
+  _tags: [question, place, will, the, where, to, negate, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['4nww,']
+- replace: 'for not why '
+  _tags: [question, why, will, the, to, negate]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['4nwy,']
+- replace: 'for not which '
+  _tags: [pronoun, will, the, to, can, negate]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['4nwh,']
+- replace: 'for not who '
+  _tags: [question, will, the, negate, to, who]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['4nwo,']
+- replace: 'for not how '
+  _tags: [question, will, the, how, to, negate]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['4nhw,']
+- replace: 'for not this '
+  _tags: [pronoun, the, demonstrative, to, negate, be]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['4niz,']
+- replace: 'for not that '
+  _tags: [the, demonstrative, negate, to, have]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['4naz,']
+- replace: 'for not these '
+  _tags: [the, demonstrative, negate, to, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['4nez,']
+- replace: 'for not those '
+  _tags: [the, demonstrative, negate, to, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['4noz,']
+- replace: 'for not the '
+  _tags: [negate, the, to, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['4nh,']
+- replace: 'for not them '
+  _tags: [the, negate, to, them, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['4nem,']
+- replace: 'for not they '
+  _tags: [pronoun, the, to, negate, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['4ney,']
+- replace: 'for not their '
+  _tags: [pronoun, possessive, the, to, negate, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['4neiw,']
+- replace: 'for me '
+  _tags: [else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['4me,']
+- replace: 'for us '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['4us,']
+- replace: 'for it '
+  _tags: [to, pronoun]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['4it,']
+- replace: 'for it '
+  _tags: [to, pronoun]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['4t,']
+- replace: 'for AI '
+  _tags: [pronoun]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['4ai,']
+- replace: 'for API '
+  _tags: [pronoun]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['4api,']
+- replace: 'for database '
+  _tags: [to, else, would]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['4db,']
+- replace: 'for server '
+  _tags: [else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['4swj,']
+- replace: 'for client '
+  _tags: [to, can, else, pronoun]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['4qli,']
+- replace: 'for user '
+  _tags: [else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['4usw,']
+- replace: 'for system '
+  _tags: [ours, to, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['4sys,']
+- replace: 'for application '
+  _tags: [to, can, else, pronoun]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['4app,']
+- replace: 'for development '
+  _tags: [to, else, would]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['4dej,']
+- replace: 'for production '
+  _tags: [to, would, can, pronoun]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['4pwd,']
+- replace: 'for testing '
+  _tags: [ing, to, else, pronoun]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['4test,']
+- replace: 'for configuration '
+  _tags: [to, can, pronoun]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['4qfg,']
+- replace: 'for documentation '
+  _tags: [pronoun, to, can, would, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['4doq,']
+- replace: 'for all '
+  _tags: [the, to, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['4a,']
+- replace: 'for this '
+  _tags: [preposition, demonstrative, the]
+  allow_duplicate: true
+  propagate_case: true
+  triggers: ['4iz,']
+- replace: 'for that '
+  _tags: [preposition, demonstrative, the]
+  allow_duplicate: true
+  propagate_case: true
+  triggers: ['4az,']
+- replace: 'for these '
+  _tags: [preposition, demonstrative, the]
+  allow_duplicate: true
+  propagate_case: true
+  triggers: ['4ez,']
+- replace: 'for those '
+  _tags: [preposition, demonstrative, the]
+  allow_duplicate: true
+  propagate_case: true
+  triggers: ['4oz,']
+- replace: 'for all to '
+  _tags: [preposition, quantifier, to]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['4a2,']
+- replace: 'for some '
+  _tags: [preposition, quantifier]
+  allow_duplicate: true
+  propagate_case: true
+  triggers: ['4sm,']
+- replace: 'for some of '
+  _tags: [preposition, quantifier]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['4smo,']
+- replace: 'for each '
+  _tags: [preposition, quantifier]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['4eh,']
+- replace: 'for each of '
+  _tags: [preposition, quantifier]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['4eho,']
+- replace: 'for does '
+  _tags: [preposition, verb]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['4uu,']
+- replace: 'for can '
+  _tags: [preposition, verb]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['4q,']
+- replace: 'for would '
+  _tags: [preposition, verb]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['4wou,']
+- replace: 'for with to '
+  _tags: [preposition, compound]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['4w2,']
+- replace: 'for in to '
+  _tags: [preposition, compound]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['4i2,']
+- replace: 'for of to '
+  _tags: [preposition, compound]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['4o2,']
+- replace: 'for on to '
+  _tags: [preposition, compound]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['4n2,']
+- replace: 'for any '
+  _tags: [preposition, quantifier]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['4ay,']
+- replace: 'for other '
+  _tags: [preposition]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['4oh,']
+- replace: 'for others '
+  _tags: [preposition]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['4ots,']
+- replace: 'for them '
+  _tags: [preposition, pronoun]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['4thm,']

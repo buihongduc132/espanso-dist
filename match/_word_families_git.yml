@@ -1,0 +1,302 @@
+# ⚠️  WARNING: AUTO-GENERATED FILE - DO NOT EDIT DIRECTLY!
+# This file is generated from word_version by:
+#   scripts/convert_to_tokenized_word_version.py
+# Edit source in space_version and re-run conversions.
+# Tokenizes trailing spaces in triggers to an explicit token.
+# Removes right_word property for tokenized version.
+# Adds trailing space to replacements that don't have one.
+# Current token: ','
+
+name: word-families-git
+parent: default
+matches:
+- replace: 'branch '
+  _tags: [git, to, can, else, verb]
+  allow_duplicate: true
+  propagate_case: true
+  triggers: ['bw,']
+- replace: 'branches '
+  _tags: [git, to, can, else, verb]
+  allow_duplicate: true
+  propagate_case: true
+  triggers: ['bws,']
+- replace: 'branching '
+  _tags: [git, ing, to, can, else, verb, pronoun]
+  allow_duplicate: true
+  propagate_case: true
+  triggers: ['bwi,']
+- replace: 'branched '
+  _tags: [git, ed, would, to, can, else, verb]
+  allow_duplicate: true
+  propagate_case: true
+  triggers: ['bwp,']
+- replace: 'brancher '
+  _tags: [git, noun, to, can, else]
+  allow_duplicate: true
+  propagate_case: true
+  triggers: ['bww,']
+- replace: 'merge '
+  _tags: [git, to, can, else, verb]
+  allow_duplicate: true
+  propagate_case: true
+  triggers: ['mew,']
+- replace: 'merges '
+  _tags: [git, to, can, else, verb]
+  allow_duplicate: true
+  propagate_case: true
+  triggers: ['mews,']
+- replace: 'merging '
+  _tags: [git, ing, to, can, else, verb, pronoun]
+  allow_duplicate: true
+  propagate_case: true
+  triggers: ['mewi,']
+- replace: 'merged '
+  _tags: [git, ed, would, to, can, else, verb]
+  allow_duplicate: true
+  propagate_case: true
+  triggers: ['mewp,']
+- replace: 'merger '
+  _tags: [git, noun, to, can, else]
+  allow_duplicate: true
+  propagate_case: true
+  triggers: ['meww,']
+- replace: 'mergeable '
+  _tags: [git, adjective, to, can, else]
+  allow_duplicate: true
+  propagate_case: true
+  triggers: ['mewj,']
+- replace: 'fetch '
+  _tags: [git, to, can, else, verb]
+  allow_duplicate: true
+  propagate_case: true
+  triggers: ['fet,']
+- replace: 'fetching '
+  _tags: [git, ing, to, can, else, verb, pronoun]
+  allow_duplicate: true
+  propagate_case: true
+  triggers: ['feti,']
+- replace: 'fetched '
+  _tags: [git, ed, would, to, can, else, verb]
+  allow_duplicate: true
+  propagate_case: true
+  triggers: ['fetp,']
+- replace: 'fetcher '
+  _tags: [git, noun, to, can, else]
+  allow_duplicate: true
+  propagate_case: true
+  triggers: ['fetw,']
+- replace: 'fetches '
+  _tags: [git, to, can, else, verb]
+  allow_duplicate: true
+  propagate_case: true
+  triggers: ['fets,']
+- replace: 'fetchable '
+  _tags: [git, adjective, to, can, else]
+  allow_duplicate: true
+  propagate_case: true
+  triggers: ['fetj,']
+- replace: 'resolve and merge '
+  _tags: [git, to, can, else, verb]
+  allow_duplicate: true
+  propagate_case: true
+  triggers: ['wesonm,']
+- replace: 'commit and push all changes '
+  _tags: [git, to, can, else, verb]
+  allow_duplicate: true
+  propagate_case: true
+  triggers: ['qmipa,']
+- replace: 'submodules '
+  _tags: [git, noun, to, can, else]
+  allow_duplicate: true
+  propagate_case: true
+  triggers: ['sumu,']
+- replace: 'github actions '
+  _tags: [git, github, noun, to, can, else]
+  allow_duplicate: true
+  propagate_case: true
+  triggers: ['gha,']
+- replace: 'github workflow '
+  _tags: [git, github, noun, to, can, else]
+  allow_duplicate: true
+  propagate_case: true
+  triggers: ['ghwf,']
+- replace: 'github secrets '
+  _tags: [git, github, noun, to, can, else]
+  allow_duplicate: true
+  propagate_case: true
+  triggers: ['ghs,']
+- replace: 'github app '
+  _tags: [git, github, noun, to, can, else]
+  allow_duplicate: true
+  propagate_case: true
+  triggers: ['ghp,']
+- replace: 'repository '
+  _tags: [git, noun, to, can, else]
+  allow_duplicate: true
+  propagate_case: true
+  triggers: ['wpo,']
+- replace: 'repositories '
+  _tags: [git, noun, to, can, else]
+  allow_duplicate: true
+  propagate_case: true
+  triggers: ['wpos,']
+- replace: 'branch commit '
+  _tags: [git, to, can, else]
+  allow_duplicate: true
+  propagate_case: true
+  triggers: ['bwqmi,']
+- replace: 'branch merge '
+  _tags: [git, to, can, else]
+  allow_duplicate: true
+  propagate_case: true
+  triggers: ['bwmew,']
+- replace: 'fetch merge '
+  _tags: [git, to, can, else]
+  allow_duplicate: true
+  propagate_case: true
+  triggers: ['fetmew,']
+- replace: 'merge all '
+  _tags: [git, to, can, else, verb]
+  allow_duplicate: true
+  propagate_case: true
+  triggers: ['mewa,']
+- replace: 'resolve all '
+  _tags: [git, to, can, else, verb]
+  allow_duplicate: true
+  propagate_case: true
+  triggers: ['wesoa,']
+- replace: 'resolve conflict '
+  _tags: [git, to, can, else, verb]
+  allow_duplicate: true
+  propagate_case: true
+  triggers: ['wesocf,']
+- replace: 'resolve conflict and '
+  _tags: [git, to, can, else, verb]
+  allow_duplicate: true
+  propagate_case: true
+  triggers: ['wesocfn,']
+- replace: 'resolve conflicts '
+  _tags: [git, to, can, else, noun]
+  allow_duplicate: true
+  propagate_case: true
+  triggers: ['wesocfs,']
+- replace: 'resolve conflicts and '
+  _tags: [git, to, can, else, verb]
+  allow_duplicate: true
+  propagate_case: true
+  triggers: ['wesocfsn,']
+- replace: 'resolve merge conflict '
+  _tags: [git, to, can, else, noun]
+  allow_duplicate: true
+  propagate_case: true
+  triggers: ['wesomcf,']
+- replace: 'resolve merge conflict and '
+  _tags: [git, to, can, else, verb]
+  allow_duplicate: true
+  propagate_case: true
+  triggers: ['wesomcfn,']
+- replace: 'merge all to '
+  _tags: [git, to, can, else, verb]
+  allow_duplicate: true
+  propagate_case: true
+  triggers: ['mewa2,']
+- replace: 'merge to '
+  _tags: [git, to, can, else, verb]
+  allow_duplicate: true
+  propagate_case: true
+  triggers: ['mew2,']
+- replace: 'merge to and '
+  _tags: [git, to, can, else, verb]
+  allow_duplicate: true
+  propagate_case: true
+  triggers: ['mew2n,']
+- replace: 'merge to main branch '
+  _tags: [git, to, can, else, verb]
+  allow_duplicate: true
+  propagate_case: true
+  triggers: ['mew2m,']
+- replace: 'merge to main branch and '
+  _tags: [git, to, can, else, verb]
+  allow_duplicate: true
+  propagate_case: true
+  triggers: ['mew2mn,']
+- replace: 'main branch '
+  _tags: [git, noun, to, can, else]
+  allow_duplicate: true
+  propagate_case: true
+  triggers: ['mabw,']
+- replace: 'merge conflict '
+  _tags: [git, to, can, else, noun]
+  allow_duplicate: true
+  propagate_case: true
+  triggers: ['mewcf,']
+- replace: 'check remote commit '
+  _tags: [git, remote, commit, to, can, else]
+  allow_duplicate: true
+  propagate_case: true
+  triggers: ['hkmqmi,']
+- replace: 'check remote commit and '
+  _tags: [git, remote, commit, to, can, else]
+  allow_duplicate: true
+  propagate_case: true
+  triggers: ['hkmqmin,']
+- replace: 'check remote pr '
+  _tags: [git, remote, pull_request, to, can, else]
+  allow_duplicate: true
+  propagate_case: true
+  triggers: ['hkmpr,']
+- replace: 'check remote pr and '
+  _tags: [git, remote, pull_request, to, can, else]
+  allow_duplicate: true
+  propagate_case: true
+  triggers: ['hkmprn,']
+- replace: 'check local commit '
+  _tags: [git, local, commit, to, can, else]
+  allow_duplicate: true
+  propagate_case: true
+  triggers: ['hklqmi,']
+- replace: 'check local commit and '
+  _tags: [git, local, commit, to, can, else]
+  allow_duplicate: true
+  propagate_case: true
+  triggers: ['hklqmin,']
+- replace: 'check remote comment '
+  _tags: [git, remote, comment, to, can, else]
+  allow_duplicate: true
+  propagate_case: true
+  triggers: ['hkmqmt,']
+- replace: 'check remote comment and '
+  _tags: [git, remote, comment, to, can, else]
+  allow_duplicate: true
+  propagate_case: true
+  triggers: ['hkmqmtn,']
+- replace: 'check remote commit '
+  _tags: [git, remote, commit, to, can, else]
+  allow_duplicate: true
+  propagate_case: true
+  triggers: ['hkmqi,']
+- replace: 'check remote commit and '
+  _tags: [git, remote, commit, to, can, else]
+  allow_duplicate: true
+  propagate_case: true
+  triggers: ['hkmqin,']
+- replace: 'check local commit '
+  _tags: [git, local, commit, to, can, else]
+  allow_duplicate: true
+  propagate_case: true
+  triggers: ['hklqi,']
+- replace: 'check local commit and '
+  _tags: [git, local, commit, to, can, else]
+  allow_duplicate: true
+  propagate_case: true
+  triggers: ['hklqin,']
+- replace: 'check remote comment '
+  _tags: [git, remote, comment, to, can, else]
+  allow_duplicate: true
+  propagate_case: true
+  triggers: ['hkmqt,']
+- replace: 'check remote comment and '
+  _tags: [git, remote, comment, to, can, else]
+  allow_duplicate: true
+  propagate_case: true
+  triggers: ['hkmqtn,']

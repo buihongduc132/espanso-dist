@@ -1,0 +1,112 @@
+# ⚠️  WARNING: AUTO-GENERATED FILE - DO NOT EDIT DIRECTLY!
+# This file is generated from word_version by:
+#   scripts/convert_to_tokenized_word_version.py
+# Edit source in space_version and re-run conversions.
+# Tokenizes trailing spaces in triggers to an explicit token.
+# Removes right_word property for tokenized version.
+# Adds trailing space to replacements that don't have one.
+# Current token: ','
+
+matches:
+- replace: 'then only '
+  _tags: [adjective]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['nzonly,']
+- replace: 'then real '
+  _tags: [adjective]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['nzreal,']
+- replace: 'then correctly '
+  _tags: [adjective]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['nzcorrectly,']
+- replace: 'then gswal '
+  _tags: [adjective]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['nzgswal,']
+- replace: 'then give '
+  _tags: [adjective]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['nzgive,']
+- replace: 'then local '
+  _tags: [adjective]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['nzlocal,']
+- replace: 'then currently '
+  _tags: [adjective]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['nzcurrently,']
+- replace: 'then goal '
+  _tags: [adjective]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['nzgoal,']
+- replace: 'then manual '
+  _tags: [adjective]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['nzmanual,']
+- replace: 'then live '
+  _tags: [adjective]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['nzlive,']
+- replace: 'then family '
+  _tags: [adjective]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['nzfamily,']
+- replace: 'then really '
+  _tags: [adjective]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['nzreally,']
+- replace: 'then exactly '
+  _tags: [adjective]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['nzexactly,']
+- replace: 'then active '
+  _tags: [adjective]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['nzactive,']
+- replace: 'then wal '
+  _tags: [adjective]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['nzwal,']
+- replace: 'then fully '
+  _tags: [adjective]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['nzfully,']
+- replace: 'then explicitly '
+  _tags: [adjective]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['nzexplicitly,']
+- replace: 'then normal '
+  _tags: [adjective]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['nznormal,']
+- replace: 'then easily '
+  _tags: [adjective]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['nzeasily,']
+- replace: 'then clearly '
+  _tags: [adjective]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['nzclearly,']
+name: auto_then_adjs_nz
+parent: default

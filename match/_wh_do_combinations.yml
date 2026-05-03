@@ -1,0 +1,96 @@
+# ⚠️  WARNING: AUTO-GENERATED FILE - DO NOT EDIT DIRECTLY!
+# This file is generated from word_version by:
+#   scripts/convert_to_tokenized_word_version.py
+# Edit source in space_version and re-run conversions.
+# Tokenizes trailing spaces in triggers to an explicit token.
+# Removes right_word property for tokenized version.
+# Adds trailing space to replacements that don't have one.
+# Current token: ','
+
+name: wh-do-combinations
+parent: default
+matches:
+- replace: 'what do '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['wtu,']
+- replace: 'what do not '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['wtun,']
+- replace: 'what does '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['wtuu,']
+- replace: 'what does not '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['wtuun,']
+- replace: 'where do '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['wru,']
+- replace: 'where do not '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['wrun,']
+- replace: 'where does '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['wruu,']
+- replace: 'where does not '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['wruun,']
+- replace: 'when do '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['wnu,']
+- replace: 'when do not '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['wnun,']
+- replace: 'when does '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['wnuu,']
+- replace: 'when does not '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['wnuun,']
+- replace: 'why do '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['wyu,']
+- replace: 'why do not '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['wyun,']
+- replace: 'why does '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['wyuu,']
+- replace: 'why does not '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['wyuun,']
+- replace: 'what do you '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['wtuya,']
+- replace: 'where do you '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['wruya,']
+- replace: 'when do you '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['wnuya,']
+- replace: 'why do you '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['wyuya,']
+- replace: 'how do you '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['hwuya,']

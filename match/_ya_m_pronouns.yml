@@ -1,0 +1,27 @@
+# ⚠️  WARNING: AUTO-GENERATED FILE - DO NOT EDIT DIRECTLY!
+# This file is generated from word_version by:
+#   scripts/convert_to_tokenized_word_version.py
+# Edit source in space_version and re-run conversions.
+# Tokenizes trailing spaces in triggers to an explicit token.
+# Removes right_word property for tokenized version.
+# Adds trailing space to replacements that don't have one.
+# Current token: ','
+
+name: ya-m-pronouns
+parent: default
+matches:
+- replace: 'you '
+  _tags: [pronoun, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['ya,']
+- replace: 'me '
+  _tags: [pronoun, else]
+  allow_duplicate: false
+  triggers: ['m,']
+- replace: 'of me '
+  _tags: [pronoun, else]
+  allow_duplicate: true
+  propagate_case: true
+  triggers: ['om,']
+enable: false

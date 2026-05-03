@@ -1,0 +1,36 @@
+# ⚠️  WARNING: AUTO-GENERATED FILE - DO NOT EDIT DIRECTLY!
+# This file is generated from word_version by:
+#   scripts/convert_to_tokenized_word_version.py
+# Edit source in space_version and re-run conversions.
+# Tokenizes trailing spaces in triggers to an explicit token.
+# Removes right_word property for tokenized version.
+# Adds trailing space to replacements that don't have one.
+# Current token: ','
+
+name: word-families-similar
+parent: default
+matches:
+- replace: 'similar '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['sim,']
+- replace: 'similarly '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['siml,']
+- replace: 'similarity '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['simm,']
+- replace: 'similarities '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['simms,']
+- replace: 'not similar '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['nsim,']
+- replace: 'similar to the '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['sim2h,']

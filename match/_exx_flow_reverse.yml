@@ -1,0 +1,100 @@
+# ⚠️  WARNING: AUTO-GENERATED FILE - DO NOT EDIT DIRECTLY!
+# This file is generated from word_version by:
+#   scripts/convert_to_tokenized_word_version.py
+# Edit source in space_version and re-run conversions.
+# Tokenizes trailing spaces in triggers to an explicit token.
+# Removes right_word property for tokenized version.
+# Adds trailing space to replacements that don't have one.
+# Current token: ','
+
+matches:
+- replace: 'this flow '
+  _tags: [demonstrative, can, pronoun, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['izow,']
+- replace: 'that flow '
+  _tags: [demonstrative, can, pronoun, else, have]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['azow,']
+- replace: 'these flow '
+  _tags: [demonstrative, can, pronoun, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['ezow,']
+- replace: 'those flow '
+  _tags: [demonstrative, can, pronoun, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['ozow,']
+- replace: 'the flow '
+  _tags: [the, can, pronoun, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['how,']
+- replace: 'all flow '
+  _tags: [can, pronoun, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['aow,']
+- replace: 'some flow '
+  _tags: [can, pronoun, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['smow,']
+- replace: 'each flow '
+  _tags: [can, pronoun, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['ehow,']
+- replace: 'with flow '
+  _tags: [can, pronoun, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['wow,']
+- replace: 'of flow '
+  _tags: [can, pronoun, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['oow,']
+- replace: 'this flows '
+  _tags: [demonstrative, can, pronoun, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['izows,']
+- replace: 'that flows '
+  _tags: [demonstrative, can, pronoun, else, have]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['azows,']
+- replace: 'these flows '
+  _tags: [demonstrative, can, pronoun, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['ezows,']
+- replace: 'those flows '
+  _tags: [demonstrative, can, pronoun, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['ozows,']
+- replace: 'the flows '
+  _tags: [the, can, pronoun, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['hows,']
+- replace: 'all flows '
+  _tags: [can, pronoun, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['aows,']
+- replace: 'some flows '
+  _tags: [can, pronoun, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['smows,']
+- replace: 'each flows '
+  _tags: [can, pronoun, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['ehows,']

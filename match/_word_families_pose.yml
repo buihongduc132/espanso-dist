@@ -1,0 +1,67 @@
+# ⚠️  WARNING: AUTO-GENERATED FILE - DO NOT EDIT DIRECTLY!
+# This file is generated from word_version by:
+#   scripts/convert_to_tokenized_word_version.py
+# Edit source in space_version and re-run conversions.
+# Tokenizes trailing spaces in triggers to an explicit token.
+# Removes right_word property for tokenized version.
+# Adds trailing space to replacements that don't have one.
+# Current token: ','
+
+name: word-families-pose
+parent: default
+matches:
+- replace: 'possess '
+  _tags: [to, can, else, have]
+  allow_duplicate: true
+  propagate_case: true
+  triggers: ['pose,']
+- replace: 'possesses '
+  _tags: [to, can, else, have]
+  allow_duplicate: true
+  propagate_case: true
+  triggers: ['poses,']
+- replace: 'possessing '
+  _tags: [ing, to, can, else, have]
+  allow_duplicate: true
+  propagate_case: true
+  triggers: ['posei,']
+- replace: 'possessed '
+  _tags: [ed, would, to, can, else, have]
+  allow_duplicate: true
+  propagate_case: true
+  triggers: ['posep,']
+- replace: 'possession '
+  _tags: [noun, to, can, else, have]
+  allow_duplicate: true
+  propagate_case: true
+  triggers: ['posem,']
+- replace: 'possessions '
+  _tags: [noun, to, can, else, have]
+  allow_duplicate: true
+  propagate_case: true
+  triggers: ['posems,']
+- replace: 'possessive '
+  _tags: [adjective, to, can, else, have]
+  allow_duplicate: true
+  propagate_case: true
+  triggers: ['posej,']
+- replace: 'possessives '
+  _tags: [adjective, to, can, else, have]
+  allow_duplicate: true
+  propagate_case: true
+  triggers: ['posejs,']
+- replace: 'possessively '
+  _tags: [adjective, to, can, else, have]
+  allow_duplicate: true
+  propagate_case: true
+  triggers: ['posejl,']
+- replace: 'possessor '
+  _tags: [noun, to, can, else, have]
+  allow_duplicate: true
+  propagate_case: true
+  triggers: ['posew,']
+- replace: 'possessors '
+  _tags: [noun, to, can, else, have]
+  allow_duplicate: true
+  propagate_case: true
+  triggers: ['posews,']

@@ -1,0 +1,195 @@
+# ⚠️  WARNING: AUTO-GENERATED FILE - DO NOT EDIT DIRECTLY!
+# This file is generated from word_version by:
+#   scripts/convert_to_tokenized_word_version.py
+# Edit source in space_version and re-run conversions.
+# Tokenizes trailing spaces in triggers to an explicit token.
+# Removes right_word property for tokenized version.
+# Adds trailing space to replacements that don't have one.
+# Current token: ','
+
+matches:
+- replace: 'to  '
+  _tags: [to, preposition, directional, 222_group]
+  allow_duplicate: false
+  triggers: ['2,']
+- replace: 'from '
+  _tags: [from, preposition, directional, 222_group]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['22,']
+- replace: 'to the '
+  _tags: [to, preposition, directional, article, 222_group]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['2he,']
+- replace: 'from the '
+  _tags: [from, preposition, directional, article, 222_group]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['22he,']
+- replace: 'to the '
+  _tags: [to, preposition, directional, article, 222_group]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['2h,']
+- replace: 'from the '
+  _tags: [from, preposition, directional, article, 222_group]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['22h,']
+- replace: 'to this '
+  _tags: [to, preposition, directional, demonstrative, 222_group]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['2iz,']
+- replace: 'to that '
+  _tags: [to, preposition, directional, demonstrative, 222_group]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['2az,']
+- replace: 'to these '
+  _tags: [to, preposition, directional, demonstrative, 222_group]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['2ez,']
+- replace: 'to those '
+  _tags: [to, preposition, directional, demonstrative, 222_group]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['2oz,']
+- replace: 'from this '
+  _tags: [from, preposition, directional, demonstrative, 222_group]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['22iz,']
+- replace: 'from that '
+  _tags: [from, preposition, directional, demonstrative, 222_group]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['22az,']
+- replace: 'from these '
+  _tags: [from, preposition, directional, demonstrative, 222_group]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['22ez,']
+- replace: 'from those '
+  _tags: [from, preposition, directional, demonstrative, 222_group]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['22oz,']
+- replace: 'to all '
+  _tags: [to, preposition, directional, quantifier, 222_group]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['2a,']
+- replace: 'to some '
+  _tags: [to, preposition, directional, quantifier, 222_group]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['2sm,']
+- replace: 'to each '
+  _tags: [to, preposition, directional, quantifier, 222_group]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['2eh,']
+- replace: 'from all '
+  _tags: [from, preposition, directional, quantifier, 222_group]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['22a,']
+- replace: 'from some '
+  _tags: [from, preposition, directional, quantifier, 222_group]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['22sm,']
+- replace: 'from each '
+  _tags: [from, preposition, directional, quantifier, 222_group]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['22eh,']
+- replace: 'to one '
+  _tags: [to, preposition, directional, quantifier, 222_group]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['2o,']
+- replace: 'from one '
+  _tags: [from, preposition, directional, quantifier, 222_group]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['22o,']
+- replace: 'to other '
+  _tags: [to, preposition, directional, quantifier, 222_group]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['2ot,']
+- replace: 'to another '
+  _tags: [to, preposition, directional, quantifier, 222_group]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['2ao,']
+- replace: 'from other '
+  _tags: [from, preposition, directional, quantifier, 222_group]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['22ot,']
+- replace: 'from another '
+  _tags: [from, preposition, directional, quantifier, 222_group]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['22ao,']
+- replace: 'to whenever '
+  _tags: [to, preposition, directional, wh_ever, 222_group]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['2wnj,']
+- replace: 'to whatever '
+  _tags: [to, preposition, directional, wh_ever, 222_group]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['2wtj,']
+- replace: 'to wherever '
+  _tags: [to, preposition, directional, wh_ever, 222_group]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['2wwj,']
+- replace: 'to however '
+  _tags: [to, preposition, directional, wh_ever, 222_group]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['2hwj,']
+- replace: 'from whenever '
+  _tags: [from, preposition, directional, wh_ever, 222_group]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['22wnj,']
+- replace: 'from whatever '
+  _tags: [from, preposition, directional, wh_ever, 222_group]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['22wtj,']
+- replace: 'from wherever '
+  _tags: [from, preposition, directional, wh_ever, 222_group]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['22wwj,']
+- replace: 'from however '
+  _tags: [from, preposition, directional, wh_ever, 222_group]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['22hwj,']
+- replace: 'to me '
+  _tags: [to, preposition, directional, pronoun, 222_group]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['2m,']
+- replace: 'from me '
+  _tags: [from, preposition, directional, pronoun, 222_group]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['22m,']
+- replace: 'to be the '
+  _tags: [to, preposition, directional, article, 222_group]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['2bh,']
+enable: false

@@ -1,0 +1,68 @@
+# ⚠️  WARNING: AUTO-GENERATED FILE - DO NOT EDIT DIRECTLY!
+# This file is generated from word_version by:
+#   scripts/convert_to_tokenized_word_version.py
+# Edit source in space_version and re-run conversions.
+# Tokenizes trailing spaces in triggers to an explicit token.
+# Removes right_word property for tokenized version.
+# Adds trailing space to replacements that don't have one.
+# Current token: ','
+
+name: word-families-browse
+parent: default
+matches:
+- replace: 'browser '
+  _tags: [noun, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['bwo,']
+- replace: 'browsers '
+  _tags: [noun, plural, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['bwos,']
+- replace: 'browse '
+  _tags: [verb, to, can, else]
+  _note: 'dash-base-modifier: Base Promotion Override (bwo=browser, bwo-=browse)'
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['bwo-,']
+- replace: 'browsing '
+  _tags: [verb, ing, to, can, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['bwo-i,']
+- replace: 'browsed '
+  _tags: [verb, ed, would, to, can, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['bwo-p,']
+- replace: 'browses '
+  _tags: [verb, to, can, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['bwo-s,']
+- replace: 'browse this '
+  _tags: [demonstrative, verb, to, can, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['bwo-iz,']
+- replace: 'browse that '
+  _tags: [demonstrative, verb, to, can, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['bwo-az,']
+- replace: 'browse these '
+  _tags: [demonstrative, verb, to, can, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['bwo-ez,']
+- replace: 'browse those '
+  _tags: [demonstrative, verb, to, can, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['bwo-oz,']
+- replace: 'browse the '
+  _tags: [article, verb, to, can, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['bwo-h,']

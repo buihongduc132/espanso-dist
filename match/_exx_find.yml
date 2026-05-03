@@ -1,0 +1,125 @@
+# ⚠️  WARNING: AUTO-GENERATED FILE - DO NOT EDIT DIRECTLY!
+# This file is generated from word_version by:
+#   scripts/convert_to_tokenized_word_version.py
+# Edit source in space_version and re-run conversions.
+# Tokenizes trailing spaces in triggers to an explicit token.
+# Removes right_word property for tokenized version.
+# Adds trailing space to replacements that don't have one.
+# Current token: ','
+
+matches:
+- replace: 'find '
+  _tags: [to, can, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['fi,']
+- replace: 'finds '
+  _tags: [to, can, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['fis,']
+- replace: 'finding '
+  _tags: [ing, to, can, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['fii,']
+- replace: 'found '
+  _tags: [ed, would, to, can, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['fip,']
+- replace: 'find this '
+  _tags: [demonstrative, to, can, else, frequent-verb]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['fiiz,']
+- replace: 'find that '
+  _tags: [demonstrative, to, can, else, frequent-verb, have]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['fiaz,']
+- replace: 'find these '
+  _tags: [demonstrative, to, can, else, frequent-verb]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['fiez,']
+- replace: 'find those '
+  _tags: [demonstrative, to, can, else, frequent-verb]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['fioz,']
+- replace: 'finding this '
+  _tags: [demonstrative, ing, to, can, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['fiiiz,']
+- replace: 'finding that '
+  _tags: [demonstrative, ing, to, can, else, have]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['fiiaz,']
+- replace: 'finding these '
+  _tags: [demonstrative, ing, to, can, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['fiiez,']
+- replace: 'finding those '
+  _tags: [demonstrative, ing, to, can, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['fiioz,']
+- replace: 'find the '
+  _tags: [the, to, can, else, frequent-verb]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['fih,']
+- replace: 'finding the '
+  _tags: [the, ing, to, can, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['fiih,']
+- replace: 'find all '
+  _tags: [the, to, can, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['fia,']
+- replace: 'find all the '
+  _tags: [quantifier, article, to, can, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['fiah,']
+- replace: 'find all of '
+  _tags: [the, to, can, else, preposition]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['fiao,']
+- replace: 'find all this '
+  _tags: [demonstrative, quantifier, to, can, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['fiaiz,']
+- replace: 'find all that '
+  _tags: [demonstrative, quantifier, to, can, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['fiaaz,']
+- replace: 'find all these '
+  _tags: [demonstrative, quantifier, to, can, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['fiaez,']
+- replace: 'find all those '
+  _tags: [demonstrative, quantifier, to, can, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['fiaoz,']
+- replace: 'find some '
+  _tags: [to, can, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['fism,']
+- replace: 'find some of '
+  _tags: [the, to, can, else, preposition]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['fismo,']

@@ -1,0 +1,284 @@
+# ⚠️  WARNING: AUTO-GENERATED FILE - DO NOT EDIT DIRECTLY!
+# This file is generated from word_version by:
+#   scripts/convert_to_tokenized_word_version.py
+# Edit source in space_version and re-run conversions.
+# Tokenizes trailing spaces in triggers to an explicit token.
+# Removes right_word property for tokenized version.
+# Adds trailing space to replacements that don't have one.
+# Current token: ','
+
+matches:
+- replace: 'fix '
+  _tags: [to, can, else]
+  allow_duplicate: false
+  triggers: ['K,']
+- replace: 'fixes '
+  _tags: [to, can, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['KS,']
+- replace: 'fixing '
+  _tags: [ing, to, can, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['KI,']
+- replace: 'fixed '
+  _tags: [ed, would, to, can, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['KP,']
+- replace: 'fix this '
+  _tags: [demonstrative, to, can, else, frequent-verb]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['kiz,']
+- replace: 'fix that '
+  _tags: [demonstrative, to, can, else, have, frequent-verb]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['kaz,']
+- replace: 'fix these '
+  _tags: [demonstrative, to, can, else, frequent-verb]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['kez,']
+- replace: 'fix those '
+  _tags: [demonstrative, to, can, else, frequent-verb]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['koz,']
+- replace: 'fix the '
+  _tags: [the, to, can, else, frequent-verb]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['kh,']
+- replace: 'fix it '
+  _tags: [to, can, else, pronoun, frequent-verb]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['kx,']
+- replace: 'fix all '
+  _tags: [to, can, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['ka,']
+- replace: 'fix all the '
+  _tags: [quantifier, article, to, can, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['kah,']
+- replace: 'fix all of '
+  _tags: [to, can, else, preposition]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['kao,']
+- replace: 'fix all this '
+  _tags: [demonstrative, quantifier, to, can, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['kaiz,']
+- replace: 'fix all that '
+  _tags: [demonstrative, quantifier, to, can, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['kaaz,']
+- replace: 'fix all these '
+  _tags: [demonstrative, quantifier, to, can, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['kaez,']
+- replace: 'fix all those '
+  _tags: [demonstrative, quantifier, to, can, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['kaoz,']
+- replace: 'fix them '
+  _tags: [to, can, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['kmm,']
+- replace: 'fix them all '
+  _tags: [to, can, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['kmmal,']
+- replace: 'fix them of '
+  _tags: [to, can, else, preposition]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['kmmo,']
+- replace: 'which fix '
+  _tags: [question, to, can, else, else]
+  allow_duplicate: true
+  propagate_case: true
+  triggers: ['whk,']
+- replace: 'sees '
+  _tags: [to, can, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['CS,']
+- replace: 'seeing '
+  _tags: [ing, to, can, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['CI,']
+- replace: 'saw '
+  _tags: [ed, would, to, can, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['CP,']
+- replace: 'see the '
+  _tags: [the, to, can, else, frequent-verb]
+  allow_duplicate: true
+  duplicate_group: see-the-demonstrative
+  propagate_case: true
+  triggers: ['ch,']
+- replace: 'see this '
+  _tags: [demonstrative, to, can, else, frequent-verb]
+  allow_duplicate: true
+  duplicate_group: see-the-demonstrative
+  propagate_case: true
+  triggers: ['ciz,']
+- replace: 'see that '
+  _tags: [demonstrative, to, can, else, have, frequent-verb]
+  allow_duplicate: true
+  duplicate_group: see-the-demonstrative
+  propagate_case: true
+  triggers: ['caz,']
+- replace: 'see these '
+  _tags: [demonstrative, to, can, else, frequent-verb]
+  allow_duplicate: true
+  duplicate_group: see-the-demonstrative
+  propagate_case: true
+  triggers: ['cez,']
+- replace: 'see those '
+  _tags: [demonstrative, to, can, else, frequent-verb]
+  allow_duplicate: true
+  duplicate_group: see-the-demonstrative
+  propagate_case: true
+  triggers: ['coz,']
+- replace: 'see it '
+  _tags: [to, can, else, pronoun, frequent-verb]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['cx,']
+- replace: 'see all '
+  _tags: [to, can, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['ca,']
+- replace: 'see all of '
+  _tags: [to, can, else, preposition]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['cao,']
+- replace: 'see them '
+  _tags: [to, can, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['cmm,']
+- replace: 'see them all '
+  _tags: [to, can, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['cmmal,']
+- replace: 'see them of '
+  _tags: [to, can, else, preposition]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['cmmo,']
+- replace: 'which see '
+  _tags: [question, to, can, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['whq,']
+- replace: 'seem '
+  _tags: [to, can, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['cpp,']
+- replace: 'seems '
+  _tags: [to, can, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['cpps,']
+- replace: 'seeming '
+  _tags: [ing, to, can, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['cppi,']
+- replace: 'seemed '
+  _tags: [ed, would, to, can, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['cppp,']
+- replace: 'seemly '
+  _tags: [to, can, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['cppj,']
+- replace: 'seemingly '
+  _tags: [to, can, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['cppjl,']
+- replace: 'seem this '
+  _tags: [demonstrative, to, can, else, frequent-verb]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['cppiz,']
+- replace: 'seem that '
+  _tags: [demonstrative, to, can, else, have, frequent-verb]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['cppaz,']
+- replace: 'seem these '
+  _tags: [demonstrative, to, can, else, frequent-verb]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['cppez,']
+- replace: 'seem those '
+  _tags: [demonstrative, to, can, else, frequent-verb]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['cppoz,']
+- replace: 'seem the '
+  _tags: [the, to, can, else, frequent-verb]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['cpph,']
+- replace: 'seem it '
+  _tags: [to, can, else, pronoun, frequent-verb]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['cppx,']
+- replace: 'seem all '
+  _tags: [to, can, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['cppa,']
+- replace: 'seem all of '
+  _tags: [to, can, else, preposition]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['cppao,']
+- replace: 'seem them '
+  _tags: [to, can, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['cppmm,']
+- replace: 'seem them all '
+  _tags: [to, can, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['cppmmal,']
+- replace: 'seem them of '
+  _tags: [to, can, else, preposition]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['cppmmo,']
+- replace: 'which seem '
+  _tags: [question, to, can, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['whcpp,']

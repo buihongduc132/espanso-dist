@@ -1,0 +1,52 @@
+# ⚠️  WARNING: AUTO-GENERATED FILE - DO NOT EDIT DIRECTLY!
+# This file is generated from word_version by:
+#   scripts/convert_to_tokenized_word_version.py
+# Edit source in space_version and re-run conversions.
+# Tokenizes trailing spaces in triggers to an explicit token.
+# Removes right_word property for tokenized version.
+# Adds trailing space to replacements that don't have one.
+# Current token: ','
+
+name: word-families-conflict
+parent: default
+matches:
+- replace: 'conflict '
+  _tags: [noun, verb, to, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['qnfl,']
+- replace: 'conflicts '
+  _tags: [noun, verb, to, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['qnfls,']
+- replace: 'conflicting '
+  _tags: [ing, verb, adjective, to, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['qnfli,']
+- replace: 'conflicted '
+  _tags: [ed, verb, adjective, to, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['qnflp,']
+- replace: 'conflictive '
+  _tags: [adjective, to, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['qnflj,']
+- replace: 'conflictively '
+  _tags: [adverb, to, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['qnfljl,']
+- replace: 'conflictual '
+  _tags: [adjective, to, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['qnflb,']
+- replace: 'conflictually '
+  _tags: [adverb, to, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['qnflbl,']

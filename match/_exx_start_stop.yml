@@ -1,0 +1,212 @@
+# ⚠️  WARNING: AUTO-GENERATED FILE - DO NOT EDIT DIRECTLY!
+# This file is generated from word_version by:
+#   scripts/convert_to_tokenized_word_version.py
+# Edit source in space_version and re-run conversions.
+# Tokenizes trailing spaces in triggers to an explicit token.
+# Removes right_word property for tokenized version.
+# Adds trailing space to replacements that don't have one.
+# Current token: ','
+
+name: exx-start-stop
+parent: default
+matches:
+- replace: 'start '
+  _tags: [to, can, else]
+  allow_duplicate: true
+  propagate_case: true
+  triggers: ['ssa,']
+- replace: 'starts '
+  _tags: [to, can, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['ssas,']
+- replace: 'starting '
+  _tags: [ing, to, can, else, pronoun]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['ssai,']
+- replace: 'started '
+  _tags: [ed, would, to, can, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['ssap,']
+- replace: 'start this '
+  _tags: [demonstrative, to, can, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['ssaiz,']
+- replace: 'start that '
+  _tags: [demonstrative, to, can, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['ssaaz,']
+- replace: 'start these '
+  _tags: [demonstrative, to, can, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['ssaez,']
+- replace: 'start those '
+  _tags: [demonstrative, to, can, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['ssaoz,']
+- replace: 'start the '
+  _tags: [article, to, can, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['ssah,']
+- replace: 'start all '
+  _tags: [quantifier, to, can, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['ssaa,']
+- replace: 'start all the '
+  _tags: [quantifier, article, to, can, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['ssaah,']
+- replace: 'start all of '
+  _tags: [quantifier, to, can, else, preposition]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['ssaao,']
+- replace: 'start some '
+  _tags: [quantifier, to, can, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['ssasm,']
+- replace: 'start some of '
+  _tags: [quantifier, to, can, else, preposition]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['ssasmo,']
+- replace: 'start each '
+  _tags: [quantifier, to, can, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['ssaeh,']
+- replace: 'starting this '
+  _tags: [demonstrative, ing, to, can, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['ssaiiz,']
+- replace: 'starting that '
+  _tags: [demonstrative, ing, to, can, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['ssaiaz,']
+- replace: 'starting these '
+  _tags: [demonstrative, ing, to, can, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['ssaiez,']
+- replace: 'starting those '
+  _tags: [demonstrative, ing, to, can, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['ssaioz,']
+- replace: 'starting the '
+  _tags: [article, ing, to, can, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['ssaih,']
+- replace: 'stop '
+  _tags: [to, can, else]
+  allow_duplicate: true
+  propagate_case: true
+  triggers: ['ssp,']
+- replace: 'stops '
+  _tags: [to, can, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['ssps,']
+- replace: 'stopping '
+  _tags: [ing, to, can, else, pronoun]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['sspi,']
+- replace: 'stopped '
+  _tags: [ed, would, to, can, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['sspp,']
+- replace: 'stop this '
+  _tags: [demonstrative, to, can, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['sspiz,']
+- replace: 'stop that '
+  _tags: [demonstrative, to, can, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['sspaz,']
+- replace: 'stop these '
+  _tags: [demonstrative, to, can, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['sspez,']
+- replace: 'stop those '
+  _tags: [demonstrative, to, can, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['sspoz,']
+- replace: 'stop the '
+  _tags: [article, to, can, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['ssph,']
+- replace: 'stop all '
+  _tags: [quantifier, to, can, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['sspa,']
+- replace: 'stop all the '
+  _tags: [quantifier, article, to, can, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['sspah,']
+- replace: 'stop all of '
+  _tags: [quantifier, to, can, else, preposition]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['sspao,']
+- replace: 'stop some '
+  _tags: [quantifier, to, can, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['sspsm,']
+- replace: 'stop some of '
+  _tags: [quantifier, to, can, else, preposition]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['sspsmo,']
+- replace: 'stop each '
+  _tags: [quantifier, to, can, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['sspeh,']
+- replace: 'stopping this '
+  _tags: [demonstrative, ing, to, can, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['sspiiz,']
+- replace: 'stopping that '
+  _tags: [demonstrative, ing, to, can, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['sspiaz,']
+- replace: 'stopping these '
+  _tags: [demonstrative, ing, to, can, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['sspiez,']
+- replace: 'stopping those '
+  _tags: [demonstrative, ing, to, can, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['sspioz,']
+- replace: 'stopping the '
+  _tags: [article, ing, to, can, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['sspih,']

@@ -1,0 +1,114 @@
+# ⚠️  WARNING: AUTO-GENERATED FILE - DO NOT EDIT DIRECTLY!
+# This file is generated from word_version by:
+#   scripts/convert_to_tokenized_word_version.py
+# Edit source in space_version and re-run conversions.
+# Tokenizes trailing spaces in triggers to an explicit token.
+# Removes right_word property for tokenized version.
+# Adds trailing space to replacements that don't have one.
+# Current token: ','
+
+name: word-families-patterns
+parent: default
+matches:
+- replace: 'pattern '
+  _tags: [to, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['patt,']
+- replace: 'patterns '
+  _tags: [to, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['patts,']
+- replace: 'episode '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['epi,']
+- replace: 'episodes '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['epis,']
+- replace: 'episoding '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['epii,']
+- replace: 'episoded '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['epip,']
+- replace: 'episodic '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['epij,']
+- replace: 'episodically '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['epijl,']
+- replace: 'episodeness '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['epin,']
+- replace: 'what episode '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['whtepi,']
+- replace: 'where episode '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['whrepi,']
+- replace: 'when episode '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['whnepi,']
+- replace: 'which episode '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['whlepi,']
+- replace: 'how episode '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['howepi,']
+- replace: 'episode to the '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['epi2h,']
+- replace: 'episode from the '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['epi-2h,']
+- replace: 'episode from '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['epi-2,']
+- replace: 'episode '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['epim,']
+- replace: 'this episode '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['izepi,']
+- replace: 'that episode '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['azepi,']
+- replace: 'these episodes '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['ezepis,']
+- replace: 'those episodes '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['ozepis,']
+- replace: 'episode number '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['epn,']
+- replace: 'these episode '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['ezepi,']
+- replace: 'those episode '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['ozepi,']

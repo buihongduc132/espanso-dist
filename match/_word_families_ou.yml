@@ -1,0 +1,57 @@
+# ⚠️  WARNING: AUTO-GENERATED FILE - DO NOT EDIT DIRECTLY!
+# This file is generated from word_version by:
+#   scripts/convert_to_tokenized_word_version.py
+# Edit source in space_version and re-run conversions.
+# Tokenizes trailing spaces in triggers to an explicit token.
+# Removes right_word property for tokenized version.
+# Adds trailing space to replacements that don't have one.
+# Current token: ','
+
+name: word-families-ou
+parent: default
+matches:
+- replace: 'touch '
+  _tags: [to, can, the]
+  allow_duplicate: true
+  propagate_case: true
+  triggers: ['tou,']
+- replace: 'touching '
+  _tags: [pronoun, the, ing, to, can]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['toui,']
+- replace: 'touched '
+  _tags: [the, can, to, ed, would, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['toup,']
+- replace: 'touches '
+  _tags: [to, the, can, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['tous,']
+- triggers: ['thwg,', 'thwo,', 'thwu,']
+  replace: 'through '
+  _tags: [to, the]
+  propagate_case: true
+  allow_duplicate: false
+- replace: 'thoroughly '
+  _tags: [else, to]
+  allow_duplicate: false
+  propagate_case: true
+  triggers: ['thwul,']
+- replace: 'throughout '
+  _tags: [else, to]
+  allow_duplicate: false
+  propagate_case: true
+  triggers: ['thwut,']
+- replace: 'enough '
+  _tags: [the, negate, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['enu,']
+- replace: 'tough '
+  _tags: [to, the]
+  allow_duplicate: true
+  propagate_case: true
+  triggers: ['touf,']

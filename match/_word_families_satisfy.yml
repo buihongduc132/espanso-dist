@@ -1,0 +1,116 @@
+# ⚠️  WARNING: AUTO-GENERATED FILE - DO NOT EDIT DIRECTLY!
+# This file is generated from word_version by:
+#   scripts/convert_to_tokenized_word_version.py
+# Edit source in space_version and re-run conversions.
+# Tokenizes trailing spaces in triggers to an explicit token.
+# Removes right_word property for tokenized version.
+# Adds trailing space to replacements that don't have one.
+# Current token: ','
+
+name: word-families-satisfy
+parent: default
+matches:
+- replace: 'satisfy '
+  _tags: [to, can, else, verb, pronoun]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['sati,']
+- replace: 'satisfies '
+  _tags: [to, can, else, verb]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['satis,']
+- replace: 'satisfying '
+  _tags: [ing, to, can, else, verb, pronoun]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['satii,']
+- replace: 'satisfied '
+  _tags: [ed, would, to, can, else, verb]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['satip,']
+- replace: 'satisfaction '
+  _tags: [noun, to, can, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['satim,']
+- replace: 'satisfier '
+  _tags: [noun, to, can, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['satiw,']
+- replace: 'satisfiers '
+  _tags: [noun, to, can, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['satiws,']
+- replace: 'satisfiable '
+  _tags: [adjective, to, can, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['satij,']
+- replace: 'satisfiably '
+  _tags: [adverb, to, can, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['satijl,']
+- replace: 'satisfy this '
+  _tags: [demonstrative, th_foundation, to, can, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['izsati,']
+- replace: 'satisfy that '
+  _tags: [demonstrative, th_foundation, to, can, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['azsati,']
+- replace: 'satisfy these '
+  _tags: [demonstrative, th_foundation, to, can, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['ezsati,']
+- replace: 'satisfy those '
+  _tags: [demonstrative, th_foundation, to, can, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['ozsati,']
+- replace: 'satisfy it '
+  _tags: [pronoun, to, can, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['satiit,']
+- replace: 'satisfy have '
+  _tags: [to, can, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['satihv,']
+- replace: 'satisfy has '
+  _tags: [to, can, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['satihass,']
+- replace: 'satisfy requirement '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['satireq,']
+- replace: 'satisfy requirements '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['satireqs,']
+- replace: 'satisfy 90% '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['sati90,']
+- replace: 'satisfy full '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['satifull,']
+- replace: 'satisfy test '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['satitest,']
+- replace: 'satisfy the full spec '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['satifullspec,']

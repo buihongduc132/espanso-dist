@@ -1,0 +1,142 @@
+# ⚠️  WARNING: AUTO-GENERATED FILE - DO NOT EDIT DIRECTLY!
+# This file is generated from word_version by:
+#   scripts/convert_to_tokenized_word_version.py
+# Edit source in space_version and re-run conversions.
+# Tokenizes trailing spaces in triggers to an explicit token.
+# Removes right_word property for tokenized version.
+# Adds trailing space to replacements that don't have one.
+# Current token: ','
+
+name: word-families-account-access
+parent: default
+matches:
+- replace: 'account '
+  _tags: [noun, to, can, else]
+  allow_duplicate: true
+  propagate_case: true
+  triggers: ['aqo,']
+- replace: 'account '
+  _tags: [noun, to, can, else]
+  allow_duplicate: true
+  keep_case: true
+  triggers: ['aqO,']
+- replace: 'accounts '
+  _tags: [noun, to, can, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['aqos,']
+- replace: 'accounting '
+  _tags: [noun, ing, to, can, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['aqoi,']
+- replace: 'accounted '
+  _tags: [noun, ed, to, can, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['aqop,']
+- replace: 'accountable '
+  _tags: [adjective, to, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['aqob,']
+- replace: 'accountably '
+  _tags: [adverb, to, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['aqobl,']
+- replace: 'accountability '
+  _tags: [noun, to, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['aqobm,']
+- replace: 'account for '
+  _tags: [phrase, to, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['aqo4,']
+- replace: 'account for the '
+  _tags: [phrase, the, to, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['aqo4h,']
+- replace: 'account for this '
+  _tags: [phrase, demonstrative, to, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['aqo4iz,']
+- replace: 'account for that '
+  _tags: [phrase, demonstrative, to, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['aqo4az,']
+- replace: 'account for these '
+  _tags: [phrase, demonstrative, to, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['aqo4ez,']
+- replace: 'account for those '
+  _tags: [phrase, demonstrative, to, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['aqo4oz,']
+- replace: 'account to '
+  _tags: [phrase, to, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['aqo2,']
+- replace: 'account to the '
+  _tags: [phrase, the, to, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['aqo2h,']
+- replace: 'accept '
+  _tags: [to, can, else]
+  allow_duplicate: true
+  propagate_case: true
+  triggers: ['aqe,']
+- replace: 'accept '
+  _tags: [to, can, else]
+  allow_duplicate: true
+  keep_case: true
+  triggers: ['aqE,']
+- replace: 'password '
+  _tags: [account, credential, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['pw,']
+- replace: 'passwords '
+  _tags: [account, credential, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['pws,']
+- replace: 'accessibility '
+  _tags: [noun, to, can, else, pronoun]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['aqeby,']
+- replace: 'accessibility tree '
+  _tags: [noun, to, can, else, pronoun]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['aqeby3,']
+- replace: 'accessibility mode '
+  _tags: [noun, to, can, else, pronoun]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['aqebym,']
+- replace: 'accessible '
+  _tags: [adjective, to, can, else, pronoun]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['aqeb,']
+- replace: 'username '
+  _tags: [account, credential, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['usn,']
+- replace: 'usernames '
+  _tags: [account, credential, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['usns,']

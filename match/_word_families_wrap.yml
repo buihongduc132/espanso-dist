@@ -1,0 +1,287 @@
+# ⚠️  WARNING: AUTO-GENERATED FILE - DO NOT EDIT DIRECTLY!
+# This file is generated from word_version by:
+#   scripts/convert_to_tokenized_word_version.py
+# Edit source in space_version and re-run conversions.
+# Tokenizes trailing spaces in triggers to an explicit token.
+# Removes right_word property for tokenized version.
+# Adds trailing space to replacements that don't have one.
+# Current token: ','
+
+name: word-families-wrap
+parent: default
+matches:
+- replace: 'wrap '
+  _tags: [verb, noun, to, can, else]
+  allow_duplicate: true
+  propagate_case: true
+  triggers: ['wap,']
+- replace: 'wraps '
+  _tags: [verb, noun, to, can, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['waps,']
+- replace: 'wrapping '
+  _tags: [ing, verb, to, can, else, pronoun]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['wapi,']
+- replace: 'wrapped '
+  _tags: [ed, verb, would, to, can, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['wapp,']
+- replace: 'wrapper '
+  _tags: [noun, to, can, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['wapw,']
+- replace: 'wrappers '
+  _tags: [noun, to, can, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['wapws,']
+- replace: 'wrappable '
+  _tags: [adjective, to, can, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['wapj,']
+- replace: 'unwrap '
+  _tags: [verb, to, can, else, negated]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['unwap,']
+- replace: 'unwraps '
+  _tags: [verb, to, can, else, negated]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['unwaps,']
+- replace: 'unwrapping '
+  _tags: [ing, verb, to, can, else, negated]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['unwapi,']
+- replace: 'unwrapped '
+  _tags: [ed, verb, would, to, can, else, negated]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['unwapp,']
+- replace: 'rewrap '
+  _tags: [verb, to, can, else, prefix]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['wwap,']
+- replace: 'rewraps '
+  _tags: [verb, to, can, else, prefix]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['wwaps,']
+- replace: 'rewrapping '
+  _tags: [ing, verb, to, can, else, prefix]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['wwapi,']
+- replace: 'rewrapped '
+  _tags: [ed, verb, would, to, can, else, prefix]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['wwapp,']
+- replace: 'prewrap '
+  _tags: [verb, to, can, else, prefix]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['pwap,']
+- replace: 'prewrapping '
+  _tags: [ing, verb, to, can, else, prefix]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['pwapi,']
+- replace: 'prewrapped '
+  _tags: [ed, verb, would, to, can, else, prefix]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['pwapp,']
+- replace: 'overwrap '
+  _tags: [verb, to, can, else, prefix]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['owap,']
+- replace: 'overwrapping '
+  _tags: [ing, verb, to, can, else, prefix]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['owapi,']
+- replace: 'overwrapped '
+  _tags: [ed, verb, would, to, can, else, prefix]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['owapp,']
+- replace: 'wordwrap '
+  _tags: [noun, verb, to, can, else, compound]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['wowap,']
+- replace: 'wordwrapping '
+  _tags: [ing, verb, to, can, else, compound]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['wowapi,']
+- replace: 'wordwrapped '
+  _tags: [ed, verb, would, to, can, else, compound]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['wowapp,']
+- replace: 'wrap this '
+  _tags: [demonstrative, verb, to, can, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['wapiz,']
+- replace: 'wrap that '
+  _tags: [demonstrative, verb, to, can, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['wapaz,']
+- replace: 'wrap these '
+  _tags: [demonstrative, verb, to, can, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['wapez,']
+- replace: 'wrap those '
+  _tags: [demonstrative, verb, to, can, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['wapoz,']
+- replace: 'wrap the '
+  _tags: [article, verb, to, can, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['waph,']
+- replace: 'wrap all '
+  _tags: [quantifier, verb, to, can, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['wapa,']
+- replace: 'wrap all of '
+  _tags: [quantifier, verb, to, can, else, preposition]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['wapao,']
+- replace: 'wrap some '
+  _tags: [quantifier, verb, to, can, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['wapsm,']
+- replace: 'wrap some of '
+  _tags: [quantifier, verb, to, can, else, preposition]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['wapsmo,']
+- replace: 'wrap each '
+  _tags: [quantifier, verb, to, can, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['wapeh,']
+- replace: 'wrapper script '
+  _tags: [noun, compound]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['wapwsc,']
+- replace: 'wrapper scripts '
+  _tags: [noun, compound]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['wapwscs,']
+- replace: 'python wrapper '
+  _tags: [noun, compound]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['pywapw,']
+- replace: 'wrap up '
+  _tags: [phrasal, verb, to, can, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['wapup,']
+- replace: 'wrapping up '
+  _tags: [phrasal, ing, verb, to, can, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['wapupi,']
+- replace: 'wrapped up '
+  _tags: [phrasal, ed, verb, would, to, can, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['wapupp,']
+- replace: 'wrap around '
+  _tags: [phrasal, verb, to, can, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['waparo,']
+- replace: 'wrapping around '
+  _tags: [phrasal, ing, verb, to, can, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['waparoi,']
+- replace: 'wrapped around '
+  _tags: [phrasal, ed, verb, would, to, can, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['waparop,']
+- replace: 'what wrap '
+  _tags: [question, verb]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['wtwap,']
+- replace: 'what wrapping '
+  _tags: [question, ing]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['wtwapi,']
+- replace: 'what wrapped '
+  _tags: [question, ed]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['wtwapp,']
+- replace: 'when wrap '
+  _tags: [question, verb]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['wwwap,']
+- replace: 'when wrapping '
+  _tags: [question, ing]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['wwwapi,']
+- replace: 'when wrapped '
+  _tags: [question, ed]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['wwwapp,']
+- replace: 'why wrap '
+  _tags: [question, verb]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['wywap,']
+- replace: 'why wrapping '
+  _tags: [question, ing]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['wywapi,']
+- replace: 'why wrapped '
+  _tags: [question, ed]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['wywapp,']
+- replace: 'how wrap '
+  _tags: [question, verb]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['hwap,']
+- replace: 'how wrapping '
+  _tags: [question, ing]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['hwapi,']
+- replace: 'how wrapped '
+  _tags: [question, ed]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['hwapp,']

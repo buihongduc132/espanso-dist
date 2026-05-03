@@ -1,0 +1,222 @@
+# ⚠️  WARNING: AUTO-GENERATED FILE - DO NOT EDIT DIRECTLY!
+# This file is generated from word_version by:
+#   scripts/convert_to_tokenized_word_version.py
+# Edit source in space_version and re-run conversions.
+# Tokenizes trailing spaces in triggers to an explicit token.
+# Removes right_word property for tokenized version.
+# Adds trailing space to replacements that don't have one.
+# Current token: ','
+
+name: wh_th_modal_combinations
+parent: default
+matches:
+- replace: 'what can '
+  _tags: [question, can, to]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['wtqa,']
+- replace: 'which can '
+  _tags: [question, can, to]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['wqa,']
+- replace: 'where can '
+  _tags: [question, can, to]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['wrqa,']
+- replace: 'when can '
+  _tags: [question, can, to]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['wnqa,']
+- replace: 'why can '
+  _tags: [question, can, to]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['wyqa,']
+- replace: 'what can not '
+  _tags: [question, can, negate, to]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['wtqan,']
+- replace: 'which can not '
+  _tags: [question, can, negate, to]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['wqan,']
+- replace: 'where can not '
+  _tags: [question, can, negate, to]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['wrqan,']
+- replace: 'when can not '
+  _tags: [question, can, negate, to]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['wnqan,']
+- replace: 'why can not '
+  _tags: [question, can, negate, to]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['wyqan,']
+- replace: 'which could '
+  _tags: [question, could, to]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['wqou,']
+- replace: 'which could not '
+  _tags: [question, could, negate, to]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['wqoun,']
+- replace: 'why could not '
+  _tags: [question, could, negate, to]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['wyqoun,']
+- replace: 'which would '
+  _tags: [question, would, to]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['wwou,']
+- replace: 'what would not '
+  _tags: [question, would, negate, to]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['wtwoun,']
+- replace: 'which would not '
+  _tags: [question, would, negate, to]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['wwoun,']
+- replace: 'which should '
+  _tags: [question, should, to]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['wsou,']
+- replace: 'which should not '
+  _tags: [question, should, negate, to, to]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['wsoun,']
+- replace: 'this could not '
+  _tags: [demonstrative, could, negate, pronoun, the]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['izqoun,']
+- replace: 'that could not '
+  _tags: [demonstrative, could, negate, pronoun, the]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['azqoun,']
+- replace: 'these could not '
+  _tags: [demonstrative, could, negate, pronoun, the]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['ezqoun,']
+- replace: 'those could not '
+  _tags: [demonstrative, could, negate, pronoun, the]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['ozqoun,']
+- replace: 'this would not '
+  _tags: [demonstrative, would, negate, pronoun, the]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['izwoun,']
+- replace: 'that would not '
+  _tags: [demonstrative, would, negate, pronoun, the]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['azwoun,']
+- replace: 'these would not '
+  _tags: [demonstrative, would, negate, pronoun, the]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['ezwoun,']
+- replace: 'those would not '
+  _tags: [demonstrative, would, negate, pronoun, the]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['ozwoun,']
+- replace: 'this should not '
+  _tags: [demonstrative, should, negate, pronoun, the]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['izsoun,']
+- replace: 'that should not '
+  _tags: [demonstrative, should, negate, pronoun, the]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['azsoun,']
+- replace: 'these should not '
+  _tags: [demonstrative, should, negate, pronoun, the]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['ezsoun,']
+- replace: 'those should not '
+  _tags: [demonstrative, should, negate, pronoun, the]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['ozsoun,']
+- replace: 'this do '
+  _tags: [demonstrative, do, pronoun, the]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['izu,']
+- replace: 'that do '
+  _tags: [demonstrative, do, pronoun, the]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['azu,']
+- replace: 'these do '
+  _tags: [demonstrative, do, pronoun, the]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['ezu,']
+- replace: 'those do '
+  _tags: [demonstrative, do, pronoun, the]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['ozu,']
+- replace: 'this do not '
+  _tags: [demonstrative, do, negate, pronoun, the]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['izun,']
+- replace: 'that do not '
+  _tags: [demonstrative, do, negate, pronoun, the]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['azun,']
+- replace: 'these do not '
+  _tags: [demonstrative, do, negate, pronoun, the]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['ezun,']
+- replace: 'those do not '
+  _tags: [demonstrative, do, negate, pronoun, the]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['ozun,']
+- replace: 'this does '
+  _tags: [demonstrative, does, pronoun, the]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['izuu,']
+- replace: 'that does '
+  _tags: [demonstrative, does, pronoun, the]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['azuu,']
+- replace: 'these does '
+  _tags: [demonstrative, does, pronoun, the]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['ezuu,']
+- replace: 'those does '
+  _tags: [demonstrative, does, pronoun, the]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['ozuu,']

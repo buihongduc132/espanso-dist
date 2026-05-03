@@ -1,0 +1,72 @@
+# ⚠️  WARNING: AUTO-GENERATED FILE - DO NOT EDIT DIRECTLY!
+# This file is generated from word_version by:
+#   scripts/convert_to_tokenized_word_version.py
+# Edit source in space_version and re-run conversions.
+# Tokenizes trailing spaces in triggers to an explicit token.
+# Removes right_word property for tokenized version.
+# Adds trailing space to replacements that don't have one.
+# Current token: ','
+
+name: word-families-er-est
+parent: default
+matches:
+- replace: 'lower '
+  _tags: [will, pronoun, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['loww,']
+- replace: 'lowest '
+  _tags: [will, to, else, pronoun]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['lowwt,']
+- replace: 'higher '
+  _tags: [the, pronoun, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['highh,']
+- replace: 'highest '
+  _tags: [the, to, else, pronoun]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['highht,']
+- replace: 'longer '
+  _tags: [else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['longg,']
+- replace: 'longest '
+  _tags: [to, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['longgt,']
+- replace: 'shorter '
+  _tags: [should, the, to, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['showtt,']
+- replace: 'shortest '
+  _tags: [should, the, to, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['showttt,']
+- replace: 'faster '
+  _tags: [to, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['fastw,']
+- replace: 'fastest '
+  _tags: [to, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['fastt,']
+- replace: 'slower '
+  _tags: [will, pronoun, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['sloww,']
+- replace: 'slowest '
+  _tags: [will, to, else, pronoun]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['slowwt,']

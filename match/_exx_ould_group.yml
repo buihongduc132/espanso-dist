@@ -1,0 +1,323 @@
+# ⚠️  WARNING: AUTO-GENERATED FILE - DO NOT EDIT DIRECTLY!
+# This file is generated from word_version by:
+#   scripts/convert_to_tokenized_word_version.py
+# Edit source in space_version and re-run conversions.
+# Tokenizes trailing spaces in triggers to an explicit token.
+# Removes right_word property for tokenized version.
+# Adds trailing space to replacements that don't have one.
+# Current token: ','
+
+name: exx-ould-group
+parent: default
+matches:
+- replace: 'can '
+  _tags: [can, to, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['qa,']
+- replace: 'can not '
+  _tags: [can, negate, to, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['qan,']
+- replace: 'cans '
+  _tags: [can, else]
+  allow_duplicate: true
+  propagate_case: true
+  triggers: ['qas,']
+- replace: 'can that '
+  _tags: [can, demonstrative, pronoun, the]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['qaaz,']
+- replace: 'this can '
+  _tags: [demonstrative, can, pronoun, the]
+  allow_duplicate: true
+  propagate_case: true
+  triggers: ['izqa,']
+- replace: 'that can '
+  _tags: [demonstrative, can, pronoun, the]
+  allow_duplicate: true
+  propagate_case: true
+  triggers: ['azqa,']
+- replace: 'these can '
+  _tags: [demonstrative, can, pronoun, the]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['ezqa,']
+- replace: 'can not that '
+  _tags: [can, negate, demonstrative, pronoun]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['qanaz,']
+- replace: 'this can not '
+  _tags: [demonstrative, can, negate, pronoun, the]
+  allow_duplicate: true
+  propagate_case: true
+  triggers: ['izqan,']
+- replace: 'these can not '
+  _tags: [demonstrative, can, negate, pronoun, the]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['ezqan,']
+- replace: 'can see '
+  _tags: [can, to, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['qac,']
+- replace: 'can the '
+  _tags: [can, the, to, else]
+  allow_duplicate: true
+  propagate_case: true
+  triggers: ['qaz,']
+- replace: 'coulds '
+  _tags: [could, would, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['qous,']
+- replace: 'coulding '
+  _tags: [could, would, ing, pronoun]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['qoui,']
+- replace: 'could this '
+  _tags: [could, demonstrative, pronoun, the]
+  allow_duplicate: true
+  propagate_case: true
+  triggers: ['qouiz,']
+- replace: 'could that '
+  _tags: [could, demonstrative, pronoun, the]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['qouaz,']
+- replace: 'could these '
+  _tags: [could, demonstrative, pronoun, the]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['qouez,']
+- replace: 'could those '
+  _tags: [could, demonstrative, pronoun, the]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['qouoz,']
+- replace: 'this could '
+  _tags: [demonstrative, could, pronoun, the]
+  allow_duplicate: true
+  propagate_case: true
+  triggers: ['izqou,']
+- replace: 'that could '
+  _tags: [demonstrative, could, pronoun, the]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['azqou,']
+- replace: 'these could '
+  _tags: [demonstrative, could, pronoun, the]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['ezqou,']
+- replace: 'those could '
+  _tags: [demonstrative, could, pronoun, the]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['ozqou,']
+- replace: 'could the '
+  _tags: [could, the, would, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['qouh,']
+- replace: 'could cause '
+  _tags: [could, would, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['qouc,']
+- replace: 'could the '
+  _tags: [could, the, would, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['qouz,']
+- replace: 'could do '
+  _tags: [could, would, to, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['qouu,']
+- replace: 'could does '
+  _tags: [could, would, to, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['qouuu,']
+- replace: 'woulds '
+  _tags: [would, will, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['wous,']
+- replace: 'woulding '
+  _tags: [would, will, ing, pronoun]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['woui,']
+- replace: 'would this '
+  _tags: [would, demonstrative, pronoun, the]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['wouiz,']
+- replace: 'would that '
+  _tags: [would, demonstrative, pronoun, the]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['wouaz,']
+- replace: 'would these '
+  _tags: [would, demonstrative, pronoun, the]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['wouez,']
+- replace: 'would those '
+  _tags: [would, demonstrative, pronoun, the]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['wouoz,']
+- replace: 'this would '
+  _tags: [demonstrative, would, pronoun, the]
+  allow_duplicate: true
+  propagate_case: true
+  triggers: ['izwou,']
+- replace: 'that would '
+  _tags: [demonstrative, would, pronoun, the]
+  allow_duplicate: true
+  propagate_case: true
+  triggers: ['azwou,']
+- replace: 'these would '
+  _tags: [demonstrative, would, pronoun, the]
+  allow_duplicate: true
+  propagate_case: true
+  triggers: ['ezwou,']
+- replace: 'those would '
+  _tags: [demonstrative, would, pronoun, the]
+  allow_duplicate: true
+  propagate_case: true
+  triggers: ['ozwou,']
+- replace: 'would the '
+  _tags: [would, the, will, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['wouh,']
+- replace: 'would cause '
+  _tags: [would, will, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['wouc,']
+- replace: 'would the '
+  _tags: [would, the, will, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['wouz,']
+- replace: 'would do '
+  _tags: [would, to, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['wouu,']
+- replace: 'would does '
+  _tags: [would, to, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['wouuu,']
+- replace: 'shoulds '
+  _tags: [should, would, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['sous,']
+- replace: 'shoulding '
+  _tags: [should, would, ing, pronoun]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['soui,']
+- replace: 'should this '
+  _tags: [should, demonstrative, pronoun, the]
+  allow_duplicate: true
+  propagate_case: true
+  triggers: ['souiz,']
+- replace: 'should that '
+  _tags: [should, demonstrative, pronoun, the]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['souaz,']
+- replace: 'should these '
+  _tags: [should, demonstrative, pronoun, the]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['souez,']
+- replace: 'should those '
+  _tags: [should, demonstrative, pronoun, the]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['souoz,']
+- replace: 'that should '
+  _tags: [demonstrative, should, pronoun, the]
+  allow_duplicate: true
+  propagate_case: true
+  triggers: ['azsou,']
+- replace: 'these should '
+  _tags: [demonstrative, should, pronoun, the]
+  allow_duplicate: true
+  propagate_case: true
+  triggers: ['ezsou,']
+- replace: 'those should '
+  _tags: [demonstrative, should, pronoun, the]
+  allow_duplicate: true
+  propagate_case: true
+  triggers: ['ozsou,']
+- replace: 'should the '
+  _tags: [should, the, would, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['souh,']
+- replace: 'should cause '
+  _tags: [should, would, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['souc,']
+- replace: 'should the '
+  _tags: [should, the, would, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['souz,']
+- replace: 'should do '
+  _tags: [should, would, to, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['souu,']
+- replace: 'should does '
+  _tags: [should, would, to, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['souuu,']
+- replace: 'couldn''t this '
+  _tags: [could, negate, demonstrative, pronoun]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['qouniz,']
+- replace: 'couldn''t that '
+  _tags: [could, negate, demonstrative, pronoun]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['qounaz,']
+- replace: 'wouldn''t this '
+  _tags: [would, negate, demonstrative, pronoun]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['wouniz,']
+- replace: 'wouldn''t that '
+  _tags: [would, negate, demonstrative, pronoun]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['wounaz,']
+- replace: 'shouldn''t this '
+  _tags: [should, negate, demonstrative, pronoun]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['souniz,']
+- replace: 'shouldn''t that '
+  _tags: [should, negate, demonstrative, pronoun]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['sounaz,']
+enable: false

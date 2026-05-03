@@ -1,0 +1,102 @@
+# ⚠️  WARNING: AUTO-GENERATED FILE - DO NOT EDIT DIRECTLY!
+# This file is generated from word_version by:
+#   scripts/convert_to_tokenized_word_version.py
+# Edit source in space_version and re-run conversions.
+# Tokenizes trailing spaces in triggers to an explicit token.
+# Removes right_word property for tokenized version.
+# Adds trailing space to replacements that don't have one.
+# Current token: ','
+
+name: word-families-some
+parent: default
+matches:
+- triggers: ['sm,', 'sme,']
+  replace: 'some '
+  _tags: [else]
+  propagate_case: true
+  allow_duplicate: false
+- replace: 'sometimes '
+  _tags: [time, to, else, pronoun]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['smt,']
+- triggers: ['smg,', 'smi,']
+  replace: 'something '
+  _tags: [pronoun, the, ing, to, else]
+  propagate_case: true
+  allow_duplicate: false
+- triggers: ['smgw,', 'smiw,']
+  replace: 'something else '
+  _tags: [pronoun, the, ing, to, else]
+  propagate_case: true
+  allow_duplicate: false
+- replace: 'somehow '
+  _tags: [question, will, the, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['smh,']
+- replace: 'somewhere '
+  _tags: [place, will, the, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['smw,']
+- replace: 'somewhere else '
+  _tags: [place, will, the, else]
+  allow_duplicate: true
+  propagate_case: true
+  triggers: ['smww,']
+- triggers: ['s1,', 'sm1,']
+  replace: 'someone '
+  _tags: [else]
+  propagate_case: true
+  allow_duplicate: false
+- triggers: ['s1w,', 'sm1w,']
+  replace: 'someone else '
+  _tags: [else]
+  allow_duplicate: true
+  propagate_case: true
+- triggers: ['s1el,', 'sm1el,']
+  replace: 'someone else '
+  _tags: [else]
+  propagate_case: true
+  allow_duplicate: false
+- triggers: ['smd,', 'somp,']
+  replace: 'someday '
+  _tags: [ed, would, else]
+  propagate_case: true
+  allow_duplicate: false
+- replace: 'some where '
+  _tags: [place, question, will, the, else]
+  allow_duplicate: true
+  propagate_case: true
+  triggers: ['smwwh,']
+- replace: 'some where else '
+  _tags: [place, question, will, the, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['smwww,']
+- triggers: ['smf,', 'smo,']
+  replace: 'some of '
+  _tags: [to, else]
+  propagate_case: true
+  allow_duplicate: false
+- replace: 'some of this '
+  _tags: [demonstrative, to, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['smoiz,']
+- replace: 'some of that '
+  _tags: [demonstrative, to, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['smoaz,']
+- replace: 'some of these '
+  _tags: [demonstrative, to, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['smoez,']
+- replace: 'some of those '
+  _tags: [demonstrative, to, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['smowz,']

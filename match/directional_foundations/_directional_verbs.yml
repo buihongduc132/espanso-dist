@@ -1,0 +1,171 @@
+# ⚠️  WARNING: AUTO-GENERATED FILE - DO NOT EDIT DIRECTLY!
+# This file is generated from word_version by:
+#   scripts/convert_to_tokenized_word_version.py
+# Edit source in space_version and re-run conversions.
+# Tokenizes trailing spaces in triggers to an explicit token.
+# Removes right_word property for tokenized version.
+# Adds trailing space to replacements that don't have one.
+# Current token: ','
+
+matches:
+- replace: 'to go '
+  _tags: [to, preposition, directional, verb, 222_group]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['2go,']
+- replace: 'from go '
+  _tags: [from, preposition, directional, verb, 222_group]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['22go,']
+- replace: 'to come '
+  _tags: [to, preposition, directional, verb, 222_group]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['2qm,']
+- replace: 'from come '
+  _tags: [from, preposition, directional, verb, 222_group]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['22qm,']
+- replace: 'to make '
+  _tags: [to, preposition, directional, verb, 222_group]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['2mk,']
+- replace: 'from make '
+  _tags: [from, preposition, directional, verb, 222_group]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['22mk,']
+- replace: 'to give '
+  _tags: [to, preposition, directional, verb, 222_group]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['2gj,']
+- replace: 'from give '
+  _tags: [from, preposition, directional, verb, 222_group]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['22gj,']
+- replace: 'to say '
+  _tags: [to, preposition, directional, verb]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['2sy,']
+- replace: 'from say '
+  _tags: [from, preposition, directional, verb]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['2fsy,']
+- replace: 'to tell '
+  _tags: [to, preposition, directional, verb]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['2tl,']
+- replace: 'to ask '
+  _tags: [to, preposition, directional, verb]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['2sk,']
+- replace: 'from ask '
+  _tags: [from, preposition, directional, verb]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['2fsk,']
+- replace: 'to know '
+  _tags: [to, preposition, directional, verb]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['2kn,']
+- replace: 'from know '
+  _tags: [from, preposition, directional, verb]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['2fkn,']
+- replace: 'to think '
+  _tags: [to, preposition, directional, verb]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['2th,']
+- replace: 'from think '
+  _tags: [from, preposition, directional, verb]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['2fh,']
+- replace: 'to see '
+  _tags: [to, preposition, directional, verb]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['2se,']
+- replace: 'from see '
+  _tags: [from, preposition, directional, verb]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['2fse,']
+- replace: 'to look '
+  _tags: [to, preposition, directional, verb]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['2lk,']
+- replace: 'from look '
+  _tags: [from, preposition, directional, verb]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['2flk,']
+- replace: 'to work '
+  _tags: [to, preposition, directional, verb]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['2wk,']
+- replace: 'from work '
+  _tags: [from, preposition, directional, verb]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['22wk,']
+- replace: 'to use '
+  _tags: [to, preposition, directional, verb]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['2us,']
+- replace: 'from use '
+  _tags: [from, preposition, directional, verb]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['2fus,']
+- replace: 'to read '
+  _tags: [to, preposition, directional, verb]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['2w1,']
+- replace: 'from read '
+  _tags: [from, preposition, directional, verb]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['22w1,']
+- replace: 'to write '
+  _tags: [to, preposition, directional, verb]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['2w2,']
+- replace: 'from write '
+  _tags: [from, preposition, directional, verb]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['22w2,']
+- replace: 'go to the '
+  _tags: [go, to, preposition, directional, verb]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['g2h,']
+- replace: 'to dedicate '
+  _tags: [to, preposition, directional, verb, 222_group]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['2dedi,']
+- replace: 'from dedicate '
+  _tags: [from, preposition, directional, verb, 222_group]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['22dedi,']
+enable: true

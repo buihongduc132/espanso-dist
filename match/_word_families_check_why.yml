@@ -1,0 +1,137 @@
+# ⚠️  WARNING: AUTO-GENERATED FILE - DO NOT EDIT DIRECTLY!
+# This file is generated from word_version by:
+#   scripts/convert_to_tokenized_word_version.py
+# Edit source in space_version and re-run conversions.
+# Tokenizes trailing spaces in triggers to an explicit token.
+# Removes right_word property for tokenized version.
+# Adds trailing space to replacements that don't have one.
+# Current token: ','
+
+name: word-families-check-why
+parent: default
+matches:
+- replace: 'check why '
+  _tags: [action, verb, question, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['hkwy,']
+- replace: 'check whys '
+  _tags: [action, verb, question, to]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['hkwys,']
+- replace: 'checking why '
+  _tags: [action, verb, question, ing, can]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['hkwyi,']
+- replace: 'checked why '
+  _tags: [action, verb, question, ed, would]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['hkwyp,']
+- replace: 'checking why '
+  _tags: [action, noun, question, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['hkwym,']
+- replace: 'check whyness '
+  _tags: [action, noun, question, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['hkwyn,']
+- replace: 'check whyer '
+  _tags: [action, noun, question, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['hkwyw,']
+- replace: 'check whyers '
+  _tags: [action, noun, question, to]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['hkwyws,']
+- replace: 'check-whyable '
+  _tags: [adjective, question, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['hkwyb,']
+- replace: 'check-whyably '
+  _tags: [adverb, question, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['hkwybl,']
+- replace: 'checkwhy '
+  _tags: [adjective, question, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['hkwyj,']
+- replace: 'checkwhyly '
+  _tags: [adverb, question, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['hkwyjl,']
+- replace: 'this check why '
+  _tags: [demonstrative, this, question, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['izhkwy,']
+- replace: 'that check why '
+  _tags: [demonstrative, that, question, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['azhkwy,']
+- replace: 'these check whys '
+  _tags: [demonstrative, these, question, to]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['ezhkwys,']
+- replace: 'those check whys '
+  _tags: [demonstrative, those, question, to]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['ozhkwys,']
+- replace: 'what check why '
+  _tags: [question, what, question, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['wtlhkwy,']
+- replace: 'where check why '
+  _tags: [question, where, question, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['whlhkwy,']
+- replace: 'when check why '
+  _tags: [question, when, question, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['wnlhkwy,']
+- replace: 'why check why '
+  _tags: [question, why, question, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['wylhkwy,']
+- replace: 'how check why '
+  _tags: [question, how, question, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['hwlhkwy,']
+- replace: 'to the check why '
+  _tags: [directional, to, question, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['2hhkwy,']
+- replace: 'from the check why '
+  _tags: [directional, from, question, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['22hhkwy,']
+- replace: 'into check why '
+  _tags: [directional, into, question, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['2ihkwy,']
+- replace: 'for the check why '
+  _tags: [directional, for, question, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['4tohkwy,']

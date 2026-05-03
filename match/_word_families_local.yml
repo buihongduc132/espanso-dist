@@ -1,0 +1,127 @@
+# ⚠️  WARNING: AUTO-GENERATED FILE - DO NOT EDIT DIRECTLY!
+# This file is generated from word_version by:
+#   scripts/convert_to_tokenized_word_version.py
+# Edit source in space_version and re-run conversions.
+# Tokenizes trailing spaces in triggers to an explicit token.
+# Removes right_word property for tokenized version.
+# Adds trailing space to replacements that don't have one.
+# Current token: ','
+
+name: word-families-local
+parent: default
+matches:
+- replace: 'local '
+  _tags: [can, pronoun, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['lol,']
+- replace: 'locals '
+  _tags: [can, pronoun, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['lols,']
+- replace: 'locally '
+  _tags: [can, pronoun, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['loll,']
+- replace: 'localization '
+  _tags: [noun, can, pronoun, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['lolm,']
+- replace: 'localizing '
+  _tags: [ing, can, pronoun, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['loli,']
+- replace: 'localized '
+  _tags: [ed, would, can, pronoun, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['lolp,']
+- replace: 'localhost '
+  _tags: [noun, can, pronoun, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['lolh,']
+- replace: 'local server '
+  _tags: [noun, can, pronoun, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['lolw,']
+- replace: 'local servers '
+  _tags: [noun, can, pronoun, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['lolws,']
+- replace: 'local branch '
+  _tags: [noun, can, pronoun, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['lolb,']
+- replace: 'local branches '
+  _tags: [noun, can, pronoun, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['lolbs,']
+- replace: 'local file '
+  _tags: [noun, can, pronoun, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['lolf,']
+- replace: 'local files '
+  _tags: [noun, can, pronoun, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['lolfs,']
+- replace: 'local directory '
+  _tags: [noun, can, pronoun, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['lold,']
+- replace: 'local directories '
+  _tags: [noun, can, pronoun, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['lolds,']
+- replace: 'local environment '
+  _tags: [noun, can, pronoun, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['lole,']
+- replace: 'local environments '
+  _tags: [noun, can, pronoun, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['loles,']
+- replace: 'local configuration '
+  _tags: [noun, can, pronoun, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['lolq,']
+- replace: 'local configurations '
+  _tags: [noun, can, pronoun, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['lolqs,']
+- replace: 'local testing '
+  _tags: [noun, ing, can, pronoun, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['lolt,']
+- replace: 'local development '
+  _tags: [noun, can, pronoun, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['lolv,']
+- replace: 'local repository '
+  _tags: [noun, can, pronoun, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['lolr,']
+- replace: 'local repositories '
+  _tags: [noun, can, pronoun, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['lolrs,']

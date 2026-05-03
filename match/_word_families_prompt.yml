@@ -1,0 +1,77 @@
+# ⚠️  WARNING: AUTO-GENERATED FILE - DO NOT EDIT DIRECTLY!
+# This file is generated from word_version by:
+#   scripts/convert_to_tokenized_word_version.py
+# Edit source in space_version and re-run conversions.
+# Tokenizes trailing spaces in triggers to an explicit token.
+# Removes right_word property for tokenized version.
+# Adds trailing space to replacements that don't have one.
+# Current token: ','
+
+name: word-families-prompt-question
+parent: default
+matches:
+- replace: 'question '
+  _tags: [noun, to, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['qs,']
+- replace: 'questions '
+  _tags: [noun, to, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['qss,']
+- replace: 'questioner '
+  _tags: [noun, to, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['qsw,']
+- replace: 'questioners '
+  _tags: [noun, to, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['qsws,']
+- replace: 'questioning '
+  _tags: [ing, noun, to, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['qsi,']
+- replace: 'questioned '
+  _tags: [ed, would, to, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['qsp,']
+- replace: 'questionable '
+  _tags: [adjective, to, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['qsb,']
+- replace: 'questionably '
+  _tags: [adverb, to, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['qsbl,']
+- replace: 'prompt '
+  _tags: [can, pronoun]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['pom,']
+- replace: 'prompts '
+  _tags: [can, pronoun, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['poms,']
+- replace: 'prompting '
+  _tags: [ing, can, pronoun]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['pomi,']
+- replace: 'prompted '
+  _tags: [ed, would, can, pronoun, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['pomp,']
+- replace: 'prompter '
+  _tags: [can, pronoun, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['pomw,']

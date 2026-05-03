@@ -1,0 +1,57 @@
+# ⚠️  WARNING: AUTO-GENERATED FILE - DO NOT EDIT DIRECTLY!
+# This file is generated from word_version by:
+#   scripts/convert_to_tokenized_word_version.py
+# Edit source in space_version and re-run conversions.
+# Tokenizes trailing spaces in triggers to an explicit token.
+# Removes right_word property for tokenized version.
+# Adds trailing space to replacements that don't have one.
+# Current token: ','
+
+name: word-family-order
+parent: default
+matches:
+- replace: 'order '
+  _tags: [noun, to, can, else, pronoun]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['owd,']
+- replace: 'orders '
+  _tags: [noun, to, can, else, pronoun]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['owds,']
+- replace: 'ordering '
+  _tags: [verb, ing, to, can, pronoun, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['owdi,']
+- replace: 'ordered '
+  _tags: [verb, ed, would, to, can, else, pronoun]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['owdp,']
+- replace: 'ordering '
+  _tags: [noun, to, can, else, pronoun]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['owdm,']
+- replace: 'orderable '
+  _tags: [adjective, to, can, else, pronoun]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['owdb,']
+- replace: 'order to the '
+  _tags: [phrase, to, can, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['owd2h,']
+- replace: 'this order '
+  _tags: [phrase, to, can, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['owdiz,']
+- replace: 'that order '
+  _tags: [phrase, to, can, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['owdaz,']

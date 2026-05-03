@@ -1,0 +1,75 @@
+# ⚠️  WARNING: AUTO-GENERATED FILE - DO NOT EDIT DIRECTLY!
+# This file is generated from word_version by:
+#   scripts/convert_to_tokenized_word_version.py
+# Edit source in space_version and re-run conversions.
+# Tokenizes trailing spaces in triggers to an explicit token.
+# Removes right_word property for tokenized version.
+# Adds trailing space to replacements that don't have one.
+# Current token: ','
+
+matches:
+- replace: 'document this '
+  _tags: [demonstrative, to, can, else, frequent-verb]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['doqiz,']
+- replace: 'document that '
+  _tags: [demonstrative, to, can, else, have, frequent-verb]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['doqaz,']
+- replace: 'document these '
+  _tags: [demonstrative, to, can, else, frequent-verb]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['doqez,']
+- replace: 'document those '
+  _tags: [demonstrative, to, can, else, frequent-verb]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['doqoz,']
+- replace: 'documenting this '
+  _tags: [demonstrative, ing, to, can, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['doqiiz,']
+- replace: 'documenting that '
+  _tags: [demonstrative, ing, to, can, else, have]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['doqiaz,']
+- replace: 'documenting these '
+  _tags: [demonstrative, ing, to, can, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['doqiez,']
+- replace: 'documenting those '
+  _tags: [demonstrative, ing, to, can, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['doqioz,']
+- replace: 'document the '
+  _tags: [the, to, can, else, frequent-verb]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['doqh,']
+- replace: 'documenting the '
+  _tags: [the, ing, to, can, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['doqih,']
+- replace: 'document all '
+  _tags: [the, to, can, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['doqa,']
+- replace: 'document some '
+  _tags: [to, can, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['doqsm,']
+- replace: 'document each '
+  _tags: [the, to, can, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['doqeh,']

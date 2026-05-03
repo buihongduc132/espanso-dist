@@ -1,0 +1,169 @@
+# ⚠️  WARNING: AUTO-GENERATED FILE - DO NOT EDIT DIRECTLY!
+# This file is generated from word_version by:
+#   scripts/convert_to_tokenized_word_version.py
+# Edit source in space_version and re-run conversions.
+# Tokenizes trailing spaces in triggers to an explicit token.
+# Removes right_word property for tokenized version.
+# Adds trailing space to replacements that don't have one.
+# Current token: ','
+
+name: ai-instruct
+global_vars:
+- name: _name_file
+  type: echo
+  params: {echo: raw_name.txt}
+parent: default
+matches:
+- replace: '{{output}} '
+  vars:
+  - name: output
+    type: shell
+    params: {cmd: 'cat {{OS_CONFIG_DIR}}/ai/common/tool_apply_fix.md'}
+  _tags: [to, else, pronoun]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['::ins:toolfix,']
+- replace: '{{output}} '
+  vars:
+  - name: output
+    type: shell
+    params: {cmd: 'cat {{OS_CONFIG_DIR}}/ai/common/tests/test_instruction.md'}
+  _tags: [to, else, pronoun]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['::ins:test,']
+- replace: '{{output}} '
+  vars:
+  - name: output
+    type: shell
+    params: {cmd: 'cat {{OS_CONFIG_DIR}}/ai/common/coding/standards.md'}
+  _tags: [pronoun, ing, to, can, would]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['::ins:qoding,']
+- replace: '{{output}} '
+  vars:
+  - name: output
+    type: shell
+    params: {cmd: 'cat {{OS_CONFIG_DIR}}/ai/common/worklog.md'}
+  _tags: [will, to, else, pronoun]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['::ins:wowklog,']
+- replace: '{{output}} '
+  vars:
+  - name: output
+    type: shell
+    params: {cmd: 'cat {{OS_CONFIG_DIR}}/ai/common/preflights.md'}
+  _tags: [the, to, else, pronoun]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['::ins:pweflight,']
+- replace: '{{output}} '
+  vars:
+  - name: output
+    type: shell
+    params: {cmd: 'cat {{OS_CONFIG_DIR}}/ai/openhands/cloned_work.md'}
+  _tags: [to, will, can]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['::qw,']
+- replace: '{{output}} '
+  vars:
+  - name: output
+    type: shell
+    params: {cmd: head /dev/urandom | tr -dc 0-9 | head -c 10}
+  _tags: [to]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['::num10,']
+- replace: '{{output}} '
+  vars:
+  - name: output
+    type: shell
+    params: {cmd: head /dev/urandom | tr -dc 0-9 | head -c 6}
+  _tags: [to]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['::num,']
+- replace: '{{output}} '
+  vars:
+  - name: output
+    type: shell
+    params: {cmd: 'shuf -n 1 {{BASE_DIR}}/conf/data/{{_name_file}}'}
+  _tags: [to, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['::name,']
+- replace: '{{output}} '
+  vars:
+  - name: output
+    type: shell
+    params: {cmd: 'name1=$(shuf -n 1 {{BASE_DIR}}/conf/data/{{_name_file}}); name2=$(shuf -n 1 {{BASE_DIR}}/conf/data/{{_name_file}}); echo "$name1 $name2"'}
+  _tags: [to, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['::fname,']
+- replace: '{{output}} '
+  vars:
+  - name: output
+    type: shell
+    params: {cmd: 'name1=$(shuf -n 1 {{BASE_DIR}}/conf/data/{{_name_file}}); name2=$(shuf -n 1 {{BASE_DIR}}/conf/data/{{_name_file}}); echo "${name1}.${name2}"'}
+  _tags: [to, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['::fname.,']
+- replace: '{{output}} '
+  vars:
+  - name: output
+    type: shell
+    params: {cmd: 'name1=$(shuf -n 1 {{BASE_DIR}}/conf/data/{{_name_file}}); name2=$(shuf -n 1 {{BASE_DIR}}/conf/data/{{_name_file}}); echo "${name1}_${name2}"'}
+  _tags: [to, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['::fname_,']
+- replace: '{{output}} '
+  vars:
+  - name: output
+    type: shell
+    params: {cmd: 'name1=$(shuf -n 1 {{BASE_DIR}}/conf/data/{{_name_file}}); name2=$(shuf -n 1 {{BASE_DIR}}/conf/data/{{_name_file}}); echo "${name1}-${name2}"'}
+  _tags: [to, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['::fname-,']
+- replace: '{{output}} '
+  vars:
+  - name: output
+    type: shell
+    params: {cmd: 'name1=$(shuf -n 1 {{BASE_DIR}}/conf/data/{{_name_file}}); name2=$(shuf -n 1 {{BASE_DIR}}/conf/data/{{_name_file}}); num=$(head /dev/urandom | tr -dc 0-9 | head -c 6); echo "$name1 $name2 $num"'}
+  _tags: [to, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['::wname,']
+- replace: '{{output}} '
+  vars:
+  - name: output
+    type: shell
+    params: {cmd: 'name1=$(shuf -n 1 {{BASE_DIR}}/conf/data/{{_name_file}}); name2=$(shuf -n 1 {{BASE_DIR}}/conf/data/{{_name_file}}); num=$(head /dev/urandom | tr -dc 0-9 | head -c 6); echo "${name1}.${name2}.${num}"'}
+  _tags: [to, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['::wname.,']
+- replace: '{{output}} '
+  vars:
+  - name: output
+    type: shell
+    params: {cmd: 'name1=$(shuf -n 1 {{BASE_DIR}}/conf/data/{{_name_file}}); name2=$(shuf -n 1 {{BASE_DIR}}/conf/data/{{_name_file}}); num=$(head /dev/urandom | tr -dc 0-9 | head -c 6); echo "${name1}_${name2}_${num}"'}
+  _tags: [to, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['::wname_,']
+- replace: '{{output}} '
+  vars:
+  - name: output
+    type: shell
+    params: {cmd: 'name1=$(shuf -n 1 {{BASE_DIR}}/conf/data/{{_name_file}}); name2=$(shuf -n 1 {{BASE_DIR}}/conf/data/{{_name_file}}); num=$(head /dev/urandom | tr -dc 0-9 | head -c 6); echo "${name1}-${name2}-${num}"'}
+  _tags: [to, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['::wname-,']

@@ -1,0 +1,67 @@
+# ⚠️  WARNING: AUTO-GENERATED FILE - DO NOT EDIT DIRECTLY!
+# This file is generated from word_version by:
+#   scripts/convert_to_tokenized_word_version.py
+# Edit source in space_version and re-run conversions.
+# Tokenizes trailing spaces in triggers to an explicit token.
+# Removes right_word property for tokenized version.
+# Adds trailing space to replacements that don't have one.
+# Current token: ','
+
+name: word-family-research
+parent: default
+matches:
+- replace: 'research '
+  _tags: [verb, to, can, else, pronoun]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['res,']
+- replace: 'researches '
+  _tags: [verb, to, can, else, pronoun]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['ress,']
+- replace: 'researching '
+  _tags: [verb, ing, to, can, pronoun, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['resi,']
+- replace: 'researched '
+  _tags: [verb, ed, would, to, can, else, pronoun]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['resp,']
+- replace: 'researcher '
+  _tags: [noun, to, can, else, pronoun]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['resw,']
+- replace: 'researchers '
+  _tags: [noun, to, can, else, pronoun]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['resws,']
+- replace: 'research '
+  _tags: [noun, to, can, else, pronoun]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['resm,']
+- replace: 'research '
+  _tags: [adjective, to, can, else, pronoun]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['resj,']
+- replace: 'researchable '
+  _tags: [adjective, to, can, else, pronoun]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['resb,']
+- replace: 'researchably '
+  _tags: [adverb, to, can, else, pronoun]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['resbl,']
+- replace: 'researchability '
+  _tags: [noun, to, can, else, pronoun]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['resbm,']

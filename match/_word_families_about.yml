@@ -1,0 +1,54 @@
+# ⚠️  WARNING: AUTO-GENERATED FILE - DO NOT EDIT DIRECTLY!
+# This file is generated from word_version by:
+#   scripts/convert_to_tokenized_word_version.py
+# Edit source in space_version and re-run conversions.
+# Tokenizes trailing spaces in triggers to an explicit token.
+# Removes right_word property for tokenized version.
+# Adds trailing space to replacements that don't have one.
+# Current token: ','
+
+matches:
+- replace: 'about it '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['abt,']
+- replace: 'about the '
+  allow_duplicate: true
+  propagate_case: true
+  triggers: ['abh,']
+- replace: 'about this '
+  allow_duplicate: true
+  propagate_case: true
+  triggers: ['abiz,']
+- replace: 'about that '
+  allow_duplicate: true
+  propagate_case: true
+  triggers: ['abaz,']
+- replace: 'about these '
+  allow_duplicate: true
+  propagate_case: true
+  triggers: ['abez,']
+- replace: 'about those '
+  allow_duplicate: true
+  propagate_case: true
+  triggers: ['aboz,']
+- replace: 'about what '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['abwt,']
+- replace: 'about where '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['abwr,']
+- replace: 'about when '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['abwn,']
+- replace: 'about why '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['abwy,']
+- replace: 'about how '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['abhw,']

@@ -1,0 +1,57 @@
+# ⚠️  WARNING: AUTO-GENERATED FILE - DO NOT EDIT DIRECTLY!
+# This file is generated from word_version by:
+#   scripts/convert_to_tokenized_word_version.py
+# Edit source in space_version and re-run conversions.
+# Tokenizes trailing spaces in triggers to an explicit token.
+# Removes right_word property for tokenized version.
+# Adds trailing space to replacements that don't have one.
+# Current token: ','
+
+name: word-families-practice
+parent: default
+matches:
+- replace: 'practice '
+  _tags: [to, can, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['pwaq,']
+- replace: 'practices '
+  _tags: [to, can, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['pwaqs,']
+- replace: 'practicing '
+  _tags: [ing, to, can, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['pwaqi,']
+- replace: 'practiced '
+  _tags: [ed, would, to, can, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['pwaqp,']
+- replace: 'practice this '
+  _tags: [demonstrative, to, can, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['pwaqiz,']
+- replace: 'practice that '
+  _tags: [demonstrative, to, can, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['pwaqaz,']
+- replace: 'practice these '
+  _tags: [demonstrative, to, can, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['pwaqez,']
+- replace: 'practice those '
+  _tags: [demonstrative, to, can, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['pwaqoz,']
+- replace: 'practice the '
+  _tags: [article, to, can, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['pwaqh,']

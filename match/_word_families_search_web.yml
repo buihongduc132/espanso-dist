@@ -1,0 +1,137 @@
+# ⚠️  WARNING: AUTO-GENERATED FILE - DO NOT EDIT DIRECTLY!
+# This file is generated from word_version by:
+#   scripts/convert_to_tokenized_word_version.py
+# Edit source in space_version and re-run conversions.
+# Tokenizes trailing spaces in triggers to an explicit token.
+# Removes right_word property for tokenized version.
+# Adds trailing space to replacements that don't have one.
+# Current token: ','
+
+name: word-families-search-web
+parent: default
+matches:
+- replace: 'search web '
+  _tags: [action, verb, web, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['seae,']
+- replace: 'search webs '
+  _tags: [action, verb, web, to]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['seaes,']
+- replace: 'searching web '
+  _tags: [action, verb, web, ing, can]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['seaei,']
+- replace: 'searched web '
+  _tags: [action, verb, web, ed, would]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['seaep,']
+- replace: 'search webbing '
+  _tags: [action, noun, web, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['seaem,']
+- replace: 'search webness '
+  _tags: [action, noun, web, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['seaen,']
+- replace: 'search webber '
+  _tags: [action, noun, web, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['seaew,']
+- replace: 'search webbers '
+  _tags: [action, noun, web, to]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['seaews,']
+- replace: 'searchable web '
+  _tags: [adjective, web, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['seaeb,']
+- replace: 'searchably web '
+  _tags: [adverb, web, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['seaebl,']
+- replace: 'searchweb '
+  _tags: [adjective, web, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['seaej,']
+- replace: 'searchwebly '
+  _tags: [adverb, web, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['seaejl,']
+- replace: 'this search web '
+  _tags: [demonstrative, this, web, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['izseae,']
+- replace: 'that search web '
+  _tags: [demonstrative, that, web, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['azseae,']
+- replace: 'these search webs '
+  _tags: [demonstrative, these, web, to]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['ezseaes,']
+- replace: 'those search webs '
+  _tags: [demonstrative, those, web, to]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['ozseaes,']
+- replace: 'what search web '
+  _tags: [question, what, web, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['wtlseae,']
+- replace: 'where search web '
+  _tags: [question, where, web, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['whlseae,']
+- replace: 'when search web '
+  _tags: [question, when, web, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['wnlseae,']
+- replace: 'why search web '
+  _tags: [question, why, web, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['wylseae,']
+- replace: 'how search web '
+  _tags: [question, how, web, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['hwlseae,']
+- replace: 'to the search web '
+  _tags: [directional, to, web, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['2hseae,']
+- replace: 'from the search web '
+  _tags: [directional, from, web, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['22hseae,']
+- replace: 'into search web '
+  _tags: [directional, into, web, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['2iseae,']
+- replace: 'for the search web '
+  _tags: [directional, for, web, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['4toseae,']

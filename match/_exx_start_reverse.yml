@@ -1,0 +1,74 @@
+# ⚠️  WARNING: AUTO-GENERATED FILE - DO NOT EDIT DIRECTLY!
+# This file is generated from word_version by:
+#   scripts/convert_to_tokenized_word_version.py
+# Edit source in space_version and re-run conversions.
+# Tokenizes trailing spaces in triggers to an explicit token.
+# Removes right_word property for tokenized version.
+# Adds trailing space to replacements that don't have one.
+# Current token: ','
+
+matches:
+- replace: 'this start '
+  _tags: [demonstrative, to, can, else]
+  propagate_case: true
+  triggers: ['izsta,']
+- replace: 'that start '
+  _tags: [demonstrative, to, can, else, have]
+  propagate_case: true
+  triggers: ['azsta,']
+- replace: 'these start '
+  _tags: [demonstrative, to, can, else]
+  propagate_case: true
+  triggers: ['ezsta,']
+- replace: 'those start '
+  _tags: [demonstrative, to, can, else]
+  propagate_case: true
+  triggers: ['ozsta,']
+- replace: 'the start '
+  _tags: [the, to, can, else]
+  propagate_case: true
+  triggers: ['hsta,']
+- replace: 'all start '
+  _tags: [the, to, can, else]
+  propagate_case: true
+  triggers: ['asta,']
+- replace: 'some start '
+  _tags: [to, can, else]
+  propagate_case: true
+  triggers: ['smsta,']
+- replace: 'each start '
+  _tags: [the, to, can, else]
+  propagate_case: true
+  triggers: ['ehsta,']
+- replace: 'this starts '
+  _tags: [demonstrative, to, can, else]
+  propagate_case: true
+  triggers: ['izstas,']
+- replace: 'that starts '
+  _tags: [demonstrative, to, can, else, have]
+  propagate_case: true
+  triggers: ['azstas,']
+- replace: 'these starts '
+  _tags: [demonstrative, to, can, else]
+  propagate_case: true
+  triggers: ['ezstas,']
+- replace: 'those starts '
+  _tags: [demonstrative, to, can, else]
+  propagate_case: true
+  triggers: ['ozstas,']
+- replace: 'the starts '
+  _tags: [the, to, can, else]
+  propagate_case: true
+  triggers: ['hstas,']
+- replace: 'all starts '
+  _tags: [the, to, can, else]
+  propagate_case: true
+  triggers: ['astas,']
+- replace: 'some starts '
+  _tags: [to, can, else]
+  propagate_case: true
+  triggers: ['smstas,']
+- replace: 'each starts '
+  _tags: [the, to, can, else]
+  propagate_case: true
+  triggers: ['ehstas,']

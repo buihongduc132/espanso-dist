@@ -1,0 +1,57 @@
+# ⚠️  WARNING: AUTO-GENERATED FILE - DO NOT EDIT DIRECTLY!
+# This file is generated from word_version by:
+#   scripts/convert_to_tokenized_word_version.py
+# Edit source in space_version and re-run conversions.
+# Tokenizes trailing spaces in triggers to an explicit token.
+# Removes right_word property for tokenized version.
+# Adds trailing space to replacements that don't have one.
+# Current token: ','
+
+name: word-families-agnostic
+parent: default
+matches:
+- replace: 'agnostic '
+  _tags: [adjective, to, can, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['agno,']
+- replace: 'agnostics '
+  _tags: [noun, to, can, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['agnos,']
+- replace: 'agnostic '
+  _tags: [noun, to, can, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['agnow,']
+- replace: 'agnostics '
+  _tags: [noun, to, can, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['agnows,']
+- replace: 'agnostically '
+  _tags: [adverb, to, can, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['agnol,']
+- replace: 'agnosticism '
+  _tags: [noun, to, can, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['agnom,']
+- replace: 'agnostic to the '
+  _tags: [to, can, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['agno2h,']
+- replace: 'this agnostic '
+  _tags: [demonstrative, to, can, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['agnoiz,']
+- replace: 'that agnostic '
+  _tags: [demonstrative, to, can, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['agnoaz,']

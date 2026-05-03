@@ -1,0 +1,1270 @@
+# ⚠️  WARNING: AUTO-GENERATED FILE - DO NOT EDIT DIRECTLY!
+# This file is generated from word_version by:
+#   scripts/convert_to_tokenized_word_version.py
+# Edit source in space_version and re-run conversions.
+# Tokenizes trailing spaces in triggers to an explicit token.
+# Removes right_word property for tokenized version.
+# Adds trailing space to replacements that don't have one.
+# Current token: ','
+
+name: frequent-verb-expansions
+parent: default
+matches:
+- replace: 'use the '
+  _tags: [to, can, else, article, frequent-verb]
+  allow_duplicate: true
+  _note: frequent-verb::use
+  propagate_case: true
+  triggers: ['useh,']
+- replace: 'use it '
+  _tags: [to, can, else, pronoun, frequent-verb]
+  allow_duplicate: true
+  _note: frequent-verb::use
+  propagate_case: true
+  triggers: ['usex,']
+- replace: 'use this '
+  _tags: [to, can, else, demonstrative, frequent-verb]
+  allow_duplicate: true
+  _note: frequent-verb::use
+  propagate_case: true
+  triggers: ['useiz,']
+- replace: 'use that '
+  _tags: [to, can, else, demonstrative, frequent-verb]
+  allow_duplicate: true
+  _note: frequent-verb::use
+  propagate_case: true
+  triggers: ['useaz,']
+- replace: 'use these '
+  _tags: [to, can, else, demonstrative, frequent-verb]
+  allow_duplicate: true
+  _note: frequent-verb::use
+  propagate_case: true
+  triggers: ['useez,']
+- replace: 'use those '
+  _tags: [to, can, else, demonstrative, frequent-verb]
+  allow_duplicate: true
+  _note: frequent-verb::use
+  propagate_case: true
+  triggers: ['useoz,']
+- replace: 'work the '
+  _tags: [will, article, frequent-verb]
+  allow_duplicate: true
+  _note: frequent-verb::work
+  propagate_case: true
+  triggers: ['wkh,']
+- replace: 'work it '
+  _tags: [will, pronoun, frequent-verb]
+  allow_duplicate: true
+  _note: frequent-verb::work
+  propagate_case: true
+  triggers: ['wkx,']
+- replace: 'work this '
+  _tags: [will, demonstrative, frequent-verb]
+  allow_duplicate: true
+  _note: frequent-verb::work
+  propagate_case: true
+  triggers: ['wkiz,']
+- replace: 'work that '
+  _tags: [will, demonstrative, frequent-verb]
+  allow_duplicate: true
+  _note: frequent-verb::work
+  propagate_case: true
+  triggers: ['wkaz,']
+- replace: 'work these '
+  _tags: [will, demonstrative, frequent-verb]
+  allow_duplicate: true
+  _note: frequent-verb::work
+  propagate_case: true
+  triggers: ['wkez,']
+- replace: 'work those '
+  _tags: [will, demonstrative, frequent-verb]
+  allow_duplicate: true
+  _note: frequent-verb::work
+  propagate_case: true
+  triggers: ['wkoz,']
+- replace: 'check it '
+  _tags: [the, can, else, pronoun, frequent-verb]
+  allow_duplicate: true
+  _note: frequent-verb::check
+  propagate_case: true
+  triggers: ['hkx,']
+- replace: 'run the '
+  _tags: [the, can, else, article, frequent-verb]
+  allow_duplicate: true
+  _note: frequent-verb::run
+  propagate_case: true
+  triggers: ['wunh,']
+- replace: 'run it '
+  _tags: [the, can, else, pronoun, frequent-verb]
+  allow_duplicate: true
+  _note: frequent-verb::run
+  propagate_case: true
+  triggers: ['wunx,']
+- replace: 'run this '
+  _tags: [the, can, else, demonstrative, frequent-verb]
+  allow_duplicate: true
+  _note: frequent-verb::run
+  propagate_case: true
+  triggers: ['wuniz,']
+- replace: 'run that '
+  _tags: [the, can, else, demonstrative, frequent-verb]
+  allow_duplicate: true
+  _note: frequent-verb::run
+  propagate_case: true
+  triggers: ['wunaz,']
+- replace: 'run these '
+  _tags: [the, can, else, demonstrative, frequent-verb]
+  allow_duplicate: true
+  _note: frequent-verb::run
+  propagate_case: true
+  triggers: ['wunez,']
+- replace: 'run those '
+  _tags: [the, can, else, demonstrative, frequent-verb]
+  allow_duplicate: true
+  _note: frequent-verb::run
+  propagate_case: true
+  triggers: ['wunoz,']
+- replace: 'run all '
+  _tags: [verb, quantifier, to, else, frequent-verb]
+  _note: frequent-verb::run-all
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['wunal,']
+- replace: 'run all the '
+  _tags: [verb, quantifier, article, to, else, frequent-verb]
+  _note: frequent-verb::run-all
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['wunalh,']
+- replace: 'run all this '
+  _tags: [verb, quantifier, demonstrative, to, else, frequent-verb]
+  _note: frequent-verb::run-all
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['wunaliz,']
+- replace: 'run all that '
+  _tags: [verb, quantifier, demonstrative, to, else, frequent-verb]
+  _note: frequent-verb::run-all
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['wunalaz,']
+- replace: 'run all these '
+  _tags: [verb, quantifier, demonstrative, to, else, frequent-verb]
+  _note: frequent-verb::run-all
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['wunalez,']
+- replace: 'run all those '
+  _tags: [verb, quantifier, demonstrative, to, else, frequent-verb]
+  _note: frequent-verb::run-all
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['wunaloz,']
+- replace: 'read the '
+  _tags: [w-r, standalone, article, frequent-verb]
+  allow_duplicate: true
+  _note: frequent-verb::read
+  propagate_case: true
+  triggers: ['w1ph,']
+- replace: 'read it '
+  _tags: [w-r, standalone, pronoun, frequent-verb]
+  allow_duplicate: true
+  _note: frequent-verb::read
+  propagate_case: true
+  triggers: ['w1px,']
+- replace: 'read this '
+  _tags: [w-r, standalone, demonstrative, frequent-verb]
+  allow_duplicate: true
+  _note: frequent-verb::read
+  propagate_case: true
+  triggers: ['w1piz,']
+- replace: 'read that '
+  _tags: [w-r, standalone, demonstrative, frequent-verb]
+  allow_duplicate: true
+  _note: frequent-verb::read
+  propagate_case: true
+  triggers: ['w1paz,']
+- replace: 'read these '
+  _tags: [w-r, standalone, demonstrative, frequent-verb]
+  allow_duplicate: true
+  _note: frequent-verb::read
+  propagate_case: true
+  triggers: ['w1pez,']
+- replace: 'read those '
+  _tags: [w-r, standalone, demonstrative, frequent-verb]
+  allow_duplicate: true
+  _note: frequent-verb::read
+  propagate_case: true
+  triggers: ['w1poz,']
+- replace: 'create it '
+  _tags: [to, can, else, would, pronoun, frequent-verb]
+  allow_duplicate: true
+  _note: frequent-verb::create
+  propagate_case: true
+  triggers: ['qwx,']
+- replace: 'create the '
+  _tags: [to, can, else, article, frequent-verb]
+  allow_duplicate: true
+  _note: frequent-verb::create
+  propagate_case: true
+  triggers: ['qw`h,']
+- replace: 'create it '
+  _tags: [to, can, else, pronoun, frequent-verb]
+  allow_duplicate: true
+  _note: frequent-verb::create
+  propagate_case: true
+  triggers: ['qw`x,']
+- replace: 'create this '
+  _tags: [to, can, else, demonstrative, frequent-verb]
+  allow_duplicate: true
+  _note: frequent-verb::create
+  propagate_case: true
+  triggers: ['qw`iz,']
+- replace: 'create that '
+  _tags: [to, can, else, demonstrative, frequent-verb]
+  allow_duplicate: true
+  _note: frequent-verb::create
+  propagate_case: true
+  triggers: ['qw`az,']
+- replace: 'create these '
+  _tags: [to, can, else, demonstrative, frequent-verb]
+  allow_duplicate: true
+  _note: frequent-verb::create
+  propagate_case: true
+  triggers: ['qw`ez,']
+- replace: 'create those '
+  _tags: [to, can, else, demonstrative, frequent-verb]
+  allow_duplicate: true
+  _note: frequent-verb::create
+  propagate_case: true
+  triggers: ['qw`oz,']
+- replace: 'add the '
+  _tags: [would, article, frequent-verb]
+  allow_duplicate: true
+  _note: frequent-verb::add
+  propagate_case: true
+  triggers: ['+h,']
+- replace: 'add it '
+  _tags: [would, pronoun, frequent-verb]
+  allow_duplicate: true
+  _note: frequent-verb::add
+  propagate_case: true
+  triggers: ['+x,']
+- replace: 'add this '
+  _tags: [would, demonstrative, frequent-verb]
+  allow_duplicate: true
+  _note: frequent-verb::add
+  propagate_case: true
+  triggers: ['+iz,']
+- replace: 'add that '
+  _tags: [would, demonstrative, frequent-verb]
+  allow_duplicate: true
+  _note: frequent-verb::add
+  propagate_case: true
+  triggers: ['+az,']
+- replace: 'add these '
+  _tags: [would, demonstrative, frequent-verb]
+  allow_duplicate: true
+  _note: frequent-verb::add
+  propagate_case: true
+  triggers: ['+ez,']
+- replace: 'add those '
+  _tags: [would, demonstrative, frequent-verb]
+  allow_duplicate: true
+  _note: frequent-verb::add
+  propagate_case: true
+  triggers: ['+oz,']
+- replace: 'add them '
+  _tags: [would, pronoun, frequent-verb]
+  allow_duplicate: true
+  _note: frequent-verb::add
+  propagate_case: true
+  triggers: ['+mm,']
+- replace: 'write the '
+  _tags: [will, to, else, pronoun, article, frequent-verb]
+  allow_duplicate: true
+  _note: frequent-verb::write
+  propagate_case: true
+  triggers: ['wwih,']
+- replace: 'write it '
+  _tags: [will, to, else, pronoun, frequent-verb]
+  allow_duplicate: true
+  _note: frequent-verb::write
+  propagate_case: true
+  triggers: ['wwix,']
+- replace: 'write this '
+  _tags: [will, to, else, pronoun, demonstrative, frequent-verb]
+  allow_duplicate: true
+  _note: frequent-verb::write
+  propagate_case: true
+  triggers: ['wwiiz,']
+- replace: 'write that '
+  _tags: [will, to, else, pronoun, demonstrative, frequent-verb]
+  allow_duplicate: true
+  _note: frequent-verb::write
+  propagate_case: true
+  triggers: ['wwiaz,']
+- replace: 'write these '
+  _tags: [will, to, else, pronoun, demonstrative, frequent-verb]
+  allow_duplicate: true
+  _note: frequent-verb::write
+  propagate_case: true
+  triggers: ['wwiez,']
+- replace: 'write those '
+  _tags: [will, to, else, pronoun, demonstrative, frequent-verb]
+  allow_duplicate: true
+  _note: frequent-verb::write
+  propagate_case: true
+  triggers: ['wwioz,']
+- replace: 'test the '
+  _tags: [the, can, else, article, frequent-verb]
+  allow_duplicate: true
+  _note: frequent-verb::test
+  propagate_case: true
+  triggers: ['tesh,']
+- replace: 'test it '
+  _tags: [the, can, else, pronoun, frequent-verb]
+  allow_duplicate: true
+  _note: frequent-verb::test
+  propagate_case: true
+  triggers: ['tesx,']
+- replace: 'test this '
+  _tags: [the, can, else, demonstrative, frequent-verb]
+  allow_duplicate: true
+  _note: frequent-verb::test
+  propagate_case: true
+  triggers: ['tesiz,']
+- replace: 'test that '
+  _tags: [the, can, else, demonstrative, frequent-verb]
+  allow_duplicate: true
+  _note: frequent-verb::test
+  propagate_case: true
+  triggers: ['tesaz,']
+- replace: 'test these '
+  _tags: [the, can, else, demonstrative, frequent-verb]
+  allow_duplicate: true
+  _note: frequent-verb::test
+  propagate_case: true
+  triggers: ['tesez,']
+- replace: 'test those '
+  _tags: [the, can, else, demonstrative, frequent-verb]
+  allow_duplicate: true
+  _note: frequent-verb::test
+  propagate_case: true
+  triggers: ['tesoz,']
+- replace: 'commit the '
+  _tags: [to, can, pronoun, article, frequent-verb]
+  allow_duplicate: true
+  _note: frequent-verb::commit
+  propagate_case: true
+  triggers: ['qmih,']
+- replace: 'commit it '
+  _tags: [to, can, pronoun, frequent-verb]
+  allow_duplicate: true
+  _note: frequent-verb::commit
+  propagate_case: true
+  triggers: ['qmix,']
+- replace: 'commit this '
+  _tags: [to, can, pronoun, demonstrative, frequent-verb]
+  allow_duplicate: true
+  _note: frequent-verb::commit
+  propagate_case: true
+  triggers: ['qmiiz,']
+- replace: 'commit that '
+  _tags: [to, can, pronoun, demonstrative, frequent-verb]
+  allow_duplicate: true
+  _note: frequent-verb::commit
+  propagate_case: true
+  triggers: ['qmiaz,']
+- replace: 'commit these '
+  _tags: [to, can, pronoun, demonstrative, frequent-verb]
+  allow_duplicate: true
+  _note: frequent-verb::commit
+  propagate_case: true
+  triggers: ['qmiez,']
+- replace: 'commit those '
+  _tags: [to, can, pronoun, demonstrative, frequent-verb]
+  allow_duplicate: true
+  _note: frequent-verb::commit
+  propagate_case: true
+  triggers: ['qmioz,']
+- replace: 'complete the '
+  _tags: [can, pronoun, article, frequent-verb]
+  allow_duplicate: true
+  _note: frequent-verb::complete
+  propagate_case: true
+  triggers: ['qplh,']
+- replace: 'complete this '
+  _tags: [can, pronoun, demonstrative, frequent-verb]
+  allow_duplicate: true
+  _note: frequent-verb::complete
+  propagate_case: true
+  triggers: ['qpliz,']
+- replace: 'complete that '
+  _tags: [can, pronoun, demonstrative, frequent-verb]
+  allow_duplicate: true
+  _note: frequent-verb::complete
+  propagate_case: true
+  triggers: ['qplaz,']
+- replace: 'complete these '
+  _tags: [can, pronoun, demonstrative, frequent-verb]
+  allow_duplicate: true
+  _note: frequent-verb::complete
+  propagate_case: true
+  triggers: ['qplez,']
+- replace: 'complete those '
+  _tags: [can, pronoun, demonstrative, frequent-verb]
+  allow_duplicate: true
+  _note: frequent-verb::complete
+  propagate_case: true
+  triggers: ['qploz,']
+- replace: 'provide the '
+  _tags: [would, else, pronoun, article, frequent-verb]
+  allow_duplicate: true
+  _note: frequent-verb::provide
+  propagate_case: true
+  triggers: ['pwjih,']
+- replace: 'provide it '
+  _tags: [would, else, pronoun, frequent-verb]
+  allow_duplicate: true
+  _note: frequent-verb::provide
+  propagate_case: true
+  triggers: ['pwjix,']
+- replace: 'provide this '
+  _tags: [would, else, pronoun, demonstrative, frequent-verb]
+  allow_duplicate: true
+  _note: frequent-verb::provide
+  propagate_case: true
+  triggers: ['pwjiiz,']
+- replace: 'provide that '
+  _tags: [would, else, pronoun, demonstrative, frequent-verb]
+  allow_duplicate: true
+  _note: frequent-verb::provide
+  propagate_case: true
+  triggers: ['pwjiaz,']
+- replace: 'provide these '
+  _tags: [would, else, pronoun, demonstrative, frequent-verb]
+  allow_duplicate: true
+  _note: frequent-verb::provide
+  propagate_case: true
+  triggers: ['pwjiez,']
+- replace: 'provide those '
+  _tags: [would, else, pronoun, demonstrative, frequent-verb]
+  allow_duplicate: true
+  _note: frequent-verb::provide
+  propagate_case: true
+  triggers: ['pwjioz,']
+- replace: 'place the '
+  _tags: [place, can, else, article, frequent-verb]
+  allow_duplicate: true
+  _note: frequent-verb::place
+  propagate_case: true
+  triggers: ['plah,']
+- replace: 'place it '
+  _tags: [place, can, else, pronoun, frequent-verb]
+  allow_duplicate: true
+  _note: frequent-verb::place
+  propagate_case: true
+  triggers: ['plax,']
+- replace: 'place this '
+  _tags: [place, can, else, demonstrative, frequent-verb]
+  allow_duplicate: true
+  _note: frequent-verb::place
+  propagate_case: true
+  triggers: ['plaiz,']
+- replace: 'place that '
+  _tags: [place, can, else, demonstrative, frequent-verb]
+  allow_duplicate: true
+  _note: frequent-verb::place
+  propagate_case: true
+  triggers: ['plaaz,']
+- replace: 'place these '
+  _tags: [place, can, else, demonstrative, frequent-verb]
+  allow_duplicate: true
+  _note: frequent-verb::place
+  propagate_case: true
+  triggers: ['plaez,']
+- replace: 'place those '
+  _tags: [place, can, else, demonstrative, frequent-verb]
+  allow_duplicate: true
+  _note: frequent-verb::place
+  propagate_case: true
+  triggers: ['plaoz,']
+- replace: 'search the '
+  _tags: [the, can, else, article, frequent-verb]
+  allow_duplicate: true
+  _note: frequent-verb::search
+  propagate_case: true
+  triggers: ['seah,']
+- replace: 'search it '
+  _tags: [the, can, else, pronoun, frequent-verb]
+  allow_duplicate: true
+  _note: frequent-verb::search
+  propagate_case: true
+  triggers: ['seax,']
+- replace: 'search this '
+  _tags: [the, can, else, demonstrative, frequent-verb]
+  allow_duplicate: true
+  _note: frequent-verb::search
+  propagate_case: true
+  triggers: ['seaiz,']
+- replace: 'search that '
+  _tags: [the, can, else, demonstrative, frequent-verb]
+  allow_duplicate: true
+  _note: frequent-verb::search
+  propagate_case: true
+  triggers: ['seaaz,']
+- replace: 'search these '
+  _tags: [the, can, else, demonstrative, frequent-verb]
+  allow_duplicate: true
+  _note: frequent-verb::search
+  propagate_case: true
+  triggers: ['seaez,']
+- replace: 'search those '
+  _tags: [the, can, else, demonstrative, frequent-verb]
+  allow_duplicate: true
+  _note: frequent-verb::search
+  propagate_case: true
+  triggers: ['seaoz,']
+- replace: 'process the '
+  _tags: [can, else, article, frequent-verb]
+  allow_duplicate: true
+  _note: frequent-verb::process
+  propagate_case: true
+  triggers: ['pwqh,']
+- replace: 'process it '
+  _tags: [can, else, pronoun, frequent-verb]
+  allow_duplicate: true
+  _note: frequent-verb::process
+  propagate_case: true
+  triggers: ['pwqx,']
+- replace: 'process this '
+  _tags: [can, else, demonstrative, frequent-verb]
+  allow_duplicate: true
+  _note: frequent-verb::process
+  propagate_case: true
+  triggers: ['pwqiz,']
+- replace: 'process that '
+  _tags: [can, else, demonstrative, frequent-verb]
+  allow_duplicate: true
+  _note: frequent-verb::process
+  propagate_case: true
+  triggers: ['pwqaz,']
+- replace: 'process these '
+  _tags: [can, else, demonstrative, frequent-verb]
+  allow_duplicate: true
+  _note: frequent-verb::process
+  propagate_case: true
+  triggers: ['pwqez,']
+- replace: 'process those '
+  _tags: [can, else, demonstrative, frequent-verb]
+  allow_duplicate: true
+  _note: frequent-verb::process
+  propagate_case: true
+  triggers: ['pwqoz,']
+- replace: 'document it '
+  _tags: [to, can, else, would, pronoun, frequent-verb]
+  allow_duplicate: true
+  _note: frequent-verb::document
+  propagate_case: true
+  triggers: ['doqx,']
+- replace: 'execute the '
+  _tags: [to, can, else, article, frequent-verb]
+  allow_duplicate: true
+  _note: frequent-verb::execute
+  propagate_case: true
+  triggers: ['exeh,']
+- replace: 'execute it '
+  _tags: [to, can, else, pronoun, frequent-verb]
+  allow_duplicate: true
+  _note: frequent-verb::execute
+  propagate_case: true
+  triggers: ['exex,']
+- replace: 'execute this '
+  _tags: [to, can, else, demonstrative, frequent-verb]
+  allow_duplicate: true
+  _note: frequent-verb::execute
+  propagate_case: true
+  triggers: ['exeiz,']
+- replace: 'execute that '
+  _tags: [to, can, else, demonstrative, frequent-verb]
+  allow_duplicate: true
+  _note: frequent-verb::execute
+  propagate_case: true
+  triggers: ['exeaz,']
+- replace: 'execute these '
+  _tags: [to, can, else, demonstrative, frequent-verb]
+  allow_duplicate: true
+  _note: frequent-verb::execute
+  propagate_case: true
+  triggers: ['exeez,']
+- replace: 'execute those '
+  _tags: [to, can, else, demonstrative, frequent-verb]
+  allow_duplicate: true
+  _note: frequent-verb::execute
+  propagate_case: true
+  triggers: ['exeoz,']
+- replace: 'explain the '
+  _tags: [pronoun, else, article, frequent-verb]
+  allow_duplicate: true
+  _note: frequent-verb::explain
+  propagate_case: true
+  triggers: ['explh,']
+- replace: 'explain it '
+  _tags: [pronoun, else, frequent-verb]
+  allow_duplicate: true
+  _note: frequent-verb::explain
+  propagate_case: true
+  triggers: ['explx,']
+- replace: 'explain this '
+  _tags: [pronoun, else, demonstrative, frequent-verb]
+  allow_duplicate: true
+  _note: frequent-verb::explain
+  propagate_case: true
+  triggers: ['expliz,']
+- replace: 'explain that '
+  _tags: [pronoun, else, demonstrative, frequent-verb]
+  allow_duplicate: true
+  _note: frequent-verb::explain
+  propagate_case: true
+  triggers: ['explaz,']
+- replace: 'explain these '
+  _tags: [pronoun, else, demonstrative, frequent-verb]
+  allow_duplicate: true
+  _note: frequent-verb::explain
+  propagate_case: true
+  triggers: ['explez,']
+- replace: 'explain those '
+  _tags: [pronoun, else, demonstrative, frequent-verb]
+  allow_duplicate: true
+  _note: frequent-verb::explain
+  propagate_case: true
+  triggers: ['exploz,']
+- triggers: ['imph,', 'implh,']
+  replace: 'implement the '
+  _tags: [to, else, pronoun, article, frequent-verb]
+  allow_duplicate: true
+  _note: frequent-verb::implement
+  propagate_case: true
+- triggers: ['implx,', 'impx,']
+  replace: 'implement it '
+  _tags: [to, else, pronoun, frequent-verb]
+  allow_duplicate: true
+  _note: frequent-verb::implement
+  propagate_case: true
+- triggers: ['impiz,', 'impliz,']
+  replace: 'implement this '
+  _tags: [to, else, pronoun, demonstrative, frequent-verb]
+  allow_duplicate: true
+  _note: frequent-verb::implement
+  propagate_case: true
+- triggers: ['impaz,', 'implaz,']
+  replace: 'implement that '
+  _tags: [to, else, pronoun, demonstrative, frequent-verb]
+  allow_duplicate: true
+  _note: frequent-verb::implement
+  propagate_case: true
+- triggers: ['impez,', 'implez,']
+  replace: 'implement these '
+  _tags: [to, else, pronoun, demonstrative, frequent-verb]
+  allow_duplicate: true
+  _note: frequent-verb::implement
+  propagate_case: true
+- triggers: ['imploz,', 'impoz,']
+  replace: 'implement those '
+  _tags: [to, else, pronoun, demonstrative, frequent-verb]
+  allow_duplicate: true
+  _note: frequent-verb::implement
+  propagate_case: true
+- replace: 'clear the '
+  _tags: [the, can, else, article, frequent-verb]
+  allow_duplicate: true
+  _note: frequent-verb::clear
+  propagate_case: true
+  triggers: ['qleh,']
+- replace: 'clear it '
+  _tags: [the, can, else, pronoun, frequent-verb]
+  allow_duplicate: true
+  _note: frequent-verb::clear
+  propagate_case: true
+  triggers: ['qlex,']
+- replace: 'clear this '
+  _tags: [the, can, else, demonstrative, frequent-verb]
+  allow_duplicate: true
+  _note: frequent-verb::clear
+  propagate_case: true
+  triggers: ['qleiz,']
+- replace: 'clear that '
+  _tags: [the, can, else, demonstrative, frequent-verb]
+  allow_duplicate: true
+  _note: frequent-verb::clear
+  propagate_case: true
+  triggers: ['qleaz,']
+- replace: 'clear these '
+  _tags: [the, can, else, demonstrative, frequent-verb]
+  allow_duplicate: true
+  _note: frequent-verb::clear
+  propagate_case: true
+  triggers: ['qleez,']
+- replace: 'clear those '
+  _tags: [the, can, else, demonstrative, frequent-verb]
+  allow_duplicate: true
+  _note: frequent-verb::clear
+  propagate_case: true
+  triggers: ['qleoz,']
+- replace: 'consider the '
+  _tags: [pronoun, can, else, would, article, frequent-verb]
+  allow_duplicate: true
+  _note: frequent-verb::consider
+  propagate_case: true
+  triggers: ['qnsih,']
+- replace: 'consider it '
+  _tags: [pronoun, can, else, would, frequent-verb]
+  allow_duplicate: true
+  _note: frequent-verb::consider
+  propagate_case: true
+  triggers: ['qnsix,']
+- replace: 'build the '
+  _tags: [would, else, pronoun, article, frequent-verb]
+  allow_duplicate: true
+  _note: frequent-verb::build
+  propagate_case: true
+  triggers: ['builh,']
+- replace: 'build it '
+  _tags: [would, else, pronoun, frequent-verb]
+  allow_duplicate: true
+  _note: frequent-verb::build
+  propagate_case: true
+  triggers: ['builx,']
+- replace: 'build this '
+  _tags: [would, else, pronoun, demonstrative, frequent-verb]
+  allow_duplicate: true
+  _note: frequent-verb::build
+  propagate_case: true
+  triggers: ['builiz,']
+- replace: 'build that '
+  _tags: [would, else, pronoun, demonstrative, frequent-verb]
+  allow_duplicate: true
+  _note: frequent-verb::build
+  propagate_case: true
+  triggers: ['builaz,']
+- replace: 'build these '
+  _tags: [would, else, pronoun, demonstrative, frequent-verb]
+  allow_duplicate: true
+  _note: frequent-verb::build
+  propagate_case: true
+  triggers: ['builez,']
+- replace: 'build those '
+  _tags: [would, else, pronoun, demonstrative, frequent-verb]
+  allow_duplicate: true
+  _note: frequent-verb::build
+  propagate_case: true
+  triggers: ['builoz,']
+- replace: 'build the '
+  _tags: [would, else, pronoun, article, frequent-verb]
+  allow_duplicate: true
+  _note: frequent-verb::build
+  propagate_case: true
+  triggers: ['bldh,']
+- replace: 'build it '
+  _tags: [would, else, pronoun, frequent-verb]
+  allow_duplicate: true
+  _note: frequent-verb::build
+  propagate_case: true
+  triggers: ['bldx,']
+- replace: 'build this '
+  _tags: [would, else, pronoun, demonstrative, frequent-verb]
+  allow_duplicate: true
+  _note: frequent-verb::build
+  propagate_case: true
+  triggers: ['bldiz,']
+- replace: 'build that '
+  _tags: [would, else, pronoun, demonstrative, frequent-verb]
+  allow_duplicate: true
+  _note: frequent-verb::build
+  propagate_case: true
+  triggers: ['bldaz,']
+- replace: 'build these '
+  _tags: [would, else, pronoun, demonstrative, frequent-verb]
+  allow_duplicate: true
+  _note: frequent-verb::build
+  propagate_case: true
+  triggers: ['bldez,']
+- replace: 'build those '
+  _tags: [would, else, pronoun, demonstrative, frequent-verb]
+  allow_duplicate: true
+  _note: frequent-verb::build
+  propagate_case: true
+  triggers: ['bldoz,']
+- replace: 'analyze the '
+  _tags: [else, article, frequent-verb]
+  allow_duplicate: true
+  _note: frequent-verb::analyze
+  propagate_case: true
+  triggers: ['anah,']
+- replace: 'analyze it '
+  _tags: [else, pronoun, frequent-verb]
+  allow_duplicate: true
+  _note: frequent-verb::analyze
+  propagate_case: true
+  triggers: ['anax,']
+- replace: 'analyze this '
+  _tags: [else, demonstrative, frequent-verb]
+  allow_duplicate: true
+  _note: frequent-verb::analyze
+  propagate_case: true
+  triggers: ['anaiz,']
+- replace: 'analyze that '
+  _tags: [else, demonstrative, frequent-verb]
+  allow_duplicate: true
+  _note: frequent-verb::analyze
+  propagate_case: true
+  triggers: ['anaaz,']
+- replace: 'analyze these '
+  _tags: [else, demonstrative, frequent-verb]
+  allow_duplicate: true
+  _note: frequent-verb::analyze
+  propagate_case: true
+  triggers: ['anaez,']
+- replace: 'analyze those '
+  _tags: [else, demonstrative, frequent-verb]
+  allow_duplicate: true
+  _note: frequent-verb::analyze
+  propagate_case: true
+  triggers: ['anaoz,']
+- replace: 'move it '
+  _tags: [to, can, else, pronoun, frequent-verb]
+  allow_duplicate: true
+  _note: frequent-verb::move
+  propagate_case: true
+  triggers: ['mzx,']
+- replace: 'follow the '
+  _tags: [will, else, article, frequent-verb]
+  allow_duplicate: true
+  _note: frequent-verb::follow
+  propagate_case: true
+  triggers: ['folh,']
+- replace: 'list it '
+  _tags: [else, pronoun, frequent-verb]
+  allow_duplicate: true
+  _note: frequent-verb::list
+  propagate_case: true
+  triggers: ['lsx,']
+- replace: 'list them '
+  _tags: [else, pronoun, frequent-verb]
+  allow_duplicate: true
+  _note: frequent-verb::list
+  propagate_case: true
+  triggers: ['lsmm,']
+- replace: 'list that '
+  _tags: [else, demonstrative, frequent-verb]
+  allow_duplicate: true
+  _note: frequent-verb::list
+  propagate_case: true
+  triggers: ['lsaz,']
+- replace: 'list this '
+  _tags: [else, demonstrative, frequent-verb]
+  allow_duplicate: true
+  _note: frequent-verb::list
+  propagate_case: true
+  triggers: ['lsiz,']
+- replace: 'apply it '
+  _tags: [else, pronoun, frequent-verb]
+  allow_duplicate: true
+  _note: frequent-verb::apply
+  propagate_case: true
+  triggers: ['appx,']
+- replace: 'generate it '
+  _tags: [else, pronoun, frequent-verb]
+  allow_duplicate: true
+  _note: frequent-verb::generate
+  propagate_case: true
+  triggers: ['genx,']
+- replace: 'open it '
+  _tags: [else, pronoun, frequent-verb]
+  allow_duplicate: true
+  _note: frequent-verb::open
+  propagate_case: true
+  triggers: ['opex,']
+- replace: 'merge it '
+  _tags: [else, pronoun, frequent-verb]
+  allow_duplicate: true
+  _note: frequent-verb::merge
+  propagate_case: true
+  triggers: ['mewx,']
+- replace: 'save it '
+  _tags: [else, pronoun, frequent-verb]
+  allow_duplicate: true
+  _note: frequent-verb::save
+  propagate_case: true
+  triggers: ['sjx,']
+- replace: 'verify it '
+  _tags: [else, pronoun, frequent-verb]
+  allow_duplicate: true
+  _note: frequent-verb::verify
+  propagate_case: true
+  triggers: ['jewix,']
+- replace: 'copy it '
+  _tags: [else, pronoun, frequent-verb]
+  allow_duplicate: true
+  _note: frequent-verb::copy
+  propagate_case: true
+  triggers: ['qpx,']
+- replace: 'format it '
+  _tags: [else, pronoun, frequent-verb]
+  allow_duplicate: true
+  _note: frequent-verb::format
+  propagate_case: true
+  triggers: ['fowmx,']
+- replace: 'fetch it '
+  _tags: [else, pronoun, frequent-verb]
+  allow_duplicate: true
+  _note: frequent-verb::fetch
+  propagate_case: true
+  triggers: ['fetx,']
+- replace: 'link it '
+  _tags: [else, pronoun, frequent-verb]
+  allow_duplicate: true
+  _note: frequent-verb::link
+  propagate_case: true
+  triggers: ['lnkx,']
+- replace: 'restart it '
+  _tags: [else, pronoun, frequent-verb]
+  allow_duplicate: true
+  _note: frequent-verb::restart
+  propagate_case: true
+  triggers: ['rssax,']
+- replace: 'switch it '
+  _tags: [else, pronoun, frequent-verb]
+  allow_duplicate: true
+  _note: frequent-verb::switch
+  propagate_case: true
+  triggers: ['swix,']
+- replace: 'delegate '
+  _tags: [to, can, else, frequent-verb]
+  _note: frequent-verb::delegate
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['dele,']
+- replace: 'delegates '
+  _tags: [to, can, else, frequent-verb]
+  _note: frequent-verb::delegate
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['deles,']
+- replace: 'delegating '
+  _tags: [ing, to, can, else, frequent-verb]
+  _note: frequent-verb::delegate
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['delei,']
+- replace: 'delegated '
+  _tags: [ed, would, to, can, else, frequent-verb]
+  _note: frequent-verb::delegate
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['delep,']
+- replace: 'delegation '
+  _tags: [noun, to, can, else, frequent-verb]
+  _note: frequent-verb::delegate
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['delem,']
+- replace: 'delegator '
+  _tags: [noun, to, can, else, frequent-verb]
+  _note: frequent-verb::delegate
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['delew,']
+- replace: 'delegate this '
+  _tags: [to, can, else, demonstrative, frequent-verb]
+  _note: frequent-verb::delegate
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['deleiz,']
+- replace: 'delegate that '
+  _tags: [to, can, else, demonstrative, frequent-verb]
+  _note: frequent-verb::delegate
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['deleaz,']
+- replace: 'delegate these '
+  _tags: [to, can, else, demonstrative, frequent-verb]
+  _note: frequent-verb::delegate
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['deleez,']
+- replace: 'delegate those '
+  _tags: [to, can, else, demonstrative, frequent-verb]
+  _note: frequent-verb::delegate
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['deleoz,']
+- replace: 'deploy it '
+  _tags: [else, pronoun, frequent-verb]
+  allow_duplicate: true
+  _note: frequent-verb::deploy
+  propagate_case: true
+  triggers: ['deplx,']
+- replace: 'extract it '
+  _tags: [else, pronoun, frequent-verb]
+  allow_duplicate: true
+  _note: frequent-verb::extract
+  propagate_case: true
+  triggers: ['extrx,']
+- replace: 'regenerate it '
+  _tags: [else, pronoun, frequent-verb]
+  allow_duplicate: true
+  _note: frequent-verb::regenerate
+  propagate_case: true
+  triggers: ['rgenx,']
+- replace: 'show it '
+  _tags: [else, pronoun, frequent-verb]
+  allow_duplicate: true
+  _note: frequent-verb::show
+  propagate_case: true
+  triggers: ['shwx,']
+- replace: 'enable it '
+  _tags: [else, pronoun, frequent-verb]
+  allow_duplicate: true
+  _note: frequent-verb::enable
+  propagate_case: true
+  triggers: ['enax,']
+- replace: 'print it '
+  _tags: [else, pronoun, frequent-verb]
+  allow_duplicate: true
+  _note: frequent-verb::print
+  propagate_case: true
+  triggers: ['pwmx,']
+- replace: 'compare it '
+  _tags: [else, pronoun, frequent-verb]
+  allow_duplicate: true
+  _note: frequent-verb::compare
+  propagate_case: true
+  triggers: ['qmpwx,']
+- replace: 'it need '
+  _tags: [to, can, else, pronoun, frequent-verb]
+  allow_duplicate: true
+  _note: frequent-verb::it-need
+  propagate_case: true
+  triggers: ['xnd,']
+- replace: 'follow it '
+  _tags: [will, else, pronoun, frequent-verb]
+  allow_duplicate: true
+  _note: frequent-verb::follow
+  propagate_case: true
+  triggers: ['folx,']
+- replace: 'follow this '
+  _tags: [will, else, demonstrative, frequent-verb]
+  allow_duplicate: true
+  _note: frequent-verb::follow
+  propagate_case: true
+  triggers: ['foliz,']
+- replace: 'follow that '
+  _tags: [will, else, demonstrative, frequent-verb]
+  allow_duplicate: true
+  _note: frequent-verb::follow
+  propagate_case: true
+  triggers: ['folaz,']
+- replace: 'follow these '
+  _tags: [will, else, demonstrative, frequent-verb]
+  allow_duplicate: true
+  _note: frequent-verb::follow
+  propagate_case: true
+  triggers: ['folez,']
+- replace: 'follow those '
+  _tags: [will, else, demonstrative, frequent-verb]
+  allow_duplicate: true
+  _note: frequent-verb::follow
+  propagate_case: true
+  triggers: ['foloz,']
+- replace: 'follow up '
+  _tags: [verb, phrasal, to, else, frequent-verb]
+  _note: frequent-verb::follow-up
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['folu,']
+- replace: 'follow up the '
+  _tags: [verb, phrasal, article, to, else, frequent-verb]
+  _note: frequent-verb::follow-up
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['foluh,']
+- replace: 'follow up it '
+  _tags: [verb, phrasal, pronoun, to, else, frequent-verb]
+  _note: frequent-verb::follow-up
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['folux,']
+- replace: 'follow up this '
+  _tags: [verb, phrasal, demonstrative, to, else, frequent-verb]
+  _note: frequent-verb::follow-up
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['foluiz,']
+- replace: 'follow up that '
+  _tags: [verb, phrasal, demonstrative, to, else, frequent-verb]
+  _note: frequent-verb::follow-up
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['foluaz,']
+- replace: 'follow up these '
+  _tags: [verb, phrasal, demonstrative, to, else, frequent-verb]
+  _note: frequent-verb::follow-up
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['foluez,']
+- replace: 'follow up those '
+  _tags: [verb, phrasal, demonstrative, to, else, frequent-verb]
+  _note: frequent-verb::follow-up
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['foluoz,']
+- replace: 'check up '
+  _tags: [verb, phrasal, to, else, frequent-verb]
+  _note: frequent-verb::check-up
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['checku,']
+- replace: 'check up the '
+  _tags: [verb, phrasal, article, to, else, frequent-verb]
+  _note: frequent-verb::check-up
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['checkuh,']
+- replace: 'check up it '
+  _tags: [verb, phrasal, pronoun, to, else, frequent-verb]
+  _note: frequent-verb::check-up
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['checkux,']
+- replace: 'check up this '
+  _tags: [verb, phrasal, demonstrative, to, else, frequent-verb]
+  _note: frequent-verb::check-up
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['checkuiz,']
+- replace: 'check up that '
+  _tags: [verb, phrasal, demonstrative, to, else, frequent-verb]
+  _note: frequent-verb::check-up
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['checkuaz,']
+- replace: 'check up these '
+  _tags: [verb, phrasal, demonstrative, to, else, frequent-verb]
+  _note: frequent-verb::check-up
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['checkuez,']
+- replace: 'check up those '
+  _tags: [verb, phrasal, demonstrative, to, else, frequent-verb]
+  _note: frequent-verb::check-up
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['checkuoz,']
+- replace: 'give up '
+  _tags: [verb, phrasal, to, else, frequent-verb]
+  _note: frequent-verb::give-up
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['giveu,']
+- replace: 'give up the '
+  _tags: [verb, phrasal, article, to, else, frequent-verb]
+  _note: frequent-verb::give-up
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['giveuh,']
+- replace: 'give up it '
+  _tags: [verb, phrasal, pronoun, to, else, frequent-verb]
+  _note: frequent-verb::give-up
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['giveux,']
+- replace: 'give up this '
+  _tags: [verb, phrasal, demonstrative, to, else, frequent-verb]
+  _note: frequent-verb::give-up
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['giveuiz,']
+- replace: 'give up that '
+  _tags: [verb, phrasal, demonstrative, to, else, frequent-verb]
+  _note: frequent-verb::give-up
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['giveuaz,']
+- replace: 'give up these '
+  _tags: [verb, phrasal, demonstrative, to, else, frequent-verb]
+  _note: frequent-verb::give-up
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['giveuez,']
+- replace: 'give up those '
+  _tags: [verb, phrasal, demonstrative, to, else, frequent-verb]
+  _note: frequent-verb::give-up
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['giveuoz,']
+- replace: 'ensure '
+  _tags: [to, can, else, frequent-verb]
+  _note: frequent-verb::ensure
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['ens,']
+- replace: 'ensures '
+  _tags: [to, can, else, frequent-verb]
+  _note: frequent-verb::ensure
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['enss,']
+- replace: 'ensuring '
+  _tags: [ing, to, can, else, frequent-verb]
+  _note: frequent-verb::ensure
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['ensi,']
+- replace: 'ensured '
+  _tags: [ed, would, to, can, else, frequent-verb]
+  _note: frequent-verb::ensure
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['ensp,']
+- replace: 'ensure the '
+  _tags: [to, can, else, article, frequent-verb]
+  _note: frequent-verb::ensure
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['ensh,']
+- replace: 'ensure it '
+  _tags: [to, can, else, pronoun, frequent-verb]
+  _note: frequent-verb::ensure
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['ensx,']
+- replace: 'ensure this '
+  _tags: [to, can, else, demonstrative, frequent-verb]
+  _note: frequent-verb::ensure
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['ensiz,']
+- replace: 'ensure that '
+  _tags: [to, can, else, demonstrative, frequent-verb]
+  _note: frequent-verb::ensure
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['ensaz,']
+- replace: 'ensure these '
+  _tags: [to, can, else, demonstrative, frequent-verb]
+  _note: frequent-verb::ensure
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['ensez,']
+- replace: 'ensure those '
+  _tags: [to, can, else, demonstrative, frequent-verb]
+  _note: frequent-verb::ensure
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['ensoz,']
+- replace: 'delegator '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['deleo,']

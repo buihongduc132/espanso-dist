@@ -1,0 +1,72 @@
+# ⚠️  WARNING: AUTO-GENERATED FILE - DO NOT EDIT DIRECTLY!
+# This file is generated from word_version by:
+#   scripts/convert_to_tokenized_word_version.py
+# Edit source in space_version and re-run conversions.
+# Tokenizes trailing spaces in triggers to an explicit token.
+# Removes right_word property for tokenized version.
+# Adds trailing space to replacements that don't have one.
+# Current token: ','
+
+name: thh-wh-xou-combinations
+parent: default
+matches:
+- replace: 'what would '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['wtwou,']
+- replace: 'where would '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['wrwou,']
+- replace: 'when would '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['wnwou,']
+- replace: 'why would '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['wywou,']
+- replace: 'how would '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['hwwou,']
+- replace: 'what could '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['wtqou,']
+- replace: 'where could '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['wrqou,']
+- replace: 'when could '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['wnqou,']
+- replace: 'why could '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['wyqou,']
+- replace: 'how could '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['hwqou,']
+- replace: 'what should '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['wtsou,']
+- replace: 'where should '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['wrsou,']
+- replace: 'when should '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['wnsou,']
+- replace: 'why should '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['wysou,']
+- replace: 'how should '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['hwsou,']

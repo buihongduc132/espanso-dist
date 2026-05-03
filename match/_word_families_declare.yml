@@ -1,0 +1,67 @@
+# ⚠️  WARNING: AUTO-GENERATED FILE - DO NOT EDIT DIRECTLY!
+# This file is generated from word_version by:
+#   scripts/convert_to_tokenized_word_version.py
+# Edit source in space_version and re-run conversions.
+# Tokenizes trailing spaces in triggers to an explicit token.
+# Removes right_word property for tokenized version.
+# Adds trailing space to replacements that don't have one.
+# Current token: ','
+
+name: word-families-declare
+parent: default
+matches:
+- replace: 'declare '
+  _tags: [to, can, else, verb]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['dqle,']
+- replace: 'declares '
+  _tags: [to, can, else, verb]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['dqles,']
+- replace: 'declaring '
+  _tags: [ing, to, can, else, verb]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['dqlei,']
+- replace: 'declared '
+  _tags: [ed, would, to, can, else, verb]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['dqlep,']
+- replace: 'declaration '
+  _tags: [noun, to, can, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['dqlem,']
+- replace: 'declarative '
+  _tags: [adjective, to, can, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['dqlej,']
+- replace: 'declaratively '
+  _tags: [adverb, to, can, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['dqlejl,']
+- replace: 'declare this '
+  _tags: [demonstrative, to, can, else, verb]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['dqleiz,']
+- replace: 'declare that '
+  _tags: [demonstrative, to, can, else, verb]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['dqleaz,']
+- replace: 'declare these '
+  _tags: [demonstrative, to, can, else, verb]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['dqleez,']
+- replace: 'declare those '
+  _tags: [demonstrative, to, can, else, verb]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['dqleoz,']

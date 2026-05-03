@@ -1,0 +1,189 @@
+# ⚠️  WARNING: AUTO-GENERATED FILE - DO NOT EDIT DIRECTLY!
+# This file is generated from word_version by:
+#   scripts/convert_to_tokenized_word_version.py
+# Edit source in space_version and re-run conversions.
+# Tokenizes trailing spaces in triggers to an explicit token.
+# Removes right_word property for tokenized version.
+# Adds trailing space to replacements that don't have one.
+# Current token: ','
+
+matches:
+- replace: 'create '
+  _tags: [to, can, else, would]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['qw,']
+- replace: 'creates '
+  _tags: [to, can, else, would]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['qws,']
+- replace: 'creating '
+  _tags: [ing, to, can, else, would]
+  allow_duplicate: true
+  propagate_case: true
+  triggers: ['qwi,']
+- replace: 'created '
+  _tags: [ed, to, can, else, would]
+  allow_duplicate: true
+  propagate_case: true
+  triggers: ['qwp,']
+- replace: 'creator '
+  _tags: [noun, to, can, else]
+  allow_duplicate: true
+  propagate_case: true
+  triggers: ['qww,']
+- replace: 'creation '
+  _tags: [noun, to, can, else]
+  allow_duplicate: true
+  propagate_case: true
+  triggers: ['qwm,']
+- replace: 'creatable '
+  _tags: [adjective, to, can, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['qwb,']
+- replace: 'create ticket '
+  _tags: [software, to, can, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['qwtik,']
+- replace: 'create pr '
+  _tags: [software, git, to, can, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['qwpw,']
+- replace: 'create merge '
+  _tags: [software, git, to, can, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['qwme,']
+- replace: 'create branch '
+  _tags: [software, git, to, can, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['qwbw,']
+- replace: 'create repository '
+  _tags: [software, git, to, can, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['qwwepo,']
+- replace: 'create repository '
+  _tags: [software, git, to, can, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['qwpo,']
+- replace: 'create file '
+  _tags: [software, to, can, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['qwfile,']
+- replace: 'create file '
+  _tags: [software, to, can, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['qwfl,']
+- replace: 'create directory '
+  _tags: [software, to, can, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['qwdiw,']
+- replace: 'create database '
+  _tags: [software, to, can, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['qwdb,']
+- replace: 'create table '
+  _tags: [software, database, to, can, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['qwtable,']
+- replace: 'create table '
+  _tags: [software, database, to, can, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['qwtb,']
+- replace: 'create api '
+  _tags: [software, to, can, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['qwapi,']
+- replace: 'create test '
+  _tags: [software, to, can, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['qwtest,']
+- replace: 'create test '
+  _tags: [software, to, can, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['qwes,']
+- replace: 'create function '
+  _tags: [software, to, can, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['qwfunq,']
+- replace: 'create function '
+  _tags: [software, to, can, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['qwfn,']
+- replace: 'create class '
+  _tags: [software, to, can, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['qwqlass,']
+- replace: 'create class '
+  _tags: [software, to, can, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['qwqls,']
+- replace: 'create component '
+  _tags: [software, to, can, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['qwqmp,']
+- replace: 'create this '
+  _tags: [demonstrative, to, can, else, frequent-verb]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['qwiz,']
+- replace: 'create that '
+  _tags: [demonstrative, to, can, else, frequent-verb]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['qwaz,']
+- replace: 'create these '
+  _tags: [demonstrative, to, can, else, frequent-verb]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['qwez,']
+- replace: 'create those '
+  _tags: [demonstrative, to, can, else, frequent-verb]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['qwoz,']
+- replace: 'create the '
+  _tags: [article, to, can, else, frequent-verb]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['qwh,']
+- replace: 'create all '
+  _tags: [quantifier, to, can, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['qwa,']
+- replace: 'create some '
+  _tags: [quantifier, to, can, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['qwsm,']
+- replace: 'create each '
+  _tags: [quantifier, to, can, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['qweh,']
+- replace: 'creator '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['qwo,']

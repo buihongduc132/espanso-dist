@@ -1,0 +1,127 @@
+# ⚠️  WARNING: AUTO-GENERATED FILE - DO NOT EDIT DIRECTLY!
+# This file is generated from word_version by:
+#   scripts/convert_to_tokenized_word_version.py
+# Edit source in space_version and re-run conversions.
+# Tokenizes trailing spaces in triggers to an explicit token.
+# Removes right_word property for tokenized version.
+# Adds trailing space to replacements that don't have one.
+# Current token: ','
+
+name: word-families-close
+parent: default
+matches:
+- replace: 'close '
+  _tags: [the, can, else]
+  allow_duplicate: true
+  propagate_case: true
+  triggers: ['qlo,']
+- replace: 'closes '
+  _tags: [the, to, else]
+  allow_duplicate: true
+  propagate_case: true
+  triggers: ['qlos,']
+- replace: 'closing '
+  _tags: [the, ing, can, else]
+  allow_duplicate: true
+  propagate_case: true
+  triggers: ['qloi,']
+- replace: 'closed '
+  _tags: [the, can, ed, would, else]
+  allow_duplicate: true
+  propagate_case: true
+  triggers: ['qlop,']
+- replace: 'closer '
+  _tags: [the, can, else]
+  allow_duplicate: true
+  propagate_case: true
+  triggers: ['qlow,']
+- replace: 'close this '
+  _tags: [the, this, can, else]
+  allow_duplicate: true
+  propagate_case: true
+  triggers: ['qloiz,']
+- replace: 'close that '
+  _tags: [the, that, can, else]
+  allow_duplicate: true
+  propagate_case: true
+  triggers: ['qloaz,']
+- replace: 'close these '
+  _tags: [the, these, can, else]
+  allow_duplicate: true
+  propagate_case: true
+  triggers: ['qloez,']
+- replace: 'close those '
+  _tags: [the, those, can, else]
+  allow_duplicate: true
+  propagate_case: true
+  triggers: ['qlooz,']
+- replace: 'close file '
+  _tags: [the, file, can, else]
+  allow_duplicate: true
+  propagate_case: true
+  triggers: ['qlofi,']
+- replace: 'close document '
+  _tags: [the, document, can, else]
+  allow_duplicate: true
+  propagate_case: true
+  triggers: ['qlodo,']
+- replace: 'close window '
+  _tags: [the, window, can, else]
+  allow_duplicate: true
+  propagate_case: true
+  triggers: ['qlowi,']
+- replace: 'close tab '
+  _tags: [the, tab, can, else]
+  allow_duplicate: true
+  propagate_case: true
+  triggers: ['qlota,']
+- replace: 'close to '
+  _tags: [the, to, can, else]
+  allow_duplicate: true
+  propagate_case: true
+  triggers: ['qloto,']
+- replace: 'close to the '
+  _tags: [the, to, can, else]
+  allow_duplicate: true
+  propagate_case: true
+  triggers: ['qlo2h,']
+- replace: 'close by '
+  _tags: [the, by, can, else]
+  allow_duplicate: true
+  propagate_case: true
+  triggers: ['qloby,']
+- replace: 'can close '
+  _tags: [can, else]
+  allow_duplicate: true
+  propagate_case: true
+  triggers: ['qqlo,']
+- replace: 'will close '
+  _tags: [will, else]
+  allow_duplicate: true
+  propagate_case: true
+  triggers: ['wqlo,']
+- replace: 'should close '
+  _tags: [should, else]
+  allow_duplicate: true
+  propagate_case: true
+  triggers: ['shqlo,']
+- replace: 'not close '
+  _tags: [not, negate, else]
+  allow_duplicate: true
+  propagate_case: true
+  triggers: ['nqlo,']
+- replace: 'don''t close '
+  _tags: [not, negate, else]
+  allow_duplicate: true
+  propagate_case: true
+  triggers: ['dqlo,']
+- replace: 'close it '
+  _tags: [the, pronoun, can, else]
+  allow_duplicate: true
+  propagate_case: true
+  triggers: ['qloit,']
+- replace: 'close the '
+  _tags: [the, can, else]
+  allow_duplicate: true
+  propagate_case: true
+  triggers: ['qlohe,']

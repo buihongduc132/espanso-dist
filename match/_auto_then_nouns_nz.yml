@@ -1,0 +1,112 @@
+# ⚠️  WARNING: AUTO-GENERATED FILE - DO NOT EDIT DIRECTLY!
+# This file is generated from word_version by:
+#   scripts/convert_to_tokenized_word_version.py
+# Edit source in space_version and re-run conversions.
+# Tokenizes trailing spaces in triggers to an explicit token.
+# Removes right_word property for tokenized version.
+# Adds trailing space to replacements that don't have one.
+# Current token: ','
+
+matches:
+- replace: 'then the '
+  _tags: [noun]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['nzthe,']
+- replace: 'then and '
+  _tags: [noun]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['nzand,']
+- replace: 'then then '
+  _tags: [noun]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['nzthen,']
+- replace: 'then for '
+  _tags: [noun]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['nzfor,']
+- replace: 'then that '
+  _tags: [noun]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['nzthat,']
+- replace: 'then not '
+  _tags: [noun]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['nznot,']
+- replace: 'then all '
+  _tags: [noun]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['nzall,']
+- replace: 'then you '
+  _tags: [noun]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['nzyou,']
+- replace: 'then bhd '
+  _tags: [noun]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['nzbhd,']
+- replace: 'then this '
+  _tags: [noun]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['nzthis,']
+- replace: 'then are '
+  _tags: [noun]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['nzare,']
+- replace: 'then these '
+  _tags: [noun]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['nzthese,']
+- replace: 'then with '
+  _tags: [noun]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['nzwith,']
+- replace: 'then tests '
+  _tags: [noun]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['nztests,']
+- replace: 'then now '
+  _tags: [noun]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['nznow,']
+- replace: 'then well '
+  _tags: [noun]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['nzwell,']
+- replace: 'then can '
+  _tags: [noun]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['nzcan,']
+- replace: 'then home '
+  _tags: [noun]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['nzhome,']
+- replace: 'then cli '
+  _tags: [noun]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['nzcli,']
+- replace: 'then tasks '
+  _tags: [noun]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['nztasks,']
+name: auto_then_nouns_nz
+parent: default

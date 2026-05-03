@@ -1,0 +1,147 @@
+# ⚠️  WARNING: AUTO-GENERATED FILE - DO NOT EDIT DIRECTLY!
+# This file is generated from word_version by:
+#   scripts/convert_to_tokenized_word_version.py
+# Edit source in space_version and re-run conversions.
+# Tokenizes trailing spaces in triggers to an explicit token.
+# Removes right_word property for tokenized version.
+# Adds trailing space to replacements that don't have one.
+# Current token: ','
+
+name: word-families-template
+parent: default
+matches:
+- replace: 'template '
+  _tags: [noun, to, can, else]
+  allow_duplicate: true
+  propagate_case: true
+  triggers: ['tpl,']
+- replace: 'templates '
+  _tags: [noun, to, can, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['tpls,']
+- replace: 'templating '
+  _tags: [ing, verb, to, can, else, pronoun]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['tpli,']
+- replace: 'templated '
+  _tags: [ed, verb, would, to, can, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['tplp,']
+- replace: 'templater '
+  _tags: [noun, to, can, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['tplw,']
+- replace: 'templaters '
+  _tags: [noun, to, can, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['tplws,']
+- replace: 'templatable '
+  _tags: [adjective, to, can, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['tplj,']
+- replace: 'subtemplate '
+  _tags: [noun, to, can, else, prefix]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['subtpl,']
+- replace: 'subtemplates '
+  _tags: [noun, to, can, else, prefix]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['subtpls,']
+- replace: 'pretemplate '
+  _tags: [noun, to, can, else, prefix]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['ptpl,']
+- replace: 'pretemplates '
+  _tags: [noun, to, can, else, prefix]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['ptpls,']
+- replace: 'retemplate '
+  _tags: [verb, to, can, else, prefix]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['wtpl,']
+- replace: 'retemplating '
+  _tags: [ing, verb, to, can, else, prefix]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['wtpli,']
+- replace: 'retemplated '
+  _tags: [ed, verb, would, to, can, else, prefix]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['wtplp,']
+- replace: 'multitemplate '
+  _tags: [noun, to, can, else, prefix]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['multitpl,']
+- replace: 'multitemplates '
+  _tags: [noun, to, can, else, prefix]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['multitpls,']
+- replace: 'template-based '
+  _tags: [adjective, to, can, else, compound]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['tplbsp,']
+- replace: 'template this '
+  _tags: [demonstrative, noun, to, can, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['tpliz,']
+- replace: 'template that '
+  _tags: [demonstrative, noun, to, can, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['tplaz,']
+- replace: 'template these '
+  _tags: [demonstrative, noun, to, can, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['tplez,']
+- replace: 'template those '
+  _tags: [demonstrative, noun, to, can, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['tploz,']
+- replace: 'template the '
+  _tags: [article, noun, to, can, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['tplh,']
+- replace: 'template all '
+  _tags: [quantifier, noun, to, can, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['tpla,']
+- replace: 'template all of '
+  _tags: [quantifier, noun, to, can, else, preposition]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['tplao,']
+- replace: 'template some '
+  _tags: [quantifier, noun, to, can, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['tplsm,']
+- replace: 'template some of '
+  _tags: [quantifier, noun, to, can, else, preposition]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['tplsmo,']
+- replace: 'template each '
+  _tags: [quantifier, noun, to, can, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['tpleh,']

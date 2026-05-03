@@ -1,0 +1,221 @@
+# ⚠️  WARNING: AUTO-GENERATED FILE - DO NOT EDIT DIRECTLY!
+# This file is generated from word_version by:
+#   scripts/convert_to_tokenized_word_version.py
+# Edit source in space_version and re-run conversions.
+# Tokenizes trailing spaces in triggers to an explicit token.
+# Removes right_word property for tokenized version.
+# Adds trailing space to replacements that don't have one.
+# Current token: ','
+
+name: word-families-any-another
+parent: default
+matches:
+- replace: 'any '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['ay,']
+- triggers: ['ayg,', 'ayi,']
+  replace: 'anything '
+  _tags: [the, to, ing, pronoun]
+  propagate_case: true
+  allow_duplicate: false
+- triggers: ['ayge,', 'ayie,']
+  replace: 'anything else '
+  _tags: [pronoun, the, ing, to, else]
+  propagate_case: true
+  allow_duplicate: false
+- replace: 'anyone '
+  _tags: [else]
+  allow_duplicate: true
+  propagate_case: true
+  triggers: ['ayo,']
+- replace: 'anyone else '
+  _tags: [else]
+  allow_duplicate: true
+  propagate_case: true
+  triggers: ['ayoe,']
+- replace: 'anyone '
+  _tags: [else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['ay1,']
+- replace: 'anyone else '
+  _tags: [else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['ay1el,']
+- replace: 'anywhere '
+  _tags: [place, will, the, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['ayw,']
+- replace: 'anywhere else '
+  _tags: [place, pronoun, will, the, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['aywe,']
+- replace: 'any time '
+  _tags: [time, to, else, pronoun]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['ayt,']
+- replace: 'anymore '
+  _tags: [else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['aym,']
+- triggers: ['aya,', 'ayy,']
+  replace: 'anyway '
+  _tags: [will]
+  propagate_case: true
+  allow_duplicate: false
+- replace: 'are you this '
+  _tags: [question, demonstrative]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['areyiz,']
+- replace: 'are you that '
+  _tags: [question, demonstrative]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['areyaz,']
+- replace: 'are you these '
+  _tags: [question, demonstrative]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['areyez,']
+- replace: 'are you those '
+  _tags: [question, demonstrative]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['areyoz,']
+- replace: 'anyhow '
+  _tags: [question, will, the]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['ayh,']
+- replace: 'any of the '
+  _tags: [question, will, the]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['ayoh,']
+- replace: 'anybody '
+  _tags: [would]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['ayb,']
+- replace: 'anybody else '
+  _tags: [would, else, be]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['aybe,']
+- replace: 'anyplace '
+  _tags: [can, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['ayp,']
+- replace: 'anyplace else '
+  _tags: [can, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['aype,']
+- replace: 'any other '
+  _tags: [the, to, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['ayot,']
+- replace: 'another '
+  _tags: [negate, the, to, else]
+  allow_duplicate: true
+  propagate_case: true
+  triggers: ['ao,']
+- triggers: ['aog,', 'aoi,']
+  replace: 'another thing '
+  _tags: [pronoun, the, ing, to, negate, else]
+  propagate_case: true
+  allow_duplicate: false
+- replace: 'another way '
+  _tags: [will, the, negate, to, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['aoa,']
+- replace: 'another anything else '
+  _tags: [pronoun, the, ing, to, negate, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['ao1,']
+- replace: 'populator '
+  _tags: [to, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['popuo,']
+- replace: 'popular '
+  _tags: [to, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['popua,']
+- replace: 'fix me '
+  _tags: [to, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['km,']
+- replace: 'extract this '
+  _tags: [demonstrative, to, can, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['extriz,']
+- replace: 'extract that '
+  _tags: [demonstrative, to, can, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['extraz,']
+- replace: 'extract these '
+  _tags: [demonstrative, to, can, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['extrez,']
+- replace: 'extract those '
+  _tags: [demonstrative, to, can, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['extroz,']
+- replace: 'allow '
+  _tags: [to, can, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['all,']
+- replace: 'allows '
+  _tags: [to, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['alls,']
+- replace: 'allowing '
+  _tags: [ing, to, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['alli,']
+- replace: 'allowed '
+  _tags: [ed, would, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['allp,']
+- replace: 'allowance '
+  _tags: [noun, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['allm,']
+- replace: 'allowances '
+  _tags: [noun, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['allms,']
+- replace: 'allowable '
+  _tags: [adjective, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['alll,']
+- replace: 'allowably '
+  _tags: [adverb, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['allbl,']

@@ -1,0 +1,107 @@
+# ⚠️  WARNING: AUTO-GENERATED FILE - DO NOT EDIT DIRECTLY!
+# This file is generated from word_version by:
+#   scripts/convert_to_tokenized_word_version.py
+# Edit source in space_version and re-run conversions.
+# Tokenizes trailing spaces in triggers to an explicit token.
+# Removes right_word property for tokenized version.
+# Adds trailing space to replacements that don't have one.
+# Current token: ','
+
+name: exx_retro
+parent: default
+matches:
+- replace: 'retro '
+  _tags: [to, can, else, adjective]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['fwetro,']
+- replace: 'retros '
+  _tags: [to, can, else, noun]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['fwetros,']
+- replace: 'retroing '
+  _tags: [ing, to, can, else, verb]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['fwetroi,']
+- replace: 'retroed '
+  _tags: [ed, would, to, can, else, verb]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['fwetrop,']
+- replace: 'retro this '
+  _tags: [demonstrative, to, can, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['fwetroiz,']
+- replace: 'retro that '
+  _tags: [demonstrative, to, can, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['fwetroaz,']
+- replace: 'retro these '
+  _tags: [demonstrative, to, can, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['fwetroez,']
+- replace: 'retro those '
+  _tags: [demonstrative, to, can, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['fwetrooz,']
+- replace: 'be retro '
+  _tags: [to, can, be]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['bwetro,']
+- replace: 'is retro '
+  _tags: [to, can, be]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['bwetros,']
+- replace: 'was retro '
+  _tags: [to, can, be]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['bwetrop,']
+- replace: 'not retro '
+  _tags: [negate, to, can]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['nwetro,']
+- replace: 'is not retro '
+  _tags: [negate, to, can, be]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['nwetros,']
+- replace: 'have retro '
+  _tags: [to, can, have]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['hwetro,']
+- replace: 'has retro '
+  _tags: [to, can, have]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['hwetros,']
+- replace: 'what retro '
+  _tags: [question, to, can]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['wtwetro,']
+- replace: 'where retro '
+  _tags: [question, to, can]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['wrwetro,']
+- replace: 'when retro '
+  _tags: [question, to, can]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['wnwetro,']
+- replace: 'why retro '
+  _tags: [question, to, can]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['wywetro,']

@@ -1,0 +1,460 @@
+# ⚠️  WARNING: AUTO-GENERATED FILE - DO NOT EDIT DIRECTLY!
+# This file is generated from word_version by:
+#   scripts/convert_to_tokenized_word_version.py
+# Edit source in space_version and re-run conversions.
+# Tokenizes trailing spaces in triggers to an explicit token.
+# Removes right_word property for tokenized version.
+# Adds trailing space to replacements that don't have one.
+# Current token: ','
+
+name: re-verbs
+parent: default
+matches:
+- replace: 'restart '
+  _tags: [to, can, else, re-prefix]
+  allow_duplicate: true
+  _note: re-prefix::start
+  propagate_case: true
+  triggers: ['rssa,']
+- replace: 'restarts '
+  _tags: [to, can, else, re-prefix]
+  _note: re-prefix::start
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['rssas,']
+- replace: 'restarting '
+  _tags: [ing, to, can, else, pronoun, re-prefix]
+  _note: re-prefix::start
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['rssai,']
+- replace: 'restarted '
+  _tags: [ed, would, to, can, else, re-prefix]
+  _note: re-prefix::start
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['rssap,']
+- replace: 'rerun '
+  _tags: [the, can, else, re-prefix]
+  allow_duplicate: true
+  _note: re-prefix::run
+  propagate_case: true
+  triggers: ['rwun,']
+- replace: 'reruns '
+  _tags: [the, to, else, re-prefix]
+  allow_duplicate: true
+  _note: re-prefix::run
+  propagate_case: true
+  triggers: ['rwuns,']
+- triggers: ['rwung,', 'rwuni,']
+  replace: 'rerunning '
+  _tags: [pronoun, ing, re-prefix]
+  allow_duplicate: true
+  _note: re-prefix::run
+  propagate_case: true
+- replace: 'reran '
+  _tags: [the, can, ed, would, else, re-prefix]
+  allow_duplicate: true
+  _note: re-prefix::run
+  propagate_case: true
+  triggers: ['rwunp,']
+- replace: 'rebuild '
+  _tags: [would, else, pronoun, re-prefix]
+  _note: re-prefix::build
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['rbuil,']
+- replace: 'rebuild '
+  _tags: [would, else, pronoun, re-prefix]
+  _note: re-prefix::build
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['rbld,']
+- replace: 'rebuilds '
+  _tags: [would, else, pronoun, re-prefix]
+  _note: re-prefix::build
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['rbuils,']
+- replace: 'rebuilds '
+  _tags: [would, else, pronoun, re-prefix]
+  _note: re-prefix::build
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['rblds,']
+- triggers: ['rbuilg,', 'rbuili,']
+  replace: 'rebuilding '
+  _tags: [ing, would, else, pronoun, re-prefix]
+  _note: re-prefix::build
+  propagate_case: true
+  allow_duplicate: false
+- triggers: ['rbuilm,', 'rbuiln,']
+  replace: 'rebuilding '
+  _tags: [ing, would, else, pronoun, re-prefix]
+  _note: re-prefix::build
+  propagate_case: true
+  allow_duplicate: false
+- replace: 'rebuilding '
+  _tags: [ing, would, else, pronoun, re-prefix]
+  _note: re-prefix::build
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['rbldi,']
+- replace: 'rebuilt '
+  _tags: [to, else, pronoun, re-prefix]
+  _note: re-prefix::build
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['rbuilt,']
+- replace: 'rebuilt '
+  _tags: [to, pronoun, else, would, re-prefix]
+  _note: re-prefix::build
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['rbldd,']
+- replace: 'recreate '
+  _tags: [to, can, else, would, re-prefix]
+  _note: re-prefix::create
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['rqw,']
+- replace: 'recreate '
+  _tags: [to, can, else, re-prefix]
+  _note: re-prefix::create
+  triggers: [rqw`]
+- replace: 'recreates '
+  _tags: [to, can, else, would, re-prefix]
+  _note: re-prefix::create
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['rqws,']
+- replace: 'recreating '
+  _tags: [ing, to, can, else, would, re-prefix]
+  allow_duplicate: true
+  _note: re-prefix::create
+  propagate_case: true
+  triggers: ['rqwi,']
+- replace: 'recreated '
+  _tags: [ed, to, can, else, would, re-prefix]
+  allow_duplicate: true
+  _note: re-prefix::create
+  propagate_case: true
+  triggers: ['rqwp,']
+- replace: 'redeploy '
+  _tags: [would, else, re-prefix]
+  _note: re-prefix::deploy
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['rdepl,']
+- replace: 'redeploys '
+  _tags: [ours, would, else, re-prefix]
+  _note: re-prefix::deploy
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['rdepls,']
+- replace: 'redeploying '
+  _tags: [ing, would, else, pronoun, re-prefix]
+  _note: re-prefix::deploy
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['rdepli,']
+- replace: 'redeployed '
+  _tags: [ed, would, else, re-prefix]
+  _note: re-prefix::deploy
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['rdeplp,']
+- triggers: ['rinsl,', 'rinstl,']
+  replace: 'reinstall '
+  _tags: [will, to, else, pronoun, re-prefix]
+  _note: re-prefix::install
+  propagate_case: true
+  allow_duplicate: false
+- triggers: ['rinsls,', 'rinstls,']
+  replace: 'reinstalls '
+  _tags: [will, to, else, pronoun, re-prefix]
+  _note: re-prefix::install
+  propagate_case: true
+  allow_duplicate: false
+- triggers: ['rinsli,', 'rinstli,']
+  replace: 'reinstalling '
+  _tags: [pronoun, will, ing, to, else, re-prefix]
+  _note: re-prefix::install
+  propagate_case: true
+  allow_duplicate: false
+- triggers: ['rinslp,', 'rinstlp,']
+  replace: 'reinstalled '
+  _tags: [pronoun, will, to, ed, would, else, re-prefix]
+  _note: re-prefix::install
+  propagate_case: true
+  allow_duplicate: false
+- replace: 'reconnect '
+  _tags: [can, pronoun, re-prefix]
+  _note: re-prefix::connect
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['rqne,']
+- replace: 'reconnects '
+  _tags: [can, pronoun, else, re-prefix]
+  _note: re-prefix::connect
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['rqnes,']
+- replace: 'reconnecting '
+  _tags: [ing, can, pronoun, re-prefix]
+  _note: re-prefix::connect
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['rqnei,']
+- replace: 'reconnected '
+  _tags: [ed, would, can, pronoun, else, re-prefix]
+  _note: re-prefix::connect
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['rqnep,']
+- replace: 'reprocess '
+  _tags: [can, else, re-prefix]
+  allow_duplicate: true
+  _note: re-prefix::process
+  propagate_case: true
+  triggers: ['rpwoq,']
+- replace: 'reprocesses '
+  _tags: [can, else, re-prefix]
+  _note: re-prefix::process
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['rpwoqs,']
+- replace: 'reprocessing '
+  _tags: [ing, can, else, pronoun, re-prefix]
+  _note: re-prefix::process
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['rpwoqi,']
+- replace: 'reprocessed '
+  _tags: [ed, can, else, would, re-prefix]
+  _note: re-prefix::process
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['rpwoqp,']
+- replace: 'reopen '
+  _tags: [the, can, else, re-prefix]
+  allow_duplicate: true
+  _note: re-prefix::open
+  propagate_case: true
+  triggers: ['rope,']
+- replace: 'reopens '
+  _tags: [the, to, else, re-prefix]
+  allow_duplicate: true
+  _note: re-prefix::open
+  propagate_case: true
+  triggers: ['ropes,']
+- replace: 'reopens '
+  _tags: [else, re-prefix]
+  _note: re-prefix::open
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['ropens,']
+- replace: 'reopening '
+  _tags: [the, ing, can, else, re-prefix]
+  allow_duplicate: true
+  _note: re-prefix::open
+  propagate_case: true
+  triggers: ['ropei,']
+- replace: 'reopening '
+  _tags: [ing, pronoun, else, re-prefix]
+  _note: re-prefix::open
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['ropeni,']
+- replace: 'reopened '
+  _tags: [the, can, ed, would, else, re-prefix]
+  allow_duplicate: true
+  _note: re-prefix::open
+  propagate_case: true
+  triggers: ['ropep,']
+- replace: 'reopened '
+  _tags: [ed, would, else, re-prefix]
+  _note: re-prefix::open
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['ropenp,']
+- replace: 'reload '
+  _tags: [the, can, else, re-prefix]
+  allow_duplicate: true
+  _note: re-prefix::load
+  propagate_case: true
+  triggers: ['rloa,']
+- replace: 'reloads '
+  _tags: [the, to, else, re-prefix]
+  allow_duplicate: true
+  _note: re-prefix::load
+  propagate_case: true
+  triggers: ['rloas,']
+- replace: 'reloading '
+  _tags: [the, ing, can, else, re-prefix]
+  allow_duplicate: true
+  _note: re-prefix::load
+  propagate_case: true
+  triggers: ['rloai,']
+- replace: 'reloaded '
+  _tags: [the, can, ed, would, else, re-prefix]
+  allow_duplicate: true
+  _note: re-prefix::load
+  propagate_case: true
+  triggers: ['rloap,']
+- replace: 'retest '
+  _tags: [the, can, else, re-prefix]
+  allow_duplicate: true
+  _note: re-prefix::test
+  propagate_case: true
+  triggers: ['rtes,']
+- replace: 'retests '
+  _tags: [the, to, else, re-prefix]
+  allow_duplicate: true
+  _note: re-prefix::test
+  propagate_case: true
+  triggers: ['rtess,']
+- replace: 'retests '
+  _tags: [to, else, re-prefix]
+  _note: re-prefix::test
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['rtests,']
+- replace: 'retesting '
+  _tags: [the, ing, can, else, re-prefix]
+  allow_duplicate: true
+  _note: re-prefix::test
+  propagate_case: true
+  triggers: ['rtesi,']
+- replace: 'retesting '
+  _tags: [ing, to, else, pronoun, re-prefix]
+  _note: re-prefix::test
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['rtesti,']
+- replace: 'retested '
+  _tags: [the, can, ed, would, else, re-prefix]
+  allow_duplicate: true
+  _note: re-prefix::test
+  propagate_case: true
+  triggers: ['rtesp,']
+- replace: 'retested '
+  _tags: [ed, to, else, would, re-prefix]
+  _note: re-prefix::test
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['rtestp,']
+- replace: 'recheck '
+  _tags: [the, can, else, re-prefix]
+  allow_duplicate: true
+  _note: re-prefix::check
+  propagate_case: true
+  triggers: ['rhk,']
+- replace: 'rechecks '
+  _tags: [ours, the, to, else, re-prefix]
+  allow_duplicate: true
+  _note: re-prefix::check
+  propagate_case: true
+  triggers: ['rhks,']
+- replace: 'rechecking '
+  _tags: [pronoun, the, ing, can, else, re-prefix]
+  allow_duplicate: true
+  _note: re-prefix::check
+  propagate_case: true
+  triggers: ['rhki,']
+- replace: 'rechecked '
+  _tags: [the, can, ed, would, else, re-prefix]
+  allow_duplicate: true
+  _note: re-prefix::check
+  propagate_case: true
+  triggers: ['rhkp,']
+- replace: 'reapply '
+  _tags: [else, re-prefix]
+  _note: re-prefix::apply
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['rapp,']
+- replace: 'reapplies '
+  _tags: [else, re-prefix]
+  _note: re-prefix::apply
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['rapps,']
+- replace: 'reapplying '
+  _tags: [ing, pronoun, else, re-prefix]
+  _note: re-prefix::apply
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['rappi,']
+- replace: 'reapplied '
+  _tags: [ed, would, else, pronoun, re-prefix]
+  _note: re-prefix::apply
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['rappp,']
+- triggers: ['rimp,', 'rimpl,']
+  replace: 'reimplement '
+  _tags: [to, else, pronoun, re-prefix]
+  _note: re-prefix::implement
+  propagate_case: true
+  allow_duplicate: false
+- triggers: ['rimpls,', 'rimps,']
+  replace: 'reimplements '
+  _tags: [to, else, pronoun, re-prefix]
+  _note: re-prefix::implement
+  propagate_case: true
+  allow_duplicate: false
+- replace: 'reimplements '
+  _tags: [to, else, pronoun, re-prefix]
+  _note: re-prefix::implement
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['rimplements,']
+- triggers: ['rimpi,', 'rimpli,']
+  replace: 'reimplementing '
+  _tags: [ing, to, else, pronoun, re-prefix]
+  _note: re-prefix::implement
+  propagate_case: true
+  allow_duplicate: false
+- replace: 'reimplementing '
+  _tags: [ing, to, else, pronoun, re-prefix]
+  _note: re-prefix::implement
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['rimplementi,']
+- triggers: ['rimplp,', 'rimpp,']
+  replace: 'reimplemented '
+  _tags: [pronoun, to, ed, would, else, re-prefix]
+  _note: re-prefix::implement
+  propagate_case: true
+  allow_duplicate: false
+- replace: 'reimplemented '
+  _tags: [pronoun, to, ed, would, else, re-prefix]
+  _note: re-prefix::implement
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['rimplementp,']
+- replace: 'regenerate '
+  _tags: [to, else, re-prefix]
+  _note: re-prefix::generate
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['rgen,']
+- replace: 'regenerates '
+  _tags: [to, else, re-prefix]
+  _note: re-prefix::generate
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['rgens,']
+- replace: 'regenerating '
+  _tags: [ing, to, else, pronoun, re-prefix]
+  _note: re-prefix::generate
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['rgeni,']
+- replace: 'regenerated '
+  _tags: [ed, to, else, would, re-prefix]
+  _note: re-prefix::generate
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['rgenp,']

@@ -1,0 +1,62 @@
+# ⚠️  WARNING: AUTO-GENERATED FILE - DO NOT EDIT DIRECTLY!
+# This file is generated from word_version by:
+#   scripts/convert_to_tokenized_word_version.py
+# Edit source in space_version and re-run conversions.
+# Tokenizes trailing spaces in triggers to an explicit token.
+# Removes right_word property for tokenized version.
+# Adds trailing space to replacements that don't have one.
+# Current token: ','
+
+name: word-families-test
+parent: default
+matches:
+- replace: 'test '
+  _tags: [noun, verb, software_dev, to, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['tes,']
+- replace: 'tests '
+  _tags: [noun, verb, software_dev, to, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['tess,']
+- replace: 'testing '
+  _tags: [ing, verb, software_dev, to, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['tesi,']
+- replace: 'tested '
+  _tags: [ed, verb, software_dev, to, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['tesp,']
+- replace: 'tester '
+  _tags: [noun, software_dev, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['tesw,']
+- replace: 'testers '
+  _tags: [noun, software_dev, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['tesws,']
+- replace: 'test case '
+  _tags: [noun, software_dev, phrase]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['tesc,']
+- replace: 'test cases '
+  _tags: [noun, software_dev, phrase]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['tescs,']
+- replace: 'test suite '
+  _tags: [noun, software_dev, phrase]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['tesu,']
+- replace: 'test suites '
+  _tags: [noun, software_dev, phrase]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['tesus,']

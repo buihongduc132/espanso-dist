@@ -1,0 +1,2137 @@
+# ⚠️  WARNING: AUTO-GENERATED FILE - DO NOT EDIT DIRECTLY!
+# This file is generated from word_version by:
+#   scripts/convert_to_tokenized_word_version.py
+# Edit source in space_version and re-run conversions.
+# Tokenizes trailing spaces in triggers to an explicit token.
+# Removes right_word property for tokenized version.
+# Adds trailing space to replacements that don't have one.
+# Current token: ','
+
+name: Phrases
+parent: default
+matches:
+- replace: 'see how '
+  _tags: [verb, question, how, see]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['chw,']
+- replace: 'to be '
+  _tags: [to, else, be]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['tb,']
+- replace: 'to not be '
+  _tags: [negate, to, else, be]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['tbm,']
+- replace: 'to be like '
+  _tags: [to, pronoun, else, be]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['tbnl,']
+- replace: 'from that '
+  _tags: [demonstrative, have, to, the]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['mtha,']
+- replace: 'double check '
+  _tags: [operator, to, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['82hk,']
+- replace: 'up to date '
+  _tags: [to, the, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['u2d,']
+- replace: 'went through '
+  _tags: [verb, phrasal, to, go, through]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['gpthwu,']
+- replace: 'gone through '
+  _tags: [verb, phrasal, to, go, through]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['gpthru,']
+- replace: 'on the fly '
+  _tags: [phrase, the]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: [ohf`]
+- replace: 'from this '
+  _tags: [pronoun, the, demonstrative, to, be]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['mthi,']
+- replace: 'from these '
+  _tags: [demonstrative, the, to, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['mth,']
+- replace: 'from those '
+  _tags: [demonstrative, the, to, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['mtho,']
+- replace: 'for that '
+  _tags: [demonstrative, have, to, the]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['fotha,']
+- replace: 'for this '
+  _tags: [pronoun, the, demonstrative, to, be]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['fothi,']
+- replace: 'for these '
+  _tags: [demonstrative, the, to, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['foth,']
+- replace: 'for those '
+  _tags: [demonstrative, the, to, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['fotho,']
+- replace: 'to that '
+  _tags: [demonstrative, have, to, the]
+  allow_duplicate: true
+  propagate_case: true
+  triggers: ['otha,']
+- replace: 'to this '
+  _tags: [pronoun, the, demonstrative, to, be]
+  allow_duplicate: true
+  propagate_case: true
+  triggers: ['othi,']
+- replace: 'to these '
+  _tags: [demonstrative, the, to, else]
+  allow_duplicate: true
+  propagate_case: true
+  triggers: ['oth,']
+- replace: 'have not '
+  _tags: [have, not, phrase]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['havn,']
+- replace: 'have not been '
+  _tags: [have, not, been, phrase]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['hanb,']
+- replace: 'have been '
+  _tags: [have, been, phrase]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['hab,']
+- replace: 'have been done '
+  _tags: [have, been, done, phrase]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['habd,']
+- replace: 'have done '
+  _tags: [have, done, phrase]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['had,']
+- replace: 'have done the '
+  _tags: [have, done, the, phrase]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['hadh,']
+- replace: 'have done this '
+  _tags: [have, done, demonstrative, phrase]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['hadiz,']
+- replace: 'have done that '
+  _tags: [have, done, demonstrative, phrase]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['hadaz,']
+- replace: 'have done these '
+  _tags: [have, done, demonstrative, phrase]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['hadez,']
+- replace: 'have done those '
+  _tags: [have, done, demonstrative, phrase]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['hadoz,']
+- replace: 'have not been done '
+  _tags: [have, not, been, done, phrase]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['hanbd,']
+- replace: 'have done yet '
+  _tags: [have, done, yet, phrase]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: [hadny`]
+- replace: 'done '
+  _tags: [ed, would, number, to, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: [dn`]
+- replace: 'done yet '
+  _tags: [ed, would, number, to, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: [dny`]
+- replace: 'done with '
+  _tags: [ed, would, number, to, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: [dnw`]
+- replace: 'done this '
+  _tags: [ed, would, number, to, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: [dniz`]
+- replace: 'done that '
+  _tags: [ed, would, number, to, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: [dnaz`]
+- replace: 'done these '
+  _tags: [ed, would, number, to, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: [dnez`]
+- replace: 'done those '
+  _tags: [ed, would, number, to, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: [dnoz`]
+- replace: 'by the '
+  _tags: [phrase, preposition, by, the, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: [bh`]
+- replace: 'by the way '
+  _tags: [phrase, preposition, by, the, way, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: [btw`]
+- replace: 'from / to '
+  _tags: [directional, bidirectional, 222_group, named]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: [222`]
+- replace: 'to / from '
+  _tags: [directional, bidirectional, 222_group, named]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: [-222`]
+- replace: 'pick up this '
+  _tags: [can, demonstrative, phrase]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['pkuiz,']
+- replace: 'pick up that '
+  _tags: [can, demonstrative, phrase]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['pkuaz,']
+- replace: 'pick up these '
+  _tags: [can, demonstrative, phrase]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['pkuez,']
+- replace: 'pick up those '
+  _tags: [can, demonstrative, phrase]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['pkuoz,']
+- replace: 'pick up from here '
+  _tags: [can, phrase, place]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['pkufh,']
+- replace: 'again and again '
+  _tags: [else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['agnag,']
+- replace: 'another AI AGENT '
+  _tags: [ai, agent, phrase]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['aoaia,']
+- replace: 'username & password '
+  _tags: [account, credential, phrase]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['usnpw,']
+- replace: 'with some '
+  _tags: [with, some, phrase]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['wsm,']
+- replace: 'to those '
+  _tags: [demonstrative, the, to, else]
+  allow_duplicate: true
+  propagate_case: true
+  triggers: ['otho,']
+- replace: 'have in here '
+  _tags: [have, in, place, phrase]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['haiwe,']
+- replace: 'have in there '
+  _tags: [have, in, place, phrase]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['haiew,']
+- replace: 'have in this '
+  _tags: [have, in, demonstrative, phrase]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['hainis,']
+- replace: 'have in that '
+  _tags: [have, in, demonstrative, phrase]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['hainat,']
+- replace: 'have in these '
+  _tags: [have, in, demonstrative, phrase]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['hainth,']
+- replace: 'have in those '
+  _tags: [have, in, demonstrative, phrase]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['haintho,']
+- replace: 'in here '
+  _tags: [in, place, phrase]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['inwe,']
+- replace: 'in there '
+  _tags: [in, place, phrase]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['inew,']
+- replace: 'was this '
+  _tags: [be, past, demonstrative, phrase]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['wwasis,']
+- replace: 'was that '
+  _tags: [be, past, demonstrative, phrase]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['wwasat,']
+- replace: 'were these '
+  _tags: [be, past, demonstrative, phrase]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['wwassth,']
+- replace: 'were those '
+  _tags: [be, past, demonstrative, phrase]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['wwasstho,']
+- replace: 'on that '
+  _tags: [demonstrative, have, to, the]
+  allow_duplicate: true
+  propagate_case: true
+  triggers: ['ontha,']
+- replace: 'on this '
+  _tags: [pronoun, the, demonstrative, to, be]
+  allow_duplicate: true
+  propagate_case: true
+  triggers: ['onthi,']
+- replace: 'on these '
+  _tags: [demonstrative, the, to, else]
+  allow_duplicate: true
+  propagate_case: true
+  triggers: ['onth,']
+- replace: 'on those '
+  _tags: [demonstrative, the, to, else]
+  allow_duplicate: true
+  propagate_case: true
+  triggers: ['ontho,']
+- replace: 'in that '
+  _tags: [pronoun, the, demonstrative, to, have]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['inat,']
+- replace: 'in this '
+  _tags: [pronoun, the, demonstrative, to, be]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['inis,']
+- replace: 'in these '
+  _tags: [pronoun, the, demonstrative, to, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['inth,']
+- replace: 'in those '
+  _tags: [pronoun, the, demonstrative, to, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['intho,']
+- replace: 'to do that '
+  _tags: [the, demonstrative, to, would, have]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['dotha,']
+- replace: 'to do this '
+  _tags: [pronoun, the, demonstrative, to, be, would]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['dothi,']
+- replace: 'to do these '
+  _tags: [the, demonstrative, to, would, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['doth,']
+- replace: 'to do those '
+  _tags: [the, demonstrative, to, would, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['dotho,']
+- replace: 'to do those '
+  _tags: [the, demonstrative, to, would, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['alsat,']
+- replace: 'fix them all '
+  _tags: [else, would]
+  allow_duplicate: false
+  propagate_case: true
+  triggers: ['kmma,']
+- replace: 'all of this '
+  _tags: [pronoun, will, to, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['alomiz,']
+- replace: 'all of that '
+  _tags: [pronoun, will, to, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['alomaz,']
+- replace: 'all of these '
+  _tags: [pronoun, will, to, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['alomez,']
+- replace: 'all of those '
+  _tags: [pronoun, will, to, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['alomoz,']
+- replace: 'none of them '
+  _tags: [pronoun, will, to, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['00omm,']
+- replace: 'none of this '
+  _tags: [pronoun, will, to, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['00omiz,']
+- replace: 'none of that '
+  _tags: [pronoun, will, to, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['00omaz,']
+- replace: 'none of these '
+  _tags: [pronoun, will, to, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['00omez,']
+- replace: 'none of those '
+  _tags: [pronoun, will, to, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['00omoz,']
+- replace: 'make them '
+  _tags: [them, the, to, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['mkem,']
+- replace: 'merge all the '
+  _tags: [merge, all, the, phrase]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['mewah,']
+- replace: 'merge them '
+  _tags: [them, the, to, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['mewmm,']
+- replace: 'resolve them '
+  _tags: [them, the, to, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['wesomm,']
+- replace: 'make must '
+  _tags: [modal, to, else, software_dev]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['mkmu,']
+- replace: 'make must '
+  _tags: [modal, to, else, software_dev]
+  allow_duplicate: true
+  propagate_case: true
+  triggers: ['mkms,']
+- replace: 'as well as '
+  _tags: [will, pronoun, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['aswa,']
+- replace: 'as well '
+  _tags: [will, pronoun, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['asw,']
+- replace: 'it as well '
+  _tags: [pronoun, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['xasw,']
+- replace: 'this as well '
+  _tags: [demonstrative, will, pronoun, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['izasw,']
+- replace: 'that as well '
+  _tags: [demonstrative, will, pronoun, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['azasw,']
+- replace: 'these as well '
+  _tags: [demonstrative, will, pronoun, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['ezasw,']
+- replace: 'those as well '
+  _tags: [demonstrative, will, pronoun, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['ozasw,']
+- replace: 'as long as '
+  _tags: [else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['asl,']
+- replace: 'as much as '
+  _tags: [can, the]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['asmu,']
+- replace: 'as many as '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['asma,']
+- replace: 'as much as possible '
+  _tags: [the, can, else, pronoun]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['asmuposi,']
+- replace: 'as many as possible '
+  _tags: [pronoun, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['asmaposs,']
+- replace: 'too long '
+  _tags: [to, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['tol,']
+- replace: 'you have '
+  _tags: [have, the, pronoun, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['yha,']
+- replace: 'show me '
+  _tags: [question, will, the, should, else]
+  allow_duplicate: true
+  propagate_case: true
+  triggers: ['shwm,']
+- replace: 'list me '
+  _tags: [question, will, the, should, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['lsm,']
+- replace: 'we will '
+  _tags: [will, pronoun, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['ell,']
+- replace: 'i will '
+  _tags: [will, pronoun, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['ill,']
+- replace: 'they will '
+  _tags: [pronoun, will, the, to, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['tyll,']
+- replace: 'they will '
+  _tags: [pronoun, will, the, to, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['eyll,']
+- triggers: ['itll,', 'xll,']
+  replace: 'it will '
+  _tags: [will, to, else, pronoun]
+  propagate_case: true
+  allow_duplicate: false
+- replace: 'we are going to '
+  _tags: [pronoun, will, ing, to, be, else]
+  allow_duplicate: true
+  propagate_case: true
+  triggers: ['eit,']
+- replace: 'i am going to '
+  _tags: [to, ing, pronoun]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['iit,']
+- replace: 'they are going to '
+  _tags: [pronoun, the, ing, to, be, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['thit,']
+- triggers: ['itit,', 'tit,']
+  replace: 'it is going to '
+  _tags: [to, pronoun, ing, be]
+  propagate_case: true
+  allow_duplicate: false
+- replace: 'run and test '
+  _tags: [to, else, would]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['wuntest,']
+- replace: 'run and test and fix if any error occur '
+  _tags: [success, pronoun, to, can, would, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['wuntestf,']
+- replace: 'let''s say '
+  _tags: [to, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['lsay,']
+- replace: 'let''s take '
+  _tags: [to, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['ltake,']
+- replace: 'refresh '
+  _tags: [should, the, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['f5,']
+- replace: 'refreshes '
+  _tags: [should, the, else, verb]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['f5s,']
+- replace: 'refreshing '
+  _tags: [should, the, else, verb, ing]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['f5i,']
+- replace: 'refreshed '
+  _tags: [should, the, else, verb, ed]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['f5p,']
+- replace: 'refresher '
+  _tags: [should, the, else, noun]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['f5w,']
+- replace: 'refreshers '
+  _tags: [should, the, else, noun]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['f5ws,']
+- replace: 'refreshable '
+  _tags: [should, the, else, adjective]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['f5b,']
+- replace: 'refreshably '
+  _tags: [should, the, else, adverb]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['f5bl,']
+- replace: 'not found '
+  _tags: [negate, to, would]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: [404`]
+- replace: 'unexpected error '
+  _tags: [to, can, ed, would, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: [500`]
+- replace: 'fix it '
+  _tags: [to, pronoun]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: [FI`]
+- replace: 'find it '
+  _tags: [to, pronoun, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['fix,']
+- replace: 'for example '
+  _tags: [else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: [FEX`]
+- replace: 'with each others '
+  _tags: [pronoun, will, the, to, can, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: [WEO`]
+- replace: 'what is this mean '
+  _tags: [question, pronoun, will, the, what, demonstrative, to, be, else, have]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['WISMEAM,']
+- replace: 'what is that mean '
+  _tags: [question, pronoun, will, the, what, demonstrative, to, be, else, have]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: [WITMEAN`]
+- replace: 'what if '
+  _tags: [question, pronoun, will, the, what, to, have]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['wif,']
+- replace: 'what about '
+  _tags: [question, will, the, what, to, have]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['wtab,']
+- replace: 'how to '
+  _tags: [question, will, the, how, to]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['hto,']
+- replace: 'how to '
+  _tags: [question, will, the, how, to]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['h2,']
+- replace: 'how many '
+  _tags: [question, will, the, how]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['hma,']
+- replace: 'below the '
+  _tags: [preposition, the, place]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['blh,']
+- replace: 'on the left '
+  _tags: [preposition, the, place]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['ohl,']
+- replace: 'on the right '
+  _tags: [preposition, the, place]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['ohr,']
+- replace: 'on the left of '
+  _tags: [preposition, the, place]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['ohlo,']
+- replace: 'on the right of '
+  _tags: [preposition, the, place]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['ohro,']
+- replace: 'the left side '
+  _tags: [the, place]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['ohls,']
+- replace: 'the right side '
+  _tags: [the, place]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['ohrs,']
+- replace: 'on top '
+  _tags: [preposition, place]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: [OT`]
+- replace: 'on top of '
+  _tags: [preposition, place]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['oto,']
+- replace: 'how much '
+  _tags: [question, will, the, how, can]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['hmu,']
+- replace: 'how can '
+  _tags: [question, will, the, how, can]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['hqa,']
+- replace: 'how do '
+  _tags: [question, will, the]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['hwdo,']
+- replace: 'list directory '
+  _tags: [w-r, list, directory, how, would]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['lsd,']
+- replace: 'how does '
+  _tags: [question, will, the, how, would, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['hwde,']
+- replace: 'install and run '
+  _tags: [pronoun, will, to, would, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['inswun,']
+- replace: 'having to '
+  _tags: [pronoun, the, ing, to, have]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['hait,']
+- replace: 'having this '
+  _tags: [have, demonstrative, ing, pronoun]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['haiiz,']
+- replace: 'having that '
+  _tags: [have, demonstrative, ing, pronoun]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['haiaz,']
+- replace: 'having these '
+  _tags: [have, demonstrative, ing, pronoun]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['haiez,']
+- replace: 'having those '
+  _tags: [have, demonstrative, ing, pronoun]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['haioz,']
+- replace: 'run each '
+  _tags: [the, can, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['wune,']
+- replace: 'did I '
+  _tags: [would, pronoun]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['dii,']
+- replace: 'didn''t I '
+  _tags: [negate, would, to, pronoun]
+  allow_duplicate: true
+  propagate_case: true
+  triggers: ['dini,']
+- replace: 'have''t I '
+  _tags: [pronoun, the, to, else, have]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['hani,']
+- replace: 'did we '
+  _tags: [will, would, else, pronoun]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['dde,']
+- replace: 'did''t we '
+  _tags: [pronoun, will, to, would, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['ddne,']
+- replace: 'have we '
+  _tags: [pronoun, will, the, else, have]
+  allow_duplicate: true
+  propagate_case: true
+  triggers: ['hae,']
+- replace: 'what this is '
+  _tags: [question, pronoun, will, the, what, demonstrative, to, be, have]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['wtis,']
+- replace: 'are there '
+  _tags: [place, the, to, be, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['awt,']
+- replace: 'can you '
+  _tags: [can, pronoun]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['qu,']
+- replace: 'some example '
+  _tags: [else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['smx,']
+- replace: 'in the end '
+  _tags: [pronoun, the, to, would, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['ite,']
+- replace: 'in the end '
+  _tags: [pronoun, the, to, would, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['ihe,']
+- replace: 'at the end '
+  _tags: [the, to, else, would]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['ate,']
+- replace: 'the end of '
+  _tags: [the, else, place]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['ateo,']
+- replace: 'at the beginning '
+  _tags: [pronoun, the, ing, to, be, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['atb,']
+- replace: 'the beginning of '
+  _tags: [the, place, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['atbo,']
+- replace: 'what that is '
+  _tags: [question, pronoun, will, the, what, demonstrative, to, be, have]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['wtat,']
+- replace: 'what these are '
+  _tags: [question, will, the, what, demonstrative, to, be, else, have]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['wtths,']
+- replace: 'what those are '
+  _tags: [question, will, the, what, demonstrative, to, be, else, have]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['wttho,']
+- replace: 'where these are '
+  _tags: [question, will, the, where, demonstrative, to, be, else, have]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['wrths,']
+- replace: 'where those are '
+  _tags: [question, will, the, where, demonstrative, to, be, else, have]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['wrtho,']
+- replace: 'when these are '
+  _tags: [question, will, the, when, demonstrative, to, be, else, have]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['wnths,']
+- replace: 'when those are '
+  _tags: [question, will, the, when, demonstrative, to, be, else, have]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['wntho,']
+- replace: 'why these are '
+  _tags: [question, will, the, why, demonstrative, to, be, else, have]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['wyths,']
+- replace: 'why those are '
+  _tags: [question, will, the, why, demonstrative, to, be, else, have]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['wytho,']
+- replace: 'how these are '
+  _tags: [question, will, the, how, demonstrative, to, be, else, have]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['hwths,']
+- replace: 'how those are '
+  _tags: [question, will, the, how, demonstrative, to, be, else, have]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['hwtho,']
+- replace: 'which these are '
+  _tags: [question, will, the, which, demonstrative, to, be, else, have]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['withs,']
+- replace: 'which those are '
+  _tags: [question, will, the, which, demonstrative, to, be, else, have]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['witho,']
+- replace: 'why is this '
+  _tags: [question, pronoun, why, will, the, demonstrative, to, be]
+  allow_duplicate: true
+  propagate_case: true
+  triggers: ['wytiz,']
+- replace: 'why is this not '
+  _tags: [question, pronoun, why, will, the, demonstrative, to, negate, be]
+  allow_duplicate: true
+  propagate_case: true
+  triggers: ['wytizn,']
+- replace: 'why is that '
+  _tags: [question, pronoun, why, will, the, demonstrative, to, be, have]
+  allow_duplicate: true
+  propagate_case: true
+  triggers: ['wytaz,']
+- replace: 'why is that not '
+  _tags: [question, pronoun, why, will, the, demonstrative, to, negate, be, have]
+  allow_duplicate: true
+  propagate_case: true
+  triggers: ['wytazn,']
+- replace: 'why are these '
+  _tags: [question, why, will, the, demonstrative, to, be, else]
+  allow_duplicate: true
+  propagate_case: true
+  triggers: ['wyaez,']
+- replace: 'why are these not '
+  _tags: [question, why, will, the, demonstrative, to, negate, be, else]
+  allow_duplicate: true
+  propagate_case: true
+  triggers: ['wyaezn,']
+- replace: 'why are those '
+  _tags: [question, why, will, the, demonstrative, to, be, else]
+  allow_duplicate: true
+  propagate_case: true
+  triggers: ['wyaoz,']
+- replace: 'why are those not '
+  _tags: [question, why, will, the, demonstrative, to, negate, be, else]
+  allow_duplicate: true
+  propagate_case: true
+  triggers: ['wyaozn,']
+- replace: 'how can I '
+  _tags: [question, pronoun, will, the, how, can]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['hwqai,']
+- replace: 'how is it '
+  _tags: [question, pronoun, will, the, how, to, be]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['hwxt,']
+- replace: 'how can we '
+  _tags: [question, pronoun, will, the, how, can, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['hwqe,']
+- replace: 'how can user '
+  _tags: [question, will, the, how, can, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['hwqausw,']
+- replace: 'why this is '
+  _tags: [question, pronoun, why, will, the, demonstrative, to, be]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['wyis,']
+- replace: 'why it is not '
+  _tags: [question, pronoun, why, will, the, to, negate, be]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['wytin,']
+- replace: 'haven''t we '
+  _tags: [pronoun, will, the, to, negate, else, have]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['hane,']
+- replace: 'at once '
+  _tags: [to, can, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['ato,']
+- replace: 'at the same time '
+  _tags: [pronoun, the, time, to, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['ahst,']
+- replace: 'at the same time as '
+  _tags: [pronoun, the, time, to, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['ahsta,']
+- replace: 'as the time '
+  _tags: [pronoun, the, time, to, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['aht,']
+- replace: 'how to fix this '
+  _tags: [question, pronoun, will, the, demonstrative, how, to, be]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['htfix,']
+- replace: 'how to implement this '
+  _tags: [question, pronoun, will, the, demonstrative, how, to, be, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['htimp,']
+- replace: 'how to improve this '
+  _tags: [question, pronoun, will, the, demonstrative, how, to, be, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['htimpwj,']
+- replace: 'single project '
+  _tags: [number, noun, phrase]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['1pwj,']
+- replace: 'multiple project '
+  _tags: [number, noun, phrase]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['8pwj,']
+- replace: 'single branch '
+  _tags: [number, noun, phrase]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['1bwan,']
+- replace: 'multiple branch '
+  _tags: [number, noun, phrase]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['8bwan,']
+- replace: 'single ticket '
+  _tags: [number, noun, phrase]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['1tik,']
+- replace: 'multiple ticket '
+  _tags: [number, noun, phrase]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['8tik,']
+- replace: 'single feature '
+  _tags: [number, noun, phrase]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['1feat,']
+- replace: 'multiple feature '
+  _tags: [number, noun, phrase]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['8feat,']
+- replace: 'single composite '
+  _tags: [number, noun, phrase]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['1qmpo,']
+- replace: 'multiple composite '
+  _tags: [number, noun, phrase]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['8qmpo,']
+- replace: 'single service '
+  _tags: [number, noun, phrase]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['1sewjq,']
+- replace: 'multiple service '
+  _tags: [number, noun, phrase]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['8sewjq,']
+- replace: 'single file '
+  _tags: [number, noun, phrase]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['1fl,']
+- replace: 'multiple file '
+  _tags: [number, noun, phrase]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['8fl,']
+- replace: 'single repository '
+  _tags: [number, noun, phrase]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['1wepo,']
+- replace: 'multiple repository '
+  _tags: [number, noun, phrase]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['8wepo,']
+- replace: 'single solution '
+  _tags: [number, noun, phrase]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['1soljm,']
+- replace: 'multiple solution '
+  _tags: [number, noun, phrase]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['8soljm,']
+- replace: 'single task '
+  _tags: [number, noun, phrase]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['1sk,']
+- replace: 'multiple task '
+  _tags: [number, noun, phrase]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['8sk,']
+- replace: 'you must '
+  _tags: [to, pronoun]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['yams,']
+- replace: 'you must be able '
+  _tags: [to, pronoun, else, be]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['yamsb,']
+- replace: "This is the log of the run\n```\n{{clipboard}}\n```\n "
+  vars:
+  - {name: clipboard, type: clipboard}
+  _tags: [pronoun, the, demonstrative, to, can, be, would, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: [fwomlog`]
+- replace: 'This is the run command `{{clipboard}}` '
+  vars:
+  - {name: clipboard, type: clipboard}
+  _tags: [pronoun, the, demonstrative, to, can, be, would, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: [fwomqmd`]
+- replace: "This is a partial terminal output of the run\n```\n{{clipboard}}\n```\n "
+  vars:
+  - {name: clipboard, type: clipboard}
+  _tags: [pronoun, the, demonstrative, to, can, be, would, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: [fwomtewm`]
+- replace: 'give me '
+  _tags: [pronoun, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['gme,']
+- replace: 'give me the '
+  _tags: [the, to, else, pronoun]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['gmet,']
+- replace: 'let me '
+  _tags: [to, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['lme,']
+- replace: 'let me the '
+  _tags: [the, to, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['lmet,']
+- replace: 'in the middle '
+  _tags: [pronoun, the, to, would, else]
+  allow_duplicate: true
+  propagate_case: true
+  triggers: ['ihmid,']
+- replace: 'the middle of '
+  _tags: [the, place, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['ihmio,']
+- replace: 'at the middle '
+  _tags: [pronoun, the, to, would, else]
+  allow_duplicate: true
+  propagate_case: true
+  triggers: ['ahmid,']
+- replace: 'on the middle '
+  _tags: [pronoun, the, to, would, else]
+  allow_duplicate: true
+  propagate_case: true
+  triggers: ['ohmid,']
+- replace: 'reinvent the wheel '
+  _tags: [pronoun, will, the, to, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['weinj,']
+- replace: 'going to '
+  _tags: [to, ing, pronoun]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['gonna,']
+- replace: 'want to '
+  _tags: [to]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['wnna,']
+- replace: 'got to '
+  _tags: [to]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['gotta,']
+- replace: 'out of '
+  _tags: [to]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['outta,']
+- replace: 'of all '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['oa,']
+- replace: 'kind of '
+  _tags: [would, pronoun]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['kinda,']
+- replace: 'one by one '
+  _tags: [else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['1b1,']
+- replace: 'ai application '
+  _tags: [to, can, else, pronoun]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['aip,']
+- replace: 'think of '
+  _tags: [to, the, pronoun]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['thio,']
+- replace: 'solve the problem '
+  _tags: [the, to, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['sopwo,']
+- triggers: ['poso,', 'posog,']
+  replace: 'problem solving '
+  _tags: [ing, pronoun, else]
+  propagate_case: true
+  allow_duplicate: false
+- replace: 'problem solved '
+  _tags: [ed, would, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['posod,']
+- replace: 'can you '
+  _tags: [can, pronoun]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['qaya,']
+- replace: 'can you not '
+  _tags: [negate, can, to, pronoun]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['qanya,']
+- replace: 'to make '
+  _tags: [to, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['tmk,']
+- replace: 'to have '
+  _tags: [have, the, to, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['oha,']
+- triggers: ['4u,', '4y,']
+  replace: 'for you '
+  _tags: [pronoun]
+  allow_duplicate: true
+  propagate_case: true
+- replace: 'for AI '
+  _tags: [pronoun]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['fai,']
+- replace: 'AI AGENT '
+  _tags: [pronoun, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['aia,']
+- replace: 'for AI AGENT '
+  _tags: [to, else, pronoun]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['faia,']
+- replace: 'AI to '
+  _tags: [to, pronoun]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['ait,']
+- replace: 'AI AGENT to '
+  _tags: [to, else, pronoun]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['aiat,']
+- replace: 'for AI to '
+  _tags: [to, pronoun]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['fait,']
+- replace: 'for AI AGENT to '
+  _tags: [to, else, pronoun]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['faiat,']
+- replace: 'all the '
+  _tags: [the, to, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['ahe,']
+- replace: 'all the thing '
+  _tags: [the, to, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['ahet,']
+- replace: 'all the thing '
+  _tags: [the, to, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['alhy,']
+- replace: 'all the things '
+  _tags: [the, to, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['ahethg,']
+- replace: 'all the works '
+  _tags: [the, to, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['ahew,']
+- replace: 'all the work '
+  _tags: [the, to, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['ahewk,']
+- replace: 'all the docs '
+  _tags: [the, to, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['ahedo,']
+- replace: 'all the code '
+  _tags: [the, to, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['aheqo,']
+- replace: 'all the tickets '
+  _tags: [the, to, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['aheti,']
+- replace: 'each '
+  _tags: [the, to, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['eh,']
+- replace: 'with each '
+  _tags: [the, to, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['weh,']
+- replace: 'with all '
+  _tags: [the, to, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['wal,']
+- replace: 'with all the '
+  _tags: [the, to, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['walt,']
+- replace: 'with all of '
+  _tags: [the, to, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['walo,']
+- replace: 'with all this '
+  _tags: [pronoun, the, demonstrative, to, be]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['waliz,']
+- replace: 'with all that '
+  _tags: [pronoun, the, demonstrative, to, have]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['walaz,']
+- replace: 'with all these '
+  _tags: [pronoun, the, demonstrative, to, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['walez,']
+- replace: 'with all those '
+  _tags: [pronoun, the, demonstrative, to, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['waloz,']
+- replace: 'each of '
+  _tags: [the, to, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['eho,']
+- replace: 'each of this '
+  _tags: [the, demonstrative, to, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['ehoiz,']
+- replace: 'each of that '
+  _tags: [the, demonstrative, to, else, have]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['ehoaz,']
+- replace: 'each of these '
+  _tags: [the, demonstrative, to, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['ehoez,']
+- replace: 'each of those '
+  _tags: [the, demonstrative, to, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['ehooz,']
+- replace: 'to be '
+  _tags: [to, be, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['ob,']
+- replace: 'have one '
+  _tags: [have, number, to, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['ha1,']
+- replace: 'have to '
+  _tags: [have, to, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['ha2,']
+- replace: 'don''t have to '
+  _tags: [negate, have, to, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['nha2,']
+- replace: 'having to '
+  _tags: [have, ing, to, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['hai2,']
+- replace: 'have three '
+  _tags: [have, number, to, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['ha3,']
+- replace: 'have four '
+  _tags: [have, number, to, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['ha4,']
+- replace: 'have none '
+  _tags: [have, number, negate, to, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['ha0,']
+- replace: 'this one '
+  _tags: [demonstrative, number, to, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['iz1,']
+- replace: 'that one '
+  _tags: [demonstrative, number, to, else, have]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['az1,']
+- replace: 'these one '
+  _tags: [demonstrative, number, to, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['ez1,']
+- replace: 'those one '
+  _tags: [demonstrative, number, to, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['oz1,']
+- replace: 'then do '
+  _tags: [time, to, would, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['nzu,']
+- replace: 'then does '
+  _tags: [time, to, would, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['nzuu,']
+- replace: 'then do the '
+  _tags: [time, the, to, would, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['nzuhe,']
+- replace: 'what do the '
+  _tags: [question, the, to, would, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['wtuhe,']
+- replace: 'where do the '
+  _tags: [question, place, the, to, would, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['wwuhe,']
+- replace: 'what does the '
+  _tags: [question, the, to, would, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['wtuuhe,']
+- replace: 'where does the '
+  _tags: [question, place, the, to, would, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['wwuuhe,']
+- replace: 'have you '
+  _tags: [have, pronoun, question, to, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['haya,']
+- replace: 'since '
+  _tags: [time, to, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['szi,']
+- replace: 'while '
+  _tags: [time, to, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['ile,']
+- replace: 'second '
+  _tags: [number, to, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['2qnl,']
+- replace: 'last '
+  _tags: [number, to, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['0l,']
+- replace: 'none '
+  _tags: [negate, to, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['00,']
+- replace: 'none of '
+  _tags: [negate, to, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['00o,']
+- replace: 'none if '
+  _tags: [negate, to, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['00f,']
+- replace: 'if none '
+  _tags: [negate, to, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['f00,']
+- replace: 'now '
+  _tags: [time, to, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['0w,']
+- replace: 'now do '
+  _tags: [time, to, would, else]
+  allow_duplicate: true
+  propagate_case: true
+  triggers: ['0wu,']
+- replace: 'now read '
+  _tags: [time, to, would, else]
+  allow_duplicate: true
+  propagate_case: true
+  triggers: ['0ww,']
+- replace: 'now write '
+  _tags: [time, to, would, else]
+  allow_duplicate: true
+  propagate_case: true
+  triggers: ['0www,']
+- replace: 'now write instructions '
+  _tags: [time, to, would, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['0wwi,']
+- replace: 'for now '
+  _tags: [time, to, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['4n0,']
+- replace: 'on now '
+  _tags: [time, to, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['0n,']
+- replace: 'on now we '
+  _tags: [time, to, would, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['0nw,']
+- replace: 'on now you '
+  _tags: [time, to, would, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['0nwy,']
+- replace: 'on now everyone '
+  _tags: [time, to, would, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['0nwe,']
+- triggers: ['r0w,', 'rn0,']
+  replace: 'right now '
+  _tags: [time, to, else]
+  propagate_case: true
+  allow_duplicate: false
+- replace: 'right now do '
+  _tags: [time, to, would, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['r0wu,']
+- replace: 'after that '
+  _tags: [time, to, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['aftaz,']
+- replace: 'after this '
+  _tags: [time, to, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['aftiz,']
+- replace: 'after these '
+  _tags: [time, to, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['aftez,']
+- replace: 'after those '
+  _tags: [time, to, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['aftoz,']
+- replace: 'before that '
+  _tags: [time, to, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['befaz,']
+- replace: 'before this '
+  _tags: [time, to, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['befiz,']
+- replace: 'before these '
+  _tags: [time, to, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['befez,']
+- replace: 'before those '
+  _tags: [time, to, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['befoz,']
+- replace: 'after what '
+  _tags: [time, to, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['aftwt,']
+- replace: 'after when '
+  _tags: [time, to, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['aftwn,']
+- replace: 'after where '
+  _tags: [time, to, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['aftww,']
+- replace: 'after why '
+  _tags: [time, to, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['aftwy,']
+- replace: 'after how '
+  _tags: [time, to, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['afthw,']
+- replace: 'before what '
+  _tags: [time, to, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['befwt,']
+- replace: 'before when '
+  _tags: [time, to, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['befwn,']
+- replace: 'before where '
+  _tags: [time, to, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['befww,']
+- replace: 'before why '
+  _tags: [time, to, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['befwy,']
+- replace: 'before how '
+  _tags: [time, to, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['befhw,']
+- replace: 'just now '
+  _tags: [time, to, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['j0w,']
+- replace: 'just now we '
+  _tags: [time, to, would, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['j0ww,']
+- replace: 'since now '
+  _tags: [time, to, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['s0w,']
+- replace: 'until now '
+  _tags: [time, to, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['u0w,']
+- replace: 'by now '
+  _tags: [time, to, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['b0w,']
+- replace: 'from now '
+  _tags: [time, to, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['f0w,']
+- replace: 'from now on '
+  _tags: [time, to, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['f0wo,']
+- replace: 'not now '
+  _tags: [time, to, negate, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['0t,']
+- replace: 'not now everyone '
+  _tags: [time, to, negate, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['0te,']
+- replace: 'not now but '
+  _tags: [time, to, negate, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['0tb,']
+- replace: 'you now '
+  _tags: [time, to, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['y0w,']
+- replace: 'we now '
+  _tags: [time, to, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['w0w,']
+- replace: 'they now '
+  _tags: [time, to, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['t0w,']
+- replace: 'it now '
+  _tags: [time, to, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['i0w,']
+- replace: 'now we need '
+  _tags: [time, to, would, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['0wwm,']
+- replace: 'now we know '
+  _tags: [time, to, would, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['0wwk,']
+- replace: 'now we can '
+  _tags: [time, to, would, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['0wwc,']
+- replace: 'now we see '
+  _tags: [time, to, would, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['0wws,']
+- replace: 'now we think '
+  _tags: [time, to, would, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['0wwt,']
+- replace: 'now we get '
+  _tags: [time, to, would, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['0wwg,']
+- replace: 'now we have '
+  _tags: [time, to, would, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['0wwh,']
+- replace: 'now we look '
+  _tags: [time, to, would, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['0wwl,']
+- replace: 'now we find '
+  _tags: [time, to, would, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['0wwf,']
+- replace: 'now we put '
+  _tags: [time, to, would, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['0wwp,']
+- replace: 'now we do '
+  _tags: [time, to, would, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['0wwd,']
+- replace: 'now we are '
+  _tags: [time, to, would, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['0wwa,']
+- replace: 'now we use '
+  _tags: [time, to, would, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['0wwu,']
+- replace: 'now we want '
+  _tags: [time, to, would, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['0wwv,']
+- replace: 'now we expect '
+  _tags: [time, to, would, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['0wwx,']
+- replace: 'now we question '
+  _tags: [time, to, would, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['0wwq,']
+- replace: 'now we realize '
+  _tags: [time, to, would, else, to, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['0wwz,']
+- replace: 'some of these '
+  _tags: [demonstrative, to, else]
+  allow_duplicate: true
+  propagate_case: true
+  triggers: ['smez,']
+- replace: 'some that '
+  _tags: [demonstrative, to, else, have]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['smaz,']
+- replace: 'some of those '
+  _tags: [demonstrative, to, else]
+  allow_duplicate: true
+  propagate_case: true
+  triggers: ['smoz,']
+- replace: 'each this '
+  _tags: [demonstrative, to, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['ehiz,']
+- replace: 'each that '
+  _tags: [demonstrative, to, else, have]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['ehaz,']
+- replace: 'each these '
+  _tags: [demonstrative, to, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['ehez,']
+- replace: 'each those '
+  _tags: [demonstrative, to, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['ehoz,']
+- replace: 'copy and paste '
+  _tags: [action, verb, computer, clipboard]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['qpnp,']
+- replace: 'still '
+  _tags: [adjective, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: [il`]
+- replace: 'be sure '
+  _tags: [be, adjective, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['bsuw,']
+- replace: 'also '
+  _tags: [to, else]
+  allow_duplicate: true
+  propagate_case: true
+  triggers: ['so,']
+- replace: 'also this '
+  _tags: [demonstrative, to, else]
+  allow_duplicate: true
+  propagate_case: true
+  triggers: ['soiz,']
+- replace: 'also that '
+  _tags: [demonstrative, to, else]
+  allow_duplicate: true
+  propagate_case: true
+  triggers: ['soaz,']
+- replace: 'also those '
+  _tags: [demonstrative, to, else]
+  allow_duplicate: true
+  propagate_case: true
+  triggers: ['sooz,']
+- replace: 'of each '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['oeh,']
+- replace: 'in the '
+  _tags: [preposition, the]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['ih,']
+- replace: 'could just '
+  _tags: [modal, to, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['couj,']
+- replace: 'should just '
+  _tags: [modal, to, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['souj,']
+- replace: 'would just '
+  _tags: [modal, to, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['wouj,']
+- replace: 'just the '
+  _tags: [just, the, phrase]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['juh,']
+- replace: 'just this '
+  _tags: [just, demonstrative, phrase]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['juhiz,']
+- replace: 'just that '
+  _tags: [just, demonstrative, phrase]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['juhaz,']
+- replace: 'just these '
+  _tags: [just, demonstrative, phrase]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['juhez,']
+- replace: 'just those '
+  _tags: [just, demonstrative, phrase]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['juhoz,']
+- replace: 'just check '
+  _tags: [just, check, phrase]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['juhk,']
+- replace: 'just check the '
+  _tags: [just, check, the, phrase]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['juhkh,']
+- replace: 'just check this '
+  _tags: [just, check, demonstrative, phrase]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['juhkiz,']
+- replace: 'just check that '
+  _tags: [just, check, demonstrative, phrase]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['juhkaz,']
+- replace: 'just check these '
+  _tags: [just, check, demonstrative, phrase]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['juhkez,']
+- replace: 'just check those '
+  _tags: [just, check, demonstrative, phrase]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['juhkoz,']
+- replace: 'which see '
+  _tags: [question, to, can, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['whc,']
+- replace: 'see if '
+  _tags: [condition, phrase, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['cf,']
+- replace: 'single object '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['1obj,']
+- replace: 'multiple object '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['8obj,']
+- replace: 'captcha '
+  _tags: [noun, technology, security]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: [qaha`]
+- replace: 'list of '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['lso,']
+- replace: 'list one '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['ls1,']
+- replace: 'Ansible '
+  _tags: [noun, tool, devops, technology]
+  allow_duplicate: true
+  duplicate_group: ansible-tool
+  propagate_case: true
+  triggers: [ansi`]
+- replace: 'Terraform '
+  _tags: [noun, tool, devops, technology]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: [tf`]

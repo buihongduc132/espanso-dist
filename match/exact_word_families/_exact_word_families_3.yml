@@ -1,0 +1,393 @@
+# ⚠️  WARNING: AUTO-GENERATED FILE - DO NOT EDIT DIRECTLY!
+# This file is generated from word_version by:
+#   scripts/convert_to_tokenized_word_version.py
+# Edit source in space_version and re-run conversions.
+# Tokenizes trailing spaces in triggers to an explicit token.
+# Removes right_word property for tokenized version.
+# Adds trailing space to replacements that don't have one.
+# Current token: ','
+
+name: exact-word-families-3
+parent: default
+matches:
+- replace: 'processor '
+  _tags: [can, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['pwqw,']
+- replace: 'processes '
+  _tags: [can, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['pwqs,']
+- replace: 'processed '
+  _tags: [ed, can, else, would]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['pwqp,']
+- replace: 'processing '
+  _tags: [ing, can, else, pronoun]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['pwqi,']
+- replace: 'procession '
+  _tags: [can, else, pronoun]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['pwqm,']
+- replace: 'sub process '
+  _tags: [to, can, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['spwq,']
+- replace: 'sub processes '
+  _tags: [to, can, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['spwqs,']
+- replace: 'sub processed '
+  _tags: [ed, to, can, else, would]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['spwqp,']
+- replace: 'sub processing '
+  _tags: [ing, to, can, else, pronoun]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['spwqi,']
+- replace: 'sub processor '
+  _tags: [can, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['spwqw,']
+- replace: 'sub function '
+  _tags: [to, can, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['sfm,']
+- replace: 'sub functions '
+  _tags: [to, can, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['sfms,']
+- replace: 'sub functioning '
+  _tags: [ing, to, can, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['sfmi,']
+- replace: 'sub functioned '
+  _tags: [ed, to, can, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['sfmp,']
+- replace: 'sub functional '
+  _tags: [to, can, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['sfml,']
+- replace: 'sub functionally '
+  _tags: [to, can, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['sfmll,']
+- replace: 'sub functionality '
+  _tags: [to, can, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['sfmly,']
+- replace: 'sub functionalities '
+  _tags: [to, can, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['sfmlys,']
+- replace: 'sub section '
+  _tags: [to, can, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['sseqm,']
+- replace: 'sub component '
+  _tags: [to, can, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['sqmp,']
+- replace: 'sub components '
+  _tags: [to, can, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['sqmps,']
+- replace: 'sub category '
+  _tags: [to, can, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['sqat,']
+- replace: 'sub categories '
+  _tags: [to, can, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['sqats,']
+- replace: 'developer '
+  _tags: [would, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['dejelopw,']
+- replace: 'develops '
+  _tags: [would, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['dejelops,']
+- replace: 'developed '
+  _tags: [ed, would, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['dejelopp,']
+- replace: 'developing '
+  _tags: [ing, would, else, pronoun]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['dejelopi,']
+- replace: 'development '
+  _tags: [to, else, would]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['dejelopm,']
+- replace: 'systems '
+  _tags: [ours, to, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['systems,']
+- replace: 'datasets '
+  _tags: [to, else, would]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['datas,']
+- replace: 'data-driven '
+  _tags: [to, pronoun, else, would]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['datal,']
+- replace: 'models '
+  _tags: [would, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['models,']
+- replace: 'modeled '
+  _tags: [ed, would, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['modelp,']
+- replace: 'modeling '
+  _tags: [ing, would, else, pronoun]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['modeli,']
+- replace: 'networks '
+  _tags: [will, to, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['netwowks,']
+- replace: 'networked '
+  _tags: [will, to, ed, would, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['netwowkp,']
+- replace: 'networking '
+  _tags: [pronoun, will, ing, to, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['netwowki,']
+- replace: 'functions '
+  _tags: [to, can, pronoun]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['funqtions,']
+- replace: 'functional '
+  _tags: [to, can, else, pronoun]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['funqtionl,']
+- replace: 'functionality '
+  _tags: [to, can, else, pronoun]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['funqtionly,']
+- replace: 'implements '
+  _tags: [to, else, pronoun]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['implements,']
+- replace: 'implemented '
+  _tags: [pronoun, to, ed, would, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['implementp,']
+- replace: 'implementing '
+  _tags: [ing, to, else, pronoun]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['implementi,']
+- replace: 'implementation '
+  _tags: [noun, to, else, pronoun]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['implementm,']
+- replace: 'configures '
+  _tags: [can, else, pronoun]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['qons,']
+- replace: 'configured '
+  _tags: [pronoun, can, ed, would, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['qonp,']
+- replace: 'configuring '
+  _tags: [ing, can, else, pronoun]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['qoni,']
+- replace: 'configuration '
+  _tags: [pronoun, to, can, noun, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['qonm,']
+- replace: 'deploy '
+  _tags: [would, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['depl,']
+- replace: 'deploys '
+  _tags: [ours, would, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['depls,']
+- replace: 'deployed '
+  _tags: [ed, would, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['deplp,']
+- replace: 'deploying '
+  _tags: [ing, would, else, pronoun]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['depli,']
+- replace: 'deployment '
+  _tags: [to, else, would]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['deplm,']
+- replace: 'deployer '
+  _tags: [noun, to, else, would]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['deplw,']
+- replace: 'deployers '
+  _tags: [noun, to, else, would]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['deplws,']
+- replace: 'optimizer '
+  _tags: [to, else, pronoun]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['optimizew,']
+- replace: 'optimizes '
+  _tags: [to, else, pronoun]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['optimizes,']
+- replace: 'optimized '
+  _tags: [pronoun, to, ed, would, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['optimizep,']
+- replace: 'optimizing '
+  _tags: [ing, to, else, pronoun]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['optimizei,']
+- replace: 'optimization '
+  _tags: [noun, to, else, pronoun]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['optimizem,']
+- replace: 'integrator '
+  _tags: [to, else, pronoun]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['integwatew,']
+- replace: 'integrating '
+  _tags: [ing, to, else, pronoun]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['integwatei,']
+- replace: 'integration '
+  _tags: [noun, to, else, pronoun]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['integwatem,']
+- replace: 'analyzer '
+  _tags: [else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['analyzew,']
+- replace: 'analyzes '
+  _tags: [else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['analyzes,']
+- replace: 'analyzed '
+  _tags: [ed, would, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['analyzep,']
+- replace: 'analyzing '
+  _tags: [ing, pronoun, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['analyzei,']
+- replace: 'analysis '
+  _tags: [ours, pronoun, else, be]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['analyzem,']
+- replace: 'generator '
+  _tags: [to, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['genw,']
+- replace: 'generates '
+  _tags: [to, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['gens,']
+- replace: 'generated '
+  _tags: [ed, to, else, would]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['genp,']
+- replace: 'generating '
+  _tags: [ing, to, else, pronoun]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['geni,']
+- replace: 'generation '
+  _tags: [noun, to, else, pronoun]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['genm,']
+- replace: 'processor '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['pwqo,']
+- replace: 'sub processor '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['spwqo,']
+- replace: 'integrator '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['integwateo,']
+- replace: 'generator '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['geno,']

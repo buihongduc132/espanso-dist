@@ -1,0 +1,236 @@
+# ⚠️  WARNING: AUTO-GENERATED FILE - DO NOT EDIT DIRECTLY!
+# This file is generated from word_version by:
+#   scripts/convert_to_tokenized_word_version.py
+# Edit source in space_version and re-run conversions.
+# Tokenizes trailing spaces in triggers to an explicit token.
+# Removes right_word property for tokenized version.
+# Adds trailing space to replacements that don't have one.
+# Current token: ','
+
+name: word-families-alt
+parent: default
+matches:
+- replace: 'alternate '
+  _tags: [to, can, else, verb]
+  allow_duplicate: true
+  propagate_case: true
+  triggers: ['alt,']
+- replace: 'alternates '
+  _tags: [to, can, else, verb]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['alts,']
+- replace: 'alternating '
+  _tags: [ing, to, can, else, verb, pronoun]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['alti,']
+- replace: 'alternated '
+  _tags: [ed, would, to, can, else, verb]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['altp,']
+- replace: 'alternately '
+  _tags: [adverb, to, can, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['altl,']
+- replace: 'alternator '
+  _tags: [noun, to, can, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['altw,']
+- replace: 'alternators '
+  _tags: [noun, to, can, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['altws,']
+- replace: 'alternation '
+  _tags: [noun, to, can, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['altj,']
+- replace: 'alternations '
+  _tags: [noun, to, can, else]
+  allow_duplicate: true
+  propagate_case: true
+  triggers: ['altjs,']
+- replace: 'alternative '
+  _tags: [noun, adjective, to, can, else]
+  allow_duplicate: true
+  propagate_case: true
+  triggers: ['altjv,']
+- replace: 'alternatives '
+  _tags: [noun, to, can, else]
+  allow_duplicate: true
+  propagate_case: true
+  triggers: ['altjvs,']
+- replace: 'alternatively '
+  _tags: [adverb, to, can, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['altjl,']
+- replace: 'nonalternative '
+  _tags: [adjective, to, can, else, negated]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['nonaltj,']
+- replace: 'subalternative '
+  _tags: [adjective, to, can, else, prefix]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['subaltj,']
+- replace: 'multialternative '
+  _tags: [adjective, to, can, else, prefix]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['multialtj,']
+- replace: 'coalternate '
+  _tags: [verb, to, can, else, prefix]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['coalt,']
+- replace: 'coalternating '
+  _tags: [ing, verb, to, can, else, prefix]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['coalti,']
+- replace: 'coalternated '
+  _tags: [ed, verb, to, can, else, prefix]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['coaltp,']
+- replace: 'prealternate '
+  _tags: [verb, to, can, else, prefix]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['palt,']
+- replace: 'prealternating '
+  _tags: [ing, verb, to, can, else, prefix]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['palti,']
+- replace: 'prealternated '
+  _tags: [ed, verb, to, can, else, prefix]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['paltp,']
+- replace: 'interalternate '
+  _tags: [verb, to, can, else, prefix]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['inalt,']
+- replace: 'interalternating '
+  _tags: [ing, verb, to, can, else, prefix]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['inalti,']
+- replace: 'interalternated '
+  _tags: [ed, verb, to, can, else, prefix]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['inaltp,']
+- replace: 'alternate this '
+  _tags: [demonstrative, verb, to, can, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['altiz,']
+- replace: 'alternate that '
+  _tags: [demonstrative, verb, to, can, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['altaz,']
+- replace: 'alternate these '
+  _tags: [demonstrative, verb, to, can, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['altez,']
+- replace: 'alternate those '
+  _tags: [demonstrative, verb, to, can, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['altoz,']
+- replace: 'alternate the '
+  _tags: [article, verb, to, can, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['alth,']
+- replace: 'alternate all '
+  _tags: [quantifier, verb, to, can, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['alta,']
+- replace: 'alternate all of '
+  _tags: [quantifier, verb, to, can, else, preposition]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['altao,']
+- replace: 'alternate some '
+  _tags: [quantifier, verb, to, can, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['altsm,']
+- replace: 'alternate some of '
+  _tags: [quantifier, verb, to, can, else, preposition]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['altsmo,']
+- replace: 'alternate each '
+  _tags: [quantifier, verb, to, can, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['alteh,']
+- replace: 'alternative this '
+  _tags: [demonstrative, noun, to, can, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['altjiz,']
+- replace: 'alternative that '
+  _tags: [demonstrative, noun, to, can, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['altjaz,']
+- replace: 'alternative these '
+  _tags: [demonstrative, noun, to, can, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['altjez,']
+- replace: 'alternative those '
+  _tags: [demonstrative, noun, to, can, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['altjoz,']
+- replace: 'alternative the '
+  _tags: [article, noun, to, can, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['altjh,']
+- replace: 'alternative all '
+  _tags: [quantifier, noun, to, can, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['altja,']
+- replace: 'alternative all of '
+  _tags: [quantifier, noun, to, can, else, preposition]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['altjao,']
+- replace: 'alternative some '
+  _tags: [quantifier, noun, to, can, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['altjsm,']
+- replace: 'alternative some of '
+  _tags: [quantifier, noun, to, can, else, preposition]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['altjsmo,']
+- replace: 'alternative each '
+  _tags: [quantifier, noun, to, can, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['altjeh,']
+- replace: 'alternator '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['alto,']

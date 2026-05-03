@@ -1,0 +1,52 @@
+# ⚠️  WARNING: AUTO-GENERATED FILE - DO NOT EDIT DIRECTLY!
+# This file is generated from word_version by:
+#   scripts/convert_to_tokenized_word_version.py
+# Edit source in space_version and re-run conversions.
+# Tokenizes trailing spaces in triggers to an explicit token.
+# Removes right_word property for tokenized version.
+# Adds trailing space to replacements that don't have one.
+# Current token: ','
+
+name: word-families-reciprocal
+parent: default
+matches:
+- replace: 'each others '
+  _tags: [pronoun, reciprocal, to, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['ehot,']
+- replace: 'each others'' '
+  _tags: [pronoun, reciprocal, possessive, to, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['ehots,']
+- replace: 'each othering '
+  _tags: [pronoun, reciprocal, ing, to, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['ehoti,']
+- replace: 'each othered '
+  _tags: [pronoun, reciprocal, ed, to, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['ehotp,']
+- replace: 'each otherness '
+  _tags: [pronoun, reciprocal, noun, to, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['ehotm,']
+- replace: 'each other '
+  _tags: [pronoun, reciprocal, to, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['ehotw,']
+- replace: 'each otherable '
+  _tags: [pronoun, reciprocal, adjective, to, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['ehotb,']
+- replace: 'each otherably '
+  _tags: [pronoun, reciprocal, adverb, to, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['ehotbl,']

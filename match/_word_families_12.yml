@@ -1,0 +1,265 @@
+# ⚠️  WARNING: AUTO-GENERATED FILE - DO NOT EDIT DIRECTLY!
+# This file is generated from word_version by:
+#   scripts/convert_to_tokenized_word_version.py
+# Edit source in space_version and re-run conversions.
+# Tokenizes trailing spaces in triggers to an explicit token.
+# Removes right_word property for tokenized version.
+# Adds trailing space to replacements that don't have one.
+# Current token: ','
+
+matches:
+- replace: 'collecter '
+  _tags: [noun, can, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['qolw,']
+- replace: 'collecters '
+  _tags: [noun, can, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['qolws,']
+- replace: 'collectering '
+  _tags: [ing, can, else, pronoun]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['qolwi,']
+- replace: 'collectered '
+  _tags: [ed, can, else, would]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['qolwp,']
+- replace: 'collector '
+  _tags: [noun, can, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['qolo,']
+- replace: 'collectors '
+  _tags: [noun, can, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['qolos,']
+- replace: 'collectoring '
+  _tags: [ing, can, else, pronoun]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['qoloi,']
+- replace: 'collected '
+  _tags: [ed, can, else, would]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['qolop,']
+- replace: 'forward '
+  _tags: [will, would]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['foww,']
+- replace: 'forwarded '
+  _tags: [ed, will, would, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['fowwp,']
+- replace: 'forwarding '
+  _tags: [will, would, ing, pronoun]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['fowwi,']
+- replace: 'forwards '
+  _tags: [will, would]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['fowws,']
+- replace: 'together '
+  _tags: [the, to, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['toge,']
+- replace: 'mech '
+  _tags: [noun, can, pronoun, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['meq,']
+- replace: 'mechs '
+  _tags: [noun, can, pronoun, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['meqs,']
+- replace: 'mechanizing '
+  _tags: [ing, can, pronoun, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['meqi,']
+- replace: 'mechanized '
+  _tags: [ed, would, can, pronoun, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['meqp,']
+- replace: 'mechanization '
+  _tags: [noun, can, pronoun, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['meqm,']
+- replace: 'mechanic '
+  _tags: [noun, can, pronoun, else, have]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['meqa,']
+- replace: 'mechanics '
+  _tags: [noun, can, pronoun, else, have]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['meqas,']
+- replace: 'mechanism '
+  _tags: [noun, can, pronoun, else, be, have]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['meqam,']
+- replace: 'mechanic''s '
+  _tags: [noun, can, pronoun, else, would, have]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['meqad,']
+- replace: 'character '
+  _tags: [the, to, can, else, have]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['qhaw,']
+- replace: 'charactered '
+  _tags: [the, have, can, to, ed, would, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['qhawp,']
+- replace: 'charactering '
+  _tags: [pronoun, the, ing, to, can, else, have]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['qhawi,']
+- replace: 'characters '
+  _tags: [the, to, can, else, have]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['qhaws,']
+- replace: 'characteristic '
+  _tags: [pronoun, the, to, can, be, else, have]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['qhawt,']
+- replace: 'characteristics '
+  _tags: [pronoun, the, to, can, be, else, have]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['qhas,']
+- replace: 'though '
+  _tags: [to, the]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['thog,']
+- replace: 'put '
+  _tags: [to]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['put,']
+- replace: 'putting '
+  _tags: [to, ing, pronoun]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['puti,']
+- replace: 'put '
+  _tags: [to, would]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['putd,']
+- replace: 'puts '
+  _tags: [to]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['puts,']
+- replace: 'are there '
+  _tags: [place, the, to, be, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['aew,']
+- replace: 'is there '
+  _tags: [place, pronoun, the, to, be, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['tew,']
+- replace: 'was there '
+  _tags: [place, will, the, to, be, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['wwasew,']
+- replace: 'were there '
+  _tags: [place, pronoun, will, the, to, be, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['wwassew,']
+- replace: 'are here '
+  _tags: [place, the, to, be, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['awe,']
+- replace: 'is here '
+  _tags: [place, pronoun, the, to, be, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['twe,']
+- replace: 'was here '
+  _tags: [place, will, the, to, be, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['wwaswe,']
+- replace: 'were here '
+  _tags: [place, pronoun, will, the, to, be, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['wwasswe,']
+- replace: 'is there '
+  _tags: [alias]
+  allow_duplicate: true
+  propagate_case: true
+  triggers: ['isth,']
+- replace: 'was there '
+  _tags: [alias]
+  allow_duplicate: true
+  propagate_case: true
+  triggers: ['wast,']
+- replace: 'were there '
+  _tags: [alias]
+  allow_duplicate: true
+  propagate_case: true
+  triggers: ['wewet,']
+- replace: 'was here '
+  _tags: [alias]
+  allow_duplicate: true
+  propagate_case: true
+  triggers: ['aswe,']
+- replace: 'were here '
+  _tags: [alias]
+  allow_duplicate: true
+  propagate_case: true
+  triggers: ['asswe,']
+- replace: 'was there '
+  _tags: [alias]
+  allow_duplicate: true
+  propagate_case: true
+  triggers: ['asew,']
+- replace: 'were there '
+  _tags: [place, pronoun, the, to, be, else]
+  allow_duplicate: true
+  propagate_case: true
+  triggers: ['assew,']
+- replace: 'mechanical '
+  _tags: [adjective, can, pronoun, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['meqj,']
+- replace: 'mechanize '
+  _tags: [to, can, pronoun, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['meqz,']
+- replace: 'mechanically '
+  _tags: [adverb, can, pronoun, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['meqjl,']

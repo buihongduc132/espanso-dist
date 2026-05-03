@@ -1,0 +1,196 @@
+# ⚠️  WARNING: AUTO-GENERATED FILE - DO NOT EDIT DIRECTLY!
+# This file is generated from word_version by:
+#   scripts/convert_to_tokenized_word_version.py
+# Edit source in space_version and re-run conversions.
+# Tokenizes trailing spaces in triggers to an explicit token.
+# Removes right_word property for tokenized version.
+# Adds trailing space to replacements that don't have one.
+# Current token: ','
+
+name: word-families-build
+parent: default
+matches:
+- triggers: ['bld,', 'bui,', 'buil,']
+  replace: 'build '
+  _tags: [verb, to, else]
+  allow_duplicate: true
+  propagate_case: true
+- triggers: ['blds,', 'buils,', 'buis,']
+  replace: 'builds '
+  _tags: [verb, to, else]
+  propagate_case: true
+  allow_duplicate: false
+- triggers: ['bldi,', 'buii,', 'builg,', 'buili,', 'builm,', 'builn,']
+  replace: 'building '
+  _tags: [ing, noun, to, else]
+  propagate_case: true
+  allow_duplicate: false
+- triggers: ['bldd,', 'built,', 'buip,']
+  replace: 'built '
+  _tags: [ed, to, else]
+  propagate_case: true
+  allow_duplicate: false
+- triggers: ['builw,', 'buiw,']
+  replace: 'builder '
+  _tags: [noun, to, else]
+  propagate_case: true
+  allow_duplicate: false
+- replace: 'builders '
+  _tags: [noun, to, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['buiws,']
+- replace: 'buildable '
+  _tags: [adjective, to, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['buib,']
+- replace: 'buildability '
+  _tags: [noun, to, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['buibm,']
+- replace: 'buildably '
+  _tags: [adverb, to, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['buibl,']
+- replace: 'rebuild '
+  _tags: [verb, to, else, re-prefix]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['wbui,']
+- replace: 'rebuilds '
+  _tags: [verb, to, else, re-prefix]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['wbuis,']
+- replace: 'rebuilding '
+  _tags: [ing, noun, to, else, re-prefix]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['wbuii,']
+- replace: 'rebuilt '
+  _tags: [ed, to, else, re-prefix]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['wbuip,']
+- replace: 'rebuilder '
+  _tags: [noun, to, else, re-prefix]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['wbuiw,']
+- replace: 'rebuilders '
+  _tags: [noun, to, else, re-prefix]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['wbuiws,']
+- replace: 'rebuildable '
+  _tags: [adjective, to, else, re-prefix]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['wbuib,']
+- replace: 'build in '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['buin,']
+- replace: 'builds in '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['buins,']
+- replace: 'building in '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['buini,']
+- replace: 'built in '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['buinp,']
+- replace: 'build-in '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['buinm,']
+- replace: 'build-iners '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['buinws,']
+- replace: 'build in this '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['buiniz,']
+- replace: 'build in that '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['buinaz,']
+- replace: 'build in these '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['buinez,']
+- replace: 'build in those '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['buinoz,']
+- replace: 'build in to the '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['buin2h,']
+- replace: 'builds in to the '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['buins2h,']
+- replace: 'build in from the '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['buin22h,']
+- replace: 'builds in from the '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['buins22h,']
+- replace: 'single build in '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['1buin,']
+- replace: 'multiple build in '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['8buin,']
+- replace: 'single builds in '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['1buins,']
+- replace: 'multiple builds in '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['8buins,']
+- replace: 'single build in to '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['1buin2,']
+- replace: 'multiple build in to '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['8buin2,']
+- replace: 'single builds in to '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['1buins2,']
+- replace: 'multiple builds in to '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['8buins2,']
+- replace: 'to single build in '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['21buin,']
+- replace: 'to single builds in '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['21buins,']
+- replace: 'to multiple build in '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['28buin,']
+- replace: 'to multiple builds in '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['28buins,']

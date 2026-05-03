@@ -1,0 +1,66 @@
+# ⚠️  WARNING: AUTO-GENERATED FILE - DO NOT EDIT DIRECTLY!
+# This file is generated from word_version by:
+#   scripts/convert_to_tokenized_word_version.py
+# Edit source in space_version and re-run conversions.
+# Tokenizes trailing spaces in triggers to an explicit token.
+# Removes right_word property for tokenized version.
+# Adds trailing space to replacements that don't have one.
+# Current token: ','
+
+matches:
+- replace: 'plan '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['pln,']
+- replace: 'plans '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['plns,']
+- replace: 'planning '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['plni,']
+- replace: 'planned '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['plnp,']
+- replace: 'plannable '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['plnb,']
+- replace: 'this plan '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['izpln,']
+- replace: 'that plan '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['azpln,']
+- replace: 'these plans '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['ezplns,']
+- replace: 'those plans '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['ozplns,']
+- replace: 'what plan '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['wtpln,']
+- replace: 'when plan '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['wnpln,']
+- replace: 'why plan '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['wypln,']
+- replace: 'where plan '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['wwpln,']
+- replace: 'how plan '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['hwpln,']

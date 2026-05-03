@@ -1,0 +1,945 @@
+# ⚠️  WARNING: AUTO-GENERATED FILE - DO NOT EDIT DIRECTLY!
+# This file is generated from word_version by:
+#   scripts/convert_to_tokenized_word_version.py
+# Edit source in space_version and re-run conversions.
+# Tokenizes trailing spaces in triggers to an explicit token.
+# Removes right_word property for tokenized version.
+# Adds trailing space to replacements that don't have one.
+# Current token: ','
+
+name: time-based
+parent: default
+matches:
+- {replace: '{{num}} millisecond(s) ', regex: 't(?P<num>\d+)ms ', word: false, propagate_case: true, allow_duplicate: false}
+- {replace: '{{num}} second(s) ', regex: 't(?P<num>\d+)s ', word: false, propagate_case: true, allow_duplicate: false}
+- replace: '1 minute '
+  _tags: [to, else, pronoun]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['t1m,']
+- replace: '2 minutes '
+  _tags: [to, else, pronoun]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['t2m,']
+- replace: '3 minutes '
+  _tags: [to, else, pronoun]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['t3m,']
+- replace: '4 minutes '
+  _tags: [to, else, pronoun]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['t4m,']
+- replace: '5 minutes '
+  _tags: [to, else, pronoun]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['t5m,']
+- replace: '6 minutes '
+  _tags: [to, else, pronoun]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['t6m,']
+- replace: '7 minutes '
+  _tags: [to, else, pronoun]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['t7m,']
+- replace: '8 minutes '
+  _tags: [to, else, pronoun]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['t8m,']
+- replace: '9 minutes '
+  _tags: [to, else, pronoun]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['t9m,']
+- replace: '10 minutes '
+  _tags: [to, else, pronoun]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['t10m,']
+- replace: '11 minutes '
+  _tags: [to, else, pronoun]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['t11m,']
+- replace: '12 minutes '
+  _tags: [to, else, pronoun]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['t12m,']
+- replace: '13 minutes '
+  _tags: [to, else, pronoun]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['t13m,']
+- replace: '14 minutes '
+  _tags: [to, else, pronoun]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['t14m,']
+- replace: '15 minutes '
+  _tags: [to, else, pronoun]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['t15m,']
+- replace: '16 minutes '
+  _tags: [to, else, pronoun]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['t16m,']
+- replace: '17 minutes '
+  _tags: [to, else, pronoun]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['t17m,']
+- replace: '18 minutes '
+  _tags: [to, else, pronoun]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['t18m,']
+- replace: '19 minutes '
+  _tags: [to, else, pronoun]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['t19m,']
+- replace: '20 minutes '
+  _tags: [to, else, pronoun]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['t20m,']
+- replace: '21 minutes '
+  _tags: [to, else, pronoun]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['t21m,']
+- replace: '22 minutes '
+  _tags: [to, else, pronoun]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['t22m,']
+- replace: '23 minutes '
+  _tags: [to, else, pronoun]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['t23m,']
+- replace: '24 minutes '
+  _tags: [to, else, pronoun]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['t24m,']
+- replace: '25 minutes '
+  _tags: [to, else, pronoun]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['t25m,']
+- replace: '26 minutes '
+  _tags: [to, else, pronoun]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['t26m,']
+- replace: '27 minutes '
+  _tags: [to, else, pronoun]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['t27m,']
+- replace: '28 minutes '
+  _tags: [to, else, pronoun]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['t28m,']
+- replace: '29 minutes '
+  _tags: [to, else, pronoun]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['t29m,']
+- replace: '30 minutes '
+  _tags: [to, else, pronoun]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['t30m,']
+- replace: '31 minutes '
+  _tags: [to, else, pronoun]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['t31m,']
+- replace: '32 minutes '
+  _tags: [to, else, pronoun]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['t32m,']
+- replace: '33 minutes '
+  _tags: [to, else, pronoun]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['t33m,']
+- replace: '34 minutes '
+  _tags: [to, else, pronoun]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['t34m,']
+- replace: '35 minutes '
+  _tags: [to, else, pronoun]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['t35m,']
+- replace: '36 minutes '
+  _tags: [to, else, pronoun]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['t36m,']
+- replace: '37 minutes '
+  _tags: [to, else, pronoun]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['t37m,']
+- replace: '38 minutes '
+  _tags: [to, else, pronoun]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['t38m,']
+- replace: '39 minutes '
+  _tags: [to, else, pronoun]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['t39m,']
+- replace: '40 minutes '
+  _tags: [to, else, pronoun]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['t40m,']
+- replace: '41 minutes '
+  _tags: [to, else, pronoun]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['t41m,']
+- replace: '42 minutes '
+  _tags: [to, else, pronoun]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['t42m,']
+- replace: '43 minutes '
+  _tags: [to, else, pronoun]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['t43m,']
+- replace: '44 minutes '
+  _tags: [to, else, pronoun]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['t44m,']
+- replace: '45 minutes '
+  _tags: [to, else, pronoun]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['t45m,']
+- replace: '46 minutes '
+  _tags: [to, else, pronoun]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['t46m,']
+- replace: '47 minutes '
+  _tags: [to, else, pronoun]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['t47m,']
+- replace: '48 minutes '
+  _tags: [to, else, pronoun]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['t48m,']
+- replace: '49 minutes '
+  _tags: [to, else, pronoun]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['t49m,']
+- replace: '50 minutes '
+  _tags: [to, else, pronoun]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['t50m,']
+- replace: '51 minutes '
+  _tags: [to, else, pronoun]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['t51m,']
+- replace: '52 minutes '
+  _tags: [to, else, pronoun]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['t52m,']
+- replace: '53 minutes '
+  _tags: [to, else, pronoun]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['t53m,']
+- replace: '54 minutes '
+  _tags: [to, else, pronoun]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['t54m,']
+- replace: '55 minutes '
+  _tags: [to, else, pronoun]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['t55m,']
+- replace: '56 minutes '
+  _tags: [to, else, pronoun]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['t56m,']
+- replace: '57 minutes '
+  _tags: [to, else, pronoun]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['t57m,']
+- replace: '58 minutes '
+  _tags: [to, else, pronoun]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['t58m,']
+- replace: '59 minutes '
+  _tags: [to, else, pronoun]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['t59m,']
+- replace: '1 hour '
+  _tags: [possessive, to, the]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['t1h,']
+- replace: '2 hours '
+  _tags: [possessive, ours, to, the]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['t2h,']
+- replace: '3 hours '
+  _tags: [possessive, ours, to, the]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['t3h,']
+- replace: '4 hours '
+  _tags: [possessive, ours, to, the]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['t4h,']
+- replace: '5 hours '
+  _tags: [possessive, ours, to, the]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['t5h,']
+- replace: '6 hours '
+  _tags: [possessive, ours, to, the]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['t6h,']
+- replace: '7 hours '
+  _tags: [possessive, ours, to, the]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['t7h,']
+- replace: '8 hours '
+  _tags: [possessive, ours, to, the]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['t8h,']
+- replace: '9 hours '
+  _tags: [possessive, ours, to, the]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['t9h,']
+- replace: '10 hours '
+  _tags: [possessive, ours, to, the]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['t10h,']
+- replace: '11 hours '
+  _tags: [possessive, ours, to, the]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['t11h,']
+- replace: '12 hours '
+  _tags: [possessive, ours, to, the]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['t12h,']
+- replace: '13 hours '
+  _tags: [possessive, ours, to, the]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['t13h,']
+- replace: '14 hours '
+  _tags: [possessive, ours, to, the]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['t14h,']
+- replace: '15 hours '
+  _tags: [possessive, ours, to, the]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['t15h,']
+- replace: '16 hours '
+  _tags: [possessive, ours, to, the]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['t16h,']
+- replace: '17 hours '
+  _tags: [possessive, ours, to, the]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['t17h,']
+- replace: '18 hours '
+  _tags: [possessive, ours, to, the]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['t18h,']
+- replace: '19 hours '
+  _tags: [possessive, ours, to, the]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['t19h,']
+- replace: '20 hours '
+  _tags: [possessive, ours, to, the]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['t20h,']
+- replace: '21 hours '
+  _tags: [possessive, ours, to, the]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['t21h,']
+- replace: '22 hours '
+  _tags: [possessive, ours, to, the]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['t22h,']
+- replace: '23 hours '
+  _tags: [possessive, ours, to, the]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['t23h,']
+- replace: '24 hours '
+  _tags: [possessive, ours, to, the]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['t24h,']
+- replace: '48 hours '
+  _tags: [possessive, ours, to, the]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['t48h,']
+- replace: '36 hours '
+  _tags: [possessive, ours, to, the]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['t36h,']
+- replace: '1 day '
+  _tags: [to, would]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['t1d,']
+- replace: '2 days '
+  _tags: [ours, to, would]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['t2d,']
+- replace: '3 days '
+  _tags: [ours, to, would]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['t3d,']
+- replace: '4 days '
+  _tags: [ours, to, would]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['t4d,']
+- replace: '5 days '
+  _tags: [ours, to, would]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['t5d,']
+- replace: '6 days '
+  _tags: [ours, to, would]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['t6d,']
+- replace: '7 days '
+  _tags: [ours, to, would]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['t7d,']
+- replace: '8 days '
+  _tags: [ours, to, would]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['t8d,']
+- replace: '9 days '
+  _tags: [ours, to, would]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['t9d,']
+- replace: '10 days '
+  _tags: [ours, to, would]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['t10d,']
+- replace: '11 days '
+  _tags: [ours, to, would]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['t11d,']
+- replace: '12 days '
+  _tags: [ours, to, would]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['t12d,']
+- replace: '13 days '
+  _tags: [ours, to, would]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['t13d,']
+- replace: '14 days '
+  _tags: [ours, to, would]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['t14d,']
+- replace: '15 days '
+  _tags: [ours, to, would]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['t15d,']
+- replace: '16 days '
+  _tags: [ours, to, would]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['t16d,']
+- replace: '17 days '
+  _tags: [ours, to, would]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['t17d,']
+- replace: '18 days '
+  _tags: [ours, to, would]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['t18d,']
+- replace: '19 days '
+  _tags: [ours, to, would]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['t19d,']
+- replace: '20 days '
+  _tags: [ours, to, would]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['t20d,']
+- replace: '21 days '
+  _tags: [ours, to, would]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['t21d,']
+- replace: '22 days '
+  _tags: [ours, to, would]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['t22d,']
+- replace: '23 days '
+  _tags: [ours, to, would]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['t23d,']
+- replace: '24 days '
+  _tags: [ours, to, would]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['t24d,']
+- replace: '25 days '
+  _tags: [ours, to, would]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['t25d,']
+- replace: '26 days '
+  _tags: [ours, to, would]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['t26d,']
+- replace: '27 days '
+  _tags: [ours, to, would]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['t27d,']
+- replace: '28 days '
+  _tags: [ours, to, would]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['t28d,']
+- replace: '29 days '
+  _tags: [ours, to, would]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['t29d,']
+- replace: '30 days '
+  _tags: [ours, to, would]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['t30d,']
+- replace: '31 days '
+  _tags: [ours, to, would]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['t31d,']
+- replace: '60 days '
+  _tags: [ours, to, would]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['t60d,']
+- replace: '90 days '
+  _tags: [ours, to, would]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['t90d,']
+- replace: '180 days '
+  _tags: [ours, to, would]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['t180d,']
+- replace: '300 days '
+  _tags: [ours, to, would]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['t300d,']
+- replace: '360 days '
+  _tags: [ours, to, would]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['t360d,']
+- replace: '365 days '
+  _tags: [ours, to, would]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['t365d,']
+- replace: '1 week '
+  _tags: [will, to, else, pronoun]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['t1w,']
+- replace: '2 weeks '
+  _tags: [will, to, else, pronoun]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['t2w,']
+- replace: '3 weeks '
+  _tags: [will, to, else, pronoun]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['t3w,']
+- replace: '4 weeks '
+  _tags: [will, to, else, pronoun]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['t4w,']
+- replace: '5 weeks '
+  _tags: [will, to, else, pronoun]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['t5w,']
+- replace: '6 weeks '
+  _tags: [will, to, else, pronoun]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['t6w,']
+- replace: '7 weeks '
+  _tags: [will, to, else, pronoun]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['t7w,']
+- replace: '8 weeks '
+  _tags: [will, to, else, pronoun]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['t8w,']
+- replace: '9 weeks '
+  _tags: [will, to, else, pronoun]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['t9w,']
+- replace: '10 weeks '
+  _tags: [will, to, else, pronoun]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['t10w,']
+- replace: '11 weeks '
+  _tags: [will, to, else, pronoun]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['t11w,']
+- replace: '12 weeks '
+  _tags: [will, to, else, pronoun]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['t12w,']
+- replace: '13 weeks '
+  _tags: [will, to, else, pronoun]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['t13w,']
+- replace: '14 weeks '
+  _tags: [will, to, else, pronoun]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['t14w,']
+- replace: '15 weeks '
+  _tags: [will, to, else, pronoun]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['t15w,']
+- replace: '16 weeks '
+  _tags: [will, to, else, pronoun]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['t16w,']
+- replace: '17 weeks '
+  _tags: [will, to, else, pronoun]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['t17w,']
+- replace: '18 weeks '
+  _tags: [will, to, else, pronoun]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['t18w,']
+- replace: '19 weeks '
+  _tags: [will, to, else, pronoun]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['t19w,']
+- replace: '20 weeks '
+  _tags: [will, to, else, pronoun]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['t20w,']
+- replace: '21 weeks '
+  _tags: [will, to, else, pronoun]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['t21w,']
+- replace: '22 weeks '
+  _tags: [will, to, else, pronoun]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['t22w,']
+- replace: '23 weeks '
+  _tags: [will, to, else, pronoun]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['t23w,']
+- replace: '24 weeks '
+  _tags: [will, to, else, pronoun]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['t24w,']
+- replace: '25 weeks '
+  _tags: [will, to, else, pronoun]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['t25w,']
+- replace: '26 weeks '
+  _tags: [will, to, else, pronoun]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['t26w,']
+- replace: '27 weeks '
+  _tags: [will, to, else, pronoun]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['t27w,']
+- replace: '28 weeks '
+  _tags: [will, to, else, pronoun]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['t28w,']
+- replace: '29 weeks '
+  _tags: [will, to, else, pronoun]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['t29w,']
+- replace: '30 weeks '
+  _tags: [will, to, else, pronoun]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['t30w,']
+- replace: '31 weeks '
+  _tags: [will, to, else, pronoun]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['t31w,']
+- replace: '32 weeks '
+  _tags: [will, to, else, pronoun]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['t32w,']
+- replace: '33 weeks '
+  _tags: [will, to, else, pronoun]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['t33w,']
+- replace: '34 weeks '
+  _tags: [will, to, else, pronoun]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['t34w,']
+- replace: '35 weeks '
+  _tags: [will, to, else, pronoun]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['t35w,']
+- replace: '36 weeks '
+  _tags: [will, to, else, pronoun]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['t36w,']
+- replace: '37 weeks '
+  _tags: [will, to, else, pronoun]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['t37w,']
+- replace: '38 weeks '
+  _tags: [will, to, else, pronoun]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['t38w,']
+- replace: '39 weeks '
+  _tags: [will, to, else, pronoun]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['t39w,']
+- replace: '40 weeks '
+  _tags: [will, to, else, pronoun]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['t40w,']
+- replace: '41 weeks '
+  _tags: [will, to, else, pronoun]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['t41w,']
+- replace: '42 weeks '
+  _tags: [will, to, else, pronoun]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['t42w,']
+- replace: '43 weeks '
+  _tags: [will, to, else, pronoun]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['t43w,']
+- replace: '44 weeks '
+  _tags: [will, to, else, pronoun]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['t44w,']
+- replace: '45 weeks '
+  _tags: [will, to, else, pronoun]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['t45w,']
+- replace: '46 weeks '
+  _tags: [will, to, else, pronoun]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['t46w,']
+- replace: '47 weeks '
+  _tags: [will, to, else, pronoun]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['t47w,']
+- replace: '48 weeks '
+  _tags: [will, to, else, pronoun]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['t48w,']
+- replace: '49 weeks '
+  _tags: [will, to, else, pronoun]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['t49w,']
+- replace: '50 weeks '
+  _tags: [will, to, else, pronoun]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['t50w,']
+- replace: '51 weeks '
+  _tags: [will, to, else, pronoun]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['t51w,']
+- replace: '52 weeks '
+  _tags: [will, to, else, pronoun]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['t52w,']
+- replace: '1 month '
+  _tags: [to, the]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['t1mo,']
+- replace: '2 months '
+  _tags: [to, the]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['t2mo,']
+- replace: '3 months '
+  _tags: [to, the]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['t3mo,']
+- replace: '4 months '
+  _tags: [to, the]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['t4mo,']
+- replace: '5 months '
+  _tags: [to, the]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['t5mo,']
+- replace: '6 months '
+  _tags: [to, the]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['t6mo,']
+- replace: '7 months '
+  _tags: [to, the]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['t7mo,']
+- replace: '8 months '
+  _tags: [to, the]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['t8mo,']
+- replace: '9 months '
+  _tags: [to, the]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['t9mo,']
+- replace: '10 months '
+  _tags: [to, the]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['t10mo,']
+- replace: '11 months '
+  _tags: [to, the]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['t11mo,']
+- replace: '12 months '
+  _tags: [to, the]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['t12mo,']
+- {replace: '{{num}} year(s) ', regex: 't(?P<num>\d+)y ', word: false, propagate_case: true, allow_duplicate: false}

@@ -1,0 +1,157 @@
+# ⚠️  WARNING: AUTO-GENERATED FILE - DO NOT EDIT DIRECTLY!
+# This file is generated from word_version by:
+#   scripts/convert_to_tokenized_word_version.py
+# Edit source in space_version and re-run conversions.
+# Tokenizes trailing spaces in triggers to an explicit token.
+# Removes right_word property for tokenized version.
+# Adds trailing space to replacements that don't have one.
+# Current token: ','
+
+name: word-families-adjust
+parent: default
+matches:
+- replace: 'adjust '
+  _tags: [to, can, else, verb]
+  allow_duplicate: true
+  propagate_case: true
+  triggers: ['adju,']
+- replace: 'adjusts '
+  _tags: [to, can, else, verb]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['adjus,']
+- replace: 'adjusting '
+  _tags: [ing, to, can, else, verb, pronoun]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['adjui,']
+- replace: 'adjusted '
+  _tags: [ed, would, to, can, else, verb]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['adjup,']
+- replace: 'adjustable '
+  _tags: [adjective, to, can, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['adjuj,']
+- replace: 'adjuster '
+  _tags: [noun, to, can, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['adjuw,']
+- replace: 'adjusters '
+  _tags: [noun, to, can, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['adjuws,']
+- replace: 'adjustment '
+  _tags: [noun, to, can, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['adjum,']
+- replace: 'adjustments '
+  _tags: [noun, to, can, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['adjums,']
+- replace: 'preadjust '
+  _tags: [to, can, else, verb, prefix]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['padju,']
+- replace: 'preadjusted '
+  _tags: [ed, would, to, can, else, verb, prefix]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['padjup,']
+- replace: 'preadjustment '
+  _tags: [noun, to, can, else, prefix]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['padjum,']
+- replace: 'readjust '
+  _tags: [to, can, else, verb, prefix]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['wadju,']
+- replace: 'readjusting '
+  _tags: [ing, to, can, else, verb, prefix]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['wadjui,']
+- replace: 'readjusted '
+  _tags: [ed, would, to, can, else, verb, prefix]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['wadjup,']
+- replace: 'readjustment '
+  _tags: [noun, to, can, else, prefix]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['wadjum,']
+- replace: 'misadjust '
+  _tags: [to, can, else, verb, prefix]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['madju,']
+- replace: 'misadjusted '
+  _tags: [ed, would, to, can, else, verb, prefix]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['madjup,']
+- replace: 'misadjustment '
+  _tags: [noun, to, can, else, prefix]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['madjum,']
+- replace: 'adjust this '
+  _tags: [demonstrative, verb, to, can, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['adjuiz,']
+- replace: 'adjust that '
+  _tags: [demonstrative, verb, to, can, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['adjuaz,']
+- replace: 'adjust these '
+  _tags: [demonstrative, verb, to, can, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['adjuez,']
+- replace: 'adjust those '
+  _tags: [demonstrative, verb, to, can, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['adjuoz,']
+- replace: 'adjust the '
+  _tags: [article, verb, to, can, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['adjuh,']
+- replace: 'adjust all '
+  _tags: [quantifier, verb, to, can, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['adjua,']
+- replace: 'adjust all of '
+  _tags: [quantifier, verb, to, can, else, preposition]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['adjuao,']
+- replace: 'adjust some '
+  _tags: [quantifier, verb, to, can, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['adjusm,']
+- replace: 'adjust some of '
+  _tags: [quantifier, verb, to, can, else, preposition]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['adjusmo,']
+- replace: 'adjust each '
+  _tags: [quantifier, verb, to, can, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['adjueh,']

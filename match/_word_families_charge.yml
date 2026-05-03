@@ -1,0 +1,57 @@
+# ⚠️  WARNING: AUTO-GENERATED FILE - DO NOT EDIT DIRECTLY!
+# This file is generated from word_version by:
+#   scripts/convert_to_tokenized_word_version.py
+# Edit source in space_version and re-run conversions.
+# Tokenizes trailing spaces in triggers to an explicit token.
+# Removes right_word property for tokenized version.
+# Adds trailing space to replacements that don't have one.
+# Current token: ','
+
+name: word-family-charge
+parent: default
+matches:
+- replace: 'charge '
+  _tags: [noun, to, can, else, pronoun]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['qhag,']
+- replace: 'charges '
+  _tags: [noun, to, can, else, pronoun]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['qhags,']
+- replace: 'charging '
+  _tags: [verb, ing, to, can, pronoun, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['qhagi,']
+- replace: 'charged '
+  _tags: [verb, ed, would, to, can, else, pronoun]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['qhagp,']
+- replace: 'charger '
+  _tags: [noun, to, can, else, pronoun]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['qhagw,']
+- replace: 'chargeable '
+  _tags: [adjective, to, can, else, pronoun]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['qhagb,']
+- replace: 'charge to the '
+  _tags: [phrase, to, can, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['qhag2h,']
+- replace: 'this charge '
+  _tags: [phrase, to, can, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['qhagiz,']
+- replace: 'that charge '
+  _tags: [phrase, to, can, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['qhagaz,']

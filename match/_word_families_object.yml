@@ -1,0 +1,136 @@
+# ⚠️  WARNING: AUTO-GENERATED FILE - DO NOT EDIT DIRECTLY!
+# This file is generated from word_version by:
+#   scripts/convert_to_tokenized_word_version.py
+# Edit source in space_version and re-run conversions.
+# Tokenizes trailing spaces in triggers to an explicit token.
+# Removes right_word property for tokenized version.
+# Adds trailing space to replacements that don't have one.
+# Current token: ','
+
+name: word-families-object
+parent: default
+matches:
+- replace: 'object '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['obj,']
+- replace: 'objects '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['objs,']
+- replace: 'objecting '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['obji,']
+- replace: 'objected '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['objp,']
+- replace: 'objector '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['objw,']
+- replace: 'objectors '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['objws,']
+- replace: 'objection '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['objm,']
+- replace: 'objections '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['objms,']
+- replace: 'objective '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['objv,']
+- replace: 'objectively '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['objvl,']
+- replace: 'objectivity '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['objvy,']
+- replace: 'objectiveness '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['objvn,']
+- replace: 'this object '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['izobj,']
+- replace: 'that object '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['azobj,']
+- replace: 'these objects '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['ezobjs,']
+- replace: 'those objects '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['ozobjs,']
+- replace: 'what object '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['wtobj,']
+- replace: 'when object '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['wnobj,']
+- replace: 'why object '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['wyobj,']
+- replace: 'where object '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['wwobj,']
+- replace: 'how object '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['hwobj,']
+- replace: 'object to the '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['obj2h,']
+- replace: 'objects to the '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['objs2h,']
+- replace: 'from the object '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['22hobj,']
+- replace: 'from the objects '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['22hobjs,']
+- replace: 'object this '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['objiz,']
+- replace: 'object that '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['objaz,']
+- replace: 'object these '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['objez,']
+- replace: 'object those '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['objoz,']
+- replace: 'object the '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['objh,']
+- replace: 'objector '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['objo,']

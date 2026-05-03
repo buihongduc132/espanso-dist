@@ -1,0 +1,90 @@
+# ⚠️  WARNING: AUTO-GENERATED FILE - DO NOT EDIT DIRECTLY!
+# This file is generated from word_version by:
+#   scripts/convert_to_tokenized_word_version.py
+# Edit source in space_version and re-run conversions.
+# Tokenizes trailing spaces in triggers to an explicit token.
+# Removes right_word property for tokenized version.
+# Adds trailing space to replacements that don't have one.
+# Current token: ','
+
+matches:
+- replace: 'this document '
+  _tags: [demonstrative, to, can, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['izdoq,']
+- replace: 'that document '
+  _tags: [demonstrative, to, can, else, have]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['azdoq,']
+- replace: 'these document '
+  _tags: [demonstrative, to, can, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['ezdoq,']
+- replace: 'those document '
+  _tags: [demonstrative, to, can, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['ozdoq,']
+- replace: 'the document '
+  _tags: [the, to, can, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['hdoq,']
+- replace: 'all document '
+  _tags: [to, can, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['adoq,']
+- replace: 'some document '
+  _tags: [to, can, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['smdoq,']
+- replace: 'each document '
+  _tags: [the, to, can, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['ehdoq,']
+- replace: 'this documents '
+  _tags: [demonstrative, to, can, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['izdoqs,']
+- replace: 'that documents '
+  _tags: [demonstrative, to, can, else, have]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['azdoqs,']
+- replace: 'these documents '
+  _tags: [demonstrative, to, can, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['ezdoqs,']
+- replace: 'those documents '
+  _tags: [demonstrative, to, can, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['ozdoqs,']
+- replace: 'the documents '
+  _tags: [the, to, can, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['hdoqs,']
+- replace: 'all documents '
+  _tags: [to, can, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['adoqs,']
+- replace: 'some documents '
+  _tags: [to, can, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['smdoqs,']
+- replace: 'each documents '
+  _tags: [the, to, can, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['ehdoqs,']

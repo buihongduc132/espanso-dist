@@ -1,0 +1,129 @@
+# ⚠️  WARNING: AUTO-GENERATED FILE - DO NOT EDIT DIRECTLY!
+# This file is generated from word_version by:
+#   scripts/convert_to_tokenized_word_version.py
+# Edit source in space_version and re-run conversions.
+# Tokenizes trailing spaces in triggers to an explicit token.
+# Removes right_word property for tokenized version.
+# Adds trailing space to replacements that don't have one.
+# Current token: ','
+
+name: all-any-combinations
+parent: default
+matches:
+- replace: 'not all '
+  _tags: [negate, quantifier, to, else]
+  left_word: true
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['nal,']
+- replace: 'all of them '
+  _tags: [pronoun, will, to, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['alomm,']
+- replace: 'all of the '
+  _tags: [article, quantifier, to, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['aloh,']
+- replace: 'all of those '
+  _tags: [will, the, demonstrative, to, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['alooz,']
+- replace: 'all those available '
+  _tags: [pronoun, will, the, demonstrative, to, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['alozaj,']
+- replace: 'any of '
+  _tags: [quantifier, to, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['ayoof,']
+- replace: 'any of this '
+  _tags: [question, will, the, what, to, have]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['ayoiz,']
+- replace: 'any of that '
+  _tags: [question, will, the, what, to, have]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['ayoaz,']
+- replace: 'any of these '
+  _tags: [question, will, the, what, to, have]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['ayoez,']
+- replace: 'any of those '
+  _tags: [question, will, the, what, to, have]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['ayooz,']
+- replace: 'any of this is '
+  _tags: [question, will, the, what, to, be, have]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['ayoizs,']
+- replace: 'any of that is '
+  _tags: [question, will, the, what, to, be, have]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['ayoazs,']
+- replace: 'any of these are '
+  _tags: [question, will, the, what, to, be, have]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['ayoezs,']
+- replace: 'any of those are '
+  _tags: [question, will, the, what, to, be, have]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['ayoozs,']
+- replace: 'at all '
+  _tags: [to, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['aal,']
+- replace: 'all '
+  _tags: [quantifier, to, else]
+  left_word: true
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['aol,']
+- replace: 'ally '
+  _tags: [to, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['ally,']
+- replace: 'to all '
+  _tags: [to, preposition, directional, quantifier, 222_group]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['2al,']
+- replace: 'to all of '
+  _tags: [to, preposition, directional, quantifier, 222_group]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['2alo,']
+- replace: 'to any of '
+  _tags: [to, preposition, directional, quantifier, 222_group]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['2ayo,']
+- replace: 'from all '
+  _tags: [from, preposition, directional, quantifier, 222_group]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['22al,']
+- replace: 'from all of '
+  _tags: [from, preposition, directional, quantifier, 222_group]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['22alo,']
+- replace: 'from any of '
+  _tags: [from, preposition, directional, quantifier, 222_group]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['22ayo,']
