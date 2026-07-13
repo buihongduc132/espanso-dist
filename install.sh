@@ -359,7 +359,7 @@ fetch_dist() {
 
 	if [[ -d "$workdir/.git" ]]; then
 		info "Updating existing clone: $workdir"
-		( cd "$workdir" && git fetch --depth 1 origin main 2>/dev/null && git reset --hard origin/main 2>/dev/null ) \
+		( cd "$workdir" && git fetch --depth 1 origin main >/dev/null 2>&1 && git reset --hard origin/main >/dev/null 2>&1 ) \
 			|| warn "git update failed (continuing with local copy)"
 	else
 		info "Cloning ${GITHUB_REPO} → $workdir"
