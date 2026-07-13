@@ -1,0 +1,90 @@
+# ⚠️  WARNING: AUTO-GENERATED FILE - DO NOT EDIT DIRECTLY!
+# This file is generated from word_version by:
+#   scripts/convert_to_tokenized_word_version.py
+# Edit source in space_version and re-run conversions.
+# Tokenizes trailing spaces in triggers to an explicit token.
+# Removes right_word property for tokenized version.
+# Adds trailing space to replacements that don't have one.
+# Current token: ','
+
+matches:
+- replace: 'this find '
+  _tags: [demonstrative, to, can, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['izfi,']
+- replace: 'that find '
+  _tags: [demonstrative, to, can, else, have]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['azfi,']
+- replace: 'these find '
+  _tags: [demonstrative, to, can, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['ezfi,']
+- replace: 'those find '
+  _tags: [demonstrative, to, can, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['ozfi,']
+- replace: 'the find '
+  _tags: [the, to, can, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['hfi,']
+- replace: 'all find '
+  _tags: [the, to, can, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['afi,']
+- replace: 'some find '
+  _tags: [to, can, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['smfi,']
+- replace: 'each find '
+  _tags: [the, to, can, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['ehfi,']
+- replace: 'this finds '
+  _tags: [demonstrative, to, can, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['izfis,']
+- replace: 'that finds '
+  _tags: [demonstrative, to, can, else, have]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['azfis,']
+- replace: 'these finds '
+  _tags: [demonstrative, to, can, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['ezfis,']
+- replace: 'those finds '
+  _tags: [demonstrative, to, can, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['ozfis,']
+- replace: 'the finds '
+  _tags: [the, to, can, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['hfis,']
+- replace: 'all finds '
+  _tags: [the, to, can, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['afis,']
+- replace: 'some finds '
+  _tags: [to, can, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['smfis,']
+- replace: 'each finds '
+  _tags: [the, to, can, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['ehfis,']

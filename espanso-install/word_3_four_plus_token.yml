@@ -1,0 +1,22 @@
+# ⚠️  WARNING: AUTO-GENERATED FILE - DO NOT EDIT DIRECTLY!
+# This file is generated from word_version by:
+#   scripts/convert_to_tokenized_word_version.py
+# Edit source in space_version and re-run conversions.
+# Tokenizes trailing spaces in triggers to an explicit token.
+# Removes right_word property for tokenized version.
+# Adds trailing space to replacements that don't have one.
+# Current token: ','
+
+name: word-3-four-plus-token
+parent: default
+matches:
+- replace: 'this is anything else '
+  _tags: [pronoun, the, ing, demonstrative, to, be, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['iztaytels,']
+- replace: 'those are something that '
+  _tags: [pronoun, the, ing, demonstrative, to, be, else, have]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['ozasmtaz,']

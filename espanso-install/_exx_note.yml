@@ -1,0 +1,107 @@
+# ⚠️  WARNING: AUTO-GENERATED FILE - DO NOT EDIT DIRECTLY!
+# This file is generated from word_version by:
+#   scripts/convert_to_tokenized_word_version.py
+# Edit source in space_version and re-run conversions.
+# Tokenizes trailing spaces in triggers to an explicit token.
+# Removes right_word property for tokenized version.
+# Adds trailing space to replacements that don't have one.
+# Current token: ','
+
+name: exx_note
+parent: default
+matches:
+- replace: 'note '
+  _tags: [to, can, else, verb]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['fno,']
+- replace: 'notes '
+  _tags: [to, can, else, noun]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['fnos,']
+- replace: 'noting '
+  _tags: [ing, to, can, else, verb]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['fnoi,']
+- replace: 'noted '
+  _tags: [ed, would, to, can, else, verb]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['fnop,']
+- replace: 'note this '
+  _tags: [demonstrative, to, can, else, verb]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['fnoiz,']
+- replace: 'note that '
+  _tags: [demonstrative, to, can, else, verb]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['fnoaz,']
+- replace: 'note these '
+  _tags: [demonstrative, to, can, else, verb]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['fnoez,']
+- replace: 'note those '
+  _tags: [demonstrative, to, can, else, verb]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['fnooz,']
+- replace: 'be note '
+  _tags: [to, can, be, verb]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['bno,']
+- replace: 'is note '
+  _tags: [to, can, be]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['bnos,']
+- replace: 'was note '
+  _tags: [to, can, be]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['bnop,']
+- replace: 'not note '
+  _tags: [negate, to, can]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['nno,']
+- replace: 'is not note '
+  _tags: [negate, to, can, be]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['nnos,']
+- replace: 'have note '
+  _tags: [to, can, have]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['hno,']
+- replace: 'has note '
+  _tags: [to, can, have]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['hnos,']
+- replace: 'what note '
+  _tags: [question, to, can]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['wtno,']
+- replace: 'where note '
+  _tags: [question, to, can]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['wrno,']
+- replace: 'when note '
+  _tags: [question, to, can]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['wnno,']
+- replace: 'why note '
+  _tags: [question, to, can]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['wyno,']

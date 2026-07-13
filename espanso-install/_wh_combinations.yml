@@ -1,0 +1,278 @@
+# ⚠️  WARNING: AUTO-GENERATED FILE - DO NOT EDIT DIRECTLY!
+# This file is generated from word_version by:
+#   scripts/convert_to_tokenized_word_version.py
+# Edit source in space_version and re-run conversions.
+# Tokenizes trailing spaces in triggers to an explicit token.
+# Removes right_word property for tokenized version.
+# Adds trailing space to replacements that don't have one.
+# Current token: ','
+
+matches:
+- replace: 'which is '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['wit,']
+- replace: 'why it '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['wyx,']
+- replace: 'what next '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['wtnx,']
+- replace: 'where next '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['wrnx,']
+- replace: 'when next '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['wnnx,']
+- replace: 'why next '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['wynx,']
+- replace: 'how next '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['hwnx,']
+- replace: 'what not '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['wtn,']
+- replace: 'where not '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['wrn,']
+- replace: 'when not '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['wnn,']
+- replace: 'why not '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['wyn,']
+- replace: 'how not '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['hwn,']
+- replace: 'what have '
+  _tags: [question, what, have]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['wtha,']
+- replace: 'where have '
+  _tags: [question, where, have]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['wwha,']
+- replace: 'when have '
+  _tags: [question, when, have]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['wnha,']
+- replace: 'why have '
+  _tags: [question, why, have]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['wyha,']
+- replace: 'which have '
+  _tags: [question, which, have]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['wiha,']
+- replace: 'what have been '
+  _tags: [question, what, have, been]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['wthab,']
+- replace: 'where have been '
+  _tags: [question, where, have, been]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['wwhab,']
+- replace: 'when have been '
+  _tags: [question, when, have, been]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['wnhab,']
+- replace: 'why have been '
+  _tags: [question, why, have, been]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['wyhab,']
+- replace: 'which have been '
+  _tags: [question, which, have, been]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['wihab,']
+- replace: 'what have not '
+  _tags: [question, what, have, not]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['wthan,']
+- replace: 'where have not '
+  _tags: [question, where, have, not]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['wwhan,']
+- replace: 'when have not '
+  _tags: [question, when, have, not]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['wnhan,']
+- replace: 'why have not '
+  _tags: [question, why, have, not]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['wyhan,']
+- replace: 'which have not '
+  _tags: [question, which, have, not]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['wihan,']
+- replace: 'what have not been '
+  _tags: [question, what, have, not, been]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['wthanb,']
+- replace: 'where have not been '
+  _tags: [question, where, have, not, been]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['wwhanb,']
+- replace: 'when have not been '
+  _tags: [question, when, have, not, been]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['wnhanb,']
+- replace: 'why have not been '
+  _tags: [question, why, have, not, been]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['wyhanb,']
+- replace: 'which have not been '
+  _tags: [question, which, have, not, been]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['wihanb,']
+- replace: 'what delegate '
+  _tags: [question, frequent-verb]
+  _note: wh-question::delegate
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['wtdele,']
+- replace: 'where delegate '
+  _tags: [question, place, frequent-verb]
+  _note: wh-question::delegate
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['wrdele,']
+- replace: 'when delegate '
+  _tags: [question, time, frequent-verb]
+  _note: wh-question::delegate
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['wndele,']
+- replace: 'why delegate '
+  _tags: [question, frequent-verb]
+  _note: wh-question::delegate
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['wydele,']
+- replace: 'how delegate '
+  _tags: [question, frequent-verb]
+  _note: wh-question::delegate
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['hwdele,']
+- replace: 'what dedicate '
+  _tags: [question, frequent-verb]
+  _note: wh-question::dedicate
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['wtdedi,']
+- replace: 'where dedicate '
+  _tags: [question, place, frequent-verb]
+  _note: wh-question::dedicate
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['wrdedi,']
+- replace: 'when dedicate '
+  _tags: [question, time, frequent-verb]
+  _note: wh-question::dedicate
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['wndedi,']
+- replace: 'why dedicate '
+  _tags: [question, frequent-verb]
+  _note: wh-question::dedicate
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['wydedi,']
+- replace: 'how dedicate '
+  _tags: [question, frequent-verb]
+  _note: wh-question::dedicate
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['hwdedi,']
+- replace: 'where is the '
+  _tags: [question, place, is, the]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['wwth,']
+- replace: 'where are the '
+  _tags: [question, place, are, the]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['wwath,']
+- replace: 'how is the '
+  _tags: [question, is, the]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['hwth,']
+- replace: 'how are the '
+  _tags: [question, are, the]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['hwath,']
+- replace: 'what is the '
+  _tags: [question, is, the]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['wtth,']
+- replace: 'what are the '
+  _tags: [question, are, the]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['wtath,']
+- replace: 'when is the '
+  _tags: [question, time, is, the]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['wnth,']
+- replace: 'when are the '
+  _tags: [question, time, are, the]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['wnath,']
+- replace: 'why is the '
+  _tags: [question, why, is, the]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['wyth,']
+- replace: 'why are the '
+  _tags: [question, why, are, the]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['wyath,']
+- replace: 'which is the '
+  _tags: [question, is, the]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['with,']
+- replace: 'which are the '
+  _tags: [question, are, the]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['wiath,']

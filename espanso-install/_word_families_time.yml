@@ -1,0 +1,92 @@
+# ⚠️  WARNING: AUTO-GENERATED FILE - DO NOT EDIT DIRECTLY!
+# This file is generated from word_version by:
+#   scripts/convert_to_tokenized_word_version.py
+# Edit source in space_version and re-run conversions.
+# Tokenizes trailing spaces in triggers to an explicit token.
+# Removes right_word property for tokenized version.
+# Adds trailing space to replacements that don't have one.
+# Current token: ','
+
+name: word-families-time
+parent: default
+matches:
+- replace: 'time '
+  _tags: [noun, time, to]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['ti,']
+- replace: 'timestamp '
+  _tags: [noun, time, to]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: [ts`]
+- replace: 'timezone '
+  _tags: [noun, time, to]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['tz,']
+- replace: 'times '
+  _tags: [noun, time, to]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['tis,']
+- replace: 'timing '
+  _tags: [ing, time, to]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['tii,']
+- replace: 'timed '
+  _tags: [ed, time, to]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['tip,']
+- replace: 'timer '
+  _tags: [noun, time, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['tiw,']
+- replace: 'timers '
+  _tags: [noun, time, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['tiws,']
+- replace: 'timely '
+  _tags: [adverb, time, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['tily,']
+- replace: 'chronology '
+  _tags: [noun, time, to]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['qhwo,']
+- replace: 'chronologies '
+  _tags: [noun, plural, time, to]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['qhwos,']
+- replace: 'chronologing '
+  _tags: [ing, time, to]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['qhwoi,']
+- replace: 'chronologed '
+  _tags: [ed, time, to]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['qhwop,']
+- replace: 'chronologization '
+  _tags: [noun, time, to]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['qhwom,']
+- replace: 'chronological '
+  _tags: [adjective, time, to]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['qhwol,']
+- replace: 'chronologically '
+  _tags: [adverb, time, to]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['qhwojl,']

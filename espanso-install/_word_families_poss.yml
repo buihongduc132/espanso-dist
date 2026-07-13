@@ -1,0 +1,57 @@
+# ⚠️  WARNING: AUTO-GENERATED FILE - DO NOT EDIT DIRECTLY!
+# This file is generated from word_version by:
+#   scripts/convert_to_tokenized_word_version.py
+# Edit source in space_version and re-run conversions.
+# Tokenizes trailing spaces in triggers to an explicit token.
+# Removes right_word property for tokenized version.
+# Adds trailing space to replacements that don't have one.
+# Current token: ','
+
+name: word-families-pss
+parent: default
+matches:
+- replace: 'possible '
+  _tags: [can, to, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['pss,']
+- replace: 'possibles '
+  _tags: [can, to, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['psss,']
+- replace: 'possibly '
+  _tags: [can, to, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['pssl,']
+- replace: 'possibility '
+  _tags: [noun, can, to, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['pssm,']
+- replace: 'possibility '
+  _tags: [noun, can, to, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['pssy,']
+- replace: 'possibilities '
+  _tags: [noun, can, to, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['pssms,']
+- replace: 'impossible '
+  _tags: [negate, can, to, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['pssn,']
+- replace: 'impossibly '
+  _tags: [negate, can, to, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['pssnl,']
+- replace: 'impossibility '
+  _tags: [noun, negate, can, to, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['pssnm,']

@@ -1,0 +1,178 @@
+# ⚠️  WARNING: AUTO-GENERATED FILE - DO NOT EDIT DIRECTLY!
+# This file is generated from word_version by:
+#   scripts/convert_to_tokenized_word_version.py
+# Edit source in space_version and re-run conversions.
+# Tokenizes trailing spaces in triggers to an explicit token.
+# Removes right_word property for tokenized version.
+# Adds trailing space to replacements that don't have one.
+# Current token: ','
+
+matches:
+- replace: 'whenever you '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['wnjya,']
+- replace: 'the script '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['hsqwi,']
+- replace: 'the things '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['hthis,']
+- replace: 'if needed '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['fndp,']
+- replace: 'will have '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['llha,']
+- replace: 'this project '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['izpwj,']
+- replace: 'that project '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['azpwj,']
+- replace: 'these projects '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['ezpwjs,']
+- replace: 'those projects '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['ozpwjs,']
+- replace: 'this branch '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['izbwan,']
+- replace: 'that branch '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['azbwan,']
+- replace: 'these branches '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['ezbwans,']
+- replace: 'those branches '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['ozbwans,']
+- replace: 'this ticket '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['iztik,']
+- replace: 'that ticket '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['aztik,']
+- replace: 'these tickets '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['eztiqs,']
+- replace: 'those tickets '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['oztiqs,']
+- replace: 'this feature '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['izfeat,']
+- replace: 'that feature '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['azfeat,']
+- replace: 'these features '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['ezfeats,']
+- replace: 'those features '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['ozfeats,']
+- replace: 'this composite '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['izqmpo,']
+- replace: 'that composite '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['azqmpo,']
+- replace: 'these composites '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['ezqmpos,']
+- replace: 'those composites '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['ozqmpos,']
+- replace: 'this service '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['izsewjq,']
+- replace: 'that service '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['azsewjq,']
+- replace: 'these services '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['ezsews,']
+- replace: 'those services '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['ozsews,']
+- replace: 'this file '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['izfl,']
+- replace: 'that file '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['azfl,']
+- replace: 'these files '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['ezfls,']
+- replace: 'those files '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['ozfls,']
+- replace: 'this repository '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['izwepo,']
+- replace: 'that repository '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['azwepo,']
+- replace: 'these repositories '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['ezwepos,']
+- replace: 'those repositories '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['ozwepos,']
+- replace: 'this solution '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['izsoljm,']
+- replace: 'that solution '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['azsoljm,']
+- replace: 'these solutions '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['ezsols,']
+- replace: 'those solutions '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['ozsols,']
+- replace: 'you to '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['ya2,']

@@ -1,0 +1,80 @@
+# ⚠️  WARNING: AUTO-GENERATED FILE - DO NOT EDIT DIRECTLY!
+# This file is generated from word_version by:
+#   scripts/convert_to_tokenized_word_version.py
+# Edit source in space_version and re-run conversions.
+# Tokenizes trailing spaces in triggers to an explicit token.
+# Removes right_word property for tokenized version.
+# Adds trailing space to replacements that don't have one.
+# Current token: ','
+
+matches:
+- replace: 'config '
+  _tags: [can, pronoun]
+  allow_duplicate: true
+  propagate_case: true
+  triggers: ['qnf,']
+- replace: 'configs '
+  _tags: [can, pronoun, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['qnfs,']
+- replace: 'configuring '
+  _tags: [ing, can, pronoun]
+  allow_duplicate: true
+  propagate_case: true
+  triggers: ['qnfi,']
+- replace: 'configured '
+  _tags: [ed, would, can, pronoun, else]
+  allow_duplicate: true
+  propagate_case: true
+  triggers: ['qnfp,']
+- replace: 'configuration '
+  _tags: [noun, can, pronoun]
+  allow_duplicate: true
+  propagate_case: true
+  triggers: ['qnfm,']
+- replace: 'configurable '
+  _tags: [adjective, can, pronoun]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['qnfb,']
+- replace: 'config this '
+  _tags: [demonstrative, can, pronoun]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['qnfiz,']
+- replace: 'config that '
+  _tags: [demonstrative, can, pronoun, have]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['qnfaz,']
+- replace: 'config these '
+  _tags: [demonstrative, can, pronoun]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['qnfez,']
+- replace: 'config those '
+  _tags: [demonstrative, can, pronoun]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['qnfoz,']
+- replace: 'config the '
+  _tags: [the, can, pronoun]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['qnfh,']
+- replace: 'config all '
+  _tags: [can, pronoun]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['qnfa,']
+- replace: 'config some '
+  _tags: [can, pronoun]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['qnfsm,']
+- replace: 'config each '
+  _tags: [can, pronoun]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['qnfeh,']

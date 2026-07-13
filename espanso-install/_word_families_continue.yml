@@ -1,0 +1,52 @@
+# ⚠️  WARNING: AUTO-GENERATED FILE - DO NOT EDIT DIRECTLY!
+# This file is generated from word_version by:
+#   scripts/convert_to_tokenized_word_version.py
+# Edit source in space_version and re-run conversions.
+# Tokenizes trailing spaces in triggers to an explicit token.
+# Removes right_word property for tokenized version.
+# Adds trailing space to replacements that don't have one.
+# Current token: ','
+
+name: word-families-continue
+parent: default
+matches:
+- replace: 'continue '
+  _tags: [verb, to, can, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['oni,']
+- replace: 'continues '
+  _tags: [verb, to, can, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['onis,']
+- replace: 'continuing '
+  _tags: [verb, ing, to, can, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['onii,']
+- replace: 'continued '
+  _tags: [verb, ed, would, to, can, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['onip,']
+- replace: 'continuation '
+  _tags: [noun, to, can, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['onim,']
+- replace: 'continuations '
+  _tags: [noun, to, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['onims,']
+- replace: 'continuous '
+  _tags: [adjective, to, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['onij,']
+- replace: 'continuously '
+  _tags: [adverb, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['onijl,']

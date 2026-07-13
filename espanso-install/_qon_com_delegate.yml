@@ -1,0 +1,172 @@
+# ⚠️  WARNING: AUTO-GENERATED FILE - DO NOT EDIT DIRECTLY!
+# This file is generated from word_version by:
+#   scripts/convert_to_tokenized_word_version.py
+# Edit source in space_version and re-run conversions.
+# Tokenizes trailing spaces in triggers to an explicit token.
+# Removes right_word property for tokenized version.
+# Adds trailing space to replacements that don't have one.
+# Current token: ','
+
+name: qon-com-delegate
+parent: default
+matches:
+- replace: 'configuration '
+  _tags: [pronoun, to, can]
+  allow_duplicate: true
+  propagate_case: true
+  triggers: ['qnm,']
+- replace: 'compiler '
+  _tags: [noun, can, pronoun]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['qmpilew,']
+- replace: 'compiles '
+  _tags: [can, pronoun, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['qmpiles,']
+- replace: 'compiled '
+  _tags: [ed, would, can, pronoun, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['qmpilep,']
+- replace: 'compiling '
+  _tags: [ing, can, pronoun]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['qmpilei,']
+- replace: 'compilation '
+  _tags: [noun, can, pronoun]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['qmpilem,']
+- replace: 'complete '
+  _tags: [can, pronoun]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['qpl,']
+- replace: 'completes '
+  _tags: [can, pronoun, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['qpls,']
+- replace: 'completing '
+  _tags: [ing, can, pronoun]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['qpli,']
+- replace: 'completed '
+  _tags: [ed, would, can, pronoun, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['qplp,']
+- replace: 'completion '
+  _tags: [noun, can, pronoun]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['qplm,']
+- triggers: ['qpll,', 'qply,']
+  replace: 'completely '
+  _tags: [can, pronoun, else]
+  allow_duplicate: true
+  propagate_case: true
+- replace: 'confirm '
+  _tags: [can, pronoun]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['qnfw,']
+- replace: 'confirms '
+  _tags: [can, pronoun, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['qnfws,']
+- replace: 'confirming '
+  _tags: [ing, can, pronoun]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['qnfwi,']
+- replace: 'confirmed '
+  _tags: [ed, would, can, pronoun, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['qnfwp,']
+- replace: 'confirmation '
+  _tags: [noun, can, pronoun]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['qnfwm,']
+- replace: 'continue '
+  _tags: [can, pronoun]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['qnu,']
+- replace: 'continues '
+  _tags: [can, pronoun, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['qnus,']
+- replace: 'continuing '
+  _tags: [ing, can, pronoun]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['qnui,']
+- replace: 'continued '
+  _tags: [ed, would, can, pronoun, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['qnup,']
+- replace: 'control '
+  _tags: [can, pronoun]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['qno,']
+- replace: 'controls '
+  _tags: [can, pronoun, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['qnos,']
+- replace: 'controlling '
+  _tags: [ing, can, pronoun]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['qnoi,']
+- replace: 'controlled '
+  _tags: [ed, would, can, pronoun, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['qnop,']
+- replace: 'controller '
+  _tags: [noun, can, pronoun]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['qnow,']
+- replace: 'convert '
+  _tags: [can, pronoun]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['qnj,']
+- replace: 'converts '
+  _tags: [can, pronoun, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['qnjs,']
+- replace: 'converting '
+  _tags: [ing, can, pronoun]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['qnji,']
+- replace: 'converted '
+  _tags: [ed, would, can, pronoun, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['qnjp,']
+- replace: 'converter '
+  _tags: [noun, can, pronoun]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['qnjw,']
+- replace: 'conversion '
+  _tags: [noun, can, pronoun]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['qnjm,']

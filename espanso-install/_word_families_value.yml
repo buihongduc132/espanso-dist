@@ -1,0 +1,146 @@
+# ⚠️  WARNING: AUTO-GENERATED FILE - DO NOT EDIT DIRECTLY!
+# This file is generated from word_version by:
+#   scripts/convert_to_tokenized_word_version.py
+# Edit source in space_version and re-run conversions.
+# Tokenizes trailing spaces in triggers to an explicit token.
+# Removes right_word property for tokenized version.
+# Adds trailing space to replacements that don't have one.
+# Current token: ','
+
+name: word-families-value
+parent: default
+matches:
+- replace: 'value '
+  _tags: [noun, to, can, else]
+  allow_duplicate: true
+  propagate_case: true
+  triggers: ['jal,']
+- replace: 'values '
+  _tags: [noun, to, can, else]
+  allow_duplicate: true
+  propagate_case: true
+  triggers: ['jals,']
+- replace: 'valuing '
+  _tags: [ing, noun, to, can, else]
+  allow_duplicate: true
+  propagate_case: true
+  triggers: ['jali,']
+- replace: 'valued '
+  _tags: [ed, would, noun, to, can, else]
+  allow_duplicate: true
+  propagate_case: true
+  triggers: ['jalp,']
+- replace: 'valuer '
+  _tags: [noun, to, can, else]
+  allow_duplicate: true
+  propagate_case: true
+  triggers: ['jalw,']
+- replace: 'valuable '
+  _tags: [adjective, noun, to, can, else]
+  allow_duplicate: true
+  propagate_case: true
+  triggers: ['jalj,']
+- replace: 'valuably '
+  _tags: [adjective, to, can, else]
+  allow_duplicate: true
+  propagate_case: true
+  triggers: ['jaljl,']
+- replace: 'valuableness '
+  _tags: [noun, adjective, to, can, else]
+  allow_duplicate: true
+  propagate_case: true
+  triggers: ['jaljm,']
+- replace: 'valuation '
+  _tags: [noun, to, can, else]
+  allow_duplicate: true
+  propagate_case: true
+  triggers: ['jalm,']
+- replace: 'valuator '
+  _tags: [noun, to, can, else]
+  allow_duplicate: true
+  propagate_case: true
+  triggers: ['jalmw,']
+- replace: 'devalue '
+  _tags: [negate, noun, to, can, else]
+  allow_duplicate: true
+  propagate_case: true
+  triggers: ['djal,']
+- replace: 'devalues '
+  _tags: [negate, noun, to, can, else]
+  allow_duplicate: true
+  propagate_case: true
+  triggers: ['djals,']
+- replace: 'devaluing '
+  _tags: [negate, ing, noun, to, can, else]
+  allow_duplicate: true
+  propagate_case: true
+  triggers: ['djali,']
+- replace: 'devalued '
+  _tags: [negate, ed, would, noun, to, can, else]
+  allow_duplicate: true
+  propagate_case: true
+  triggers: ['djalp,']
+- replace: 'devaluation '
+  _tags: [negate, noun, to, can, else]
+  allow_duplicate: true
+  propagate_case: true
+  triggers: ['djalm,']
+- replace: 'devaluer '
+  _tags: [negate, noun, to, can, else]
+  allow_duplicate: true
+  propagate_case: true
+  triggers: ['djalw,']
+- replace: 'undervalue '
+  _tags: [negate, noun, to, can, else]
+  allow_duplicate: true
+  propagate_case: true
+  triggers: ['ujal,']
+- replace: 'undervalues '
+  _tags: [negate, noun, to, can, else]
+  allow_duplicate: true
+  propagate_case: true
+  triggers: ['ujals,']
+- replace: 'undervaluing '
+  _tags: [negate, ing, noun, to, can, else]
+  allow_duplicate: true
+  propagate_case: true
+  triggers: ['ujali,']
+- replace: 'undervalued '
+  _tags: [negate, ed, would, noun, to, can, else]
+  allow_duplicate: true
+  propagate_case: true
+  triggers: ['ujalp,']
+- replace: 'undervaluation '
+  _tags: [negate, noun, to, can, else]
+  allow_duplicate: true
+  propagate_case: true
+  triggers: ['ujalm,']
+- replace: 'overvalue '
+  _tags: [noun, to, can, else]
+  allow_duplicate: true
+  propagate_case: true
+  triggers: ['ojal,']
+- replace: 'overvalues '
+  _tags: [noun, to, can, else]
+  allow_duplicate: true
+  propagate_case: true
+  triggers: ['ojals,']
+- replace: 'overvaluing '
+  _tags: [ing, noun, to, can, else]
+  allow_duplicate: true
+  propagate_case: true
+  triggers: ['ojali,']
+- replace: 'overvalued '
+  _tags: [ed, would, noun, to, can, else]
+  allow_duplicate: true
+  propagate_case: true
+  triggers: ['ojalp,']
+- replace: 'overvaluation '
+  _tags: [noun, to, can, else]
+  allow_duplicate: true
+  propagate_case: true
+  triggers: ['ojalm,']
+- replace: 'valuator '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['jalmo,']

@@ -1,0 +1,47 @@
+# ⚠️  WARNING: AUTO-GENERATED FILE - DO NOT EDIT DIRECTLY!
+# This file is generated from word_version by:
+#   scripts/convert_to_tokenized_word_version.py
+# Edit source in space_version and re-run conversions.
+# Tokenizes trailing spaces in triggers to an explicit token.
+# Removes right_word property for tokenized version.
+# Adds trailing space to replacements that don't have one.
+# Current token: ','
+
+name: word-families-open-source
+parent: default
+matches:
+- replace: 'open source '
+  _tags: [noun, software, license, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['oswq,']
+- replace: 'open-source '
+  _tags: [adjective, software, license, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['oswqj,']
+- replace: 'open source software '
+  _tags: [noun, software, license, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['oswqm,']
+- replace: 'this open source '
+  _tags: [demonstrative, software, license, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['oswqiz,']
+- replace: 'that open source '
+  _tags: [demonstrative, software, license, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['oswqaz,']
+- replace: 'these open source '
+  _tags: [demonstrative, software, license, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['oswqez,']
+- replace: 'those open source '
+  _tags: [demonstrative, software, license, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['oswqoz,']

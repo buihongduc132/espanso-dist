@@ -1,0 +1,125 @@
+# espanso match file
+
+# For a complete introduction, visit the official docs at: https://espanso.org/docs/
+
+# You can use this file to define the base matches (aka snippets)
+# that will be available in every application when using espanso.
+
+# Matches are substitution rules: when you type the "trigger" string
+# it gets replaced by the "replace" string.
+
+# Global variables available to all match files
+name: base
+parent: default
+
+global_vars:
+  - name: BASE_DIR
+    type: echo
+    params:
+      echo: /Users/bhd5/Documents/Projects/bhd/espanso-config
+  - name: OS_CONFIG_DIR
+    type: echo
+    params:
+      echo: /Users/bhd5/Documents/Projects/bhd/os-config
+  - name: python
+    type: echo
+    params:
+      echo: /usr/bin/python3
+  - name: CMD_POSTFIX
+    type: echo
+    params:
+      echo: " "
+  - name: CMD_PREFIX
+    type: echo
+    params:
+      echo: " "
+  - name: CMD_PREFIX_ALT
+    type: echo
+    params:
+      echo: " "
+  - name: CMD_POSTFIX_ALT
+    type: echo
+    params:
+      echo: " "
+
+imports:
+  # SOURCE-OF-TRUTH (space_version) is for editing + generation only.
+  # Do NOT import space_version directly into espanso runtime to avoid
+  # double-loading every trigger (including families like `tes`).
+  - "../conf/match/packages/quick_templates.yml"
+  # - "../conf/match/prompt/space_version/_index.yml"
+  # - "../conf/match/prompt/tab_version/_index.yml"
+  # - "../conf/match/prompt/word_version/_index.yml"
+  # - "../conf/match/prompt/word_version_backslash/_index.yml"  # Experimental backslash version (broken YAML)
+  # ACTIVE RUNTIME (must stay enabled):
+  - "../conf/match/prompt/word_version_tokenized/_index.yml"  # Primary tokenized runtime config (generated from space_version → word_version)
+
+matches:
+  # Debug log
+  - trigger: "::__log"
+    replace: "\"{{output}}\""
+    vars:
+      - name: output
+        type: shell
+        params:
+          cmd: "echo 'Debug log entry'"
+
+  # CSV Data Loader for credentials
+  # - regex: "::cred:\\(?P<alias>[^.]+\\)\\.\\(?P<column_name>.+\\)"
+  - regex: "::cred (?P<alias>.*)\\.(?P<column_name>.*) "
+    replace: "{{output}}"
+    vars:
+      - name: output
+        type: shell
+        params:
+          cmd: "{{python}} {{BASE_DIR}}/scripts/csv_lookup.py \"{{alias}}\" \"{{column_name}}\" {{BASE_DIR}}/data/credentials.csv"
+
+  # Help command for Espanso matches
+  - trigger: "::help "
+    replace: "{{output}}"
+    vars:
+      - name: output
+        type: script
+        params:
+          args:
+            - "{{python}}"
+            - "{{BASE_DIR}}/scripts/show_espanso_help.py"
+
+  - regex: "::help:(?P<prefix_filter>[^\\s]+)\\s"
+    replace: "{{output}}"
+    vars:
+      - name: output
+        type: script
+        params:
+          args:
+            - "{{python}}"
+            - "{{BASE_DIR}}/scripts/show_espanso_help.py"
+            - "{{prefix_filter}}"
+
+  # Simple text replacement
+  - trigger: ":espanso"
+    replace: "Hi there!"
+
+  # Quick check trigger
+  - trigger: "juhk "
+    replace: "just check"
+
+  # Print the current date
+  - trigger: ":date"
+    replace: "{{mydate}}"
+    vars:
+      - name: mydate
+        type: date
+        params:
+          format: "%m/%d/%Y"
+
+  # Print the output of a shell command
+  - trigger: ":shell"
+    replace: "{{output}}"
+    vars:
+      - name: output
+        type: shell
+        params:
+          cmd: "echo 'Hello from your shell'"
+
+  # And much more! For more information, visit the docs: https://espanso.org/docs/

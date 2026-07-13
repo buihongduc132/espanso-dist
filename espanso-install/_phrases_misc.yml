@@ -1,0 +1,188 @@
+# ⚠️  WARNING: AUTO-GENERATED FILE - DO NOT EDIT DIRECTLY!
+# This file is generated from word_version by:
+#   scripts/convert_to_tokenized_word_version.py
+# Edit source in space_version and re-run conversions.
+# Tokenizes trailing spaces in triggers to an explicit token.
+# Removes right_word property for tokenized version.
+# Adds trailing space to replacements that don't have one.
+# Current token: ','
+
+name: phrases_misc
+parent: default
+matches:
+- replace: 'make it '
+  _tags: [to, else, pronoun]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['mkt,']
+- replace: 'have it '
+  _tags: [pronoun, the, to, else, have]
+  allow_duplicate: true
+  propagate_case: true
+  triggers: ['hax,']
+- replace: 'have it '
+  _tags: [pronoun, the, to, else, have]
+  allow_duplicate: true
+  propagate_case: true
+  triggers: ['hatx,']
+- replace: 'have it been '
+  _tags: [pronoun, the, to, be, else, have]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['hatb,']
+- replace: 'multiple times '
+  _tags: [time, to, else, pronoun]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['mult,']
+- replace: 'many times '
+  _tags: [time, to, else, pronoun]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['mat,']
+- replace: 'must '
+  _tags: [modal, to, else, software_dev]
+  allow_duplicate: true
+  propagate_case: true
+  triggers: ['ms,']
+- replace: 'must be '
+  _tags: [modal, be, to, else, software_dev]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['mub,']
+- replace: 'must not be '
+  _tags: [modal, be, negate, to, else, software_dev]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['munb,']
+- replace: 'must have '
+  _tags: [modal, have, to, else, software_dev]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['mha,']
+- replace: 'must not have '
+  _tags: [modal, have, negate, to, else, software_dev]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['mnha,']
+- replace: 'have the '
+  _tags: [have, the, to, else]
+  allow_duplicate: true
+  propagate_case: true
+  triggers: ['hah,']
+- replace: 'not have the '
+  _tags: [have, the, negate, to, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['nhah,']
+- replace: 'must this '
+  _tags: [modal, demonstrative, to, else, software_dev]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['msiz,']
+- replace: 'must that '
+  _tags: [modal, demonstrative, to, else, software_dev]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['msaz,']
+- replace: 'must these '
+  _tags: [modal, demonstrative, to, else, software_dev]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['msez,']
+- replace: 'must those '
+  _tags: [modal, demonstrative, to, else, software_dev]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['msoz,']
+- replace: 'must be this '
+  _tags: [modal, be, demonstrative, to, else, software_dev]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['mubiz,']
+- replace: 'must be that '
+  _tags: [modal, be, demonstrative, to, else, software_dev]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['mubaz,']
+- replace: 'must be these '
+  _tags: [modal, be, demonstrative, to, else, software_dev]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['mubez,']
+- replace: 'must be those '
+  _tags: [modal, be, demonstrative, to, else, software_dev]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['muboz,']
+- replace: 'so many '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['sma,']
+- replace: 'so much '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['smu,']
+- replace: 'not many '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['nma,']
+- replace: 'not much '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['nmu,']
+- replace: 'too many '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['tma,']
+- replace: 'too much '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['tmu,']
+- replace: 'not so many '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['nsma,']
+- replace: 'not so much '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['nsmu,']
+- replace: 'not too many '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['ntma,']
+- replace: 'not too much '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['ntmu,']
+- replace: 'side by side '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['sbs,']
+- replace: 'safe guard '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['sgau,']
+- replace: 'guardrails '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['gauw,']
+- replace: 'precommit hook '
+  allow_duplicate: true
+  propagate_case: true
+  triggers: ['pqmih,']
+- replace: 'seems like '
+  _tags: [else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: [selk`]
+- replace: 'be better '
+  _tags: [phrase, be, comparative, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: [bbt`]
+- replace: 'be worse '
+  _tags: [phrase, be, comparative, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: [bws`]

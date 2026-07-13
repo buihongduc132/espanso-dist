@@ -1,0 +1,82 @@
+# ⚠️  WARNING: AUTO-GENERATED FILE - DO NOT EDIT DIRECTLY!
+# This file is generated from word_version by:
+#   scripts/convert_to_tokenized_word_version.py
+# Edit source in space_version and re-run conversions.
+# Tokenizes trailing spaces in triggers to an explicit token.
+# Removes right_word property for tokenized version.
+# Adds trailing space to replacements that don't have one.
+# Current token: ','
+
+name: word-families-enforce
+parent: default
+matches:
+- replace: 'enforce '
+  _tags: [to, can, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['enf,']
+- replace: 'enforces '
+  _tags: [s, to, can, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['enfs,']
+- replace: 'enforcing '
+  _tags: [ing, to, can, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['enfi,']
+- replace: 'enforced '
+  _tags: [ed, to, can, else, would]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['enfp,']
+- replace: 'enforcement '
+  _tags: [noun, to, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['enfm,']
+- replace: 'enforceable '
+  _tags: [adjective, can, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['enfb,']
+- replace: 'enforcer '
+  _tags: [noun, can, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['enfw,']
+- replace: 'enforcers '
+  _tags: [noun, can, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['enfws,']
+- replace: 'enforce this '
+  _tags: [demonstrative, to, can, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['enfiz,']
+- replace: 'enforce that '
+  _tags: [demonstrative, to, can, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['enfaz,']
+- replace: 'enforce these '
+  _tags: [demonstrative, to, can, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['enfez,']
+- replace: 'enforce those '
+  _tags: [demonstrative, to, can, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['enfoz,']
+- replace: 'enforce the '
+  _tags: [article, to, can, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['enfh,']
+- replace: 'enforce it '
+  _tags: [pronoun, to, can, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['enfx,']

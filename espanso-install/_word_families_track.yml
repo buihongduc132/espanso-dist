@@ -1,0 +1,82 @@
+# ⚠️  WARNING: AUTO-GENERATED FILE - DO NOT EDIT DIRECTLY!
+# This file is generated from word_version by:
+#   scripts/convert_to_tokenized_word_version.py
+# Edit source in space_version and re-run conversions.
+# Tokenizes trailing spaces in triggers to an explicit token.
+# Removes right_word property for tokenized version.
+# Adds trailing space to replacements that don't have one.
+# Current token: ','
+
+name: word-families-track
+parent: default
+matches:
+- replace: 'track '
+  _tags: [to, can, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['trk,']
+- replace: 'tracks '
+  _tags: [to, can, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['trks,']
+- replace: 'tracking '
+  _tags: [ing, to, can, else, pronoun]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['trki,']
+- replace: 'tracked '
+  _tags: [to, can, ed, would, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['trkp,']
+- replace: 'tracker '
+  _tags: [noun, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['trkr,']
+- replace: 'trackers '
+  _tags: [noun, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['trkrs,']
+- replace: 'trackable '
+  _tags: [adjective, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['trkb,']
+- replace: 'trackably '
+  _tags: [adverb, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['trkbl,']
+- replace: 'track this '
+  _tags: [demonstrative, to, can, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['trkiz,']
+- replace: 'track that '
+  _tags: [demonstrative, to, can, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['trkaz,']
+- replace: 'track these '
+  _tags: [demonstrative, to, can, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['trkez,']
+- replace: 'track those '
+  _tags: [demonstrative, to, can, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['trkoz,']
+- replace: 'track the '
+  _tags: [the, can, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['trkh,']
+- replace: 'track it '
+  _tags: [pronoun, can, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['trkx,']

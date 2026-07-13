@@ -140,12 +140,18 @@ find_espanso_binary() {
 				"/snap/bin/espanso"
 			) ;;
 		macos)
+			# On macOS espanso ships as Espanso.app; the CLI binary lives at
+			# Espanso.app/Contents/MacOS/espanso. Homebrew cask → /Applications,
+			# manual install → /Applications or ~/Applications.
 			paths=(
-				"$HOME/Applications/espanso/usr/bin/espanso"
-				"/Applications/espanso/usr/bin/espanso"
+				"/Applications/Espanso.app/Contents/MacOS/espanso"
+				"$HOME/Applications/Espanso.app/Contents/MacOS/espanso"
 				"$HOME/.local/bin/espanso"
 				"/usr/local/bin/espanso"
 				"$(brew --prefix 2>/dev/null || echo /opt/homebrew)/bin/espanso"
+				# Legacy AppImage-style layout (rare on macOS)
+				"/Applications/espanso/usr/bin/espanso"
+				"$HOME/Applications/espanso/usr/bin/espanso"
 			) ;;
 		windows)
 			local localbin="${LOCALAPPDATA:-$HOME/AppData/Local}"
@@ -369,9 +375,10 @@ deploy_files() {
 	local match_dir="$config_dir/match"
 	local config_file="$config_dir/config/default.yml"
 
+	# ── match/ (flat .yml files) ──────────────────────────────
 	info "Deploying match files → $match_dir/"
 	rm -rf "$match_dir"
-	mkdir -p "$match_dir"
+	mkdir -p "$match_dir/packages"   # empty dir, mirrors source-machine layout
 	local deployed=0 f
 	while IFS= read -r -d '' f; do
 		[[ "$f" == *.backup_* ]] && continue
@@ -382,6 +389,28 @@ deploy_files() {
 		"  The clone may be incomplete. Try:  rm -rf $(dirname "$src_dir") && ./install.sh --force"
 	ok "Deployed $deployed match files"
 
+	# ── espanso-install/ (iOS export / legacy format) ─────────
+	local install_dir="$config_dir/espanso-install"
+	if [[ -d "$src_dir/espanso-install" ]]; then
+		info "Deploying espanso-install/ → $install_dir/"
+		rm -rf "$install_dir"
+		mkdir -p "$install_dir"
+		local inst_count=0
+		while IFS= read -r -d '' f; do
+			[[ "$f" == *.backup_* ]] && continue
+			cp "$f" "$install_dir/"
+			inst_count=$((inst_count + 1))
+		done < <(find "$src_dir/espanso-install" -name '*.yml' -print0 2>/dev/null)
+		ok "Deployed $inst_count espanso-install files"
+	else
+		# Empty placeholder so the dir structure matches the source machine
+		mkdir -p "$install_dir"
+	fi
+
+	# ── conf/match/ (empty, mirrors source-machine layout) ────
+	mkdir -p "$config_dir/conf/match"
+
+	# ── config/default.yml ────────────────────────────────────
 	info "Writing espanso config..."
 	mkdir -p "$config_dir/config"
 	if [[ -f "$src_dir/default.yml" ]]; then
@@ -392,6 +421,14 @@ deploy_files() {
 		write_default_config "$config_file"
 	fi
 	ok "Config → $config_file"
+
+	# ── deployed-version.json (mirrors source machine) ────────
+	if [[ -f "$src_dir/version.json" ]]; then
+		cp "$src_dir/version.json" "$config_dir/deployed-version.json"
+	else
+		local version; version=$(http_get_text "${GITHUB_RAW}/VERSION" 2>/dev/null || echo "$(date -u +%Y%m%d%H%M%S)")
+		printf '{\n  "version": "%s",\n  "source": "espanso-dist"\n}\n' "$version" > "$config_dir/deployed-version.json"
+	fi
 
 	# Record installed version
 	local version="unknown"
@@ -436,10 +473,22 @@ restart_espanso() {
 		fi
 	fi
 
-	# macOS: espanso restart / launchctl
+	# macOS: espanso start/stop via CLI, fall back to launching the .app
 	if [[ "$os" == "macos" ]]; then
-		"$esp_bin" restart 2>/dev/null && { ok "Restarted via espanso cli"; return 0; } \
-			|| warn "espanso restart failed (may need manual restart)"
+		"$esp_bin" stop 2>/dev/null || true
+		sleep 1
+		if "$esp_bin" start 2>/dev/null; then
+			ok "Started via espanso cli"; return 0
+		fi
+		# Fallback: launch the .app bundle directly via open
+		local app_path=""
+		case "$esp_bin" in
+			*/Espanso.app/Contents/MacOS/espanso) app_path="${esp_bin%/Contents/MacOS/espanso}" ;;
+		esac
+		if [[ -n "$app_path" ]] && command -v open &>/dev/null; then
+			open "$app_path" 2>/dev/null && { ok "Launched $app_path"; sleep 2; return 0; }
+		fi
+		warn "espanso start failed — open Espanso.app manually from /Applications/"
 		return 0
 	fi
 

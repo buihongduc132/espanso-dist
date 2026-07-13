@@ -1,0 +1,47 @@
+# ⚠️  WARNING: AUTO-GENERATED FILE - DO NOT EDIT DIRECTLY!
+# This file is generated from word_version by:
+#   scripts/convert_to_tokenized_word_version.py
+# Edit source in space_version and re-run conversions.
+# Tokenizes trailing spaces in triggers to an explicit token.
+# Removes right_word property for tokenized version.
+# Adds trailing space to replacements that don't have one.
+# Current token: ','
+
+name: exx-pick-verb
+parent: default
+matches:
+- replace: 'pick this '
+  _tags: [demonstrative, can, else, frequent-verb]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['pkiz,']
+- replace: 'pick that '
+  _tags: [demonstrative, can, else, frequent-verb]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['pkaz,']
+- replace: 'pick these '
+  _tags: [demonstrative, can, else, frequent-verb]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['pkez,']
+- replace: 'pick those '
+  _tags: [demonstrative, can, else, frequent-verb]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['pkoz,']
+- replace: 'pick it '
+  _tags: [pronoun, can, else, frequent-verb]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['pkx,']
+- replace: 'pick the '
+  _tags: [article, can, else, frequent-verb]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['pkh,']
+- replace: 'pick them '
+  _tags: [pronoun, can, else, frequent-verb]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['pkmm,']

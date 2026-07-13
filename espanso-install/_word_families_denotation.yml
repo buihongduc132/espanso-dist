@@ -1,0 +1,277 @@
+# ⚠️  WARNING: AUTO-GENERATED FILE - DO NOT EDIT DIRECTLY!
+# This file is generated from word_version by:
+#   scripts/convert_to_tokenized_word_version.py
+# Edit source in space_version and re-run conversions.
+# Tokenizes trailing spaces in triggers to an explicit token.
+# Removes right_word property for tokenized version.
+# Adds trailing space to replacements that don't have one.
+# Current token: ','
+
+name: word-families-denotation
+parent: default
+matches:
+- replace: 'Stow / ansible '
+  _tags: [to, can, else, pronoun]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['ansow,']
+- replace: 'Stow / ansibles '
+  _tags: [to, can, else, pronoun]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['ansows,']
+- replace: 'Stowing / ansible '
+  _tags: [to, can, else, pronoun, ing]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['ansowi,']
+- replace: 'Stowed / ansible '
+  _tags: [to, can, else, pronoun, ed]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['ansowp,']
+- replace: 'Stow / ansible '
+  _tags: [to, can, else, pronoun, noun]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['ansowm,']
+- replace: 'Stow / ansible '
+  _tags: [to, can, else, pronoun, adjective]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['ansowj,']
+- replace: 'Stow / ansible '
+  _tags: [to, can, else, pronoun, adverb]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['ansowjl,']
+- replace: 'Stow / ansible '
+  _tags: [to, can, else, pronoun, adjective]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['ansowb,']
+- replace: 'Stow / ansible '
+  _tags: [to, can, else, pronoun, adverb]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['ansowbl,']
+- replace: 'Stower / ansible '
+  _tags: [to, can, else, pronoun, noun]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['ansoww,']
+- replace: 'Stowers / ansible '
+  _tags: [to, can, else, pronoun, noun]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['ansowws,']
+- replace: 'Stow / ansible this '
+  _tags: [demonstrative, to, can, else, pronoun]
+  allow_duplicate: true
+  propagate_case: true
+  triggers: ['ansowiz,']
+- replace: 'Stow / ansible that '
+  _tags: [demonstrative, to, can, else, pronoun]
+  allow_duplicate: true
+  propagate_case: true
+  triggers: ['ansowaz,']
+- replace: 'Stow / ansible these '
+  _tags: [demonstrative, to, can, else, pronoun]
+  allow_duplicate: true
+  propagate_case: true
+  triggers: ['ansowez,']
+- replace: 'Stow / ansible those '
+  _tags: [demonstrative, to, can, else, pronoun]
+  allow_duplicate: true
+  propagate_case: true
+  triggers: ['ansowoz,']
+- replace: 'this Stow / ansible '
+  _tags: [demonstrative, to, can, else, pronoun]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['izansow,']
+- replace: 'that Stow / ansible '
+  _tags: [demonstrative, to, can, else, pronoun]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['azansow,']
+- replace: 'these Stow / ansible '
+  _tags: [demonstrative, to, can, else, pronoun]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['ezansows,']
+- replace: 'those Stow / ansible '
+  _tags: [demonstrative, to, can, else, pronoun]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['ozansows,']
+- replace: 'Nomad Consul '
+  _tags: [to, can, else, pronoun]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['noqo,']
+- replace: 'Nomad Consul '
+  _tags: [to, can, else, pronoun]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['noqos,']
+- replace: 'Nomad Consul '
+  _tags: [to, can, else, pronoun, ing]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['noqoi,']
+- replace: 'Nomad Consul '
+  _tags: [to, can, else, pronoun, ed]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['noqop,']
+- replace: 'Nomad Consul '
+  _tags: [to, can, else, pronoun, noun]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['noqom,']
+- replace: 'Nomad Consul '
+  _tags: [to, can, else, pronoun, adjective]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['noqoj,']
+- replace: 'Nomad Consul '
+  _tags: [to, can, else, pronoun, adverb]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['noqojl,']
+- replace: 'Nomad Consul '
+  _tags: [to, can, else, pronoun, adjective]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['noqob,']
+- replace: 'Nomad Consul '
+  _tags: [to, can, else, pronoun, adverb]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['noqobl,']
+- replace: 'Nomad Consul '
+  _tags: [to, can, else, pronoun, noun]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['noqow,']
+- replace: 'Nomad Consul '
+  _tags: [to, can, else, pronoun, noun]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['noqows,']
+- replace: 'this Nomad Consul '
+  _tags: [demonstrative, to, can, else, pronoun]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['iznoqo,']
+- replace: 'that Nomad Consul '
+  _tags: [demonstrative, to, can, else, pronoun]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['aznoqo,']
+- replace: 'these Nomad Consul '
+  _tags: [demonstrative, to, can, else, pronoun]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['eznoqos,']
+- replace: 'those Nomad Consul '
+  _tags: [demonstrative, to, can, else, pronoun]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['oznoqos,']
+- replace: 'Nomad Consul this '
+  _tags: [demonstrative, phrase]
+  allow_duplicate: true
+  propagate_case: true
+  triggers: ['noqoiz,']
+- replace: 'Nomad Consul that '
+  _tags: [demonstrative, phrase]
+  allow_duplicate: true
+  propagate_case: true
+  triggers: ['noqoaz,']
+- replace: 'Nomad Consul these '
+  _tags: [demonstrative, phrase]
+  allow_duplicate: true
+  propagate_case: true
+  triggers: ['noqoez,']
+- replace: 'Nomad Consul those '
+  _tags: [demonstrative, phrase]
+  allow_duplicate: true
+  propagate_case: true
+  triggers: ['noqooz,']
+- replace: 'denote '
+  _tags: [to, can, else, pronoun]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['deno,']
+- replace: 'denotes '
+  _tags: [to, can, else, pronoun]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['denos,']
+- replace: 'denoting '
+  _tags: [to, can, else, pronoun, ing]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['denoi,']
+- replace: 'denoted '
+  _tags: [to, can, else, pronoun, ed]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['denop,']
+- replace: 'denotation '
+  _tags: [to, can, else, pronoun, noun]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['denom,']
+- replace: 'denotative '
+  _tags: [to, can, else, pronoun, adjective]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['denoj,']
+- replace: 'denotatively '
+  _tags: [to, can, else, pronoun, adverb]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['denojl,']
+- replace: 'denotable '
+  _tags: [to, can, else, pronoun, adjective]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['denob,']
+- replace: 'denotably '
+  _tags: [to, can, else, pronoun, adverb]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['denobl,']
+- replace: 'denoter '
+  _tags: [to, can, else, pronoun, noun]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['denow,']
+- replace: 'denoters '
+  _tags: [to, can, else, pronoun, noun]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['denows,']
+- replace: 'this denote '
+  _tags: [demonstrative, to, can, else, pronoun]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['izdeno,']
+- replace: 'that denote '
+  _tags: [demonstrative, to, can, else, pronoun]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['azdeno,']
+- replace: 'these denote '
+  _tags: [demonstrative, to, can, else, pronoun]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['ezdenos,']
+- replace: 'those denote '
+  _tags: [demonstrative, to, can, else, pronoun]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['ozdenos,']

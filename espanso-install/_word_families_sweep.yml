@@ -1,0 +1,62 @@
+# ⚠️  WARNING: AUTO-GENERATED FILE - DO NOT EDIT DIRECTLY!
+# This file is generated from word_version by:
+#   scripts/convert_to_tokenized_word_version.py
+# Edit source in space_version and re-run conversions.
+# Tokenizes trailing spaces in triggers to an explicit token.
+# Removes right_word property for tokenized version.
+# Adds trailing space to replacements that don't have one.
+# Current token: ','
+
+name: word-families-sweep
+parent: default
+matches:
+- replace: 'sweep '
+  _tags: [verb, to, can, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['swp,']
+- replace: 'sweeps '
+  _tags: [verb, to, can, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['swps,']
+- replace: 'sweeping '
+  _tags: [ing, to, can, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['swpi,']
+- replace: 'swept '
+  _tags: [ed, would, to, can, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['swpp,']
+- replace: 'sweeper '
+  _tags: [noun, to, can, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['swpw,']
+- replace: 'sweepers '
+  _tags: [noun, to, can, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['swpws,']
+- replace: 'sweepable '
+  _tags: [adjective, to, can, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['swpb,']
+- replace: 'sweep to the '
+  _tags: [to, can, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['swp2h,']
+- replace: 'this sweep '
+  _tags: [demonstrative, to, can, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['swpiz,']
+- replace: 'that sweep '
+  _tags: [demonstrative, to, can, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['swpaz,']

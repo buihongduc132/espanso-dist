@@ -1,0 +1,792 @@
+# ⚠️  WARNING: AUTO-GENERATED FILE - DO NOT EDIT DIRECTLY!
+# This file is generated from word_version by:
+#   scripts/convert_to_tokenized_word_version.py
+# Edit source in space_version and re-run conversions.
+# Tokenizes trailing spaces in triggers to an explicit token.
+# Removes right_word property for tokenized version.
+# Adds trailing space to replacements that don't have one.
+# Current token: ','
+
+matches:
+- replace: 'then dos '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['nzdos,']
+- replace: 'then doed '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['nzdoed,']
+- replace: 'then doing '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['nzdoing,']
+- replace: 'then check '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['nzcheck,']
+- replace: 'then checks '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['nzchecks,']
+- replace: 'then checked '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['nzchecked,']
+- replace: 'then checking '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['nzchecking,']
+- replace: 'then flows '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['nzflows,']
+- replace: 'then flowed '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['nzflowed,']
+- replace: 'then flowing '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['nzflowing,']
+- replace: 'then be '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['nzbe,']
+- replace: 'then bes '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['nzbes,']
+- replace: 'then beed '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['nzbeed,']
+- replace: 'then being '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['nzbeing,']
+- replace: 'then have '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['nzhave,']
+- replace: 'then haves '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['nzhaves,']
+- replace: 'then haveed '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['nzhaveed,']
+- replace: 'then haveing '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['nzhaveing,']
+- replace: 'then uses '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['nzuses,']
+- replace: 'then useed '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['nzuseed,']
+- replace: 'then useing '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['nzuseing,']
+- replace: 'then make '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['nzmake,']
+- replace: 'then makes '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['nzmakes,']
+- replace: 'then makeed '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['nzmakeed,']
+- replace: 'then makeing '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['nzmakeing,']
+- replace: 'then run '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['nzrun,']
+- replace: 'then runs '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['nzruns,']
+- replace: 'then runed '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['nzruned,']
+- replace: 'then runing '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['nzruning,']
+- replace: 'then test '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['nztest,']
+- replace: 'then tested '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['nztested,']
+- replace: 'then testing '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['nztesting,']
+- replace: 'then update '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['nzupdate,']
+- replace: 'then updates '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['nzupdates,']
+- replace: 'then updateed '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['nzupdateed,']
+- replace: 'then updateing '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['nzupdateing,']
+- replace: 'then fix '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['nzfix,']
+- replace: 'then fixs '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['nzfixs,']
+- replace: 'then fixed '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['nzfixed,']
+- replace: 'then fixing '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['nzfixing,']
+- replace: 'then ensure '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['nzensure,']
+- replace: 'then ensures '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['nzensures,']
+- replace: 'then ensureed '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['nzensureed,']
+- replace: 'then ensureing '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['nzensureing,']
+- replace: 'then see '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['nzsee,']
+- replace: 'then sees '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['nzsees,']
+- replace: 'then seeed '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['nzseeed,']
+- replace: 'then seeing '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['nzseeing,']
+- replace: 'then need '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['nzneed,']
+- replace: 'then needs '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['nzneeds,']
+- replace: 'then needed '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['nzneeded,']
+- replace: 'then needing '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['nzneeding,']
+- replace: 'then implement '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['nzimplement,']
+- replace: 'then implements '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['nzimplements,']
+- replace: 'then implemented '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['nzimplemented,']
+- replace: 'then implementing '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['nzimplementing,']
+- replace: 'then work '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['nzwork,']
+- replace: 'then works '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['nzworks,']
+- replace: 'then worked '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['nzworked,']
+- replace: 'then working '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['nzworking,']
+- replace: 'then add '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['nzadd,']
+- replace: 'then adds '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['nzadds,']
+- replace: 'then added '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['nzadded,']
+- replace: 'then adding '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['nzadding,']
+- replace: 'then document '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['nzdocument,']
+- replace: 'then documents '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['nzdocuments,']
+- replace: 'then documented '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['nzdocumented,']
+- replace: 'then documenting '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['nzdocumenting,']
+- replace: 'then read '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['nzread,']
+- replace: 'then reads '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['nzreads,']
+- replace: 'then readed '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['nzreaded,']
+- replace: 'then reading '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['nzreading,']
+- replace: 'then list '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['nzlist,']
+- replace: 'then lists '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['nzlists,']
+- replace: 'then listed '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['nzlisted,']
+- replace: 'then listing '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['nzlisting,']
+- replace: 'then plan '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['nzplan,']
+- replace: 'then plans '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['nzplans,']
+- replace: 'then planed '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['nzplaned,']
+- replace: 'then planing '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['nzplaning,']
+- replace: 'then create '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['nzcreate,']
+- replace: 'then creates '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['nzcreates,']
+- replace: 'then createed '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['nzcreateed,']
+- replace: 'then createing '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['nzcreateing,']
+- replace: 'then verify '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['nzverify,']
+- replace: 'then verifys '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['nzverifys,']
+- replace: 'then verifyed '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['nzverifyed,']
+- replace: 'then verifying '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['nzverifying,']
+- replace: 'then search '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['nzsearch,']
+- replace: 'then searchs '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['nzsearchs,']
+- replace: 'then searched '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['nzsearched,']
+- replace: 'then searching '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['nzsearching,']
+- replace: 'then find '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['nzfind,']
+- replace: 'then finds '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['nzfinds,']
+- replace: 'then finded '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['nzfinded,']
+- replace: 'then finding '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['nzfinding,']
+- replace: 'then log '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['nzlog,']
+- replace: 'then logs '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['nzlogs,']
+- replace: 'then loged '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['nzloged,']
+- replace: 'then loging '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['nzloging,']
+- replace: 'then wait '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['nzwait,']
+- replace: 'then waits '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['nzwaits,']
+- replace: 'then waited '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['nzwaited,']
+- replace: 'then waiting '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['nzwaiting,']
+- replace: 'then help '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['nzhelp,']
+- replace: 'then helps '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['nzhelps,']
+- replace: 'then helped '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['nzhelped,']
+- replace: 'then helping '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['nzhelping,']
+- replace: 'then keep '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['nzkeep,']
+- replace: 'then keeps '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['nzkeeps,']
+- replace: 'then keeped '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['nzkeeped,']
+- replace: 'then keeping '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['nzkeeping,']
+- replace: 'then starts '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['nzstarts,']
+- replace: 'then started '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['nzstarted,']
+- replace: 'then starting '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['nzstarting,']
+- replace: 'then continues '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['nzcontinues,']
+- replace: 'then continueed '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['nzcontinueed,']
+- replace: 'then continueing '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['nzcontinueing,']
+- replace: 'then review '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['nzreview,']
+- replace: 'then reviews '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['nzreviews,']
+- replace: 'then reviewed '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['nzreviewed,']
+- replace: 'then reviewing '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['nzreviewing,']
+- replace: 'then follow '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['nzfollow,']
+- replace: 'then follows '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['nzfollows,']
+- replace: 'then followed '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['nzfollowed,']
+- replace: 'then following '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['nzfollowing,']
+- replace: 'then push '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['nzpush,']
+- replace: 'then pushs '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['nzpushs,']
+- replace: 'then pushed '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['nzpushed,']
+- replace: 'then pushing '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['nzpushing,']
+- replace: 'then build '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['nzbuild,']
+- replace: 'then builds '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['nzbuilds,']
+- replace: 'then builded '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['nzbuilded,']
+- replace: 'then building '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['nzbuilding,']
+- replace: 'then profile '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['nzprofile,']
+- replace: 'then profiles '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['nzprofiles,']
+- replace: 'then profileed '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['nzprofileed,']
+- replace: 'then profileing '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['nzprofileing,']
+- replace: 'then covers '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['nzcovers,']
+- replace: 'then covered '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['nzcovered,']
+- replace: 'then covering '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['nzcovering,']
+- replace: 'then merge '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['nzmerge,']
+- replace: 'then merges '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['nzmerges,']
+- replace: 'then mergeed '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['nzmergeed,']
+- replace: 'then mergeing '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['nzmergeing,']
+- replace: 'then clean '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['nzclean,']
+- replace: 'then cleans '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['nzcleans,']
+- replace: 'then cleaned '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['nzcleaned,']
+- replace: 'then cleaning '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['nzcleaning,']
+- replace: 'then import '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['nzimport,']
+- replace: 'then imports '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['nzimports,']
+- replace: 'then imported '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['nzimported,']
+- replace: 'then importing '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['nzimporting,']
+- replace: 'then install '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['nzinstall,']
+- replace: 'then installs '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['nzinstalls,']
+- replace: 'then installed '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['nzinstalled,']
+- replace: 'then installing '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['nzinstalling,']
+- replace: 'then restart '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['nzrestart,']
+- replace: 'then restarts '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['nzrestarts,']
+- replace: 'then restarted '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['nzrestarted,']
+- replace: 'then restarting '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['nzrestarting,']
+- replace: 'then send '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['nzsend,']
+- replace: 'then sends '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['nzsends,']
+- replace: 'then sended '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['nzsended,']
+- replace: 'then sending '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['nzsending,']
+- replace: 'then compare '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['nzcompare,']
+- replace: 'then compares '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['nzcompares,']
+- replace: 'then compareed '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['nzcompareed,']
+- replace: 'then compareing '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['nzcompareing,']
+- replace: 'then report '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['nzreport,']
+- replace: 'then reports '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['nzreports,']
+- replace: 'then reported '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['nzreported,']
+- replace: 'then reporting '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['nzreporting,']
+- replace: 'then validate '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['nzvalidate,']
+- replace: 'then validates '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['nzvalidates,']
+- replace: 'then validateed '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['nzvalidateed,']
+- replace: 'then validateing '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['nzvalidateing,']
+- replace: 'then stop '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['nzstop,']
+- replace: 'then stops '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['nzstops,']
+- replace: 'then stoped '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['nzstoped,']
+- replace: 'then stoping '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['nzstoping,']
+- replace: 'then ship '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['nzship,']
+- replace: 'then ships '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['nzships,']
+- replace: 'then shiped '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['nzshiped,']
+- replace: 'then shiping '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['nzshiping,']
+- replace: 'then aligns '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['nzaligns,']
+- replace: 'then aligned '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['nzaligned,']
+- replace: 'then aligning '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['nzaligning,']
+- replace: 'then design '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['nzdesign,']
+- replace: 'then designs '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['nzdesigns,']
+- replace: 'then designed '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['nzdesigned,']
+- replace: 'then designing '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['nzdesigning,']
+- replace: 'then search for '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['nzsearchfor,']
+- replace: 'then test for '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['nztestfor,']
+- replace: 'then document for '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['nzdocumentfor,']
+name: auto_then_verbs_nz
+parent: default

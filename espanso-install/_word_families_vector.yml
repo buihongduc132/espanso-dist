@@ -1,0 +1,42 @@
+# ⚠️  WARNING: AUTO-GENERATED FILE - DO NOT EDIT DIRECTLY!
+# This file is generated from word_version by:
+#   scripts/convert_to_tokenized_word_version.py
+# Edit source in space_version and re-run conversions.
+# Tokenizes trailing spaces in triggers to an explicit token.
+# Removes right_word property for tokenized version.
+# Adds trailing space to replacements that don't have one.
+# Current token: ','
+
+name: word-families-vector
+parent: default
+matches:
+- replace: 'vector '
+  _tags: [noun, software, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['jeqq,']
+- replace: 'vectors '
+  _tags: [noun, plural, software, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['jeqqs,']
+- replace: 'vectorize '
+  _tags: [verb, to, can, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['jeqqz,']
+- replace: 'vectorizes '
+  _tags: [verb, to, can, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['jeqqzs,']
+- replace: 'vectorizing '
+  _tags: [verb, ing, to, can, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['jeqqzi,']
+- replace: 'vectorized '
+  _tags: [verb, ed, to, can, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['jeqqzp,']

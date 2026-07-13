@@ -1,0 +1,192 @@
+# ⚠️  WARNING: AUTO-GENERATED FILE - DO NOT EDIT DIRECTLY!
+# This file is generated from word_version by:
+#   scripts/convert_to_tokenized_word_version.py
+# Edit source in space_version and re-run conversions.
+# Tokenizes trailing spaces in triggers to an explicit token.
+# Removes right_word property for tokenized version.
+# Adds trailing space to replacements that don't have one.
+# Current token: ','
+
+name: operator-combinations
+parent: default
+matches:
+- replace: 'add '
+  _tags: [to, else]
+  left_word: true
+  allow_duplicate: false
+  triggers: ['+,']
+- replace: 'add more '
+  _tags: [to, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['++,']
+- replace: 'add more '
+  _tags: [to, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['+>,']
+- replace: 'add more of '
+  _tags: [to, else, pronoun]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['+>o,']
+- replace: 'add more of this '
+  _tags: [to, else, demonstrative]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['+>oiz,']
+- replace: 'add more of that '
+  _tags: [to, else, demonstrative]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['+>oaz,']
+- replace: 'add more of these '
+  _tags: [to, else, demonstrative]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['+>oez,']
+- replace: 'add more of those '
+  _tags: [to, else, demonstrative]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['+>ooz,']
+- replace: 'to add '
+  _tags: [to, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['2+,']
+- replace: 'increase '
+  _tags: [can, else, pronoun]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['>>,']
+- replace: 'increasing '
+  _tags: [can, else, pronoun]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['>>i,']
+- replace: 'increased '
+  _tags: [can, else, pronoun]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['>>ed,']
+- replace: 'increases '
+  _tags: [can, else, pronoun]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['>>s,']
+- replace: 'increaser '
+  _tags: [can, else, pronoun]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['>>er,']
+- replace: 'increase the '
+  _tags: [can, else, pronoun]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['>>h,']
+- replace: 'incremental '
+  _tags: [can, else, pronoun]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['>>l,']
+- replace: 'incrementally '
+  _tags: [can, else, pronoun]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['>>ly,']
+- replace: 'reduce '
+  _tags: [can, else, pronoun]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['<<,']
+- replace: 'reducing '
+  _tags: [can, else, pronoun]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['<<i,']
+- replace: 'reduced '
+  _tags: [can, ed, else, pronoun, would]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['<<ed,']
+- replace: 'reduces '
+  _tags: [can, else, pronoun]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['<<s,']
+- replace: 'reducer '
+  _tags: [can, else, pronoun]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['<<er,']
+- replace: 'reduce the '
+  _tags: [can, else, pronoun]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['<<h,']
+- replace: 'double '
+  _tags: [to, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['82,']
+- replace: 'doubling '
+  _tags: [to, else, ing]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['82ing,']
+- replace: 'doubled '
+  _tags: [to, else, ed]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['82ed,']
+- replace: 'doubles '
+  _tags: [to, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['82s,']
+- replace: 'doubler '
+  _tags: [to, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['82er,']
+- replace: 'double the '
+  _tags: [to, else, article]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['82h,']
+- replace: 'double it '
+  _tags: [to, else, pronoun]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['82x,']
+- replace: 'double this '
+  _tags: [to, else, demonstrative]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['82iz,']
+- replace: 'double that '
+  _tags: [to, else, demonstrative]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['82az,']
+- replace: 'double these '
+  _tags: [to, else, demonstrative]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['82ez,']
+- replace: 'double those '
+  _tags: [to, else, demonstrative]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['82oz,']
+- replace: 'triple '
+  _tags: [to, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['83,']
+- replace: 'multiple '
+  left_word: true
+  _tags: [to, else, pronoun]
+  allow_duplicate: false
+  triggers: ['*,']

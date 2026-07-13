@@ -1,0 +1,76 @@
+# ⚠️  WARNING: AUTO-GENERATED FILE - DO NOT EDIT DIRECTLY!
+# This file is generated from word_version by:
+#   scripts/convert_to_tokenized_word_version.py
+# Edit source in space_version and re-run conversions.
+# Tokenizes trailing spaces in triggers to an explicit token.
+# Removes right_word property for tokenized version.
+# Adds trailing space to replacements that don't have one.
+# Current token: ','
+
+name: word-families-register
+parent: default
+matches:
+- replace: 'register '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['weg,']
+- replace: 'registers '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['wegs,']
+- replace: 'registering '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['wegi,']
+- replace: 'registered '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['wegp,']
+- replace: 'registration '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['wegm,']
+- replace: 'registry '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['wegy,']
+- replace: 'registries '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['wegys,']
+- replace: 'registrar '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['wegw,']
+- replace: 'registrars '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['wegws,']
+- replace: 'registerable '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['wegb,']
+- replace: 'register this '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['wegiz,']
+- replace: 'register that '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['wegaz,']
+- replace: 'register these '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['wegez,']
+- replace: 'register those '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['wegoz,']
+- replace: 'register the '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['wegh,']
+- replace: 'register it '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['wegx,']

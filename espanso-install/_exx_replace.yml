@@ -1,0 +1,85 @@
+# ⚠️  WARNING: AUTO-GENERATED FILE - DO NOT EDIT DIRECTLY!
+# This file is generated from word_version by:
+#   scripts/convert_to_tokenized_word_version.py
+# Edit source in space_version and re-run conversions.
+# Tokenizes trailing spaces in triggers to an explicit token.
+# Removes right_word property for tokenized version.
+# Adds trailing space to replacements that don't have one.
+# Current token: ','
+
+matches:
+- replace: 'replace '
+  _tags: [to, can, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['wew,']
+- replace: 'replaces '
+  _tags: [to, can, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['wews,']
+- replace: 'replacing '
+  _tags: [ing, to, can, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['wewi,']
+- replace: 'replaced '
+  _tags: [ed, would, to, can, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['wewp,']
+- replace: 'replace this '
+  _tags: [demonstrative, to, can, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['wewiz,']
+- replace: 'replace that '
+  _tags: [demonstrative, to, can, else, have]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['wewaz,']
+- replace: 'replace these '
+  _tags: [demonstrative, to, can, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['wewez,']
+- replace: 'replace those '
+  _tags: [demonstrative, to, can, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['wewoz,']
+- replace: 'replacing this '
+  _tags: [demonstrative, ing, to, can, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['wewiiz,']
+- replace: 'replacing that '
+  _tags: [demonstrative, ing, to, can, else, have]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['wewiaz,']
+- replace: 'replacing these '
+  _tags: [demonstrative, ing, to, can, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['wewiez,']
+- replace: 'replacing those '
+  _tags: [demonstrative, ing, to, can, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['wewioz,']
+- replace: 'replace the '
+  _tags: [the, to, can, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['wewh,']
+- replace: 'replacing the '
+  _tags: [the, ing, to, can, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['wewih,']
+- replace: 'replace all '
+  _tags: [the, to, can, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['wewa,']

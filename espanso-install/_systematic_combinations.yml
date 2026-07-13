@@ -1,0 +1,237 @@
+# ⚠️  WARNING: AUTO-GENERATED FILE - DO NOT EDIT DIRECTLY!
+# This file is generated from word_version by:
+#   scripts/convert_to_tokenized_word_version.py
+# Edit source in space_version and re-run conversions.
+# Tokenizes trailing spaces in triggers to an explicit token.
+# Removes right_word property for tokenized version.
+# Adds trailing space to replacements that don't have one.
+# Current token: ','
+
+name: systematic-combinations
+parent: default
+matches:
+- replace: 'if possible '
+  _tags: [conditional, can, to, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['fposs,']
+- replace: 'if possibly '
+  _tags: [conditional, can, to, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['fpossl,']
+- replace: 'if impossible '
+  _tags: [conditional, negate, can, to, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['fpossm,']
+- replace: 'if impossibly '
+  _tags: [conditional, negate, can, to, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['fpossnl,']
+- replace: 'if possible '
+  _tags: [conditional, can, to, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['fpss,']
+- replace: 'if impossible '
+  _tags: [conditional, negate, can, to, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['fipss,']
+- replace: 'not possible '
+  _tags: [negate, can, to, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['nposs,']
+- replace: 'not possible '
+  _tags: [negate, can, to, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['npss,']
+- replace: 'not impossible '
+  _tags: [negate, can, to, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['nipss,']
+- replace: 'not possibly '
+  _tags: [negate, can, to, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['npossl,']
+- replace: 'when possible '
+  _tags: [temporal, can, to, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['wnposs,']
+- replace: 'when possibly '
+  _tags: [temporal, can, to, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['wnpossl,']
+- replace: 'when impossible '
+  _tags: [temporal, negate, can, to, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['wnpossn,']
+- replace: 'if adjust '
+  _tags: [conditional, verb, to, can, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['fadju,']
+- replace: 'if adjusted '
+  _tags: [conditional, ed, verb, to, can, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['fadjup,']
+- replace: 'if adjusting '
+  _tags: [conditional, ing, verb, to, can, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['fadjui,']
+- replace: 'not adjust '
+  _tags: [negate, verb, to, can, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['nadju,']
+- replace: 'not adjusted '
+  _tags: [negate, ed, verb, to, can, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['nadjup,']
+- replace: 'not adjusting '
+  _tags: [negate, ing, verb, to, can, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['nadjui,']
+- replace: 'when adjust '
+  _tags: [temporal, verb, to, can, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['wnadju,']
+- replace: 'when adjusted '
+  _tags: [temporal, ed, verb, to, can, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['wnadjup,']
+- replace: 'when adjusting '
+  _tags: [temporal, ing, verb, to, can, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['wnadjui,']
+- replace: 'if foundation '
+  _tags: [conditional, noun, to, can, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['ffoum,']
+- replace: 'if foundational '
+  _tags: [conditional, adjective, to, can, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['ffoumj,']
+- replace: 'if found '
+  _tags: [conditional, ed, verb, to, can, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['ffoup,']
+- replace: 'not foundation '
+  _tags: [negate, noun, to, can, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['nfoum,']
+- replace: 'not foundational '
+  _tags: [negate, adjective, to, can, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['nfoumj,']
+- replace: 'not found '
+  _tags: [negate, ed, verb, to, can, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['nfoup,']
+- replace: 'when foundation '
+  _tags: [temporal, noun, to, can, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['wnfoum,']
+- replace: 'when found '
+  _tags: [temporal, ed, verb, to, can, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['wnfoup,']
+- replace: 'if alternate '
+  _tags: [conditional, verb, to, can, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['falt,']
+- replace: 'if alternative '
+  _tags: [conditional, noun, to, can, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['faltj,']
+- replace: 'if alternated '
+  _tags: [conditional, ed, verb, to, can, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['faltp,']
+- replace: 'not alternate '
+  _tags: [negate, verb, to, can, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['nalt,']
+- replace: 'not alternative '
+  _tags: [negate, noun, to, can, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['naltj,']
+- replace: 'not alternated '
+  _tags: [negate, ed, verb, to, can, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['naltp,']
+- replace: 'when alternate '
+  _tags: [temporal, verb, to, can, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['wnalt,']
+- replace: 'when alternative '
+  _tags: [temporal, noun, to, can, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['wnaltj,']
+- replace: 'when alternated '
+  _tags: [temporal, ed, verb, to, can, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['wnaltp,']
+- replace: 'one delegate '
+  _tags: [counting, verb, to, can, else]
+  _note: counting::delegate
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['1dele,']
+- replace: 'two delegates '
+  _tags: [counting, verb, to, can, else]
+  _note: counting::delegate
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['2dele,']
+- replace: 'three delegates '
+  _tags: [counting, verb, to, can, else]
+  _note: counting::delegate
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['3dele,']
+- replace: 'four delegates '
+  _tags: [counting, verb, to, can, else]
+  _note: counting::delegate
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['4dele,']
+- replace: 'five delegates '
+  _tags: [counting, verb, to, can, else]
+  _note: counting::delegate
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['5dele,']

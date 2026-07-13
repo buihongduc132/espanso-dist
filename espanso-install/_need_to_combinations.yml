@@ -1,0 +1,72 @@
+# ⚠️  WARNING: AUTO-GENERATED FILE - DO NOT EDIT DIRECTLY!
+# This file is generated from word_version by:
+#   scripts/convert_to_tokenized_word_version.py
+# Edit source in space_version and re-run conversions.
+# Tokenizes trailing spaces in triggers to an explicit token.
+# Removes right_word property for tokenized version.
+# Adds trailing space to replacements that don't have one.
+# Current token: ','
+
+name: need_to_combinations
+parent: default
+matches:
+- replace: 'need to '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['nd2,']
+- replace: 'need to use '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['nd2use,']
+- replace: 'need to work '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['nd2work,']
+- replace: 'need to read '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['nd2read,']
+- replace: 'need to update '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['nd2update,']
+- replace: 'need to create '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['nd2create,']
+- replace: 'need to add '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['nd2add,']
+- replace: 'need to write '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['nd2write,']
+- replace: 'need to test '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['nd2test,']
+- replace: 'need to commit '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['nd2commit,']
+- replace: 'need to complete '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['nd2complete,']
+- replace: 'need to place '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['nd2place,']
+- replace: 'need to process '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['nd2process,']
+- replace: 'need to document '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['nd2document,']
+- replace: 'need to execute '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['nd2execute,']

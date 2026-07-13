@@ -1,0 +1,280 @@
+# ⚠️  WARNING: AUTO-GENERATED FILE - DO NOT EDIT DIRECTLY!
+# This file is generated from word_version by:
+#   scripts/convert_to_tokenized_word_version.py
+# Edit source in space_version and re-run conversions.
+# Tokenizes trailing spaces in triggers to an explicit token.
+# Removes right_word property for tokenized version.
+# Adds trailing space to replacements that don't have one.
+# Current token: ','
+
+name: word-families-situation
+parent: default
+matches:
+- replace: 'situation '
+  _tags: [noun, to, can, else]
+  allow_duplicate: true
+  propagate_case: true
+  triggers: ['situ,']
+- replace: 'situations '
+  _tags: [noun, to, can, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['situs,']
+- replace: 'situating '
+  _tags: [ing, to, can, else, verb]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['situi,']
+- replace: 'situated '
+  _tags: [ed, would, to, can, else, verb]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['situp,']
+- replace: 'situation '
+  _tags: [noun, to, can, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['situm,']
+- replace: 'situate '
+  _tags: [verb, to, can, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['situw,']
+- replace: 'situates '
+  _tags: [verb, to, can, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['situws,']
+- replace: 'situating '
+  _tags: [ing, to, can, else, verb]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['situwi,']
+- replace: 'situated '
+  _tags: [ed, would, to, can, else, verb]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['situwp,']
+- replace: 'situated '
+  _tags: [adjective, to, can, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['situj,']
+- replace: 'situational '
+  _tags: [adjective, to, can, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['situb,']
+- replace: 'resituate '
+  _tags: [verb, to, can, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['wsitu,']
+- replace: 'unsituate '
+  _tags: [verb, to, can, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['usitu,']
+- replace: 'oversituate '
+  _tags: [verb, to, can, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['ositu,']
+- replace: 'in the situation '
+  _tags: [phrase, to, can, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['situh,']
+- replace: 'given the situation '
+  _tags: [phrase, to, can, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['situg,']
+- replace: 'this situation '
+  _tags: [demonstrative, noun, to, can, else]
+  allow_duplicate: true
+  propagate_case: true
+  triggers: ['izsitu,']
+- replace: 'that situation '
+  _tags: [demonstrative, noun, to, can, else]
+  allow_duplicate: true
+  propagate_case: true
+  triggers: ['azsitu,']
+- replace: 'these situations '
+  _tags: [demonstrative, noun, to, can, else]
+  allow_duplicate: true
+  propagate_case: true
+  triggers: ['ezsitu,']
+- replace: 'those situations '
+  _tags: [demonstrative, noun, to, can, else]
+  allow_duplicate: true
+  propagate_case: true
+  triggers: ['ozsitu,']
+- replace: 'this situates '
+  _tags: [demonstrative, verb, to, can, else]
+  allow_duplicate: true
+  propagate_case: true
+  triggers: ['izsituw,']
+- replace: 'that situates '
+  _tags: [demonstrative, verb, to, can, else]
+  allow_duplicate: true
+  propagate_case: true
+  triggers: ['azsituw,']
+- replace: 'these situates '
+  _tags: [demonstrative, verb, to, can, else]
+  allow_duplicate: true
+  propagate_case: true
+  triggers: ['ezsituw,']
+- replace: 'those situates '
+  _tags: [demonstrative, verb, to, can, else]
+  allow_duplicate: true
+  propagate_case: true
+  triggers: ['ozsituw,']
+- replace: 'this situating '
+  _tags: [demonstrative, ing, to, can, else]
+  allow_duplicate: true
+  propagate_case: true
+  triggers: ['izsitui,']
+- replace: 'that situating '
+  _tags: [demonstrative, ing, to, can, else]
+  allow_duplicate: true
+  propagate_case: true
+  triggers: ['azsitui,']
+- replace: 'these situating '
+  _tags: [demonstrative, ing, to, can, else]
+  allow_duplicate: true
+  propagate_case: true
+  triggers: ['ezsitui,']
+- replace: 'those situating '
+  _tags: [demonstrative, ing, to, can, else]
+  allow_duplicate: true
+  propagate_case: true
+  triggers: ['ozsitui,']
+- replace: 'this situated '
+  _tags: [demonstrative, ed, to, can, else]
+  allow_duplicate: true
+  propagate_case: true
+  triggers: ['izsitup,']
+- replace: 'that situated '
+  _tags: [demonstrative, ed, to, can, else]
+  allow_duplicate: true
+  propagate_case: true
+  triggers: ['azsitup,']
+- replace: 'these situated '
+  _tags: [demonstrative, ed, to, can, else]
+  allow_duplicate: true
+  propagate_case: true
+  triggers: ['ezsitup,']
+- replace: 'those situated '
+  _tags: [demonstrative, ed, to, can, else]
+  allow_duplicate: true
+  propagate_case: true
+  triggers: ['ozsitup,']
+- replace: 'what situation '
+  _tags: [question, to, can, else]
+  allow_duplicate: true
+  propagate_case: true
+  triggers: ['wtsitu,']
+- replace: 'where situation '
+  _tags: [question, place, to, can, else]
+  allow_duplicate: true
+  propagate_case: true
+  triggers: ['wrsitu,']
+- replace: 'when situation '
+  _tags: [question, time, to, can, else]
+  allow_duplicate: true
+  propagate_case: true
+  triggers: ['wnsitu,']
+- replace: 'why situation '
+  _tags: [question, to, can, else]
+  allow_duplicate: true
+  propagate_case: true
+  triggers: ['wysitu,']
+- replace: 'what situates '
+  _tags: [question, verb, to, can, else]
+  allow_duplicate: true
+  propagate_case: true
+  triggers: ['wtsituw,']
+- replace: 'where situates '
+  _tags: [question, place, verb, to, can, else]
+  allow_duplicate: true
+  propagate_case: true
+  triggers: ['wrsituw,']
+- replace: 'when situates '
+  _tags: [question, time, verb, to, can, else]
+  allow_duplicate: true
+  propagate_case: true
+  triggers: ['wnsituw,']
+- replace: 'why situates '
+  _tags: [question, verb, to, can, else]
+  allow_duplicate: true
+  propagate_case: true
+  triggers: ['wysituw,']
+- replace: 'how situation '
+  _tags: [question, to, can, else]
+  allow_duplicate: true
+  propagate_case: true
+  triggers: ['hwsitu,']
+- replace: 'how situates '
+  _tags: [question, verb, to, can, else]
+  allow_duplicate: true
+  propagate_case: true
+  triggers: ['hwsituw,']
+- replace: 'to situation '
+  _tags: [to, preposition, directional, noun]
+  allow_duplicate: true
+  propagate_case: true
+  triggers: ['2situ,']
+- replace: 'from situation '
+  _tags: [from, preposition, directional, noun]
+  allow_duplicate: true
+  propagate_case: true
+  triggers: ['22situ,']
+- replace: 'to situates '
+  _tags: [to, preposition, directional, verb]
+  allow_duplicate: true
+  propagate_case: true
+  triggers: ['2situw,']
+- replace: 'from situates '
+  _tags: [from, preposition, directional, verb]
+  allow_duplicate: true
+  propagate_case: true
+  triggers: ['22situw,']
+- replace: 'to the situation '
+  _tags: [to, preposition, directional, article, noun]
+  allow_duplicate: true
+  propagate_case: true
+  triggers: ['2hsitu,']
+- replace: 'from the situation '
+  _tags: [from, preposition, directional, article, noun]
+  allow_duplicate: true
+  propagate_case: true
+  triggers: ['22hsitu,']
+- replace: 'to the situates '
+  _tags: [to, preposition, directional, article, verb]
+  allow_duplicate: true
+  propagate_case: true
+  triggers: ['2hsituw,']
+- replace: 'from the situates '
+  _tags: [from, preposition, directional, article, verb]
+  allow_duplicate: true
+  propagate_case: true
+  triggers: ['22hsituw,']
+- replace: 'single situation '
+  _tags: [counting, singular, to, can, else]
+  allow_duplicate: true
+  propagate_case: true
+  triggers: ['1situ,']
+- replace: 'multiple situations '
+  _tags: [counting, plural, to, can, else]
+  allow_duplicate: true
+  propagate_case: true
+  triggers: ['8situ,']
+- replace: 'first situation '
+  _tags: [ordinal, counting, to, can, else]
+  allow_duplicate: true
+  triggers: [',1situ,']
+- replace: 'last situation '
+  _tags: [ordinal, counting, to, can, else]
+  allow_duplicate: true
+  triggers: [',0situ,']

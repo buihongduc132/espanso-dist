@@ -1,0 +1,75 @@
+# ⚠️  WARNING: AUTO-GENERATED FILE - DO NOT EDIT DIRECTLY!
+# This file is generated from word_version by:
+#   scripts/convert_to_tokenized_word_version.py
+# Edit source in space_version and re-run conversions.
+# Tokenizes trailing spaces in triggers to an explicit token.
+# Removes right_word property for tokenized version.
+# Adds trailing space to replacements that don't have one.
+# Current token: ','
+
+matches:
+- replace: 'combine '
+  _tags: [can, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['qmb,']
+- replace: 'combines '
+  _tags: [can, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['qmbs,']
+- replace: 'combining '
+  _tags: [ing, can, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['qmbi,']
+- replace: 'combined '
+  _tags: [ed, would, can, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['qmbp,']
+- replace: 'combination '
+  _tags: [noun, can, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['qmbm,']
+- replace: 'combine this '
+  _tags: [demonstrative, can, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['qmbiz,']
+- replace: 'combine that '
+  _tags: [demonstrative, can, else, have]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['qmbaz,']
+- replace: 'combine these '
+  _tags: [demonstrative, can, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['qmbez,']
+- replace: 'combine those '
+  _tags: [demonstrative, can, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['qmboz,']
+- replace: 'combine the '
+  _tags: [the, can, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['qmbh,']
+- replace: 'combine all '
+  _tags: [can, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['qmba,']
+- replace: 'combine some '
+  _tags: [can, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['qmbsm,']
+- replace: 'combine each '
+  _tags: [can, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['qmbeh,']

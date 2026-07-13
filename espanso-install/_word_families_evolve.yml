@@ -1,0 +1,94 @@
+# ⚠️  WARNING: AUTO-GENERATED FILE - DO NOT EDIT DIRECTLY!
+# This file is generated from word_version by:
+#   scripts/convert_to_tokenized_word_version.py
+# Edit source in space_version and re-run conversions.
+# Tokenizes trailing spaces in triggers to an explicit token.
+# Removes right_word property for tokenized version.
+# Adds trailing space to replacements that don't have one.
+# Current token: ','
+
+name: word-families-evolve
+parent: default
+matches:
+- replace: 'evolve '
+  _tags: [to, can, else, verb]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['evl,']
+- replace: 'evolves '
+  _tags: [to, can, else, verb]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['evols,']
+- replace: 'evolving '
+  _tags: [ing, to, can, else, verb]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['evoli,']
+- replace: 'evolved '
+  _tags: [ed, would, to, can, else, verb]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['evolp,']
+- replace: 'evolution '
+  _tags: [noun, to, can, else, pronoun]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['evolm,']
+- replace: 'evolutionary '
+  _tags: [adjective, to, can, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['evolj,']
+- replace: 'evolutionaryly '
+  _tags: [adverb, to, can, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['evoljl,']
+- replace: 'evolve this '
+  _tags: [demonstrative, to, can, else, verb]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['evoliz,']
+- replace: 'evolve that '
+  _tags: [demonstrative, to, can, else, verb]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['evolaz,']
+- replace: 'evolve these '
+  _tags: [demonstrative, to, can, else, verb]
+  allow_duplicate: true
+  duplicate_group: evolve-lez
+  propagate_case: true
+  triggers: ['evolez,']
+- replace: 'evolve those '
+  _tags: [demonstrative, to, can, else, verb]
+  allow_duplicate: true
+  duplicate_group: evolve-lez
+  propagate_case: true
+  triggers: ['evoleoz,']
+- replace: 'evolution '
+  _tags: [to, can, else, noun]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['evo,']
+- replace: 'evolutions '
+  _tags: [to, can, else, noun]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['evos,']
+- replace: 'evolutioning '
+  _tags: [ing, to, can, else, verb]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['evoi,']
+- replace: 'evolutioned '
+  _tags: [ed, would, to, can, else, verb]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['evop,']
+- replace: 'evolutionary '
+  _tags: [adjective, to, can, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['evoj,']

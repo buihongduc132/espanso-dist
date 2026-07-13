@@ -1,0 +1,95 @@
+# ⚠️  WARNING: AUTO-GENERATED FILE - DO NOT EDIT DIRECTLY!
+# This file is generated from word_version by:
+#   scripts/convert_to_tokenized_word_version.py
+# Edit source in space_version and re-run conversions.
+# Tokenizes trailing spaces in triggers to an explicit token.
+# Removes right_word property for tokenized version.
+# Adds trailing space to replacements that don't have one.
+# Current token: ','
+
+matches:
+- replace: 'have change '
+  _tags: [have, to, can, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['hahg,']
+- replace: 'change '
+  _tags: [have, the, can, else]
+  allow_duplicate: true
+  propagate_case: true
+  triggers: ['hg,']
+- replace: 'changes '
+  _tags: [have, the, can, else]
+  allow_duplicate: true
+  propagate_case: true
+  triggers: ['hgs,']
+- replace: 'changing '
+  _tags: [pronoun, the, ing, can, have]
+  allow_duplicate: true
+  propagate_case: true
+  triggers: ['hgi,']
+- replace: 'changed '
+  _tags: [the, have, can, ed, would, else]
+  allow_duplicate: true
+  propagate_case: true
+  triggers: ['hgp,']
+- replace: 'change this '
+  _tags: [demonstrative, have, the, can, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['hgiz,']
+- replace: 'change that '
+  _tags: [demonstrative, have, the, can, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['hgaz,']
+- replace: 'change these '
+  _tags: [demonstrative, have, the, can, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['hgez,']
+- replace: 'change those '
+  _tags: [demonstrative, have, the, can, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['hgoz,']
+- replace: 'change the '
+  _tags: [have, the, can, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['hgh,']
+- replace: 'change all '
+  _tags: [have, the, can, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['hga,']
+- replace: 'change some '
+  _tags: [have, the, can, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['hgsm,']
+- replace: 'change each '
+  _tags: [have, the, can, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['hgeh,']
+- replace: 'change it '
+  _tags: [pronoun, to, can, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['hgx,']
+- replace: 'change them '
+  _tags: [pronoun, to, can, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['hgmm,']
+- replace: 'change them all '
+  _tags: [pronoun, to, can, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['hgmmal,']
+- replace: 'changeable '
+  _tags: [adjective, to, can, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['hgb,']

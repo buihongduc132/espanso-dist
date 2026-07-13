@@ -1,0 +1,52 @@
+# ⚠️  WARNING: AUTO-GENERATED FILE - DO NOT EDIT DIRECTLY!
+# This file is generated from word_version by:
+#   scripts/convert_to_tokenized_word_version.py
+# Edit source in space_version and re-run conversions.
+# Tokenizes trailing spaces in triggers to an explicit token.
+# Removes right_word property for tokenized version.
+# Adds trailing space to replacements that don't have one.
+# Current token: ','
+
+name: word-family-matrix
+parent: default
+matches:
+- replace: 'matrix '
+  _tags: [noun, to, can, else, pronoun]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['miax,']
+- replace: 'matrices '
+  _tags: [noun, to, can, else, pronoun]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['miaxs,']
+- replace: 'matrixing '
+  _tags: [verb, ing, to, can, pronoun, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['miaxi,']
+- replace: 'matrixed '
+  _tags: [verb, ed, would, to, can, else, pronoun]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['miaxp,']
+- replace: 'matrixable '
+  _tags: [adjective, to, can, else, pronoun]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['miaxb,']
+- replace: 'matrix to the '
+  _tags: [phrase, to, can, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['miax2h,']
+- replace: 'this matrix '
+  _tags: [phrase, to, can, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['miaxiz,']
+- replace: 'that matrix '
+  _tags: [phrase, to, can, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['miaxaz,']

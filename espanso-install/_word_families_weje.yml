@@ -1,0 +1,102 @@
+# ⚠️  WARNING: AUTO-GENERATED FILE - DO NOT EDIT DIRECTLY!
+# This file is generated from word_version by:
+#   scripts/convert_to_tokenized_word_version.py
+# Edit source in space_version and re-run conversions.
+# Tokenizes trailing spaces in triggers to an explicit token.
+# Removes right_word property for tokenized version.
+# Adds trailing space to replacements that don't have one.
+# Current token: ','
+
+name: word-families-weje
+parent: default
+matches:
+- replace: 'revert '
+  _tags: [to, can, else, verb]
+  allow_duplicate: true
+  propagate_case: true
+  triggers: ['weje,']
+- replace: 'reverts '
+  _tags: [to, can, else, verb]
+  allow_duplicate: true
+  propagate_case: true
+  triggers: ['wejes,']
+- replace: 'reverting '
+  _tags: [ing, to, can, else, verb]
+  allow_duplicate: true
+  propagate_case: true
+  triggers: ['wejei,']
+- replace: 'reverted '
+  _tags: [ed, would, to, can, else, verb]
+  allow_duplicate: true
+  propagate_case: true
+  triggers: ['wejep,']
+- replace: 'reversion '
+  _tags: [noun, to, can, else]
+  allow_duplicate: true
+  propagate_case: true
+  triggers: ['wejem,']
+- replace: 'reversions '
+  _tags: [noun, to, can, else]
+  allow_duplicate: true
+  propagate_case: true
+  triggers: ['wejems,']
+- replace: 'reversible '
+  _tags: [adjective, to, can, else]
+  allow_duplicate: true
+  propagate_case: true
+  triggers: ['wejeb,']
+- replace: 'reversibly '
+  _tags: [adjective, to, can, else]
+  allow_duplicate: true
+  propagate_case: true
+  triggers: ['wejebl,']
+- replace: 'reversibility '
+  _tags: [noun, adjective, to, can, else]
+  allow_duplicate: true
+  propagate_case: true
+  triggers: ['wejebm,']
+- replace: 'irreversible '
+  _tags: [negate, adjective, to, can, else]
+  allow_duplicate: true
+  propagate_case: true
+  triggers: ['iwejeb,']
+- replace: 'irreversibly '
+  _tags: [negate, adjective, to, can, else]
+  allow_duplicate: true
+  propagate_case: true
+  triggers: ['iwejebl,']
+- replace: 'irreversibility '
+  _tags: [negate, noun, adjective, to, can, else]
+  allow_duplicate: true
+  propagate_case: true
+  triggers: ['iwejebm,']
+- replace: 'reversal '
+  _tags: [noun, to, can, else]
+  allow_duplicate: true
+  propagate_case: true
+  triggers: ['wejel,']
+- replace: 'reversals '
+  _tags: [noun, to, can, else]
+  allow_duplicate: true
+  propagate_case: true
+  triggers: ['wejels,']
+- replace: 'reversaling '
+  _tags: [ing, noun, to, can, else]
+  allow_duplicate: true
+  propagate_case: true
+  triggers: ['wejeli,']
+- replace: 'reversaled '
+  _tags: [ed, would, noun, to, can, else]
+  allow_duplicate: true
+  propagate_case: true
+  triggers: ['wejelp,']
+- replace: 'reverter '
+  _tags: [noun, to, can, else]
+  allow_duplicate: true
+  propagate_case: true
+  triggers: ['wejew,']
+- replace: 'reverters '
+  _tags: [noun, to, can, else]
+  allow_duplicate: true
+  propagate_case: true
+  triggers: ['wejews,']

@@ -1,0 +1,160 @@
+# ⚠️  WARNING: AUTO-GENERATED FILE - DO NOT EDIT DIRECTLY!
+# This file is generated from word_version by:
+#   scripts/convert_to_tokenized_word_version.py
+# Edit source in space_version and re-run conversions.
+# Tokenizes trailing spaces in triggers to an explicit token.
+# Removes right_word property for tokenized version.
+# Adds trailing space to replacements that don't have one.
+# Current token: ','
+
+name: word-families-fundamental-fund-full-empty
+parent: default
+matches:
+- replace: 'fundamental '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['funda,']
+- replace: 'fundamentals '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['fundas,']
+- replace: 'fundamentally '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['fundal,']
+- replace: 'this fundamental '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['fundaiz,']
+- replace: 'that fundamental '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['fundaaz,']
+- replace: 'these fundamentals '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['fundaez,']
+- replace: 'those fundamentals '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['fundaoz,']
+- replace: 'fund '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['fun,']
+- replace: 'funds '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['funs,']
+- replace: 'funding '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['funi,']
+- replace: 'funded '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['funp,']
+- replace: 'funder '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['funw,']
+- replace: 'funders '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['funws,']
+- replace: 'this fund '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['funiz,']
+- replace: 'that fund '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['funaz,']
+- replace: 'these funds '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['funez,']
+- replace: 'those funds '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['funoz,']
+- replace: 'full '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['ful,']
+- replace: 'fuller '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['fulw,']
+- replace: 'fullest '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['fult,']
+- replace: 'fully '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['full,']
+- replace: 'fullness '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['fuln,']
+- replace: 'fullnesses '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['fulns,']
+- replace: 'this full '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['fuliz,']
+- replace: 'that full '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['fulaz,']
+- replace: 'empty '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['empt,']
+- replace: 'empties '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['empts,']
+- replace: 'emptying '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['empti,']
+- replace: 'emptied '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['emptp,']
+- replace: 'emptiness '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['emptn,']
+- replace: 'emptinesses '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['emptns,']
+- replace: 'emptier '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['emptw,']
+- replace: 'emptiest '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['emptt,']
+- replace: 'this empty '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['emptiz,']
+- replace: 'that empty '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['emptaz,']
+- replace: 'these empties '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['emptez,']
+- replace: 'those empties '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['emptoz,']

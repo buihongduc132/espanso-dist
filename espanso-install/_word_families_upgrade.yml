@@ -1,0 +1,137 @@
+# ⚠️  WARNING: AUTO-GENERATED FILE - DO NOT EDIT DIRECTLY!
+# This file is generated from word_version by:
+#   scripts/convert_to_tokenized_word_version.py
+# Edit source in space_version and re-run conversions.
+# Tokenizes trailing spaces in triggers to an explicit token.
+# Removes right_word property for tokenized version.
+# Adds trailing space to replacements that don't have one.
+# Current token: ','
+
+name: word-families-upgrade
+parent: default
+matches:
+- replace: 'upgrade '
+  _tags: [to, can, else, verb]
+  allow_duplicate: true
+  propagate_case: true
+  triggers: ['upg,']
+- replace: 'upgrades '
+  _tags: [to, can, else, verb]
+  allow_duplicate: true
+  propagate_case: true
+  triggers: ['upgs,']
+- replace: 'upgrading '
+  _tags: [ing, to, can, else, verb, pronoun]
+  allow_duplicate: true
+  propagate_case: true
+  triggers: ['upgi,']
+- replace: 'upgraded '
+  _tags: [ed, would, to, can, else, verb]
+  allow_duplicate: true
+  propagate_case: true
+  triggers: ['upgp,']
+- replace: 'upgrader '
+  _tags: [noun, to, can, else]
+  allow_duplicate: true
+  propagate_case: true
+  triggers: ['upgm,']
+- replace: 'upgradeable '
+  _tags: [adjective, to, can, else]
+  allow_duplicate: true
+  propagate_case: true
+  triggers: ['upgj,']
+- replace: 'upgradeably '
+  _tags: [adjective, to, can, else]
+  allow_duplicate: true
+  propagate_case: true
+  triggers: ['upgjl,']
+- replace: 'upgradeability '
+  _tags: [noun, adjective, to, can, else]
+  allow_duplicate: true
+  propagate_case: true
+  triggers: ['upgjm,']
+- replace: 'downgrade '
+  _tags: [negate, to, can, else, verb]
+  allow_duplicate: true
+  propagate_case: true
+  triggers: ['dupg,']
+- replace: 'downgrades '
+  _tags: [negate, to, can, else, verb]
+  allow_duplicate: true
+  propagate_case: true
+  triggers: ['dupgs,']
+- replace: 'downgrading '
+  _tags: [negate, ing, to, can, else, verb, pronoun]
+  allow_duplicate: true
+  propagate_case: true
+  triggers: ['dupgi,']
+- replace: 'downgraded '
+  _tags: [negate, ed, would, to, can, else, verb]
+  allow_duplicate: true
+  propagate_case: true
+  triggers: ['dupgp,']
+- replace: 'downgrader '
+  _tags: [negate, noun, to, can, else]
+  allow_duplicate: true
+  propagate_case: true
+  triggers: ['dupgm,']
+- replace: 're-upgrade '
+  _tags: [to, can, else, verb]
+  allow_duplicate: true
+  propagate_case: true
+  triggers: ['wupg,']
+- replace: 're-upgrades '
+  _tags: [to, can, else, verb]
+  allow_duplicate: true
+  propagate_case: true
+  triggers: ['wupgs,']
+- replace: 're-upgrading '
+  _tags: [ing, to, can, else, verb, pronoun]
+  allow_duplicate: true
+  propagate_case: true
+  triggers: ['wupgi,']
+- replace: 're-upgraded '
+  _tags: [ed, would, to, can, else, verb]
+  allow_duplicate: true
+  propagate_case: true
+  triggers: ['wupgp,']
+- replace: 'pre-upgrade '
+  _tags: [to, can, else, verb]
+  allow_duplicate: true
+  propagate_case: true
+  triggers: ['pupg,']
+- replace: 'pre-upgrades '
+  _tags: [to, can, else, verb]
+  allow_duplicate: true
+  propagate_case: true
+  triggers: ['pupgs,']
+- replace: 'pre-upgrading '
+  _tags: [ing, to, can, else, verb, pronoun]
+  allow_duplicate: true
+  propagate_case: true
+  triggers: ['pupgi,']
+- replace: 'pre-upgraded '
+  _tags: [ed, would, to, can, else, verb]
+  allow_duplicate: true
+  propagate_case: true
+  triggers: ['pupgp,']
+- replace: 'auto-upgrade '
+  _tags: [to, can, else, verb]
+  allow_duplicate: true
+  propagate_case: true
+  triggers: ['aupg,']
+- replace: 'auto-upgrades '
+  _tags: [to, can, else, verb]
+  allow_duplicate: true
+  propagate_case: true
+  triggers: ['aupgs,']
+- replace: 'auto-upgrading '
+  _tags: [ing, to, can, else, verb, pronoun]
+  allow_duplicate: true
+  propagate_case: true
+  triggers: ['aupgi,']
+- replace: 'auto-upgraded '
+  _tags: [ed, would, to, can, else, verb]
+  allow_duplicate: true
+  propagate_case: true
+  triggers: ['aupgp,']

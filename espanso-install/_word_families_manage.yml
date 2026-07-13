@@ -1,0 +1,197 @@
+# ⚠️  WARNING: AUTO-GENERATED FILE - DO NOT EDIT DIRECTLY!
+# This file is generated from word_version by:
+#   scripts/convert_to_tokenized_word_version.py
+# Edit source in space_version and re-run conversions.
+# Tokenizes trailing spaces in triggers to an explicit token.
+# Removes right_word property for tokenized version.
+# Adds trailing space to replacements that don't have one.
+# Current token: ','
+
+name: word-families-manage
+parent: default
+matches:
+- replace: 'manage '
+  _tags: [to, can, else, verb]
+  allow_duplicate: true
+  propagate_case: true
+  triggers: ['mn,']
+- replace: 'manages '
+  _tags: [to, can, else, verb]
+  allow_duplicate: true
+  propagate_case: true
+  triggers: ['mns,']
+- replace: 'managing '
+  _tags: [ing, to, can, else, verb, pronoun]
+  allow_duplicate: true
+  propagate_case: true
+  triggers: ['mni,']
+- replace: 'managed '
+  _tags: [ed, would, to, can, else, verb]
+  allow_duplicate: true
+  propagate_case: true
+  triggers: ['mnp,']
+- replace: 'management '
+  _tags: [noun, to, can, else]
+  allow_duplicate: true
+  propagate_case: true
+  triggers: ['mnm,']
+- replace: 'manager '
+  _tags: [noun, to, can, else]
+  allow_duplicate: true
+  propagate_case: true
+  triggers: ['mnw,']
+- replace: 'managers '
+  _tags: [noun, to, can, else]
+  allow_duplicate: true
+  propagate_case: true
+  triggers: ['mnws,']
+- replace: 'manageable '
+  _tags: [adjective, to, can, else]
+  allow_duplicate: true
+  propagate_case: true
+  triggers: ['mnj,']
+- replace: 'manageably '
+  _tags: [adjective, to, can, else]
+  allow_duplicate: true
+  propagate_case: true
+  triggers: ['mnjl,']
+- replace: 'manageability '
+  _tags: [noun, adjective, to, can, else]
+  allow_duplicate: true
+  propagate_case: true
+  triggers: ['mnjm,']
+- replace: 'unmanage '
+  _tags: [negate, to, can, else, verb]
+  allow_duplicate: true
+  propagate_case: true
+  triggers: ['umn,']
+- replace: 'unmanages '
+  _tags: [negate, to, can, else, verb]
+  allow_duplicate: true
+  propagate_case: true
+  triggers: ['umns,']
+- replace: 'unmanaging '
+  _tags: [negate, ing, to, can, else, verb, pronoun]
+  allow_duplicate: true
+  propagate_case: true
+  triggers: ['umni,']
+- replace: 'unmanaged '
+  _tags: [negate, ed, would, to, can, else, verb]
+  allow_duplicate: true
+  propagate_case: true
+  triggers: ['umnp,']
+- replace: 'unmanageable '
+  _tags: [negate, adjective, to, can, else]
+  allow_duplicate: true
+  propagate_case: true
+  triggers: ['umnj,']
+- replace: 'unmanageably '
+  _tags: [negate, adjective, to, can, else]
+  allow_duplicate: true
+  propagate_case: true
+  triggers: ['umnjl,']
+- replace: 'unmanageability '
+  _tags: [negate, noun, adjective, to, can, else]
+  allow_duplicate: true
+  propagate_case: true
+  triggers: ['umnjm,']
+- replace: 'mismanage '
+  _tags: [negate, to, can, else, verb]
+  allow_duplicate: true
+  propagate_case: true
+  triggers: ['mimn,']
+- replace: 'mismanages '
+  _tags: [negate, to, can, else, verb]
+  allow_duplicate: true
+  propagate_case: true
+  triggers: ['mimns,']
+- replace: 'mismanaging '
+  _tags: [negate, ing, to, can, else, verb, pronoun]
+  allow_duplicate: true
+  propagate_case: true
+  triggers: ['mimni,']
+- replace: 'mismanaged '
+  _tags: [negate, ed, would, to, can, else, verb]
+  allow_duplicate: true
+  propagate_case: true
+  triggers: ['mimnp,']
+- replace: 'mismanagement '
+  _tags: [negate, noun, to, can, else]
+  allow_duplicate: true
+  propagate_case: true
+  triggers: ['mimnm,']
+- replace: 'mismanager '
+  _tags: [negate, noun, to, can, else]
+  allow_duplicate: true
+  propagate_case: true
+  triggers: ['mimnw,']
+- replace: 'overmanage '
+  _tags: [to, can, else, verb]
+  allow_duplicate: true
+  propagate_case: true
+  triggers: ['omn,']
+- replace: 'overmanages '
+  _tags: [to, can, else, verb]
+  allow_duplicate: true
+  propagate_case: true
+  triggers: ['omns,']
+- replace: 'overmanaging '
+  _tags: [ing, to, can, else, verb, pronoun]
+  allow_duplicate: true
+  propagate_case: true
+  triggers: ['omni,']
+- replace: 'overmanaged '
+  _tags: [ed, would, to, can, else, verb]
+  allow_duplicate: true
+  propagate_case: true
+  triggers: ['omnp,']
+- replace: 'overmanagement '
+  _tags: [noun, to, can, else]
+  allow_duplicate: true
+  propagate_case: true
+  triggers: ['omnm,']
+- replace: 'managerial '
+  _tags: [adjective, noun, to, can, else]
+  allow_duplicate: true
+  propagate_case: true
+  triggers: ['mnwj,']
+- replace: 'managerially '
+  _tags: [adjective, to, can, else]
+  allow_duplicate: true
+  propagate_case: true
+  triggers: ['mnwjl,']
+- replace: 'self-manage '
+  _tags: [to, can, else, verb]
+  allow_duplicate: true
+  propagate_case: true
+  triggers: ['smn,']
+- replace: 'self-manages '
+  _tags: [to, can, else, verb]
+  allow_duplicate: true
+  propagate_case: true
+  triggers: ['smns,']
+- replace: 'self-managing '
+  _tags: [ing, to, can, else, verb, pronoun]
+  allow_duplicate: true
+  propagate_case: true
+  triggers: ['smni,']
+- replace: 'self-managed '
+  _tags: [ed, would, to, can, else, verb]
+  allow_duplicate: true
+  propagate_case: true
+  triggers: ['smnp,']
+- replace: 'self-management '
+  _tags: [noun, to, can, else]
+  allow_duplicate: true
+  propagate_case: true
+  triggers: ['smnm,']
+- replace: 'self-manageable '
+  _tags: [adjective, to, can, else]
+  allow_duplicate: true
+  propagate_case: true
+  triggers: ['smnj,']
+- replace: 'self-manager '
+  _tags: [noun, to, can, else]
+  allow_duplicate: true
+  propagate_case: true
+  triggers: ['smnw,']

@@ -1,0 +1,102 @@
+# ⚠️  WARNING: AUTO-GENERATED FILE - DO NOT EDIT DIRECTLY!
+# This file is generated from word_version by:
+#   scripts/convert_to_tokenized_word_version.py
+# Edit source in space_version and re-run conversions.
+# Tokenizes trailing spaces in triggers to an explicit token.
+# Removes right_word property for tokenized version.
+# Adds trailing space to replacements that don't have one.
+# Current token: ','
+
+name: word-families-request
+parent: default
+matches:
+- replace: 'request '
+  _tags: [to, can, else, verb]
+  allow_duplicate: true
+  propagate_case: true
+  triggers: ['weq,']
+- replace: 'requests '
+  _tags: [to, can, else, verb]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['weqs,']
+- replace: 'requesting '
+  _tags: [ing, to, can, else, verb, pronoun]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['weqi,']
+- replace: 'requested '
+  _tags: [ed, would, to, can, else, verb]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['weqp,']
+- replace: 'requester '
+  _tags: [noun, to, can, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['weqr,']
+- replace: 'require '
+  _tags: [to, can, else, verb]
+  allow_duplicate: true
+  propagate_case: true
+  triggers: ['weqw,']
+- replace: 'requires '
+  _tags: [to, can, else, verb]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['weqws,']
+- replace: 'requiring '
+  _tags: [ing, to, can, else, verb, pronoun]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['weqwi,']
+- replace: 'required '
+  _tags: [ed, would, to, can, else, verb]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['weqwp,']
+- replace: 'requirement '
+  _tags: [noun, to, can, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['weqwm,']
+- replace: 'requirements '
+  _tags: [noun, to, can, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['weqwms,']
+- replace: 'requirer '
+  _tags: [noun, to, can, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['weqwr,']
+- replace: 'prerequest '
+  _tags: [to, can, else, verb, prefix]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['pweq,']
+- replace: 'prerequested '
+  _tags: [ed, would, to, can, else, verb, prefix]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['pweqp,']
+- replace: 'prerequire '
+  _tags: [to, can, else, verb, prefix]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['pweqw,']
+- replace: 'prerequired '
+  _tags: [ed, would, to, can, else, verb, prefix]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['pweqwp,']
+- replace: 'prerequisite '
+  _tags: [noun, to, can, else, prefix]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['pweqwm,']
+- replace: 'prerequisites '
+  _tags: [noun, to, can, else, prefix]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['pweqwms,']

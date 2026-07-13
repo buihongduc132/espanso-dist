@@ -1,0 +1,36 @@
+# ⚠️  WARNING: AUTO-GENERATED FILE - DO NOT EDIT DIRECTLY!
+# This file is generated from word_version by:
+#   scripts/convert_to_tokenized_word_version.py
+# Edit source in space_version and re-run conversions.
+# Tokenizes trailing spaces in triggers to an explicit token.
+# Removes right_word property for tokenized version.
+# Adds trailing space to replacements that don't have one.
+# Current token: ','
+
+name: word-families-occur
+parent: default
+matches:
+- replace: 'occur '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['oq,']
+- replace: 'occurs '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['oqs,']
+- replace: 'occurring '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['oqi,']
+- replace: 'occurred '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['oqp,']
+- replace: 'occurrence '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['oqm,']
+- replace: 'occurrences '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['oqms,']

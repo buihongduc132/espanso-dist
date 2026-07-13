@@ -1,0 +1,98 @@
+# ⚠️  WARNING: AUTO-GENERATED FILE - DO NOT EDIT DIRECTLY!
+# This file is generated from word_version by:
+#   scripts/convert_to_tokenized_word_version.py
+# Edit source in space_version and re-run conversions.
+# Tokenizes trailing spaces in triggers to an explicit token.
+# Removes right_word property for tokenized version.
+# Adds trailing space to replacements that don't have one.
+# Current token: ','
+
+name: word-families-benefit
+parent: default
+matches:
+- replace: 'benefit '
+  _tags: [to, can, else]
+  _context_tags: [engineering, prompt]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: [bene`]
+- replace: 'benefits '
+  _tags: [noun, to, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['benes,']
+- replace: 'benefiting '
+  _tags: [ing, to, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['benei,']
+- replace: 'benefited '
+  _tags: [ed, to, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['benep,']
+- replace: 'beneficial '
+  _tags: [adjective, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['benel,']
+- replace: 'beneficially '
+  _tags: [adverb, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['benell,']
+- replace: 'beneficence '
+  _tags: [noun, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['benemn,']
+- replace: 'benefit this '
+  _tags: [verb, demonstrative, to, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['beneiz,']
+- replace: 'benefit that '
+  _tags: [verb, demonstrative, to, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['beneaz,']
+- replace: 'benefit these '
+  _tags: [verb, demonstrative, to, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['beneez,']
+- replace: 'benefit those '
+  _tags: [verb, demonstrative, to, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['beneoz,']
+- replace: 'benefit the '
+  _tags: [verb, to, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['beneh,']
+- replace: 'benefit it '
+  _tags: [verb, to, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['benex,']
+- replace: 'this benefit '
+  _tags: [demonstrative, noun, to, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['izbene,']
+- replace: 'that benefit '
+  _tags: [demonstrative, noun, to, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['azbene,']
+- replace: 'these benefits '
+  _tags: [demonstrative, noun, to, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['ezbenes,']
+- replace: 'those benefits '
+  _tags: [demonstrative, noun, to, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['ozbenes,']

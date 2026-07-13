@@ -1,0 +1,40 @@
+# ⚠️  WARNING: AUTO-GENERATED FILE - DO NOT EDIT DIRECTLY!
+# This file is generated from word_version by:
+#   scripts/convert_to_tokenized_word_version.py
+# Edit source in space_version and re-run conversions.
+# Tokenizes trailing spaces in triggers to an explicit token.
+# Removes right_word property for tokenized version.
+# Adds trailing space to replacements that don't have one.
+# Current token: ','
+
+name: word-families-dynamic
+parent: default
+matches:
+- replace: 'dynamic '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['dyna,']
+- replace: 'dynamics '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['dynas,']
+- replace: 'dynamically '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['dynal,']
+- replace: 'this dynamic '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['dynaiz,']
+- replace: 'that dynamic '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['dynaaz,']
+- replace: 'these dynamics '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['dynaez,']
+- replace: 'those dynamics '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['dynaoz,']

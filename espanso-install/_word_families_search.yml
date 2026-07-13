@@ -1,0 +1,97 @@
+# ⚠️  WARNING: AUTO-GENERATED FILE - DO NOT EDIT DIRECTLY!
+# This file is generated from word_version by:
+#   scripts/convert_to_tokenized_word_version.py
+# Edit source in space_version and re-run conversions.
+# Tokenizes trailing spaces in triggers to an explicit token.
+# Removes right_word property for tokenized version.
+# Adds trailing space to replacements that don't have one.
+# Current token: ','
+
+name: word-family-search
+parent: default
+matches:
+- replace: 'search '
+  _tags: [verb]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['sea,']
+- replace: 'searches '
+  _tags: [verb]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['seas,']
+- replace: 'searching '
+  _tags: [verb, ing]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['seai,']
+- replace: 'searched '
+  _tags: [verb, ed]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['seap,']
+- replace: 'searchable '
+  _tags: [adjective]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['seab,']
+- replace: 'searchably '
+  _tags: [adverb]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['seabl,']
+- replace: 'searcher '
+  _tags: [noun]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['seaw,']
+- replace: 'searchers '
+  _tags: [noun]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['seaws,']
+- replace: 'this search '
+  _tags: [demonstrative]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['izsea,']
+- replace: 'that search '
+  _tags: [demonstrative]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['azsea,']
+- replace: 'these searches '
+  _tags: [demonstrative]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['ezseas,']
+- replace: 'those searches '
+  _tags: [demonstrative]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['ozseas,']
+- replace: 'what search '
+  _tags: [question]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['wtlsea,']
+- replace: 'where search '
+  _tags: [question]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['whlsea,']
+- replace: 'when search '
+  _tags: [question]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['wnlsea,']
+- replace: 'why search '
+  _tags: [question]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['wylsea,']
+- replace: 'how search '
+  _tags: [question]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['hwlsea,']

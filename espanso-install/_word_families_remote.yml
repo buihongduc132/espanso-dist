@@ -1,0 +1,97 @@
+# ⚠️  WARNING: AUTO-GENERATED FILE - DO NOT EDIT DIRECTLY!
+# This file is generated from word_version by:
+#   scripts/convert_to_tokenized_word_version.py
+# Edit source in space_version and re-run conversions.
+# Tokenizes trailing spaces in triggers to an explicit token.
+# Removes right_word property for tokenized version.
+# Adds trailing space to replacements that don't have one.
+# Current token: ','
+
+name: word-families-remote
+parent: default
+matches:
+- replace: 'remote '
+  _tags: [can, pronoun, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['moe,']
+- replace: 'remotes '
+  _tags: [can, pronoun, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['moes,']
+- replace: 'remotely '
+  _tags: [can, pronoun, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['moel,']
+- replace: 'remoteness '
+  _tags: [noun, can, pronoun, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['moem,']
+- replace: 'remoting '
+  _tags: [ing, can, pronoun, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['moei,']
+- replace: 'remoted '
+  _tags: [ed, would, can, pronoun, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['moep,']
+- replace: 'remote host '
+  _tags: [noun, can, pronoun, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['moeh,']
+- replace: 'remote hosts '
+  _tags: [noun, can, pronoun, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['moehs,']
+- replace: 'remote server '
+  _tags: [noun, can, pronoun, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['moew,']
+- replace: 'remote servers '
+  _tags: [noun, can, pronoun, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['moews,']
+- replace: 'remote branch '
+  _tags: [noun, can, pronoun, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['moeb,']
+- replace: 'remote branches '
+  _tags: [noun, can, pronoun, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['moebs,']
+- replace: 'remote connection '
+  _tags: [noun, can, pronoun, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['moeq,']
+- replace: 'remote connections '
+  _tags: [noun, can, pronoun, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['moeqs,']
+- replace: 'remote access '
+  _tags: [noun, can, pronoun, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['moea,']
+- replace: 'remote deployment '
+  _tags: [noun, can, pronoun, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['moed,']
+- replace: 'remote deployments '
+  _tags: [noun, can, pronoun, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['moeds,']

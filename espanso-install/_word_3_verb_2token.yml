@@ -1,0 +1,323 @@
+# ⚠️  WARNING: AUTO-GENERATED FILE - DO NOT EDIT DIRECTLY!
+# This file is generated from word_version by:
+#   scripts/convert_to_tokenized_word_version.py
+# Edit source in space_version and re-run conversions.
+# Tokenizes trailing spaces in triggers to an explicit token.
+# Removes right_word property for tokenized version.
+# Adds trailing space to replacements that don't have one.
+# Current token: ','
+
+name: word_3_verb_found_two_token
+parent: default
+enable: false
+matches:
+- replace: 'I will get '
+  _tags: [will, to, else, pronoun]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['illget,']
+- replace: 'you can get '
+  _tags: [to, can, else, pronoun]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['yaqnget,']
+- replace: 'we do get '
+  _tags: [pronoun, will, to, ed, would, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['wedoget,']
+- triggers: ['tysldget,', 'tysouget,']
+  replace: 'they should get '
+  _tags: [pronoun, ours, the, should, to, would, else]
+  propagate_case: true
+  allow_duplicate: false
+- triggers: ['xwldget,', 'xwouget,']
+  replace: 'it would get '
+  _tags: [pronoun, will, to, would, else]
+  propagate_case: true
+  allow_duplicate: false
+- triggers: ['fget,', 'fgget,']
+  replace: 'if get '
+  _tags: [to, else, pronoun]
+  propagate_case: true
+  allow_duplicate: false
+- replace: 'what get '
+  _tags: [question, will, the, what, to, else, have]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['wtget,']
+- replace: 'get this '
+  _tags: [pronoun, the, demonstrative, to, be, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['getiz,']
+- replace: 'get you '
+  _tags: [to, else, pronoun]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['getya,']
+- replace: 'I will say '
+  _tags: [will, pronoun, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['illsay,']
+- replace: 'you can say '
+  _tags: [can, pronoun]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['yaqnsay,']
+- replace: 'we do say '
+  _tags: [pronoun, will, ed, would, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['wedosay,']
+- replace: 'if say '
+  _tags: [pronoun]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['fsay,']
+- replace: 'say this '
+  _tags: [pronoun, the, demonstrative, to, be]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['sayiz,']
+- replace: 'I will see '
+  _tags: [will, pronoun, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['illsee,']
+- replace: 'you can see '
+  _tags: [can, else, pronoun]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['yaqnsee,']
+- replace: 'we do see '
+  _tags: [pronoun, will, ed, would, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['wedosee,']
+- replace: 'if see '
+  _tags: [pronoun, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['fsee,']
+- replace: 'see that '
+  _tags: [the, demonstrative, have, to, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['seeaz,']
+- replace: 'I will take '
+  _tags: [will, to, else, pronoun]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['illtake,']
+- replace: 'you can take '
+  _tags: [to, can, else, pronoun]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['yaqntake,']
+- replace: 'if take '
+  _tags: [to, else, pronoun]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['ftake,']
+- replace: 'take this '
+  _tags: [pronoun, the, demonstrative, to, be, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['takeiz,']
+- replace: 'I will know '
+  _tags: [pronoun, will, time, negate, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['illknow,']
+- replace: 'you can know '
+  _tags: [pronoun, will, time, negate, can]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['yaqnknow,']
+- replace: 'if know '
+  _tags: [will, time, negate, pronoun]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['fknow,']
+- replace: 'know that '
+  _tags: [will, the, demonstrative, time, to, negate, have]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['knowaz,']
+- replace: 'I will go '
+  _tags: [will, pronoun, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['illgo,']
+- replace: 'you can go '
+  _tags: [can, pronoun]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['yaqngo,']
+- replace: 'if go '
+  _tags: [pronoun]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['fgo,']
+- replace: 'go where '
+  _tags: [question, place, will, the, where, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['goww,']
+- replace: 'I will come '
+  _tags: [will, can, else, pronoun]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['illqome,']
+- replace: 'you can come '
+  _tags: [can, else, pronoun]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['yaqnqome,']
+- replace: 'if come '
+  _tags: [can, else, pronoun]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['fqome,']
+- replace: 'come how '
+  _tags: [question, will, the, how, can, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['qomehw,']
+- replace: 'I will find '
+  _tags: [will, would, else, pronoun]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['illfind,']
+- replace: 'you can find '
+  _tags: [pronoun, can, would]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['yaqnfind,']
+- replace: 'if find '
+  _tags: [would, pronoun]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['ffind,']
+- replace: 'find this '
+  _tags: [pronoun, the, demonstrative, to, be, would]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['findiz,']
+- replace: 'I will tell '
+  _tags: [will, to, else, pronoun]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['illtell,']
+- replace: 'you can tell '
+  _tags: [pronoun, will, to, can, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['yaqntell,']
+- replace: 'if tell '
+  _tags: [will, to, else, pronoun]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['ftell,']
+- replace: 'tell you '
+  _tags: [will, to, else, pronoun]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['tellya,']
+- replace: 'I will ask '
+  _tags: [will, pronoun, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['illask,']
+- replace: 'you can ask '
+  _tags: [can, pronoun]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['yaqnask,']
+- replace: 'if ask '
+  _tags: [pronoun]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['fask,']
+- replace: 'ask why '
+  _tags: [question, why, will, the]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['askwy,']
+- replace: 'I will want '
+  _tags: [will, to, else, pronoun]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['illwant,']
+- replace: 'you can want '
+  _tags: [to, will, can, pronoun]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['yaqnwant,']
+- replace: 'if want '
+  _tags: [will, to, pronoun]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['fwant,']
+- replace: 'want this '
+  _tags: [pronoun, will, the, demonstrative, to, be]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['wantiz,']
+- replace: 'I will use '
+  _tags: [will, pronoun, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['illuse,']
+- replace: 'you can use '
+  _tags: [can, else, pronoun]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['yaqnuse,']
+- replace: 'if use '
+  _tags: [pronoun, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['fuse,']
+- replace: 'I will look '
+  _tags: [will, pronoun, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['illlook,']
+- replace: 'you can look '
+  _tags: [can, else, pronoun]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['yaqnlook,']
+- replace: 'if look '
+  _tags: [pronoun, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['flook,']
+- replace: 'look where '
+  _tags: [question, place, will, the, where, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['lookww,']
+- replace: 'I will think '
+  _tags: [pronoun, will, the, to, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['illthink,']
+- replace: 'you can think '
+  _tags: [to, can, the, pronoun]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['yaqnthink,']
+- replace: 'if think '
+  _tags: [to, the, pronoun]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['fthink,']
+- replace: 'think how '
+  _tags: [question, pronoun, will, the, how, to]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['thinkhw,']

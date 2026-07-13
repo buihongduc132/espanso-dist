@@ -1,0 +1,52 @@
+# ⚠️  WARNING: AUTO-GENERATED FILE - DO NOT EDIT DIRECTLY!
+# This file is generated from word_version by:
+#   scripts/convert_to_tokenized_word_version.py
+# Edit source in space_version and re-run conversions.
+# Tokenizes trailing spaces in triggers to an explicit token.
+# Removes right_word property for tokenized version.
+# Adds trailing space to replacements that don't have one.
+# Current token: ','
+
+name: word-families-add-remove
+parent: default
+matches:
+- replace: 'add / remove '
+  _tags: [verb, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['+_,']
+- replace: 'add / remove the '
+  _tags: [verb, article, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['+_h,']
+- replace: 'add / remove this '
+  _tags: [verb, demonstrative, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['+_iz,']
+- replace: 'add / remove that '
+  _tags: [verb, demonstrative, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['+_az,']
+- replace: 'add / remove these '
+  _tags: [verb, demonstrative, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['+_ez,']
+- replace: 'add / remove those '
+  _tags: [verb, demonstrative, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['+_oz,']
+- replace: 'added / removed '
+  _tags: [verb, ed, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['+_p,']
+- replace: 'adding / removing '
+  _tags: [verb, ing, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['+_i,']

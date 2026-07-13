@@ -1,0 +1,107 @@
+# ⚠️  WARNING: AUTO-GENERATED FILE - DO NOT EDIT DIRECTLY!
+# This file is generated from word_version by:
+#   scripts/convert_to_tokenized_word_version.py
+# Edit source in space_version and re-run conversions.
+# Tokenizes trailing spaces in triggers to an explicit token.
+# Removes right_word property for tokenized version.
+# Adds trailing space to replacements that don't have one.
+# Current token: ','
+
+name: exx_self
+parent: default
+matches:
+- replace: 'self '
+  _tags: [to, can, else, pronoun]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['sf,']
+- replace: 'selfs '
+  _tags: [to, can, else, pronoun]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['sfs,']
+- replace: 'selfing '
+  _tags: [ing, to, can, else, pronoun]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['sfi,']
+- replace: 'selfed '
+  _tags: [ed, would, to, can, else, pronoun]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['sfp,']
+- replace: 'self this '
+  _tags: [demonstrative, to, can, else, pronoun]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['sfiz,']
+- replace: 'self that '
+  _tags: [demonstrative, to, can, else, pronoun]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['sfaz,']
+- replace: 'self these '
+  _tags: [demonstrative, to, can, else, pronoun]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['sfez,']
+- replace: 'self those '
+  _tags: [demonstrative, to, can, else, pronoun]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['sfoz,']
+- replace: 'be self '
+  _tags: [to, can, else, pronoun, be]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['bsf,']
+- replace: 'is self '
+  _tags: [to, can, else, pronoun, be]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['bsfs,']
+- replace: 'was self '
+  _tags: [to, can, else, pronoun, be]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['bsfp,']
+- replace: 'not self '
+  _tags: [negate, to, can, else, pronoun]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['nsf,']
+- replace: 'is not self '
+  _tags: [negate, to, can, else, pronoun, be]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['nsfs,']
+- replace: 'have self '
+  _tags: [to, can, have, else, pronoun]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['hsf,']
+- replace: 'has self '
+  _tags: [to, can, have, else, pronoun]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['hsfs,']
+- replace: 'what self '
+  _tags: [question, to, can, else, pronoun]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['wtsf,']
+- replace: 'where self '
+  _tags: [question, to, can, else, pronoun]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['wrsf,']
+- replace: 'when self '
+  _tags: [question, to, can, else, pronoun]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['wnsf,']
+- replace: 'why self '
+  _tags: [question, to, can, else, pronoun]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['wysf,']

@@ -1,0 +1,57 @@
+# ⚠️  WARNING: AUTO-GENERATED FILE - DO NOT EDIT DIRECTLY!
+# This file is generated from word_version by:
+#   scripts/convert_to_tokenized_word_version.py
+# Edit source in space_version and re-run conversions.
+# Tokenizes trailing spaces in triggers to an explicit token.
+# Removes right_word property for tokenized version.
+# Adds trailing space to replacements that don't have one.
+# Current token: ','
+
+name: word-family-protocol
+parent: default
+matches:
+- replace: 'protocol '
+  _tags: [noun, to, can, else, pronoun]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['pwot,']
+- replace: 'protocols '
+  _tags: [noun, to, can, else, pronoun]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['pwots,']
+- replace: 'protocolling '
+  _tags: [verb, ing, to, can, pronoun, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['pwoti,']
+- replace: 'protocolled '
+  _tags: [verb, ed, would, to, can, else, pronoun]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['pwotp,']
+- replace: 'protocollist '
+  _tags: [noun, to, can, else, pronoun]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['pwotw,']
+- replace: 'protocolable '
+  _tags: [adjective, to, can, else, pronoun]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['pwotb,']
+- replace: 'protocol to the '
+  _tags: [phrase, to, can, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['pwot2h,']
+- replace: 'this protocol '
+  _tags: [phrase, to, can, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['pwotiz,']
+- replace: 'that protocol '
+  _tags: [phrase, to, can, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['pwotaz,']

@@ -1,0 +1,117 @@
+# ⚠️  WARNING: AUTO-GENERATED FILE - DO NOT EDIT DIRECTLY!
+# This file is generated from word_version by:
+#   scripts/convert_to_tokenized_word_version.py
+# Edit source in space_version and re-run conversions.
+# Tokenizes trailing spaces in triggers to an explicit token.
+# Removes right_word property for tokenized version.
+# Adds trailing space to replacements that don't have one.
+# Current token: ','
+
+name: word-families-regression
+parent: default
+matches:
+- replace: 'regress '
+  _tags: [verb, to, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['wegg,']
+- replace: 'regresses '
+  _tags: [verb, to, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['weggs,']
+- replace: 'regressing '
+  _tags: [ing, to, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['weggi,']
+- replace: 'regressed '
+  _tags: [ed, would, to, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['weggp,']
+- replace: 'regressor '
+  _tags: [noun, to, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['weggw,']
+- replace: 'regressors '
+  _tags: [noun, to, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['weggws,']
+- replace: 'regression '
+  _tags: [noun, to, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['weggm,']
+- replace: 'regressions '
+  _tags: [noun, to, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['weggms,']
+- replace: 'regressable '
+  _tags: [adjective, to, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['weggb,']
+- replace: 'regressably '
+  _tags: [adverb, to, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['weggbl,']
+- replace: 'regress this '
+  _tags: [verb, demonstrative, to, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['weggiz,']
+- replace: 'regress that '
+  _tags: [verb, demonstrative, to, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['weggaz,']
+- replace: 'regress these '
+  _tags: [verb, demonstrative, to, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['weggez,']
+- replace: 'regress those '
+  _tags: [verb, demonstrative, to, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['weggoz,']
+- replace: 'what regress '
+  _tags: [question, to, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['wtwegg,']
+- replace: 'where regress '
+  _tags: [question, to, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['wrewegg,']
+- replace: 'when regress '
+  _tags: [question, to, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['wnwegg,']
+- replace: 'why regress '
+  _tags: [question, to, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['wywegg,']
+- replace: 'how regress '
+  _tags: [question, to, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['hwwegg,']
+- replace: 'regression bug '
+  _tags: [noun, to, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['weggbug,']
+- replace: 'regression bugs '
+  _tags: [noun, plural, to, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['weggbugs,']

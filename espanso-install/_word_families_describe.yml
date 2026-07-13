@@ -1,0 +1,152 @@
+# ⚠️  WARNING: AUTO-GENERATED FILE - DO NOT EDIT DIRECTLY!
+# This file is generated from word_version by:
+#   scripts/convert_to_tokenized_word_version.py
+# Edit source in space_version and re-run conversions.
+# Tokenizes trailing spaces in triggers to an explicit token.
+# Removes right_word property for tokenized version.
+# Adds trailing space to replacements that don't have one.
+# Current token: ','
+
+name: word-families-describe
+parent: default
+matches:
+- replace: 'describe '
+  _tags: [to, can, else, verb]
+  allow_duplicate: true
+  propagate_case: true
+  triggers: ['des,']
+- replace: 'describes '
+  _tags: [to, can, else, verb]
+  allow_duplicate: true
+  propagate_case: true
+  triggers: ['dess,']
+- replace: 'describing '
+  _tags: [ing, to, can, else, verb, pronoun]
+  allow_duplicate: true
+  propagate_case: true
+  triggers: ['desi,']
+- replace: 'described '
+  _tags: [ed, would, to, can, else, verb]
+  allow_duplicate: true
+  propagate_case: true
+  triggers: ['desp,']
+- replace: 'description '
+  _tags: [noun, to, can, else]
+  allow_duplicate: true
+  propagate_case: true
+  triggers: ['desm,']
+- replace: 'descriptions '
+  _tags: [noun, to, can, else]
+  allow_duplicate: true
+  propagate_case: true
+  triggers: ['desms,']
+- replace: 'describer '
+  _tags: [noun, to, can, else]
+  allow_duplicate: true
+  propagate_case: true
+  triggers: ['desw,']
+- replace: 'descriptive '
+  _tags: [adjective, to, can, else]
+  allow_duplicate: true
+  propagate_case: true
+  triggers: ['desj,']
+- replace: 'descriptively '
+  _tags: [adjective, to, can, else]
+  allow_duplicate: true
+  propagate_case: true
+  triggers: ['desjl,']
+- replace: 'descriptiveness '
+  _tags: [noun, adjective, to, can, else]
+  allow_duplicate: true
+  propagate_case: true
+  triggers: ['desjm,']
+- replace: 'indescribable '
+  _tags: [negate, adjective, to, can, else]
+  allow_duplicate: true
+  propagate_case: true
+  triggers: ['ides,']
+- replace: 'indescribably '
+  _tags: [negate, adjective, to, can, else]
+  allow_duplicate: true
+  propagate_case: true
+  triggers: ['idesl,']
+- replace: 'indescribability '
+  _tags: [negate, noun, adjective, to, can, else]
+  allow_duplicate: true
+  propagate_case: true
+  triggers: ['idesm,']
+- replace: 'misdescribe '
+  _tags: [negate, to, can, else, verb]
+  allow_duplicate: true
+  propagate_case: true
+  triggers: ['mides,']
+- replace: 'misdescribes '
+  _tags: [negate, to, can, else, verb]
+  allow_duplicate: true
+  propagate_case: true
+  triggers: ['midess,']
+- replace: 'misdescribing '
+  _tags: [negate, ing, to, can, else, verb, pronoun]
+  allow_duplicate: true
+  propagate_case: true
+  triggers: ['midesi,']
+- replace: 'misdescribed '
+  _tags: [negate, ed, would, to, can, else, verb]
+  allow_duplicate: true
+  propagate_case: true
+  triggers: ['midesp,']
+- replace: 'misdescription '
+  _tags: [negate, noun, to, can, else]
+  allow_duplicate: true
+  propagate_case: true
+  triggers: ['midesm,']
+- replace: 'overdescribe '
+  _tags: [to, can, else, verb]
+  allow_duplicate: true
+  propagate_case: true
+  triggers: ['odes,']
+- replace: 'overdescribes '
+  _tags: [to, can, else, verb]
+  allow_duplicate: true
+  propagate_case: true
+  triggers: ['odess,']
+- replace: 'overdescribing '
+  _tags: [ing, to, can, else, verb, pronoun]
+  allow_duplicate: true
+  propagate_case: true
+  triggers: ['odesi,']
+- replace: 'overdescribed '
+  _tags: [ed, would, to, can, else, verb]
+  allow_duplicate: true
+  propagate_case: true
+  triggers: ['odesp,']
+- replace: 'overdescription '
+  _tags: [noun, to, can, else]
+  allow_duplicate: true
+  propagate_case: true
+  triggers: ['odesm,']
+- replace: 'underdescribe '
+  _tags: [negate, to, can, else, verb]
+  allow_duplicate: true
+  propagate_case: true
+  triggers: ['udes,']
+- replace: 'underdescribes '
+  _tags: [negate, to, can, else, verb]
+  allow_duplicate: true
+  propagate_case: true
+  triggers: ['udess,']
+- replace: 'underdescribing '
+  _tags: [negate, ing, to, can, else, verb, pronoun]
+  allow_duplicate: true
+  propagate_case: true
+  triggers: ['udesi,']
+- replace: 'underdescribed '
+  _tags: [negate, ed, would, to, can, else, verb]
+  allow_duplicate: true
+  propagate_case: true
+  triggers: ['udesp,']
+- replace: 'underdescription '
+  _tags: [negate, noun, to, can, else]
+  allow_duplicate: true
+  propagate_case: true
+  triggers: ['udesm,']

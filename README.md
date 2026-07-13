@@ -96,18 +96,32 @@ Then: `mise run espanso-sync`
 
 ```
 ~/.config/espanso/
+├── conf/match/                  # empty (mirrors source-machine layout)
 ├── config/
 │   └── default.yml              # espanso runtime config (keyboard, includes, backend)
+├── deployed-version.json        # build metadata (version + timestamp)
+├── espanso-install/             # iOS export / legacy format (290+ files)
+│   └── *.yml
 ├── match/
 │   ├── _word_families_*.yml     # word family triggers
 │   ├── _exx_*.yml               # super-extended family triggers
 │   ├── _phrases*.yml            # phrase triggers
 │   ├── _1char.yml               # single-char foundations
+│   ├── packages/                # empty (mirrors source-machine layout)
 │   └── ...                      # 340+ match files, 15,000+ triggers
 ├── espanso-dist-clone/          # cached clone of this repo (for --update)
 ├── install.sh                   # saved installer for self-update
 └── .trigger-pack-version        # installed version stamp
 ```
+
+## OS-Specific Paths
+
+| OS      | Config directory                                          |
+| ------- | -------------------------------------------------------- |
+| Linux   | `~/.config/espanso/`                                      |
+| macOS   | `~/Library/Application Support/espanso/`                  |
+| Windows | `%APPDATA%\espanso\` (i.e. `~\AppData\Roaming\espanso\`) |
+
 
 ## License
 

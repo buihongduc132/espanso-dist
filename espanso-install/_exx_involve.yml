@@ -1,0 +1,107 @@
+# ⚠️  WARNING: AUTO-GENERATED FILE - DO NOT EDIT DIRECTLY!
+# This file is generated from word_version by:
+#   scripts/convert_to_tokenized_word_version.py
+# Edit source in space_version and re-run conversions.
+# Tokenizes trailing spaces in triggers to an explicit token.
+# Removes right_word property for tokenized version.
+# Adds trailing space to replacements that don't have one.
+# Current token: ','
+
+name: exx_involve
+parent: default
+matches:
+- replace: 'involve '
+  _tags: [to, can, else, verb]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['finvo,']
+- replace: 'involves '
+  _tags: [to, can, else, verb]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['finvos,']
+- replace: 'involving '
+  _tags: [ing, to, can, else, verb]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['finvoi,']
+- replace: 'involved '
+  _tags: [ed, would, to, can, else, verb]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['finvop,']
+- replace: 'involve this '
+  _tags: [demonstrative, to, can, else, verb]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['finvoiz,']
+- replace: 'involve that '
+  _tags: [demonstrative, to, can, else, verb]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['finvoaz,']
+- replace: 'involve these '
+  _tags: [demonstrative, to, can, else, verb]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['finvoez,']
+- replace: 'involve those '
+  _tags: [demonstrative, to, can, else, verb]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['finvooz,']
+- replace: 'be involve '
+  _tags: [to, can, be, verb]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['binvo,']
+- replace: 'is involve '
+  _tags: [to, can, be, verb]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['binvos,']
+- replace: 'was involve '
+  _tags: [to, can, be, verb]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['binvop,']
+- replace: 'not involve '
+  _tags: [negate, to, can, verb]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['ninvo,']
+- replace: 'is not involve '
+  _tags: [negate, to, can, be, verb]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['ninvos,']
+- replace: 'have involve '
+  _tags: [to, can, have, verb]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['hinvo,']
+- replace: 'has involve '
+  _tags: [to, can, have, verb]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['hinvos,']
+- replace: 'what involve '
+  _tags: [question, to, can, verb]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['wtinvo,']
+- replace: 'where involve '
+  _tags: [question, to, can, verb]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['wrinvo,']
+- replace: 'when involve '
+  _tags: [question, to, can, verb]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['wninvo,']
+- replace: 'why involve '
+  _tags: [question, to, can, verb]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['wyinvo,']

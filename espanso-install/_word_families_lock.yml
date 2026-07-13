@@ -1,0 +1,77 @@
+# ⚠️  WARNING: AUTO-GENERATED FILE - DO NOT EDIT DIRECTLY!
+# This file is generated from word_version by:
+#   scripts/convert_to_tokenized_word_version.py
+# Edit source in space_version and re-run conversions.
+# Tokenizes trailing spaces in triggers to an explicit token.
+# Removes right_word property for tokenized version.
+# Adds trailing space to replacements that don't have one.
+# Current token: ','
+
+name: word-family-lock
+parent: default
+matches:
+- replace: 'lock '
+  _tags: [noun, to, can, else, pronoun]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['lok,']
+- replace: 'locks '
+  _tags: [noun, to, can, else, pronoun]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['loks,']
+- replace: 'locking '
+  _tags: [verb, ing, to, can, pronoun, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['loki,']
+- replace: 'locked '
+  _tags: [verb, ed, would, to, can, else, pronoun]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['lokp,']
+- replace: 'locker '
+  _tags: [noun, to, can, else, pronoun]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['lokw,']
+- replace: 'lockable '
+  _tags: [adjective, to, can, else, pronoun]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['lokb,']
+- replace: 'lock to the '
+  _tags: [phrase, to, can, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['lok2h,']
+- replace: 'this lock '
+  _tags: [phrase, to, can, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['lokiz,']
+- replace: 'that lock '
+  _tags: [phrase, to, can, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['lokaz,']
+- replace: 'unlock '
+  _tags: [verb, to, can, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['ulok,']
+- replace: 'unlocking '
+  _tags: [verb, ing, to, can, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['uloki,']
+- replace: 'unlocked '
+  _tags: [verb, ed, would, to, can, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['ulokp,']
+- replace: 'unlocks '
+  _tags: [verb, to, can, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['uloks,']

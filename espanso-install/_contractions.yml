@@ -1,0 +1,77 @@
+# ⚠️  WARNING: AUTO-GENERATED FILE - DO NOT EDIT DIRECTLY!
+# This file is generated from word_version by:
+#   scripts/convert_to_tokenized_word_version.py
+# Edit source in space_version and re-run conversions.
+# Tokenizes trailing spaces in triggers to an explicit token.
+# Removes right_word property for tokenized version.
+# Adds trailing space to replacements that don't have one.
+# Current token: ','
+
+name: contractions
+parent: default
+matches:
+- replace: 'you '
+  _tags: [pronoun, else]
+  allow_duplicate: false
+  triggers: ['y,']
+- replace: 'you are '
+  _tags: [pronoun, else, be]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['yaa,']
+- replace: 'you are not '
+  _tags: [pronoun, to, negate, be, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['yaam,']
+- replace: 'are not '
+  _tags: [negate, to, else, be]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['am,']
+- replace: 'was not '
+  _tags: [negate, will, to, be]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['wasm,']
+- replace: 'were not '
+  _tags: [pronoun, will, negate, to, be, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['wewm,']
+- replace: 'has not '
+  _tags: [have, negate, to, the]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['hasm,']
+- replace: 'have not '
+  _tags: [the, negate, to, else, have]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['hajm,']
+- replace: 'had not '
+  _tags: [the, negate, to, would, have]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['hadn,']
+- replace: 'haven''t '
+  _tags: [have, negate, to, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['han,']
+- replace: 'they''ll '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['ey''ll,']
+- replace: 'they''ve '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['ey''ve,']
+- replace: 'they''d '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['ey''d,']
+- replace: 'they''re '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['ey''re,']

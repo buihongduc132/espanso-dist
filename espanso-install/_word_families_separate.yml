@@ -1,0 +1,71 @@
+# ⚠️  WARNING: AUTO-GENERATED FILE - DO NOT EDIT DIRECTLY!
+# This file is generated from word_version by:
+#   scripts/convert_to_tokenized_word_version.py
+# Edit source in space_version and re-run conversions.
+# Tokenizes trailing spaces in triggers to an explicit token.
+# Removes right_word property for tokenized version.
+# Adds trailing space to replacements that don't have one.
+# Current token: ','
+
+name: word-families-separate
+parent: default
+matches:
+- replace: 'separate '
+  _tags: [verb]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['sep,']
+- replace: 'separates '
+  _tags: [verb]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['seps,']
+- replace: 'separating '
+  _tags: [verb, ing]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['sepi,']
+- replace: 'separated '
+  _tags: [verb, ed]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['sepp,']
+- replace: 'separate '
+  _tags: [adjective]
+  allow_duplicate: true
+  propagate_case: true
+  triggers: ['sepj,']
+- replace: 'separately '
+  _tags: [adverb, to, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['sepl,']
+- replace: 'separation '
+  _tags: [noun, to, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['sepm,']
+- replace: 'separator '
+  _tags: [noun, to, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['sepmw,']
+- replace: 'separable '
+  _tags: [adjective, to, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['sepb,']
+- replace: 'separably '
+  _tags: [adverb, to, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['sepbl,']
+- replace: 'separability '
+  _tags: [noun, to, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['sepbm,']
+- replace: 'separator '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['sepmo,']

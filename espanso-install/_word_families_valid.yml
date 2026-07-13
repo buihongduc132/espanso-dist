@@ -1,0 +1,527 @@
+# ⚠️  WARNING: AUTO-GENERATED FILE - DO NOT EDIT DIRECTLY!
+# This file is generated from word_version by:
+#   scripts/convert_to_tokenized_word_version.py
+# Edit source in space_version and re-run conversions.
+# Tokenizes trailing spaces in triggers to an explicit token.
+# Removes right_word property for tokenized version.
+# Adds trailing space to replacements that don't have one.
+# Current token: ','
+
+name: word-families-valid
+parent: default
+matches:
+- replace: 'valid '
+  _tags: [adjective, to, can, else]
+  allow_duplicate: true
+  propagate_case: true
+  triggers: ['jai,']
+- replace: 'validate '
+  _tags: [verb, to, can, else]
+  allow_duplicate: true
+  propagate_case: true
+  triggers: ['jaie,']
+- replace: 'valids '
+  _tags: [adjective, noun, to, can, else]
+  allow_duplicate: true
+  propagate_case: true
+  triggers: ['jais,']
+- replace: 'validly '
+  _tags: [adjective, to, can, else]
+  allow_duplicate: true
+  propagate_case: true
+  triggers: ['jail,']
+- replace: 'validating '
+  _tags: [ing, adjective, to, can, else]
+  allow_duplicate: true
+  propagate_case: true
+  triggers: ['jaii,']
+- replace: 'validated '
+  _tags: [ed, would, adjective, to, can, else]
+  allow_duplicate: true
+  propagate_case: true
+  triggers: ['jaip,']
+- replace: 'validation '
+  _tags: [noun, adjective, to, can, else]
+  allow_duplicate: true
+  propagate_case: true
+  triggers: ['jaim,']
+- replace: 'validator '
+  _tags: [noun, adjective, to, can, else]
+  allow_duplicate: true
+  propagate_case: true
+  triggers: ['jaiw,']
+- replace: 'validatable '
+  _tags: [adjective, to, can, else]
+  allow_duplicate: true
+  propagate_case: true
+  triggers: ['jaib,']
+- replace: 'validatably '
+  _tags: [adjective, to, can, else]
+  allow_duplicate: true
+  propagate_case: true
+  triggers: ['jaibl,']
+- replace: 'validatability '
+  _tags: [noun, adjective, to, can, else]
+  allow_duplicate: true
+  propagate_case: true
+  triggers: ['jaibm,']
+- replace: 'this valid '
+  _tags: [adjective, th, to, can, else]
+  allow_duplicate: true
+  propagate_case: true
+  triggers: ['izjai,']
+- replace: 'this validate '
+  _tags: [verb, th, to, can, else]
+  allow_duplicate: true
+  propagate_case: true
+  triggers: ['izjaie,']
+- replace: 'this valids '
+  _tags: [adjective, noun, th, to, can, else]
+  allow_duplicate: true
+  propagate_case: true
+  triggers: ['izjais,']
+- replace: 'this validly '
+  _tags: [adjective, th, to, can, else]
+  allow_duplicate: true
+  propagate_case: true
+  triggers: ['izjail,']
+- replace: 'this validating '
+  _tags: [ing, adjective, th, to, can, else]
+  allow_duplicate: true
+  propagate_case: true
+  triggers: ['izjaii,']
+- replace: 'this validated '
+  _tags: [ed, would, adjective, th, to, can, else]
+  allow_duplicate: true
+  propagate_case: true
+  triggers: ['izjaip,']
+- replace: 'this validation '
+  _tags: [noun, adjective, th, to, can, else]
+  allow_duplicate: true
+  propagate_case: true
+  triggers: ['izjaim,']
+- replace: 'this validator '
+  _tags: [noun, adjective, th, to, can, else]
+  allow_duplicate: true
+  propagate_case: true
+  triggers: ['izjaiw,']
+- replace: 'this validatable '
+  _tags: [adjective, th, to, can, else]
+  allow_duplicate: true
+  propagate_case: true
+  triggers: ['izjaib,']
+- replace: 'this validatably '
+  _tags: [adjective, th, to, can, else]
+  allow_duplicate: true
+  propagate_case: true
+  triggers: ['izjaibl,']
+- replace: 'this validatability '
+  _tags: [noun, adjective, th, to, can, else]
+  allow_duplicate: true
+  propagate_case: true
+  triggers: ['izjaibm,']
+- replace: 'that valid '
+  _tags: [adjective, th, to, can, else]
+  allow_duplicate: true
+  propagate_case: true
+  triggers: ['azjai,']
+- replace: 'that validate '
+  _tags: [verb, th, to, can, else]
+  allow_duplicate: true
+  propagate_case: true
+  triggers: ['azjaie,']
+- replace: 'that valids '
+  _tags: [adjective, noun, th, to, can, else]
+  allow_duplicate: true
+  propagate_case: true
+  triggers: ['azjais,']
+- replace: 'that validly '
+  _tags: [adjective, th, to, can, else]
+  allow_duplicate: true
+  propagate_case: true
+  triggers: ['azjail,']
+- replace: 'that validating '
+  _tags: [ing, adjective, th, to, can, else]
+  allow_duplicate: true
+  propagate_case: true
+  triggers: ['azjaii,']
+- replace: 'that validated '
+  _tags: [ed, would, adjective, th, to, can, else]
+  allow_duplicate: true
+  propagate_case: true
+  triggers: ['azjaip,']
+- replace: 'that validation '
+  _tags: [noun, adjective, th, to, can, else]
+  allow_duplicate: true
+  propagate_case: true
+  triggers: ['azjaim,']
+- replace: 'that validator '
+  _tags: [noun, adjective, th, to, can, else]
+  allow_duplicate: true
+  propagate_case: true
+  triggers: ['azjaiw,']
+- replace: 'that validatable '
+  _tags: [adjective, th, to, can, else]
+  allow_duplicate: true
+  propagate_case: true
+  triggers: ['azjaib,']
+- replace: 'that validatably '
+  _tags: [adjective, th, to, can, else]
+  allow_duplicate: true
+  propagate_case: true
+  triggers: ['azjaibl,']
+- replace: 'that validatability '
+  _tags: [noun, adjective, th, to, can, else]
+  allow_duplicate: true
+  propagate_case: true
+  triggers: ['azjaibm,']
+- replace: 'these valid '
+  _tags: [adjective, th, to, can, else]
+  allow_duplicate: true
+  propagate_case: true
+  triggers: ['ezjai,']
+- replace: 'these validate '
+  _tags: [verb, th, to, can, else]
+  allow_duplicate: true
+  propagate_case: true
+  triggers: ['ezjaie,']
+- replace: 'these valids '
+  _tags: [adjective, noun, th, to, can, else]
+  allow_duplicate: true
+  propagate_case: true
+  triggers: ['ezjais,']
+- replace: 'these validly '
+  _tags: [adjective, th, to, can, else]
+  allow_duplicate: true
+  propagate_case: true
+  triggers: ['ezjail,']
+- replace: 'these validating '
+  _tags: [ing, adjective, th, to, can, else]
+  allow_duplicate: true
+  propagate_case: true
+  triggers: ['ezjaii,']
+- replace: 'these validated '
+  _tags: [ed, would, adjective, th, to, can, else]
+  allow_duplicate: true
+  propagate_case: true
+  triggers: ['ezjaip,']
+- replace: 'these validation '
+  _tags: [noun, adjective, th, to, can, else]
+  allow_duplicate: true
+  propagate_case: true
+  triggers: ['ezjaim,']
+- replace: 'these validator '
+  _tags: [noun, adjective, th, to, can, else]
+  allow_duplicate: true
+  propagate_case: true
+  triggers: ['ezjaiw,']
+- replace: 'these validatable '
+  _tags: [adjective, th, to, can, else]
+  allow_duplicate: true
+  propagate_case: true
+  triggers: ['ezjaib,']
+- replace: 'these validatably '
+  _tags: [adjective, th, to, can, else]
+  allow_duplicate: true
+  propagate_case: true
+  triggers: ['ezjaibl,']
+- replace: 'these validatability '
+  _tags: [noun, adjective, th, to, can, else]
+  allow_duplicate: true
+  propagate_case: true
+  triggers: ['ezjaibm,']
+- replace: 'those valid '
+  _tags: [adjective, th, to, can, else]
+  allow_duplicate: true
+  propagate_case: true
+  triggers: ['ozjai,']
+- replace: 'those validate '
+  _tags: [verb, th, to, can, else]
+  allow_duplicate: true
+  propagate_case: true
+  triggers: ['ozjaie,']
+- replace: 'those valids '
+  _tags: [adjective, noun, th, to, can, else]
+  allow_duplicate: true
+  propagate_case: true
+  triggers: ['ozjais,']
+- replace: 'those validly '
+  _tags: [adjective, th, to, can, else]
+  allow_duplicate: true
+  propagate_case: true
+  triggers: ['ozjail,']
+- replace: 'those validating '
+  _tags: [ing, adjective, th, to, can, else]
+  allow_duplicate: true
+  propagate_case: true
+  triggers: ['ozjaii,']
+- replace: 'those validated '
+  _tags: [ed, would, adjective, th, to, can, else]
+  allow_duplicate: true
+  propagate_case: true
+  triggers: ['ozjaip,']
+- replace: 'those validation '
+  _tags: [noun, adjective, th, to, can, else]
+  allow_duplicate: true
+  propagate_case: true
+  triggers: ['ozjaim,']
+- replace: 'those validator '
+  _tags: [noun, adjective, th, to, can, else]
+  allow_duplicate: true
+  propagate_case: true
+  triggers: ['ozjaiw,']
+- replace: 'those validatable '
+  _tags: [adjective, th, to, can, else]
+  allow_duplicate: true
+  propagate_case: true
+  triggers: ['ozjaib,']
+- replace: 'those validatably '
+  _tags: [adjective, th, to, can, else]
+  allow_duplicate: true
+  propagate_case: true
+  triggers: ['ozjaibl,']
+- replace: 'those validatability '
+  _tags: [noun, adjective, th, to, can, else]
+  allow_duplicate: true
+  propagate_case: true
+  triggers: ['ozjaibm,']
+- replace: 'invalid '
+  _tags: [negate, adjective, to, can, else]
+  allow_duplicate: true
+  propagate_case: true
+  triggers: ['ijai,']
+- replace: 'invalidate '
+  _tags: [negate, verb, to, can, else]
+  allow_duplicate: true
+  propagate_case: true
+  triggers: ['ijaie,']
+- replace: 'invalids '
+  _tags: [negate, adjective, noun, to, can, else]
+  allow_duplicate: true
+  propagate_case: true
+  triggers: ['ijais,']
+- replace: 'invalidly '
+  _tags: [negate, adjective, to, can, else]
+  allow_duplicate: true
+  propagate_case: true
+  triggers: ['ijail,']
+- replace: 'invalidating '
+  _tags: [negate, ing, adjective, to, can, else]
+  allow_duplicate: true
+  propagate_case: true
+  triggers: ['ijaii,']
+- replace: 'invalidated '
+  _tags: [negate, ed, would, adjective, to, can, else]
+  allow_duplicate: true
+  propagate_case: true
+  triggers: ['ijaip,']
+- replace: 'invalidation '
+  _tags: [negate, noun, adjective, to, can, else]
+  allow_duplicate: true
+  propagate_case: true
+  triggers: ['ijaim,']
+- replace: 'invalidator '
+  _tags: [negate, noun, adjective, to, can, else]
+  allow_duplicate: true
+  propagate_case: true
+  triggers: ['ijaiw,']
+- replace: 'this invalid '
+  _tags: [negate, adjective, th, to, can, else]
+  allow_duplicate: true
+  propagate_case: true
+  triggers: ['izijai,']
+- replace: 'this invalidate '
+  _tags: [negate, verb, th, to, can, else]
+  allow_duplicate: true
+  propagate_case: true
+  triggers: ['izijaie,']
+- replace: 'this invalids '
+  _tags: [negate, adjective, noun, th, to, can, else]
+  allow_duplicate: true
+  propagate_case: true
+  triggers: ['izijais,']
+- replace: 'this invalidly '
+  _tags: [negate, adjective, th, to, can, else]
+  allow_duplicate: true
+  propagate_case: true
+  triggers: ['izijail,']
+- replace: 'this invalidating '
+  _tags: [negate, ing, adjective, th, to, can, else]
+  allow_duplicate: true
+  propagate_case: true
+  triggers: ['izijaii,']
+- replace: 'this invalidated '
+  _tags: [negate, ed, would, adjective, th, to, can, else]
+  allow_duplicate: true
+  propagate_case: true
+  triggers: ['izijaip,']
+- replace: 'this invalidation '
+  _tags: [negate, noun, adjective, th, to, can, else]
+  allow_duplicate: true
+  propagate_case: true
+  triggers: ['izijaim,']
+- replace: 'this invalidator '
+  _tags: [negate, noun, adjective, th, to, can, else]
+  allow_duplicate: true
+  propagate_case: true
+  triggers: ['izijaiw,']
+- replace: 'that invalid '
+  _tags: [negate, adjective, th, to, can, else]
+  allow_duplicate: true
+  propagate_case: true
+  triggers: ['azijai,']
+- replace: 'that invalidate '
+  _tags: [negate, verb, th, to, can, else]
+  allow_duplicate: true
+  propagate_case: true
+  triggers: ['azijaie,']
+- replace: 'that invalids '
+  _tags: [negate, adjective, noun, th, to, can, else]
+  allow_duplicate: true
+  propagate_case: true
+  triggers: ['azijais,']
+- replace: 'that invalidly '
+  _tags: [negate, adjective, th, to, can, else]
+  allow_duplicate: true
+  propagate_case: true
+  triggers: ['azijail,']
+- replace: 'that invalidating '
+  _tags: [negate, ing, adjective, th, to, can, else]
+  allow_duplicate: true
+  propagate_case: true
+  triggers: ['azijaii,']
+- replace: 'that invalidated '
+  _tags: [negate, ed, would, adjective, th, to, can, else]
+  allow_duplicate: true
+  propagate_case: true
+  triggers: ['azijaip,']
+- replace: 'that invalidation '
+  _tags: [negate, noun, adjective, th, to, can, else]
+  allow_duplicate: true
+  propagate_case: true
+  triggers: ['azijaim,']
+- replace: 'that invalidator '
+  _tags: [negate, noun, adjective, th, to, can, else]
+  allow_duplicate: true
+  propagate_case: true
+  triggers: ['azijaiw,']
+- replace: 'these invalid '
+  _tags: [negate, adjective, th, to, can, else]
+  allow_duplicate: true
+  propagate_case: true
+  triggers: ['ezijai,']
+- replace: 'these invalidate '
+  _tags: [negate, verb, th, to, can, else]
+  allow_duplicate: true
+  propagate_case: true
+  triggers: ['ezijaie,']
+- replace: 'these invalids '
+  _tags: [negate, adjective, noun, th, to, can, else]
+  allow_duplicate: true
+  propagate_case: true
+  triggers: ['ezijais,']
+- replace: 'these invalidly '
+  _tags: [negate, adjective, th, to, can, else]
+  allow_duplicate: true
+  propagate_case: true
+  triggers: ['ezijail,']
+- replace: 'these invalidating '
+  _tags: [negate, ing, adjective, th, to, can, else]
+  allow_duplicate: true
+  propagate_case: true
+  triggers: ['ezijaii,']
+- replace: 'these invalidated '
+  _tags: [negate, ed, would, adjective, th, to, can, else]
+  allow_duplicate: true
+  propagate_case: true
+  triggers: ['ezijaip,']
+- replace: 'these invalidation '
+  _tags: [negate, noun, adjective, th, to, can, else]
+  allow_duplicate: true
+  propagate_case: true
+  triggers: ['ezijaim,']
+- replace: 'these invalidator '
+  _tags: [negate, noun, adjective, th, to, can, else]
+  allow_duplicate: true
+  propagate_case: true
+  triggers: ['ezijaiw,']
+- replace: 'those invalid '
+  _tags: [negate, adjective, th, to, can, else]
+  allow_duplicate: true
+  propagate_case: true
+  triggers: ['ozijai,']
+- replace: 'those invalidate '
+  _tags: [negate, verb, th, to, can, else]
+  allow_duplicate: true
+  propagate_case: true
+  triggers: ['ozijaie,']
+- replace: 'those invalids '
+  _tags: [negate, adjective, noun, th, to, can, else]
+  allow_duplicate: true
+  propagate_case: true
+  triggers: ['ozijais,']
+- replace: 'those invalidly '
+  _tags: [negate, adjective, th, to, can, else]
+  allow_duplicate: true
+  propagate_case: true
+  triggers: ['ozijail,']
+- replace: 'those invalidating '
+  _tags: [negate, ing, adjective, th, to, can, else]
+  allow_duplicate: true
+  propagate_case: true
+  triggers: ['ozijaii,']
+- replace: 'those invalidated '
+  _tags: [negate, ed, would, adjective, th, to, can, else]
+  allow_duplicate: true
+  propagate_case: true
+  triggers: ['ozijaip,']
+- replace: 'those invalidation '
+  _tags: [negate, noun, adjective, th, to, can, else]
+  allow_duplicate: true
+  propagate_case: true
+  triggers: ['ozijaim,']
+- replace: 'those invalidator '
+  _tags: [negate, noun, adjective, th, to, can, else]
+  allow_duplicate: true
+  propagate_case: true
+  triggers: ['ozijaiw,']
+- replace: 'validator '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['jaio,']
+- replace: 'this validator '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['izjaio,']
+- replace: 'that validator '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['azjaio,']
+- replace: 'these validator '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['ezjaio,']
+- replace: 'those validator '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['ozjaio,']
+- replace: 'invalidator '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['ijaio,']
+- replace: 'this invalidator '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['izijaio,']
+- replace: 'that invalidator '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['azijaio,']
+- replace: 'these invalidator '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['ezijaio,']
+- replace: 'those invalidator '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['ozijaio,']

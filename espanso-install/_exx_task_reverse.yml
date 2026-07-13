@@ -1,0 +1,105 @@
+# ⚠️  WARNING: AUTO-GENERATED FILE - DO NOT EDIT DIRECTLY!
+# This file is generated from word_version by:
+#   scripts/convert_to_tokenized_word_version.py
+# Edit source in space_version and re-run conversions.
+# Tokenizes trailing spaces in triggers to an explicit token.
+# Removes right_word property for tokenized version.
+# Adds trailing space to replacements that don't have one.
+# Current token: ','
+
+matches:
+- replace: 'this task '
+  _tags: [demonstrative, can, pronoun, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['izsk,']
+- replace: 'that task '
+  _tags: [demonstrative, can, pronoun, else, have]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['azsk,']
+- replace: 'these task '
+  _tags: [demonstrative, can, pronoun, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['ezsk,']
+- replace: 'those task '
+  _tags: [demonstrative, can, pronoun, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['ozsk,']
+- replace: 'the task '
+  _tags: [the, can, pronoun, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['hsk,']
+- replace: 'all task '
+  _tags: [can, pronoun, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['ask,']
+- replace: 'some task '
+  _tags: [can, pronoun, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['smsk,']
+- replace: 'each task '
+  _tags: [can, pronoun, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['ehsk,']
+- replace: 'for task '
+  _tags: [can, pronoun, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['fsk,']
+- replace: 'with task '
+  _tags: [can, pronoun, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['wsk,']
+- replace: 'of task '
+  _tags: [can, pronoun, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['osk,']
+- replace: 'this tasks '
+  _tags: [demonstrative, can, pronoun, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['izsks,']
+- replace: 'that tasks '
+  _tags: [demonstrative, can, pronoun, else, have]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['azsks,']
+- replace: 'these tasks '
+  _tags: [demonstrative, can, pronoun, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['ezsks,']
+- replace: 'those tasks '
+  _tags: [demonstrative, can, pronoun, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['ozsks,']
+- replace: 'the tasks '
+  _tags: [the, can, pronoun, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['hsks,']
+- replace: 'all tasks '
+  _tags: [can, pronoun, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['asks,']
+- replace: 'some tasks '
+  _tags: [can, pronoun, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['smsks,']
+- replace: 'each tasks '
+  _tags: [can, pronoun, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['ehsks,']

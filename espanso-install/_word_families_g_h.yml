@@ -1,0 +1,666 @@
+# ⚠️  WARNING: AUTO-GENERATED FILE - DO NOT EDIT DIRECTLY!
+# This file is generated from word_version by:
+#   scripts/convert_to_tokenized_word_version.py
+# Edit source in space_version and re-run conversions.
+# Tokenizes trailing spaces in triggers to an explicit token.
+# Removes right_word property for tokenized version.
+# Adds trailing space to replacements that don't have one.
+# Current token: ','
+
+name: word-families-g-h
+parent: default
+matches:
+- replace: 'find out '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['fio,']
+- replace: 'find outs '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['fios,']
+- replace: 'finding out '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['fioi,']
+- replace: 'found out '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['fiop,']
+- replace: 'finding out '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['fiom,']
+- replace: 'heavy '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['hea,']
+- replace: 'heavies '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['heas,']
+- replace: 'heavying '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['heai,']
+- replace: 'heavied '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['heap,']
+- replace: 'heavily '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['heal,']
+- replace: 'heavily '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['heabl,']
+- replace: 'health '
+  _tags: [noun, the, to, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['hp,']
+- replace: 'healths '
+  _tags: [noun, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['hps,']
+- replace: 'healthy '
+  _tags: [adjective, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['hpj,']
+- replace: 'healthily '
+  _tags: [adverb, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['hpjl,']
+- replace: 'healthiness '
+  _tags: [noun, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['hpn,']
+- replace: 'find that '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['faaz,']
+- replace: 'find these '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['feez,']
+- replace: 'find those '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['fooz,']
+- replace: 'find it '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['fiix,']
+- replace: 'start it '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['ssax,']
+- replace: 'stop it '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['sspx,']
+- replace: 'start this '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['siiz,']
+- replace: 'start that '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['saaz,']
+- replace: 'start these '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['seez,']
+- replace: 'start those '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['srtz,']
+- replace: 'start it '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['siix,']
+- replace: 'stop this '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['spiz,']
+- replace: 'stop that '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['spaz,']
+- replace: 'stop these '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['spez,']
+- replace: 'stop those '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['spoz,']
+- replace: 'stop it '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['spix,']
+- replace: 'guard '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['gua,']
+- replace: 'guards '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['guas,']
+- replace: 'guarding '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['guai,']
+- replace: 'guarded '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['guap,']
+- replace: 'hook '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['hok,']
+- replace: 'hooks '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['hoks,']
+- replace: 'hooking '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['hoki,']
+- replace: 'hooked '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['hokp,']
+- replace: 'graph '
+  _tags: [noun, programming]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['gwap,']
+- replace: 'graphs '
+  _tags: [noun, plural, programming]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['gwaps,']
+- replace: 'graphing '
+  _tags: [ing, programming]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['gwapi,']
+- replace: 'graphed '
+  _tags: [ed, programming]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['gwapp,']
+- replace: 'link '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['lnk,']
+- replace: 'links '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['lnks,']
+- replace: 'linking '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['lnki,']
+- replace: 'linked '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['lnkp,']
+- replace: 'likely '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['lnkl,']
+- replace: 'link '
+  _tags: [to, can, else, verb]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['li,']
+- replace: 'links '
+  _tags: [to, can, else, noun]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['lis,']
+- replace: 'linking '
+  _tags: [ing, to, can, else, verb, pronoun]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['lii,']
+- replace: 'linked '
+  _tags: [ed, would, to, can, else, verb]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['lip,']
+- replace: 'linkage '
+  _tags: [noun, to, can, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['lim,']
+- replace: 'linker '
+  _tags: [noun, to, can, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['liw,']
+- replace: 'linkers '
+  _tags: [noun, to, can, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['liws,']
+- replace: 'linkable '
+  _tags: [adjective, to, can, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['lij,']
+- replace: 'linkably '
+  _tags: [adverb, to, can, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['lijl,']
+- replace: 'linkness '
+  _tags: [noun, to, can, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['lin,']
+- replace: 'symlink '
+  _tags: [to, can, else, verb]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['syli,']
+- replace: 'symlinks '
+  _tags: [to, can, else, noun]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['sylis,']
+- replace: 'symlinking '
+  _tags: [ing, to, can, else, verb, pronoun]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['sylii,']
+- replace: 'symlinked '
+  _tags: [ed, would, to, can, else, verb]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['sylip,']
+- replace: 'symlinker '
+  _tags: [noun, to, can, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['syliw,']
+- replace: 'symlinkers '
+  _tags: [noun, to, can, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['syliws,']
+- replace: 'symlinkable '
+  _tags: [adjective, to, can, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['sylij,']
+- replace: 'symlinkably '
+  _tags: [adverb, to, can, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['sylijl,']
+- replace: 'link to '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['lito,']
+- replace: 'link with '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['liwi,']
+- replace: 'link from '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['lifr,']
+- replace: 'hyperlink '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['lihy,']
+- replace: 'hyperlinks '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['lihys,']
+- replace: 'symlink '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['lisy,']
+- replace: 'symlinks '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['lisys,']
+- replace: 'hardlink '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['liha,']
+- replace: 'hardlinks '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['lihas,']
+- replace: 'unlink '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['liun,']
+- replace: 'unlinks '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['liuns,']
+- replace: 'unlinking '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['liuni,']
+- replace: 'unlinked '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['liunp,']
+- replace: 'URL '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['liurl,']
+- replace: 'URLs '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['liurls,']
+- replace: 'URI '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['liuri,']
+- replace: 'URIs '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['liuris,']
+- replace: 'href '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['lihref,']
+- replace: 'hrefs '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['lihrefs,']
+- replace: 'web link '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['liweb,']
+- replace: 'web links '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['liwebs,']
+- replace: 'external link '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['liext,']
+- replace: 'external links '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['liexts,']
+- replace: 'internal link '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['liint,']
+- replace: 'internal links '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['liints,']
+- replace: 'incoming link '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['liinc,']
+- replace: 'incoming links '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['liincs,']
+- replace: 'outgoing link '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['liout,']
+- replace: 'outgoing links '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['liouts,']
+- replace: 'inverted link '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['liinv,']
+- replace: 'inverted links '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['liinvs,']
+- replace: 'inverting link '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['liinvi,']
+- replace: 'inverted link '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['liinvp,']
+- replace: 'inversion link '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['liinvm,']
+- replace: 'inverter link '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['liinvw,']
+- replace: 'invertible link '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['liinvj,']
+- replace: 'invertibly link '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['liinvjl,']
+- replace: 'inversion linkness '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['liinvn,']
+- replace: 'line '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['lm,']
+- replace: 'lines '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['lms,']
+- replace: 'lining '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['lmi,']
+- replace: 'lined '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['lmp,']
+- replace: 'liner '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['lmw,']
+- replace: 'liners '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['lmws,']
+- replace: 'lineal '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['lmj,']
+- replace: 'lineally '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['lmjl,']
+- replace: 'line this '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['lmiz,']
+- replace: 'line that '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['lmaz,']
+- replace: 'line these '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['lmez,']
+- replace: 'line those '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['lmoz,']
+- replace: 'line it '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['lmit,']
+- replace: 'this line '
+  _tags: [demonstrative, th_foundation, to, can, else, pronoun]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['izlm,']
+- replace: 'that line '
+  _tags: [demonstrative, th_foundation, to, can, else, pronoun]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['azlm,']
+- replace: 'these lines '
+  _tags: [demonstrative, th_foundation, plural, to, can, else, pronoun]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['ezlms,']
+- replace: 'those lines '
+  _tags: [demonstrative, th_foundation, plural, to, can, else, pronoun]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['ozlms,']
+- replace: 'what line '
+  _tags: [question, to, can, else, pronoun]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['wtlm,']
+- replace: 'where line '
+  _tags: [question, to, can, else, pronoun]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['wwlm,']
+- replace: 'when line '
+  _tags: [question, to, can, else, pronoun]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['wnlm,']
+- replace: 'why line '
+  _tags: [question, to, can, else, pronoun]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['wylm,']
+- replace: 'how line '
+  _tags: [question, to, can, else, pronoun]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['hwlm,']
+- replace: 'line to the '
+  _tags: [directional, to, can, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['lm2h,']
+- replace: 'lines to the '
+  _tags: [directional, to, can, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['lms2h,']
+- replace: 'from the line '
+  _tags: [directional, from, can, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['22hlm,']
+- replace: 'from the lines '
+  _tags: [directional, from, can, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['22hlms,']
+- replace: 'link this '
+  _tags: [demonstrative, th_foundation, to, can, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['izli,']
+- replace: 'link that '
+  _tags: [demonstrative, th_foundation, to, can, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['azli,']
+- replace: 'link these '
+  _tags: [demonstrative, th_foundation, to, can, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['ezli,']
+- replace: 'link those '
+  _tags: [demonstrative, th_foundation, to, can, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['ozli,']
+- replace: 'link it '
+  _tags: [pronoun, to, can, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['liit,']
+- replace: 'link have '
+  _tags: [to, can, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['lihv,']
+- replace: 'link has '
+  _tags: [to, can, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['lihass,']
+- replace: 'link to the '
+  _tags: [to, the, directional]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['li2h,']
+- replace: 'link from the '
+  _tags: [to, the, directional]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['li22,']
+- replace: 'link from to the '
+  _tags: [to, the, directional]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['li22h,']
+- replace: 'what link '
+  _tags: [question, to, the]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['wholi,']
+- replace: 'where link '
+  _tags: [question, to, the]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['whrli,']
+- replace: 'which link '
+  _tags: [question, to, the]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['whlli,']
+- replace: 'how link '
+  _tags: [question, to, the]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['howli,']
+- replace: 'line by line '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['lnbl,']
+- replace: 'full link '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['fuli,']
+- replace: 'full links '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['fulis,']
+- replace: 'full linking '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['fulii,']
+- replace: 'full linked '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['fulip,']

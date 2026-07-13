@@ -1,0 +1,137 @@
+# ⚠️  WARNING: AUTO-GENERATED FILE - DO NOT EDIT DIRECTLY!
+# This file is generated from word_version by:
+#   scripts/convert_to_tokenized_word_version.py
+# Edit source in space_version and re-run conversions.
+# Tokenizes trailing spaces in triggers to an explicit token.
+# Removes right_word property for tokenized version.
+# Adds trailing space to replacements that don't have one.
+# Current token: ','
+
+name: exx_rotate
+parent: default
+matches:
+- replace: 'be rotate '
+  _tags: [verb, be, to, can, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['bwot,']
+- replace: 'not rotate '
+  _tags: [verb, negate, to, can, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['nwot,']
+- replace: 'not be rotate '
+  _tags: [verb, be, negate, to, can, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['nbwot,']
+- replace: 'don''t rotate '
+  _tags: [verb, negate, to, can, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['unwot,']
+- replace: 'don''t be rotate '
+  _tags: [verb, be, negate, to, can, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['unbwot,']
+- replace: 'not be rotate this '
+  _tags: [verb, be, negate, demonstrative, to, can, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['nbwotiz,']
+- replace: 'not be rotate that '
+  _tags: [verb, be, negate, demonstrative, to, can, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['nbwotaz,']
+- replace: 'not be rotate these '
+  _tags: [verb, be, negate, demonstrative, to, can, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['nbwotez,']
+- replace: 'not be rotate those '
+  _tags: [verb, be, negate, demonstrative, to, can, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['nbwotoz,']
+- replace: 'don''t rotate this '
+  _tags: [verb, negate, demonstrative, to, can, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['unwotiz,']
+- replace: 'don''t rotate that '
+  _tags: [verb, negate, demonstrative, to, can, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['unwotaz,']
+- replace: 'don''t rotate these '
+  _tags: [verb, negate, demonstrative, to, can, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['unwotez,']
+- replace: 'don''t rotate those '
+  _tags: [verb, negate, demonstrative, to, can, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['unwotoz,']
+- replace: 'don''t be rotate this '
+  _tags: [verb, be, negate, demonstrative, to, can, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['unbwotiz,']
+- replace: 'don''t be rotate that '
+  _tags: [verb, be, negate, demonstrative, to, can, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['unbwotaz,']
+- replace: 'don''t be rotate these '
+  _tags: [verb, be, negate, demonstrative, to, can, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['unbwotez,']
+- replace: 'don''t be rotate those '
+  _tags: [verb, be, negate, demonstrative, to, can, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['unbwotoz,']
+- replace: 'rotate all '
+  _tags: [verb, quantifier, to, can, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['wota,']
+- replace: 'rotate some '
+  _tags: [verb, quantifier, to, can, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['wotsm,']
+- replace: 'rotate each '
+  _tags: [verb, quantifier, to, can, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['woteh,']
+- replace: 'rotate one '
+  _tags: [verb, quantifier, to, can, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['wotoo,']
+- replace: 'be rotate all '
+  _tags: [verb, be, quantifier, to, can, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['bwota,']
+- replace: 'be rotate some '
+  _tags: [verb, be, quantifier, to, can, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['bwotsm,']
+- replace: 'not rotate all '
+  _tags: [verb, negate, quantifier, to, can, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['nwota,']
+- replace: 'not rotate some '
+  _tags: [verb, negate, quantifier, to, can, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['nwotsm,']

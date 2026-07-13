@@ -1,0 +1,147 @@
+# ⚠️  WARNING: AUTO-GENERATED FILE - DO NOT EDIT DIRECTLY!
+# This file is generated from word_version by:
+#   scripts/convert_to_tokenized_word_version.py
+# Edit source in space_version and re-run conversions.
+# Tokenizes trailing spaces in triggers to an explicit token.
+# Removes right_word property for tokenized version.
+# Adds trailing space to replacements that don't have one.
+# Current token: ','
+
+name: word-families-foundation
+parent: default
+matches:
+- replace: 'foundation '
+  _tags: [noun, to, can, else]
+  allow_duplicate: true
+  propagate_case: true
+  triggers: ['foun,']
+- replace: 'foundations '
+  _tags: [noun, to, can, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['founs,']
+- replace: 'foundational '
+  _tags: [adjective, to, can, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['founj,']
+- replace: 'foundationally '
+  _tags: [adverb, to, can, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['founjl,']
+- replace: 'found '
+  _tags: [verb, ed, to, can, else]
+  allow_duplicate: true
+  propagate_case: true
+  triggers: ['foup,']
+- replace: 'founding '
+  _tags: [ing, verb, to, can, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['foupi,']
+- replace: 'founder '
+  _tags: [noun, to, can, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['foupw,']
+- replace: 'founders '
+  _tags: [noun, to, can, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['foupws,']
+- replace: 'cofound '
+  _tags: [verb, to, can, else, prefix]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['cofoup,']
+- replace: 'cofounder '
+  _tags: [noun, to, can, else, prefix]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['cofoupw,']
+- replace: 'cofounders '
+  _tags: [noun, to, can, else, prefix]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['cofoupws,']
+- replace: 'refound '
+  _tags: [verb, to, can, else, prefix]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['wfoup,']
+- replace: 'refounding '
+  _tags: [ing, verb, to, can, else, prefix]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['wfoupi,']
+- replace: 'well-founded '
+  _tags: [adjective, to, can, else, compound]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['wlfoup,']
+- replace: 'unfounded '
+  _tags: [adjective, to, can, else, negated]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['unfoup,']
+- replace: 'foundation this '
+  _tags: [demonstrative, noun, to, can, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['foumiz,']
+- replace: 'foundation token '
+  _tags: [noun, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['foutok,']
+- replace: 'foundation tokens '
+  _tags: [noun, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['foutoks,']
+- replace: 'foundation that '
+  _tags: [demonstrative, noun, to, can, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['foumaz,']
+- replace: 'foundation these '
+  _tags: [demonstrative, noun, to, can, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['foumez,']
+- replace: 'foundation those '
+  _tags: [demonstrative, noun, to, can, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['foumoz,']
+- replace: 'foundation the '
+  _tags: [article, noun, to, can, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['foumh,']
+- replace: 'foundation all '
+  _tags: [quantifier, noun, to, can, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['fouma,']
+- replace: 'foundation all of '
+  _tags: [quantifier, noun, to, can, else, preposition]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['foumao,']
+- replace: 'foundation some '
+  _tags: [quantifier, noun, to, can, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['foumsm,']
+- replace: 'foundation some of '
+  _tags: [quantifier, noun, to, can, else, preposition]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['foumsmo,']
+- replace: 'foundation each '
+  _tags: [quantifier, noun, to, can, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['foumeh,']

@@ -1,0 +1,112 @@
+# ⚠️  WARNING: AUTO-GENERATED FILE - DO NOT EDIT DIRECTLY!
+# This file is generated from word_version by:
+#   scripts/convert_to_tokenized_word_version.py
+# Edit source in space_version and re-run conversions.
+# Tokenizes trailing spaces in triggers to an explicit token.
+# Removes right_word property for tokenized version.
+# Adds trailing space to replacements that don't have one.
+# Current token: ','
+
+name: word-families-transit
+parent: default
+matches:
+- replace: 'transit '
+  _tags: [to, can, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['transi,']
+- replace: 'transits '
+  _tags: [to, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['transis,']
+- replace: 'transiting '
+  _tags: [ing, to, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['transii,']
+- replace: 'transited '
+  _tags: [ed, to, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['transip,']
+- replace: 'transition '
+  _tags: [noun, to, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['transim,']
+- replace: 'transitions '
+  _tags: [noun, to, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['transims,']
+- replace: 'transitioning '
+  _tags: [ing, to, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['transimi,']
+- replace: 'transitioned '
+  _tags: [ed, to, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['transimp,']
+- replace: 'transitional '
+  _tags: [adjective, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['transiml,']
+- replace: 'transitionally '
+  _tags: [adverb, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['transimll,']
+- replace: 'transit this '
+  _tags: [verb, demonstrative, to, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['transiiz,']
+- replace: 'transit that '
+  _tags: [verb, demonstrative, to, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['transiaz,']
+- replace: 'transit these '
+  _tags: [verb, demonstrative, to, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['transiez,']
+- replace: 'transit those '
+  _tags: [verb, demonstrative, to, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['transioz,']
+- replace: 'transit the '
+  _tags: [verb, to, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['transih,']
+- replace: 'transit it '
+  _tags: [verb, to, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['transix,']
+- replace: 'this transition '
+  _tags: [demonstrative, noun, to, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['iztransim,']
+- replace: 'that transition '
+  _tags: [demonstrative, noun, to, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['aztransim,']
+- replace: 'these transitions '
+  _tags: [demonstrative, noun, to, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['eztransims,']
+- replace: 'those transitions '
+  _tags: [demonstrative, noun, to, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['oztransims,']

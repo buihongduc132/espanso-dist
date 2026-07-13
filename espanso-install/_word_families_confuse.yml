@@ -1,0 +1,77 @@
+# ⚠️  WARNING: AUTO-GENERATED FILE - DO NOT EDIT DIRECTLY!
+# This file is generated from word_version by:
+#   scripts/convert_to_tokenized_word_version.py
+# Edit source in space_version and re-run conversions.
+# Tokenizes trailing spaces in triggers to an explicit token.
+# Removes right_word property for tokenized version.
+# Adds trailing space to replacements that don't have one.
+# Current token: ','
+
+name: word-families-confuse
+parent: default
+matches:
+- replace: 'confuse '
+  _tags: [to, can, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['qnfu,']
+- replace: 'confuses '
+  _tags: [s, to, can, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['qnfus,']
+- replace: 'confusing '
+  _tags: [ing, to, can, else, pronoun]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['qnfui,']
+- replace: 'confused '
+  _tags: [ed, to, can, else, would]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['qnfup,']
+- replace: 'confusion '
+  _tags: [noun, to, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['qnfum,']
+- replace: 'confusingly '
+  _tags: [adverb, to, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['qnful,']
+- replace: 'confusable '
+  _tags: [adjective, can, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['qnfub,']
+- replace: 'confuse this '
+  _tags: [demonstrative, to, can, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['qnfuiz,']
+- replace: 'confuse that '
+  _tags: [demonstrative, to, can, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['qnfuaz,']
+- replace: 'confuse these '
+  _tags: [demonstrative, to, can, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['qnfuez,']
+- replace: 'confuse those '
+  _tags: [demonstrative, to, can, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['qnfuoz,']
+- replace: 'confuse the '
+  _tags: [article, to, can, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['qnfuh,']
+- replace: 'confuse it '
+  _tags: [pronoun, to, can, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['qnfux,']

@@ -1,0 +1,67 @@
+# ⚠️  WARNING: AUTO-GENERATED FILE - DO NOT EDIT DIRECTLY!
+# This file is generated from word_version by:
+#   scripts/convert_to_tokenized_word_version.py
+# Edit source in space_version and re-run conversions.
+# Tokenizes trailing spaces in triggers to an explicit token.
+# Removes right_word property for tokenized version.
+# Adds trailing space to replacements that don't have one.
+# Current token: ','
+
+name: word-families-imperative
+parent: default
+matches:
+- replace: 'imperative '
+  _tags: [to, can, else, adjective]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['impe,']
+- replace: 'imperatives '
+  _tags: [to, can, else, noun]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['impes,']
+- replace: 'imperatively '
+  _tags: [ing, to, can, else, adverb]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['impei,']
+- replace: 'imperatived '
+  _tags: [ed, would, to, can, else, verb]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['impep,']
+- replace: 'imperativeness '
+  _tags: [noun, to, can, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['impem,']
+- replace: 'imperatival '
+  _tags: [adjective, to, can, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['impej,']
+- replace: 'imperativally '
+  _tags: [adverb, to, can, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['impejl,']
+- replace: 'imperative this '
+  _tags: [demonstrative, to, can, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['impeiz,']
+- replace: 'imperative that '
+  _tags: [demonstrative, to, can, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['impeaz,']
+- replace: 'imperative these '
+  _tags: [demonstrative, to, can, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['impeez,']
+- replace: 'imperative those '
+  _tags: [demonstrative, to, can, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['impeoz,']

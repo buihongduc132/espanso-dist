@@ -1,0 +1,97 @@
+# ⚠️  WARNING: AUTO-GENERATED FILE - DO NOT EDIT DIRECTLY!
+# This file is generated from word_version by:
+#   scripts/convert_to_tokenized_word_version.py
+# Edit source in space_version and re-run conversions.
+# Tokenizes trailing spaces in triggers to an explicit token.
+# Removes right_word property for tokenized version.
+# Adds trailing space to replacements that don't have one.
+# Current token: ','
+
+name: word-families-around
+parent: default
+matches:
+- replace: 'around '
+  _tags: [preposition, to, else]
+  allow_duplicate: true
+  propagate_case: true
+  triggers: ['aw,']
+- replace: 'work around '
+  _tags: [verb, preposition, to, can, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['wkaw,']
+- replace: 'around this '
+  _tags: [demonstrative, preposition, to, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['awiz,']
+- replace: 'around that '
+  _tags: [demonstrative, preposition, to, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['awaz,']
+- replace: 'around these '
+  _tags: [demonstrative, preposition, to, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['awez,']
+- replace: 'around those '
+  _tags: [demonstrative, preposition, to, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['awoz,']
+- replace: 'around the '
+  _tags: [article, preposition, to, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['awh,']
+- replace: 'around all '
+  _tags: [quantifier, preposition, to, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['awa,']
+- replace: 'around all of '
+  _tags: [quantifier, preposition, to, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['awao,']
+- replace: 'around some '
+  _tags: [quantifier, preposition, to, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['awsm,']
+- replace: 'around some of '
+  _tags: [quantifier, preposition, to, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['awsmo,']
+- replace: 'around each '
+  _tags: [quantifier, preposition, to, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['aweh,']
+- replace: 'work around this '
+  _tags: [demonstrative, verb, preposition, to, can, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['wkawiz,']
+- replace: 'work around that '
+  _tags: [demonstrative, verb, preposition, to, can, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['wkawaz,']
+- replace: 'work around these '
+  _tags: [demonstrative, verb, preposition, to, can, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['wkawez,']
+- replace: 'work around those '
+  _tags: [demonstrative, verb, preposition, to, can, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['wkawoz,']
+- replace: 'work around the '
+  _tags: [article, verb, preposition, to, can, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['wkawh,']

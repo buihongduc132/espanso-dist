@@ -1,0 +1,112 @@
+# ⚠️  WARNING: AUTO-GENERATED FILE - DO NOT EDIT DIRECTLY!
+# This file is generated from word_version by:
+#   scripts/convert_to_tokenized_word_version.py
+# Edit source in space_version and re-run conversions.
+# Tokenizes trailing spaces in triggers to an explicit token.
+# Removes right_word property for tokenized version.
+# Adds trailing space to replacements that don't have one.
+# Current token: ','
+
+name: wh_th_combinations
+parent: default
+matches:
+- replace: 'why the '
+  _tags: [question, why, the, to]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['wyh,']
+- replace: 'what the '
+  _tags: [question, what, the, to]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['wth,']
+- replace: 'where the '
+  _tags: [question, where, the, to]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['wwh,']
+- replace: 'when the '
+  _tags: [question, when, the, to]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['wnh,']
+- replace: 'why this '
+  _tags: [question, why, demonstrative, the]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['wyiz,']
+- replace: 'why that '
+  _tags: [question, why, demonstrative, the]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['wyaz,']
+- replace: 'why these '
+  _tags: [question, why, demonstrative, the]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['wyez,']
+- replace: 'why those '
+  _tags: [question, why, demonstrative, the]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['wyoz,']
+- replace: 'what this '
+  _tags: [question, what, demonstrative, the]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['wtiz,']
+- replace: 'what that '
+  _tags: [question, what, demonstrative, the]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['wtaz,']
+- replace: 'what these '
+  _tags: [question, what, demonstrative, the]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['wtez,']
+- replace: 'what those '
+  _tags: [question, what, demonstrative, the]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['wtoz,']
+- replace: 'where this '
+  _tags: [question, where, demonstrative, the]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['wriz,']
+- replace: 'where that '
+  _tags: [question, where, demonstrative, the]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['wraz,']
+- replace: 'where these '
+  _tags: [question, where, demonstrative, the]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['wrez,']
+- replace: 'where those '
+  _tags: [question, where, demonstrative, the]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['wroz,']
+- replace: 'when this '
+  _tags: [question, when, demonstrative, the]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['wniz,']
+- replace: 'when that '
+  _tags: [question, when, demonstrative, the]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['wnaz,']
+- replace: 'when these '
+  _tags: [question, when, demonstrative, the]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['wnez,']
+- replace: 'when those '
+  _tags: [question, when, demonstrative, the]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['wnoz,']

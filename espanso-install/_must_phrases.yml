@@ -1,0 +1,102 @@
+# ⚠️  WARNING: AUTO-GENERATED FILE - DO NOT EDIT DIRECTLY!
+# This file is generated from word_version by:
+#   scripts/convert_to_tokenized_word_version.py
+# Edit source in space_version and re-run conversions.
+# Tokenizes trailing spaces in triggers to an explicit token.
+# Removes right_word property for tokenized version.
+# Adds trailing space to replacements that don't have one.
+# Current token: ','
+
+matches:
+- replace: 'must not '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['msn,']
+- replace: 'must be '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['msb,']
+- replace: 'must be like '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['msblk,']
+- replace: 'must not be '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['msnb,']
+- replace: 'must not be like '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['msnblk,']
+- replace: 'this must '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['izms,']
+- replace: 'that must '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['azms,']
+- replace: 'these must '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['ezms,']
+- replace: 'those must '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['ozms,']
+- replace: 'this must be '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['izmsb,']
+- replace: 'that must be '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['azmsb,']
+- replace: 'these must be '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['ezmsb,']
+- replace: 'those must be '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['ozmsb,']
+- replace: 'what must '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['wtms,']
+- replace: 'when must '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['wnms,']
+- replace: 'where must '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['wrms,']
+- replace: 'why must '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['wyms,']
+- replace: 'how must '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['hwms,']
+- replace: 'what must be '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['wtmsb,']
+- replace: 'when must be '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['wnmsb,']
+- replace: 'where must be '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['wrmsb,']
+- replace: 'why must be '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['wymsb,']
+- replace: 'how must be '
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['hwmsb,']

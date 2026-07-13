@@ -1,0 +1,47 @@
+# ⚠️  WARNING: AUTO-GENERATED FILE - DO NOT EDIT DIRECTLY!
+# This file is generated from word_version by:
+#   scripts/convert_to_tokenized_word_version.py
+# Edit source in space_version and re-run conversions.
+# Tokenizes trailing spaces in triggers to an explicit token.
+# Removes right_word property for tokenized version.
+# Adds trailing space to replacements that don't have one.
+# Current token: ','
+
+name: word-families-deal
+parent: default
+matches:
+- replace: 'deal '
+  _tags: [verb, noun, to, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['dea,']
+- replace: 'deals '
+  _tags: [verb, noun, to, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['deas,']
+- replace: 'dealing '
+  _tags: [ing, verb, to, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['deai,']
+- replace: 'dealt '
+  _tags: [ed, verb, to, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['deap,']
+- replace: 'dealer '
+  _tags: [noun, to, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['deaw,']
+- replace: 'dealers '
+  _tags: [noun, to, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['deaws,']
+- replace: 'dealings '
+  _tags: [noun, to, else]
+  propagate_case: true
+  allow_duplicate: false
+  triggers: ['deais,']
