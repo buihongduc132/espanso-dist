@@ -1,0 +1,26 @@
+name: _word_families_preview
+matches:
+- replace: 'preview '
+  propagate_case: true
+  allow_duplicate: false
+  trigger: pwjie,
+- replace: 'previews '
+  propagate_case: true
+  allow_duplicate: false
+  trigger: pwjies,
+- replace: 'previewing '
+  propagate_case: true
+  allow_duplicate: false
+  trigger: pwjiei,
+- replace: 'previewed '
+  propagate_case: true
+  allow_duplicate: false
+  trigger: pwjiep,
+- replace: 'previewion '
+  propagate_case: true
+  allow_duplicate: false
+  trigger: pwjiem,
+- replace: 'previewable '
+  propagate_case: true
+  allow_duplicate: false
+  trigger: pwjieb,

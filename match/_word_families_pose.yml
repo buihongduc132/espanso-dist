@@ -1,67 +1,111 @@
-# ⚠️  WARNING: AUTO-GENERATED FILE - DO NOT EDIT DIRECTLY!
-# This file is generated from word_version by:
-#   scripts/convert_to_tokenized_word_version.py
-# Edit source in space_version and re-run conversions.
-# Tokenizes trailing spaces in triggers to an explicit token.
-# Removes right_word property for tokenized version.
-# Adds trailing space to replacements that don't have one.
-# Current token: ','
-
-name: word-families-pose
-parent: default
+name: _word_families_pose
 matches:
 - replace: 'possess '
-  _tags: [to, can, else, have]
+  _tags:
+  - to
+  - can
+  - else
+  - have
   allow_duplicate: true
   propagate_case: true
-  triggers: ['pose,']
+  trigger: pose,
 - replace: 'possesses '
-  _tags: [to, can, else, have]
+  _tags:
+  - to
+  - can
+  - else
+  - have
   allow_duplicate: true
   propagate_case: true
-  triggers: ['poses,']
+  trigger: poses,
 - replace: 'possessing '
-  _tags: [ing, to, can, else, have]
+  _tags:
+  - ing
+  - to
+  - can
+  - else
+  - have
   allow_duplicate: true
   propagate_case: true
-  triggers: ['posei,']
+  trigger: posei,
 - replace: 'possessed '
-  _tags: [ed, would, to, can, else, have]
+  _tags:
+  - ed
+  - would
+  - to
+  - can
+  - else
+  - have
   allow_duplicate: true
   propagate_case: true
-  triggers: ['posep,']
+  trigger: posep,
 - replace: 'possession '
-  _tags: [noun, to, can, else, have]
+  _tags:
+  - noun
+  - to
+  - can
+  - else
+  - have
   allow_duplicate: true
   propagate_case: true
-  triggers: ['posem,']
+  trigger: posem,
 - replace: 'possessions '
-  _tags: [noun, to, can, else, have]
+  _tags:
+  - noun
+  - to
+  - can
+  - else
+  - have
   allow_duplicate: true
   propagate_case: true
-  triggers: ['posems,']
+  trigger: posems,
 - replace: 'possessive '
-  _tags: [adjective, to, can, else, have]
+  _tags:
+  - adjective
+  - to
+  - can
+  - else
+  - have
   allow_duplicate: true
   propagate_case: true
-  triggers: ['posej,']
+  trigger: posej,
 - replace: 'possessives '
-  _tags: [adjective, to, can, else, have]
+  _tags:
+  - adjective
+  - to
+  - can
+  - else
+  - have
   allow_duplicate: true
   propagate_case: true
-  triggers: ['posejs,']
+  trigger: posejs,
 - replace: 'possessively '
-  _tags: [adjective, to, can, else, have]
+  _tags:
+  - adjective
+  - to
+  - can
+  - else
+  - have
   allow_duplicate: true
   propagate_case: true
-  triggers: ['posejl,']
+  trigger: posejl,
 - replace: 'possessor '
-  _tags: [noun, to, can, else, have]
+  _tags:
+  - noun
+  - to
+  - can
+  - else
+  - have
   allow_duplicate: true
   propagate_case: true
-  triggers: ['posew,']
+  trigger: posew,
 - replace: 'possessors '
-  _tags: [noun, to, can, else, have]
+  _tags:
+  - noun
+  - to
+  - can
+  - else
+  - have
   allow_duplicate: true
   propagate_case: true
-  triggers: ['posews,']
+  trigger: posews,

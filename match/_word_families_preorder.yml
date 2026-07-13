@@ -1,0 +1,26 @@
+name: _word_families_preorder
+matches:
+- replace: 'preorder '
+  propagate_case: true
+  allow_duplicate: false
+  trigger: pwowd,
+- replace: 'preorders '
+  propagate_case: true
+  allow_duplicate: false
+  trigger: pwowds,
+- replace: 'preordering '
+  propagate_case: true
+  allow_duplicate: false
+  trigger: pwowdi,
+- replace: 'preordered '
+  propagate_case: true
+  allow_duplicate: false
+  trigger: pwowdp,
+- replace: 'preorderion '
+  propagate_case: true
+  allow_duplicate: false
+  trigger: pwowdm,
+- replace: 'preorderable '
+  propagate_case: true
+  allow_duplicate: false
+  trigger: pwowdb,

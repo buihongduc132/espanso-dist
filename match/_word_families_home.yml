@@ -1,97 +1,144 @@
-# ⚠️  WARNING: AUTO-GENERATED FILE - DO NOT EDIT DIRECTLY!
-# This file is generated from word_version by:
-#   scripts/convert_to_tokenized_word_version.py
-# Edit source in space_version and re-run conversions.
-# Tokenizes trailing spaces in triggers to an explicit token.
-# Removes right_word property for tokenized version.
-# Adds trailing space to replacements that don't have one.
-# Current token: ','
-
-name: word-families-home
-parent: default
+name: _word_families_home
 matches:
 - replace: 'home '
-  _tags: [noun, place, else]
+  _tags:
+  - noun
+  - place
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['hm,']
+  trigger: hm,
 - replace: 'home '
-  _tags: [noun, place, else]
+  _tags:
+  - noun
+  - place
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['87,']
+  trigger: 87,
 - replace: 'homes '
-  _tags: [noun, place, else]
+  _tags:
+  - noun
+  - place
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['hms,']
+  trigger: hms,
 - replace: 'homes '
-  _tags: [noun, place, else]
+  _tags:
+  - noun
+  - place
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['87S,']
+  trigger: 87S,
 - replace: 'homing '
-  _tags: [verb, ing, place, else]
+  _tags:
+  - verb
+  - ing
+  - place
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['hmi,']
+  trigger: hmi,
 - replace: 'homing '
-  _tags: [verb, ing, place, else]
+  _tags:
+  - verb
+  - ing
+  - place
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['87I,']
+  trigger: 87I,
 - replace: 'homed '
-  _tags: [verb, ed, place, else]
+  _tags:
+  - verb
+  - ed
+  - place
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['hmp,']
+  trigger: hmp,
 - replace: 'homed '
-  _tags: [verb, ed, place, else]
+  _tags:
+  - verb
+  - ed
+  - place
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['87P,']
+  trigger: 87P,
 - replace: 'homely '
-  _tags: [adjective, else]
+  _tags:
+  - adjective
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['hml,']
+  trigger: hml,
 - replace: 'homely '
-  _tags: [adjective, else]
+  _tags:
+  - adjective
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['87L,']
+  trigger: 87L,
 - replace: 'homeland '
-  _tags: [noun, place, else]
+  _tags:
+  - noun
+  - place
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['hmm,']
+  trigger: hmm,
 - replace: 'homeland '
-  _tags: [noun, place, else]
+  _tags:
+  - noun
+  - place
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['87M,']
+  trigger: 87M,
 - replace: 'home directory '
-  _tags: [noun, place, else]
+  _tags:
+  - noun
+  - place
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['87d,']
+  trigger: 87d,
 - replace: 'this home '
-  _tags: [demonstrative, noun, place, else]
+  _tags:
+  - demonstrative
+  - noun
+  - place
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['iz87,']
+  trigger: iz87,
 - replace: 'that home '
-  _tags: [demonstrative, noun, place, else]
+  _tags:
+  - demonstrative
+  - noun
+  - place
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['az87,']
+  trigger: az87,
 - replace: 'these homes '
-  _tags: [demonstrative, noun, place, else]
+  _tags:
+  - demonstrative
+  - noun
+  - place
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['ez87s,']
+  trigger: ez87s,
 - replace: 'those homes '
-  _tags: [demonstrative, noun, place, else]
+  _tags:
+  - demonstrative
+  - noun
+  - place
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['oz87s,']
+  trigger: oz87s,

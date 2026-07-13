@@ -1,0 +1,83 @@
+name: base
+global_vars:
+- name: BASE_DIR
+  type: echo
+  params:
+    echo: /Users/bhd5/Documents/Projects/bhd/espanso-config
+- name: OS_CONFIG_DIR
+  type: echo
+  params:
+    echo: /Users/bhd5/Documents/Projects/bhd/os-config
+- name: python
+  type: echo
+  params:
+    echo: /usr/bin/python3
+- name: CMD_POSTFIX
+  type: echo
+  params:
+    echo: ' '
+- name: CMD_PREFIX
+  type: echo
+  params:
+    echo: ' '
+- name: CMD_PREFIX_ALT
+  type: echo
+  params:
+    echo: ' '
+- name: CMD_POSTFIX_ALT
+  type: echo
+  params:
+    echo: ' '
+matches:
+- trigger: ::__log
+  replace: '"{{output}}"'
+  vars:
+  - name: output
+    type: shell
+    params:
+      cmd: echo 'Debug log entry'
+- regex: '::cred (?P<alias>.*)\.(?P<column_name>.*) '
+  replace: '{{output}}'
+  vars:
+  - name: output
+    type: shell
+    params:
+      cmd: '{{python}} {{BASE_DIR}}/scripts/csv_lookup.py "{{alias}}" "{{column_name}}"
+        {{BASE_DIR}}/data/credentials.csv'
+- trigger: '::help '
+  replace: '{{output}}'
+  vars:
+  - name: output
+    type: script
+    params:
+      args:
+      - '{{python}}'
+      - '{{BASE_DIR}}/scripts/show_espanso_help.py'
+- regex: ::help:(?P<prefix_filter>[^\s]+)\s
+  replace: '{{output}}'
+  vars:
+  - name: output
+    type: script
+    params:
+      args:
+      - '{{python}}'
+      - '{{BASE_DIR}}/scripts/show_espanso_help.py'
+      - '{{prefix_filter}}'
+- trigger: :espanso
+  replace: Hi there!
+- trigger: 'juhk '
+  replace: just check
+- trigger: :date
+  replace: '{{mydate}}'
+  vars:
+  - name: mydate
+    type: date
+    params:
+      format: '%m/%d/%Y'
+- trigger: :shell
+  replace: '{{output}}'
+  vars:
+  - name: output
+    type: shell
+    params:
+      cmd: echo 'Hello from your shell'

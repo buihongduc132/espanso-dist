@@ -1,0 +1,14 @@
+matches:
+- replace: 'nomad '
+  propagate_case: true
+  allow_duplicate: false
+  trigger: noma`
+- replace: 'nomad ops '
+  propagate_case: true
+  allow_duplicate: false
+  trigger: nomao`
+- replace: 'nomad packs '
+  propagate_case: true
+  allow_duplicate: false
+  trigger: nomap`
+name: _word_families_nomad

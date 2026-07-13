@@ -1,136 +1,126 @@
-# ⚠️  WARNING: AUTO-GENERATED FILE - DO NOT EDIT DIRECTLY!
-# This file is generated from word_version by:
-#   scripts/convert_to_tokenized_word_version.py
-# Edit source in space_version and re-run conversions.
-# Tokenizes trailing spaces in triggers to an explicit token.
-# Removes right_word property for tokenized version.
-# Adds trailing space to replacements that don't have one.
-# Current token: ','
-
-name: word-families-object
-parent: default
+name: _word_families_object
 matches:
 - replace: 'object '
   propagate_case: true
   allow_duplicate: false
-  triggers: ['obj,']
+  trigger: obj,
 - replace: 'objects '
   propagate_case: true
   allow_duplicate: false
-  triggers: ['objs,']
+  trigger: objs,
 - replace: 'objecting '
   propagate_case: true
   allow_duplicate: false
-  triggers: ['obji,']
+  trigger: obji,
 - replace: 'objected '
   propagate_case: true
   allow_duplicate: false
-  triggers: ['objp,']
+  trigger: objp,
 - replace: 'objector '
   propagate_case: true
   allow_duplicate: false
-  triggers: ['objw,']
+  trigger: objw,
 - replace: 'objectors '
   propagate_case: true
   allow_duplicate: false
-  triggers: ['objws,']
+  trigger: objws,
 - replace: 'objection '
   propagate_case: true
   allow_duplicate: false
-  triggers: ['objm,']
+  trigger: objm,
 - replace: 'objections '
   propagate_case: true
   allow_duplicate: false
-  triggers: ['objms,']
+  trigger: objms,
 - replace: 'objective '
   propagate_case: true
   allow_duplicate: false
-  triggers: ['objv,']
+  trigger: objv,
 - replace: 'objectively '
   propagate_case: true
   allow_duplicate: false
-  triggers: ['objvl,']
+  trigger: objvl,
 - replace: 'objectivity '
   propagate_case: true
   allow_duplicate: false
-  triggers: ['objvy,']
+  trigger: objvy,
 - replace: 'objectiveness '
   propagate_case: true
   allow_duplicate: false
-  triggers: ['objvn,']
+  trigger: objvn,
 - replace: 'this object '
   propagate_case: true
   allow_duplicate: false
-  triggers: ['izobj,']
+  trigger: izobj,
 - replace: 'that object '
   propagate_case: true
   allow_duplicate: false
-  triggers: ['azobj,']
+  trigger: azobj,
 - replace: 'these objects '
   propagate_case: true
   allow_duplicate: false
-  triggers: ['ezobjs,']
+  trigger: ezobjs,
 - replace: 'those objects '
   propagate_case: true
   allow_duplicate: false
-  triggers: ['ozobjs,']
+  trigger: ozobjs,
 - replace: 'what object '
   propagate_case: true
   allow_duplicate: false
-  triggers: ['wtobj,']
+  trigger: wtobj,
 - replace: 'when object '
   propagate_case: true
   allow_duplicate: false
-  triggers: ['wnobj,']
+  trigger: wnobj,
 - replace: 'why object '
   propagate_case: true
   allow_duplicate: false
-  triggers: ['wyobj,']
+  trigger: wyobj,
 - replace: 'where object '
   propagate_case: true
   allow_duplicate: false
-  triggers: ['wwobj,']
+  trigger: wwobj,
 - replace: 'how object '
   propagate_case: true
   allow_duplicate: false
-  triggers: ['hwobj,']
+  trigger: hwobj,
 - replace: 'object to the '
   propagate_case: true
   allow_duplicate: false
-  triggers: ['obj2h,']
+  trigger: obj2h,
 - replace: 'objects to the '
   propagate_case: true
   allow_duplicate: false
-  triggers: ['objs2h,']
+  trigger: objs2h,
 - replace: 'from the object '
   propagate_case: true
   allow_duplicate: false
-  triggers: ['22hobj,']
+  trigger: 22hobj,
 - replace: 'from the objects '
   propagate_case: true
   allow_duplicate: false
-  triggers: ['22hobjs,']
+  trigger: 22hobjs,
 - replace: 'object this '
   propagate_case: true
   allow_duplicate: false
-  triggers: ['objiz,']
+  trigger: objiz,
 - replace: 'object that '
   propagate_case: true
   allow_duplicate: false
-  triggers: ['objaz,']
+  trigger: objaz,
 - replace: 'object these '
   propagate_case: true
   allow_duplicate: false
-  triggers: ['objez,']
+  trigger: objez,
 - replace: 'object those '
   propagate_case: true
   allow_duplicate: false
-  triggers: ['objoz,']
+  trigger: objoz,
 - replace: 'object the '
   propagate_case: true
   allow_duplicate: false
-  triggers: ['objh,']
+  trigger: objh,
 - replace: 'objector '
   propagate_case: true
   allow_duplicate: false
-  triggers: ['objo,']
+  trigger: objo,

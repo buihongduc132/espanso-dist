@@ -1,188 +1,349 @@
-# ⚠️  WARNING: AUTO-GENERATED FILE - DO NOT EDIT DIRECTLY!
-# This file is generated from word_version by:
-#   scripts/convert_to_tokenized_word_version.py
-# Edit source in space_version and re-run conversions.
-# Tokenizes trailing spaces in triggers to an explicit token.
-# Removes right_word property for tokenized version.
-# Adds trailing space to replacements that don't have one.
-# Current token: ','
-
-name: phrases_misc
-parent: default
+name: _phrases_misc
 matches:
 - replace: 'make it '
-  _tags: [to, else, pronoun]
+  _tags:
+  - to
+  - else
+  - pronoun
   propagate_case: true
   allow_duplicate: false
-  triggers: ['mkt,']
+  trigger: mkt,
 - replace: 'have it '
-  _tags: [pronoun, the, to, else, have]
+  _tags:
+  - pronoun
+  - the
+  - to
+  - else
+  - have
   allow_duplicate: true
   propagate_case: true
-  triggers: ['hax,']
+  trigger: hax,
 - replace: 'have it '
-  _tags: [pronoun, the, to, else, have]
+  _tags:
+  - pronoun
+  - the
+  - to
+  - else
+  - have
   allow_duplicate: true
   propagate_case: true
-  triggers: ['hatx,']
+  trigger: hatx,
 - replace: 'have it been '
-  _tags: [pronoun, the, to, be, else, have]
+  _tags:
+  - pronoun
+  - the
+  - to
+  - be
+  - else
+  - have
   propagate_case: true
   allow_duplicate: false
-  triggers: ['hatb,']
+  trigger: hatb,
 - replace: 'multiple times '
-  _tags: [time, to, else, pronoun]
+  _tags:
+  - time
+  - to
+  - else
+  - pronoun
   propagate_case: true
   allow_duplicate: false
-  triggers: ['mult,']
+  trigger: mult,
 - replace: 'many times '
-  _tags: [time, to, else, pronoun]
+  _tags:
+  - time
+  - to
+  - else
+  - pronoun
   propagate_case: true
   allow_duplicate: false
-  triggers: ['mat,']
+  trigger: mat,
 - replace: 'must '
-  _tags: [modal, to, else, software_dev]
+  _tags:
+  - modal
+  - to
+  - else
+  - software_dev
   allow_duplicate: true
   propagate_case: true
-  triggers: ['ms,']
+  trigger: ms,
 - replace: 'must be '
-  _tags: [modal, be, to, else, software_dev]
+  _tags:
+  - modal
+  - be
+  - to
+  - else
+  - software_dev
   propagate_case: true
   allow_duplicate: false
-  triggers: ['mub,']
+  trigger: mub,
 - replace: 'must not be '
-  _tags: [modal, be, negate, to, else, software_dev]
+  _tags:
+  - modal
+  - be
+  - negate
+  - to
+  - else
+  - software_dev
   propagate_case: true
   allow_duplicate: false
-  triggers: ['munb,']
+  trigger: munb,
 - replace: 'must have '
-  _tags: [modal, have, to, else, software_dev]
+  _tags:
+  - modal
+  - have
+  - to
+  - else
+  - software_dev
   propagate_case: true
   allow_duplicate: false
-  triggers: ['mha,']
+  trigger: mha,
 - replace: 'must not have '
-  _tags: [modal, have, negate, to, else, software_dev]
+  _tags:
+  - modal
+  - have
+  - negate
+  - to
+  - else
+  - software_dev
   propagate_case: true
   allow_duplicate: false
-  triggers: ['mnha,']
+  trigger: mnha,
 - replace: 'have the '
-  _tags: [have, the, to, else]
+  _tags:
+  - have
+  - the
+  - to
+  - else
   allow_duplicate: true
   propagate_case: true
-  triggers: ['hah,']
+  trigger: hah,
 - replace: 'not have the '
-  _tags: [have, the, negate, to, else]
+  _tags:
+  - have
+  - the
+  - negate
+  - to
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['nhah,']
+  trigger: nhah,
 - replace: 'must this '
-  _tags: [modal, demonstrative, to, else, software_dev]
+  _tags:
+  - modal
+  - demonstrative
+  - to
+  - else
+  - software_dev
   propagate_case: true
   allow_duplicate: false
-  triggers: ['msiz,']
+  trigger: msiz,
 - replace: 'must that '
-  _tags: [modal, demonstrative, to, else, software_dev]
+  _tags:
+  - modal
+  - demonstrative
+  - to
+  - else
+  - software_dev
   propagate_case: true
   allow_duplicate: false
-  triggers: ['msaz,']
+  trigger: msaz,
 - replace: 'must these '
-  _tags: [modal, demonstrative, to, else, software_dev]
+  _tags:
+  - modal
+  - demonstrative
+  - to
+  - else
+  - software_dev
   propagate_case: true
   allow_duplicate: false
-  triggers: ['msez,']
+  trigger: msez,
 - replace: 'must those '
-  _tags: [modal, demonstrative, to, else, software_dev]
+  _tags:
+  - modal
+  - demonstrative
+  - to
+  - else
+  - software_dev
   propagate_case: true
   allow_duplicate: false
-  triggers: ['msoz,']
+  trigger: msoz,
 - replace: 'must be this '
-  _tags: [modal, be, demonstrative, to, else, software_dev]
+  _tags:
+  - modal
+  - be
+  - demonstrative
+  - to
+  - else
+  - software_dev
   propagate_case: true
   allow_duplicate: false
-  triggers: ['mubiz,']
+  trigger: mubiz,
 - replace: 'must be that '
-  _tags: [modal, be, demonstrative, to, else, software_dev]
+  _tags:
+  - modal
+  - be
+  - demonstrative
+  - to
+  - else
+  - software_dev
   propagate_case: true
   allow_duplicate: false
-  triggers: ['mubaz,']
+  trigger: mubaz,
 - replace: 'must be these '
-  _tags: [modal, be, demonstrative, to, else, software_dev]
+  _tags:
+  - modal
+  - be
+  - demonstrative
+  - to
+  - else
+  - software_dev
   propagate_case: true
   allow_duplicate: false
-  triggers: ['mubez,']
+  trigger: mubez,
 - replace: 'must be those '
-  _tags: [modal, be, demonstrative, to, else, software_dev]
+  _tags:
+  - modal
+  - be
+  - demonstrative
+  - to
+  - else
+  - software_dev
   propagate_case: true
   allow_duplicate: false
-  triggers: ['muboz,']
+  trigger: muboz,
 - replace: 'so many '
   propagate_case: true
   allow_duplicate: false
-  triggers: ['sma,']
+  trigger: sma,
 - replace: 'so much '
   propagate_case: true
   allow_duplicate: false
-  triggers: ['smu,']
+  trigger: smu,
 - replace: 'not many '
   propagate_case: true
   allow_duplicate: false
-  triggers: ['nma,']
+  trigger: nma,
 - replace: 'not much '
   propagate_case: true
   allow_duplicate: false
-  triggers: ['nmu,']
+  trigger: nmu,
 - replace: 'too many '
   propagate_case: true
   allow_duplicate: false
-  triggers: ['tma,']
+  trigger: tma,
 - replace: 'too much '
   propagate_case: true
   allow_duplicate: false
-  triggers: ['tmu,']
+  trigger: tmu,
 - replace: 'not so many '
   propagate_case: true
   allow_duplicate: false
-  triggers: ['nsma,']
+  trigger: nsma,
 - replace: 'not so much '
   propagate_case: true
   allow_duplicate: false
-  triggers: ['nsmu,']
+  trigger: nsmu,
 - replace: 'not too many '
   propagate_case: true
   allow_duplicate: false
-  triggers: ['ntma,']
+  trigger: ntma,
 - replace: 'not too much '
   propagate_case: true
   allow_duplicate: false
-  triggers: ['ntmu,']
+  trigger: ntmu,
 - replace: 'side by side '
   propagate_case: true
   allow_duplicate: false
-  triggers: ['sbs,']
+  trigger: sbs,
 - replace: 'safe guard '
   propagate_case: true
   allow_duplicate: false
-  triggers: ['sgau,']
+  trigger: sgau,
 - replace: 'guardrails '
   propagate_case: true
   allow_duplicate: false
-  triggers: ['gauw,']
+  trigger: gauw,
 - replace: 'precommit hook '
   allow_duplicate: true
   propagate_case: true
-  triggers: ['pqmih,']
+  trigger: pqmih,
 - replace: 'seems like '
-  _tags: [else]
+  _tags:
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: [selk`]
+  trigger: selk`
 - replace: 'be better '
-  _tags: [phrase, be, comparative, else]
+  _tags:
+  - phrase
+  - be
+  - comparative
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: [bbt`]
+  trigger: bbt`
 - replace: 'be worse '
-  _tags: [phrase, be, comparative, else]
+  _tags:
+  - phrase
+  - be
+  - comparative
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: [bws`]
+  trigger: bws`
+- replace: 'verifier loop '
+  propagate_case: true
+  allow_duplicate: false
+  trigger: jewilo,
+- replace: 'callsout '
+  propagate_case: true
+  allow_duplicate: false
+  trigger: ca`
+- replace: 'to be done '
+  propagate_case: true
+  allow_duplicate: false
+  trigger: 2bdn`
+- replace: 'to do it for me '
+  propagate_case: true
+  allow_duplicate: false
+  trigger: 2ux4m`
+- replace: 'at the same time '
+  propagate_case: true
+  allow_duplicate: false
+  trigger: '@hst`'
+- replace: 'at first '
+  propagate_case: true
+  allow_duplicate: false
+  trigger: '@f`'
+- replace: 'at least '
+  propagate_case: true
+  allow_duplicate: false
+  trigger: '@l`'
+- replace: 'at most '
+  propagate_case: true
+  allow_duplicate: false
+  trigger: '@m`'
+- replace: 'at all '
+  propagate_case: true
+  allow_duplicate: false
+  trigger: '@a`'
+- replace: 'at once '
+  propagate_case: true
+  allow_duplicate: false
+  trigger: '@o`'
+- replace: 'at last '
+  propagate_case: true
+  allow_duplicate: false
+  trigger: '@la`'
+- replace: 'at this point '
+  propagate_case: true
+  allow_duplicate: false
+  trigger: '@tp`'
+- replace: 'at the moment '
+  propagate_case: true
+  allow_duplicate: false
+  trigger: '@tm`'
+- replace: 'at the end '
+  propagate_case: true
+  allow_duplicate: false
+  trigger: '@te`'

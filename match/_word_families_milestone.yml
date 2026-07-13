@@ -1,32 +1,36 @@
-# ⚠️  WARNING: AUTO-GENERATED FILE - DO NOT EDIT DIRECTLY!
-# This file is generated from word_version by:
-#   scripts/convert_to_tokenized_word_version.py
-# Edit source in space_version and re-run conversions.
-# Tokenizes trailing spaces in triggers to an explicit token.
-# Removes right_word property for tokenized version.
-# Adds trailing space to replacements that don't have one.
-# Current token: ','
-
-name: word-families-milestone
-parent: default
+name: _word_families_milestone
 matches:
 - replace: 'milestone '
-  _tags: [noun, to, else]
+  _tags:
+  - noun
+  - to
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['mil,']
+  trigger: mil,
 - replace: 'milestones '
-  _tags: [noun, to, else]
+  _tags:
+  - noun
+  - to
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['mils,']
+  trigger: mils,
 - replace: 'milestoning '
-  _tags: [ing, noun, to, else]
+  _tags:
+  - ing
+  - noun
+  - to
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['mili,']
+  trigger: mili,
 - replace: 'milestoned '
-  _tags: [ed, would, to, else]
+  _tags:
+  - ed
+  - would
+  - to
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['milp,']
+  trigger: milp,

@@ -1,32 +1,37 @@
-# ⚠️  WARNING: AUTO-GENERATED FILE - DO NOT EDIT DIRECTLY!
-# This file is generated from word_version by:
-#   scripts/convert_to_tokenized_word_version.py
-# Edit source in space_version and re-run conversions.
-# Tokenizes trailing spaces in triggers to an explicit token.
-# Removes right_word property for tokenized version.
-# Adds trailing space to replacements that don't have one.
-# Current token: ','
-
-name: word-families-proxy
-parent: default
+name: _word_families_proxy
 matches:
 - replace: 'proxy '
-  _tags: [noun, technical, network]
+  _tags:
+  - noun
+  - technical
+  - network
   propagate_case: true
   allow_duplicate: false
-  triggers: ['pwx,']
+  trigger: pwx,
 - replace: 'proxies '
-  _tags: [noun, plural, technical, network]
+  _tags:
+  - noun
+  - plural
+  - technical
+  - network
   propagate_case: true
   allow_duplicate: false
-  triggers: ['pwxs,']
+  trigger: pwxs,
 - replace: 'proxying '
-  _tags: [verb, ing, technical, network]
+  _tags:
+  - verb
+  - ing
+  - technical
+  - network
   propagate_case: true
   allow_duplicate: false
-  triggers: ['pwxi,']
+  trigger: pwxi,
 - replace: 'proxied '
-  _tags: [verb, ed, technical, network]
+  _tags:
+  - verb
+  - ed
+  - technical
+  - network
   propagate_case: true
   allow_duplicate: false
-  triggers: ['pwxp,']
+  trigger: pwxp,

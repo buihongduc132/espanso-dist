@@ -1,112 +1,122 @@
-# ⚠️  WARNING: AUTO-GENERATED FILE - DO NOT EDIT DIRECTLY!
-# This file is generated from word_version by:
-#   scripts/convert_to_tokenized_word_version.py
-# Edit source in space_version and re-run conversions.
-# Tokenizes trailing spaces in triggers to an explicit token.
-# Removes right_word property for tokenized version.
-# Adds trailing space to replacements that don't have one.
-# Current token: ','
-
 matches:
 - replace: 'then only '
-  _tags: [adjective]
+  _tags:
+  - adjective
   propagate_case: true
   allow_duplicate: false
-  triggers: ['nzonly,']
+  trigger: nzonly,
 - replace: 'then real '
-  _tags: [adjective]
+  _tags:
+  - adjective
   propagate_case: true
   allow_duplicate: false
-  triggers: ['nzreal,']
+  trigger: nzreal,
 - replace: 'then correctly '
-  _tags: [adjective]
+  _tags:
+  - adjective
   propagate_case: true
   allow_duplicate: false
-  triggers: ['nzcorrectly,']
+  trigger: nzcorrectly,
 - replace: 'then gswal '
-  _tags: [adjective]
+  _tags:
+  - adjective
   propagate_case: true
   allow_duplicate: false
-  triggers: ['nzgswal,']
+  trigger: nzgswal,
 - replace: 'then give '
-  _tags: [adjective]
+  _tags:
+  - adjective
   propagate_case: true
   allow_duplicate: false
-  triggers: ['nzgive,']
+  trigger: nzgive,
 - replace: 'then local '
-  _tags: [adjective]
+  _tags:
+  - adjective
   propagate_case: true
   allow_duplicate: false
-  triggers: ['nzlocal,']
+  trigger: nzlocal,
 - replace: 'then currently '
-  _tags: [adjective]
+  _tags:
+  - adjective
   propagate_case: true
   allow_duplicate: false
-  triggers: ['nzcurrently,']
+  trigger: nzcurrently,
 - replace: 'then goal '
-  _tags: [adjective]
+  _tags:
+  - adjective
   propagate_case: true
   allow_duplicate: false
-  triggers: ['nzgoal,']
+  trigger: nzgoal,
 - replace: 'then manual '
-  _tags: [adjective]
+  _tags:
+  - adjective
   propagate_case: true
   allow_duplicate: false
-  triggers: ['nzmanual,']
+  trigger: nzmanual,
 - replace: 'then live '
-  _tags: [adjective]
+  _tags:
+  - adjective
   propagate_case: true
   allow_duplicate: false
-  triggers: ['nzlive,']
+  trigger: nzlive,
 - replace: 'then family '
-  _tags: [adjective]
+  _tags:
+  - adjective
   propagate_case: true
   allow_duplicate: false
-  triggers: ['nzfamily,']
+  trigger: nzfamily,
 - replace: 'then really '
-  _tags: [adjective]
+  _tags:
+  - adjective
   propagate_case: true
   allow_duplicate: false
-  triggers: ['nzreally,']
+  trigger: nzreally,
 - replace: 'then exactly '
-  _tags: [adjective]
+  _tags:
+  - adjective
   propagate_case: true
   allow_duplicate: false
-  triggers: ['nzexactly,']
+  trigger: nzexactly,
 - replace: 'then active '
-  _tags: [adjective]
+  _tags:
+  - adjective
   propagate_case: true
   allow_duplicate: false
-  triggers: ['nzactive,']
+  trigger: nzactive,
 - replace: 'then wal '
-  _tags: [adjective]
+  _tags:
+  - adjective
   propagate_case: true
   allow_duplicate: false
-  triggers: ['nzwal,']
+  trigger: nzwal,
 - replace: 'then fully '
-  _tags: [adjective]
+  _tags:
+  - adjective
   propagate_case: true
   allow_duplicate: false
-  triggers: ['nzfully,']
+  trigger: nzfully,
 - replace: 'then explicitly '
-  _tags: [adjective]
+  _tags:
+  - adjective
   propagate_case: true
   allow_duplicate: false
-  triggers: ['nzexplicitly,']
+  trigger: nzexplicitly,
 - replace: 'then normal '
-  _tags: [adjective]
+  _tags:
+  - adjective
   propagate_case: true
   allow_duplicate: false
-  triggers: ['nznormal,']
+  trigger: nznormal,
 - replace: 'then easily '
-  _tags: [adjective]
+  _tags:
+  - adjective
   propagate_case: true
   allow_duplicate: false
-  triggers: ['nzeasily,']
+  trigger: nzeasily,
 - replace: 'then clearly '
-  _tags: [adjective]
+  _tags:
+  - adjective
   propagate_case: true
   allow_duplicate: false
-  triggers: ['nzclearly,']
-name: auto_then_adjs_nz
-parent: default
+  trigger: nzclearly,
+name: _auto_then_adjs_nz

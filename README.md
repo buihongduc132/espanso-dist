@@ -1,73 +1,68 @@
 # espanso-dist
 
-Standalone espanso trigger pack — 13,000+ word family triggers for fast typing.
-Install on any machine without cloning the source espanso-config repository.
+Standalone espanso trigger pack — **15,000+ word family triggers** for fast typing, plus a one-shot installer that installs espanso itself and deploys the config on any OS.
 
 > **Source of truth**: [espanso-config](https://github.com/buihongduc132/espanso-config)
-> This repo is auto-generated from `word_version_tokenized/` via `mise run espanso-dist-push`.
+> This repo is the published `dist/` artifact, regenerated via `mise run espanso-dist` then synced here.
 
-## Quick Install
+## Quick Install (one command)
+
+The installer does **everything**: installs espanso (if missing), clones this repo, deploys the config + 15k triggers, starts espanso, and verifies triggers loaded.
 
 ```bash
-# Public access (set GITHUB_TOKEN for private repos)
+curl -sL https://raw.githubusercontent.com/buihongduc132/espanso-dist/main/install.sh | bash
+```
+
+For private repos / to avoid rate limits, set `GITHUB_TOKEN`:
+
+```bash
 GITHUB_TOKEN=ghp_xxx curl -sL https://raw.githubusercontent.com/buihongduc132/espanso-dist/main/install.sh | bash
 ```
 
-## TUI Installer
+### What the installer does (idempotent — safe to re-run)
 
-The installer runs an interactive TUI that:
-
-- **Detects OS** (Linux / macOS / Windows) and arch automatically
-- **Locates espanso** binary and config dir (XDG, Flatpak, Homebrew, AppImage, etc.)
-- **Raises clear errors** with troubleshooting hints when something is wrong
-- **Suggests mise task** for future automated updates
-
-```
-╔══════════════════════════════════════════════════════════╗
-║            bhd-trigger-pack  Installer                  ║
-║            vlinux · x86_64 · espanso triggers            ║
-╚══════════════════════════════════════════════════════════╝
-
-━━━ System Detection ━━━
-  ✔ OS:     linux (Linux)
-  ✔ Arch:   x86_64
-  ✔ Shell:  /bin/zsh
-  ✔ Espanso binary:     ~/.local/bin/espanso
-  ✔ Espanso version:    espanso 2.3.0
-  ✔ HTTP client:        curl
-```
+1. **Detects OS + arch** (Linux / macOS / Windows) and the espanso config dir.
+2. **Installs espanso** if the binary is missing:
+   - Linux: official install script → `.deb` → AppImage fallback
+   - macOS: Homebrew → official `.zip`
+   - Windows: official `Espanso-Win-Installer-x86_64.exe`
+3. **Clones / pulls** this repo into `~/.config/espanso/espanso-dist-clone/`.
+4. **Deploys** `match/*.yml` (flat) + `config/default.yml`.
+5. **Starts / restarts** espanso (systemd on Linux, CLI on macOS/Windows).
+6. **Verifies** the trigger count loaded at runtime.
 
 ## Commands
 
-| Command                          | Description                                |
-| -------------------------------- | ------------------------------------------ |
-| `./install.sh`                   | Interactive TUI install                    |
-| `./install.sh --update`          | Check for updates, download if newer       |
-| `./install.sh --force`           | Force reinstall                            |
-| `./install.sh --non-interactive` | Skip all prompts, use defaults             |
-| `./install.sh --version`         | Show installed version                     |
-| `./install.sh --uninstall`       | Remove all trigger pack files              |
-| `./install.sh --mise`            | Print mise task snippet for future updates |
+| Command                                     | Description                                         |
+| ------------------------------------------- | --------------------------------------------------- |
+| `./install.sh`                              | Interactive install (espanso + config + verify)     |
+| `./install.sh --update`                     | Pull + redeploy if a newer version exists           |
+| `./install.sh --force`                      | Force full reinstall                                |
+| `./install.sh --non-interactive`            | Skip all prompts, use defaults (for CI / scripts)   |
+| `./install.sh --version`                    | Show installed version                              |
+| `./install.sh --uninstall`                  | Remove the trigger pack (keeps the espanso binary)  |
+| `./install.sh --skip-espanso-install`       | Deploy config only, don't install espanso           |
+| `./install.sh --help`                       | Show help                                           |
 
 ## Self-Update
 
-After initial install, the installer saves itself for future updates:
+After the first install, the installer is saved to `~/.config/espanso/install.sh` for future updates:
 
 ```bash
-# Update from saved installer
+# Interactive update
 ~/.config/espanso/install.sh --update
 
-# Non-interactive (for scripts / CI)
+# Non-interactive (for cron / CI)
 ~/.config/espanso/install.sh --update --non-interactive
 ```
 
-## Wire as mise Task (Recommended)
+## Wire as a mise Task (optional)
 
-The installer prints a ready-to-use mise task snippet. Add this to your `mise.toml`:
+Add to your `mise.toml` to keep the trigger pack in sync automatically:
 
 ```toml
 [tasks.espanso-sync]
-description = "Update bhd-trigger-pack from GitHub"
+description = "Update bhd trigger-pack from GitHub"
 run = "bash ~/.config/espanso/install.sh --update --non-interactive"
 ```
 
@@ -75,11 +70,12 @@ Then: `mise run espanso-sync`
 
 ## Env Overrides
 
-| Variable                | Description                      | Default                      |
-| ----------------------- | -------------------------------- | ---------------------------- |
-| `BHD_TRIGGER_PACK_REPO` | Custom GitHub repo               | `buihongduc132/espanso-dist` |
-| `ESPANSO_CONFIG_DIR`    | Custom espanso config dir        | auto-detected per OS         |
-| `GITHUB_TOKEN`          | GitHub token (for private repos) | none                         |
+| Variable                  | Description                              | Default                      |
+| ------------------------- | ---------------------------------------- | ---------------------------- |
+| `BHD_TRIGGER_PACK_REPO`   | Custom GitHub repo (`owner/name`)        | `buihongduc132/espanso-dist` |
+| `ESPANSO_CONFIG_DIR`      | Custom espanso config dir                | auto-detected per OS         |
+| `ESPANSO_VERSION`         | Pin espanso release tag (e.g. `v2.3.0`)  | latest release               |
+| `GITHUB_TOKEN`            | GitHub token (private repos / rate limit)| none                         |
 
 ## Trigger Examples
 
@@ -101,15 +97,16 @@ Then: `mise run espanso-sync`
 ```
 ~/.config/espanso/
 ├── config/
-│   └── default.yml          # espanso config (keyboard, includes, backend)
+│   └── default.yml              # espanso runtime config (keyboard, includes, backend)
 ├── match/
-│   ├── _word_families_*.yml # word family triggers
-│   ├── _exx_*.yml           # super-extended family triggers
-│   ├── _phrases*.yml        # phrase triggers
-│   ├── _1char.yml           # single-char foundations
-│   └── ...                  # 290+ match files
-├── install.sh               # saved installer for self-update
-└── .trigger-pack-version    # installed version
+│   ├── _word_families_*.yml     # word family triggers
+│   ├── _exx_*.yml               # super-extended family triggers
+│   ├── _phrases*.yml            # phrase triggers
+│   ├── _1char.yml               # single-char foundations
+│   └── ...                      # 340+ match files, 15,000+ triggers
+├── espanso-dist-clone/          # cached clone of this repo (for --update)
+├── install.sh                   # saved installer for self-update
+└── .trigger-pack-version        # installed version stamp
 ```
 
 ## License

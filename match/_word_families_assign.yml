@@ -1,0 +1,192 @@
+name: _word_families_assign
+matches:
+- replace: 'assign '
+  _tags:
+  - noun
+  - verb
+  - to
+  - else
+  propagate_case: true
+  allow_duplicate: false
+  trigger: asi,
+- replace: 'assigns '
+  _tags:
+  - noun
+  - plural
+  - verb
+  - to
+  - else
+  propagate_case: true
+  allow_duplicate: false
+  trigger: asis,
+- replace: 'assigning '
+  _tags:
+  - ing
+  - verb
+  - to
+  - else
+  propagate_case: true
+  allow_duplicate: false
+  trigger: asii,
+- replace: 'assigned '
+  _tags:
+  - ed
+  - verb
+  - to
+  - else
+  propagate_case: true
+  allow_duplicate: false
+  trigger: asip,
+- replace: 'assignment '
+  _tags:
+  - noun
+  - to
+  - else
+  propagate_case: true
+  allow_duplicate: false
+  trigger: asim,
+- replace: 'assignments '
+  _tags:
+  - noun
+  - plural
+  - to
+  - else
+  propagate_case: true
+  allow_duplicate: false
+  trigger: asims,
+- replace: 'this assign '
+  _tags:
+  - demonstrative
+  - th_foundation
+  propagate_case: true
+  allow_duplicate: false
+  trigger: izasi,
+- replace: 'that assign '
+  _tags:
+  - demonstrative
+  - th_foundation
+  propagate_case: true
+  allow_duplicate: false
+  trigger: azasi,
+- replace: 'these assigns '
+  _tags:
+  - demonstrative
+  - th_foundation
+  - plural
+  propagate_case: true
+  allow_duplicate: false
+  trigger: ezasis,
+- replace: 'those assigns '
+  _tags:
+  - demonstrative
+  - th_foundation
+  - plural
+  propagate_case: true
+  allow_duplicate: false
+  trigger: ozasis,
+- replace: 'assign this '
+  _tags:
+  - demonstrative
+  - th_foundation
+  propagate_case: true
+  allow_duplicate: false
+  trigger: asiiz,
+- replace: 'assign that '
+  _tags:
+  - demonstrative
+  - th_foundation
+  propagate_case: true
+  allow_duplicate: false
+  trigger: asiaz,
+- replace: 'assign these '
+  _tags:
+  - demonstrative
+  - th_foundation
+  propagate_case: true
+  allow_duplicate: false
+  trigger: asiez,
+- replace: 'assign those '
+  _tags:
+  - demonstrative
+  - th_foundation
+  propagate_case: true
+  allow_duplicate: false
+  trigger: asioz,
+- replace: 'assign it '
+  _tags:
+  - pronoun
+  propagate_case: true
+  allow_duplicate: false
+  trigger: asiit,
+- replace: 'assign them '
+  _tags:
+  - pronoun
+  propagate_case: true
+  allow_duplicate: false
+  trigger: asimm,
+- replace: 'assign the '
+  _tags:
+  - pronoun
+  propagate_case: true
+  allow_duplicate: false
+  trigger: asih,
+- replace: 'what assign '
+  _tags:
+  - question
+  propagate_case: true
+  allow_duplicate: false
+  trigger: wtasi,
+- replace: 'where assign '
+  _tags:
+  - question
+  propagate_case: true
+  allow_duplicate: false
+  trigger: wwasi,
+- replace: 'when assign '
+  _tags:
+  - question
+  propagate_case: true
+  allow_duplicate: false
+  trigger: wnasi,
+- replace: 'why assign '
+  _tags:
+  - question
+  propagate_case: true
+  allow_duplicate: false
+  trigger: wyasi,
+- replace: 'how assign '
+  _tags:
+  - question
+  propagate_case: true
+  allow_duplicate: false
+  trigger: hwasi,
+- replace: 'assign to the '
+  _tags:
+  - directional
+  propagate_case: true
+  allow_duplicate: false
+  trigger: asi2h,
+- replace: 'from the assign '
+  _tags:
+  - directional
+  propagate_case: true
+  allow_duplicate: false
+  trigger: 22hasi,
+- replace: 'from the assigns '
+  _tags:
+  - directional
+  propagate_case: true
+  allow_duplicate: false
+  trigger: 22hasis,
+- replace: 'assign have '
+  propagate_case: true
+  allow_duplicate: false
+  trigger: asiha,
+- replace: 'assign has '
+  propagate_case: true
+  allow_duplicate: false
+  trigger: asihass,
+- replace: 'then assign '
+  propagate_case: true
+  allow_duplicate: false
+  trigger: nzasi,

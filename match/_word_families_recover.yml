@@ -1,57 +1,86 @@
-# ⚠️  WARNING: AUTO-GENERATED FILE - DO NOT EDIT DIRECTLY!
-# This file is generated from word_version by:
-#   scripts/convert_to_tokenized_word_version.py
-# Edit source in space_version and re-run conversions.
-# Tokenizes trailing spaces in triggers to an explicit token.
-# Removes right_word property for tokenized version.
-# Adds trailing space to replacements that don't have one.
-# Current token: ','
-
-name: word-families-recover
-parent: default
+name: _word_families_recover
 matches:
 - replace: 'recover '
-  _tags: [to, can, else, verb]
+  _tags:
+  - to
+  - can
+  - else
+  - verb
   propagate_case: true
   allow_duplicate: false
-  triggers: ['weqo,']
+  trigger: weqo,
 - replace: 'recovers '
-  _tags: [to, can, else, verb]
+  _tags:
+  - to
+  - can
+  - else
+  - verb
   propagate_case: true
   allow_duplicate: false
-  triggers: ['weqos,']
+  trigger: weqos,
 - replace: 'recovering '
-  _tags: [ing, to, can, else, verb]
+  _tags:
+  - ing
+  - to
+  - can
+  - else
+  - verb
   propagate_case: true
   allow_duplicate: false
-  triggers: ['weqoi,']
+  trigger: weqoi,
 - replace: 'recovered '
-  _tags: [ed, would, to, can, else, verb]
+  _tags:
+  - ed
+  - would
+  - to
+  - can
+  - else
+  - verb
   propagate_case: true
   allow_duplicate: false
-  triggers: ['weqop,']
+  trigger: weqop,
 - replace: 'recovery '
-  _tags: [noun, to, can, else]
+  _tags:
+  - noun
+  - to
+  - can
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['weqom,']
+  trigger: weqom,
 - replace: 'recoveries '
-  _tags: [noun, to, can, else]
+  _tags:
+  - noun
+  - to
+  - can
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['weqoms,']
+  trigger: weqoms,
 - replace: 'recoverable '
-  _tags: [adjective, to, can, else]
+  _tags:
+  - adjective
+  - to
+  - can
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['weqob,']
+  trigger: weqob,
 - replace: 'recoverably '
-  _tags: [adverb, to, can, else]
+  _tags:
+  - adverb
+  - to
+  - can
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['weqobl,']
+  trigger: weqobl,
 - replace: 'recoverer '
-  _tags: [noun, to, can, else]
+  _tags:
+  - noun
+  - to
+  - can
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['weqor,']
+  trigger: weqor,

@@ -1,77 +1,101 @@
-# ⚠️  WARNING: AUTO-GENERATED FILE - DO NOT EDIT DIRECTLY!
-# This file is generated from word_version by:
-#   scripts/convert_to_tokenized_word_version.py
-# Edit source in space_version and re-run conversions.
-# Tokenizes trailing spaces in triggers to an explicit token.
-# Removes right_word property for tokenized version.
-# Adds trailing space to replacements that don't have one.
-# Current token: ','
-
-name: word-families-surface
-parent: default
+name: _word_families_surface
 matches:
 - replace: 'surface '
-  _tags: [to, else]
+  _tags:
+  - to
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['suwf,']
+  trigger: suwf,
 - replace: 'surfaces '
-  _tags: [to, else]
+  _tags:
+  - to
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['suwfs,']
+  trigger: suwfs,
 - replace: 'surfacing '
-  _tags: [ing, to, else]
+  _tags:
+  - ing
+  - to
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['suwfi,']
+  trigger: suwfi,
 - replace: 'surfaced '
-  _tags: [ed, to, else]
+  _tags:
+  - ed
+  - to
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['suwfp,']
+  trigger: suwfp,
 - replace: 'surfacor '
-  _tags: [noun, to, else]
+  _tags:
+  - noun
+  - to
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['suwfw,']
+  trigger: suwfw,
 - replace: 'surfacors '
-  _tags: [noun, to, else]
+  _tags:
+  - noun
+  - to
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['suwfws,']
+  trigger: suwfws,
 - replace: 'surfacement '
-  _tags: [noun, to, else]
+  _tags:
+  - noun
+  - to
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['suwfm,']
+  trigger: suwfm,
 - replace: 'surfaced '
-  _tags: [ed, to, else]
+  _tags:
+  - ed
+  - to
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['suwfl,']
+  trigger: suwfl,
 - replace: 'surfacedly '
-  _tags: [to, else]
+  _tags:
+  - to
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['suwfll,']
+  trigger: suwfll,
 - replace: 'surfaceity '
-  _tags: [noun, to, else]
+  _tags:
+  - noun
+  - to
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['suwfly,']
+  trigger: suwfly,
 - replace: 'surfaceities '
-  _tags: [noun, to, else]
+  _tags:
+  - noun
+  - to
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['suwflys,']
+  trigger: suwflys,
 - replace: 'surfaceable '
-  _tags: [to, else]
+  _tags:
+  - to
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['suwfb,']
+  trigger: suwfb,
 - replace: 'surfaceably '
-  _tags: [to, else]
+  _tags:
+  - to
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['suwfbl,']
+  trigger: suwfbl,

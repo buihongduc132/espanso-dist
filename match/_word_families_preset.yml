@@ -1,0 +1,26 @@
+name: _word_families_preset
+matches:
+- replace: 'preset '
+  propagate_case: true
+  allow_duplicate: false
+  trigger: pwse,
+- replace: 'presets '
+  propagate_case: true
+  allow_duplicate: false
+  trigger: pwses,
+- replace: 'presetting '
+  propagate_case: true
+  allow_duplicate: false
+  trigger: pwsei,
+- replace: 'preset '
+  propagate_case: true
+  allow_duplicate: false
+  trigger: pwsep,
+- replace: 'presetion '
+  propagate_case: true
+  allow_duplicate: false
+  trigger: pwsem,
+- replace: 'presetable '
+  propagate_case: true
+  allow_duplicate: false
+  trigger: pwseb,

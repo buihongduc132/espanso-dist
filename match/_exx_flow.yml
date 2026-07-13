@@ -1,85 +1,131 @@
-# ⚠️  WARNING: AUTO-GENERATED FILE - DO NOT EDIT DIRECTLY!
-# This file is generated from word_version by:
-#   scripts/convert_to_tokenized_word_version.py
-# Edit source in space_version and re-run conversions.
-# Tokenizes trailing spaces in triggers to an explicit token.
-# Removes right_word property for tokenized version.
-# Adds trailing space to replacements that don't have one.
-# Current token: ','
-
 matches:
 - replace: 'flow '
-  _tags: [can, pronoun, else]
+  _tags:
+  - can
+  - pronoun
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['ow,']
+  trigger: ow,
 - replace: 'flows '
-  _tags: [can, pronoun, else]
+  _tags:
+  - can
+  - pronoun
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['ows,']
+  trigger: ows,
 - replace: 'flowing '
-  _tags: [ing, can, pronoun, else]
+  _tags:
+  - ing
+  - can
+  - pronoun
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['owi,']
+  trigger: owi,
 - replace: 'flowed '
-  _tags: [ed, would, can, pronoun, else]
+  _tags:
+  - ed
+  - would
+  - can
+  - pronoun
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['owp,']
+  trigger: owp,
 - replace: 'flow this '
-  _tags: [demonstrative, can, pronoun, else]
+  _tags:
+  - demonstrative
+  - can
+  - pronoun
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['owiz,']
+  trigger: owiz,
 - replace: 'flow that '
-  _tags: [demonstrative, can, pronoun, else, have]
+  _tags:
+  - demonstrative
+  - can
+  - pronoun
+  - else
+  - have
   propagate_case: true
   allow_duplicate: false
-  triggers: ['owaz,']
+  trigger: owaz,
 - replace: 'flow these '
-  _tags: [demonstrative, can, pronoun, else]
+  _tags:
+  - demonstrative
+  - can
+  - pronoun
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['owez,']
+  trigger: owez,
 - replace: 'flow those '
-  _tags: [demonstrative, can, pronoun, else]
+  _tags:
+  - demonstrative
+  - can
+  - pronoun
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['owoz,']
+  trigger: owoz,
 - replace: 'flow the '
-  _tags: [the, can, pronoun, else]
+  _tags:
+  - the
+  - can
+  - pronoun
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['owh,']
+  trigger: owh,
 - replace: 'flow all '
-  _tags: [can, pronoun, else]
+  _tags:
+  - can
+  - pronoun
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['owa,']
+  trigger: owa,
 - replace: 'flow some '
-  _tags: [can, pronoun, else]
+  _tags:
+  - can
+  - pronoun
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['owsm,']
+  trigger: owsm,
 - replace: 'flow each '
-  _tags: [can, pronoun, else]
+  _tags:
+  - can
+  - pronoun
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['oweh,']
+  trigger: oweh,
 - replace: 'flow for '
-  _tags: [can, pronoun, else]
+  _tags:
+  - can
+  - pronoun
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['owf,']
+  trigger: owf,
 - replace: 'flow with '
-  _tags: [can, pronoun, else]
+  _tags:
+  - can
+  - pronoun
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['oww,']
+  trigger: oww,
 - replace: 'flow of '
-  _tags: [can, pronoun, else]
+  _tags:
+  - can
+  - pronoun
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['owo,']
+  trigger: owo,
+name: _exx_flow

@@ -1,0 +1,96 @@
+name: _exact_word_families_2
+matches:
+- replace: 'suggester '
+  _tags:
+  - to
+  - else
+  propagate_case: true
+  allow_duplicate: false
+  trigger: suggw,
+- replace: 'suggested '
+  _tags:
+  - ed
+  - to
+  - else
+  - would
+  propagate_case: true
+  allow_duplicate: false
+  trigger: suggp,
+- replace: 'suggesting '
+  _tags:
+  - ing
+  - to
+  - else
+  - pronoun
+  propagate_case: true
+  allow_duplicate: false
+  trigger: suggi,
+- replace: 'suggests '
+  _tags:
+  - to
+  - else
+  propagate_case: true
+  allow_duplicate: false
+  trigger: suggs,
+- replace: 'suggestion '
+  _tags:
+  - noun
+  - to
+  - else
+  - pronoun
+  propagate_case: true
+  allow_duplicate: false
+  trigger: suggm,
+- replace: 'suggestive '
+  _tags:
+  - to
+  - else
+  - pronoun
+  propagate_case: true
+  allow_duplicate: false
+  trigger: suggj,
+- replace: 'suggestively '
+  _tags:
+  - to
+  - else
+  - pronoun
+  propagate_case: true
+  allow_duplicate: false
+  trigger: suggl,
+- replace: 'fixes '
+  _tags:
+  - pronoun
+  - else
+  propagate_case: true
+  allow_duplicate: false
+  trigger: fixs,
+- replace: 'fixed '
+  _tags:
+  - ed
+  - would
+  - else
+  - pronoun
+  propagate_case: true
+  allow_duplicate: false
+  trigger: fixp,
+- replace: 'fixing '
+  _tags:
+  - pronoun
+  - ing
+  propagate_case: true
+  allow_duplicate: false
+  trigger: fixi,
+- replace: 'fixable '
+  _tags:
+  - pronoun
+  - else
+  propagate_case: true
+  allow_duplicate: false
+  trigger: fixj,
+- replace: 'fixer '
+  _tags:
+  - pronoun
+  - else
+  propagate_case: true
+  allow_duplicate: false
+  trigger: fixw,

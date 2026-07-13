@@ -1,72 +1,104 @@
-# ⚠️  WARNING: AUTO-GENERATED FILE - DO NOT EDIT DIRECTLY!
-# This file is generated from word_version by:
-#   scripts/convert_to_tokenized_word_version.py
-# Edit source in space_version and re-run conversions.
-# Tokenizes trailing spaces in triggers to an explicit token.
-# Removes right_word property for tokenized version.
-# Adds trailing space to replacements that don't have one.
-# Current token: ','
-
-name: should-able
-parent: default
+name: _should_able
 matches:
 - replace: 'should be able '
-  _tags: [should, able, to]
+  _tags:
+  - should
+  - able
+  - to
   propagate_case: true
   allow_duplicate: false
-  triggers: ['soubab,']
+  trigger: soubab,
 - replace: 'should be able to '
-  _tags: [should, able, to]
+  _tags:
+  - should
+  - able
+  - to
   propagate_case: true
   allow_duplicate: false
-  triggers: ['soubab2,']
+  trigger: soubab2,
 - replace: 'should not be able '
-  _tags: [should, able, negate, to]
+  _tags:
+  - should
+  - able
+  - negate
+  - to
   propagate_case: true
   allow_duplicate: false
-  triggers: ['sounbab,']
+  trigger: sounbab,
 - replace: 'should not be able to '
-  _tags: [should, able, negate, to]
+  _tags:
+  - should
+  - able
+  - negate
+  - to
   propagate_case: true
   allow_duplicate: false
-  triggers: ['sounbab2,']
+  trigger: sounbab2,
 - replace: 'could be able '
-  _tags: [could, able, to]
+  _tags:
+  - could
+  - able
+  - to
   propagate_case: true
   allow_duplicate: false
-  triggers: ['qoubab,']
+  trigger: qoubab,
 - replace: 'could be able to '
-  _tags: [could, able, to]
+  _tags:
+  - could
+  - able
+  - to
   propagate_case: true
   allow_duplicate: false
-  triggers: ['qoubab2,']
+  trigger: qoubab2,
 - replace: 'could not be able '
-  _tags: [could, able, negate, to]
+  _tags:
+  - could
+  - able
+  - negate
+  - to
   propagate_case: true
   allow_duplicate: false
-  triggers: ['qounbb,']
+  trigger: qounbb,
 - replace: 'could not be able to '
-  _tags: [could, able, negate, to]
+  _tags:
+  - could
+  - able
+  - negate
+  - to
   propagate_case: true
   allow_duplicate: false
-  triggers: ['qounbb2,']
+  trigger: qounbb2,
 - replace: 'would be able '
-  _tags: [would, able, to]
+  _tags:
+  - would
+  - able
+  - to
   propagate_case: true
   allow_duplicate: false
-  triggers: ['woubab,']
+  trigger: woubab,
 - replace: 'would be able to '
-  _tags: [would, able, to]
+  _tags:
+  - would
+  - able
+  - to
   propagate_case: true
   allow_duplicate: false
-  triggers: ['woubab2,']
+  trigger: woubab2,
 - replace: 'would not be able '
-  _tags: [would, able, negate, to]
+  _tags:
+  - would
+  - able
+  - negate
+  - to
   propagate_case: true
   allow_duplicate: false
-  triggers: ['wounbb,']
+  trigger: wounbb,
 - replace: 'would not be able to '
-  _tags: [would, able, negate, to]
+  _tags:
+  - would
+  - able
+  - negate
+  - to
   propagate_case: true
   allow_duplicate: false
-  triggers: ['wounbb2,']
+  trigger: wounbb2,

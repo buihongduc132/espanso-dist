@@ -1,0 +1,129 @@
+name: _word_families_diagnose
+matches:
+- replace: 'diagnose '
+  _tags:
+  - verb
+  - else
+  propagate_case: true
+  allow_duplicate: false
+  trigger: diag,
+- replace: 'diagnoses '
+  _tags:
+  - verb
+  - noun
+  - else
+  propagate_case: true
+  allow_duplicate: false
+  trigger: diags,
+- replace: 'diagnosing '
+  _tags:
+  - ing
+  - verb
+  - else
+  propagate_case: true
+  allow_duplicate: false
+  trigger: diagi,
+- replace: 'diagnosed '
+  _tags:
+  - ed
+  - verb
+  - else
+  propagate_case: true
+  allow_duplicate: false
+  trigger: diagp,
+- replace: 'diagnosis '
+  _tags:
+  - noun
+  - else
+  propagate_case: true
+  allow_duplicate: false
+  trigger: diagm,
+- replace: 'diagnoser '
+  _tags:
+  - noun
+  - else
+  propagate_case: true
+  allow_duplicate: false
+  trigger: diagw,
+- replace: 'diagnostic '
+  _tags:
+  - adjective
+  - noun
+  - else
+  propagate_case: true
+  allow_duplicate: false
+  trigger: diagj,
+- replace: 'diagnostically '
+  _tags:
+  - adverb
+  - else
+  propagate_case: true
+  allow_duplicate: false
+  trigger: diagjl,
+- replace: 'diagnostics '
+  _tags:
+  - noun
+  - else
+  propagate_case: true
+  allow_duplicate: false
+  trigger: diagjs,
+- replace: 'diagnosable '
+  _tags:
+  - adjective
+  - else
+  propagate_case: true
+  allow_duplicate: false
+  trigger: diagb,
+- replace: 'misdiagnose '
+  _tags:
+  - verb
+  - else
+  propagate_case: true
+  allow_duplicate: false
+  trigger: mdiag,
+- replace: 'misdiagnoses '
+  _tags:
+  - verb
+  - noun
+  - else
+  propagate_case: true
+  allow_duplicate: false
+  trigger: mdiags,
+- replace: 'misdiagnosing '
+  _tags:
+  - ing
+  - verb
+  - else
+  propagate_case: true
+  allow_duplicate: false
+  trigger: mdiagi,
+- replace: 'misdiagnosed '
+  _tags:
+  - ed
+  - verb
+  - else
+  propagate_case: true
+  allow_duplicate: false
+  trigger: mdiagp,
+- replace: 'misdiagnosis '
+  _tags:
+  - noun
+  - else
+  propagate_case: true
+  allow_duplicate: false
+  trigger: mdiagm,
+- replace: 'undiagnosed '
+  _tags:
+  - adjective
+  - ed
+  - else
+  propagate_case: true
+  allow_duplicate: false
+  trigger: udiagp,
+- replace: 'undiagnosable '
+  _tags:
+  - adjective
+  - else
+  propagate_case: true
+  allow_duplicate: false
+  trigger: udiagb,

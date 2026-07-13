@@ -1,175 +1,276 @@
-# ⚠️  WARNING: AUTO-GENERATED FILE - DO NOT EDIT DIRECTLY!
-# This file is generated from word_version by:
-#   scripts/convert_to_tokenized_word_version.py
-# Edit source in space_version and re-run conversions.
-# Tokenizes trailing spaces in triggers to an explicit token.
-# Removes right_word property for tokenized version.
-# Adds trailing space to replacements that don't have one.
-# Current token: ','
-
 matches:
 - replace: 'security '
-  _tags: [to, can, else]
+  _tags:
+  - to
+  - can
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['seq,']
+  trigger: seq,
 - replace: 'securities '
-  _tags: [to, can, else]
+  _tags:
+  - to
+  - can
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['seqs,']
+  trigger: seqs,
 - replace: 'securing '
-  _tags: [to, can, ing, pronoun]
+  _tags:
+  - to
+  - can
+  - ing
+  - pronoun
   propagate_case: true
   allow_duplicate: false
-  triggers: ['seqi,']
+  trigger: seqi,
 - replace: 'secured '
-  _tags: [to, can, ed, would, else]
+  _tags:
+  - to
+  - can
+  - ed
+  - would
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['seqp,']
+  trigger: seqp,
 - replace: 'secure '
-  _tags: [to, can, else]
+  _tags:
+  - to
+  - can
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['seqw,']
+  trigger: seqw,
 - replace: 'secures '
-  _tags: [to, can, else]
+  _tags:
+  - to
+  - can
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['seqws,']
+  trigger: seqws,
 - replace: 'securing '
-  _tags: [to, can, ing, pronoun]
+  _tags:
+  - to
+  - can
+  - ing
+  - pronoun
   allow_duplicate: true
   propagate_case: true
-  triggers: ['seqwi,']
+  trigger: seqwi,
 - replace: 'secured '
-  _tags: [to, can, ed, would, else]
+  _tags:
+  - to
+  - can
+  - ed
+  - would
+  - else
   allow_duplicate: true
   propagate_case: true
-  triggers: ['seqwp,']
+  trigger: seqwp,
 - replace: 'securely '
-  _tags: [to, can, else]
+  _tags:
+  - to
+  - can
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['seqwl,']
+  trigger: seqwl,
 - replace: 'securement '
-  _tags: [to, can, noun, else]
+  _tags:
+  - to
+  - can
+  - noun
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['seqwm,']
+  trigger: seqwm,
 - replace: 'encrypt '
-  _tags: [to, can, else]
+  _tags:
+  - to
+  - can
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['enqy,']
+  trigger: enqy,
 - replace: 'encrypting '
-  _tags: [to, can, ing, pronoun]
+  _tags:
+  - to
+  - can
+  - ing
+  - pronoun
   propagate_case: true
   allow_duplicate: false
-  triggers: ['enqyi,']
+  trigger: enqyi,
 - replace: 'encrypted '
-  _tags: [to, can, ed, would, else]
+  _tags:
+  - to
+  - can
+  - ed
+  - would
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['enqyp,']
+  trigger: enqyp,
 - replace: 'encrypts '
-  _tags: [to, can, else]
+  _tags:
+  - to
+  - can
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['enqys,']
+  trigger: enqys,
 - replace: 'encryption '
-  _tags: [to, can, noun, else]
+  _tags:
+  - to
+  - can
+  - noun
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['enqym,']
+  trigger: enqym,
 - replace: 'decrypt '
-  _tags: [to, can, else]
+  _tags:
+  - to
+  - can
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['denqy,']
+  trigger: denqy,
 - replace: 'decrypting '
-  _tags: [to, can, ing, pronoun]
+  _tags:
+  - to
+  - can
+  - ing
+  - pronoun
   propagate_case: true
   allow_duplicate: false
-  triggers: ['denqyi,']
+  trigger: denqyi,
 - replace: 'decrypted '
-  _tags: [to, can, ed, would, else]
+  _tags:
+  - to
+  - can
+  - ed
+  - would
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['denqyp,']
+  trigger: denqyp,
 - replace: 'decrypts '
-  _tags: [to, can, else]
+  _tags:
+  - to
+  - can
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['denqys,']
+  trigger: denqys,
 - replace: 'decryption '
-  _tags: [to, can, noun, else]
+  _tags:
+  - to
+  - can
+  - noun
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['denqym,']
+  trigger: denqym,
 - replace: 'wholes '
-  _tags: [the, else]
+  _tags:
+  - the
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['les,']
+  trigger: les,
 - replace: 'whole this '
-  _tags: [demonstrative, the, else]
+  _tags:
+  - demonstrative
+  - the
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['leiz,']
+  trigger: leiz,
 - replace: 'whole that '
-  _tags: [demonstrative, the, else, have]
+  _tags:
+  - demonstrative
+  - the
+  - else
+  - have
   propagate_case: true
   allow_duplicate: false
-  triggers: ['leaz,']
+  trigger: leaz,
 - replace: 'whole these '
-  _tags: [demonstrative, the, else]
+  _tags:
+  - demonstrative
+  - the
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['leez,']
+  trigger: leez,
 - replace: 'whole those '
-  _tags: [demonstrative, the, else]
+  _tags:
+  - demonstrative
+  - the
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['leoz,']
+  trigger: leoz,
 - replace: 'whole the '
-  _tags: [the, else]
+  _tags:
+  - the
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['leh,']
+  trigger: leh,
 - replace: 'whole some '
-  _tags: [the, else]
+  _tags:
+  - the
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['lesm,']
+  trigger: lesm,
 - replace: 'whole each '
-  _tags: [the, else]
+  _tags:
+  - the
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['leeh,']
+  trigger: leeh,
 - replace: 'no need '
-  _tags: [phrase, else]
+  _tags:
+  - phrase
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['ned,']
+  trigger: ned,
 - replace: 'no need '
-  _tags: [phrase, else]
+  _tags:
+  - phrase
+  - else
   allow_duplicate: true
   propagate_case: true
-  triggers: ['nnd,']
+  trigger: nnd,
 - replace: 'need to '
-  _tags: [phrase, to, else]
+  _tags:
+  - phrase
+  - to
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['ed2,']
+  trigger: ed2,
 - replace: 'needs to '
-  _tags: [phrase, to, else]
+  _tags:
+  - phrase
+  - to
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['ed2j,']
+  trigger: ed2j,
 - replace: 'needed to '
-  _tags: [phrase, to, else]
+  _tags:
+  - phrase
+  - to
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['ed2p,']
+  trigger: ed2p,
+name: _exx_whole

@@ -1,0 +1,26 @@
+name: _word_families_preassign
+matches:
+- replace: 'preassign '
+  propagate_case: true
+  allow_duplicate: false
+  trigger: pwasi,
+- replace: 'preassigns '
+  propagate_case: true
+  allow_duplicate: false
+  trigger: pwasis,
+- replace: 'preassigning '
+  propagate_case: true
+  allow_duplicate: false
+  trigger: pwasii,
+- replace: 'preassigned '
+  propagate_case: true
+  allow_duplicate: false
+  trigger: pwasip,
+- replace: 'preassignion '
+  propagate_case: true
+  allow_duplicate: false
+  trigger: pwasim,
+- replace: 'preassignable '
+  propagate_case: true
+  allow_duplicate: false
+  trigger: pwasib,

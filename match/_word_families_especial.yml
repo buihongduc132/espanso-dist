@@ -1,62 +1,73 @@
-# ⚠️  WARNING: AUTO-GENERATED FILE - DO NOT EDIT DIRECTLY!
-# This file is generated from word_version by:
-#   scripts/convert_to_tokenized_word_version.py
-# Edit source in space_version and re-run conversions.
-# Tokenizes trailing spaces in triggers to an explicit token.
-# Removes right_word property for tokenized version.
-# Adds trailing space to replacements that don't have one.
-# Current token: ','
-
-name: word-families-especial
-parent: default
+name: _word_families_especial
 matches:
 - replace: 'especial '
-  _tags: [adjective, else]
+  _tags:
+  - adjective
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['espe,']
+  trigger: espe,
 - replace: 'especials '
-  _tags: [adjective, else]
+  _tags:
+  - adjective
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['espes,']
+  trigger: espes,
 - replace: 'especially '
-  _tags: [adverb, else]
+  _tags:
+  - adverb
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['espel,']
+  trigger: espel,
 - replace: 'especialization '
-  _tags: [noun, else]
+  _tags:
+  - noun
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['espem,']
+  trigger: espem,
 - replace: 'especializing '
-  _tags: [ing, else]
+  _tags:
+  - ing
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['espei,']
+  trigger: espei,
 - replace: 'especialized '
-  _tags: [ed, would, else]
+  _tags:
+  - ed
+  - would
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['espep,']
+  trigger: espep,
 - replace: 'especialized '
-  _tags: [adjective, else]
+  _tags:
+  - adjective
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['espej,']
+  trigger: espej,
 - replace: 'especially '
-  _tags: [adverb, else]
+  _tags:
+  - adverb
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['espejl,']
+  trigger: espejl,
 - replace: 'especializer '
-  _tags: [noun, else]
+  _tags:
+  - noun
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['espew,']
+  trigger: espew,
 - replace: 'especializers '
-  _tags: [noun, else]
+  _tags:
+  - noun
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['espews,']
+  trigger: espews,

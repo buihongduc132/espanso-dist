@@ -1,0 +1,26 @@
+matches:
+- replace: 'defer '
+  _tags:
+  - can
+  propagate_case: true
+  allow_duplicate: false
+  trigger: dfr,
+- replace: 'defers '
+  _tags: null
+  propagate_case: true
+  allow_duplicate: false
+  trigger: dfrs,
+- replace: 'deferred '
+  _tags:
+  - ed
+  - would
+  propagate_case: true
+  allow_duplicate: false
+  trigger: dfrd,
+- replace: 'deferring '
+  _tags:
+  - ing
+  propagate_case: true
+  allow_duplicate: false
+  trigger: dfri,
+name: _word_families_defer

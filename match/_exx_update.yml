@@ -1,111 +1,195 @@
-# ⚠️  WARNING: AUTO-GENERATED FILE - DO NOT EDIT DIRECTLY!
-# This file is generated from word_version by:
-#   scripts/convert_to_tokenized_word_version.py
-# Edit source in space_version and re-run conversions.
-# Tokenizes trailing spaces in triggers to an explicit token.
-# Removes right_word property for tokenized version.
-# Adds trailing space to replacements that don't have one.
-# Current token: ','
-
 matches:
 - replace: 'update '
-  _tags: [to, can, else, would]
+  _tags:
+  - to
+  - can
+  - else
+  - would
   propagate_case: true
   allow_duplicate: false
-  triggers: ['up,']
+  trigger: up,
 - replace: 'updates '
-  _tags: [to, can, else, would]
+  _tags:
+  - to
+  - can
+  - else
+  - would
   propagate_case: true
   allow_duplicate: false
-  triggers: ['ups,']
+  trigger: ups,
 - replace: 'updating '
-  _tags: [ing, to, can, else, would]
+  _tags:
+  - ing
+  - to
+  - can
+  - else
+  - would
   propagate_case: true
   allow_duplicate: false
-  triggers: ['upi,']
+  trigger: upi,
 - replace: 'updated '
-  _tags: [ed, to, can, else, would]
+  _tags:
+  - ed
+  - to
+  - can
+  - else
+  - would
   propagate_case: true
   allow_duplicate: false
-  triggers: ['upp,']
+  trigger: upp,
 - replace: 'updater '
-  _tags: [noun, to, can, else]
+  _tags:
+  - noun
+  - to
+  - can
+  - else
   allow_duplicate: true
   propagate_case: true
-  triggers: ['upww,']
+  trigger: upww,
 - replace: 'updates '
-  _tags: [noun, to, can, else]
+  _tags:
+  - noun
+  - to
+  - can
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['upm,']
+  trigger: upm,
 - replace: 'update this '
-  _tags: [demonstrative, to, can, else, frequent-verb]
+  _tags:
+  - demonstrative
+  - to
+  - can
+  - else
+  - frequent-verb
   propagate_case: true
   allow_duplicate: false
-  triggers: ['upiz,']
+  trigger: upiz,
 - replace: 'update that '
-  _tags: [demonstrative, to, can, else, have, frequent-verb]
+  _tags:
+  - demonstrative
+  - to
+  - can
+  - else
+  - have
+  - frequent-verb
   propagate_case: true
   allow_duplicate: false
-  triggers: ['upaz,']
+  trigger: upaz,
 - replace: 'update these '
-  _tags: [demonstrative, to, can, else, frequent-verb]
+  _tags:
+  - demonstrative
+  - to
+  - can
+  - else
+  - frequent-verb
   propagate_case: true
   allow_duplicate: false
-  triggers: ['upez,']
+  trigger: upez,
 - replace: 'update those '
-  _tags: [demonstrative, to, can, else, frequent-verb]
+  _tags:
+  - demonstrative
+  - to
+  - can
+  - else
+  - frequent-verb
   propagate_case: true
   allow_duplicate: false
-  triggers: ['upoz,']
+  trigger: upoz,
 - replace: 'update documents '
-  _tags: [to, can, else]
+  _tags:
+  - to
+  - can
+  - else
   allow_duplicate: true
   propagate_case: true
-  triggers: ['updoq,']
+  trigger: updoq,
 - replace: 'update all '
-  _tags: [to, can, else]
+  _tags:
+  - to
+  - can
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['upa,']
+  trigger: upa,
 - replace: 'update all the '
-  _tags: [quantifier, article, to, can, else]
+  _tags:
+  - quantifier
+  - article
+  - to
+  - can
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['upah,']
+  trigger: upah,
 - replace: 'update the '
-  _tags: [to, can, else, would, frequent-verb]
+  _tags:
+  - to
+  - can
+  - else
+  - would
+  - frequent-verb
   propagate_case: true
   allow_duplicate: false
-  triggers: ['uph,']
+  trigger: uph,
 - replace: 'update all this '
-  _tags: [demonstrative, quantifier, to, can, else]
+  _tags:
+  - demonstrative
+  - quantifier
+  - to
+  - can
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['upaiz,']
+  trigger: upaiz,
 - replace: 'update all that '
-  _tags: [demonstrative, quantifier, to, can, else]
+  _tags:
+  - demonstrative
+  - quantifier
+  - to
+  - can
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['upaaz,']
+  trigger: upaaz,
 - replace: 'update all these '
-  _tags: [demonstrative, quantifier, to, can, else]
+  _tags:
+  - demonstrative
+  - quantifier
+  - to
+  - can
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['upaez,']
+  trigger: upaez,
 - replace: 'update all those '
-  _tags: [demonstrative, quantifier, to, can, else]
+  _tags:
+  - demonstrative
+  - quantifier
+  - to
+  - can
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['upaoz,']
+  trigger: upaoz,
 - replace: 'update it '
-  _tags: [pronoun, to, can, else, frequent-verb]
+  _tags:
+  - pronoun
+  - to
+  - can
+  - else
+  - frequent-verb
   propagate_case: true
   allow_duplicate: false
-  triggers: ['upx,']
+  trigger: upx,
 - replace: 'update it '
-  _tags: [pronoun, to, can, else]
+  _tags:
+  - pronoun
+  - to
+  - can
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['upt,']
+  trigger: upt,
 enable: false
+name: _exx_update

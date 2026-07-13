@@ -1,244 +1,385 @@
-# ⚠️  WARNING: AUTO-GENERATED FILE - DO NOT EDIT DIRECTLY!
-# This file is generated from word_version by:
-#   scripts/convert_to_tokenized_word_version.py
-# Edit source in space_version and re-run conversions.
-# Tokenizes trailing spaces in triggers to an explicit token.
-# Removes right_word property for tokenized version.
-# Adds trailing space to replacements that don't have one.
-# Current token: ','
-
 matches:
 - replace: 'do it '
-  _tags: [pronoun, to, can, else, frequent-verb]
+  _tags:
+  - pronoun
+  - to
+  - can
+  - else
+  - frequent-verb
   allow_duplicate: true
   propagate_case: true
-  triggers: ['ux,']
+  trigger: ux,
 - replace: 'do this '
-  _tags: [demonstrative, to, can, else, frequent-verb]
+  _tags:
+  - demonstrative
+  - to
+  - can
+  - else
+  - frequent-verb
   allow_duplicate: true
   propagate_case: true
-  triggers: ['uiz,']
+  trigger: uiz,
 - replace: 'do that '
-  _tags: [demonstrative, to, can, else, frequent-verb]
+  _tags:
+  - demonstrative
+  - to
+  - can
+  - else
+  - frequent-verb
   propagate_case: true
   allow_duplicate: false
-  triggers: ['uaz,']
+  trigger: uaz,
 - replace: 'do these '
-  _tags: [demonstrative, to, can, else, frequent-verb]
+  _tags:
+  - demonstrative
+  - to
+  - can
+  - else
+  - frequent-verb
   allow_duplicate: true
   propagate_case: true
-  triggers: ['uez,']
+  trigger: uez,
 - replace: 'do those '
-  _tags: [demonstrative, to, can, else, frequent-verb]
+  _tags:
+  - demonstrative
+  - to
+  - can
+  - else
+  - frequent-verb
   allow_duplicate: true
   propagate_case: true
-  triggers: ['uoz,']
+  trigger: uoz,
 - replace: 'do it '
-  _tags: [pronoun, to, can, else]
+  _tags:
+  - pronoun
+  - to
+  - can
+  - else
   allow_duplicate: true
   keep_case: true
-  triggers: ['uX,']
+  trigger: uX,
 - replace: 'do them '
-  _tags: [pronoun, to, can, else]
+  _tags:
+  - pronoun
+  - to
+  - can
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['umm,']
+  trigger: umm,
 - replace: 'do them all '
-  _tags: [pronoun, to, can, else]
+  _tags:
+  - pronoun
+  - to
+  - can
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['ummal,']
+  trigger: ummal,
 - replace: 'do they '
-  _tags: [pronoun, to, can, else]
+  _tags:
+  - pronoun
+  - to
+  - can
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['uey,']
+  trigger: uey,
 - replace: 'does this '
-  _tags: [demonstrative, to, can, else]
+  _tags:
+  - demonstrative
+  - to
+  - can
+  - else
   allow_duplicate: true
   propagate_case: true
-  triggers: ['uuiz,']
+  trigger: uuiz,
 - replace: 'does that '
-  _tags: [demonstrative, to, can, else]
+  _tags:
+  - demonstrative
+  - to
+  - can
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['uuaz,']
+  trigger: uuaz,
 - replace: 'does these '
-  _tags: [demonstrative, to, can, else]
+  _tags:
+  - demonstrative
+  - to
+  - can
+  - else
   allow_duplicate: true
   propagate_case: true
-  triggers: ['uuez,']
+  trigger: uuez,
 - replace: 'does those '
-  _tags: [demonstrative, to, can, else]
+  _tags:
+  - demonstrative
+  - to
+  - can
+  - else
   allow_duplicate: true
   propagate_case: true
-  triggers: ['uuoz,']
+  trigger: uuoz,
 - replace: 'does it '
-  _tags: [pronoun, to, can, else]
+  _tags:
+  - pronoun
+  - to
+  - can
+  - else
   allow_duplicate: true
   keep_case: true
-  triggers: ['uuX,']
-- replace: 'does it '
-  _tags: [pronoun, to, can, else]
-  propagate_case: true
-  allow_duplicate: false
-  triggers: ['uux,']
+  trigger: uuX,
 - replace: 'does them '
-  _tags: [pronoun, to, can, else]
+  _tags:
+  - pronoun
+  - to
+  - can
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['uumm,']
+  trigger: uumm,
 - replace: 'does them all '
-  _tags: [pronoun, to, can, else]
+  _tags:
+  - pronoun
+  - to
+  - can
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['uuummal,']
+  trigger: uuummal,
 - replace: 'does they '
-  _tags: [pronoun, to, can, else]
+  _tags:
+  - pronoun
+  - to
+  - can
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['uuey,']
+  trigger: uuey,
 - replace: 'it does '
   propagate_case: true
   allow_duplicate: false
-  triggers: ['xuu,']
+  trigger: xuu,
 - replace: 'it do '
   propagate_case: true
   allow_duplicate: false
-  triggers: ['xu,']
+  trigger: xu,
 - replace: 'do we '
-  _tags: [pronoun, to, can, else]
+  _tags:
+  - pronoun
+  - to
+  - can
+  - else
   allow_duplicate: true
   propagate_case: true
-  triggers: ['ue,']
+  trigger: ue,
 - replace: 'does we '
-  _tags: [pronoun, to, can, else]
+  _tags:
+  - pronoun
+  - to
+  - can
+  - else
   allow_duplicate: true
   _note: Intentional alias per user preference
   propagate_case: true
-  triggers: ['uue,']
+  trigger: uue,
 - replace: 'doing '
-  _tags: [ing, to, else]
+  _tags:
+  - ing
+  - to
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['ui,']
+  trigger: ui,
 - replace: 'do I '
-  _tags: [pronoun, would]
+  _tags:
+  - pronoun
+  - would
   propagate_case: true
   allow_duplicate: false
-  triggers: ['uii,']
+  trigger: uii,
 - replace: 'do not I '
-  _tags: [pronoun, negate, would]
+  _tags:
+  - pronoun
+  - negate
+  - would
   propagate_case: true
   allow_duplicate: false
-  triggers: ['unii,']
+  trigger: unii,
 - replace: 'do not you '
-  _tags: [pronoun, negate]
+  _tags:
+  - pronoun
+  - negate
   propagate_case: true
   allow_duplicate: false
-  triggers: ['unya,']
+  trigger: unya,
 - replace: 'do not we '
-  _tags: [pronoun, negate, would]
+  _tags:
+  - pronoun
+  - negate
+  - would
   propagate_case: true
   allow_duplicate: false
-  triggers: ['une,']
+  trigger: une,
 - replace: 'do not they '
-  _tags: [pronoun, negate, would]
+  _tags:
+  - pronoun
+  - negate
+  - would
   propagate_case: true
   allow_duplicate: false
-  triggers: ['unty,']
+  trigger: unty,
 - replace: 'do not these '
-  _tags: [demonstrative, negate, to, would]
+  _tags:
+  - demonstrative
+  - negate
+  - to
+  - would
   propagate_case: true
   allow_duplicate: false
-  triggers: ['unez,']
+  trigger: unez,
 - replace: 'do not those '
-  _tags: [demonstrative, negate, to, would]
+  _tags:
+  - demonstrative
+  - negate
+  - to
+  - would
   propagate_case: true
   allow_duplicate: false
-  triggers: ['unoz,']
+  trigger: unoz,
 - replace: 'does not they '
-  _tags: [pronoun, negate, to, would]
+  _tags:
+  - pronoun
+  - negate
+  - to
+  - would
   propagate_case: true
   allow_duplicate: false
-  triggers: ['uunty,']
+  trigger: uunty,
 - replace: 'does not these '
-  _tags: [demonstrative, negate, to, would]
+  _tags:
+  - demonstrative
+  - negate
+  - to
+  - would
   propagate_case: true
   allow_duplicate: false
-  triggers: ['uunez,']
+  trigger: uunez,
 - replace: 'does not those '
-  _tags: [demonstrative, negate, to, would]
+  _tags:
+  - demonstrative
+  - negate
+  - to
+  - would
   propagate_case: true
   allow_duplicate: false
-  triggers: ['uunoz,']
+  trigger: uunoz,
 - replace: 'I do not '
-  _tags: [pronoun, negate, would]
+  _tags:
+  - pronoun
+  - negate
+  - would
   propagate_case: true
   allow_duplicate: false
-  triggers: ['iun,']
+  trigger: iun,
 - replace: 'we do '
-  _tags: [pronoun, would]
+  _tags:
+  - pronoun
+  - would
   propagate_case: true
   allow_duplicate: false
-  triggers: ['eu,']
+  trigger: eu,
 - replace: 'we do not '
-  _tags: [pronoun, negate, would]
+  _tags:
+  - pronoun
+  - negate
+  - would
   propagate_case: true
   allow_duplicate: false
-  triggers: ['eun,']
+  trigger: eun,
 - replace: 'they do '
-  _tags: [pronoun, would]
+  _tags:
+  - pronoun
+  - would
   propagate_case: true
   allow_duplicate: false
-  triggers: ['tyu,']
+  trigger: tyu,
 - replace: 'they do not '
-  _tags: [pronoun, negate, would]
+  _tags:
+  - pronoun
+  - negate
+  - would
   propagate_case: true
   allow_duplicate: false
-  triggers: ['tyun,']
+  trigger: tyun,
 - replace: 'you do not '
-  _tags: [pronoun, negate]
+  _tags:
+  - pronoun
+  - negate
   propagate_case: true
   allow_duplicate: false
-  triggers: ['yaun,']
+  trigger: yaun,
 - replace: 'do not have '
-  _tags: [negate, have, to, else]
+  _tags:
+  - negate
+  - have
+  - to
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['unha,']
+  trigger: unha,
 - replace: 'does not have '
-  _tags: [negate, have, to, else]
+  _tags:
+  - negate
+  - have
+  - to
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['uunha,']
+  trigger: uunha,
 - replace: 'do any '
-  _tags: [quantifier, would]
+  _tags:
+  - quantifier
+  - would
   propagate_case: true
   allow_duplicate: false
-  triggers: ['uay,']
+  trigger: uay,
 - replace: 'does any '
-  _tags: [quantifier, would]
+  _tags:
+  - quantifier
+  - would
   propagate_case: true
   allow_duplicate: false
-  triggers: ['uuay,']
+  trigger: uuay,
 - replace: 'do then '
-  _tags: [time, to, would]
+  _tags:
+  - time
+  - to
+  - would
   propagate_case: true
   allow_duplicate: false
-  triggers: ['unz,']
+  trigger: unz,
 - replace: 'does then '
-  _tags: [time, to, would]
+  _tags:
+  - time
+  - to
+  - would
   propagate_case: true
   allow_duplicate: false
-  triggers: ['uunz,']
+  trigger: uunz,
 - replace: 'if do '
-  _tags: [condition, pronoun]
+  _tags:
+  - condition
+  - pronoun
   propagate_case: true
   allow_duplicate: false
-  triggers: ['fu,']
+  trigger: fu,
 - replace: 'if does '
-  _tags: [condition, pronoun]
+  _tags:
+  - condition
+  - pronoun
   propagate_case: true
   allow_duplicate: false
-  triggers: ['fuu,']
+  trigger: fuu,
+name: _exx_do

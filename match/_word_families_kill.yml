@@ -1,0 +1,46 @@
+name: _word_families_kill
+matches:
+- replace: 'kill '
+  _tags:
+  - verb
+  - else
+  propagate_case: true
+  allow_duplicate: false
+  trigger: kil,,
+- replace: 'kills '
+  _tags:
+  - verb
+  - else
+  propagate_case: true
+  allow_duplicate: false
+  trigger: kils,
+- replace: 'killing '
+  _tags:
+  - verb
+  - ing
+  - else
+  propagate_case: true
+  allow_duplicate: false
+  trigger: kili,
+- replace: 'killed '
+  _tags:
+  - verb
+  - ed
+  - else
+  propagate_case: true
+  allow_duplicate: false
+  trigger: kilp,
+- replace: 'killer '
+  _tags:
+  - noun
+  - else
+  propagate_case: true
+  allow_duplicate: false
+  trigger: kilr,
+- replace: 'kill all '
+  _tags:
+  - phrase
+  - else
+  propagate_case: true
+  allow_duplicate: false
+  trigger: kila,

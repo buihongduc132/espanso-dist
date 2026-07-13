@@ -1,102 +1,189 @@
-# ⚠️  WARNING: AUTO-GENERATED FILE - DO NOT EDIT DIRECTLY!
-# This file is generated from word_version by:
-#   scripts/convert_to_tokenized_word_version.py
-# Edit source in space_version and re-run conversions.
-# Tokenizes trailing spaces in triggers to an explicit token.
-# Removes right_word property for tokenized version.
-# Adds trailing space to replacements that don't have one.
-# Current token: ','
-
-name: word-families-some
-parent: default
+name: _word_families_some
 matches:
-- triggers: ['sm,', 'sme,']
-  replace: 'some '
-  _tags: [else]
+- replace: 'some '
+  _tags: &id001
+  - else
   propagate_case: true
   allow_duplicate: false
+  trigger: sm,
+- replace: 'some '
+  _tags: *id001
+  propagate_case: true
+  allow_duplicate: false
+  trigger: sme,
 - replace: 'sometimes '
-  _tags: [time, to, else, pronoun]
+  _tags:
+  - time
+  - to
+  - else
+  - pronoun
   propagate_case: true
   allow_duplicate: false
-  triggers: ['smt,']
-- triggers: ['smg,', 'smi,']
-  replace: 'something '
-  _tags: [pronoun, the, ing, to, else]
+  trigger: smt,
+- replace: 'something '
+  _tags: &id002
+  - pronoun
+  - the
+  - ing
+  - to
+  - else
   propagate_case: true
   allow_duplicate: false
-- triggers: ['smgw,', 'smiw,']
-  replace: 'something else '
-  _tags: [pronoun, the, ing, to, else]
+  trigger: smg,
+- replace: 'something '
+  _tags: *id002
   propagate_case: true
   allow_duplicate: false
+  trigger: smi,
+- replace: 'something else '
+  _tags: &id003
+  - pronoun
+  - the
+  - ing
+  - to
+  - else
+  propagate_case: true
+  allow_duplicate: false
+  trigger: smgw,
+- replace: 'something else '
+  _tags: *id003
+  propagate_case: true
+  allow_duplicate: false
+  trigger: smiw,
 - replace: 'somehow '
-  _tags: [question, will, the, else]
+  _tags:
+  - question
+  - will
+  - the
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['smh,']
+  trigger: smh,
 - replace: 'somewhere '
-  _tags: [place, will, the, else]
+  _tags:
+  - place
+  - will
+  - the
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['smw,']
+  trigger: smw`
 - replace: 'somewhere else '
-  _tags: [place, will, the, else]
+  _tags:
+  - place
+  - will
+  - the
+  - else
+  propagate_case: true
+  allow_duplicate: false
+  trigger: smwe`
+- replace: 'someone '
+  _tags: &id004
+  - else
+  propagate_case: true
+  allow_duplicate: false
+  trigger: s1,
+- replace: 'someone '
+  _tags: *id004
+  propagate_case: true
+  allow_duplicate: false
+  trigger: sm1,
+- replace: 'someone else '
+  _tags: &id005
+  - else
   allow_duplicate: true
   propagate_case: true
-  triggers: ['smww,']
-- triggers: ['s1,', 'sm1,']
-  replace: 'someone '
-  _tags: [else]
-  propagate_case: true
-  allow_duplicate: false
-- triggers: ['s1w,', 'sm1w,']
-  replace: 'someone else '
-  _tags: [else]
+  trigger: s1w,
+- replace: 'someone else '
+  _tags: *id005
   allow_duplicate: true
   propagate_case: true
-- triggers: ['s1el,', 'sm1el,']
-  replace: 'someone else '
-  _tags: [else]
+  trigger: sm1w,
+- replace: 'someone else '
+  _tags: &id006
+  - else
   propagate_case: true
   allow_duplicate: false
-- triggers: ['smd,', 'somp,']
-  replace: 'someday '
-  _tags: [ed, would, else]
+  trigger: s1el,
+- replace: 'someone else '
+  _tags: *id006
   propagate_case: true
   allow_duplicate: false
+  trigger: sm1el,
+- replace: 'someday '
+  _tags: &id007
+  - ed
+  - would
+  - else
+  propagate_case: true
+  allow_duplicate: false
+  trigger: smd,
+- replace: 'someday '
+  _tags: *id007
+  propagate_case: true
+  allow_duplicate: false
+  trigger: somp,
 - replace: 'some where '
-  _tags: [place, question, will, the, else]
+  _tags:
+  - place
+  - question
+  - will
+  - the
+  - else
   allow_duplicate: true
   propagate_case: true
-  triggers: ['smwwh,']
+  trigger: smwwh,
 - replace: 'some where else '
-  _tags: [place, question, will, the, else]
+  _tags:
+  - place
+  - question
+  - will
+  - the
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['smwww,']
-- triggers: ['smf,', 'smo,']
-  replace: 'some of '
-  _tags: [to, else]
+  trigger: smwww,
+- replace: 'some of '
+  _tags: &id008
+  - to
+  - else
   propagate_case: true
   allow_duplicate: false
+  trigger: smf,
+- replace: 'some of '
+  _tags: *id008
+  propagate_case: true
+  allow_duplicate: false
+  trigger: smo,
 - replace: 'some of this '
-  _tags: [demonstrative, to, else]
+  _tags:
+  - demonstrative
+  - to
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['smoiz,']
+  trigger: smoiz,
 - replace: 'some of that '
-  _tags: [demonstrative, to, else]
+  _tags:
+  - demonstrative
+  - to
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['smoaz,']
+  trigger: smoaz,
 - replace: 'some of these '
-  _tags: [demonstrative, to, else]
+  _tags:
+  - demonstrative
+  - to
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['smoez,']
+  trigger: smoez,
 - replace: 'some of those '
-  _tags: [demonstrative, to, else]
+  _tags:
+  - demonstrative
+  - to
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['smowz,']
+  trigger: smowz,

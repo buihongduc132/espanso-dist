@@ -1,0 +1,73 @@
+name: _word_families_prepare
+matches:
+- replace: 'prepare '
+  _tags:
+  - verb
+  - to
+  - can
+  - else
+  propagate_case: true
+  allow_duplicate: false
+  trigger: pwep,
+- replace: 'prepares '
+  _tags:
+  - verb
+  - to
+  - can
+  - else
+  propagate_case: true
+  allow_duplicate: false
+  trigger: pweps,
+- replace: 'preparing '
+  _tags:
+  - verb
+  - ing
+  - to
+  - can
+  - else
+  propagate_case: true
+  allow_duplicate: false
+  trigger: pwepi,
+- replace: 'prepared '
+  _tags:
+  - verb
+  - ed
+  - would
+  - to
+  - can
+  - else
+  propagate_case: true
+  allow_duplicate: false
+  trigger: pwepp,
+- replace: 'preparation '
+  _tags:
+  - noun
+  - to
+  - else
+  propagate_case: true
+  allow_duplicate: false
+  trigger: pwepm,
+- replace: 'preparations '
+  _tags:
+  - noun
+  - to
+  - else
+  propagate_case: true
+  allow_duplicate: false
+  trigger: pwepms,
+- replace: 'prepare to '
+  propagate_case: true
+  allow_duplicate: false
+  trigger: pwep2,
+- replace: 'prepares to '
+  propagate_case: true
+  allow_duplicate: false
+  trigger: pweps2,
+- replace: 'preparing to '
+  propagate_case: true
+  allow_duplicate: false
+  trigger: pwepi2,
+- replace: 'prepared to '
+  propagate_case: true
+  allow_duplicate: false
+  trigger: pwepp2,

@@ -1,0 +1,30 @@
+name: _word_families_dynamic
+matches:
+- replace: 'dynamic '
+  propagate_case: true
+  allow_duplicate: false
+  trigger: dyna,
+- replace: 'dynamics '
+  propagate_case: true
+  allow_duplicate: false
+  trigger: dynas,
+- replace: 'dynamically '
+  propagate_case: true
+  allow_duplicate: false
+  trigger: dynal,
+- replace: 'this dynamic '
+  propagate_case: true
+  allow_duplicate: false
+  trigger: dynaiz,
+- replace: 'that dynamic '
+  propagate_case: true
+  allow_duplicate: false
+  trigger: dynaaz,
+- replace: 'these dynamics '
+  propagate_case: true
+  allow_duplicate: false
+  trigger: dynaez,
+- replace: 'those dynamics '
+  propagate_case: true
+  allow_duplicate: false
+  trigger: dynaoz,

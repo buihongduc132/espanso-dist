@@ -1,57 +1,131 @@
-# ⚠️  WARNING: AUTO-GENERATED FILE - DO NOT EDIT DIRECTLY!
-# This file is generated from word_version by:
-#   scripts/convert_to_tokenized_word_version.py
-# Edit source in space_version and re-run conversions.
-# Tokenizes trailing spaces in triggers to an explicit token.
-# Removes right_word property for tokenized version.
-# Adds trailing space to replacements that don't have one.
-# Current token: ','
-
-name: word-family-lock
-parent: default
+name: _word_families_lock
 matches:
 - replace: 'lock '
-  _tags: [noun, to, can, else, pronoun]
+  _tags:
+  - noun
+  - to
+  - can
+  - else
+  - pronoun
   propagate_case: true
   allow_duplicate: false
-  triggers: ['lok,']
+  trigger: lok,
 - replace: 'locks '
-  _tags: [noun, to, can, else, pronoun]
+  _tags:
+  - noun
+  - to
+  - can
+  - else
+  - pronoun
   propagate_case: true
   allow_duplicate: false
-  triggers: ['loks,']
+  trigger: loks,
 - replace: 'locking '
-  _tags: [verb, ing, to, can, pronoun, else]
+  _tags:
+  - verb
+  - ing
+  - to
+  - can
+  - pronoun
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['loki,']
+  trigger: loki,
 - replace: 'locked '
-  _tags: [verb, ed, would, to, can, else, pronoun]
+  _tags:
+  - verb
+  - ed
+  - would
+  - to
+  - can
+  - else
+  - pronoun
   propagate_case: true
   allow_duplicate: false
-  triggers: ['lokp,']
+  trigger: lokp,
 - replace: 'locker '
-  _tags: [noun, to, can, else, pronoun]
+  _tags:
+  - noun
+  - to
+  - can
+  - else
+  - pronoun
   propagate_case: true
   allow_duplicate: false
-  triggers: ['lokw,']
+  trigger: lokw,
 - replace: 'lockable '
-  _tags: [adjective, to, can, else, pronoun]
+  _tags:
+  - adjective
+  - to
+  - can
+  - else
+  - pronoun
   propagate_case: true
   allow_duplicate: false
-  triggers: ['lokb,']
+  trigger: lokb,
 - replace: 'lock to the '
-  _tags: [phrase, to, can, else]
+  _tags:
+  - phrase
+  - to
+  - can
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['lok2h,']
+  trigger: lok2h,
 - replace: 'this lock '
-  _tags: [phrase, to, can, else]
+  _tags:
+  - phrase
+  - to
+  - can
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['lokiz,']
+  trigger: lokiz,
 - replace: 'that lock '
-  _tags: [phrase, to, can, else]
+  _tags:
+  - phrase
+  - to
+  - can
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['lokaz,']
+  trigger: lokaz,
+- replace: 'unlock '
+  _tags:
+  - verb
+  - to
+  - can
+  - else
+  propagate_case: true
+  allow_duplicate: false
+  trigger: ulok,
+- replace: 'unlocking '
+  _tags:
+  - verb
+  - ing
+  - to
+  - can
+  - else
+  propagate_case: true
+  allow_duplicate: false
+  trigger: uloki,
+- replace: 'unlocked '
+  _tags:
+  - verb
+  - ed
+  - would
+  - to
+  - can
+  - else
+  propagate_case: true
+  allow_duplicate: false
+  trigger: ulokp,
+- replace: 'unlocks '
+  _tags:
+  - verb
+  - to
+  - can
+  - else
+  propagate_case: true
+  allow_duplicate: false
+  trigger: uloks,

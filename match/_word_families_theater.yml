@@ -1,47 +1,66 @@
-# ⚠️  WARNING: AUTO-GENERATED FILE - DO NOT EDIT DIRECTLY!
-# This file is generated from word_version by:
-#   scripts/convert_to_tokenized_word_version.py
-# Edit source in space_version and re-run conversions.
-# Tokenizes trailing spaces in triggers to an explicit token.
-# Removes right_word property for tokenized version.
-# Adds trailing space to replacements that don't have one.
-# Current token: ','
-
-name: word-families-theater
-parent: default
+name: _word_families_theater
 matches:
 - replace: 'theater '
-  _tags: [noun, to, can, else]
+  _tags:
+  - noun
+  - to
+  - can
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['thew,']
+  trigger: thew,
 - replace: 'theaters '
-  _tags: [noun, to, can, else]
+  _tags:
+  - noun
+  - to
+  - can
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['thews,']
+  trigger: thews,
 - replace: 'theatering '
-  _tags: [ing, to, can, else]
+  _tags:
+  - ing
+  - to
+  - can
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['thewi,']
+  trigger: thewi,
 - replace: 'theatered '
-  _tags: [ed, would, to, can, else]
+  _tags:
+  - ed
+  - would
+  - to
+  - can
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['thewp,']
+  trigger: thewp,
 - replace: 'theatrical '
-  _tags: [adjective, to, can, else]
+  _tags:
+  - adjective
+  - to
+  - can
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['thewj,']
+  trigger: thewj,
 - replace: 'theatrically '
-  _tags: [adverb, to, can, else]
+  _tags:
+  - adverb
+  - to
+  - can
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['thewjl,']
+  trigger: thewjl,
 - replace: 'theaterable '
-  _tags: [adjective, to, can, else]
+  _tags:
+  - adjective
+  - to
+  - can
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['thewb,']
+  trigger: thewb,

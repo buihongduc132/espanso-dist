@@ -1,137 +1,230 @@
-# ⚠️  WARNING: AUTO-GENERATED FILE - DO NOT EDIT DIRECTLY!
-# This file is generated from word_version by:
-#   scripts/convert_to_tokenized_word_version.py
-# Edit source in space_version and re-run conversions.
-# Tokenizes trailing spaces in triggers to an explicit token.
-# Removes right_word property for tokenized version.
-# Adds trailing space to replacements that don't have one.
-# Current token: ','
-
-name: word-families-skill
-parent: default
+name: _word_families_skill
 matches:
 - replace: 'skill '
-  _tags: [noun, to, else, can]
+  _tags:
+  - noun
+  - to
+  - else
+  - can
   propagate_case: true
   allow_duplicate: false
-  triggers: ['kl,']
+  trigger: kl,
 - replace: 'skills '
-  _tags: [noun, to, else, can]
+  _tags:
+  - noun
+  - to
+  - else
+  - can
   propagate_case: true
   allow_duplicate: false
-  triggers: ['kls,']
+  trigger: kls,
 - replace: 'skilling '
-  _tags: [ing, to, else, can, pronoun]
+  _tags:
+  - ing
+  - to
+  - else
+  - can
+  - pronoun
   propagate_case: true
   allow_duplicate: false
-  triggers: ['kli,']
+  trigger: kli,
 - replace: 'skilled '
-  _tags: [ed, to, else, would, can]
+  _tags:
+  - ed
+  - to
+  - else
+  - would
+  - can
   propagate_case: true
   allow_duplicate: false
-  triggers: ['klp,']
+  trigger: klp,
 - replace: 'skillness '
-  _tags: [noun, to, else, can]
+  _tags:
+  - noun
+  - to
+  - else
+  - can
   propagate_case: true
   allow_duplicate: false
-  triggers: ['klm,']
+  trigger: klm,
 - replace: 'skiller '
-  _tags: [noun, to, else, can]
+  _tags:
+  - noun
+  - to
+  - else
+  - can
   propagate_case: true
   allow_duplicate: false
-  triggers: ['klw,']
+  trigger: klw,
 - replace: 'skillers '
-  _tags: [noun, to, else, can]
+  _tags:
+  - noun
+  - to
+  - else
+  - can
   propagate_case: true
   allow_duplicate: false
-  triggers: ['klws,']
+  trigger: klws,
 - replace: 'skillful '
-  _tags: [adjective, to, else, can]
+  _tags:
+  - adjective
+  - to
+  - else
+  - can
   propagate_case: true
   allow_duplicate: false
-  triggers: ['klj,']
+  trigger: klj,
 - replace: 'skillfully '
-  _tags: [adverb, to, else, can]
+  _tags:
+  - adverb
+  - to
+  - else
+  - can
   propagate_case: true
   allow_duplicate: false
-  triggers: ['kljl,']
+  trigger: kljl,
 - replace: 'skillable '
-  _tags: [adjective, to, else, can]
+  _tags:
+  - adjective
+  - to
+  - else
+  - can
   propagate_case: true
   allow_duplicate: false
-  triggers: ['klb,']
+  trigger: klb,
 - replace: 'skillably '
-  _tags: [adverb, to, else, can]
+  _tags:
+  - adverb
+  - to
+  - else
+  - can
   propagate_case: true
   allow_duplicate: false
-  triggers: ['klbl,']
+  trigger: klbl,
 - replace: 'skill this '
-  _tags: [demonstrative, th_foundation, to, can, else]
+  _tags:
+  - demonstrative
+  - th_foundation
+  - to
+  - can
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['izkl,']
+  trigger: izkl,
 - replace: 'skill that '
-  _tags: [demonstrative, th_foundation, to, can, else]
+  _tags:
+  - demonstrative
+  - th_foundation
+  - to
+  - can
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['azkl,']
+  trigger: azkl,
 - replace: 'skill these '
-  _tags: [demonstrative, th_foundation, to, can, else]
+  _tags:
+  - demonstrative
+  - th_foundation
+  - to
+  - can
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['ezkl,']
+  trigger: ezkl,
 - replace: 'skill those '
-  _tags: [demonstrative, th_foundation, to, can, else]
+  _tags:
+  - demonstrative
+  - th_foundation
+  - to
+  - can
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['ozkl,']
+  trigger: ozkl,
 - replace: 'what skill '
-  _tags: [question, to, can, else]
+  _tags:
+  - question
+  - to
+  - can
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['whtkl,']
+  trigger: whtkl,
 - replace: 'where skill '
-  _tags: [question, to, can, else]
+  _tags:
+  - question
+  - to
+  - can
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['whrkl,']
+  trigger: whrkl,
 - replace: 'when skill '
-  _tags: [question, to, can, else]
+  _tags:
+  - question
+  - to
+  - can
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['whnkl,']
+  trigger: whnkl,
 - replace: 'which skill '
-  _tags: [question, to, can, else]
+  _tags:
+  - question
+  - to
+  - can
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['whikl,']
+  trigger: whikl,
 - replace: 'how skill '
-  _tags: [question, to, can, else]
+  _tags:
+  - question
+  - to
+  - can
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['howkl,']
+  trigger: howkl,
 - replace: 'why skill '
-  _tags: [question, to, can, else]
+  _tags:
+  - question
+  - to
+  - can
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['wykl,']
+  trigger: wykl,
 - replace: 'skill to the '
-  _tags: [directional, to, the]
+  _tags:
+  - directional
+  - to
+  - the
   propagate_case: true
   allow_duplicate: false
-  triggers: ['kl2h,']
+  trigger: kl2h,
 - replace: 'skill from the '
-  _tags: [directional, from, the]
+  _tags:
+  - directional
+  - from
+  - the
   propagate_case: true
   allow_duplicate: false
-  triggers: ['kl-2h,']
+  trigger: kl-2h,
 - replace: 'skill it '
-  _tags: [pronoun, to, can, else]
+  _tags:
+  - pronoun
+  - to
+  - can
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['klit,']
+  trigger: klit,
 - replace: 'skill have '
-  _tags: [to, can, else]
+  _tags:
+  - to
+  - can
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['klhv,']
+  trigger: klhv,

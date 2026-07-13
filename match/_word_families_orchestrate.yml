@@ -1,44 +1,58 @@
-# ⚠️  WARNING: AUTO-GENERATED FILE - DO NOT EDIT DIRECTLY!
-# This file is generated from word_version by:
-#   scripts/convert_to_tokenized_word_version.py
-# Edit source in space_version and re-run conversions.
-# Tokenizes trailing spaces in triggers to an explicit token.
-# Removes right_word property for tokenized version.
-# Adds trailing space to replacements that don't have one.
-# Current token: ','
-
 matches:
 - replace: 'orchestrate '
-  _tags: [to, can, else]
+  _tags:
+  - to
+  - can
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['ohesa,']
+  trigger: ohesa,
 - replace: 'orchestrates '
-  _tags: [to, can, else]
+  _tags:
+  - to
+  - can
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['ohesas,']
+  trigger: ohesas,
 - replace: 'orchestrating '
-  _tags: [ing, to, can, else]
+  _tags:
+  - ing
+  - to
+  - can
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['ohesai,']
+  trigger: ohesai,
 - replace: 'orchestrated '
-  _tags: [ed, would, to, can, else]
+  _tags:
+  - ed
+  - would
+  - to
+  - can
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['ohesap,']
+  trigger: ohesap,
 - replace: 'orchestration '
-  _tags: [to, noun, can, else]
+  _tags:
+  - to
+  - noun
+  - can
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['ohesam,']
+  trigger: ohesam,
 - replace: 'orchestrator '
-  _tags: [to, can, else]
+  _tags:
+  - to
+  - can
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['ohesaw,']
+  trigger: ohesaw,
 - replace: 'orchestrator '
   propagate_case: true
   allow_duplicate: false
-  triggers: ['ohesao,']
+  trigger: ohesao,
+name: _word_families_orchestrate

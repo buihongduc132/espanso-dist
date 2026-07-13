@@ -1,51 +1,72 @@
-# ⚠️  WARNING: AUTO-GENERATED FILE - DO NOT EDIT DIRECTLY!
-# This file is generated from word_version by:
-#   scripts/convert_to_tokenized_word_version.py
-# Edit source in space_version and re-run conversions.
-# Tokenizes trailing spaces in triggers to an explicit token.
-# Removes right_word property for tokenized version.
-# Adds trailing space to replacements that don't have one.
-# Current token: ','
-
-name: word-families-violate
-parent: default
+name: _word_families_violate
 matches:
 - replace: 'violate '
-  _tags: [verb, to, can, else]
+  _tags:
+  - verb
+  - to
+  - can
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['jio,']
+  trigger: jio,
 - replace: 'violates '
-  _tags: [verb, to, can, else]
+  _tags:
+  - verb
+  - to
+  - can
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['jios,']
+  trigger: jios,
 - replace: 'violating '
-  _tags: [verb, ing, to, can, else]
+  _tags:
+  - verb
+  - ing
+  - to
+  - can
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['jioi,']
+  trigger: jioi,
 - replace: 'violated '
-  _tags: [verb, ed, would, to, can, else]
+  _tags:
+  - verb
+  - ed
+  - would
+  - to
+  - can
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['jiop,']
+  trigger: jiop,
 - replace: 'violation '
-  _tags: [noun, to, can, else]
+  _tags:
+  - noun
+  - to
+  - can
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['jiom,']
+  trigger: jiom,
 - replace: 'violations '
-  _tags: [noun, to, can, else]
+  _tags:
+  - noun
+  - to
+  - can
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['jioms,']
+  trigger: jioms,
 - replace: 'violator '
-  _tags: [noun, to, can, else]
+  _tags:
+  - noun
+  - to
+  - can
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['jiow,']
+  trigger: jiow,
 - replace: 'violator '
   propagate_case: true
   allow_duplicate: false
-  triggers: ['jioo,']
+  trigger: jioo,

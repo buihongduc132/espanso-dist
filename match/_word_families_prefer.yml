@@ -1,52 +1,66 @@
-# ⚠️  WARNING: AUTO-GENERATED FILE - DO NOT EDIT DIRECTLY!
-# This file is generated from word_version by:
-#   scripts/convert_to_tokenized_word_version.py
-# Edit source in space_version and re-run conversions.
-# Tokenizes trailing spaces in triggers to an explicit token.
-# Removes right_word property for tokenized version.
-# Adds trailing space to replacements that don't have one.
-# Current token: ','
-
-name: word-families-prefer
-parent: default
+name: _word_families_prefer
 matches:
 - replace: 'prefer '
-  _tags: [verb, to, else]
+  _tags:
+  - verb
+  - to
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['pwef,']
+  trigger: pwef,
 - replace: 'prefers '
-  _tags: [verb, to, else]
+  _tags:
+  - verb
+  - to
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['pwefs,']
+  trigger: pwefs,
 - replace: 'preferring '
-  _tags: [ing, verb, to, else]
+  _tags:
+  - ing
+  - verb
+  - to
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['pwefi,']
+  trigger: pwefi,
 - replace: 'preferred '
-  _tags: [ed, verb, to, else]
+  _tags:
+  - ed
+  - verb
+  - to
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['pwefp,']
+  trigger: pwefp,
 - replace: 'preference '
-  _tags: [noun, to, else]
+  _tags:
+  - noun
+  - to
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['pwefm,']
+  trigger: pwefm,
 - replace: 'preferences '
-  _tags: [noun, to, else]
+  _tags:
+  - noun
+  - to
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['pwefms,']
+  trigger: pwefms,
 - replace: 'preferable '
-  _tags: [adjective, else]
+  _tags:
+  - adjective
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['pwefb,']
+  trigger: pwefb,
 - replace: 'preferably '
-  _tags: [adverb, else]
+  _tags:
+  - adverb
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['pwefbl,']
+  trigger: pwefbl,

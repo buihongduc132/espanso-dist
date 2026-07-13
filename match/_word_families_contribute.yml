@@ -1,0 +1,217 @@
+name: _word_families_contribute
+matches:
+- replace: 'contribute '
+  _tags:
+  - noun
+  - verb
+  - to
+  - else
+  propagate_case: true
+  allow_duplicate: false
+  trigger: qntri,
+- replace: 'contributes '
+  _tags:
+  - noun
+  - plural
+  - verb
+  - to
+  - else
+  propagate_case: true
+  allow_duplicate: false
+  trigger: qntris,
+- replace: 'contributing '
+  _tags:
+  - ing
+  - verb
+  - to
+  - else
+  propagate_case: true
+  allow_duplicate: false
+  trigger: qntrii,
+- replace: 'contributed '
+  _tags:
+  - ed
+  - verb
+  - to
+  - else
+  propagate_case: true
+  allow_duplicate: false
+  trigger: qntrip,
+- replace: 'contribution '
+  _tags:
+  - noun
+  - to
+  - else
+  propagate_case: true
+  allow_duplicate: false
+  trigger: qntrim,
+- replace: 'contributions '
+  _tags:
+  - noun
+  - plural
+  - to
+  - else
+  propagate_case: true
+  allow_duplicate: false
+  trigger: qntrims,
+- replace: 'contributor '
+  _tags:
+  - noun
+  - to
+  - else
+  propagate_case: true
+  allow_duplicate: false
+  trigger: qntriw,
+- replace: 'contributors '
+  _tags:
+  - noun
+  - plural
+  - to
+  - else
+  propagate_case: true
+  allow_duplicate: false
+  trigger: qntriws,
+- replace: 'contributable '
+  _tags:
+  - adjective
+  - to
+  - else
+  propagate_case: true
+  allow_duplicate: false
+  trigger: qntrib,
+- replace: 'this contribute '
+  _tags:
+  - demonstrative
+  - th_foundation
+  propagate_case: true
+  allow_duplicate: false
+  trigger: izqntri,
+- replace: 'that contribute '
+  _tags:
+  - demonstrative
+  - th_foundation
+  propagate_case: true
+  allow_duplicate: false
+  trigger: azqntri,
+- replace: 'these contributes '
+  _tags:
+  - demonstrative
+  - th_foundation
+  - plural
+  propagate_case: true
+  allow_duplicate: false
+  trigger: ezqntris,
+- replace: 'those contributes '
+  _tags:
+  - demonstrative
+  - th_foundation
+  - plural
+  propagate_case: true
+  allow_duplicate: false
+  trigger: ozqntris,
+- replace: 'contribute this '
+  _tags:
+  - demonstrative
+  - th_foundation
+  propagate_case: true
+  allow_duplicate: false
+  trigger: qntriiz,
+- replace: 'contribute that '
+  _tags:
+  - demonstrative
+  - th_foundation
+  propagate_case: true
+  allow_duplicate: false
+  trigger: qntriaz,
+- replace: 'contribute these '
+  _tags:
+  - demonstrative
+  - th_foundation
+  propagate_case: true
+  allow_duplicate: false
+  trigger: qntriez,
+- replace: 'contribute those '
+  _tags:
+  - demonstrative
+  - th_foundation
+  propagate_case: true
+  allow_duplicate: false
+  trigger: qntrioz,
+- replace: 'contribute it '
+  _tags:
+  - pronoun
+  propagate_case: true
+  allow_duplicate: false
+  trigger: qntriit,
+- replace: 'contribute them '
+  _tags:
+  - pronoun
+  propagate_case: true
+  allow_duplicate: false
+  trigger: qntrimm,
+- replace: 'contribute the '
+  _tags:
+  - pronoun
+  propagate_case: true
+  allow_duplicate: false
+  trigger: qntrih,
+- replace: 'what contribute '
+  _tags:
+  - question
+  propagate_case: true
+  allow_duplicate: false
+  trigger: wtqntri,
+- replace: 'where contribute '
+  _tags:
+  - question
+  propagate_case: true
+  allow_duplicate: false
+  trigger: wwqntri,
+- replace: 'when contribute '
+  _tags:
+  - question
+  propagate_case: true
+  allow_duplicate: false
+  trigger: wnqntri,
+- replace: 'why contribute '
+  _tags:
+  - question
+  propagate_case: true
+  allow_duplicate: false
+  trigger: wyqntri,
+- replace: 'how contribute '
+  _tags:
+  - question
+  propagate_case: true
+  allow_duplicate: false
+  trigger: hwqntri,
+- replace: 'contribute to the '
+  _tags:
+  - directional
+  propagate_case: true
+  allow_duplicate: false
+  trigger: qntri2h,
+- replace: 'from the contribute '
+  _tags:
+  - directional
+  propagate_case: true
+  allow_duplicate: false
+  trigger: 22hqntri,
+- replace: 'from the contributes '
+  _tags:
+  - directional
+  propagate_case: true
+  allow_duplicate: false
+  trigger: 22hqntris,
+- replace: 'contribute have '
+  propagate_case: true
+  allow_duplicate: false
+  trigger: qntriha,
+- replace: 'contribute has '
+  propagate_case: true
+  allow_duplicate: false
+  trigger: qntrihass,
+- replace: 'then contribute '
+  propagate_case: true
+  allow_duplicate: false
+  trigger: nzqntri,

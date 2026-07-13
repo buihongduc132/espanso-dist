@@ -1,165 +1,251 @@
-# ⚠️  WARNING: AUTO-GENERATED FILE - DO NOT EDIT DIRECTLY!
-# This file is generated from word_version by:
-#   scripts/convert_to_tokenized_word_version.py
-# Edit source in space_version and re-run conversions.
-# Tokenizes trailing spaces in triggers to an explicit token.
-# Removes right_word property for tokenized version.
-# Adds trailing space to replacements that don't have one.
-# Current token: ','
-
 matches:
 - replace: 'move '
-  _tags: [to, can, else]
+  _tags:
+  - to
+  - can
+  - else
   _mv_to_mz_change: true
   propagate_case: true
   allow_duplicate: false
-  triggers: ['mz,']
+  trigger: mz,
 - replace: 'moves '
-  _tags: [to, can, else]
+  _tags:
+  - to
+  - can
+  - else
   _mv_to_mz_change: true
   propagate_case: true
   allow_duplicate: false
-  triggers: ['mzs,']
+  trigger: mzs,
 - replace: 'moving '
-  _tags: [ing, to, can, else]
+  _tags:
+  - ing
+  - to
+  - can
+  - else
   _mv_to_mz_change: true
   propagate_case: true
   allow_duplicate: false
-  triggers: ['mzi,']
+  trigger: mzi,
 - replace: 'moved '
-  _tags: [ed, would, to, can, else]
+  _tags:
+  - ed
+  - would
+  - to
+  - can
+  - else
   _mv_to_mz_change: true
   propagate_case: true
   allow_duplicate: false
-  triggers: ['mzp,']
+  trigger: mzp,
 - replace: 'movement '
-  _tags: [noun, to, can, else]
+  _tags:
+  - noun
+  - to
+  - can
+  - else
   _mv_to_mz_change: true
   propagate_case: true
   allow_duplicate: false
-  triggers: ['mzm,']
+  trigger: mzm,
 - replace: 'move this '
-  _tags: [demonstrative, to, can, else, frequent-verb]
+  _tags:
+  - demonstrative
+  - to
+  - can
+  - else
+  - frequent-verb
   _mv_to_mz_change: true
   propagate_case: true
   allow_duplicate: false
-  triggers: ['mziz,']
+  trigger: mziz,
 - replace: 'move that '
-  _tags: [demonstrative, to, can, else, frequent-verb]
+  _tags:
+  - demonstrative
+  - to
+  - can
+  - else
+  - frequent-verb
   _mv_to_mz_change: true
   propagate_case: true
   allow_duplicate: false
-  triggers: ['mzaz,']
+  trigger: mzaz,
 - replace: 'move these '
-  _tags: [demonstrative, to, can, else, frequent-verb]
+  _tags:
+  - demonstrative
+  - to
+  - can
+  - else
+  - frequent-verb
   _mv_to_mz_change: true
   propagate_case: true
   allow_duplicate: false
-  triggers: ['mzez,']
+  trigger: mzez,
 - replace: 'move those '
-  _tags: [demonstrative, to, can, else, frequent-verb]
+  _tags:
+  - demonstrative
+  - to
+  - can
+  - else
+  - frequent-verb
   _mv_to_mz_change: true
   propagate_case: true
   allow_duplicate: false
-  triggers: ['mzoz,']
+  trigger: mzoz,
 - replace: 'move the '
-  _tags: [article, to, can, else, frequent-verb]
+  _tags:
+  - article
+  - to
+  - can
+  - else
+  - frequent-verb
   _mv_to_mz_change: true
   propagate_case: true
   allow_duplicate: false
-  triggers: ['mzh,']
+  trigger: mzh,
 - replace: 'move all '
-  _tags: [quantifier, to, can, else]
+  _tags:
+  - quantifier
+  - to
+  - can
+  - else
   _mv_to_mz_change: true
   propagate_case: true
   allow_duplicate: false
-  triggers: ['mza,']
+  trigger: mza,
 - replace: 'move some '
-  _tags: [quantifier, to, can, else]
+  _tags:
+  - quantifier
+  - to
+  - can
+  - else
   _mv_to_mz_change: true
   propagate_case: true
   allow_duplicate: false
-  triggers: ['mzsm,']
+  trigger: mzsm,
 - replace: 'move each '
-  _tags: [quantifier, to, can, else]
+  _tags:
+  - quantifier
+  - to
+  - can
+  - else
   _mv_to_mz_change: true
   propagate_case: true
   allow_duplicate: false
-  triggers: ['mzeh,']
+  trigger: mzeh,
 - replace: 'movement '
-  _tags: [to, else]
+  _tags:
+  - to
+  - else
   _mv_to_mz_change: true
   propagate_case: true
   allow_duplicate: false
-  triggers: ['mjm,']
+  trigger: mjm,
 - replace: 'movements '
-  _tags: [to, else]
+  _tags:
+  - to
+  - else
   _mv_to_mz_change: true
   propagate_case: true
   allow_duplicate: false
-  triggers: ['mjms,']
+  trigger: mjms,
 - replace: 'moving '
-  _tags: [ing, pronoun, else]
+  _tags:
+  - ing
+  - pronoun
+  - else
   _mv_to_mz_change: true
   propagate_case: true
   allow_duplicate: false
-  triggers: ['mjmi,']
+  trigger: mjmi,
 - replace: 'moved '
-  _tags: [ed, would, else]
+  _tags:
+  - ed
+  - would
+  - else
   _mv_to_mz_change: true
   propagate_case: true
   allow_duplicate: false
-  triggers: ['mjmp,']
+  trigger: mjmp,
 - replace: 'movement this '
-  _tags: [demonstrative, to, else]
+  _tags:
+  - demonstrative
+  - to
+  - else
   _mv_to_mz_change: true
   propagate_case: true
   allow_duplicate: false
-  triggers: ['mjmiz,']
+  trigger: mjmiz,
 - replace: 'movement that '
-  _tags: [demonstrative, to, else]
+  _tags:
+  - demonstrative
+  - to
+  - else
   _mv_to_mz_change: true
   propagate_case: true
   allow_duplicate: false
-  triggers: ['mjmaz,']
+  trigger: mjmaz,
 - replace: 'movement these '
-  _tags: [demonstrative, to, else]
+  _tags:
+  - demonstrative
+  - to
+  - else
   _mv_to_mz_change: true
   propagate_case: true
   allow_duplicate: false
-  triggers: ['mjmez,']
+  trigger: mjmez,
 - replace: 'movement those '
-  _tags: [demonstrative, to, else]
+  _tags:
+  - demonstrative
+  - to
+  - else
   _mv_to_mz_change: true
   propagate_case: true
   allow_duplicate: false
-  triggers: ['mjmoz,']
+  trigger: mjmoz,
 - replace: 'movement the '
-  _tags: [article, to, else]
+  _tags:
+  - article
+  - to
+  - else
   _mv_to_mz_change: true
   propagate_case: true
   allow_duplicate: false
-  triggers: ['mjmh,']
+  trigger: mjmh,
 - replace: 'movement all '
-  _tags: [quantifier, to, else]
+  _tags:
+  - quantifier
+  - to
+  - else
   _mv_to_mz_change: true
   propagate_case: true
   allow_duplicate: false
-  triggers: ['mjma,']
+  trigger: mjma,
 - replace: 'movement some '
-  _tags: [quantifier, to, else]
+  _tags:
+  - quantifier
+  - to
+  - else
   _mv_to_mz_change: true
   propagate_case: true
   allow_duplicate: false
-  triggers: ['mjmsm,']
+  trigger: mjmsm,
 - replace: 'movement each '
-  _tags: [quantifier, to, else]
+  _tags:
+  - quantifier
+  - to
+  - else
   _mv_to_mz_change: true
   propagate_case: true
   allow_duplicate: false
-  triggers: ['mjmeh,']
+  trigger: mjmeh,
 - replace: 'movable '
-  _tags: [adjective, to, can, else]
+  _tags:
+  - adjective
+  - to
+  - can
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['mzb,']
+  trigger: mzb,
+name: _exx_movement

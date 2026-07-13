@@ -1,47 +1,69 @@
-# ⚠️  WARNING: AUTO-GENERATED FILE - DO NOT EDIT DIRECTLY!
-# This file is generated from word_version by:
-#   scripts/convert_to_tokenized_word_version.py
-# Edit source in space_version and re-run conversions.
-# Tokenizes trailing spaces in triggers to an explicit token.
-# Removes right_word property for tokenized version.
-# Adds trailing space to replacements that don't have one.
-# Current token: ','
-
-name: word-family-deep
-parent: default
+name: _word_families_deep
 matches:
 - replace: 'deep '
-  _tags: [adjective, to, can, else, pronoun]
+  _tags:
+  - adjective
+  - to
+  - can
+  - else
+  - pronoun
   propagate_case: true
   allow_duplicate: false
-  triggers: ['dp,']
+  trigger: dp,
 - replace: 'deeply '
-  _tags: [adverb, to, can, else, pronoun]
+  _tags:
+  - adverb
+  - to
+  - can
+  - else
+  - pronoun
   propagate_case: true
   allow_duplicate: false
-  triggers: ['dpl,']
+  trigger: dpl,
 - replace: 'depth '
-  _tags: [noun, to, can, else, pronoun]
+  _tags:
+  - noun
+  - to
+  - can
+  - else
+  - pronoun
   propagate_case: true
   allow_duplicate: false
-  triggers: ['dpm,']
+  trigger: dpm,
 - replace: 'depths '
-  _tags: [noun, to, can, else, pronoun]
+  _tags:
+  - noun
+  - to
+  - can
+  - else
+  - pronoun
   propagate_case: true
   allow_duplicate: false
-  triggers: ['dpms,']
+  trigger: dpms,
 - replace: 'deep to the '
-  _tags: [phrase, to, can, else]
+  _tags:
+  - phrase
+  - to
+  - can
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['dp2h,']
+  trigger: dp2h,
 - replace: 'this deep '
-  _tags: [phrase, to, can, else]
+  _tags:
+  - phrase
+  - to
+  - can
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['dpiz,']
+  trigger: dpiz,
 - replace: 'that deep '
-  _tags: [phrase, to, can, else]
+  _tags:
+  - phrase
+  - to
+  - can
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['dpaz,']
+  trigger: dpaz,

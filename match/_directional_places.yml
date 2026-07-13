@@ -1,0 +1,285 @@
+matches:
+- replace: 'to here '
+  _tags:
+  - to
+  - preposition
+  - directional
+  - location
+  - 222_group
+  propagate_case: true
+  allow_duplicate: false
+  trigger: 2hw,
+- replace: 'from here '
+  _tags:
+  - from
+  - preposition
+  - directional
+  - location
+  - 222_group
+  propagate_case: true
+  allow_duplicate: false
+  trigger: 22hw,
+- replace: 'to there '
+  _tags:
+  - to
+  - preposition
+  - directional
+  - location
+  - 222_group
+  - th_foundation
+  propagate_case: true
+  allow_duplicate: false
+  trigger: 2tw,
+- replace: 'from there '
+  _tags:
+  - from
+  - preposition
+  - directional
+  - location
+  - 222_group
+  - th_foundation
+  propagate_case: true
+  allow_duplicate: false
+  trigger: 22tw,
+- replace: 'to where '
+  _tags:
+  - to
+  - preposition
+  - directional
+  - location
+  - 222_group
+  propagate_case: true
+  allow_duplicate: false
+  trigger: 2ww,
+- replace: 'from where '
+  _tags:
+  - from
+  - preposition
+  - directional
+  - location
+  - 222_group
+  propagate_case: true
+  allow_duplicate: false
+  trigger: 22ww,
+- replace: 'to home '
+  _tags:
+  - to
+  - preposition
+  - directional
+  - location
+  - 222_group
+  propagate_case: true
+  allow_duplicate: false
+  trigger: 2hm,
+- replace: 'from home '
+  _tags:
+  - from
+  - preposition
+  - directional
+  - location
+  - 222_group
+  propagate_case: true
+  allow_duplicate: false
+  trigger: 22hm,
+- replace: 'to office '
+  _tags:
+  - to
+  - preposition
+  - directional
+  - location
+  - 222_group
+  propagate_case: true
+  allow_duplicate: false
+  trigger: 2of,
+- replace: 'from office '
+  _tags:
+  - from
+  - preposition
+  - directional
+  - location
+  - 222_group
+  propagate_case: true
+  allow_duplicate: false
+  trigger: 22of,
+- replace: 'to up '
+  _tags:
+  - to
+  - preposition
+  - directional
+  - direction
+  - 222_group
+  propagate_case: true
+  allow_duplicate: false
+  trigger: 2upd,
+- replace: 'from up '
+  _tags:
+  - from
+  - preposition
+  - directional
+  - direction
+  - 222_group
+  propagate_case: true
+  allow_duplicate: false
+  trigger: 22upd,
+- replace: 'to down '
+  _tags:
+  - to
+  - preposition
+  - directional
+  - direction
+  - 222_group
+  propagate_case: true
+  allow_duplicate: false
+  trigger: 2dn,
+- replace: 'from down '
+  _tags:
+  - from
+  - preposition
+  - directional
+  - direction
+  - 222_group
+  propagate_case: true
+  allow_duplicate: false
+  trigger: 22dn,
+- replace: 'to left '
+  _tags:
+  - to
+  - preposition
+  - directional
+  - direction
+  - 222_group
+  propagate_case: true
+  allow_duplicate: false
+  trigger: 2lf,
+- replace: 'from left '
+  _tags:
+  - from
+  - preposition
+  - directional
+  - direction
+  - 222_group
+  propagate_case: true
+  allow_duplicate: false
+  trigger: 22lf,
+- replace: 'to right '
+  _tags:
+  - to
+  - preposition
+  - directional
+  - direction
+  - 222_group
+  propagate_case: true
+  allow_duplicate: false
+  trigger: 2wt,
+- replace: 'from right '
+  _tags:
+  - from
+  - preposition
+  - directional
+  - direction
+  - 222_group
+  propagate_case: true
+  allow_duplicate: false
+  trigger: 22wt,
+- replace: 'to in '
+  _tags:
+  - to
+  - preposition
+  - directional
+  - location
+  - 222_group
+  propagate_case: true
+  allow_duplicate: false
+  trigger: 2in,
+- replace: 'from in '
+  _tags:
+  - from
+  - preposition
+  - directional
+  - location
+  - 222_group
+  propagate_case: true
+  allow_duplicate: false
+  trigger: 22in,
+- replace: 'to out '
+  _tags:
+  - to
+  - preposition
+  - directional
+  - location
+  - 222_group
+  propagate_case: true
+  allow_duplicate: false
+  trigger: 2out,
+- replace: 'from out '
+  _tags:
+  - from
+  - preposition
+  - directional
+  - location
+  - 222_group
+  propagate_case: true
+  allow_duplicate: false
+  trigger: 22out,
+- replace: 'to before '
+  _tags:
+  - to
+  - preposition
+  - directional
+  - temporal
+  - 222_group
+  propagate_case: true
+  allow_duplicate: false
+  trigger: 2bf,
+- replace: 'from before '
+  _tags:
+  - from
+  - preposition
+  - directional
+  - temporal
+  - 222_group
+  propagate_case: true
+  allow_duplicate: false
+  trigger: 22bf,
+- replace: 'to after '
+  _tags:
+  - to
+  - preposition
+  - directional
+  - temporal
+  - 222_group
+  propagate_case: true
+  allow_duplicate: false
+  trigger: 2af,
+- replace: 'from after '
+  _tags:
+  - from
+  - preposition
+  - directional
+  - temporal
+  - 222_group
+  propagate_case: true
+  allow_duplicate: false
+  trigger: 22af,
+- replace: 'to end '
+  _tags:
+  - to
+  - preposition
+  - directional
+  - temporal
+  - 222_group
+  propagate_case: true
+  allow_duplicate: false
+  trigger: 2ed,
+- replace: 'from end '
+  _tags:
+  - from
+  - preposition
+  - directional
+  - temporal
+  - 222_group
+  propagate_case: true
+  allow_duplicate: false
+  trigger: 22ed,
+enable: false
+name: _directional_places

@@ -1,42 +1,55 @@
-# ⚠️  WARNING: AUTO-GENERATED FILE - DO NOT EDIT DIRECTLY!
-# This file is generated from word_version by:
-#   scripts/convert_to_tokenized_word_version.py
-# Edit source in space_version and re-run conversions.
-# Tokenizes trailing spaces in triggers to an explicit token.
-# Removes right_word property for tokenized version.
-# Adds trailing space to replacements that don't have one.
-# Current token: ','
-
-name: word-families-stack
-parent: default
+name: _word_families_stack
 matches:
 - replace: 'stack '
-  _tags: [noun, software, else]
+  _tags:
+  - noun
+  - software
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['stq,']
+  trigger: stq,
 - replace: 'stacks '
-  _tags: [noun, plural, software, else]
+  _tags:
+  - noun
+  - plural
+  - software
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['stqs,']
+  trigger: stqs,
 - replace: 'stacking '
-  _tags: [verb, ing, software, else]
+  _tags:
+  - verb
+  - ing
+  - software
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['stqi,']
+  trigger: stqi,
 - replace: 'stacked '
-  _tags: [verb, ed, would, software, else]
+  _tags:
+  - verb
+  - ed
+  - would
+  - software
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['stqp,']
+  trigger: stqp,
 - replace: 'stacker '
-  _tags: [noun, software, else]
+  _tags:
+  - noun
+  - software
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['stqw,']
+  trigger: stqw,
 - replace: 'stackers '
-  _tags: [noun, plural, software, else]
+  _tags:
+  - noun
+  - plural
+  - software
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['stqws,']
+  trigger: stqws,

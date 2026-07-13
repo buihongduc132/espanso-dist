@@ -1,0 +1,50 @@
+name: _semicolon_categories
+matches:
+- replace: 'flow/requirements/ '
+  propagate_case: true
+  allow_duplicate: false
+  trigger: fl;we,
+- replace: 'flow/intentions/ '
+  propagate_case: true
+  allow_duplicate: false
+  trigger: fl;in,
+- replace: 'flow/plans/ '
+  propagate_case: true
+  allow_duplicate: false
+  trigger: fl;pl,
+- replace: 'flow/{plans,requirements,intentions,lessons_learn,troubleshootings,findings} '
+  propagate_case: true
+  allow_duplicate: false
+  trigger: fl;aa,
+- replace: 'flow/lessons_learn/ '
+  propagate_case: true
+  allow_duplicate: false
+  trigger: fl;lsl,
+- replace: 'flow/troubleshootings/ '
+  propagate_case: true
+  allow_duplicate: false
+  trigger: fl;trb,
+- replace: 'flow/findings/ '
+  propagate_case: true
+  allow_duplicate: false
+  trigger: fl;fi,
+- replace: 'openspec-propose '
+  propagate_case: true
+  allow_duplicate: false
+  trigger: opx;pwo`
+- replace: 'openspec-apply '
+  propagate_case: true
+  allow_duplicate: false
+  trigger: opx;ap`
+- replace: 'openspec-archive '
+  propagate_case: true
+  allow_duplicate: false
+  trigger: opx;aw`
+- replace: 'openspec-explore '
+  propagate_case: true
+  allow_duplicate: false
+  trigger: opx;ex`
+- replace: 'openspec '
+  propagate_case: true
+  allow_duplicate: false
+  trigger: opx`

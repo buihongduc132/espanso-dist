@@ -1,716 +1,1135 @@
-# ⚠️  WARNING: AUTO-GENERATED FILE - DO NOT EDIT DIRECTLY!
-# This file is generated from word_version by:
-#   scripts/convert_to_tokenized_word_version.py
-# Edit source in space_version and re-run conversions.
-# Tokenizes trailing spaces in triggers to an explicit token.
-# Removes right_word property for tokenized version.
-# Adds trailing space to replacements that don't have one.
-# Current token: ','
-
-name: software-terms
-parent: default
+name: _software
 matches:
 - replace: 'version '
-  _tags: [noun, else]
+  _tags:
+  - noun
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['jj,']
+  trigger: jj,
 - replace: 'versioning '
-  _tags: [ing, else]
+  _tags:
+  - ing
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['jji,']
+  trigger: jji,
 - replace: 'versions '
-  _tags: [noun, else]
+  _tags:
+  - noun
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['jjs,']
+  trigger: jjs,
 - replace: 'versioned '
-  _tags: [ed, would, else]
+  _tags:
+  - ed
+  - would
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['jjp,']
+  trigger: jjp,
 - replace: 'chrome '
-  _tags: [software, else]
+  _tags:
+  - software
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: [omw`]
+  trigger: omw`
 - replace: 'chrome browser '
-  _tags: [software, else]
+  _tags:
+  - software
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: [omwb`]
+  trigger: omwb`
 - replace: 'chrome profile '
-  _tags: [software, else]
+  _tags:
+  - software
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: [omwp`]
+  trigger: omwp`
 - replace: 'chrome profile directory '
-  _tags: [software, else]
+  _tags:
+  - software
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: [omwpd`]
+  trigger: omwpd`
 - replace: 'chrome debug '
-  _tags: [software, else]
+  _tags:
+  - software
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: [omwdb`]
+  trigger: omwdb`
 - replace: 'chrome debug port '
-  _tags: [software, else]
+  _tags:
+  - software
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: [omwdbp`]
+  trigger: omwdbp`
 - replace: 'hindsight '
-  _tags: [software, else]
+  _tags:
+  - software
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: [hin`]
+  trigger: hin`
 - replace: 'source code '
-  _tags: [software, else]
+  _tags:
+  - software
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: [swqq`]
+  trigger: swqq`
 - replace: 'event sourcing '
-  _tags: [software, else]
+  _tags:
+  - software
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: [eswqi`]
+  trigger: eswqi`
 - replace: 'fullstack '
-  _tags: [software, else]
+  _tags:
+  - software
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: [fstq`]
+  trigger: fstq`
 - replace: 'chrome --user-data-dir '
-  _tags: [software, else]
+  _tags:
+  - software
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: [omwdiw`]
+  trigger: omwdiw`
 - replace: 'chrome extension '
-  _tags: [software, else]
+  _tags:
+  - software
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: [omwex`]
+  trigger: omwex`
 - replace: 'macos '
-  _tags: [software, else]
+  _tags:
+  - software
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['mao,']
+  trigger: mao,
+- replace: 'Nvidia '
+  _tags:
+  - software
+  - else
+  propagate_case: true
+  allow_duplicate: false
+  trigger: NVI`
+- replace: 'Memory / Cpu '
+  _tags:
+  - software
+  - else
+  propagate_case: true
+  allow_duplicate: false
+  trigger: MCPU`
+- replace: 'disk '
+  _tags:
+  - software
+  - else
+  propagate_case: true
+  allow_duplicate: false
+  trigger: dsk`
+- replace: 'diskspace '
+  _tags:
+  - software
+  - else
+  propagate_case: true
+  allow_duplicate: false
+  trigger: dsksp`
+- replace: 'Gcp CPU '
+  _tags:
+  - software
+  - else
+  propagate_case: true
+  allow_duplicate: false
+  trigger: GCPU,
+- replace: 'fallback '
+  _tags:
+  - software
+  - else
+  propagate_case: true
+  allow_duplicate: false
+  trigger: flb`
 - replace: 'ubuntu '
-  _tags: [software, else]
+  _tags:
+  - software
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: [ubu`]
+  trigger: ubu`
 - replace: 'linux '
-  _tags: [software, else]
+  _tags:
+  - software
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['lux,']
+  trigger: lux,
 - replace: 'http request '
-  _tags: [the, to, else]
+  _tags:
+  - the
+  - to
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['hweq,']
+  trigger: hweq,
 - replace: 'websocket request '
-  _tags: [pronoun, will, to, can, else]
+  _tags:
+  - pronoun
+  - will
+  - to
+  - can
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['wweq,']
+  trigger: wweq,
 - replace: 'timeseries DB '
-  _tags: [pronoun, time, to, would, else]
+  _tags:
+  - pronoun
+  - time
+  - to
+  - would
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['tsdb,']
+  trigger: tsdb,
 - replace: 'in memory cache '
-  _tags: [the, can, else, pronoun]
+  _tags:
+  - the
+  - can
+  - else
+  - pronoun
   propagate_case: true
   allow_duplicate: false
-  triggers: ['inmemq,']
+  trigger: inmemq,
 - replace: 'file system '
-  _tags: [ours, to, else, pronoun]
+  _tags:
+  - ours
+  - to
+  - else
+  - pronoun
   propagate_case: true
   allow_duplicate: false
-  triggers: ['fsys,']
+  trigger: fsys,
 - replace: 'file system '
-  _tags: [else]
+  _tags:
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['fsy,']
-- replace: 'system '
-  _tags: [else]
-  propagate_case: true
-  allow_duplicate: false
-  triggers: ['sy,']
-- replace: 'server '
-  _tags: [software, else]
-  propagate_case: true
-  allow_duplicate: false
-  triggers: [sw`]
-- replace: 'servers '
-  _tags: [software, else]
-  propagate_case: true
-  allow_duplicate: false
-  triggers: ['sw`s,']
-- replace: 'client '
-  _tags: [software, else]
-  propagate_case: true
-  allow_duplicate: false
-  triggers: [ql`]
-- replace: 'clients '
-  _tags: [software, else]
-  propagate_case: true
-  allow_duplicate: false
-  triggers: ['ql`s,']
-- replace: 'quality '
-  _tags: [software, else]
-  propagate_case: true
-  allow_duplicate: false
-  triggers: [qli`]
-- replace: 'quantity '
-  _tags: [software, else]
-  propagate_case: true
-  allow_duplicate: false
-  triggers: [qti`]
-- replace: 'quantile '
-  _tags: [software, else]
-  propagate_case: true
-  allow_duplicate: false
-  triggers: [qtle`]
-- replace: 'symlink '
-  _tags: [software, else]
-  propagate_case: true
-  allow_duplicate: false
-  triggers: ['syl,']
-- replace: 'symlink directory '
-  _tags: [software, else]
-  propagate_case: true
-  allow_duplicate: false
-  triggers: ['syld,']
-- replace: 'symlink directories '
-  _tags: [software, else]
-  propagate_case: true
-  allow_duplicate: false
-  triggers: ['sylds,']
-- replace: 'symlinking directory '
-  _tags: [software, ing, else]
-  propagate_case: true
-  allow_duplicate: false
-  triggers: ['syldi,']
-- replace: 'symlinked directory '
-  _tags: [software, ed, else]
-  propagate_case: true
-  allow_duplicate: false
-  triggers: ['syldd,']
-- replace: 'systematic '
-  _tags: [pronoun, ours, to, else]
-  propagate_case: true
-  allow_duplicate: false
-  triggers: ['syq,']
-- replace: 'systematically '
-  _tags: [pronoun, ours, will, to, else]
-  propagate_case: true
-  allow_duplicate: false
-  triggers: ['syql,']
-- replace: 'status '
-  _tags: [to, can, else, pronoun]
-  propagate_case: true
-  allow_duplicate: false
-  triggers: ['stt,']
-- replace: 'host machine '
-  _tags: [pronoun, the, to, can, else]
-  propagate_case: true
-  allow_duplicate: false
-  triggers: ['hmaqhi,']
-- replace: 'client machine '
-  _tags: [pronoun, the, to, can, else]
-  propagate_case: true
-  allow_duplicate: false
-  triggers: ['qmaqhi,']
-- replace: 'remote machine '
-  _tags: [pronoun, the, to, can, else]
-  propagate_case: true
-  allow_duplicate: false
-  triggers: ['wmaqhi,']
-- replace: 'android '
-  _tags: [software, else]
-  propagate_case: true
-  allow_duplicate: false
-  triggers: [roid`]
-- replace: 'submodules '
-  _tags: [would, else]
-  propagate_case: true
-  allow_duplicate: false
-  triggers: ['submo,']
-- replace: 'interfaces/consumes/ interfaces/produces/ '
-  _tags: [pronoun, to, can, would, else]
-  propagate_case: true
-  allow_duplicate: false
-  triggers: [':intf,']
-- replace: 'console.log '
-  _tags: [can, else]
-  propagate_case: true
-  allow_duplicate: false
-  triggers: ['qsl,']
-- replace: 'UI/UX '
-  _tags: [pronoun]
-  propagate_case: true
-  allow_duplicate: false
-  triggers: ['uiux,']
-- replace: 'dashboard '
-  _tags: [should, would, the]
-  propagate_case: true
-  allow_duplicate: false
-  triggers: ['dhb,']
-- replace: 'homepage '
-  _tags: [the, else]
-  propagate_case: true
-  allow_duplicate: false
-  triggers: ['hop,']
-- replace: 'api key '
-  _tags: [pronoun, else]
-  propagate_case: true
-  allow_duplicate: false
-  triggers: ['apk,']
-- replace: 'api calls '
-  _tags: [software, else]
-  propagate_case: true
-  allow_duplicate: false
-  triggers: [apqa`]
-- triggers: ['APK,,,', 'AP_K,']
-  replace: 'API_KEY '
-  _tags: [pronoun, else]
-  propagate_case: true
-  allow_duplicate: false
-- replace: 'file '
-  _tags: [noun, else]
-  propagate_case: true
-  allow_duplicate: false
-  triggers: ['fl,']
-- replace: 'files '
-  _tags: [noun, else]
-  propagate_case: true
-  allow_duplicate: false
-  triggers: ['fls,']
-- replace: 'filing '
-  _tags: [ing, else]
-  propagate_case: true
-  allow_duplicate: false
-  triggers: ['fli,']
-- replace: 'filed '
-  _tags: [ed, would, else]
+  trigger: fsy,
+- replace: 'Paperclip '
   keep_case: true
   allow_duplicate: false
-  triggers: ['flP,']
+  trigger: ppql`
+- replace: 'codebase-memory '
+  keep_case: true
+  allow_duplicate: false
+  trigger: qbwem`
+- replace: 'system '
+  _tags:
+  - else
+  propagate_case: true
+  allow_duplicate: false
+  trigger: sy,
+- replace: 'server '
+  _tags:
+  - software
+  - else
+  propagate_case: true
+  allow_duplicate: false
+  trigger: sw`
+- replace: 'servers '
+  _tags:
+  - software
+  - else
+  propagate_case: true
+  allow_duplicate: false
+  trigger: sw`s,
+- replace: 'client '
+  _tags:
+  - software
+  - else
+  propagate_case: true
+  allow_duplicate: false
+  trigger: ql`
+- replace: 'clients '
+  _tags:
+  - software
+  - else
+  propagate_case: true
+  allow_duplicate: false
+  trigger: ql`s,
+- replace: 'quality '
+  _tags:
+  - software
+  - else
+  propagate_case: true
+  allow_duplicate: false
+  trigger: qli`
+- replace: 'quantity '
+  _tags:
+  - software
+  - else
+  propagate_case: true
+  allow_duplicate: false
+  trigger: qti`
+- replace: 'quantile '
+  _tags:
+  - software
+  - else
+  propagate_case: true
+  allow_duplicate: false
+  trigger: qtle`
+- replace: 'symlink '
+  _tags:
+  - software
+  - else
+  propagate_case: true
+  allow_duplicate: false
+  trigger: syl,
+- replace: 'symlink directory '
+  _tags:
+  - software
+  - else
+  propagate_case: true
+  allow_duplicate: false
+  trigger: syld,
+- replace: 'symlink directories '
+  _tags:
+  - software
+  - else
+  propagate_case: true
+  allow_duplicate: false
+  trigger: sylds,
+- replace: 'symlinking directory '
+  _tags:
+  - software
+  - ing
+  - else
+  propagate_case: true
+  allow_duplicate: false
+  trigger: syldi,
+- replace: 'symlinked directory '
+  _tags:
+  - software
+  - ed
+  - else
+  propagate_case: true
+  allow_duplicate: false
+  trigger: syldd,
+- replace: 'systematic '
+  _tags:
+  - pronoun
+  - ours
+  - to
+  - else
+  propagate_case: true
+  allow_duplicate: false
+  trigger: syq,
+- replace: 'systematically '
+  _tags:
+  - pronoun
+  - ours
+  - will
+  - to
+  - else
+  propagate_case: true
+  allow_duplicate: false
+  trigger: syql,
+- replace: 'status '
+  _tags:
+  - to
+  - can
+  - else
+  - pronoun
+  propagate_case: true
+  allow_duplicate: false
+  trigger: stt,
+- replace: 'host machine '
+  _tags:
+  - pronoun
+  - the
+  - to
+  - can
+  - else
+  propagate_case: true
+  allow_duplicate: false
+  trigger: hmaqhi,
+- replace: 'client machine '
+  _tags:
+  - pronoun
+  - the
+  - to
+  - can
+  - else
+  propagate_case: true
+  allow_duplicate: false
+  trigger: qmaqhi,
+- replace: 'remote machine '
+  _tags:
+  - pronoun
+  - the
+  - to
+  - can
+  - else
+  propagate_case: true
+  allow_duplicate: false
+  trigger: wmaqhi,
+- replace: 'android '
+  _tags:
+  - software
+  - else
+  propagate_case: true
+  allow_duplicate: false
+  trigger: roid`
+- replace: 'submodules '
+  _tags:
+  - would
+  - else
+  propagate_case: true
+  allow_duplicate: false
+  trigger: submo,
+- replace: 'interfaces/consumes/ interfaces/produces/ '
+  _tags:
+  - pronoun
+  - to
+  - can
+  - would
+  - else
+  propagate_case: true
+  allow_duplicate: false
+  trigger: :intf,
+- replace: 'console.log '
+  _tags:
+  - can
+  - else
+  propagate_case: true
+  allow_duplicate: false
+  trigger: qsl,
+- replace: 'UI/UX '
+  _tags:
+  - pronoun
+  propagate_case: true
+  allow_duplicate: false
+  trigger: uiux,
+- replace: 'dashboard '
+  _tags:
+  - should
+  - would
+  - the
+  propagate_case: true
+  allow_duplicate: false
+  trigger: dhb,
+- replace: 'homepage '
+  _tags:
+  - the
+  - else
+  propagate_case: true
+  allow_duplicate: false
+  trigger: hop,
+- replace: 'api key '
+  _tags:
+  - pronoun
+  - else
+  propagate_case: true
+  allow_duplicate: false
+  trigger: apk,
+- replace: 'api calls '
+  _tags:
+  - software
+  - else
+  propagate_case: true
+  allow_duplicate: false
+  trigger: apqa`
+- replace: 'API_KEY '
+  _tags: &id001
+  - pronoun
+  - else
+  propagate_case: true
+  allow_duplicate: false
+  trigger: APK,,,
+- replace: 'API_KEY '
+  _tags: *id001
+  propagate_case: true
+  allow_duplicate: false
+  trigger: AP_K,
+- replace: 'file '
+  _tags:
+  - noun
+  - else
+  propagate_case: true
+  allow_duplicate: false
+  trigger: fl,
+- replace: 'files '
+  _tags:
+  - noun
+  - else
+  propagate_case: true
+  allow_duplicate: false
+  trigger: fls,
+- replace: 'filing '
+  _tags:
+  - ing
+  - else
+  propagate_case: true
+  allow_duplicate: false
+  trigger: fli,
+- replace: 'filed '
+  _tags:
+  - ed
+  - would
+  - else
+  keep_case: true
+  allow_duplicate: false
+  trigger: flP,
 - replace: 'WS_TODO.md '
   propagate_case: true
   allow_duplicate: false
-  triggers: ['md;woo,']
+  trigger: md;woo,
 - replace: 'TODO.md '
   propagate_case: true
   allow_duplicate: false
-  triggers: ['md;oo,']
+  trigger: md;oo,
 - replace: 'README.md '
   propagate_case: true
   allow_duplicate: false
-  triggers: ['md;wm,']
+  trigger: md;wm,
 - replace: 'QUICK_REFERENCE.md '
   propagate_case: true
   allow_duplicate: false
-  triggers: ['md;qw,']
+  trigger: md;qw,
 - replace: 'USAGE.md '
   propagate_case: true
   allow_duplicate: false
-  triggers: ['md;usa,']
+  trigger: md;usa,
 - replace: 'AGENTS.md '
   propagate_case: true
   allow_duplicate: false
-  triggers: ['md;a,']
+  trigger: md;a,
 - replace: 'GEMINI.md '
   propagate_case: true
   allow_duplicate: false
-  triggers: ['md;g,']
-- triggers: [':es,', ':estrig,']
-  replace: "- triggers: [\"__\"]\n  replace: \"__\"\n "
-  _tags: [to, can, else, pronoun]
+  trigger: md;g,
+- replace: "- triggers: [\"__\"]\n  replace: \"__\"\n "
+  _tags: &id002
+  - to
+  - can
+  - else
+  - pronoun
   propagate_case: true
   allow_duplicate: false
-- triggers: ['.d,', 'dk,']
-  replace: 'docker '
-  _tags: [can, else, would]
+  trigger: :es,
+- replace: "- triggers: [\"__\"]\n  replace: \"__\"\n "
+  _tags: *id002
   propagate_case: true
   allow_duplicate: false
-- triggers: ['.d,,,', 'dk,,,']
-  replace: 'docker '
-  _tags: [can, else, would]
+  trigger: :estrig,
+- replace: 'docker '
   propagate_case: true
   allow_duplicate: false
-- triggers: ['.df,', 'dkf,']
-  replace: 'dockerfile '
-  _tags: [pronoun, can, else, would]
+  trigger: dk`
+- replace: 'dockerfile '
   propagate_case: true
   allow_duplicate: false
-- triggers: ['.df,,,', 'dkf,,,']
-  replace: 'dockerfile '
-  _tags: [pronoun, can, else, would]
+  trigger: dkf`
+- replace: 'docker-compose '
   propagate_case: true
   allow_duplicate: false
-- triggers: ['.dq,', 'dkq,']
-  replace: 'docker-compose '
-  _tags: [can, else, would]
-  propagate_case: true
-  allow_duplicate: false
-- triggers: ['.dq,,,', 'dkq,,,']
-  replace: 'docker-compose '
-  _tags: [can, else, would]
-  propagate_case: true
-  allow_duplicate: false
-- replace: 'desktop '
-  _tags: [to, else, would]
-  propagate_case: true
-  allow_duplicate: false
-  triggers: ['.dt,']
-- replace: 'desktop '
-  _tags: [to, else, would]
-  propagate_case: true
-  allow_duplicate: false
-  triggers: ['dt,,,']
+  trigger: dkq`
 - replace: 'deepseek '
-  _tags: [would, else]
+  _tags:
+  - would
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['DS,']
+  trigger: DS,
 - replace: 'desktop '
-  _tags: [to, else, would]
+  _tags:
+  - to
+  - else
+  - would
   propagate_case: true
   allow_duplicate: false
-  triggers: ['dskt,']
+  trigger: dskt,
 - replace: 'swarm '
-  _tags: [to, else]
+  _tags:
+  - to
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['swa,']
+  trigger: swa,
 - replace: 'config '
-  _tags: [to, can, else]
+  _tags:
+  - to
+  - can
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['onf,']
+  trigger: onf,
 - replace: 'CrewAI '
-  _tags: [to, else]
+  _tags:
+  - to
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['EWA,,,']
+  trigger: EWA,,,
 - replace: 'issue '
-  _tags: [noun, else]
+  _tags:
+  - noun
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['iss,']
+  trigger: iss,
 - replace: 'gh cli '
-  _tags: [software, else]
+  _tags:
+  - software
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['ghcl,']
+  trigger: ghcl`
 - replace: 'gh issue '
-  _tags: [software, else]
+  _tags:
+  - software
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['ghis,']
+  trigger: ghis`
 - replace: 'gh discussion '
-  _tags: [software, else]
+  _tags:
+  - software
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['ghdi,']
+  trigger: ghdi`
 - replace: 'open issue '
-  _tags: [software, else]
+  _tags:
+  - software
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['opis,']
+  trigger: opis,
 - replace: 'close issue '
-  _tags: [software, else]
+  _tags:
+  - software
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['clis,']
+  trigger: clis,
 - replace: 'reopen issue '
-  _tags: [software, else]
+  _tags:
+  - software
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['wopis,']
+  trigger: wopis,
 - replace: 'file the '
-  _tags: [to, can, else]
+  _tags:
+  - to
+  - can
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['flh,']
+  trigger: flh,
 - replace: 'command '
-  _tags: [noun, else]
+  _tags:
+  - noun
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['qmd,']
+  trigger: qmd,
 - replace: 'commands '
-  _tags: [noun, else]
+  _tags:
+  - noun
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['qmds,']
+  trigger: qmds,
 - replace: 'commanding '
-  _tags: [ing, else]
+  _tags:
+  - ing
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['qmdi,']
+  trigger: qmdi,
 - replace: 'commanded '
-  _tags: [ed, would, else]
+  _tags:
+  - ed
+  - would
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['qmdp,']
+  trigger: qmdp,
 - replace: 'commandment '
-  _tags: [noun, else]
+  _tags:
+  - noun
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['qmdm,']
+  trigger: qmdm,
 - replace: 'commander '
-  _tags: [noun, else]
+  _tags:
+  - noun
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['qmdw,']
+  trigger: qmdw,
 - replace: 'commanders '
-  _tags: [noun, else]
+  _tags:
+  - noun
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['qmdws,']
+  trigger: qmdws,
 - replace: 'sub command '
-  _tags: [noun, else]
+  _tags:
+  - noun
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['sqmd,']
+  trigger: sqmd,
 - replace: 'tailscale '
-  _tags: [software, networking, else]
+  _tags:
+  - software
+  - networking
+  - else
   keep_case: true
   allow_duplicate: false
-  triggers: [tse`]
+  trigger: tse`
 - replace: 'tailscale network '
-  _tags: [software, networking, else]
+  _tags:
+  - software
+  - networking
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: [tsn`]
+  trigger: tsn`
 - replace: 'tailscale status '
-  _tags: [software, networking, else]
+  _tags:
+  - software
+  - networking
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: [tsst`]
+  trigger: tsst`
 - replace: 'tailscale up '
-  _tags: [software, networking, else]
+  _tags:
+  - software
+  - networking
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: [tsup`]
+  trigger: tsup`
 - replace: 'tailscale down '
-  _tags: [software, networking, else]
+  _tags:
+  - software
+  - networking
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: [tsdn`]
+  trigger: tsdn`
 - replace: 'tailscale ip '
-  _tags: [software, networking, else]
+  _tags:
+  - software
+  - networking
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: [tsip`]
+  trigger: tsip`
 - replace: 'tailscale up '
-  _tags: [software, networking]
+  _tags:
+  - software
+  - networking
   propagate_case: true
   allow_duplicate: false
-  triggers: ['tsu,']
+  trigger: tsu,
 - replace: 'tailscale down '
-  _tags: [software, networking]
+  _tags:
+  - software
+  - networking
   propagate_case: true
   allow_duplicate: false
-  triggers: ['tsd,']
+  trigger: tsd,
 - replace: 'tailscale network '
-  _tags: [software, networking]
+  _tags:
+  - software
+  - networking
   propagate_case: true
   allow_duplicate: false
-  triggers: ['tsn,']
+  trigger: tsn,
+- replace: 'binary '
+  _tags:
+  - software
+  - file
+  propagate_case: true
+  allow_duplicate: false
+  trigger: bin`
+- replace: 'binary path '
+  _tags:
+  - software
+  - file
+  propagate_case: true
+  allow_duplicate: false
+  trigger: binpa`
 - replace: 'Featherless AI '
-  _tags: [software, ai, else]
+  _tags:
+  - software
+  - ai
+  - else
   keep_case: true
   allow_duplicate: false
-  triggers: [FLT`]
+  trigger: FLT`
 - replace: 'Featherless AI '
-  _tags: [software, ai, else]
+  _tags:
+  - software
+  - ai
+  - else
   keep_case: true
   allow_duplicate: false
-  triggers: [FTL`]
+  trigger: FTL`
 - replace: 'Featherless AI API '
-  _tags: [software, ai]
+  _tags:
+  - software
+  - ai
   propagate_case: true
   allow_duplicate: false
-  triggers: [fltapi`]
+  trigger: fltapi`
 - replace: 'buihongduc '
-  _tags: [proper, else]
+  _tags:
+  - proper
+  - else
   keep_case: true
   allow_duplicate: false
-  triggers: [bhd`]
+  trigger: bhd`
 - replace: 'buihongduc132 '
-  _tags: [proper, else]
+  _tags:
+  - proper
+  - else
   keep_case: true
   allow_duplicate: false
-  triggers: [bhd32`]
+  trigger: bhd32`
+- replace: 'buihongduc132 '
+  _tags:
+  - proper
+  - else
+  keep_case: true
+  allow_duplicate: false
+  trigger: bhd1`
+- replace: 'buihongduc132 @../../../../.cli-proxy-api/qwen-5sa71yy5n8@code-gmail.com.json '
+  _tags:
+  - proper
+  - else
+  keep_case: true
+  allow_duplicate: false
+  trigger: bhd1 @g`
+- replace: 'buihongduc132 @yahoo.com '
+  _tags:
+  - proper
+  - else
+  keep_case: true
+  allow_duplicate: false
+  trigger: bhd1 @y`
 - replace: 'buihongduc132@yahoo.com '
-  _tags: [proper, else]
+  _tags:
+  - proper
+  - else
   keep_case: true
   allow_duplicate: false
-  triggers: [bhdym`]
+  trigger: bhdym`
 - replace: 'buihongduc132@gmail.com '
-  _tags: [proper, else, else]
+  _tags:
+  - proper
+  - else
+  - else
   keep_case: true
   allow_duplicate: false
-  triggers: [bhdgm`]
+  trigger: bhdgm`
 - replace: 'Cloudflare '
-  _tags: [software, networking]
+  _tags:
+  - software
+  - networking
   keep_case: true
   allow_duplicate: false
-  triggers: [CF`]
+  trigger: CF`
 - replace: 'OpenAI '
-  _tags: [software, ai]
+  _tags:
+  - software
+  - ai
   keep_case: true
   allow_duplicate: false
-  triggers: [OAI`]
+  trigger: OAI`
 - replace: 'ChatGPT '
-  _tags: [software, ai]
+  _tags:
+  - software
+  - ai
   keep_case: true
   allow_duplicate: false
-  triggers: [PT`]
+  trigger: PT`
 - replace: 'timeout '
-  _tags: [software, else]
+  _tags:
+  - software
+  - else
   keep_case: true
   allow_duplicate: false
-  triggers: [TO`]
+  trigger: TO`
 - replace: 'gemini '
-  _tags: [software, ai]
+  _tags:
+  - software
+  - ai
   keep_case: true
   allow_duplicate: false
-  triggers: [mini`]
+  trigger: mini`
 - replace: 'codex '
-  _tags: [software, technical]
+  _tags:
+  - software
+  - technical
   keep_case: true
   allow_duplicate: false
-  triggers: [qox`]
+  trigger: qox`
 - replace: 'opencode '
-  _tags: [software, technical, else]
+  _tags:
+  - software
+  - technical
+  - else
   keep_case: true
   allow_duplicate: false
-  triggers: [oqo`]
+  trigger: oqo`
 - replace: 'timeouted '
-  _tags: [software, else]
+  _tags:
+  - software
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['top,']
+  trigger: top,
 - replace: 'openai compatible '
-  _tags: [software, ai]
+  _tags:
+  - software
+  - ai
   propagate_case: true
   allow_duplicate: false
-  triggers: ['oiac,']
+  trigger: oiac,
 - replace: 'Featherless AI API key '
-  _tags: [software, ai, else]
+  _tags:
+  - software
+  - ai
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: [fltkey`]
+  trigger: fltkey`
 - replace: 'Featherless AI model '
-  _tags: [software, ai, else]
+  _tags:
+  - software
+  - ai
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: [fltmod`]
+  trigger: fltmod`
 - replace: 'Nomad '
-  _tags: [software, technical, else]
+  _tags:
+  - software
+  - technical
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: [nod`]
+  trigger: nod`
 - replace: 'kubernetes '
-  _tags: [software, technical, else]
+  _tags:
+  - software
+  - technical
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: [k8`]
+  trigger: k8`
 - replace: 'kubernetes '
-  _tags: [software, technical, else]
+  _tags:
+  - software
+  - technical
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: [k8s`]
+  trigger: k8s`
 - replace: 'espanso '
-  _tags: [software, technical, else]
+  _tags:
+  - software
+  - technical
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: [esso`]
+  trigger: esso`
 - replace: 'virtual machine '
-  _tags: [software, technical, else]
+  _tags:
+  - software
+  - technical
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: [vm`]
+  trigger: vm`
 - replace: 'serverless '
-  _tags: [software, technical, else]
+  _tags:
+  - software
+  - technical
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: [swl`]
+  trigger: swl`
 - replace: 'cloud functions '
-  _tags: [software, technical, else]
+  _tags:
+  - software
+  - technical
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: [qlfm`]
+  trigger: qlfm`
 - replace: 'round robin '
-  _tags: [software, technical, else]
+  _tags:
+  - software
+  - technical
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: [wwob`]
+  trigger: wwob`
 - replace: 'terraform '
-  _tags: [software, technical, else]
+  _tags:
+  - software
+  - technical
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: [traf`]
-- replace: 'terraform '
-  _tags: [software, technical, else]
-  keep_case: true
-  allow_duplicate: false
-  triggers: [TF`]
+  trigger: traf`
 - replace: 'Digger '
-  _tags: [software, technical, else]
+  _tags:
+  - software
+  - technical
+  - else
   keep_case: true
   allow_duplicate: false
-  triggers: [DIG`]
+  trigger: DIG`
 - replace: 'hokaido '
-  _tags: [proper, else]
+  _tags:
+  - proper
+  - else
   keep_case: true
   allow_duplicate: false
-  triggers: [HOK`]
+  trigger: HOK`
 - replace: 'systemd '
-  _tags: [software, technical, else]
+  _tags:
+  - software
+  - technical
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: [syd`]
+  trigger: syd`
 - replace: 'tmux '
-  _tags: [software, technical, else]
+  _tags:
+  - software
+  - technical
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: [tmx`]
+  trigger: tmx`
 - replace: 'alacritty '
-  _tags: [software, technical, else]
+  _tags:
+  - software
+  - technical
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: [alac`]
+  trigger: alac`
 - replace: 'wezterm '
-  _tags: [software, technical, else]
+  _tags:
+  - software
+  - technical
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: [wzt`]
+  trigger: wzt`
 - replace: 'tabby '
-  _tags: [software, technical, else]
+  _tags:
+  - software
+  - technical
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: [tby`]
+  trigger: tby`
 - replace: 'markdown '
-  _tags: [software, technical, else]
+  _tags:
+  - software
+  - technical
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: [md`]
+  trigger: md`
 - replace: 'Ansible / Mise '
-  _tags: [software, else]
+  _tags:
+  - software
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: [ansie`]
+  trigger: ansie`
 - replace: 'Ansible '
-  _tags: [software, else]
+  _tags:
+  - software
+  - else
   allow_duplicate: true
   duplicate_group: ansible-tool
   propagate_case: true
-  triggers: [ansi`]
+  trigger: ansi`
+- replace: 'gitnexus '
+  _tags:
+  - software
+  - else
+  keep_case: true
+  allow_duplicate: false
+  trigger: ghne`
+- replace: 'Stow / ansible '
+  _tags:
+  - software
+  - else
+  propagate_case: true
+  allow_duplicate: false
+  trigger: ansow`
+- replace: 'Nomad Consul '
+  _tags:
+  - software
+  - else
+  propagate_case: true
+  allow_duplicate: false
+  trigger: noqo`
+- replace: 'archon '
+  _tags:
+  - software
+  - else
+  propagate_case: true
+  allow_duplicate: false
+  trigger: ahon`
+- replace: 'archon workflow '
+  _tags:
+  - software
+  - else
+  propagate_case: true
+  allow_duplicate: false
+  trigger: ahonwf`
+- replace: 'pulumi '
+  _tags:
+  - software
+  - else
+  propagate_case: true
+  allow_duplicate: false
+  trigger: pulu`
+- replace: 'hermes '
+  _tags:
+  - software
+  - else
+  propagate_case: true
+  allow_duplicate: false
+  trigger: hewm`

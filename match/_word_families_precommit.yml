@@ -1,147 +1,284 @@
-# ⚠️  WARNING: AUTO-GENERATED FILE - DO NOT EDIT DIRECTLY!
-# This file is generated from word_version by:
-#   scripts/convert_to_tokenized_word_version.py
-# Edit source in space_version and re-run conversions.
-# Tokenizes trailing spaces in triggers to an explicit token.
-# Removes right_word property for tokenized version.
-# Adds trailing space to replacements that don't have one.
-# Current token: ','
-
-name: word-families-precommit
-parent: default
+name: _word_families_precommit
 matches:
 - replace: 'precommit '
-  _tags: [noun, verb, to, can, else]
+  _tags:
+  - noun
+  - verb
+  - to
+  - can
+  - else
   allow_duplicate: true
   propagate_case: true
-  triggers: ['pqmi,']
+  trigger: pqmi,
 - replace: 'precommits '
-  _tags: [noun, verb, to, can, else]
+  _tags:
+  - noun
+  - verb
+  - to
+  - can
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['pqmis,']
+  trigger: pqmis,
 - replace: 'precommitting '
-  _tags: [ing, verb, to, can, else, pronoun]
+  _tags:
+  - ing
+  - verb
+  - to
+  - can
+  - else
+  - pronoun
   propagate_case: true
   allow_duplicate: false
-  triggers: ['pqmii,']
+  trigger: pqmii,
 - replace: 'precommitted '
-  _tags: [ed, verb, would, to, can, else]
+  _tags:
+  - ed
+  - verb
+  - would
+  - to
+  - can
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['pqmip,']
+  trigger: pqmip,
 - replace: 'precommitter '
-  _tags: [noun, to, can, else]
+  _tags:
+  - noun
+  - to
+  - can
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['pqmiw,']
+  trigger: pqmiw,
 - replace: 'precommitters '
-  _tags: [noun, to, can, else]
+  _tags:
+  - noun
+  - to
+  - can
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['pqmiws,']
+  trigger: pqmiws,
 - replace: 'precommitment '
-  _tags: [noun, to, can, else]
+  _tags:
+  - noun
+  - to
+  - can
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['pqmim,']
+  trigger: pqmim,
 - replace: 'precommitments '
-  _tags: [noun, to, can, else]
+  _tags:
+  - noun
+  - to
+  - can
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['pqmims,']
+  trigger: pqmims,
 - replace: 'postcommit '
-  _tags: [noun, verb, to, can, else, prefix]
+  _tags:
+  - noun
+  - verb
+  - to
+  - can
+  - else
+  - prefix
   propagate_case: true
   allow_duplicate: false
-  triggers: ['postqmi,']
+  trigger: postqmi,
 - replace: 'postcommits '
-  _tags: [noun, verb, to, can, else, prefix]
+  _tags:
+  - noun
+  - verb
+  - to
+  - can
+  - else
+  - prefix
   propagate_case: true
   allow_duplicate: false
-  triggers: ['postqmis,']
+  trigger: postqmis,
 - replace: 'postcommitting '
-  _tags: [ing, verb, to, can, else, prefix]
+  _tags:
+  - ing
+  - verb
+  - to
+  - can
+  - else
+  - prefix
   propagate_case: true
   allow_duplicate: false
-  triggers: ['postqmii,']
+  trigger: postqmii,
 - replace: 'postcommitted '
-  _tags: [ed, verb, would, to, can, else, prefix]
+  _tags:
+  - ed
+  - verb
+  - would
+  - to
+  - can
+  - else
+  - prefix
   propagate_case: true
   allow_duplicate: false
-  triggers: ['postqmip,']
+  trigger: postqmip,
 - replace: 'multicommit '
-  _tags: [noun, verb, to, can, else, prefix]
+  _tags:
+  - noun
+  - verb
+  - to
+  - can
+  - else
+  - prefix
   propagate_case: true
   allow_duplicate: false
-  triggers: ['multiqmi,']
+  trigger: multiqmi,
 - replace: 'multicommits '
-  _tags: [noun, verb, to, can, else, prefix]
+  _tags:
+  - noun
+  - verb
+  - to
+  - can
+  - else
+  - prefix
   propagate_case: true
   allow_duplicate: false
-  triggers: ['multiqmis,']
+  trigger: multiqmis,
 - replace: 'autocommit '
-  _tags: [noun, verb, to, can, else, prefix]
+  _tags:
+  - noun
+  - verb
+  - to
+  - can
+  - else
+  - prefix
   propagate_case: true
   allow_duplicate: false
-  triggers: ['autoqmi,']
+  trigger: autoqmi,
 - replace: 'autocommits '
-  _tags: [noun, verb, to, can, else, prefix]
+  _tags:
+  - noun
+  - verb
+  - to
+  - can
+  - else
+  - prefix
   propagate_case: true
   allow_duplicate: false
-  triggers: ['autoqmis,']
+  trigger: autoqmis,
 - replace: 'autocommitting '
-  _tags: [ing, verb, to, can, else, prefix]
+  _tags:
+  - ing
+  - verb
+  - to
+  - can
+  - else
+  - prefix
   propagate_case: true
   allow_duplicate: false
-  triggers: ['autoqmii,']
+  trigger: autoqmii,
 - replace: 'autocommitted '
-  _tags: [ed, verb, would, to, can, else, prefix]
+  _tags:
+  - ed
+  - verb
+  - would
+  - to
+  - can
+  - else
+  - prefix
   propagate_case: true
   allow_duplicate: false
-  triggers: ['autoqmip,']
+  trigger: autoqmip,
 - replace: 'precommit this '
-  _tags: [demonstrative, verb, to, can, else]
+  _tags:
+  - demonstrative
+  - verb
+  - to
+  - can
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['pqmiiz,']
+  trigger: pqmiiz,
 - replace: 'precommit that '
-  _tags: [demonstrative, verb, to, can, else]
+  _tags:
+  - demonstrative
+  - verb
+  - to
+  - can
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['pqmiaz,']
+  trigger: pqmiaz,
 - replace: 'precommit these '
-  _tags: [demonstrative, verb, to, can, else]
+  _tags:
+  - demonstrative
+  - verb
+  - to
+  - can
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['pqmiez,']
+  trigger: pqmiez,
 - replace: 'precommit those '
-  _tags: [demonstrative, verb, to, can, else]
+  _tags:
+  - demonstrative
+  - verb
+  - to
+  - can
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['pqmioz,']
+  trigger: pqmioz,
 - replace: 'precommit all '
-  _tags: [quantifier, verb, to, can, else]
+  _tags:
+  - quantifier
+  - verb
+  - to
+  - can
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['pqmia,']
+  trigger: pqmia,
 - replace: 'precommit all of '
-  _tags: [quantifier, verb, to, can, else, preposition]
+  _tags:
+  - quantifier
+  - verb
+  - to
+  - can
+  - else
+  - preposition
   propagate_case: true
   allow_duplicate: false
-  triggers: ['pqmiao,']
+  trigger: pqmiao,
 - replace: 'precommit some '
-  _tags: [quantifier, verb, to, can, else]
+  _tags:
+  - quantifier
+  - verb
+  - to
+  - can
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['pqmism,']
+  trigger: pqmism,
 - replace: 'precommit some of '
-  _tags: [quantifier, verb, to, can, else, preposition]
+  _tags:
+  - quantifier
+  - verb
+  - to
+  - can
+  - else
+  - preposition
   propagate_case: true
   allow_duplicate: false
-  triggers: ['pqmismo,']
+  trigger: pqmismo,
 - replace: 'precommit each '
-  _tags: [quantifier, verb, to, can, else]
+  _tags:
+  - quantifier
+  - verb
+  - to
+  - can
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['pqmieh,']
+  trigger: pqmieh,

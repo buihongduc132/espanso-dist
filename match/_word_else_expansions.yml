@@ -1,0 +1,154 @@
+name: _word_else_expansions
+matches:
+- replace: 'what else '
+  _tags:
+  - else
+  - question
+  - what
+  propagate_case: true
+  allow_duplicate: false
+  trigger: wte`
+- replace: 'where else '
+  _tags:
+  - else
+  - question
+  - where
+  propagate_case: true
+  allow_duplicate: false
+  trigger: wre`
+- replace: 'when else '
+  _tags:
+  - else
+  - question
+  - when
+  propagate_case: true
+  allow_duplicate: false
+  trigger: wne`
+- replace: 'why else '
+  _tags:
+  - else
+  - question
+  - why
+  propagate_case: true
+  allow_duplicate: false
+  trigger: wye`
+- replace: 'how else '
+  _tags:
+  - else
+  - question
+  - how
+  propagate_case: true
+  allow_duplicate: false
+  trigger: hwe`
+- replace: 'who else '
+  _tags:
+  - else
+  - question
+  - who
+  propagate_case: true
+  allow_duplicate: false
+  trigger: woe`
+- replace: 'which else '
+  _tags:
+  - else
+  - question
+  - which
+  propagate_case: true
+  allow_duplicate: false
+  trigger: wie`
+- replace: 'something else '
+  _tags:
+  - else
+  - pronoun
+  - some
+  propagate_case: true
+  allow_duplicate: false
+  trigger: smie`
+- replace: 'someone else '
+  _tags:
+  - else
+  - pronoun
+  - some
+  propagate_case: true
+  allow_duplicate: false
+  trigger: sm1e`
+- replace: 'anything else '
+  _tags:
+  - else
+  - pronoun
+  - any
+  propagate_case: true
+  allow_duplicate: false
+  trigger: ayie`
+- replace: 'anyone else '
+  _tags:
+  - else
+  - pronoun
+  - any
+  propagate_case: true
+  allow_duplicate: false
+  trigger: ay1e`
+- replace: 'everything else '
+  _tags:
+  - else
+  - pronoun
+  - every
+  propagate_case: true
+  allow_duplicate: false
+  trigger: yyie`
+- replace: 'everyone else '
+  _tags:
+  - else
+  - pronoun
+  - every
+  propagate_case: true
+  allow_duplicate: false
+  trigger: yy1e`
+- replace: 'nothing else '
+  _tags:
+  - else
+  - pronoun
+  - negate
+  propagate_case: true
+  allow_duplicate: false
+  trigger: ntie`
+- replace: 'no one else '
+  _tags:
+  - else
+  - pronoun
+  - negate
+  propagate_case: true
+  allow_duplicate: false
+  trigger: n1e`
+- replace: 'somebody else '
+  _tags:
+  - else
+  - pronoun
+  - some
+  propagate_case: true
+  allow_duplicate: false
+  trigger: smbe`
+- replace: 'anybody else '
+  _tags:
+  - else
+  - pronoun
+  - any
+  propagate_case: true
+  allow_duplicate: false
+  trigger: aybe`
+- replace: 'everybody else '
+  _tags:
+  - else
+  - pronoun
+  - every
+  propagate_case: true
+  allow_duplicate: false
+  trigger: yybe`
+- replace: 'nobody else '
+  _tags:
+  - else
+  - pronoun
+  - negate
+  propagate_case: true
+  allow_duplicate: false
+  trigger: nbe`

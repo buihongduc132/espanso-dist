@@ -1,0 +1,90 @@
+name: _word_families_conspiracy
+matches:
+- replace: 'conspiracy '
+  _tags:
+  - noun
+  - can
+  - else
+  propagate_case: true
+  allow_duplicate: false
+  trigger: qnspi,
+- replace: 'conspiracies '
+  _tags:
+  - noun
+  - can
+  - else
+  propagate_case: true
+  allow_duplicate: false
+  trigger: qnspis,
+- replace: 'conspirator '
+  _tags:
+  - noun
+  - can
+  - else
+  propagate_case: true
+  allow_duplicate: false
+  trigger: qnspiw,
+- replace: 'conspirators '
+  _tags:
+  - noun
+  - can
+  - else
+  propagate_case: true
+  allow_duplicate: false
+  trigger: qnspiws,
+- replace: 'conspiratorial '
+  _tags:
+  - adjective
+  - can
+  - else
+  propagate_case: true
+  allow_duplicate: false
+  trigger: qnspil,
+- replace: 'conspire '
+  _tags:
+  - verb
+  - can
+  - else
+  propagate_case: true
+  allow_duplicate: false
+  trigger: qnspi-,
+- replace: 'conspires '
+  _tags:
+  - verb
+  - can
+  - else
+  propagate_case: true
+  allow_duplicate: false
+  trigger: qnspi-s,
+- replace: 'conspiring '
+  _tags:
+  - ing
+  - can
+  - else
+  propagate_case: true
+  allow_duplicate: false
+  trigger: qnspi-i,
+- replace: 'conspired '
+  _tags:
+  - ed
+  - can
+  - else
+  propagate_case: true
+  allow_duplicate: false
+  trigger: qnspi-p,
+- replace: 'conspiracy this '
+  propagate_case: true
+  allow_duplicate: false
+  trigger: qnspiiz,
+- replace: 'conspiracy that '
+  propagate_case: true
+  allow_duplicate: false
+  trigger: qnspiaz,
+- replace: 'conspiracy these '
+  propagate_case: true
+  allow_duplicate: false
+  trigger: qnspiez,
+- replace: 'conspiracy those '
+  propagate_case: true
+  allow_duplicate: false
+  trigger: qnspioz,

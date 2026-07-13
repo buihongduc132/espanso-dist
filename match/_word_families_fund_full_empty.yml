@@ -1,0 +1,150 @@
+name: _word_families_fund_full_empty
+matches:
+- replace: 'fundamental '
+  propagate_case: true
+  allow_duplicate: false
+  trigger: funda,
+- replace: 'fundamentals '
+  propagate_case: true
+  allow_duplicate: false
+  trigger: fundas,
+- replace: 'fundamentally '
+  propagate_case: true
+  allow_duplicate: false
+  trigger: fundal,
+- replace: 'this fundamental '
+  propagate_case: true
+  allow_duplicate: false
+  trigger: fundaiz,
+- replace: 'that fundamental '
+  propagate_case: true
+  allow_duplicate: false
+  trigger: fundaaz,
+- replace: 'these fundamentals '
+  propagate_case: true
+  allow_duplicate: false
+  trigger: fundaez,
+- replace: 'those fundamentals '
+  propagate_case: true
+  allow_duplicate: false
+  trigger: fundaoz,
+- replace: 'fund '
+  propagate_case: true
+  allow_duplicate: false
+  trigger: fun,
+- replace: 'funds '
+  propagate_case: true
+  allow_duplicate: false
+  trigger: funs,
+- replace: 'funding '
+  propagate_case: true
+  allow_duplicate: false
+  trigger: funi,
+- replace: 'funded '
+  propagate_case: true
+  allow_duplicate: false
+  trigger: funp,
+- replace: 'funder '
+  propagate_case: true
+  allow_duplicate: false
+  trigger: funw,
+- replace: 'funders '
+  propagate_case: true
+  allow_duplicate: false
+  trigger: funws,
+- replace: 'this fund '
+  propagate_case: true
+  allow_duplicate: false
+  trigger: funiz,
+- replace: 'that fund '
+  propagate_case: true
+  allow_duplicate: false
+  trigger: funaz,
+- replace: 'these funds '
+  propagate_case: true
+  allow_duplicate: false
+  trigger: funez,
+- replace: 'those funds '
+  propagate_case: true
+  allow_duplicate: false
+  trigger: funoz,
+- replace: 'full '
+  propagate_case: true
+  allow_duplicate: false
+  trigger: ful,
+- replace: 'fuller '
+  propagate_case: true
+  allow_duplicate: false
+  trigger: fulw,
+- replace: 'fullest '
+  propagate_case: true
+  allow_duplicate: false
+  trigger: fult,
+- replace: 'fully '
+  propagate_case: true
+  allow_duplicate: false
+  trigger: full,
+- replace: 'fullness '
+  propagate_case: true
+  allow_duplicate: false
+  trigger: fuln,
+- replace: 'fullnesses '
+  propagate_case: true
+  allow_duplicate: false
+  trigger: fulns,
+- replace: 'this full '
+  propagate_case: true
+  allow_duplicate: false
+  trigger: fuliz,
+- replace: 'that full '
+  propagate_case: true
+  allow_duplicate: false
+  trigger: fulaz,
+- replace: 'empty '
+  propagate_case: true
+  allow_duplicate: false
+  trigger: empt,
+- replace: 'empties '
+  propagate_case: true
+  allow_duplicate: false
+  trigger: empts,
+- replace: 'emptying '
+  propagate_case: true
+  allow_duplicate: false
+  trigger: empti,
+- replace: 'emptied '
+  propagate_case: true
+  allow_duplicate: false
+  trigger: emptp,
+- replace: 'emptiness '
+  propagate_case: true
+  allow_duplicate: false
+  trigger: emptn,
+- replace: 'emptinesses '
+  propagate_case: true
+  allow_duplicate: false
+  trigger: emptns,
+- replace: 'emptier '
+  propagate_case: true
+  allow_duplicate: false
+  trigger: emptw,
+- replace: 'emptiest '
+  propagate_case: true
+  allow_duplicate: false
+  trigger: emptt,
+- replace: 'this empty '
+  propagate_case: true
+  allow_duplicate: false
+  trigger: emptiz,
+- replace: 'that empty '
+  propagate_case: true
+  allow_duplicate: false
+  trigger: emptaz,
+- replace: 'these empties '
+  propagate_case: true
+  allow_duplicate: false
+  trigger: emptez,
+- replace: 'those empties '
+  propagate_case: true
+  allow_duplicate: false
+  trigger: emptoz,

@@ -1,0 +1,86 @@
+name: _word_families_resist
+matches:
+- replace: 'resist '
+  propagate_case: true
+  allow_duplicate: false
+  trigger: wesis,
+- replace: 'resists '
+  propagate_case: true
+  allow_duplicate: false
+  trigger: wesiss,
+- replace: 'resisting '
+  propagate_case: true
+  allow_duplicate: false
+  trigger: wesisi,
+- replace: 'resisted '
+  propagate_case: true
+  allow_duplicate: false
+  trigger: wesisp,
+- replace: 'resistance '
+  propagate_case: true
+  allow_duplicate: false
+  trigger: wesism,
+- replace: 'resistances '
+  propagate_case: true
+  allow_duplicate: false
+  trigger: wesisms,
+- replace: 'resister '
+  propagate_case: true
+  allow_duplicate: false
+  trigger: wesisw,
+- replace: 'resisters '
+  propagate_case: true
+  allow_duplicate: false
+  trigger: wesisws,
+- replace: 'resistant '
+  propagate_case: true
+  allow_duplicate: false
+  trigger: wesisj,
+- replace: 'resistantly '
+  propagate_case: true
+  allow_duplicate: false
+  trigger: wesisjl,
+- replace: 'resistible '
+  propagate_case: true
+  allow_duplicate: false
+  trigger: wesisb,
+- replace: 'resistibly '
+  propagate_case: true
+  allow_duplicate: false
+  trigger: wesisbl,
+- replace: 'resist this '
+  propagate_case: true
+  allow_duplicate: false
+  trigger: wesisiz,
+- replace: 'resist that '
+  propagate_case: true
+  allow_duplicate: false
+  trigger: wesisaz,
+- replace: 'resist these '
+  propagate_case: true
+  allow_duplicate: false
+  trigger: wesisez,
+- replace: 'resist those '
+  propagate_case: true
+  allow_duplicate: false
+  trigger: wesisoz,
+- replace: 'resist the '
+  propagate_case: true
+  allow_duplicate: false
+  trigger: wesish,
+- replace: 'resist to '
+  propagate_case: true
+  allow_duplicate: false
+  trigger: wesis2,
+- replace: 'resist to the '
+  propagate_case: true
+  allow_duplicate: false
+  trigger: wesis2h,
+- replace: 'resist from '
+  propagate_case: true
+  allow_duplicate: false
+  trigger: wesis-2,
+- replace: 'resist from the '
+  propagate_case: true
+  allow_duplicate: false
+  trigger: wesis-2h,

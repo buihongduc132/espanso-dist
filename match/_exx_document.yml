@@ -1,75 +1,130 @@
-# ⚠️  WARNING: AUTO-GENERATED FILE - DO NOT EDIT DIRECTLY!
-# This file is generated from word_version by:
-#   scripts/convert_to_tokenized_word_version.py
-# Edit source in space_version and re-run conversions.
-# Tokenizes trailing spaces in triggers to an explicit token.
-# Removes right_word property for tokenized version.
-# Adds trailing space to replacements that don't have one.
-# Current token: ','
-
 matches:
 - replace: 'document this '
-  _tags: [demonstrative, to, can, else, frequent-verb]
+  _tags:
+  - demonstrative
+  - to
+  - can
+  - else
+  - frequent-verb
   propagate_case: true
   allow_duplicate: false
-  triggers: ['doqiz,']
+  trigger: doqiz,
 - replace: 'document that '
-  _tags: [demonstrative, to, can, else, have, frequent-verb]
+  _tags:
+  - demonstrative
+  - to
+  - can
+  - else
+  - have
+  - frequent-verb
   propagate_case: true
   allow_duplicate: false
-  triggers: ['doqaz,']
+  trigger: doqaz,
 - replace: 'document these '
-  _tags: [demonstrative, to, can, else, frequent-verb]
+  _tags:
+  - demonstrative
+  - to
+  - can
+  - else
+  - frequent-verb
   propagate_case: true
   allow_duplicate: false
-  triggers: ['doqez,']
+  trigger: doqez,
 - replace: 'document those '
-  _tags: [demonstrative, to, can, else, frequent-verb]
+  _tags:
+  - demonstrative
+  - to
+  - can
+  - else
+  - frequent-verb
   propagate_case: true
   allow_duplicate: false
-  triggers: ['doqoz,']
+  trigger: doqoz,
 - replace: 'documenting this '
-  _tags: [demonstrative, ing, to, can, else]
+  _tags:
+  - demonstrative
+  - ing
+  - to
+  - can
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['doqiiz,']
+  trigger: doqiiz,
 - replace: 'documenting that '
-  _tags: [demonstrative, ing, to, can, else, have]
+  _tags:
+  - demonstrative
+  - ing
+  - to
+  - can
+  - else
+  - have
   propagate_case: true
   allow_duplicate: false
-  triggers: ['doqiaz,']
+  trigger: doqiaz,
 - replace: 'documenting these '
-  _tags: [demonstrative, ing, to, can, else]
+  _tags:
+  - demonstrative
+  - ing
+  - to
+  - can
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['doqiez,']
+  trigger: doqiez,
 - replace: 'documenting those '
-  _tags: [demonstrative, ing, to, can, else]
+  _tags:
+  - demonstrative
+  - ing
+  - to
+  - can
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['doqioz,']
+  trigger: doqioz,
 - replace: 'document the '
-  _tags: [the, to, can, else, frequent-verb]
+  _tags:
+  - the
+  - to
+  - can
+  - else
+  - frequent-verb
   propagate_case: true
   allow_duplicate: false
-  triggers: ['doqh,']
+  trigger: doqh,
 - replace: 'documenting the '
-  _tags: [the, ing, to, can, else]
+  _tags:
+  - the
+  - ing
+  - to
+  - can
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['doqih,']
+  trigger: doqih,
 - replace: 'document all '
-  _tags: [the, to, can, else]
+  _tags:
+  - the
+  - to
+  - can
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['doqa,']
+  trigger: doqa,
 - replace: 'document some '
-  _tags: [to, can, else]
+  _tags:
+  - to
+  - can
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['doqsm,']
+  trigger: doqsm,
 - replace: 'document each '
-  _tags: [the, to, can, else]
+  _tags:
+  - the
+  - to
+  - can
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['doqeh,']
+  trigger: doqeh,
+name: _exx_document

@@ -1,37 +1,89 @@
-# ⚠️  WARNING: AUTO-GENERATED FILE - DO NOT EDIT DIRECTLY!
-# This file is generated from word_version by:
-#   scripts/convert_to_tokenized_word_version.py
-# Edit source in space_version and re-run conversions.
-# Tokenizes trailing spaces in triggers to an explicit token.
-# Removes right_word property for tokenized version.
-# Adds trailing space to replacements that don't have one.
-# Current token: ','
-
-name: word-families-continue
-parent: default
+name: _word_families_continue
 matches:
 - replace: 'continue '
-  _tags: [verb, to, can, else]
+  _tags:
+  - verb
+  - to
+  - can
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['oni,']
+  trigger: oni,
 - replace: 'continues '
-  _tags: [verb, to, can, else]
+  _tags:
+  - verb
+  - to
+  - can
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['onis,']
+  trigger: onis,
 - replace: 'continuing '
-  _tags: [verb, ing, to, can, else]
+  _tags:
+  - verb
+  - ing
+  - to
+  - can
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['onii,']
+  trigger: onii,
 - replace: 'continued '
-  _tags: [verb, ed, would, to, can, else]
+  _tags:
+  - verb
+  - ed
+  - would
+  - to
+  - can
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['onip,']
+  trigger: onip,
 - replace: 'continuation '
-  _tags: [noun, to, can, else]
+  _tags:
+  - noun
+  - to
+  - can
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['onim,']
+  trigger: onim,
+- replace: 'continuations '
+  _tags:
+  - noun
+  - to
+  - else
+  propagate_case: true
+  allow_duplicate: false
+  trigger: onims,
+- replace: 'continuous '
+  _tags:
+  - adjective
+  - to
+  - else
+  propagate_case: true
+  allow_duplicate: false
+  trigger: onij,
+- replace: 'continuously '
+  _tags:
+  - adverb
+  - else
+  propagate_case: true
+  allow_duplicate: false
+  trigger: onijl,
+- replace: 'continue to '
+  propagate_case: true
+  allow_duplicate: false
+  trigger: oni2,
+- replace: 'continues to '
+  propagate_case: true
+  allow_duplicate: false
+  trigger: onis2,
+- replace: 'continuing to '
+  propagate_case: true
+  allow_duplicate: false
+  trigger: onii2,
+- replace: 'continued to '
+  propagate_case: true
+  allow_duplicate: false
+  trigger: onip2,

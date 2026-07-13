@@ -1,77 +1,90 @@
-# ⚠️  WARNING: AUTO-GENERATED FILE - DO NOT EDIT DIRECTLY!
-# This file is generated from word_version by:
-#   scripts/convert_to_tokenized_word_version.py
-# Edit source in space_version and re-run conversions.
-# Tokenizes trailing spaces in triggers to an explicit token.
-# Removes right_word property for tokenized version.
-# Adds trailing space to replacements that don't have one.
-# Current token: ','
-
-name: word-families-gate
-parent: default
+name: _word_families_gate
 matches:
 - replace: 'gate '
-  _tags: [noun, else]
+  _tags:
+  - noun
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['g8,']
+  trigger: g8,
 - replace: 'gates '
-  _tags: [noun, else]
+  _tags:
+  - noun
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['g8s,']
+  trigger: g8s,
 - replace: 'gating '
-  _tags: [ing, else]
+  _tags:
+  - ing
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['g8i,']
+  trigger: g8i,
 - replace: 'gated '
-  _tags: [ed, else]
+  _tags:
+  - ed
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['g8p,']
+  trigger: g8p,
 - replace: 'gater '
-  _tags: [noun, else]
+  _tags:
+  - noun
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['g8w,']
+  trigger: g8w,
 - replace: 'gaters '
-  _tags: [noun, else]
+  _tags:
+  - noun
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['g8ws,']
+  trigger: g8ws,
 - replace: 'gation '
-  _tags: [noun, else]
+  _tags:
+  - noun
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['g8m,']
+  trigger: g8m,
 - replace: 'gated '
-  _tags: [ed, else]
+  _tags:
+  - ed
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['g8l,']
+  trigger: g8l,
 - replace: 'gately '
-  _tags: [else]
+  _tags:
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['g8ll,']
+  trigger: g8ll,
 - replace: 'gality '
-  _tags: [noun, else]
+  _tags:
+  - noun
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['g8ly,']
+  trigger: g8ly,
 - replace: 'galities '
-  _tags: [noun, else]
+  _tags:
+  - noun
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['g8lys,']
+  trigger: g8lys,
 - replace: 'gateable '
-  _tags: [else]
+  _tags:
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['g8b,']
+  trigger: g8b,
 - replace: 'gateably '
-  _tags: [else]
+  _tags:
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['g8bl,']
+  trigger: g8bl,

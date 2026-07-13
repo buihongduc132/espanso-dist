@@ -1,42 +1,53 @@
-# ⚠️  WARNING: AUTO-GENERATED FILE - DO NOT EDIT DIRECTLY!
-# This file is generated from word_version by:
-#   scripts/convert_to_tokenized_word_version.py
-# Edit source in space_version and re-run conversions.
-# Tokenizes trailing spaces in triggers to an explicit token.
-# Removes right_word property for tokenized version.
-# Adds trailing space to replacements that don't have one.
-# Current token: ','
-
-name: word-families-co-exist
-parent: default
+name: _word_families_co_exist
 matches:
 - replace: 'co-exist '
-  _tags: [to, else, pronoun]
+  _tags:
+  - to
+  - else
+  - pronoun
   propagate_case: true
   allow_duplicate: false
-  triggers: ['qexi1,']
+  trigger: qexi1,
 - replace: 'co-exists '
-  _tags: [to, else, pronoun]
+  _tags:
+  - to
+  - else
+  - pronoun
   propagate_case: true
   allow_duplicate: false
-  triggers: ['qexi1s,']
+  trigger: qexi1s,
 - replace: 'co-existing '
-  _tags: [ing, to, else, pronoun]
+  _tags:
+  - ing
+  - to
+  - else
+  - pronoun
   propagate_case: true
   allow_duplicate: false
-  triggers: ['qexi1i,']
+  trigger: qexi1i,
 - replace: 'co-existed '
-  _tags: [ed, would, to, else, pronoun]
+  _tags:
+  - ed
+  - would
+  - to
+  - else
+  - pronoun
   propagate_case: true
   allow_duplicate: false
-  triggers: ['qexi1p,']
+  trigger: qexi1p,
 - replace: 'co-existence '
-  _tags: [noun, else, pronoun]
+  _tags:
+  - noun
+  - else
+  - pronoun
   propagate_case: true
   allow_duplicate: false
-  triggers: ['qexi1m,']
+  trigger: qexi1m,
 - replace: 'co-existences '
-  _tags: [noun, else, pronoun]
+  _tags:
+  - noun
+  - else
+  - pronoun
   propagate_case: true
   allow_duplicate: false
-  triggers: ['qexi1ms,']
+  trigger: qexi1ms,

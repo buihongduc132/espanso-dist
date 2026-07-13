@@ -1,109 +1,183 @@
-# ⚠️  WARNING: AUTO-GENERATED FILE - DO NOT EDIT DIRECTLY!
-# This file is generated from word_version by:
-#   scripts/convert_to_tokenized_word_version.py
-# Edit source in space_version and re-run conversions.
-# Tokenizes trailing spaces in triggers to an explicit token.
-# Removes right_word property for tokenized version.
-# Adds trailing space to replacements that don't have one.
-# Current token: ','
-
-name: exx_evolve
-parent: default
+name: _exx_evolve
 matches:
 - replace: 'evolve '
-  _tags: [to, can, else, verb]
+  _tags:
+  - to
+  - can
+  - else
+  - verb
   propagate_case: true
   allow_duplicate: false
-  triggers: ['fevl,']
+  trigger: fevl,
 - replace: 'evolves '
-  _tags: [to, can, else, verb]
+  _tags:
+  - to
+  - can
+  - else
+  - verb
   propagate_case: true
   allow_duplicate: false
-  triggers: ['fevols,']
+  trigger: fevols,
 - replace: 'evolving '
-  _tags: [ing, to, can, else, verb]
+  _tags:
+  - ing
+  - to
+  - can
+  - else
+  - verb
   propagate_case: true
   allow_duplicate: false
-  triggers: ['fevoli,']
+  trigger: fevoli,
 - replace: 'evolved '
-  _tags: [ed, would, to, can, else, verb]
+  _tags:
+  - ed
+  - would
+  - to
+  - can
+  - else
+  - verb
   propagate_case: true
   allow_duplicate: false
-  triggers: ['fevolp,']
+  trigger: fevolp,
 - replace: 'evolve this '
-  _tags: [demonstrative, to, can, else, verb]
+  _tags:
+  - demonstrative
+  - to
+  - can
+  - else
+  - verb
   propagate_case: true
   allow_duplicate: false
-  triggers: ['fevoliz,']
+  trigger: fevoliz,
 - replace: 'evolve that '
-  _tags: [demonstrative, to, can, else, verb]
+  _tags:
+  - demonstrative
+  - to
+  - can
+  - else
+  - verb
   propagate_case: true
   allow_duplicate: false
-  triggers: ['fevolaz,']
+  trigger: fevolaz,
 - replace: 'evolve these '
-  _tags: [demonstrative, to, can, else, verb]
+  _tags:
+  - demonstrative
+  - to
+  - can
+  - else
+  - verb
   allow_duplicate: true
   duplicate_group: evolve-lez
   propagate_case: true
-  triggers: ['fevolez,']
+  trigger: fevolez,
 - replace: 'evolve those '
-  _tags: [demonstrative, to, can, else, verb]
+  _tags:
+  - demonstrative
+  - to
+  - can
+  - else
+  - verb
   allow_duplicate: true
   duplicate_group: evolve-lez
   propagate_case: true
-  triggers: ['fevoleoz,']
+  trigger: fevoleoz,
 - replace: 'be evolve '
-  _tags: [to, can, be, verb]
+  _tags:
+  - to
+  - can
+  - be
+  - verb
   propagate_case: true
   allow_duplicate: false
-  triggers: ['bevl,']
+  trigger: bevl,
 - replace: 'is evolve '
-  _tags: [to, can, be, verb]
+  _tags:
+  - to
+  - can
+  - be
+  - verb
   propagate_case: true
   allow_duplicate: false
-  triggers: ['bevols,']
+  trigger: bevols,
 - replace: 'was evolve '
-  _tags: [to, can, be, verb]
+  _tags:
+  - to
+  - can
+  - be
+  - verb
   propagate_case: true
   allow_duplicate: false
-  triggers: ['bevolp,']
+  trigger: bevolp,
 - replace: 'not evolve '
-  _tags: [negate, to, can, verb]
+  _tags:
+  - negate
+  - to
+  - can
+  - verb
   propagate_case: true
   allow_duplicate: false
-  triggers: ['nevl,']
+  trigger: nevl,
 - replace: 'is not evolve '
-  _tags: [negate, to, can, be, verb]
+  _tags:
+  - negate
+  - to
+  - can
+  - be
+  - verb
   propagate_case: true
   allow_duplicate: false
-  triggers: ['nevols,']
+  trigger: nevols,
 - replace: 'have evolve '
-  _tags: [to, can, have, verb]
+  _tags:
+  - to
+  - can
+  - have
+  - verb
   propagate_case: true
   allow_duplicate: false
-  triggers: ['hevl,']
+  trigger: hevl,
 - replace: 'has evolve '
-  _tags: [to, can, have, verb]
+  _tags:
+  - to
+  - can
+  - have
+  - verb
   propagate_case: true
   allow_duplicate: false
-  triggers: ['hevols,']
+  trigger: hevols,
 - replace: 'what evolve '
-  _tags: [question, to, can, verb]
+  _tags:
+  - question
+  - to
+  - can
+  - verb
   propagate_case: true
   allow_duplicate: false
-  triggers: ['wtevol,']
+  trigger: wtevol,
 - replace: 'where evolve '
-  _tags: [question, to, can, verb]
+  _tags:
+  - question
+  - to
+  - can
+  - verb
   propagate_case: true
   allow_duplicate: false
-  triggers: ['wrevol,']
+  trigger: wrevol,
 - replace: 'when evolve '
-  _tags: [question, to, can, verb]
+  _tags:
+  - question
+  - to
+  - can
+  - verb
   propagate_case: true
   allow_duplicate: false
-  triggers: ['wnevol,']
+  trigger: wnevol,
 - replace: 'why evolve '
-  _tags: [question, to, can, verb]
+  _tags:
+  - question
+  - to
+  - can
+  - verb
   propagate_case: true
   allow_duplicate: false
-  triggers: ['wyevol,']
+  trigger: wyevol,

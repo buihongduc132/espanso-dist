@@ -1,0 +1,112 @@
+name: _word_families_average
+matches:
+- replace: 'average '
+  propagate_case: true
+  _tags:
+  - to
+  - can
+  - else
+  - base
+  allow_duplicate: false
+  trigger: ajg,
+- replace: 'averages '
+  propagate_case: true
+  _tags:
+  - to
+  - can
+  - else
+  - plural
+  allow_duplicate: false
+  trigger: ajgs,
+- replace: 'averaging '
+  propagate_case: true
+  _tags:
+  - to
+  - can
+  - else
+  - ing
+  allow_duplicate: false
+  trigger: ajgi,
+- replace: 'averaged '
+  propagate_case: true
+  _tags:
+  - to
+  - can
+  - else
+  - ed
+  - past
+  allow_duplicate: false
+  trigger: ajgp,
+- replace: 'averager '
+  propagate_case: true
+  _tags:
+  - to
+  - can
+  - else
+  - agent
+  allow_duplicate: false
+  trigger: ajgw,
+- replace: 'averagable '
+  propagate_case: true
+  _tags:
+  - to
+  - can
+  - else
+  - adjective
+  - able
+  allow_duplicate: false
+  trigger: ajgb,
+- replace: 'averagely '
+  propagate_case: true
+  _tags:
+  - to
+  - can
+  - else
+  - adverb
+  allow_duplicate: false
+  trigger: ajgl,
+- replace: 'this average '
+  propagate_case: true
+  _tags:
+  - to
+  - can
+  - else
+  - demonstrative
+  allow_duplicate: false
+  trigger: izajg,
+- replace: 'that average '
+  propagate_case: true
+  _tags:
+  - to
+  - can
+  - else
+  - demonstrative
+  allow_duplicate: false
+  trigger: azajg,
+- replace: 'these average '
+  propagate_case: true
+  _tags:
+  - to
+  - can
+  - else
+  - demonstrative
+  allow_duplicate: false
+  trigger: ezajg,
+- replace: 'those average '
+  propagate_case: true
+  _tags:
+  - to
+  - can
+  - else
+  - demonstrative
+  allow_duplicate: false
+  trigger: ozajg,
+- replace: 'average to the '
+  propagate_case: true
+  _tags:
+  - to
+  - can
+  - else
+  - directional
+  allow_duplicate: false
+  trigger: ajg2h,

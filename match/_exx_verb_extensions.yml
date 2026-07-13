@@ -1,222 +1,359 @@
-# ⚠️  WARNING: AUTO-GENERATED FILE - DO NOT EDIT DIRECTLY!
-# This file is generated from word_version by:
-#   scripts/convert_to_tokenized_word_version.py
-# Edit source in space_version and re-run conversions.
-# Tokenizes trailing spaces in triggers to an explicit token.
-# Removes right_word property for tokenized version.
-# Adds trailing space to replacements that don't have one.
-# Current token: ','
-
-name: exx_verb_extensions
-parent: default
+name: _exx_verb_extensions
 matches:
 - replace: 'remember '
-  _tags: [to, can, else, verb, frequent]
+  _tags:
+  - to
+  - can
+  - else
+  - verb
+  - frequent
   propagate_case: true
   allow_duplicate: false
-  triggers: ['reminv,']
+  trigger: reminv,
 - replace: 'remembering '
-  _tags: [ing, to, can, else, verb]
+  _tags:
+  - ing
+  - to
+  - can
+  - else
+  - verb
   propagate_case: true
   allow_duplicate: false
-  triggers: ['reminvi,']
+  trigger: reminvi,
 - replace: 'remember this '
-  _tags: [demonstrative, to, can, else, verb]
+  _tags:
+  - demonstrative
+  - to
+  - can
+  - else
+  - verb
   propagate_case: true
   allow_duplicate: false
-  triggers: ['reminviz,']
+  trigger: reminviz,
 - replace: 'remember that '
-  _tags: [demonstrative, to, can, else, verb]
+  _tags:
+  - demonstrative
+  - to
+  - can
+  - else
+  - verb
   propagate_case: true
   allow_duplicate: false
-  triggers: ['reminvaz,']
+  trigger: reminvaz,
 - replace: 'remember these '
-  _tags: [demonstrative, to, can, else, verb]
+  _tags:
+  - demonstrative
+  - to
+  - can
+  - else
+  - verb
   propagate_case: true
   allow_duplicate: false
-  triggers: ['reminvez,']
+  trigger: reminvez,
 - replace: 'remember those '
-  _tags: [demonstrative, to, can, else, verb]
+  _tags:
+  - demonstrative
+  - to
+  - can
+  - else
+  - verb
   propagate_case: true
   allow_duplicate: false
-  triggers: ['reminvoz,']
+  trigger: reminvoz,
 - replace: 'understand '
-  _tags: [to, can, else, verb, frequent]
+  _tags:
+  - to
+  - can
+  - else
+  - verb
+  - frequent
   propagate_case: true
   allow_duplicate: false
-  triggers: ['undinv,']
+  trigger: undinv,
 - replace: 'understanding '
-  _tags: [ing, to, can, else, verb]
+  _tags:
+  - ing
+  - to
+  - can
+  - else
+  - verb
   propagate_case: true
   allow_duplicate: false
-  triggers: ['undinvi,']
+  trigger: undinvi,
 - replace: 'understand this '
-  _tags: [demonstrative, to, can, else, verb]
+  _tags:
+  - demonstrative
+  - to
+  - can
+  - else
+  - verb
   propagate_case: true
   allow_duplicate: false
-  triggers: ['undinviz,']
+  trigger: undinviz,
 - replace: 'understand that '
-  _tags: [demonstrative, to, can, else, verb]
+  _tags:
+  - demonstrative
+  - to
+  - can
+  - else
+  - verb
   propagate_case: true
   allow_duplicate: false
-  triggers: ['undinvaz,']
+  trigger: undinvaz,
 - replace: 'understand these '
-  _tags: [demonstrative, to, can, else, verb]
+  _tags:
+  - demonstrative
+  - to
+  - can
+  - else
+  - verb
   propagate_case: true
   allow_duplicate: false
-  triggers: ['undinvez,']
+  trigger: undinvez,
 - replace: 'understand those '
-  _tags: [demonstrative, to, can, else, verb]
+  _tags:
+  - demonstrative
+  - to
+  - can
+  - else
+  - verb
   propagate_case: true
   allow_duplicate: false
-  triggers: ['undinvoz,']
+  trigger: undinvoz,
 - replace: 'consider '
-  _tags: [to, can, else, verb]
+  _tags:
+  - to
+  - can
+  - else
+  - verb
   propagate_case: true
   allow_duplicate: false
-  triggers: ['coninv,']
+  trigger: coninv,
 - replace: 'considering '
-  _tags: [ing, to, can, else, verb]
+  _tags:
+  - ing
+  - to
+  - can
+  - else
+  - verb
   propagate_case: true
   allow_duplicate: false
-  triggers: ['coninvi,']
+  trigger: coninvi,
 - replace: 'consider this '
-  _tags: [demonstrative, to, can, else, verb]
+  _tags:
+  - demonstrative
+  - to
+  - can
+  - else
+  - verb
   propagate_case: true
   allow_duplicate: false
-  triggers: ['coninviz,']
+  trigger: coninviz,
 - replace: 'consider that '
-  _tags: [demonstrative, to, can, else, verb]
+  _tags:
+  - demonstrative
+  - to
+  - can
+  - else
+  - verb
   propagate_case: true
   allow_duplicate: false
-  triggers: ['coninvaz,']
+  trigger: coninvaz,
 - replace: 'consider these '
-  _tags: [demonstrative, to, can, else, verb]
+  _tags:
+  - demonstrative
+  - to
+  - can
+  - else
+  - verb
   propagate_case: true
   allow_duplicate: false
-  triggers: ['coninvez,']
+  trigger: coninvez,
 - replace: 'consider those '
-  _tags: [demonstrative, to, can, else, verb]
+  _tags:
+  - demonstrative
+  - to
+  - can
+  - else
+  - verb
   propagate_case: true
   allow_duplicate: false
-  triggers: ['coninvoz,']
+  trigger: coninvoz,
 - replace: 'analyze '
-  _tags: [to, can, else, verb]
+  _tags:
+  - to
+  - can
+  - else
+  - verb
   propagate_case: true
   allow_duplicate: false
-  triggers: ['anlinv,']
+  trigger: anlinv,
 - replace: 'analyzing '
-  _tags: [ing, to, can, else, verb]
+  _tags:
+  - ing
+  - to
+  - can
+  - else
+  - verb
   propagate_case: true
   allow_duplicate: false
-  triggers: ['anlinvi,']
+  trigger: anlinvi,
 - replace: 'analyze this '
-  _tags: [demonstrative, to, can, else, verb]
+  _tags:
+  - demonstrative
+  - to
+  - can
+  - else
+  - verb
   propagate_case: true
   allow_duplicate: false
-  triggers: ['anlinviz,']
+  trigger: anlinviz,
 - replace: 'analyze that '
-  _tags: [demonstrative, to, can, else, verb]
+  _tags:
+  - demonstrative
+  - to
+  - can
+  - else
+  - verb
   propagate_case: true
   allow_duplicate: false
-  triggers: ['anlinvaz,']
+  trigger: anlinvaz,
 - replace: 'analyze these '
-  _tags: [demonstrative, to, can, else, verb]
+  _tags:
+  - demonstrative
+  - to
+  - can
+  - else
+  - verb
   propagate_case: true
   allow_duplicate: false
-  triggers: ['anlinvez,']
+  trigger: anlinvez,
 - replace: 'analyze those '
-  _tags: [demonstrative, to, can, else, verb]
+  _tags:
+  - demonstrative
+  - to
+  - can
+  - else
+  - verb
   propagate_case: true
   allow_duplicate: false
-  triggers: ['anlinvoz,']
+  trigger: anlinvoz,
 - replace: 'decide '
-  _tags: [to, can, else, verb]
+  _tags:
+  - to
+  - can
+  - else
+  - verb
   propagate_case: true
   allow_duplicate: false
-  triggers: ['decinv,']
+  trigger: decinv,
 - replace: 'deciding '
-  _tags: [ing, to, can, else, verb]
+  _tags:
+  - ing
+  - to
+  - can
+  - else
+  - verb
   propagate_case: true
   allow_duplicate: false
-  triggers: ['decinvi,']
+  trigger: decinvi,
 - replace: 'decide this '
-  _tags: [demonstrative, to, can, else, verb]
+  _tags:
+  - demonstrative
+  - to
+  - can
+  - else
+  - verb
   propagate_case: true
   allow_duplicate: false
-  triggers: ['decinviz,']
+  trigger: decinviz,
 - replace: 'decide that '
-  _tags: [demonstrative, to, can, else, verb]
+  _tags:
+  - demonstrative
+  - to
+  - can
+  - else
+  - verb
   propagate_case: true
   allow_duplicate: false
-  triggers: ['decinvaz,']
+  trigger: decinvaz,
 - replace: 'decide these '
-  _tags: [demonstrative, to, can, else, verb]
+  _tags:
+  - demonstrative
+  - to
+  - can
+  - else
+  - verb
   propagate_case: true
   allow_duplicate: false
-  triggers: ['decinvez,']
+  trigger: decinvez,
 - replace: 'decide those '
-  _tags: [demonstrative, to, can, else, verb]
+  _tags:
+  - demonstrative
+  - to
+  - can
+  - else
+  - verb
   propagate_case: true
   allow_duplicate: false
-  triggers: ['decinvoz,']
-- replace: 'explore '
-  _tags: [to, can, else, verb]
-  propagate_case: true
-  allow_duplicate: false
-  triggers: ['explinv,']
-- replace: 'exploring '
-  _tags: [ing, to, can, else, verb]
-  propagate_case: true
-  allow_duplicate: false
-  triggers: ['explinvi,']
-- replace: 'explore this '
-  _tags: [demonstrative, to, can, else, verb]
-  propagate_case: true
-  allow_duplicate: false
-  triggers: ['explinviz,']
-- replace: 'explore that '
-  _tags: [demonstrative, to, can, else, verb]
-  propagate_case: true
-  allow_duplicate: false
-  triggers: ['explinvaz,']
-- replace: 'explore these '
-  _tags: [demonstrative, to, can, else, verb]
-  propagate_case: true
-  allow_duplicate: false
-  triggers: ['explinvez,']
-- replace: 'explore those '
-  _tags: [demonstrative, to, can, else, verb]
-  propagate_case: true
-  allow_duplicate: false
-  triggers: ['explinvoz,']
+  trigger: decinvoz,
 - replace: 'improve '
-  _tags: [to, can, else, verb, frequent]
+  _tags:
+  - to
+  - can
+  - else
+  - verb
+  - frequent
   propagate_case: true
   allow_duplicate: false
-  triggers: ['imprinv,']
+  trigger: imprinv,
 - replace: 'improving '
-  _tags: [ing, to, can, else, verb]
+  _tags:
+  - ing
+  - to
+  - can
+  - else
+  - verb
   propagate_case: true
   allow_duplicate: false
-  triggers: ['imprinvi,']
+  trigger: imprinvi,
 - replace: 'improve this '
-  _tags: [demonstrative, to, can, else, verb]
+  _tags:
+  - demonstrative
+  - to
+  - can
+  - else
+  - verb
   propagate_case: true
   allow_duplicate: false
-  triggers: ['imprinviz,']
+  trigger: imprinviz,
 - replace: 'improve that '
-  _tags: [demonstrative, to, can, else, verb]
+  _tags:
+  - demonstrative
+  - to
+  - can
+  - else
+  - verb
   propagate_case: true
   allow_duplicate: false
-  triggers: ['imprinvaz,']
+  trigger: imprinvaz,
 - replace: 'improve these '
-  _tags: [demonstrative, to, can, else, verb]
+  _tags:
+  - demonstrative
+  - to
+  - can
+  - else
+  - verb
   propagate_case: true
   allow_duplicate: false
-  triggers: ['imprinvez,']
+  trigger: imprinvez,
 - replace: 'improve those '
-  _tags: [demonstrative, to, can, else, verb]
+  _tags:
+  - demonstrative
+  - to
+  - can
+  - else
+  - verb
   propagate_case: true
   allow_duplicate: false
-  triggers: ['imprinvoz,']
+  trigger: imprinvoz,

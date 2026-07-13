@@ -1,87 +1,125 @@
-# ⚠️  WARNING: AUTO-GENERATED FILE - DO NOT EDIT DIRECTLY!
-# This file is generated from word_version by:
-#   scripts/convert_to_tokenized_word_version.py
-# Edit source in space_version and re-run conversions.
-# Tokenizes trailing spaces in triggers to an explicit token.
-# Removes right_word property for tokenized version.
-# Adds trailing space to replacements that don't have one.
-# Current token: ','
-
-name: word-families-tools
-parent: default
+name: _word_families_tools
 matches:
 - replace: 'tools '
-  _tags: [can, pronoun, else]
+  _tags:
+  - can
+  - pronoun
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['ool,']
+  trigger: ool,
 - replace: 'toolset '
-  _tags: [can, pronoun, else]
+  _tags:
+  - can
+  - pronoun
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['ools,']
+  trigger: ools,
 - replace: 'tooling '
-  _tags: [ing, can, pronoun, else]
+  _tags:
+  - ing
+  - can
+  - pronoun
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['ooli,']
+  trigger: ooli,
 - replace: 'toolbox '
-  _tags: [can, pronoun, else]
+  _tags:
+  - can
+  - pronoun
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['oolb,']
+  trigger: oolb,
 - replace: 'toolkit '
-  _tags: [can, pronoun, else]
+  _tags:
+  - can
+  - pronoun
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['oolk,']
+  trigger: oolk,
 - replace: 'tool '
-  _tags: [can, pronoun, else]
+  _tags:
+  - can
+  - pronoun
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['tool,']
+  trigger: tool,
 - replace: 'tooling '
-  _tags: [ing, can, pronoun, else]
+  _tags:
+  - ing
+  - can
+  - pronoun
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['tooli,']
+  trigger: tooli,
 - replace: 'toolset '
-  _tags: [can, pronoun, else]
+  _tags:
+  - can
+  - pronoun
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['tools,']
+  trigger: tools,
 - replace: 'toolbox '
-  _tags: [can, pronoun, else]
+  _tags:
+  - can
+  - pronoun
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['toolb,']
+  trigger: toolb,
 - replace: 'toolkit '
-  _tags: [can, pronoun, else]
+  _tags:
+  - can
+  - pronoun
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['toolk,']
+  trigger: toolk,
 - replace: 'devtools '
-  _tags: [can, pronoun, else]
+  _tags:
+  - can
+  - pronoun
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['dool,']
+  trigger: dool,
 - replace: 'devtooling '
-  _tags: [ing, can, pronoun, else]
+  _tags:
+  - ing
+  - can
+  - pronoun
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['dooli,']
+  trigger: dooli,
 - replace: 'devtoolset '
-  _tags: [can, pronoun, else]
+  _tags:
+  - can
+  - pronoun
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['dools,']
+  trigger: dools,
 - replace: 'devtoolbox '
-  _tags: [can, pronoun, else]
+  _tags:
+  - can
+  - pronoun
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['doolb,']
+  trigger: doolb,
 - replace: 'devtoolkit '
-  _tags: [can, pronoun, else]
+  _tags:
+  - can
+  - pronoun
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['doolk,']
+  trigger: doolk,

@@ -1,0 +1,56 @@
+name: _word_families_groom
+matches:
+- replace: 'groom '
+  _tags:
+  - noun
+  - verb
+  - else
+  - to
+  propagate_case: true
+  allow_duplicate: false
+  trigger: gwoo,
+- replace: 'grooms '
+  _tags:
+  - noun
+  - verb
+  - plural
+  - else
+  - to
+  propagate_case: true
+  allow_duplicate: false
+  trigger: gwoos,
+- replace: 'grooming '
+  _tags:
+  - verb
+  - ing
+  - else
+  - to
+  propagate_case: true
+  allow_duplicate: false
+  trigger: gwooi,
+- replace: 'groomed '
+  _tags:
+  - verb
+  - past
+  - else
+  - to
+  propagate_case: true
+  allow_duplicate: false
+  trigger: gwoop,
+- replace: 'groomer '
+  _tags:
+  - noun
+  - else
+  - to
+  propagate_case: true
+  allow_duplicate: false
+  trigger: gwoow,
+- replace: 'groomers '
+  _tags:
+  - noun
+  - plural
+  - else
+  - to
+  propagate_case: true
+  allow_duplicate: false
+  trigger: gwoows,

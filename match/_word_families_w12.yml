@@ -1,25 +1,26 @@
-# ⚠️  WARNING: AUTO-GENERATED FILE - DO NOT EDIT DIRECTLY!
-# This file is generated from word_version by:
-#   scripts/convert_to_tokenized_word_version.py
-# Edit source in space_version and re-run conversions.
-# Tokenizes trailing spaces in triggers to an explicit token.
-# Removes right_word property for tokenized version.
-# Adds trailing space to replacements that don't have one.
-# Current token: ','
-
 matches:
 - replace: 'read/write '
-  _tags: [rw, io, operations]
+  _tags:
+  - rw
+  - io
+  - operations
   propagate_case: true
   allow_duplicate: false
-  triggers: ['w12,']
+  trigger: w12,
 - replace: 'reading/writing '
-  _tags: [rw, io, operations]
+  _tags:
+  - rw
+  - io
+  - operations
   propagate_case: true
   allow_duplicate: false
-  triggers: ['w12i,']
+  trigger: w12i,
 - replace: 'read and write '
-  _tags: [rw, io, operations]
+  _tags:
+  - rw
+  - io
+  - operations
   propagate_case: true
   allow_duplicate: false
-  triggers: ['w12h,']
+  trigger: w12h,
+name: _word_families_w12

@@ -1,0 +1,26 @@
+name: _word_families_precheck
+matches:
+- replace: 'precheck '
+  propagate_case: true
+  allow_duplicate: false
+  trigger: pwhk,
+- replace: 'prechecks '
+  propagate_case: true
+  allow_duplicate: false
+  trigger: pwhks,
+- replace: 'prechecking '
+  propagate_case: true
+  allow_duplicate: false
+  trigger: pwhki,
+- replace: 'prechecked '
+  propagate_case: true
+  allow_duplicate: false
+  trigger: pwhkp,
+- replace: 'precheckion '
+  propagate_case: true
+  allow_duplicate: false
+  trigger: pwhkm,
+- replace: 'precheckable '
+  propagate_case: true
+  allow_duplicate: false
+  trigger: pwhkb,

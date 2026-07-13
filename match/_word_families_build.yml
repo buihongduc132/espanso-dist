@@ -1,196 +1,303 @@
-# ⚠️  WARNING: AUTO-GENERATED FILE - DO NOT EDIT DIRECTLY!
-# This file is generated from word_version by:
-#   scripts/convert_to_tokenized_word_version.py
-# Edit source in space_version and re-run conversions.
-# Tokenizes trailing spaces in triggers to an explicit token.
-# Removes right_word property for tokenized version.
-# Adds trailing space to replacements that don't have one.
-# Current token: ','
-
-name: word-families-build
-parent: default
+name: _word_families_build
 matches:
-- triggers: ['bld,', 'bui,', 'buil,']
-  replace: 'build '
-  _tags: [verb, to, else]
+- replace: 'build '
+  _tags: &id001
+  - verb
+  - to
+  - else
   allow_duplicate: true
   propagate_case: true
-- triggers: ['blds,', 'buils,', 'buis,']
-  replace: 'builds '
-  _tags: [verb, to, else]
+  trigger: bld,
+- replace: 'build '
+  _tags: *id001
+  allow_duplicate: true
+  propagate_case: true
+  trigger: bui,
+- replace: 'build '
+  _tags: *id001
+  allow_duplicate: true
+  propagate_case: true
+  trigger: buil,
+- replace: 'builds '
+  _tags: &id002
+  - verb
+  - to
+  - else
   propagate_case: true
   allow_duplicate: false
-- triggers: ['bldi,', 'buii,', 'builg,', 'buili,', 'builm,', 'builn,']
-  replace: 'building '
-  _tags: [ing, noun, to, else]
+  trigger: blds,
+- replace: 'builds '
+  _tags: *id002
   propagate_case: true
   allow_duplicate: false
-- triggers: ['bldd,', 'built,', 'buip,']
-  replace: 'built '
-  _tags: [ed, to, else]
+  trigger: buils,
+- replace: 'builds '
+  _tags: *id002
   propagate_case: true
   allow_duplicate: false
-- triggers: ['builw,', 'buiw,']
-  replace: 'builder '
-  _tags: [noun, to, else]
+  trigger: buis,
+- replace: 'building '
+  _tags: &id003
+  - ing
+  - noun
+  - to
+  - else
   propagate_case: true
   allow_duplicate: false
+  trigger: bldi,
+- replace: 'building '
+  _tags: *id003
+  propagate_case: true
+  allow_duplicate: false
+  trigger: buii,
+- replace: 'building '
+  _tags: *id003
+  propagate_case: true
+  allow_duplicate: false
+  trigger: builg,
+- replace: 'building '
+  _tags: *id003
+  propagate_case: true
+  allow_duplicate: false
+  trigger: buili,
+- replace: 'building '
+  _tags: *id003
+  propagate_case: true
+  allow_duplicate: false
+  trigger: builm,
+- replace: 'building '
+  _tags: *id003
+  propagate_case: true
+  allow_duplicate: false
+  trigger: builn,
+- replace: 'built '
+  _tags: &id004
+  - ed
+  - to
+  - else
+  propagate_case: true
+  allow_duplicate: false
+  trigger: bldd,
+- replace: 'built '
+  _tags: *id004
+  propagate_case: true
+  allow_duplicate: false
+  trigger: built,
+- replace: 'built '
+  _tags: *id004
+  propagate_case: true
+  allow_duplicate: false
+  trigger: buip,
+- replace: 'builder '
+  _tags: &id005
+  - noun
+  - to
+  - else
+  propagate_case: true
+  allow_duplicate: false
+  trigger: builw,
+- replace: 'builder '
+  _tags: *id005
+  propagate_case: true
+  allow_duplicate: false
+  trigger: buiw,
 - replace: 'builders '
-  _tags: [noun, to, else]
+  _tags:
+  - noun
+  - to
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['buiws,']
+  trigger: buiws,
 - replace: 'buildable '
-  _tags: [adjective, to, else]
+  _tags:
+  - adjective
+  - to
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['buib,']
+  trigger: buib,
 - replace: 'buildability '
-  _tags: [noun, to, else]
+  _tags:
+  - noun
+  - to
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['buibm,']
+  trigger: buibm,
 - replace: 'buildably '
-  _tags: [adverb, to, else]
+  _tags:
+  - adverb
+  - to
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['buibl,']
+  trigger: buibl,
 - replace: 'rebuild '
-  _tags: [verb, to, else, re-prefix]
+  _tags:
+  - verb
+  - to
+  - else
+  - re-prefix
   propagate_case: true
   allow_duplicate: false
-  triggers: ['wbui,']
+  trigger: wbui,
 - replace: 'rebuilds '
-  _tags: [verb, to, else, re-prefix]
+  _tags:
+  - verb
+  - to
+  - else
+  - re-prefix
   propagate_case: true
   allow_duplicate: false
-  triggers: ['wbuis,']
+  trigger: wbuis,
 - replace: 'rebuilding '
-  _tags: [ing, noun, to, else, re-prefix]
+  _tags:
+  - ing
+  - noun
+  - to
+  - else
+  - re-prefix
   propagate_case: true
   allow_duplicate: false
-  triggers: ['wbuii,']
+  trigger: wbuii,
 - replace: 'rebuilt '
-  _tags: [ed, to, else, re-prefix]
+  _tags:
+  - ed
+  - to
+  - else
+  - re-prefix
   propagate_case: true
   allow_duplicate: false
-  triggers: ['wbuip,']
+  trigger: wbuip,
 - replace: 'rebuilder '
-  _tags: [noun, to, else, re-prefix]
+  _tags:
+  - noun
+  - to
+  - else
+  - re-prefix
   propagate_case: true
   allow_duplicate: false
-  triggers: ['wbuiw,']
+  trigger: wbuiw,
 - replace: 'rebuilders '
-  _tags: [noun, to, else, re-prefix]
+  _tags:
+  - noun
+  - to
+  - else
+  - re-prefix
   propagate_case: true
   allow_duplicate: false
-  triggers: ['wbuiws,']
+  trigger: wbuiws,
 - replace: 'rebuildable '
-  _tags: [adjective, to, else, re-prefix]
+  _tags:
+  - adjective
+  - to
+  - else
+  - re-prefix
   propagate_case: true
   allow_duplicate: false
-  triggers: ['wbuib,']
+  trigger: wbuib,
 - replace: 'build in '
   propagate_case: true
   allow_duplicate: false
-  triggers: ['buin,']
+  trigger: buin,
 - replace: 'builds in '
   propagate_case: true
   allow_duplicate: false
-  triggers: ['buins,']
+  trigger: buins,
 - replace: 'building in '
   propagate_case: true
   allow_duplicate: false
-  triggers: ['buini,']
+  trigger: buini,
 - replace: 'built in '
   propagate_case: true
   allow_duplicate: false
-  triggers: ['buinp,']
+  trigger: buinp,
 - replace: 'build-in '
   propagate_case: true
   allow_duplicate: false
-  triggers: ['buinm,']
+  trigger: buinm,
 - replace: 'build-iners '
   propagate_case: true
   allow_duplicate: false
-  triggers: ['buinws,']
+  trigger: buinws,
 - replace: 'build in this '
   propagate_case: true
   allow_duplicate: false
-  triggers: ['buiniz,']
+  trigger: buiniz,
 - replace: 'build in that '
   propagate_case: true
   allow_duplicate: false
-  triggers: ['buinaz,']
+  trigger: buinaz,
 - replace: 'build in these '
   propagate_case: true
   allow_duplicate: false
-  triggers: ['buinez,']
+  trigger: buinez,
 - replace: 'build in those '
   propagate_case: true
   allow_duplicate: false
-  triggers: ['buinoz,']
+  trigger: buinoz,
 - replace: 'build in to the '
   propagate_case: true
   allow_duplicate: false
-  triggers: ['buin2h,']
+  trigger: buin2h,
 - replace: 'builds in to the '
   propagate_case: true
   allow_duplicate: false
-  triggers: ['buins2h,']
+  trigger: buins2h,
 - replace: 'build in from the '
   propagate_case: true
   allow_duplicate: false
-  triggers: ['buin22h,']
+  trigger: buin22h,
 - replace: 'builds in from the '
   propagate_case: true
   allow_duplicate: false
-  triggers: ['buins22h,']
+  trigger: buins22h,
 - replace: 'single build in '
   propagate_case: true
   allow_duplicate: false
-  triggers: ['1buin,']
+  trigger: 1buin,
 - replace: 'multiple build in '
   propagate_case: true
   allow_duplicate: false
-  triggers: ['8buin,']
+  trigger: 8buin,
 - replace: 'single builds in '
   propagate_case: true
   allow_duplicate: false
-  triggers: ['1buins,']
+  trigger: 1buins,
 - replace: 'multiple builds in '
   propagate_case: true
   allow_duplicate: false
-  triggers: ['8buins,']
+  trigger: 8buins,
 - replace: 'single build in to '
   propagate_case: true
   allow_duplicate: false
-  triggers: ['1buin2,']
+  trigger: 1buin2,
 - replace: 'multiple build in to '
   propagate_case: true
   allow_duplicate: false
-  triggers: ['8buin2,']
+  trigger: 8buin2,
 - replace: 'single builds in to '
   propagate_case: true
   allow_duplicate: false
-  triggers: ['1buins2,']
+  trigger: 1buins2,
 - replace: 'multiple builds in to '
   propagate_case: true
   allow_duplicate: false
-  triggers: ['8buins2,']
+  trigger: 8buins2,
 - replace: 'to single build in '
   propagate_case: true
   allow_duplicate: false
-  triggers: ['21buin,']
+  trigger: 21buin,
 - replace: 'to single builds in '
   propagate_case: true
   allow_duplicate: false
-  triggers: ['21buins,']
+  trigger: 21buins,
 - replace: 'to multiple build in '
   propagate_case: true
   allow_duplicate: false
-  triggers: ['28buin,']
+  trigger: 28buin,
 - replace: 'to multiple builds in '
   propagate_case: true
   allow_duplicate: false
-  triggers: ['28buins,']
+  trigger: 28buins,

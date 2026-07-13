@@ -1,20 +1,29 @@
 #!/usr/bin/env bash
 # =============================================================================
-# install.sh — TUI Installer for bhd-trigger-pack
+# install.sh — One-shot installer for the bhd espanso trigger pack
+#
+# What it does (all steps idempotent, safe to re-run):
+#   1. Detect OS + arch (linux / macos / windows)
+#   2. Install espanso binary if missing (official GitHub release assets)
+#   3. Clone / pull the dist repo (match files + config)
+#   4. Deploy match/*.yml + config/default.yml to the espanso config dir
+#   5. Start / restart espanso and verify triggers loaded
 #
 # Usage:
-#   curl -sL https://raw.githubusercontent.com/bhd/espanso-dist/main/install.sh | bash
-#   ./install.sh                  # interactive install (TUI)
-#   ./install.sh --update         # check + update if newer
-#   ./install.sh --force          # force reinstall
+#   curl -sL https://raw.githubusercontent.com/buihongduc132/espanso-dist/main/install.sh | bash
+#   ./install.sh                  # interactive install
+#   ./install.sh --update         # pull + redeploy if newer version
+#   ./install.sh --force          # force reinstall everything
+#   ./install.sh --non-interactive # skip prompts, use defaults
 #   ./install.sh --version        # show installed version
-#   ./install.sh --uninstall      # remove all files
-#   ./install.sh --mise           # print mise task snippet for future updates
-#   ./install.sh --non-interactive # skip TUI, use all defaults
+#   ./install.sh --uninstall      # remove trigger pack (keeps espanso)
+#   ./install.sh --skip-espanso-install  # don't try to install espanso
 #
-# Env:
-#   BHD_TRIGGER_PACK_REPO   Override GitHub repo (default: bhd/espanso-dist)
-#   ESPANSO_CONFIG_DIR       Override espanso config dir (auto-detected)
+# Env overrides:
+#   BHD_TRIGGER_PACK_REPO   GitHub repo (default: buihongduc132/espanso-dist)
+#   ESPANSO_CONFIG_DIR      Custom espanso config dir (auto-detected per OS)
+#   ESPANSO_VERSION         Pin espanso release (default: latest, e.g. v2.3.0)
+#   GITHUB_TOKEN            For private repos / rate limits
 # =============================================================================
 set -euo pipefail
 
@@ -22,462 +31,381 @@ set -euo pipefail
 GITHUB_REPO="${BHD_TRIGGER_PACK_REPO:-buihongduc132/espanso-dist}"
 GITHUB_RAW="https://raw.githubusercontent.com/${GITHUB_REPO}/main"
 GITHUB_API="https://api.github.com/repos/${GITHUB_REPO}"
-LOCAL_INSTALL_SH="" # set after we know config dir
+ESPANSO_RELEASE_API="https://api.github.com/repos/espanso/espanso/releases"
+CLONE_DIR_NAME="espanso-dist-clone"
 
-# ─── TUI Colors & Helpers ──────────────────────────────────────────────────
-# Detect terminal color support
+# Auth header for private repos / rate limits
+AUTH_HEADER=""
+if [[ -n "${GITHUB_TOKEN:-}" ]]; then
+	AUTH_HEADER="-H \"Authorization: token ${GITHUB_TOKEN}\""
+fi
+
+# ─── Colors & Logging ───────────────────────────────────────────────────────
 if [[ -t 1 ]] && command -v tput &>/dev/null && [[ $(tput colors 2>/dev/null || echo 0) -ge 8 ]]; then
 	HAS_COLOR=1
 else
 	HAS_COLOR=0
 fi
+C() { [[ "$HAS_COLOR" == 1 ]] && echo -en "$1" >&2 || true; }
+R() { C '\033[0m'; }
+RED()     { C '\033[0;31m'; echo -n "$*" >&2; R; }
+GREEN()   { C '\033[0;32m'; echo -n "$*" >&2; R; }
+YELLOW()  { C '\033[1;33m'; echo -n "$*" >&2; R; }
+BLUE()    { C '\033[0;34m'; echo -n "$*" >&2; R; }
+CYAN()    { C '\033[0;36m'; echo -n "$*" >&2; R; }
+DIM()     { C '\033[2m';   echo -n "$*" >&2; R; }
+BOLD()    { C '\033[1m';   echo -n "$*" >&2; R; }
+NL() { echo "" >&2; }
 
-C() { [[ "$HAS_COLOR" == 1 ]] && echo -en "$1" || true; }
-R() { C '\033[0m'; } # reset
-RED() {
-	C '\033[0;31m'
-	echo -n "$*"
-	R
-}
-GREEN() {
-	C '\033[0;32m'
-	echo -n "$*"
-	R
-}
-YELLOW() {
-	C '\033[1;33m'
-	echo -n "$*"
-	R
-}
-BLUE() {
-	C '\033[0;34m'
-	echo -n "$*"
-	R
-}
-CYAN() {
-	C '\033[0;36m'
-	echo -n "$*"
-	R
-}
-DIM() {
-	C '\033[2m'
-	echo -n "$*"
-	R
-}
-BOLD() {
-	C '\033[1m'
-	echo -n "$*"
-	R
-}
+# NOTE: all logging goes to stderr so stdout stays clean for captured output
+# (e.g. fetch_dist returns a path via stdout).
+info()  { BLUE "  ● "; echo "$*" >&2; }
+ok()    { GREEN "  ✔ "; echo "$*" >&2; }
+warn()  { YELLOW "  ⚠ "; echo "$*" >&2; }
+err()   { RED "  ✘ "; echo "$*" >&2; NL; }
+die()   { NL; RED "  ✘ ERROR: "; echo "$1" >&2; NL
+          [[ -n "${2:-}" ]] && { YELLOW "  💡 Troubleshooting:"; NL; echo "$2" >&2; }
+          NL; exit 1; }
+step()  { NL; CYAN "━━━ "; BOLD "$1"; CYAN " ━━━"; NL; }
 
-NL() { echo ""; }
-
-# Logging with TUI flavor
-info() {
-	BLUE "  ● "
-	echo "$*"
-}
-ok() {
-	GREEN "  ✔ "
-	echo "$*"
-}
-warn() {
-	YELLOW "  ⚠ "
-	echo "$*"
-}
-err() {
-	RED "  ✘ "
-	echo "$*"
-	NL
-}
-
-# Die with troubleshooting hint
-die() {
-	NL
-	RED "  ✘ ERROR: "
-	echo "$1"
-	NL
-	if [[ -n "${2:-}" ]]; then
-		YELLOW "  💡 Troubleshooting:"
-		NL
-		echo "$2"
-	fi
-	NL
-	exit 1
-}
-
-# Step header
-step() {
-	NL
-	CYAN "━━━ "
-	BOLD "$1"
-	CYAN " ━━━"
-	NL
-}
-
-# Progress spinner (simple dots)
-progress() {
-	local msg="$1" cmd="$2"
-	BLUE "  ◌ "
-	echo -n "$msg"
-	local output
-	if output=$("$cmd" 2>&1); then
-		C '\r'
-		GREEN "  ✔ "
-		echo "$msg"
-		return 0
-	else
-		C '\r'
-		RED "  ✘ "
-		echo "$msg"
-		echo "    $output" | head -5
-		return 1
-	fi
-}
-
-# Ask user (returns 0 for yes, 1 for no)
 ask() {
-	local prompt="${1:-Continue?}"
-	local default="${2:-y}"
-	local yn
-	if [[ "$default" == "y" ]]; then
-		yn="[Y/n]"
-	else
-		yn="[y/N]"
+	local prompt="${1:-Continue?}" default="${2:-y}" yn answer
+	# --yes / ASSUME_YES forces "yes" to every prompt (for CI / scripted uninstall)
+	[[ "${ASSUME_YES:-0}" == "1" ]] && default="y"
+	if [[ "$default" == "y" ]]; then yn="[Y/n]"; else yn="[y/N]"; fi
+	# Non-interactive OR assume-yes: skip the read, return the default
+	if [[ "${NON_INTERACTIVE:-0}" == "1" ]] || [[ "${ASSUME_YES:-0}" == "1" ]]; then
+		[[ "$default" == "y" ]] && return 0 || return 1
 	fi
-	echo -n "  ? $prompt $yn "
-	if [[ "${NON_INTERACTIVE:-0}" == "1" ]]; then
-		echo "$default"
-		[[ "$default" == "y" ]]
-		return
-	fi
+	echo -n "  ? $prompt $yn " >&2
 	read -r answer
 	case "$answer" in
-	y | Y | yes | YES) return 0 ;;
-	n | N | no | NO) return 1 ;;
-	*) [[ "$default" == "y" ]] && return 0 || return 1 ;;
+		y|Y|yes|YES) return 0 ;;
+		n|N|no|NO)   return 1 ;;
+		*) [[ "$default" == "y" ]] && return 0 || return 1 ;;
 	esac
 }
 
-# ─── OS Detection ──────────────────────────────────────────────────────────
+# ─── OS / Arch Detection ────────────────────────────────────────────────────
 detect_os() {
-	local uname_s
-	uname_s="$(uname -s)"
-	case "$uname_s" in
-	Linux*) echo "linux" ;;
-	Darwin*) echo "macos" ;;
-	MINGW* | MSYS* | CYGWIN*) echo "windows" ;;
-	*) echo "unknown:$uname_s" ;;
+	case "$(uname -s)" in
+		Linux*)  echo "linux" ;;
+		Darwin*) echo "macos" ;;
+		MINGW*|MSYS*|CYGWIN*) echo "windows" ;;
+		*)       echo "unknown:$(uname -s)" ;;
 	esac
 }
-
 detect_arch() {
-	local uname_m
-	uname_m="$(uname -m)"
-	case "$uname_m" in
-	x86_64 | amd64) echo "x86_64" ;;
-	aarch64 | arm64) echo "arm64" ;;
-	*) echo "$uname_m" ;;
+	case "$(uname -m)" in
+		x86_64|amd64) echo "x86_64" ;;
+		aarch64|arm64) echo "arm64" ;;
+		*) echo "$(uname -m)" ;;
 	esac
 }
 
-# ─── Espanso Location Detection ────────────────────────────────────────────
-detect_espanso_config_dir() {
-	# 1. Explicit override
-	if [[ -n "${ESPANSO_CONFIG_DIR:-}" ]]; then
-		if [[ -d "$ESPANSO_CONFIG_DIR" ]]; then
-			echo "$ESPANSO_CONFIG_DIR"
-			return 0
-		fi
-		# Return it anyway — we'll validate later
-		echo "$ESPANSO_CONFIG_DIR"
-		return 0
-	fi
-
-	local os
-	os="$(detect_os)"
-
-	case "$os" in
-	linux)
-		# Standard XDG
-		if [[ -d "$HOME/.config/espanso" ]]; then
-			echo "$HOME/.config/espanso"
-			return 0
-		fi
-		# Flatpak
-		if [[ -d "$HOME/.var/app/com.mtxc.espanso/config/espanso" ]]; then
-			echo "$HOME/.var/app/com.mtxc.espanso/config/espanso"
-			return 0
-		fi
-		echo "$HOME/.config/espanso"
-		;;
-	macos)
-		if [[ -d "$HOME/Library/Application Support/espanso" ]]; then
-			echo "$HOME/Library/Application Support/espanso"
-			return 0
-		fi
-		echo "$HOME/Library/Application Support/espanso"
-		;;
-	windows)
-		local appdata="${APPDATA:-$HOME/AppData/Roaming}"
-		if [[ -d "$appdata/espanso" ]]; then
-			echo "$appdata/espanso"
-			return 0
-		fi
-		echo "$appdata/espanso"
-		;;
-	*)
-		echo "$HOME/.config/espanso"
-		;;
-	esac
-}
-
-find_espanso_binary() {
-	local os arch paths candidate
-	os="$(detect_os)"
-	arch="$(detect_arch)"
-
-	# OS-specific paths
-	case "$os" in
-	linux)
-		paths=(
-			"$HOME/Applications/espanso/usr/bin/espanso"
-			"$HOME/.local/bin/espanso"
-			"/usr/bin/espanso"
-			"/usr/local/bin/espanso"
-			"/snap/bin/espanso"
-		)
-		# Flatpak
-		if [[ -x "/usr/bin/flatpak" ]]; then
-			local fp_location
-			fp_location=$(flatpak list --columns=app 2>/dev/null | grep -i espanso | head -1 | xargs -I{} flatpak info --show-location {} 2>/dev/null) || true
-			[[ -n "$fp_location" ]] && paths+=("$fp_location/bin/espanso")
-		fi
-		;;
-	macos)
-		paths=(
-			"$HOME/Applications/espanso/usr/bin/espanso"
-			"/Applications/espanso/usr/bin/espanso"
-			"$HOME/.local/bin/espanso"
-			"/usr/local/bin/espanso"
-			"$(brew --prefix 2>/dev/null || echo /opt/homebrew)/bin/espanso"
-		)
-		;;
-	windows)
-		local localbin="${LOCALAPPDATA:-$HOME/AppData/Local}"
-		paths=(
-			"$localbin/Programs/espanso/espanso.exe"
-			"$localbin/Programs/Espanso/espanso.exe"
-			"$HOME/.local/bin/espanso.exe"
-		)
-		;;
-	*)
-		paths=()
-		;;
-	esac
-
-	# Check PATH
-	if command -v espanso &>/dev/null; then
-		echo "$(command -v espanso)"
-		return 0
-	fi
-
-	# Check known paths
-	for candidate in "${paths[@]}"; do
-		if [[ -x "$candidate" ]]; then
-			echo "$candidate"
-			return 0
-		fi
-	done
-
-	return 1
-}
-
-get_espanso_version() {
-	local bin="$1"
-	"$bin" --version 2>/dev/null | head -1 || echo "unknown"
-}
-
-# ─── Download Helpers ──────────────────────────────────────────────────────
+# ─── HTTP helpers ───────────────────────────────────────────────────────────
 has_curl() { command -v curl &>/dev/null; }
 has_wget() { command -v wget &>/dev/null; }
 
-http_get() {
+http_get() {  # url  output_file
 	local url="$1" output="$2"
-	if has_curl; then
-		curl -fsSL "$url" -o "$output"
-	elif has_wget; then
-		wget -q "$url" -O "$output"
-	else
-		die "No HTTP client found" \
-			"  Install curl:  sudo apt install curl     (Debian/Ubuntu)\n  Install curl:  sudo dnf install curl     (Fedora)\n  Install curl:  brew install curl            (macOS)"
+	if has_curl; then curl -fsSL ${AUTH_HEADER:+-H "Authorization: token ${GITHUB_TOKEN}"} "$url" -o "$output"
+	elif has_wget; then wget -q ${AUTH_HEADER:+--header="Authorization: token ${GITHUB_TOKEN}"} "$url" -O "$output"
+	else die "No HTTP client found" "  Install curl:  apt install curl / brew install curl / pacman -S curl"
 	fi
 }
-
-http_get_text() {
+http_get_text() {  # url  -> stdout
 	local url="$1"
-	if has_curl; then
-		curl -fsSL "$url" 2>/dev/null
-	elif has_wget; then
-		wget -qO- "$url" 2>/dev/null
-	else
-		return 1
+	if has_curl; then curl -fsSL ${AUTH_HEADER:+-H "Authorization: token ${GITHUB_TOKEN}"} "$url" 2>/dev/null
+	elif has_wget; then wget -qO- ${AUTH_HEADER:+--header="Authorization: token ${GITHUB_TOKEN}"} "$url" 2>/dev/null
+	else return 1
 	fi
 }
-
-get_remote_version() {
-	local ver
-	ver=$(http_get_text "${GITHUB_RAW}/VERSION" 2>/dev/null) && [[ -n "$ver" ]] && {
-		echo "$ver"
-		return 0
-	}
-	ver=$(http_get_text "${GITHUB_API}/releases/latest" 2>/dev/null | grep '"tag_name"' | head -1 | sed 's/.*"tag_name": *"//;s/".*//') && [[ -n "$ver" ]] && {
-		echo "$ver"
-		return 0
-	}
-	echo "unknown"
+require_http() {
+	has_curl || has_wget || die "No HTTP client (curl/wget)" \
+		"  sudo apt install curl   (Debian/Ubuntu)\n  sudo dnf install curl   (Fedora)\n  brew install curl          (macOS)\n  scoop install curl        (Windows)"
 }
 
-get_local_version() {
-	local config_dir="$1"
-	local vf="$config_dir/.trigger-pack-version"
-	if [[ -f "$vf" ]]; then cat "$vf"; else echo "none"; fi
+# ─── Espanso binary detection ───────────────────────────────────────────────
+find_espanso_binary() {
+	local os paths candidate
+	os="$(detect_os)"
+	case "$os" in
+		linux)
+			paths=(
+				"$HOME/Applications/espanso/usr/bin/espanso"
+				"$HOME/.local/bin/espanso"
+				"/usr/bin/espanso"
+				"/usr/local/bin/espanso"
+				"/snap/bin/espanso"
+			) ;;
+		macos)
+			paths=(
+				"$HOME/Applications/espanso/usr/bin/espanso"
+				"/Applications/espanso/usr/bin/espanso"
+				"$HOME/.local/bin/espanso"
+				"/usr/local/bin/espanso"
+				"$(brew --prefix 2>/dev/null || echo /opt/homebrew)/bin/espanso"
+			) ;;
+		windows)
+			local localbin="${LOCALAPPDATA:-$HOME/AppData/Local}"
+			paths=(
+				"$localbin/Programs/Espanso/Espanso.exe"
+				"$localbin/Programs/espanso/espanso.exe"
+				"$HOME/.local/bin/espanso.exe"
+			) ;;
+		*) paths=() ;;
+	esac
+	command -v espanso &>/dev/null && { command -v espanso; return 0; }
+	for candidate in "${paths[@]}"; do
+		if [[ -x "$candidate" ]]; then echo "$candidate"; return 0; fi
+	done
+	return 1
+}
+get_espanso_version() { local b="${1:-}"; [[ -n "$b" ]] && "$b" --version 2>/dev/null | head -1 || echo "unknown"; }
+
+# ─── Espanso config dir detection ───────────────────────────────────────────
+detect_espanso_config_dir() {
+	if [[ -n "${ESPANSO_CONFIG_DIR:-}" ]]; then echo "$ESPANSO_CONFIG_DIR"; return 0; fi
+	local os; os="$(detect_os)"
+	case "$os" in
+		linux)
+			[[ -d "$HOME/.var/app/com.mtxc.espanso/config/espanso" ]] && { echo "$HOME/.var/app/com.mtxc.espanso/config/espanso"; return 0; }
+			echo "$HOME/.config/espanso" ;;
+		macos) echo "$HOME/Library/Application Support/espanso" ;;
+		windows)
+			local appdata="${APPDATA:-$HOME/AppData/Roaming}"; echo "$appdata/espanso" ;;
+		*) echo "$HOME/.config/espanso" ;;
+	esac
 }
 
-# ─── Download Release ──────────────────────────────────────────────────────
-download_pack() {
-	local dest_dir="$1"
-	local tmpdir
-	tmpdir="$(mktemp -d)"
-	trap "rm -rf '$tmpdir'" RETURN
+# ══════════════════════════════════════════════════════════════════════════════
+# ESPANSO INSTALLATION (the new capability — installs espanso itself)
+# ══════════════════════════════════════════════════════════════════════════════
 
-	# Try release tarball first
-	local download_url
-	download_url=$(http_get_text "${GITHUB_API}/releases/latest" 2>/dev/null | grep '"browser_download_url"' | grep '\.tar\.gz' | head -1 | sed 's/.*"browser_download_url": *"//;s/".*//' || true)
-
-	if [[ -n "$download_url" ]]; then
-		info "Downloading release tarball..."
-		http_get "$download_url" "$tmpdir/pack.tar.gz"
-		tar -xzf "$tmpdir/pack.tar.gz" -C "$tmpdir"
-	else
-		# Fallback: individual files from main branch
-		info "Downloading from main branch..."
-		download_individual_files "$tmpdir"
-	fi
-
-	# Validate
-	if [[ ! -d "$tmpdir/match" ]] && [[ ! -f "$tmpdir/default.yml" ]]; then
-		die "Download produced no match files" \
-			"  1. Check the repo exists:  https://github.com/${GITHUB_REPO}\n  2. Check your network / proxy settings\n  3. Try with explicit repo:\n       BHD_TRIGGER_PACK_REPO=owner/repo ./install.sh"
-	fi
-
-	# If match/ is missing but .yml files are at root, move them
-	if [[ ! -d "$tmpdir/match" ]] && ls "$tmpdir"/*.yml &>/dev/null 2>&1; then
-		mkdir -p "$tmpdir/match"
-		mv "$tmpdir"/*.yml "$tmpdir/match/"
-	fi
-
-	echo "$tmpdir"
+# Resolve which espanso release tag to install: ESPANSO_VERSION or latest.
+resolve_espanso_tag() {
+	if [[ -n "${ESPANSO_VERSION:-}" ]]; then echo "$ESPANSO_VERSION"; return 0; fi
+	local tag
+	tag=$(http_get_text "${ESPANSO_RELEASE_API}/latest" 2>/dev/null | grep '"tag_name"' | head -1 | sed 's/.*"tag_name": *"//;s/".*//')
+	[[ -n "$tag" ]] && echo "$tag" || echo "v2.3.0"
 }
 
-download_individual_files() {
-	local tmpdir="$1"
-	local match_dir="$tmpdir/match"
-	mkdir -p "$match_dir"
+install_espanso() {
+	local os; os="$(detect_os)"
+	case "$os" in
+		linux)   install_espanso_linux ;;
+		macos)   install_espanso_macos ;;
+		windows) install_espanso_windows ;;
+		*) die "Unsupported OS for auto-install: $os" \
+		     "  Install espanso manually: https://espanso.org/install/" ;;
+	esac
+}
 
-	# Get file tree from GitHub API
-	local files
-	files=$(http_get_text "${GITHUB_API}/git/trees/main?recursive=1" 2>/dev/null | grep -o '"path": "match/[^"]*\.yml"' | sed 's/"path": "//;s/"//' || true)
+install_espanso_linux() {
+	info "Installing espanso on Linux..."
+	local tag; tag=$(resolve_espanso_tag)
+	info "  Release: $tag"
 
-	if [[ -n "$files" ]]; then
-		local count=0 total
-		total=$(echo "$files" | wc -l | tr -d ' ')
-		while IFS= read -r f; do
-			[[ -z "$f" ]] && continue
-			count=$((count + 1))
-			# Progress every 50 files
-			if [[ $((count % 50)) -eq 0 ]]; then
-				C '\r'
-				BLUE "  ◌ "
-				echo -n "Downloading $count/$total files..."
+	# Method 1: official install script (downloads AppImage + registers systemd). Most reliable.
+	if command -v systemctl &>/dev/null; then
+		info "  Using official espanso install script (AppImage)..."
+		if bash <(curl -fsSL "https://raw.githubusercontent.com/federico-terzi/espanso/${tag}/install/install.sh" 2>/dev/null \
+		          || curl -fsSL "https://raw.githubusercontent.com/federico-terzi/espanso/master/install/install.sh"); then
+			ok "espanso installed via official install script"
+			# Reload PATH so `espanso` resolves immediately
+			hash -r 2>/dev/null || true
+			export PATH="$HOME/.local/bin:$HOME/Applications/espanso/usr/bin:$PATH"
+			return 0
+		fi
+		warn "official install script failed, trying .deb fallback..."
+	fi
+
+	# Method 2: .deb package (Debian/Ubuntu)
+	if command -v dpkg &>/dev/null; then
+		local tmpdir; tmpdir=$(mktemp -d)
+		local deb_url
+		# Prefer wayland variant (works on both Wayland + X11); fall back to X11
+		deb_url=$(http_get_text "${ESPANSO_RELEASE_API}/tags/${tag}" 2>/dev/null \
+		          | grep '"browser_download_url"' | grep 'espanso-debian-wayland-amd64.deb' \
+		          | head -1 | sed 's/.*"browser_download_url": *"//;s/".*//')
+		[[ -z "$deb_url" ]] && deb_url=$(http_get_text "${ESPANSO_RELEASE_API}/tags/${tag}" 2>/dev/null \
+		          | grep '"browser_download_url"' | grep 'espanso-debian-x11-amd64.deb' \
+		          | head -1 | sed 's/.*"browser_download_url": *"//;s/".*//')
+		if [[ -n "$deb_url" ]]; then
+			info "  Downloading $deb_url"
+			http_get "$deb_url" "$tmpdir/espanso.deb"
+			if sudo dpkg -i "$tmpdir/espanso.deb" 2>/dev/null || { sudo apt-get install -f -y && sudo dpkg -i "$tmpdir/espanso.deb"; }; then
+				ok "espanso installed via .deb"
+				rm -rf "$tmpdir"
+				hash -r 2>/dev/null || true
+				return 0
 			fi
-			http_get "${GITHUB_RAW}/$f" "$tmpdir/$f"
-		done <<<"$files"
-		C '\r'
-		ok "Downloaded $count match files"
-	else
-		# Last resort: parse _index.yml
-		local index
-		index=$(http_get_text "${GITHUB_RAW}/match/_index.yml" 2>/dev/null || true)
-		if [[ -n "$index" ]]; then
-			local imports
-			imports=$(echo "$index" | grep -oP '[\w/]+\.yml' | sort -u || true)
-			local count=0
-			while IFS= read -r f; do
-				[[ -z "$f" ]] && continue
-				http_get "${GITHUB_RAW}/match/$f" "$match_dir/$f"
-				count=$((count + 1))
-			done <<<"$imports"
-			ok "Downloaded $count match files from index"
-		else
-			die "Cannot fetch file list from GitHub" \
-				"  1. Verify repo is public or you have access: ${GITHUB_REPO}\n  2. Check GitHub API rate limit:  https://api.github.com/rate_limit\n  3. If private repo, set GITHUB_TOKEN env var"
+			warn ".deb install failed"
+			rm -rf "$tmpdir"
 		fi
 	fi
 
-	# Download config
-	http_get "${GITHUB_RAW}/default.yml" "$tmpdir/default.yml"
+	# Method 3: AppImage direct (portable, no sudo)
+	local tmpdir; tmpdir=$(mktemp -d)
+	local appimage_url
+	appimage_url=$(http_get_text "${ESPANSO_RELEASE_API}/tags/${tag}" 2>/dev/null \
+	               | grep '"browser_download_url"' | grep 'Espanso-X11.AppImage' \
+	               | head -1 | sed 's/.*"browser_download_url": *"//;s/".*//')
+	if [[ -n "$appimage_url" ]]; then
+		info "  Downloading portable AppImage..."
+		http_get "$appimage_url" "$tmpdir/Espanso.AppImage"
+		chmod +x "$tmpdir/Espanso.AppImage"
+		mkdir -p "$HOME/.local/bin"
+		mv "$tmpdir/Espanso.AppImage" "$HOME/.local/bin/espanso"
+		chmod +x "$HOME/.local/bin/espanso"
+		ok "AppImage installed → $HOME/.local/bin/espanso"
+		ok "Run:  espanso service register  (then systemctl --user start espanso)"
+		rm -rf "$tmpdir"
+		hash -r 2>/dev/null || true
+		export PATH="$HOME/.local/bin:$PATH"
+		return 0
+	fi
+
+	die "Could not install espanso on Linux" \
+	    "  Manual install: https://github.com/espanso/espanso/releases/tag/${tag}\n  Or: sudo apt install espanso"
 }
 
-# ─── Deploy ────────────────────────────────────────────────────────────────
+install_espanso_macos() {
+	info "Installing espanso on macOS..."
+	# Method 1: Homebrew
+	if command -v brew &>/dev/null; then
+		if brew install espanso; then ok "espanso installed via Homebrew"; hash -r 2>/dev/null || true; return 0; fi
+		warn "brew install failed"
+	fi
+	# Method 2: official zip
+	local tag; tag=$(resolve_espanso_tag)
+	local tmpdir; tmpdir=$(mktemp -d)
+	local zip_url
+	zip_url=$(http_get_text "${ESPANSO_RELEASE_API}/tags/${tag}" 2>/dev/null \
+	          | grep '"browser_download_url"' | grep 'Espanso-Mac-Universal.zip' \
+	          | head -1 | sed 's/.*"browser_download_url": *"//;s/".*//')
+	if [[ -n "$zip_url" ]]; then
+		info "  Downloading $zip_url"
+		http_get "$zip_url" "$tmpdir/espanso.zip"
+		unzip -o "$tmpdir/espanso.zip" -d "$tmpdir/" >/dev/null
+		# Move Espanso.app to /Applications
+		if [[ -d "$tmpdir/Espanso.app" ]]; then
+			cp -R "$tmpdir/Espanso.app" /Applications/ 2>/dev/null || cp -R "$tmpdir/Espanso.app" "$HOME/Applications/" 2>/dev/null
+			ok "Espanso.app installed"
+			# Register path
+			local bin="/Applications/Espanso.app/Contents/MacOS/Espanso"
+			[[ -x "$bin" ]] || bin="$HOME/Applications/Espanso.app/Contents/MacOS/Espanso"
+			mkdir -p "$HOME/.local/bin"
+			ln -sf "$bin" "$HOME/.local/bin/espanso" 2>/dev/null || true
+			hash -r 2>/dev/null || true
+			export PATH="$HOME/.local/bin:$PATH"
+			rm -rf "$tmpdir"
+			return 0
+		fi
+		rm -rf "$tmpdir"
+	fi
+	die "Could not install espanso on macOS" \
+	    "  Manual install: https://github.com/espanso/espanso/releases/tag/${tag}\n  Or: brew install espanso"
+}
+
+install_espanso_windows() {
+	info "Installing espanso on Windows..."
+	local tag; tag=$(resolve_espanso_tag)
+	local tmpdir; tmpdir=$(mktemp -d)
+	local exe_url
+	exe_url=$(http_get_text "${ESPANSO_RELEASE_API}/tags/${tag}" 2>/dev/null \
+	         | grep '"browser_download_url"' | grep 'Espanso-Win-Installer-x86_64.exe' \
+	         | head -1 | sed 's/.*"browser_download_url": *"//;s/".*//')
+	if [[ -z "$exe_url" ]]; then
+		die "Could not find espanso Windows installer for $tag" \
+		    "  Download manually: https://github.com/espanso/espanso/releases/tag/${tag}"
+	fi
+	info "  Downloading $exe_url"
+	http_get "$exe_url" "$tmpdir/espanso-setup.exe"
+	# Run the NSIS installer. /S = silent, /D=dir optional.
+	# In a non-admin Git Bash session this installs per-user.
+	if cmd.exe //c "$tmpdir\\espanso-setup.exe /S" 2>/dev/null; then
+		ok "espanso installed via setup.exe"
+	else
+		# Fallback: try running without silent flag (may show GUI installer)
+		warn "silent install failed — trying interactive installer..."
+		cmd.exe //c "start '' '$tmpdir\\espanso-setup.exe'" 2>/dev/null || true
+		warn "If a GUI installer appeared, complete it, then re-run this script."
+	fi
+	rm -rf "$tmpdir"
+	# espanso installs to %LOCALAPPDATA%\Programs\Espanso\ ; it auto-adds to PATH after shell restart
+	export PATH="${LOCALAPPDATA:-$HOME/AppData/Local}/Programs/Espanso:$PATH"
+	hash -r 2>/dev/null || true
+}
+
+# ══════════════════════════════════════════════════════════════════════════════
+# DIST DOWNLOAD (clone / pull the trigger-pack repo)
+# ══════════════════════════════════════════════════════════════════════════════
+
+# Clone or update the dist repo into a working dir; echo the dir path.
+fetch_dist() {
+	local workdir="$1"
+	local clone_url="https://github.com/${GITHUB_REPO}.git"
+	if [[ -n "${GITHUB_TOKEN:-}" ]]; then
+		clone_url="https://${GITHUB_TOKEN}@github.com/${GITHUB_REPO}.git"
+	fi
+
+	if [[ -d "$workdir/.git" ]]; then
+		info "Updating existing clone: $workdir"
+		( cd "$workdir" && git fetch --depth 1 origin main 2>/dev/null && git reset --hard origin/main 2>/dev/null ) \
+			|| warn "git update failed (continuing with local copy)"
+	else
+		info "Cloning ${GITHUB_REPO} → $workdir"
+		git clone --depth 1 "$clone_url" "$workdir" || die "git clone failed" \
+			"  Check network / repo access: https://github.com/${GITHUB_REPO}\n  For private repos set GITHUB_TOKEN"
+	fi
+	echo "$workdir"
+}
+
+# ─── Deploy config + match files ────────────────────────────────────────────
 deploy_files() {
 	local src_dir="$1" config_dir="$2"
 	local match_dir="$config_dir/match"
 	local config_file="$config_dir/config/default.yml"
 
-	# Deploy match files (flat — merge subdirectories)
-	info "Deploying match files to $match_dir/ ..."
+	info "Deploying match files → $match_dir/"
 	rm -rf "$match_dir"
 	mkdir -p "$match_dir"
-
-	local deployed=0
+	local deployed=0 f
 	while IFS= read -r -d '' f; do
 		[[ "$f" == *.backup_* ]] && continue
 		cp "$f" "$match_dir/"
 		deployed=$((deployed + 1))
 	done < <(find "$src_dir/match" -name '*.yml' -print0 2>/dev/null)
-
-	if [[ $deployed -eq 0 ]]; then
-		die "No .yml files found in downloaded match/" \
-			"  The download may have failed silently.\n  Try:  rm -rf /tmp/espanso-install-* && ./install.sh --force"
-	fi
+	[[ "$deployed" -gt 0 ]] || die "No .yml files in $src_dir/match/" \
+		"  The clone may be incomplete. Try:  rm -rf $(dirname "$src_dir") && ./install.sh --force"
 	ok "Deployed $deployed match files"
 
-	# Deploy config
 	info "Writing espanso config..."
 	mkdir -p "$config_dir/config"
 	if [[ -f "$src_dir/default.yml" ]]; then
 		cp "$src_dir/default.yml" "$config_file"
+	elif [[ -f "$src_dir/config/default.yml" ]]; then
+		cp "$src_dir/config/default.yml" "$config_file"
 	else
 		write_default_config "$config_file"
 	fi
 	ok "Config → $config_file"
 
-	# Save version
-	local version
-	version="$(get_remote_version)"
-	echo "$version" >"$config_dir/.trigger-pack-version"
-	ok "Version: $version"
+	# Record installed version
+	local version="unknown"
+	version=$(http_get_text "${GITHUB_RAW}/VERSION" 2>/dev/null || echo "$(date -u +%Y%m%d%H%M%S)")
+	echo "$version" > "$config_dir/.trigger-pack-version"
 
-	# Save installer for self-update
-	cp "$0" "$config_dir/install.sh"
-	chmod +x "$config_dir/install.sh"
-	LOCAL_INSTALL_SH="$config_dir/install.sh"
+	# Persist this installer for future self-updates
+	cp "$0" "$config_dir/install.sh" 2>/dev/null || true
+	chmod +x "$config_dir/install.sh" 2>/dev/null || true
 }
 
 write_default_config() {
 	local config_file="$1"
-	cat >"$config_file" <<'YAML'
+	cat > "$config_file" <<'YAML'
 search_shortcut: SHIFT+CTRL+E
 toggle_key: RIGHT_CTRL
 min_trigger_length: 1
@@ -494,332 +422,218 @@ keyboard_layout:
 YAML
 }
 
-# ─── Restart & Verify ─────────────────────────────────────────────────────
+# ─── Start / restart espanso ────────────────────────────────────────────────
 restart_espanso() {
 	local esp_bin="$1"
-	local os
-	os="$(detect_os)"
-
+	local os; os="$(detect_os)"
 	info "Restarting espanso..."
 
-	if [[ "$os" == "linux" ]] && systemctl --user is-enabled espanso.service &>/dev/null 2>&1; then
-		systemctl --user restart espanso.service
-		sleep 1
-		if systemctl --user is-active espanso.service &>/dev/null; then
-			ok "Restarted via systemd"
-			return 0
+	# Linux: prefer systemd if available
+	if [[ "$os" == "linux" ]] && command -v systemctl &>/dev/null; then
+		if systemctl --user is-enabled espanso.service &>/dev/null 2>&1; then
+			systemctl --user restart espanso.service && { ok "Restarted via systemd"; return 0; } \
+				|| warn "systemd restart failed"
 		fi
-		# systemd failed — try manual
-		warn "systemd restart failed, trying manual restart..."
 	fi
 
+	# macOS: espanso restart / launchctl
 	if [[ "$os" == "macos" ]]; then
-		# macOS: use espanso cli or launchctl
-		"$esp_bin" restart 2>/dev/null && {
-			ok "Restarted via espanso cli"
-			return 0
-		}
-		warn "espanso restart failed — may need manual restart"
+		"$esp_bin" restart 2>/dev/null && { ok "Restarted via espanso cli"; return 0; } \
+			|| warn "espanso restart failed (may need manual restart)"
 		return 0
 	fi
 
-	# Generic: stop + daemon
+	# Generic / Windows: stop + daemon
 	"$esp_bin" stop 2>/dev/null || true
 	sleep 0.5
-	nohup "$esp_bin" daemon &>/dev/null
-	sleep 1
-
-	if "$esp_bin" status &>/dev/null 2>&1; then
-		ok "Restarted via daemon"
+	if [[ "$os" == "windows" ]]; then
+		"$esp_bin" start 2>/dev/null || "$esp_bin" daemon 2>/dev/null || true
 	else
-		warn "espanso may not be running — check manually"
+		nohup "$esp_bin" daemon &>/dev/null &
 	fi
+	sleep 1
+	"$esp_bin" status &>/dev/null && ok "Restarted via daemon" || warn "espanso may not be running — check logs"
 }
 
 verify_install() {
 	local esp_bin="$1"
 	info "Verifying installation..."
-
 	local match_count=0
 	if command -v python3 &>/dev/null; then
-		match_count=$("$esp_bin" match list --json 2>/dev/null | python3 -c "
-import json, sys
+		match_count=$("$esp_bin" match list --json 2>/dev/null | python3 -c "import json,sys
 try:
-    d = json.load(sys.stdin)
-    print(len(d))
-except:
-    print(0)
-" 2>/dev/null || echo "0")
+    d=json.load(sys.stdin); print(len(d))
+except: print(0)" 2>/dev/null || echo 0)
 	else
-		# Fallback: count lines
-		match_count=$("$esp_bin" match list 2>/dev/null | wc -l | tr -d ' ' || echo "0")
+		match_count=$("$esp_bin" match list 2>/dev/null | wc -l | tr -d ' ' || echo 0)
 	fi
-
 	if [[ "$match_count" -gt 100 ]]; then
 		ok "Loaded $(BOLD "$match_count") triggers"
 		return 0
 	else
 		warn "Only $match_count triggers loaded (expected 10,000+)"
+		warn "Check:  $esp_bin log"
 		return 1
 	fi
 }
 
-# ─── Mise Task Suggestion ──────────────────────────────────────────────────
-suggest_mise_task() {
-	local config_dir="$1"
-	local install_sh="$config_dir/install.sh"
-	local mise_path
-	mise_path="$(command -v mise 2>/dev/null || echo "")"
-
-	NL
-	CYAN "━━━ "
-	BOLD "mise Integration"
-	CYAN " ━━━"
-	NL
-
-	if [[ -n "$mise_path" ]]; then
-		ok "mise detected at $mise_path"
-	else
-		DIM "  (mise not found — install from https://mise.jdx.dev/)"
-	fi
-	NL
-
-	echo '  Add to your mise.toml (usually ~/.config/mise/config.toml or project root):'
-	NL
-	DIM '  ─────────────────────────────────────────────'
-	echo '  [tasks.espanso-sync]'
-	echo '  description = "Update bhd-trigger-pack from GitHub"'
-	echo '  run = "bash '"$install_sh"' --update --non-interactive"'
-	DIM '  ─────────────────────────────────────────────'
-	NL
-	echo '  Then run:  mise run espanso-sync'
-	NL
-}
-
-# ─── Pre-flight Checks ─────────────────────────────────────────────────────
+# ─── Preflight ──────────────────────────────────────────────────────────────
 preflight() {
-	local os arch
-	os="$(detect_os)"
-	arch="$(detect_arch)"
-
+	local os arch; os="$(detect_os)"; arch="$(detect_arch)"
 	step "System Detection"
 	ok "OS:     $(BOLD "$os") ($(uname -s))"
 	ok "Arch:   $(BOLD "$arch")"
 	ok "Shell:  $(BOLD "${SHELL:-unknown}")"
 
-	local config_dir
-	config_dir="$(detect_espanso_config_dir)"
+	local config_dir; config_dir="$(detect_espanso_config_dir)"
+	[[ -d "$config_dir" ]] && ok "Config dir: $(DIM "$config_dir")" || info "Config dir: $(DIM "$config_dir") (will be created)"
 
-	if [[ -d "$config_dir" ]]; then
-		ok "Espanso config dir: $(DIM "$config_dir")"
-	else
-		info "Espanso config dir: $(DIM "$config_dir") $(DIM "(will be created)")"
-	fi
+	require_http
+	ok "HTTP client: $(BOLD "$(has_curl && echo curl || echo wget)")"
 
-	local esp_bin=""
-	if esp_bin="$(find_espanso_binary)"; then
-		local esp_ver
-		esp_ver="$(get_espanso_version "$esp_bin")"
-		ok "Espanso binary:     $(DIM "$esp_bin")"
-		ok "Espanso version:    $(BOLD "$esp_ver")"
-	else
-		warn "Espanso binary:    NOT FOUND"
-	fi
-
-	local has_http="no"
-	has_curl && has_http="curl" || { has_wget && has_http="wget" || true; }
-	if [[ "$has_http" != "no" ]]; then
-		ok "HTTP client:        $(BOLD "$has_http")"
-	else
-		warn "HTTP client:       NOT FOUND"
-	fi
-
-	# Warn if issues found
-	if [[ -z "$esp_bin" ]]; then
-		NL
-		YELLOW "  ┌──────────────────────────────────────────────────────────┐"
-		YELLOW "  │  espanso is NOT installed on this system.               │"
-		YELLOW "  │  The trigger files will still be deployed, but          │"
-		YELLOW "  │  espanso must be installed separately to use them.      │"
-		YELLOW "  └──────────────────────────────────────────────────────────┘"
-		NL
-
-		local install_hint=""
-		case "$os" in
-		linux)
-			install_hint="  sudo apt install espanso         # Debian/Ubuntu\n  sudo dnf install espanso         # Fedora\n  Or download AppImage:\n  https://github.com/espanso/espanso/releases"
-			;;
-		macos)
-			install_hint="  brew install espanso\n  Or download from:\n  https://github.com/espanso/espanso/releases"
-			;;
-		windows)
-			install_hint="  scoop install espanso\n  Or:\n  winget install espanso\n  Or download from:\n  https://github.com/espanso/espanso/releases"
-			;;
-		esac
-
-		YELLOW "  💡 Install espanso:"
-		NL
-		echo -e "$install_hint"
-		NL
-
-		if ! ask "Continue installing trigger files anyway?" "n"; then
-			NL
-			info "Cancelled. Install espanso first, then re-run this script."
-			NL
-			exit 0
-		fi
-	fi
-
-	if [[ "$has_http" == "no" ]]; then
-		die "No HTTP client (curl/wget) available" \
-			"  Install curl:\n  sudo apt install curl   (Debian/Ubuntu)\n  sudo dnf install curl   (Fedora)\n  brew install curl          (macOS)"
-	fi
+	# git required for clone strategy
+	if command -v git &>/dev/null; then ok "git: $(BOLD "$(git --version 2>/dev/null | head -1)")"
+	else warn "git not found — required to clone trigger pack. Install: apt/brew install git"; fi
 
 	echo "$config_dir"
 }
 
-# ─── Main Commands ──────────────────────────────────────────────────────────
-
-cmd_install() {
-	NL
-	CYAN "╔══════════════════════════════════════════════════════════╗"
-	CYAN "║            bhd-trigger-pack  Installer                  ║"
-	CYAN "║            v$(detect_os) · $(detect_arch) · espanso triggers            ║"
-	CYAN "╚══════════════════════════════════════════════════════════╝"
-
-	# Pre-flight
-	local config_dir
-	config_dir="$(preflight)"
-
-	# Download
-	step "Download"
-	local tmpdir
-	tmpdir="$(download_pack)"
-
-	# Deploy
-	step "Deploy"
-	deploy_files "$tmpdir" "$config_dir"
-
-	# Restart (if espanso found)
+# ─── ensure espanso present (install if missing + not skipped) ──────────────
+ensure_espanso() {
 	local esp_bin
 	if esp_bin="$(find_espanso_binary 2>/dev/null || true)"; then
-		step "Restart espanso"
-		restart_espanso "$esp_bin"
+		local ver; ver="$(get_espanso_version "$esp_bin")"
+		ok "Espanso binary:  $(DIM "$esp_bin")"
+		ok "Espanso version: $(BOLD "$ver")"
+		echo "$esp_bin"
+		return 0
 	fi
 
-	# Verify
-	if [[ -n "${esp_bin:-}" ]]; then
+	# espanso missing
+	warn "Espanso binary: NOT FOUND"
+	if [[ "${SKIP_ESPANSO_INSTALL:-0}" == "1" ]]; then
+		info "Skipping espanso install (--skip-espanso-install). Config will deploy but triggers won't fire."
+		return 1
+	fi
+
+	if ! ask "espanso is not installed. Attempt to install it now?" "y"; then
+		info "Skipping espanso install. Config will deploy anyway."
+		return 1
+	fi
+
+	step "Install espanso"
+	install_espanso || { warn "espanso installation failed — continuing with config deploy only"; return 1; }
+
+	# Re-detect after install
+	if esp_bin="$(find_espanso_binary 2>/dev/null || true)"; then
+		ok "Espanso now available: $(DIM "$esp_bin")"
+		echo "$esp_bin"
+		return 0
+	fi
+	warn "espanso installed but binary not on PATH yet (open a new shell). Config will deploy anyway."
+	return 1
+}
+
+# ══════════════════════════════════════════════════════════════════════════════
+# Commands
+# ══════════════════════════════════════════════════════════════════════════════
+
+cmd_install() {
+	local force="${1:-}"
+	NL
+	CYAN "╔══════════════════════════════════════════════════════════╗"; CYAN "║"
+	CYAN "║"; BOLD "        bhd espanso trigger-pack — installer";            CYAN "║"
+	CYAN "║"; DIM "   $(detect_os) · $(detect_arch) · espanso + 15k triggers"; CYAN "║"
+	CYAN "╚══════════════════════════════════════════════════════════╝"
+
+	local config_dir; config_dir="$(preflight)"
+
+	# 1. espanso binary
+	step "Espanso Binary"
+	local esp_bin=""; esp_bin="$(ensure_espanso || true)"
+
+	# 2. Fetch dist
+	step "Fetch Trigger Pack"
+	local workdir="$config_dir/${CLONE_DIR_NAME}"
+	[[ "$force" == "--force" && -d "$workdir" ]] && rm -rf "$workdir"
+	local src_dir; src_dir="$(fetch_dist "$workdir")"
+
+	# 3. Deploy
+	step "Deploy Config"
+	deploy_files "$src_dir" "$config_dir"
+
+	# 4. Start + verify
+	if [[ -n "$esp_bin" ]]; then
+		step "Start espanso"
+		restart_espanso "$esp_bin" || true
 		step "Verify"
 		verify_install "$esp_bin" || true
+	else
+		warn "Skipping start/verify (espanso not available). Install espanso then run: espanso start"
 	fi
-
-	# Mise suggestion
-	suggest_mise_task "$config_dir"
 
 	# Done
 	NL
-	GREEN "  ═══════════════════════════════════════════════════════"
-	GREEN "  ✔  bhd-trigger-pack installed successfully!"
-	GREEN "  ═══════════════════════════════════════════════════════"
+	GREEN "  ═══════════════════════════════════════════════════════"; echo >&2
+	GREEN "  ✔  Trigger pack installed successfully!";               echo >&2
+	GREEN "  ═══════════════════════════════════════════════════════"; echo >&2
 	NL
-	DIM "  Trigger files:  $config_dir/match/  ($deployed files)"
-	DIM "  Espanso config: $config_dir/config/default.yml"
+	DIM "  Config dir:  $config_dir/"
+	DIM "  Match files: $config_dir/match/"
+	DIM "  Config:      $config_dir/config/default.yml"
 	NL
-	echo "  Update later:   $config_dir/install.sh --update"
-	echo "  Uninstall:      $config_dir/install.sh --uninstall"
-	echo "  Mise task:      see snippet above"
+	echo "  Update later:  $config_dir/install.sh --update" >&2
+	echo "  Uninstall:     $config_dir/install.sh --uninstall" >&2
 	NL
 }
 
 cmd_update() {
 	local force="${1:-}"
-	local config_dir
-	config_dir="$(detect_espanso_config_dir)"
-
+	local config_dir; config_dir="$(detect_espanso_config_dir)"
 	local local_ver remote_ver
-	local_ver="$(get_local_version "$config_dir")"
-	remote_ver="$(get_remote_version)"
+	local_ver=$( [[ -f "$config_dir/.trigger-pack-version" ]] && cat "$config_dir/.trigger-pack-version" || echo "none" )
+	remote_ver=$(http_get_text "${GITHUB_RAW}/VERSION" 2>/dev/null || echo "unknown")
 
-	NL
-	BLUE "  ● "
-	echo "bhd-trigger-pack update check"
-	NL
-	DIM "  Local:  "
-	echo "$local_ver"
-	DIM "  Remote: "
-	echo "$remote_ver"
-	NL
+	NL; BLUE "  ● "; echo "Trigger pack update check"; NL
+	DIM "  Local:  "; echo "$local_ver"
+	DIM "  Remote: "; echo "$remote_ver"; NL
 
-	if [[ "$local_ver" == "$remote_ver" ]] && [[ "$force" != "--force" ]]; then
-		ok "Already up-to-date. Use --force to reinstall."
-		NL
-		exit 0
+	if [[ "$local_ver" == "$remote_ver" && "$force" != "--force" ]]; then
+		ok "Already up-to-date. Use --force to reinstall."; NL; exit 0
 	fi
-
-	if [[ "$local_ver" == "none" ]]; then
-		info "No existing installation found. Running fresh install..."
-		cmd_install
-		return
-	fi
+	[[ "$local_ver" == "none" ]] && { info "No existing install — running fresh install."; cmd_install "$force"; return; }
 
 	info "Updating: $local_ver → $remote_ver"
+	local workdir="$config_dir/${CLONE_DIR_NAME}"
+	[[ "$force" == "--force" && -d "$workdir" ]] && rm -rf "$workdir"
+	local src_dir; src_dir="$(fetch_dist "$workdir")"
+	deploy_files "$src_dir" "$config_dir"
 
-	# Download + deploy
-	local tmpdir
-	tmpdir="$(download_pack)"
-	deploy_files "$tmpdir" "$config_dir"
-
-	# Restart if possible
 	local esp_bin
 	if esp_bin="$(find_espanso_binary 2>/dev/null || true)"; then
-		restart_espanso "$esp_bin"
+		restart_espanso "$esp_bin" || true
 		verify_install "$esp_bin" || true
 	fi
-
-	NL
-	ok "Updated to $remote_ver"
-	NL
+	NL; ok "Updated to $remote_ver"; NL
 }
 
 cmd_version() {
-	local config_dir
-	config_dir="$(detect_espanso_config_dir)"
-	local ver
-	ver="$(get_local_version "$config_dir")"
+	local config_dir; config_dir="$(detect_espanso_config_dir)"
+	local ver; ver=$( [[ -f "$config_dir/.trigger-pack-version" ]] && cat "$config_dir/.trigger-pack-version" || echo "none" )
 	echo "bhd-trigger-pack v$ver"
 	echo "Source: https://github.com/${GITHUB_REPO}"
 }
 
 cmd_uninstall() {
-	local config_dir
-	config_dir="$(detect_espanso_config_dir)"
-	local match_dir="$config_dir/match"
-	local config_file="$config_dir/config/default.yml"
-	local version_file="$config_dir/.trigger-pack-version"
-	local install_sh="$config_dir/install.sh"
-
+	local config_dir; config_dir="$(detect_espanso_config_dir)"
+	NL; YELLOW "  ⚠  This removes the trigger pack (keeps espanso binary):"; NL
+	DIM "    $config_dir/match/"
+	DIM "    $config_dir/${CLONE_DIR_NAME}/"
+	DIM "    $config_dir/.trigger-pack-version"
 	NL
-	YELLOW "  ⚠  This will remove all bhd-trigger-pack files:"
-	NL
-	DIM "    $match_dir/"
-	DIM "    $config_file"
-	DIM "    $version_file"
-	DIM "    $install_sh"
-	NL
-
-	if ! ask "Remove all trigger pack files?" "n"; then
-		info "Cancelled."
-		NL
-		exit 0
-	fi
-
-	rm -rf "$match_dir"
-	rm -f "$config_file"
-	rm -f "$version_file"
-	rm -f "$install_sh"
-
-	ok "Removed all files"
-
+	ask "Remove all trigger pack files?" "n" || { info "Cancelled."; NL; exit 0; }
+	rm -rf "$config_dir/match" "$config_dir/${CLONE_DIR_NAME}" "$config_dir/.trigger-pack-version"
+	ok "Removed trigger pack files"
 	local esp_bin
 	if esp_bin="$(find_espanso_binary 2>/dev/null || true)"; then
 		restart_espanso "$esp_bin" 2>/dev/null || true
@@ -828,66 +642,47 @@ cmd_uninstall() {
 	NL
 }
 
-cmd_mise() {
-	local config_dir
-	config_dir="${1:-$(detect_espanso_config_dir)}"
-	suggest_mise_task "$config_dir"
-}
+# ─── Entry point ────────────────────────────────────────────────────────────
+SKIP_ESPANSO_INSTALL=0
+NON_INTERACTIVE=0
+ASSUME_YES=0
+COMMAND=""
 
-# ─── Entry Point ────────────────────────────────────────────────────────────
-case "${1:-}" in
---update | -u)
-	cmd_update "${2:-}"
-	;;
---force | -f)
-	cmd_update "--force"
-	;;
---version | -v)
-	cmd_version
-	;;
---uninstall)
-	cmd_uninstall
-	;;
---mise)
-	cmd_mise "${2:-}"
-	;;
---non-interactive)
-	NON_INTERACTIVE=1
-	shift
-	case "${1:-}" in
-	--update | -u) cmd_update "${2:-}" ;;
-	--force | -f) cmd_update "--force" ;;
-	"") cmd_install ;;
-	*) die "Unknown command with --non-interactive: $1" ;;
+# Parse all args first (so flags can appear before OR after the command,
+# e.g. `--uninstall --yes` works the same as `--yes --uninstall`).
+while [[ $# -gt 0 ]]; do
+	case "$1" in
+		--skip-espanso-install) SKIP_ESPANSO_INSTALL=1; shift ;;
+		--non-interactive)      NON_INTERACTIVE=1; shift ;;
+		--yes|-y)               ASSUME_YES=1; shift ;;
+		--update|-u)            COMMAND="update"; shift; [[ $# -gt 0 && "$1" != -* ]] && { UPDATE_FORCE="$1"; shift; } || UPDATE_FORCE="" ;;
+		--force|-f)             COMMAND="install"; INSTALL_FORCE="--force"; shift ;;
+		--version|-v)           COMMAND="version"; shift ;;
+		--uninstall)            COMMAND="uninstall"; shift ;;
+		--help|-h)
+			NL; CYAN "  bhd espanso trigger-pack installer"; NL
+			echo "  Usage:"
+			echo "    ./install.sh                       Interactive install (espanso + config)"
+			echo "    ./install.sh --update [-f]         Pull + redeploy if newer"
+			echo "    ./install.sh --force               Force reinstall everything"
+			echo "    ./install.sh --version             Show installed version"
+			echo "    ./install.sh --uninstall           Remove trigger pack (keeps espanso)"
+			echo "    ./install.sh --skip-espanso-install  Don't try to install espanso"
+			echo "    ./install.sh --non-interactive     Skip prompts (use safe defaults)"
+			echo "    ./install.sh --yes [-y]            Assume yes to all prompts (CI)"
+			NL
+			echo "  One-liner:  curl -sL https://raw.githubusercontent.com/${GITHUB_REPO}/main/install.sh | bash"
+			NL
+			echo "  Env:  BHD_TRIGGER_PACK_REPO  ESPANSO_CONFIG_DIR  ESPANSO_VERSION  GITHUB_TOKEN"
+			NL; exit 0 ;;
+		"") shift ;;
+		*) die "Unknown command: $1" "  Run with --help to see available commands" ;;
 	esac
-	;;
---help | -h)
-	NL
-	CYAN "  bhd-trigger-pack Installer"
-	NL
-	echo "  Usage:"
-	echo "    ./install.sh                  Interactive install (TUI)"
-	echo "    ./install.sh --update         Update if newer version available"
-	echo "    ./install.sh --force           Force reinstall"
-	echo "    ./install.sh --version         Show installed version"
-	echo "    ./install.sh --uninstall       Remove all files"
-	echo "    ./install.sh --mise            Show mise task snippet"
-	echo "    ./install.sh --non-interactive Skip all prompts (use defaults)"
-	NL
-	echo "  One-liner install:"
-	echo "    curl -sL ${GITHUB_RAW}/install.sh | bash"
-	NL
-	echo "  Env overrides:"
-	echo "    BHD_TRIGGER_PACK_REPO=owner/repo  Custom GitHub repo"
-	echo "    ESPANSO_CONFIG_DIR=/path          Custom espanso config dir"
-	echo "    GITHUB_TOKEN=ghp_xxx              For private repos"
-	NL
-	;;
-"")
-	cmd_install
-	;;
-*)
-	die "Unknown command: $1" \
-		"  Run with --help to see available commands"
-	;;
+done
+
+case "${COMMAND:-install}" in
+	install)   cmd_install "${INSTALL_FORCE:-}" ;;
+	update)    cmd_update "${UPDATE_FORCE:-}" ;;
+	version)   cmd_version ;;
+	uninstall) cmd_uninstall ;;
 esac

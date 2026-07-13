@@ -1,0 +1,42 @@
+name: _word_families_workspace
+matches:
+- replace: 'workspace '
+  _tags:
+  - noun
+  - can
+  - else
+  propagate_case: true
+  allow_duplicate: false
+  trigger: wksp,
+- replace: 'workspaces '
+  _tags:
+  - noun
+  - can
+  - else
+  propagate_case: true
+  allow_duplicate: false
+  trigger: wksps,
+- replace: 'workspace this '
+  propagate_case: true
+  allow_duplicate: false
+  trigger: wkspiz,
+- replace: 'workspace that '
+  propagate_case: true
+  allow_duplicate: false
+  trigger: wkspaz,
+- replace: 'workspace these '
+  propagate_case: true
+  allow_duplicate: false
+  trigger: wkspez,
+- replace: 'workspace those '
+  propagate_case: true
+  allow_duplicate: false
+  trigger: wkspoz,
+- replace: 'workspace host '
+  propagate_case: true
+  allow_duplicate: false
+  trigger: wksph,
+- replace: 'workspace server '
+  propagate_case: true
+  allow_duplicate: false
+  trigger: wkspw,

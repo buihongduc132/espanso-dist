@@ -1,0 +1,112 @@
+name: _word_families_publish
+matches:
+- replace: 'publish '
+  propagate_case: true
+  _tags:
+  - to
+  - can
+  - else
+  - base
+  allow_duplicate: false
+  trigger: pubh,
+- replace: 'publishes '
+  propagate_case: true
+  _tags:
+  - to
+  - can
+  - else
+  - plural
+  allow_duplicate: false
+  trigger: pubhs,
+- replace: 'publishing '
+  propagate_case: true
+  _tags:
+  - to
+  - can
+  - else
+  - ing
+  allow_duplicate: false
+  trigger: pubhi,
+- replace: 'published '
+  propagate_case: true
+  _tags:
+  - to
+  - can
+  - else
+  - ed
+  - past
+  allow_duplicate: false
+  trigger: pubhp,
+- replace: 'publisher '
+  propagate_case: true
+  _tags:
+  - to
+  - can
+  - else
+  - agent
+  allow_duplicate: false
+  trigger: pubhw,
+- replace: 'publication '
+  propagate_case: true
+  _tags:
+  - to
+  - can
+  - else
+  - noun
+  allow_duplicate: false
+  trigger: pubhm,
+- replace: 'publishable '
+  propagate_case: true
+  _tags:
+  - to
+  - can
+  - else
+  - adjective
+  - able
+  allow_duplicate: false
+  trigger: pubhb,
+- replace: 'this publish '
+  propagate_case: true
+  _tags:
+  - to
+  - can
+  - else
+  - demonstrative
+  allow_duplicate: false
+  trigger: izpubh,
+- replace: 'that publish '
+  propagate_case: true
+  _tags:
+  - to
+  - can
+  - else
+  - demonstrative
+  allow_duplicate: false
+  trigger: azpubh,
+- replace: 'these publish '
+  propagate_case: true
+  _tags:
+  - to
+  - can
+  - else
+  - demonstrative
+  allow_duplicate: false
+  trigger: ezpubh,
+- replace: 'those publish '
+  propagate_case: true
+  _tags:
+  - to
+  - can
+  - else
+  - demonstrative
+  allow_duplicate: false
+  trigger: ozpubh,
+- replace: 'publish to the '
+  propagate_case: true
+  _tags:
+  - to
+  - can
+  - else
+  - directional
+  allow_duplicate: false
+  trigger: pubh2h,

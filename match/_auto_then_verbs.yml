@@ -1,32 +1,22 @@
-# ⚠️  WARNING: AUTO-GENERATED FILE - DO NOT EDIT DIRECTLY!
-# This file is generated from word_version by:
-#   scripts/convert_to_tokenized_word_version.py
-# Edit source in space_version and re-run conversions.
-# Tokenizes trailing spaces in triggers to an explicit token.
-# Removes right_word property for tokenized version.
-# Adds trailing space to replacements that don't have one.
-# Current token: ','
-
 matches:
 - replace: 'then flow '
   propagate_case: true
   allow_duplicate: false
-  triggers: ['nzflow,']
+  trigger: nzflow,
 - replace: 'then cover '
   propagate_case: true
   allow_duplicate: false
-  triggers: ['nzcover,']
+  trigger: nzcover,
 - replace: 'then start '
   propagate_case: true
   allow_duplicate: false
-  triggers: ['nzstart,']
+  trigger: nzstart,
 - replace: 'then align '
   propagate_case: true
   allow_duplicate: false
-  triggers: ['nzalign,']
+  trigger: nzalign,
 - replace: 'then continue '
   propagate_case: true
   allow_duplicate: false
-  triggers: ['nzcontinue,']
-name: auto_then_verbs
-parent: default
+  trigger: nzcontinue,
+name: _auto_then_verbs

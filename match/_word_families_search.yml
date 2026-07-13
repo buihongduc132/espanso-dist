@@ -1,97 +1,106 @@
-# ⚠️  WARNING: AUTO-GENERATED FILE - DO NOT EDIT DIRECTLY!
-# This file is generated from word_version by:
-#   scripts/convert_to_tokenized_word_version.py
-# Edit source in space_version and re-run conversions.
-# Tokenizes trailing spaces in triggers to an explicit token.
-# Removes right_word property for tokenized version.
-# Adds trailing space to replacements that don't have one.
-# Current token: ','
-
-name: word-family-search
-parent: default
+name: _word_families_search
 matches:
 - replace: 'search '
-  _tags: [verb]
+  _tags:
+  - verb
   propagate_case: true
   allow_duplicate: false
-  triggers: ['sea,']
+  trigger: sea,
 - replace: 'searches '
-  _tags: [verb]
+  _tags:
+  - verb
   propagate_case: true
   allow_duplicate: false
-  triggers: ['seas,']
+  trigger: seas,
 - replace: 'searching '
-  _tags: [verb, ing]
+  _tags:
+  - verb
+  - ing
   propagate_case: true
   allow_duplicate: false
-  triggers: ['seai,']
+  trigger: seai,
 - replace: 'searched '
-  _tags: [verb, ed]
+  _tags:
+  - verb
+  - ed
   propagate_case: true
   allow_duplicate: false
-  triggers: ['seap,']
+  trigger: seap,
 - replace: 'searchable '
-  _tags: [adjective]
+  _tags:
+  - adjective
   propagate_case: true
   allow_duplicate: false
-  triggers: ['seab,']
+  trigger: seab,
 - replace: 'searchably '
-  _tags: [adverb]
+  _tags:
+  - adverb
   propagate_case: true
   allow_duplicate: false
-  triggers: ['seabl,']
+  trigger: seabl,
 - replace: 'searcher '
-  _tags: [noun]
+  _tags:
+  - noun
   propagate_case: true
   allow_duplicate: false
-  triggers: ['seaw,']
+  trigger: seaw,
 - replace: 'searchers '
-  _tags: [noun]
+  _tags:
+  - noun
   propagate_case: true
   allow_duplicate: false
-  triggers: ['seaws,']
+  trigger: seaws,
 - replace: 'this search '
-  _tags: [demonstrative]
+  _tags:
+  - demonstrative
   propagate_case: true
   allow_duplicate: false
-  triggers: ['izsea,']
+  trigger: izsea,
 - replace: 'that search '
-  _tags: [demonstrative]
+  _tags:
+  - demonstrative
   propagate_case: true
   allow_duplicate: false
-  triggers: ['azsea,']
+  trigger: azsea,
 - replace: 'these searches '
-  _tags: [demonstrative]
+  _tags:
+  - demonstrative
   propagate_case: true
   allow_duplicate: false
-  triggers: ['ezseas,']
+  trigger: ezseas,
 - replace: 'those searches '
-  _tags: [demonstrative]
+  _tags:
+  - demonstrative
   propagate_case: true
   allow_duplicate: false
-  triggers: ['ozseas,']
+  trigger: ozseas,
 - replace: 'what search '
-  _tags: [question]
+  _tags:
+  - question
   propagate_case: true
   allow_duplicate: false
-  triggers: ['wtlsea,']
+  trigger: wtlsea,
 - replace: 'where search '
-  _tags: [question]
+  _tags:
+  - question
   propagate_case: true
   allow_duplicate: false
-  triggers: ['whlsea,']
+  trigger: whlsea,
 - replace: 'when search '
-  _tags: [question]
+  _tags:
+  - question
   propagate_case: true
   allow_duplicate: false
-  triggers: ['wnlsea,']
+  trigger: wnlsea,
 - replace: 'why search '
-  _tags: [question]
+  _tags:
+  - question
   propagate_case: true
   allow_duplicate: false
-  triggers: ['wylsea,']
+  trigger: wylsea,
 - replace: 'how search '
-  _tags: [question]
+  _tags:
+  - question
   propagate_case: true
   allow_duplicate: false
-  triggers: ['hwlsea,']
+  trigger: hwlsea,

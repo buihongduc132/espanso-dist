@@ -1,792 +1,782 @@
-# ⚠️  WARNING: AUTO-GENERATED FILE - DO NOT EDIT DIRECTLY!
-# This file is generated from word_version by:
-#   scripts/convert_to_tokenized_word_version.py
-# Edit source in space_version and re-run conversions.
-# Tokenizes trailing spaces in triggers to an explicit token.
-# Removes right_word property for tokenized version.
-# Adds trailing space to replacements that don't have one.
-# Current token: ','
-
 matches:
 - replace: 'then dos '
   propagate_case: true
   allow_duplicate: false
-  triggers: ['nzdos,']
+  trigger: nzdos,
 - replace: 'then doed '
   propagate_case: true
   allow_duplicate: false
-  triggers: ['nzdoed,']
+  trigger: nzdoed,
 - replace: 'then doing '
   propagate_case: true
   allow_duplicate: false
-  triggers: ['nzdoing,']
+  trigger: nzdoing,
 - replace: 'then check '
   propagate_case: true
   allow_duplicate: false
-  triggers: ['nzcheck,']
+  trigger: nzcheck,
 - replace: 'then checks '
   propagate_case: true
   allow_duplicate: false
-  triggers: ['nzchecks,']
+  trigger: nzchecks,
 - replace: 'then checked '
   propagate_case: true
   allow_duplicate: false
-  triggers: ['nzchecked,']
+  trigger: nzchecked,
 - replace: 'then checking '
   propagate_case: true
   allow_duplicate: false
-  triggers: ['nzchecking,']
+  trigger: nzchecking,
 - replace: 'then flows '
   propagate_case: true
   allow_duplicate: false
-  triggers: ['nzflows,']
+  trigger: nzflows,
 - replace: 'then flowed '
   propagate_case: true
   allow_duplicate: false
-  triggers: ['nzflowed,']
+  trigger: nzflowed,
 - replace: 'then flowing '
   propagate_case: true
   allow_duplicate: false
-  triggers: ['nzflowing,']
+  trigger: nzflowing,
 - replace: 'then be '
   propagate_case: true
   allow_duplicate: false
-  triggers: ['nzbe,']
+  trigger: nzbe,
 - replace: 'then bes '
   propagate_case: true
   allow_duplicate: false
-  triggers: ['nzbes,']
+  trigger: nzbes,
 - replace: 'then beed '
   propagate_case: true
   allow_duplicate: false
-  triggers: ['nzbeed,']
+  trigger: nzbeed,
 - replace: 'then being '
   propagate_case: true
   allow_duplicate: false
-  triggers: ['nzbeing,']
+  trigger: nzbeing,
 - replace: 'then have '
   propagate_case: true
   allow_duplicate: false
-  triggers: ['nzhave,']
+  trigger: nzhave,
 - replace: 'then haves '
   propagate_case: true
   allow_duplicate: false
-  triggers: ['nzhaves,']
+  trigger: nzhaves,
 - replace: 'then haveed '
   propagate_case: true
   allow_duplicate: false
-  triggers: ['nzhaveed,']
+  trigger: nzhaveed,
 - replace: 'then haveing '
   propagate_case: true
   allow_duplicate: false
-  triggers: ['nzhaveing,']
+  trigger: nzhaveing,
 - replace: 'then uses '
   propagate_case: true
   allow_duplicate: false
-  triggers: ['nzuses,']
+  trigger: nzuses,
 - replace: 'then useed '
   propagate_case: true
   allow_duplicate: false
-  triggers: ['nzuseed,']
+  trigger: nzuseed,
 - replace: 'then useing '
   propagate_case: true
   allow_duplicate: false
-  triggers: ['nzuseing,']
+  trigger: nzuseing,
 - replace: 'then make '
   propagate_case: true
   allow_duplicate: false
-  triggers: ['nzmake,']
+  trigger: nzmake,
 - replace: 'then makes '
   propagate_case: true
   allow_duplicate: false
-  triggers: ['nzmakes,']
+  trigger: nzmakes,
 - replace: 'then makeed '
   propagate_case: true
   allow_duplicate: false
-  triggers: ['nzmakeed,']
+  trigger: nzmakeed,
 - replace: 'then makeing '
   propagate_case: true
   allow_duplicate: false
-  triggers: ['nzmakeing,']
+  trigger: nzmakeing,
 - replace: 'then run '
   propagate_case: true
   allow_duplicate: false
-  triggers: ['nzrun,']
+  trigger: nzrun,
 - replace: 'then runs '
   propagate_case: true
   allow_duplicate: false
-  triggers: ['nzruns,']
+  trigger: nzruns,
 - replace: 'then runed '
   propagate_case: true
   allow_duplicate: false
-  triggers: ['nzruned,']
+  trigger: nzruned,
 - replace: 'then runing '
   propagate_case: true
   allow_duplicate: false
-  triggers: ['nzruning,']
+  trigger: nzruning,
 - replace: 'then test '
   propagate_case: true
   allow_duplicate: false
-  triggers: ['nztest,']
+  trigger: nztest,
 - replace: 'then tested '
   propagate_case: true
   allow_duplicate: false
-  triggers: ['nztested,']
+  trigger: nztested,
 - replace: 'then testing '
   propagate_case: true
   allow_duplicate: false
-  triggers: ['nztesting,']
+  trigger: nztesting,
 - replace: 'then update '
   propagate_case: true
   allow_duplicate: false
-  triggers: ['nzupdate,']
+  trigger: nzupdate,
 - replace: 'then updates '
   propagate_case: true
   allow_duplicate: false
-  triggers: ['nzupdates,']
+  trigger: nzupdates,
 - replace: 'then updateed '
   propagate_case: true
   allow_duplicate: false
-  triggers: ['nzupdateed,']
+  trigger: nzupdateed,
 - replace: 'then updateing '
   propagate_case: true
   allow_duplicate: false
-  triggers: ['nzupdateing,']
+  trigger: nzupdateing,
 - replace: 'then fix '
   propagate_case: true
   allow_duplicate: false
-  triggers: ['nzfix,']
+  trigger: nzfix,
 - replace: 'then fixs '
   propagate_case: true
   allow_duplicate: false
-  triggers: ['nzfixs,']
+  trigger: nzfixs,
 - replace: 'then fixed '
   propagate_case: true
   allow_duplicate: false
-  triggers: ['nzfixed,']
+  trigger: nzfixed,
 - replace: 'then fixing '
   propagate_case: true
   allow_duplicate: false
-  triggers: ['nzfixing,']
+  trigger: nzfixing,
 - replace: 'then ensure '
   propagate_case: true
   allow_duplicate: false
-  triggers: ['nzensure,']
+  trigger: nzensure,
 - replace: 'then ensures '
   propagate_case: true
   allow_duplicate: false
-  triggers: ['nzensures,']
+  trigger: nzensures,
 - replace: 'then ensureed '
   propagate_case: true
   allow_duplicate: false
-  triggers: ['nzensureed,']
+  trigger: nzensureed,
 - replace: 'then ensureing '
   propagate_case: true
   allow_duplicate: false
-  triggers: ['nzensureing,']
+  trigger: nzensureing,
 - replace: 'then see '
   propagate_case: true
   allow_duplicate: false
-  triggers: ['nzsee,']
+  trigger: nzsee,
 - replace: 'then sees '
   propagate_case: true
   allow_duplicate: false
-  triggers: ['nzsees,']
+  trigger: nzsees,
 - replace: 'then seeed '
   propagate_case: true
   allow_duplicate: false
-  triggers: ['nzseeed,']
+  trigger: nzseeed,
 - replace: 'then seeing '
   propagate_case: true
   allow_duplicate: false
-  triggers: ['nzseeing,']
+  trigger: nzseeing,
 - replace: 'then need '
   propagate_case: true
   allow_duplicate: false
-  triggers: ['nzneed,']
+  trigger: nzneed,
 - replace: 'then needs '
   propagate_case: true
   allow_duplicate: false
-  triggers: ['nzneeds,']
+  trigger: nzneeds,
 - replace: 'then needed '
   propagate_case: true
   allow_duplicate: false
-  triggers: ['nzneeded,']
+  trigger: nzneeded,
 - replace: 'then needing '
   propagate_case: true
   allow_duplicate: false
-  triggers: ['nzneeding,']
+  trigger: nzneeding,
 - replace: 'then implement '
   propagate_case: true
   allow_duplicate: false
-  triggers: ['nzimplement,']
+  trigger: nzimplement,
 - replace: 'then implements '
   propagate_case: true
   allow_duplicate: false
-  triggers: ['nzimplements,']
+  trigger: nzimplements,
 - replace: 'then implemented '
   propagate_case: true
   allow_duplicate: false
-  triggers: ['nzimplemented,']
+  trigger: nzimplemented,
 - replace: 'then implementing '
   propagate_case: true
   allow_duplicate: false
-  triggers: ['nzimplementing,']
+  trigger: nzimplementing,
 - replace: 'then work '
   propagate_case: true
   allow_duplicate: false
-  triggers: ['nzwork,']
+  trigger: nzwork,
 - replace: 'then works '
   propagate_case: true
   allow_duplicate: false
-  triggers: ['nzworks,']
+  trigger: nzworks,
 - replace: 'then worked '
   propagate_case: true
   allow_duplicate: false
-  triggers: ['nzworked,']
+  trigger: nzworked,
 - replace: 'then working '
   propagate_case: true
   allow_duplicate: false
-  triggers: ['nzworking,']
+  trigger: nzworking,
 - replace: 'then add '
   propagate_case: true
   allow_duplicate: false
-  triggers: ['nzadd,']
+  trigger: nzadd,
 - replace: 'then adds '
   propagate_case: true
   allow_duplicate: false
-  triggers: ['nzadds,']
+  trigger: nzadds,
 - replace: 'then added '
   propagate_case: true
   allow_duplicate: false
-  triggers: ['nzadded,']
+  trigger: nzadded,
 - replace: 'then adding '
   propagate_case: true
   allow_duplicate: false
-  triggers: ['nzadding,']
+  trigger: nzadding,
 - replace: 'then document '
   propagate_case: true
   allow_duplicate: false
-  triggers: ['nzdocument,']
+  trigger: nzdocument,
 - replace: 'then documents '
   propagate_case: true
   allow_duplicate: false
-  triggers: ['nzdocuments,']
+  trigger: nzdocuments,
 - replace: 'then documented '
   propagate_case: true
   allow_duplicate: false
-  triggers: ['nzdocumented,']
+  trigger: nzdocumented,
 - replace: 'then documenting '
   propagate_case: true
   allow_duplicate: false
-  triggers: ['nzdocumenting,']
+  trigger: nzdocumenting,
 - replace: 'then read '
   propagate_case: true
   allow_duplicate: false
-  triggers: ['nzread,']
+  trigger: nzread,
 - replace: 'then reads '
   propagate_case: true
   allow_duplicate: false
-  triggers: ['nzreads,']
+  trigger: nzreads,
 - replace: 'then readed '
   propagate_case: true
   allow_duplicate: false
-  triggers: ['nzreaded,']
+  trigger: nzreaded,
 - replace: 'then reading '
   propagate_case: true
   allow_duplicate: false
-  triggers: ['nzreading,']
+  trigger: nzreading,
 - replace: 'then list '
   propagate_case: true
   allow_duplicate: false
-  triggers: ['nzlist,']
+  trigger: nzlist,
 - replace: 'then lists '
   propagate_case: true
   allow_duplicate: false
-  triggers: ['nzlists,']
+  trigger: nzlists,
 - replace: 'then listed '
   propagate_case: true
   allow_duplicate: false
-  triggers: ['nzlisted,']
+  trigger: nzlisted,
 - replace: 'then listing '
   propagate_case: true
   allow_duplicate: false
-  triggers: ['nzlisting,']
+  trigger: nzlisting,
 - replace: 'then plan '
   propagate_case: true
   allow_duplicate: false
-  triggers: ['nzplan,']
+  trigger: nzplan,
 - replace: 'then plans '
   propagate_case: true
   allow_duplicate: false
-  triggers: ['nzplans,']
+  trigger: nzplans,
 - replace: 'then planed '
   propagate_case: true
   allow_duplicate: false
-  triggers: ['nzplaned,']
+  trigger: nzplaned,
 - replace: 'then planing '
   propagate_case: true
   allow_duplicate: false
-  triggers: ['nzplaning,']
+  trigger: nzplaning,
 - replace: 'then create '
   propagate_case: true
   allow_duplicate: false
-  triggers: ['nzcreate,']
+  trigger: nzcreate,
 - replace: 'then creates '
   propagate_case: true
   allow_duplicate: false
-  triggers: ['nzcreates,']
+  trigger: nzcreates,
 - replace: 'then createed '
   propagate_case: true
   allow_duplicate: false
-  triggers: ['nzcreateed,']
+  trigger: nzcreateed,
 - replace: 'then createing '
   propagate_case: true
   allow_duplicate: false
-  triggers: ['nzcreateing,']
+  trigger: nzcreateing,
 - replace: 'then verify '
   propagate_case: true
   allow_duplicate: false
-  triggers: ['nzverify,']
+  trigger: nzverify,
 - replace: 'then verifys '
   propagate_case: true
   allow_duplicate: false
-  triggers: ['nzverifys,']
+  trigger: nzverifys,
 - replace: 'then verifyed '
   propagate_case: true
   allow_duplicate: false
-  triggers: ['nzverifyed,']
+  trigger: nzverifyed,
 - replace: 'then verifying '
   propagate_case: true
   allow_duplicate: false
-  triggers: ['nzverifying,']
+  trigger: nzverifying,
 - replace: 'then search '
   propagate_case: true
   allow_duplicate: false
-  triggers: ['nzsearch,']
+  trigger: nzsearch,
 - replace: 'then searchs '
   propagate_case: true
   allow_duplicate: false
-  triggers: ['nzsearchs,']
+  trigger: nzsearchs,
 - replace: 'then searched '
   propagate_case: true
   allow_duplicate: false
-  triggers: ['nzsearched,']
+  trigger: nzsearched,
 - replace: 'then searching '
   propagate_case: true
   allow_duplicate: false
-  triggers: ['nzsearching,']
+  trigger: nzsearching,
 - replace: 'then find '
   propagate_case: true
   allow_duplicate: false
-  triggers: ['nzfind,']
+  trigger: nzfind,
 - replace: 'then finds '
   propagate_case: true
   allow_duplicate: false
-  triggers: ['nzfinds,']
+  trigger: nzfinds,
 - replace: 'then finded '
   propagate_case: true
   allow_duplicate: false
-  triggers: ['nzfinded,']
+  trigger: nzfinded,
 - replace: 'then finding '
   propagate_case: true
   allow_duplicate: false
-  triggers: ['nzfinding,']
+  trigger: nzfinding,
 - replace: 'then log '
   propagate_case: true
   allow_duplicate: false
-  triggers: ['nzlog,']
+  trigger: nzlog,
 - replace: 'then logs '
   propagate_case: true
   allow_duplicate: false
-  triggers: ['nzlogs,']
+  trigger: nzlogs,
 - replace: 'then loged '
   propagate_case: true
   allow_duplicate: false
-  triggers: ['nzloged,']
+  trigger: nzloged,
 - replace: 'then loging '
   propagate_case: true
   allow_duplicate: false
-  triggers: ['nzloging,']
+  trigger: nzloging,
 - replace: 'then wait '
   propagate_case: true
   allow_duplicate: false
-  triggers: ['nzwait,']
+  trigger: nzwait,
 - replace: 'then waits '
   propagate_case: true
   allow_duplicate: false
-  triggers: ['nzwaits,']
+  trigger: nzwaits,
 - replace: 'then waited '
   propagate_case: true
   allow_duplicate: false
-  triggers: ['nzwaited,']
+  trigger: nzwaited,
 - replace: 'then waiting '
   propagate_case: true
   allow_duplicate: false
-  triggers: ['nzwaiting,']
+  trigger: nzwaiting,
 - replace: 'then help '
   propagate_case: true
   allow_duplicate: false
-  triggers: ['nzhelp,']
+  trigger: nzhelp,
 - replace: 'then helps '
   propagate_case: true
   allow_duplicate: false
-  triggers: ['nzhelps,']
+  trigger: nzhelps,
 - replace: 'then helped '
   propagate_case: true
   allow_duplicate: false
-  triggers: ['nzhelped,']
+  trigger: nzhelped,
 - replace: 'then helping '
   propagate_case: true
   allow_duplicate: false
-  triggers: ['nzhelping,']
+  trigger: nzhelping,
 - replace: 'then keep '
   propagate_case: true
   allow_duplicate: false
-  triggers: ['nzkeep,']
+  trigger: nzkeep,
 - replace: 'then keeps '
   propagate_case: true
   allow_duplicate: false
-  triggers: ['nzkeeps,']
+  trigger: nzkeeps,
 - replace: 'then keeped '
   propagate_case: true
   allow_duplicate: false
-  triggers: ['nzkeeped,']
+  trigger: nzkeeped,
 - replace: 'then keeping '
   propagate_case: true
   allow_duplicate: false
-  triggers: ['nzkeeping,']
+  trigger: nzkeeping,
 - replace: 'then starts '
   propagate_case: true
   allow_duplicate: false
-  triggers: ['nzstarts,']
+  trigger: nzstarts,
 - replace: 'then started '
   propagate_case: true
   allow_duplicate: false
-  triggers: ['nzstarted,']
+  trigger: nzstarted,
 - replace: 'then starting '
   propagate_case: true
   allow_duplicate: false
-  triggers: ['nzstarting,']
+  trigger: nzstarting,
 - replace: 'then continues '
   propagate_case: true
   allow_duplicate: false
-  triggers: ['nzcontinues,']
+  trigger: nzcontinues,
 - replace: 'then continueed '
   propagate_case: true
   allow_duplicate: false
-  triggers: ['nzcontinueed,']
+  trigger: nzcontinueed,
 - replace: 'then continueing '
   propagate_case: true
   allow_duplicate: false
-  triggers: ['nzcontinueing,']
+  trigger: nzcontinueing,
 - replace: 'then review '
   propagate_case: true
   allow_duplicate: false
-  triggers: ['nzreview,']
+  trigger: nzreview,
 - replace: 'then reviews '
   propagate_case: true
   allow_duplicate: false
-  triggers: ['nzreviews,']
+  trigger: nzreviews,
 - replace: 'then reviewed '
   propagate_case: true
   allow_duplicate: false
-  triggers: ['nzreviewed,']
+  trigger: nzreviewed,
 - replace: 'then reviewing '
   propagate_case: true
   allow_duplicate: false
-  triggers: ['nzreviewing,']
+  trigger: nzreviewing,
 - replace: 'then follow '
   propagate_case: true
   allow_duplicate: false
-  triggers: ['nzfollow,']
+  trigger: nzfollow,
 - replace: 'then follows '
   propagate_case: true
   allow_duplicate: false
-  triggers: ['nzfollows,']
+  trigger: nzfollows,
 - replace: 'then followed '
   propagate_case: true
   allow_duplicate: false
-  triggers: ['nzfollowed,']
+  trigger: nzfollowed,
 - replace: 'then following '
   propagate_case: true
   allow_duplicate: false
-  triggers: ['nzfollowing,']
+  trigger: nzfollowing,
 - replace: 'then push '
   propagate_case: true
   allow_duplicate: false
-  triggers: ['nzpush,']
+  trigger: nzpush,
 - replace: 'then pushs '
   propagate_case: true
   allow_duplicate: false
-  triggers: ['nzpushs,']
+  trigger: nzpushs,
 - replace: 'then pushed '
   propagate_case: true
   allow_duplicate: false
-  triggers: ['nzpushed,']
+  trigger: nzpushed,
 - replace: 'then pushing '
   propagate_case: true
   allow_duplicate: false
-  triggers: ['nzpushing,']
+  trigger: nzpushing,
 - replace: 'then build '
   propagate_case: true
   allow_duplicate: false
-  triggers: ['nzbuild,']
+  trigger: nzbuild,
 - replace: 'then builds '
   propagate_case: true
   allow_duplicate: false
-  triggers: ['nzbuilds,']
+  trigger: nzbuilds,
 - replace: 'then builded '
   propagate_case: true
   allow_duplicate: false
-  triggers: ['nzbuilded,']
+  trigger: nzbuilded,
 - replace: 'then building '
   propagate_case: true
   allow_duplicate: false
-  triggers: ['nzbuilding,']
+  trigger: nzbuilding,
 - replace: 'then profile '
   propagate_case: true
   allow_duplicate: false
-  triggers: ['nzprofile,']
+  trigger: nzprofile,
 - replace: 'then profiles '
   propagate_case: true
   allow_duplicate: false
-  triggers: ['nzprofiles,']
+  trigger: nzprofiles,
 - replace: 'then profileed '
   propagate_case: true
   allow_duplicate: false
-  triggers: ['nzprofileed,']
+  trigger: nzprofileed,
 - replace: 'then profileing '
   propagate_case: true
   allow_duplicate: false
-  triggers: ['nzprofileing,']
+  trigger: nzprofileing,
 - replace: 'then covers '
   propagate_case: true
   allow_duplicate: false
-  triggers: ['nzcovers,']
+  trigger: nzcovers,
 - replace: 'then covered '
   propagate_case: true
   allow_duplicate: false
-  triggers: ['nzcovered,']
+  trigger: nzcovered,
 - replace: 'then covering '
   propagate_case: true
   allow_duplicate: false
-  triggers: ['nzcovering,']
+  trigger: nzcovering,
 - replace: 'then merge '
   propagate_case: true
   allow_duplicate: false
-  triggers: ['nzmerge,']
+  trigger: nzmerge,
 - replace: 'then merges '
   propagate_case: true
   allow_duplicate: false
-  triggers: ['nzmerges,']
+  trigger: nzmerges,
 - replace: 'then mergeed '
   propagate_case: true
   allow_duplicate: false
-  triggers: ['nzmergeed,']
+  trigger: nzmergeed,
 - replace: 'then mergeing '
   propagate_case: true
   allow_duplicate: false
-  triggers: ['nzmergeing,']
+  trigger: nzmergeing,
 - replace: 'then clean '
   propagate_case: true
   allow_duplicate: false
-  triggers: ['nzclean,']
+  trigger: nzclean,
 - replace: 'then cleans '
   propagate_case: true
   allow_duplicate: false
-  triggers: ['nzcleans,']
+  trigger: nzcleans,
 - replace: 'then cleaned '
   propagate_case: true
   allow_duplicate: false
-  triggers: ['nzcleaned,']
+  trigger: nzcleaned,
 - replace: 'then cleaning '
   propagate_case: true
   allow_duplicate: false
-  triggers: ['nzcleaning,']
+  trigger: nzcleaning,
 - replace: 'then import '
   propagate_case: true
   allow_duplicate: false
-  triggers: ['nzimport,']
+  trigger: nzimport,
 - replace: 'then imports '
   propagate_case: true
   allow_duplicate: false
-  triggers: ['nzimports,']
+  trigger: nzimports,
 - replace: 'then imported '
   propagate_case: true
   allow_duplicate: false
-  triggers: ['nzimported,']
+  trigger: nzimported,
 - replace: 'then importing '
   propagate_case: true
   allow_duplicate: false
-  triggers: ['nzimporting,']
+  trigger: nzimporting,
 - replace: 'then install '
   propagate_case: true
   allow_duplicate: false
-  triggers: ['nzinstall,']
+  trigger: nzinstall,
 - replace: 'then installs '
   propagate_case: true
   allow_duplicate: false
-  triggers: ['nzinstalls,']
+  trigger: nzinstalls,
 - replace: 'then installed '
   propagate_case: true
   allow_duplicate: false
-  triggers: ['nzinstalled,']
+  trigger: nzinstalled,
 - replace: 'then installing '
   propagate_case: true
   allow_duplicate: false
-  triggers: ['nzinstalling,']
+  trigger: nzinstalling,
 - replace: 'then restart '
   propagate_case: true
   allow_duplicate: false
-  triggers: ['nzrestart,']
+  trigger: nzrestart,
 - replace: 'then restarts '
   propagate_case: true
   allow_duplicate: false
-  triggers: ['nzrestarts,']
+  trigger: nzrestarts,
 - replace: 'then restarted '
   propagate_case: true
   allow_duplicate: false
-  triggers: ['nzrestarted,']
+  trigger: nzrestarted,
 - replace: 'then restarting '
   propagate_case: true
   allow_duplicate: false
-  triggers: ['nzrestarting,']
+  trigger: nzrestarting,
 - replace: 'then send '
   propagate_case: true
   allow_duplicate: false
-  triggers: ['nzsend,']
+  trigger: nzsend,
 - replace: 'then sends '
   propagate_case: true
   allow_duplicate: false
-  triggers: ['nzsends,']
+  trigger: nzsends,
 - replace: 'then sended '
   propagate_case: true
   allow_duplicate: false
-  triggers: ['nzsended,']
+  trigger: nzsended,
 - replace: 'then sending '
   propagate_case: true
   allow_duplicate: false
-  triggers: ['nzsending,']
+  trigger: nzsending,
 - replace: 'then compare '
   propagate_case: true
   allow_duplicate: false
-  triggers: ['nzcompare,']
+  trigger: nzcompare,
 - replace: 'then compares '
   propagate_case: true
   allow_duplicate: false
-  triggers: ['nzcompares,']
+  trigger: nzcompares,
 - replace: 'then compareed '
   propagate_case: true
   allow_duplicate: false
-  triggers: ['nzcompareed,']
+  trigger: nzcompareed,
 - replace: 'then compareing '
   propagate_case: true
   allow_duplicate: false
-  triggers: ['nzcompareing,']
+  trigger: nzcompareing,
 - replace: 'then report '
   propagate_case: true
   allow_duplicate: false
-  triggers: ['nzreport,']
+  trigger: nzreport,
 - replace: 'then reports '
   propagate_case: true
   allow_duplicate: false
-  triggers: ['nzreports,']
+  trigger: nzreports,
 - replace: 'then reported '
   propagate_case: true
   allow_duplicate: false
-  triggers: ['nzreported,']
+  trigger: nzreported,
 - replace: 'then reporting '
   propagate_case: true
   allow_duplicate: false
-  triggers: ['nzreporting,']
+  trigger: nzreporting,
 - replace: 'then validate '
   propagate_case: true
   allow_duplicate: false
-  triggers: ['nzvalidate,']
+  trigger: nzvalidate,
 - replace: 'then validates '
   propagate_case: true
   allow_duplicate: false
-  triggers: ['nzvalidates,']
+  trigger: nzvalidates,
 - replace: 'then validateed '
   propagate_case: true
   allow_duplicate: false
-  triggers: ['nzvalidateed,']
+  trigger: nzvalidateed,
 - replace: 'then validateing '
   propagate_case: true
   allow_duplicate: false
-  triggers: ['nzvalidateing,']
+  trigger: nzvalidateing,
 - replace: 'then stop '
   propagate_case: true
   allow_duplicate: false
-  triggers: ['nzstop,']
+  trigger: nzstop,
 - replace: 'then stops '
   propagate_case: true
   allow_duplicate: false
-  triggers: ['nzstops,']
+  trigger: nzstops,
 - replace: 'then stoped '
   propagate_case: true
   allow_duplicate: false
-  triggers: ['nzstoped,']
+  trigger: nzstoped,
 - replace: 'then stoping '
   propagate_case: true
   allow_duplicate: false
-  triggers: ['nzstoping,']
+  trigger: nzstoping,
 - replace: 'then ship '
   propagate_case: true
   allow_duplicate: false
-  triggers: ['nzship,']
+  trigger: nzship,
 - replace: 'then ships '
   propagate_case: true
   allow_duplicate: false
-  triggers: ['nzships,']
+  trigger: nzships,
 - replace: 'then shiped '
   propagate_case: true
   allow_duplicate: false
-  triggers: ['nzshiped,']
+  trigger: nzshiped,
 - replace: 'then shiping '
   propagate_case: true
   allow_duplicate: false
-  triggers: ['nzshiping,']
+  trigger: nzshiping,
 - replace: 'then aligns '
   propagate_case: true
   allow_duplicate: false
-  triggers: ['nzaligns,']
+  trigger: nzaligns,
 - replace: 'then aligned '
   propagate_case: true
   allow_duplicate: false
-  triggers: ['nzaligned,']
+  trigger: nzaligned,
 - replace: 'then aligning '
   propagate_case: true
   allow_duplicate: false
-  triggers: ['nzaligning,']
+  trigger: nzaligning,
 - replace: 'then design '
   propagate_case: true
   allow_duplicate: false
-  triggers: ['nzdesign,']
+  trigger: nzdesign,
 - replace: 'then designs '
   propagate_case: true
   allow_duplicate: false
-  triggers: ['nzdesigns,']
+  trigger: nzdesigns,
 - replace: 'then designed '
   propagate_case: true
   allow_duplicate: false
-  triggers: ['nzdesigned,']
+  trigger: nzdesigned,
 - replace: 'then designing '
   propagate_case: true
   allow_duplicate: false
-  triggers: ['nzdesigning,']
+  trigger: nzdesigning,
 - replace: 'then search for '
   propagate_case: true
   allow_duplicate: false
-  triggers: ['nzsearchfor,']
+  trigger: nzsearchfor,
 - replace: 'then test for '
   propagate_case: true
   allow_duplicate: false
-  triggers: ['nztestfor,']
+  trigger: nztestfor,
 - replace: 'then document for '
   propagate_case: true
   allow_duplicate: false
-  triggers: ['nzdocumentfor,']
-name: auto_then_verbs_nz
-parent: default
+  trigger: nzdocumentfor,
+name: _auto_then_verbs_nz

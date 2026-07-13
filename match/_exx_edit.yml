@@ -1,109 +1,181 @@
-# ⚠️  WARNING: AUTO-GENERATED FILE - DO NOT EDIT DIRECTLY!
-# This file is generated from word_version by:
-#   scripts/convert_to_tokenized_word_version.py
-# Edit source in space_version and re-run conversions.
-# Tokenizes trailing spaces in triggers to an explicit token.
-# Removes right_word property for tokenized version.
-# Adds trailing space to replacements that don't have one.
-# Current token: ','
-
 matches:
 - replace: 'edit '
-  _tags: [to, can, else, would]
+  _tags:
+  - to
+  - can
+  - else
+  - would
   propagate_case: true
   allow_duplicate: false
-  triggers: ['ed,']
+  trigger: ed,
 - replace: 'edits '
-  _tags: [to, can, else, would]
+  _tags:
+  - to
+  - can
+  - else
+  - would
   propagate_case: true
   allow_duplicate: false
-  triggers: ['eds,']
+  trigger: eds,
 - replace: 'editing '
-  _tags: [ing, to, can, else, would, pronoun]
+  _tags:
+  - ing
+  - to
+  - can
+  - else
+  - would
+  - pronoun
   propagate_case: true
   allow_duplicate: false
-  triggers: ['edi,']
+  trigger: edi,
 - replace: 'edited '
-  _tags: [ed, would, to, can, else]
+  _tags:
+  - ed
+  - would
+  - to
+  - can
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['edp,']
+  trigger: edp,
 - replace: 'editor '
-  _tags: [noun, to, can, else]
+  _tags:
+  - noun
+  - to
+  - can
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['edw,']
+  trigger: edw,
 - replace: 'editors '
-  _tags: [noun, to, can, else]
+  _tags:
+  - noun
+  - to
+  - can
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['edws,']
+  trigger: edws,
 - replace: 'editable '
-  _tags: [adjective, to, can, else]
+  _tags:
+  - adjective
+  - to
+  - can
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['edj,']
+  trigger: edj,
 - replace: 'upon edit '
-  _tags: [preposition, to, can, else]
+  _tags:
+  - preposition
+  - to
+  - can
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['ued,']
+  trigger: ued,
 - replace: 'not edit '
-  _tags: [negate, to, can, else]
+  _tags:
+  - negate
+  - to
+  - can
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['noed,']
+  trigger: noed,
 - replace: 'have been edited '
-  _tags: [ed, would, have, to, can, else]
+  _tags:
+  - ed
+  - would
+  - have
+  - to
+  - can
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['hbed,']
+  trigger: hbed,
 - replace: 'is edited '
-  _tags: [ed, be, to, can, else]
+  _tags:
+  - ed
+  - be
+  - to
+  - can
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['ted,']
+  trigger: ted,
 - replace: 'edit this '
-  _tags: [demonstrative, to, can, else]
+  _tags:
+  - demonstrative
+  - to
+  - can
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['ediz,']
+  trigger: ediz,
 - replace: 'edit that '
-  _tags: [demonstrative, to, can, else, have]
+  _tags:
+  - demonstrative
+  - to
+  - can
+  - else
+  - have
   propagate_case: true
   allow_duplicate: false
-  triggers: ['edaz,']
+  trigger: edaz,
 - replace: 'edit these '
-  _tags: [demonstrative, to, can, else]
+  _tags:
+  - demonstrative
+  - to
+  - can
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['edez,']
+  trigger: edez,
 - replace: 'edit those '
-  _tags: [demonstrative, to, can, else]
+  _tags:
+  - demonstrative
+  - to
+  - can
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['edoz,']
+  trigger: edoz,
 - replace: 'edit the '
-  _tags: [the, to, can, else]
+  _tags:
+  - the
+  - to
+  - can
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['edh,']
+  trigger: edh,
 - replace: 'edit all '
-  _tags: [to, can, else]
+  _tags:
+  - to
+  - can
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['eda,']
+  trigger: eda,
 - replace: 'edit some '
-  _tags: [to, can, else]
+  _tags:
+  - to
+  - can
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['edsm,']
+  trigger: edsm,
 - replace: 'edit each '
-  _tags: [to, can, else]
+  _tags:
+  - to
+  - can
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['edeh,']
+  trigger: edeh,
 - replace: 'editor '
   propagate_case: true
   allow_duplicate: false
-  triggers: ['edo,']
+  trigger: edo,
+name: _exx_edit

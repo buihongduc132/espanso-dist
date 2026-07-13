@@ -1,57 +1,86 @@
-# ⚠️  WARNING: AUTO-GENERATED FILE - DO NOT EDIT DIRECTLY!
-# This file is generated from word_version by:
-#   scripts/convert_to_tokenized_word_version.py
-# Edit source in space_version and re-run conversions.
-# Tokenizes trailing spaces in triggers to an explicit token.
-# Removes right_word property for tokenized version.
-# Adds trailing space to replacements that don't have one.
-# Current token: ','
-
-name: word-families-ou
-parent: default
+name: _word_families_ou
 matches:
 - replace: 'touch '
-  _tags: [to, can, the]
+  _tags:
+  - to
+  - can
+  - the
   allow_duplicate: true
   propagate_case: true
-  triggers: ['tou,']
+  trigger: tou,
 - replace: 'touching '
-  _tags: [pronoun, the, ing, to, can]
+  _tags:
+  - pronoun
+  - the
+  - ing
+  - to
+  - can
   propagate_case: true
   allow_duplicate: false
-  triggers: ['toui,']
+  trigger: toui,
 - replace: 'touched '
-  _tags: [the, can, to, ed, would, else]
+  _tags:
+  - the
+  - can
+  - to
+  - ed
+  - would
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['toup,']
+  trigger: toup,
 - replace: 'touches '
-  _tags: [to, the, can, else]
+  _tags:
+  - to
+  - the
+  - can
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['tous,']
-- triggers: ['thwg,', 'thwo,', 'thwu,']
-  replace: 'through '
-  _tags: [to, the]
+  trigger: tous,
+- replace: 'through '
+  _tags: &id001
+  - to
+  - the
   propagate_case: true
   allow_duplicate: false
+  trigger: thwg,
+- replace: 'through '
+  _tags: *id001
+  propagate_case: true
+  allow_duplicate: false
+  trigger: thwo,
+- replace: 'through '
+  _tags: *id001
+  propagate_case: true
+  allow_duplicate: false
+  trigger: thwu,
 - replace: 'thoroughly '
-  _tags: [else, to]
+  _tags:
+  - else
+  - to
   allow_duplicate: false
   propagate_case: true
-  triggers: ['thwul,']
+  trigger: thwul,
 - replace: 'throughout '
-  _tags: [else, to]
+  _tags:
+  - else
+  - to
   allow_duplicate: false
   propagate_case: true
-  triggers: ['thwut,']
+  trigger: thwut,
 - replace: 'enough '
-  _tags: [the, negate, else]
+  _tags:
+  - the
+  - negate
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['enu,']
+  trigger: enu,
 - replace: 'tough '
-  _tags: [to, the]
+  _tags:
+  - to
+  - the
   allow_duplicate: true
   propagate_case: true
-  triggers: ['touf,']
+  trigger: touf,

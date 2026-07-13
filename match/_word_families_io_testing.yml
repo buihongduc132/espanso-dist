@@ -1,447 +1,729 @@
-# ⚠️  WARNING: AUTO-GENERATED FILE - DO NOT EDIT DIRECTLY!
-# This file is generated from word_version by:
-#   scripts/convert_to_tokenized_word_version.py
-# Edit source in space_version and re-run conversions.
-# Tokenizes trailing spaces in triggers to an explicit token.
-# Removes right_word property for tokenized version.
-# Adds trailing space to replacements that don't have one.
-# Current token: ','
-
-name: word-families-io-testing
-parent: default
+name: _word_families_io_testing
 matches:
 - replace: 'output '
-  _tags: [to, noun, else]
+  _tags:
+  - to
+  - noun
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['op,']
+  trigger: op,
 - replace: 'outputs '
-  _tags: [s, to, noun, else]
+  _tags:
+  - s
+  - to
+  - noun
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['ops,']
+  trigger: ops,
 - replace: 'outputting '
-  _tags: [ing, to, verb, else]
+  _tags:
+  - ing
+  - to
+  - verb
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['opi,']
+  trigger: opi,
 - replace: 'outputted '
-  _tags: [ed, to, verb, else, would]
+  _tags:
+  - ed
+  - to
+  - verb
+  - else
+  - would
   propagate_case: true
   allow_duplicate: false
-  triggers: ['oped,']
+  trigger: oped,
 - replace: 'outputter '
-  _tags: [noun, to, else]
+  _tags:
+  - noun
+  - to
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['opw,']
+  trigger: opw,
 - replace: 'outputters '
-  _tags: [noun, plural, to, else]
+  _tags:
+  - noun
+  - plural
+  - to
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['opws,']
+  trigger: opws,
 - replace: 'outputment '
-  _tags: [noun, to, else]
+  _tags:
+  - noun
+  - to
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['opm,']
+  trigger: opm,
 - replace: 'outputable '
-  _tags: [adjective, can, else]
+  _tags:
+  - adjective
+  - can
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['opb,']
+  trigger: opb,
 - replace: 'outputably '
-  _tags: [adverb, can, else]
+  _tags:
+  - adverb
+  - can
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['opbl,']
+  trigger: opbl,
 - replace: 'input '
-  _tags: [to, noun, else]
+  _tags:
+  - to
+  - noun
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['ip,']
+  trigger: ip,
 - replace: 'inputs '
-  _tags: [s, to, noun, else]
+  _tags:
+  - s
+  - to
+  - noun
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['ips,']
+  trigger: ips,
 - replace: 'inputting '
-  _tags: [ing, to, verb, else]
+  _tags:
+  - ing
+  - to
+  - verb
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['ipi,']
+  trigger: ipi,
 - replace: 'inputted '
-  _tags: [ed, to, verb, else, would]
+  _tags:
+  - ed
+  - to
+  - verb
+  - else
+  - would
   propagate_case: true
   allow_duplicate: false
-  triggers: ['ipp,']
+  trigger: ipp,
 - replace: 'inputter '
-  _tags: [noun, to, else]
+  _tags:
+  - noun
+  - to
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['ipw,']
+  trigger: ipw,
 - replace: 'inputters '
-  _tags: [noun, plural, to, else]
+  _tags:
+  - noun
+  - plural
+  - to
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['ipws,']
+  trigger: ipws,
 - replace: 'inputment '
-  _tags: [noun, to, else]
+  _tags:
+  - noun
+  - to
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['ipm,']
+  trigger: ipm,
 - replace: 'inputable '
-  _tags: [adjective, can, else]
+  _tags:
+  - adjective
+  - can
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['ipb,']
+  trigger: ipb,
 - replace: 'inputably '
-  _tags: [adverb, can, else]
+  _tags:
+  - adverb
+  - can
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['ipbl,']
+  trigger: ipbl,
 - replace: 'case '
-  _tags: [to, noun, else]
+  _tags:
+  - to
+  - noun
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['q8,']
+  trigger: q8,
 - replace: 'cases '
-  _tags: [s, to, noun, else]
+  _tags:
+  - s
+  - to
+  - noun
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['q8s,']
+  trigger: q8s,
 - replace: 'casing '
-  _tags: [ing, to, verb, else]
+  _tags:
+  - ing
+  - to
+  - verb
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['q8i,']
+  trigger: q8i,
 - replace: 'cased '
-  _tags: [ed, to, verb, else, would]
+  _tags:
+  - ed
+  - to
+  - verb
+  - else
+  - would
   propagate_case: true
   allow_duplicate: false
-  triggers: ['q8p,']
+  trigger: q8p,
 - replace: 'caser '
-  _tags: [noun, to, else]
+  _tags:
+  - noun
+  - to
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['q8w,']
+  trigger: q8w,
 - replace: 'casers '
-  _tags: [noun, plural, to, else]
+  _tags:
+  - noun
+  - plural
+  - to
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['q8ws,']
+  trigger: q8ws,
 - replace: 'catement '
-  _tags: [noun, to, else]
+  _tags:
+  - noun
+  - to
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['q8m,']
+  trigger: q8m,
 - replace: 'caseable '
-  _tags: [adjective, can, else]
+  _tags:
+  - adjective
+  - can
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['q8b,']
+  trigger: q8b,
 - replace: 'caseably '
-  _tags: [adverb, can, else]
+  _tags:
+  - adverb
+  - can
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['q8bl,']
+  trigger: q8bl,
 - replace: 'edge case '
-  _tags: [to, noun, else]
+  _tags:
+  - to
+  - noun
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['eq8,']
+  trigger: eq8,
 - replace: 'edge cases '
-  _tags: [s, to, noun, else]
+  _tags:
+  - s
+  - to
+  - noun
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['eq8s,']
+  trigger: eq8s,
 - replace: 'test case '
-  _tags: [to, noun, else]
+  _tags:
+  - to
+  - noun
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['tq8,']
+  trigger: tq8,
 - replace: 'test cases '
-  _tags: [s, to, noun, else]
+  _tags:
+  - s
+  - to
+  - noun
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['tq8s,']
+  trigger: tq8s,
 - replace: 'usecases '
-  _tags: [s, to, noun, else]
+  _tags:
+  - s
+  - to
+  - noun
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['uq8,']
+  trigger: uq8,
 - replace: 'usecases '
-  _tags: [s, to, noun, else]
+  _tags:
+  - s
+  - to
+  - noun
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['uq8s,']
+  trigger: uq8s,
 - replace: 'usecasing '
-  _tags: [ing, to, verb, else]
+  _tags:
+  - ing
+  - to
+  - verb
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['uq8i,']
+  trigger: uq8i,
 - replace: 'usecased '
-  _tags: [ed, to, verb, else, would]
+  _tags:
+  - ed
+  - to
+  - verb
+  - else
+  - would
   propagate_case: true
   allow_duplicate: false
-  triggers: ['uq8p,']
+  trigger: uq8p,
 - replace: 'usecaser '
-  _tags: [noun, to, else]
+  _tags:
+  - noun
+  - to
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['uq8w,']
+  trigger: uq8w,
 - replace: 'usecasers '
-  _tags: [noun, plural, to, else]
+  _tags:
+  - noun
+  - plural
+  - to
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['uq8ws,']
+  trigger: uq8ws,
 - replace: 'usecatement '
-  _tags: [noun, to, else]
+  _tags:
+  - noun
+  - to
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['uq8m,']
+  trigger: uq8m,
 - replace: 'usecaseable '
-  _tags: [adjective, can, else]
+  _tags:
+  - adjective
+  - can
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['uq8b,']
+  trigger: uq8b,
 - replace: 'usecaseably '
-  _tags: [adverb, can, else]
+  _tags:
+  - adverb
+  - can
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['uq8bl,']
+  trigger: uq8bl,
 - replace: 'usecase '
-  _tags: [to, noun, else]
+  _tags:
+  - to
+  - noun
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['uqe,']
+  trigger: uqe,
 - replace: 'business case '
-  _tags: [to, noun, else]
+  _tags:
+  - to
+  - noun
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['bq8,']
+  trigger: bq8,
 - replace: 'business cases '
-  _tags: [s, to, noun, else]
+  _tags:
+  - s
+  - to
+  - noun
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['bq8s,']
+  trigger: bq8s,
 - replace: 'success case '
-  _tags: [to, noun, else]
+  _tags:
+  - to
+  - noun
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['sq8,']
+  trigger: sq8,
 - replace: 'success cases '
-  _tags: [s, to, noun, else]
+  _tags:
+  - s
+  - to
+  - noun
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['sq8s,']
+  trigger: sq8s,
 - replace: 'failure case '
-  _tags: [to, noun, else]
+  _tags:
+  - to
+  - noun
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['fq8,']
+  trigger: fq8,
 - replace: 'failure cases '
-  _tags: [s, to, noun, else]
+  _tags:
+  - s
+  - to
+  - noun
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['fq8s,']
+  trigger: fq8s,
 - replace: 'corner case '
-  _tags: [to, noun, else]
+  _tags:
+  - to
+  - noun
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['cq8,']
+  trigger: cq8,
 - replace: 'corner cases '
-  _tags: [s, to, noun, else]
+  _tags:
+  - s
+  - to
+  - noun
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['cq8s,']
+  trigger: cq8s,
 - replace: 'unit test '
-  _tags: [to, noun, else]
+  _tags:
+  - to
+  - noun
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['untes,']
+  trigger: untes,
 - replace: 'unit tests '
-  _tags: [s, to, noun, else]
+  _tags:
+  - s
+  - to
+  - noun
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['untess,']
+  trigger: untess,
 - replace: 'e2e test '
-  _tags: [to, noun, else]
+  _tags:
+  - to
+  - noun
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['e2tes,']
+  trigger: e2tes,
 - replace: 'e2e tests '
-  _tags: [s, to, noun, else]
+  _tags:
+  - s
+  - to
+  - noun
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['e2tess,']
+  trigger: e2tess,
 - replace: 'manual test '
-  _tags: [to, noun, else]
+  _tags:
+  - to
+  - noun
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['mates,']
+  trigger: mates,
 - replace: 'manual tests '
-  _tags: [s, to, noun, else]
+  _tags:
+  - s
+  - to
+  - noun
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['matess,']
+  trigger: matess,
 - replace: 'smoke test '
-  _tags: [to, noun, else]
+  _tags:
+  - to
+  - noun
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['smtes,']
+  trigger: smtes,
 - replace: 'smoke tests '
-  _tags: [s, to, noun, else]
+  _tags:
+  - s
+  - to
+  - noun
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['smtess,']
+  trigger: smtess,
 - replace: 'output this '
-  _tags: [demonstrative, to, else]
+  _tags:
+  - demonstrative
+  - to
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['opiz,']
+  trigger: opiz,
 - replace: 'output that '
-  _tags: [demonstrative, to, else]
+  _tags:
+  - demonstrative
+  - to
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['opaz,']
+  trigger: opaz,
 - replace: 'output these '
-  _tags: [demonstrative, to, else]
+  _tags:
+  - demonstrative
+  - to
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['opez,']
+  trigger: opez,
 - replace: 'output those '
-  _tags: [demonstrative, to, else]
+  _tags:
+  - demonstrative
+  - to
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['opoz,']
+  trigger: opoz,
 - replace: 'output the '
-  _tags: [article, to, else]
+  _tags:
+  - article
+  - to
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['oph,']
+  trigger: oph,
 - replace: 'output it '
-  _tags: [pronoun, to, else]
+  _tags:
+  - pronoun
+  - to
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['opx,']
+  trigger: opx,
 - replace: 'input this '
-  _tags: [demonstrative, to, else]
+  _tags:
+  - demonstrative
+  - to
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['ipiz,']
+  trigger: ipiz,
 - replace: 'input that '
-  _tags: [demonstrative, to, else]
+  _tags:
+  - demonstrative
+  - to
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['ipaz,']
+  trigger: ipaz,
 - replace: 'input these '
-  _tags: [demonstrative, to, else]
+  _tags:
+  - demonstrative
+  - to
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['ipez,']
+  trigger: ipez,
 - replace: 'input those '
-  _tags: [demonstrative, to, else]
+  _tags:
+  - demonstrative
+  - to
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['ipoz,']
+  trigger: ipoz,
 - replace: 'input the '
-  _tags: [article, to, else]
+  _tags:
+  - article
+  - to
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['iph,']
+  trigger: iph,
 - replace: 'input it '
-  _tags: [pronoun, to, else]
+  _tags:
+  - pronoun
+  - to
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['ipx,']
+  trigger: ipx,
 - replace: 'case this '
-  _tags: [demonstrative, to, else]
+  _tags:
+  - demonstrative
+  - to
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['q8iz,']
+  trigger: q8iz,
 - replace: 'case that '
-  _tags: [demonstrative, to, else]
+  _tags:
+  - demonstrative
+  - to
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['q8az,']
+  trigger: q8az,
 - replace: 'case these '
-  _tags: [demonstrative, to, else]
+  _tags:
+  - demonstrative
+  - to
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['q8ez,']
+  trigger: q8ez,
 - replace: 'case those '
-  _tags: [demonstrative, to, else]
+  _tags:
+  - demonstrative
+  - to
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['q8oz,']
+  trigger: q8oz,
 - replace: 'case the '
-  _tags: [article, to, else]
+  _tags:
+  - article
+  - to
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['q8h,']
+  trigger: q8h,
 - replace: 'case it '
-  _tags: [pronoun, to, else]
+  _tags:
+  - pronoun
+  - to
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['q8x,']
+  trigger: q8x,
 - replace: 'usecases this '
-  _tags: [demonstrative, to, else]
+  _tags:
+  - demonstrative
+  - to
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['uq8iz,']
+  trigger: uq8iz,
 - replace: 'usecases that '
-  _tags: [demonstrative, to, else]
+  _tags:
+  - demonstrative
+  - to
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['uq8az,']
+  trigger: uq8az,
 - replace: 'usecases these '
-  _tags: [demonstrative, to, else]
+  _tags:
+  - demonstrative
+  - to
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['uq8ez,']
+  trigger: uq8ez,
 - replace: 'usecases those '
-  _tags: [demonstrative, to, else]
+  _tags:
+  - demonstrative
+  - to
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['uq8oz,']
+  trigger: uq8oz,
 - replace: 'usecases the '
-  _tags: [article, to, else]
+  _tags:
+  - article
+  - to
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['uq8h,']
+  trigger: uq8h,
 - replace: 'usecases it '
-  _tags: [pronoun, to, else]
+  _tags:
+  - pronoun
+  - to
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['uq8x,']
+  trigger: uq8x,
 - replace: 'usecase this '
-  _tags: [demonstrative, to, else]
+  _tags:
+  - demonstrative
+  - to
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['uqeiz,']
+  trigger: uqeiz,
 - replace: 'usecase that '
-  _tags: [demonstrative, to, else]
+  _tags:
+  - demonstrative
+  - to
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['uqeaz,']
+  trigger: uqeaz,
 - replace: 'usecase these '
-  _tags: [demonstrative, to, else]
+  _tags:
+  - demonstrative
+  - to
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['uqeez,']
+  trigger: uqeez,
 - replace: 'usecase those '
-  _tags: [demonstrative, to, else]
+  _tags:
+  - demonstrative
+  - to
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['uqeoz,']
+  trigger: uqeoz,
 - replace: 'usecase the '
-  _tags: [article, to, else]
+  _tags:
+  - article
+  - to
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['uqeh,']
+  trigger: uqeh,
 - replace: 'usecase it '
-  _tags: [pronoun, to, else]
+  _tags:
+  - pronoun
+  - to
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['uqex,']
+  trigger: uqex,

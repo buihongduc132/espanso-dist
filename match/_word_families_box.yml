@@ -1,0 +1,188 @@
+name: _word_families_box
+matches:
+- replace: 'box '
+  _tags:
+  - noun
+  - verb
+  - to
+  - else
+  propagate_case: true
+  allow_duplicate: false
+  trigger: '[],'
+- replace: 'boxes '
+  _tags:
+  - noun
+  - plural
+  - verb
+  - to
+  - else
+  propagate_case: true
+  allow_duplicate: false
+  trigger: '[]S,'
+- replace: 'boxing '
+  _tags:
+  - ing
+  - verb
+  - to
+  - else
+  propagate_case: true
+  allow_duplicate: false
+  trigger: '[]I,'
+- replace: 'boxed '
+  _tags:
+  - ed
+  - verb
+  - to
+  - else
+  propagate_case: true
+  allow_duplicate: false
+  trigger: '[]P,'
+- replace: 'boxer '
+  _tags:
+  - noun
+  - to
+  - else
+  propagate_case: true
+  allow_duplicate: false
+  trigger: '[]w,'
+- replace: 'boxers '
+  _tags:
+  - noun
+  - plural
+  - to
+  - else
+  propagate_case: true
+  allow_duplicate: false
+  trigger: '[]ws,'
+- replace: 'this box '
+  _tags:
+  - demonstrative
+  - th_foundation
+  propagate_case: true
+  allow_duplicate: false
+  trigger: iz[],
+- replace: 'that box '
+  _tags:
+  - demonstrative
+  - th_foundation
+  propagate_case: true
+  allow_duplicate: false
+  trigger: az[],
+- replace: 'these boxes '
+  _tags:
+  - demonstrative
+  - th_foundation
+  - plural
+  propagate_case: true
+  allow_duplicate: false
+  trigger: ez[]s,
+- replace: 'those boxes '
+  _tags:
+  - demonstrative
+  - th_foundation
+  - plural
+  propagate_case: true
+  allow_duplicate: false
+  trigger: oz[]s,
+- replace: 'box this '
+  _tags:
+  - demonstrative
+  - th_foundation
+  propagate_case: true
+  allow_duplicate: false
+  trigger: '[]iz,'
+- replace: 'box that '
+  _tags:
+  - demonstrative
+  - th_foundation
+  propagate_case: true
+  allow_duplicate: false
+  trigger: '[]az,'
+- replace: 'box these '
+  _tags:
+  - demonstrative
+  - th_foundation
+  propagate_case: true
+  allow_duplicate: false
+  trigger: '[]ez,'
+- replace: 'box those '
+  _tags:
+  - demonstrative
+  - th_foundation
+  propagate_case: true
+  allow_duplicate: false
+  trigger: '[]oz,'
+- replace: 'box it '
+  _tags:
+  - pronoun
+  propagate_case: true
+  allow_duplicate: false
+  trigger: '[]it,'
+- replace: 'box them '
+  _tags:
+  - pronoun
+  propagate_case: true
+  allow_duplicate: false
+  trigger: '[]mm,'
+- replace: 'box the '
+  _tags:
+  - pronoun
+  propagate_case: true
+  allow_duplicate: false
+  trigger: '[]h,'
+- replace: 'what box '
+  _tags:
+  - question
+  propagate_case: true
+  allow_duplicate: false
+  trigger: wt[],
+- replace: 'where box '
+  _tags:
+  - question
+  propagate_case: true
+  allow_duplicate: false
+  trigger: ww[],
+- replace: 'when box '
+  _tags:
+  - question
+  propagate_case: true
+  allow_duplicate: false
+  trigger: wn[],
+- replace: 'why box '
+  _tags:
+  - question
+  propagate_case: true
+  allow_duplicate: false
+  trigger: wy[],
+- replace: 'how box '
+  _tags:
+  - question
+  propagate_case: true
+  allow_duplicate: false
+  trigger: hw[],
+- replace: 'box to the '
+  _tags:
+  - directional
+  propagate_case: true
+  allow_duplicate: false
+  trigger: '[]2h,'
+- replace: 'from the box '
+  _tags:
+  - directional
+  propagate_case: true
+  allow_duplicate: false
+  trigger: 22h[],
+- replace: 'from the boxes '
+  _tags:
+  - directional
+  propagate_case: true
+  allow_duplicate: false
+  trigger: 22h[]s,
+- replace: 'box have '
+  propagate_case: true
+  allow_duplicate: false
+  trigger: '[]ha,'
+- replace: 'box has '
+  propagate_case: true
+  allow_duplicate: false
+  trigger: '[]hass,'

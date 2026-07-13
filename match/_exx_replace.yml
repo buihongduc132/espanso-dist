@@ -1,85 +1,143 @@
-# ⚠️  WARNING: AUTO-GENERATED FILE - DO NOT EDIT DIRECTLY!
-# This file is generated from word_version by:
-#   scripts/convert_to_tokenized_word_version.py
-# Edit source in space_version and re-run conversions.
-# Tokenizes trailing spaces in triggers to an explicit token.
-# Removes right_word property for tokenized version.
-# Adds trailing space to replacements that don't have one.
-# Current token: ','
-
 matches:
 - replace: 'replace '
-  _tags: [to, can, else]
+  _tags:
+  - to
+  - can
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['wew,']
+  trigger: wew,
 - replace: 'replaces '
-  _tags: [to, can, else]
+  _tags:
+  - to
+  - can
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['wews,']
+  trigger: wews,
 - replace: 'replacing '
-  _tags: [ing, to, can, else]
+  _tags:
+  - ing
+  - to
+  - can
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['wewi,']
+  trigger: wewi,
 - replace: 'replaced '
-  _tags: [ed, would, to, can, else]
+  _tags:
+  - ed
+  - would
+  - to
+  - can
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['wewp,']
+  trigger: wewp,
 - replace: 'replace this '
-  _tags: [demonstrative, to, can, else]
+  _tags:
+  - demonstrative
+  - to
+  - can
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['wewiz,']
+  trigger: wewiz,
 - replace: 'replace that '
-  _tags: [demonstrative, to, can, else, have]
+  _tags:
+  - demonstrative
+  - to
+  - can
+  - else
+  - have
   propagate_case: true
   allow_duplicate: false
-  triggers: ['wewaz,']
+  trigger: wewaz,
 - replace: 'replace these '
-  _tags: [demonstrative, to, can, else]
+  _tags:
+  - demonstrative
+  - to
+  - can
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['wewez,']
+  trigger: wewez,
 - replace: 'replace those '
-  _tags: [demonstrative, to, can, else]
+  _tags:
+  - demonstrative
+  - to
+  - can
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['wewoz,']
+  trigger: wewoz,
 - replace: 'replacing this '
-  _tags: [demonstrative, ing, to, can, else]
+  _tags:
+  - demonstrative
+  - ing
+  - to
+  - can
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['wewiiz,']
+  trigger: wewiiz,
 - replace: 'replacing that '
-  _tags: [demonstrative, ing, to, can, else, have]
+  _tags:
+  - demonstrative
+  - ing
+  - to
+  - can
+  - else
+  - have
   propagate_case: true
   allow_duplicate: false
-  triggers: ['wewiaz,']
+  trigger: wewiaz,
 - replace: 'replacing these '
-  _tags: [demonstrative, ing, to, can, else]
+  _tags:
+  - demonstrative
+  - ing
+  - to
+  - can
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['wewiez,']
+  trigger: wewiez,
 - replace: 'replacing those '
-  _tags: [demonstrative, ing, to, can, else]
+  _tags:
+  - demonstrative
+  - ing
+  - to
+  - can
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['wewioz,']
+  trigger: wewioz,
 - replace: 'replace the '
-  _tags: [the, to, can, else]
+  _tags:
+  - the
+  - to
+  - can
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['wewh,']
+  trigger: wewh,
 - replace: 'replacing the '
-  _tags: [the, ing, to, can, else]
+  _tags:
+  - the
+  - ing
+  - to
+  - can
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['wewih,']
+  trigger: wewih,
 - replace: 'replace all '
-  _tags: [the, to, can, else]
+  _tags:
+  - the
+  - to
+  - can
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['wewa,']
+  trigger: wewa,
+name: _exx_replace

@@ -1,52 +1,80 @@
-# ⚠️  WARNING: AUTO-GENERATED FILE - DO NOT EDIT DIRECTLY!
-# This file is generated from word_version by:
-#   scripts/convert_to_tokenized_word_version.py
-# Edit source in space_version and re-run conversions.
-# Tokenizes trailing spaces in triggers to an explicit token.
-# Removes right_word property for tokenized version.
-# Adds trailing space to replacements that don't have one.
-# Current token: ','
-
-name: word-families-ge
-parent: default
+name: _word_families_ge
 matches:
 - replace: 'get '
-  _tags: [verb, to, can, else, pronoun]
+  _tags:
+  - verb
+  - to
+  - can
+  - else
+  - pronoun
   propagate_case: true
   allow_duplicate: false
-  triggers: ['ge,']
+  trigger: ge,
 - replace: 'gets '
-  _tags: [verb, to, can, else, pronoun]
+  _tags:
+  - verb
+  - to
+  - can
+  - else
+  - pronoun
   propagate_case: true
   allow_duplicate: false
-  triggers: ['ges,']
+  trigger: ges,
 - replace: 'getting '
-  _tags: [verb, ing, to, can, pronoun]
+  _tags:
+  - verb
+  - ing
+  - to
+  - can
+  - pronoun
   propagate_case: true
   allow_duplicate: false
-  triggers: ['gei,']
+  trigger: gei,
 - replace: 'got '
-  _tags: [verb, ed, would, to, can, pronoun]
+  _tags:
+  - verb
+  - ed
+  - would
+  - to
+  - can
+  - pronoun
   propagate_case: true
   allow_duplicate: false
-  triggers: ['gep,']
+  trigger: gep,
 - replace: 'gotten '
-  _tags: [verb, to, can, else, pronoun]
+  _tags:
+  - verb
+  - to
+  - can
+  - else
+  - pronoun
   propagate_case: true
   allow_duplicate: false
-  triggers: ['gept,']
+  trigger: gept,
 - replace: 'getter '
-  _tags: [noun, to, can, else]
+  _tags:
+  - noun
+  - to
+  - can
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['gew,']
+  trigger: gew,
 - replace: 'getters '
-  _tags: [noun, to, can, else]
+  _tags:
+  - noun
+  - to
+  - can
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['gews,']
+  trigger: gews,
 - replace: 'getter '
-  _tags: [noun, to, can, else]
+  _tags:
+  - noun
+  - to
+  - can
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['gewp,']
+  trigger: gewp,

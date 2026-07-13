@@ -1,159 +1,348 @@
-# ⚠️  WARNING: AUTO-GENERATED FILE - DO NOT EDIT DIRECTLY!
-# This file is generated from word_version by:
-#   scripts/convert_to_tokenized_word_version.py
-# Edit source in space_version and re-run conversions.
-# Tokenizes trailing spaces in triggers to an explicit token.
-# Removes right_word property for tokenized version.
-# Adds trailing space to replacements that don't have one.
-# Current token: ','
-
-name: word_3_three_token
-parent: default
+name: _word_3_three_token
 matches:
-- triggers: ['izth,', 'izthe,']
-  replace: 'this is the '
-  _tags: [pronoun, the, demonstrative, to, be, else]
+- replace: 'this is the '
+  _tags: &id001
+  - pronoun
+  - the
+  - demonstrative
+  - to
+  - be
+  - else
   propagate_case: true
   allow_duplicate: false
+  trigger: izth,
+- replace: 'this is the '
+  _tags: *id001
+  propagate_case: true
+  allow_duplicate: false
+  trigger: izthe,
 - replace: 'these can not '
-  _tags: [the, demonstrative, can, negate, to, else]
+  _tags:
+  - the
+  - demonstrative
+  - can
+  - negate
+  - to
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['ezqn,']
+  trigger: ezqn,
 - replace: 'what are these '
-  _tags: [question, will, the, what, demonstrative, to, be, else, have]
+  _tags:
+  - question
+  - will
+  - the
+  - what
+  - demonstrative
+  - to
+  - be
+  - else
+  - have
   allow_duplicate: true
   propagate_case: true
-  triggers: ['wtaez,']
+  trigger: wtaez,
 - replace: 'what is that '
-  _tags: [question, pronoun, will, the, what, demonstrative, to, be, have]
+  _tags:
+  - question
+  - pronoun
+  - will
+  - the
+  - what
+  - demonstrative
+  - to
+  - be
+  - have
   allow_duplicate: true
   propagate_case: true
-  triggers: ['wttaz,']
+  trigger: wttaz,
 - replace: 'this any do '
-  _tags: [pronoun, the, demonstrative, to, be, would]
+  _tags:
+  - pronoun
+  - the
+  - demonstrative
+  - to
+  - be
+  - would
   propagate_case: true
   allow_duplicate: false
-  triggers: ['izaydo,']
+  trigger: izaydo,
 - replace: 'that then what '
-  _tags: [question, will, the, what, demonstrative, time, to, else, have]
+  _tags:
+  - question
+  - will
+  - the
+  - what
+  - demonstrative
+  - time
+  - to
+  - else
+  - have
   propagate_case: true
   allow_duplicate: false
-  triggers: ['aznzwt,']
-- triggers: ['izdegt,', 'izdeit,']
-  replace: 'this does going to '
-  _tags: [pronoun, the, ing, demonstrative, to, be, would, else]
+  trigger: aznzwt,
+- replace: 'this does going to '
+  _tags: &id002
+  - pronoun
+  - the
+  - ing
+  - demonstrative
+  - to
+  - be
+  - would
+  - else
   propagate_case: true
   allow_duplicate: false
+  trigger: izdegt,
+- replace: 'this does going to '
+  _tags: *id002
+  propagate_case: true
+  allow_duplicate: false
+  trigger: izdeit,
 - replace: 'this do won''t '
-  _tags: [pronoun, will, the, demonstrative, to, negate, be, would, else]
+  _tags:
+  - pronoun
+  - will
+  - the
+  - demonstrative
+  - to
+  - negate
+  - be
+  - would
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['izdolln,']
+  trigger: izdolln,
 - replace: 'if that will '
-  _tags: [pronoun, will, the, demonstrative, to, else, have]
+  _tags:
+  - pronoun
+  - will
+  - the
+  - demonstrative
+  - to
+  - else
+  - have
   propagate_case: true
   allow_duplicate: false
-  triggers: ['fazll,']
-- triggers: ['fezeqn,', 'fezqn,']
-  replace: 'if these can not '
-  _tags: [pronoun, the, demonstrative, to, can, negate, else]
+  trigger: fazll,
+- replace: 'if these can not '
+  _tags: &id003
+  - pronoun
+  - the
+  - demonstrative
+  - to
+  - can
+  - negate
+  - else
   propagate_case: true
   allow_duplicate: false
+  trigger: fezeqn,
+- replace: 'if these can not '
+  _tags: *id003
+  propagate_case: true
+  allow_duplicate: false
+  trigger: fezqn,
 - replace: 'if any do '
-  _tags: [would, pronoun]
+  _tags:
+  - would
+  - pronoun
   propagate_case: true
   allow_duplicate: false
-  triggers: ['faydo,']
+  trigger: faydo,
 - replace: 'if you do '
-  _tags: [would, pronoun]
+  _tags:
+  - would
+  - pronoun
   propagate_case: true
   allow_duplicate: false
-  triggers: ['fyado,']
+  trigger: fyado,
 - replace: 'if then is '
-  _tags: [pronoun, the, time, to, be, else]
+  _tags:
+  - pronoun
+  - the
+  - time
+  - to
+  - be
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['fnzt,']
+  trigger: fnzt,
 - replace: 'what it are '
-  _tags: [question, pronoun, will, the, what, to, be, else, have]
+  _tags:
+  - question
+  - pronoun
+  - will
+  - the
+  - what
+  - to
+  - be
+  - else
+  - have
   propagate_case: true
   allow_duplicate: false
-  triggers: ['wtxa,']
+  trigger: wtxa,
 - replace: 'if that is '
-  _tags: [pronoun, will, the, demonstrative, to, be, have]
+  _tags:
+  - pronoun
+  - will
+  - the
+  - demonstrative
+  - to
+  - be
+  - have
   propagate_case: true
   allow_duplicate: false
-  triggers: ['wwjazt,']
+  trigger: wwjazt,
 - replace: 'that can any '
-  _tags: [the, demonstrative, to, can, have]
+  _tags:
+  - the
+  - demonstrative
+  - to
+  - can
+  - have
   propagate_case: true
   allow_duplicate: false
-  triggers: ['azqay,']
+  trigger: azqay,
 - replace: 'what if any '
-  _tags: [question, pronoun, will, the, what, to, have]
+  _tags:
+  - question
+  - pronoun
+  - will
+  - the
+  - what
+  - to
+  - have
   allow_duplicate: true
   duplicate_group: wtfay-what-if-any
   propagate_case: true
-  triggers: ['wtfay,']
+  trigger: wtfay,
 - replace: 'do any this '
-  _tags: [pronoun, the, demonstrative, to, be, would]
+  _tags:
+  - pronoun
+  - the
+  - demonstrative
+  - to
+  - be
+  - would
   propagate_case: true
   allow_duplicate: false
-  triggers: ['doayiz,']
+  trigger: doayiz,
 - replace: 'can any that '
-  _tags: [the, demonstrative, to, can, have]
+  _tags:
+  - the
+  - demonstrative
+  - to
+  - can
+  - have
   propagate_case: true
   allow_duplicate: false
-  triggers: ['qayaz,']
+  trigger: qayaz,
 - replace: 'is any this '
-  _tags: [pronoun, the, demonstrative, to, be]
+  _tags:
+  - pronoun
+  - the
+  - demonstrative
+  - to
+  - be
   propagate_case: true
   allow_duplicate: false
-  triggers: ['tayiz,']
+  trigger: tayiz,
 - replace: 'are any that '
-  _tags: [the, demonstrative, to, be, else, have]
+  _tags:
+  - the
+  - demonstrative
+  - to
+  - be
+  - else
+  - have
   propagate_case: true
   allow_duplicate: false
-  triggers: ['aayaz,']
+  trigger: aayaz,
 - replace: 'this is about '
-  _tags: [pronoun, the, demonstrative, to, be]
+  _tags:
+  - pronoun
+  - the
+  - demonstrative
+  - to
+  - be
   propagate_case: true
   allow_duplicate: false
-  triggers: ['iztab,']
+  trigger: iztab,
 - replace: 'that is about '
-  _tags: [pronoun, the, demonstrative, to, be, have]
+  _tags:
+  - pronoun
+  - the
+  - demonstrative
+  - to
+  - be
+  - have
   propagate_case: true
   allow_duplicate: false
-  triggers: ['aztab,']
-- triggers: ['wfab,', 'wtfab,']
-  replace: 'what if about '
-  _tags: [question, pronoun, will, the, what, to, have]
+  trigger: aztab,
+- replace: 'what if about '
+  _tags: &id004
+  - question
+  - pronoun
+  - will
+  - the
+  - what
+  - to
+  - have
   duplicate_group: wtfay-what-if-about
   propagate_case: true
   allow_duplicate: false
+  trigger: wfab,
+- replace: 'what if about '
+  _tags: *id004
+  duplicate_group: wtfay-what-if-about
+  propagate_case: true
+  allow_duplicate: false
+  trigger: wtfab,
 - replace: 'if about this '
-  _tags: [pronoun, the, demonstrative, to, be]
+  _tags:
+  - pronoun
+  - the
+  - demonstrative
+  - to
+  - be
   propagate_case: true
   allow_duplicate: false
-  triggers: ['fabiz,']
+  trigger: fabiz,
 - replace: 'do about this '
-  _tags: [pronoun, the, demonstrative, to, be, would]
+  _tags:
+  - pronoun
+  - the
+  - demonstrative
+  - to
+  - be
+  - would
   propagate_case: true
   allow_duplicate: false
-  triggers: ['doabiz,']
+  trigger: doabiz,
 - replace: 'can about that '
-  _tags: [the, demonstrative, to, can, have]
+  _tags:
+  - the
+  - demonstrative
+  - to
+  - can
+  - have
   propagate_case: true
   allow_duplicate: false
-  triggers: ['qabaz,']
+  trigger: qabaz,
 - replace: 'about if do '
-  _tags: [to, pronoun, would]
+  _tags:
+  - to
+  - pronoun
+  - would
   propagate_case: true
   allow_duplicate: false
-  triggers: ['abfdo,']
+  trigger: abfdo,
 - replace: 'about this is '
-  _tags: [pronoun, the, demonstrative, to, be]
+  _tags:
+  - pronoun
+  - the
+  - demonstrative
+  - to
+  - be
   propagate_case: true
   allow_duplicate: false
-  triggers: ['abizt,']
+  trigger: abizt,

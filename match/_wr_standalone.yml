@@ -1,72 +1,86 @@
-# ⚠️  WARNING: AUTO-GENERATED FILE - DO NOT EDIT DIRECTLY!
-# This file is generated from word_version by:
-#   scripts/convert_to_tokenized_word_version.py
-# Edit source in space_version and re-run conversions.
-# Tokenizes trailing spaces in triggers to an explicit token.
-# Removes right_word property for tokenized version.
-# Adds trailing space to replacements that don't have one.
-# Current token: ','
-
-name: wr-standalone
-parent: default
+name: _wr_standalone
 matches:
 - replace: 'reads '
-  _tags: [w-r, standalone]
+  _tags:
+  - w-r
+  - standalone
   propagate_case: true
   allow_duplicate: false
-  triggers: ['w1s,']
+  trigger: w1s,
 - replace: 'reading '
-  _tags: [w-r, standalone]
+  _tags:
+  - w-r
+  - standalone
   propagate_case: true
   allow_duplicate: false
-  triggers: ['w1i,']
+  trigger: w1i,
 - replace: 'read '
-  _tags: [w-r, standalone]
+  _tags:
+  - w-r
+  - standalone
   propagate_case: true
   allow_duplicate: false
-  triggers: ['w1p,']
+  trigger: w1p,
 - replace: 'reader '
-  _tags: [w-r, standalone]
+  _tags:
+  - w-r
+  - standalone
   propagate_case: true
   allow_duplicate: false
-  triggers: ['w1w,']
+  trigger: w1w,
 - replace: 'readers '
-  _tags: [w-r, standalone]
+  _tags:
+  - w-r
+  - standalone
   propagate_case: true
   allow_duplicate: false
-  triggers: ['w1ws,']
+  trigger: w1ws,
 - replace: 'writes '
-  _tags: [w-r, standalone]
+  _tags:
+  - w-r
+  - standalone
   propagate_case: true
   allow_duplicate: false
-  triggers: ['w2s,']
+  trigger: w2s,
 - replace: 'writing '
-  _tags: [w-r, standalone]
+  _tags:
+  - w-r
+  - standalone
   propagate_case: true
   allow_duplicate: false
-  triggers: ['w2i,']
+  trigger: w2i,
 - replace: 'wrote '
-  _tags: [w-r, standalone]
+  _tags:
+  - w-r
+  - standalone
   propagate_case: true
   allow_duplicate: false
-  triggers: ['w2p,']
+  trigger: w2p,
 - replace: 'writer '
-  _tags: [w-r, standalone]
+  _tags:
+  - w-r
+  - standalone
   propagate_case: true
   allow_duplicate: false
-  triggers: ['w2w,']
+  trigger: w2w,
 - replace: 'writers '
-  _tags: [w-r, standalone]
+  _tags:
+  - w-r
+  - standalone
   propagate_case: true
   allow_duplicate: false
-  triggers: ['w2ws,']
+  trigger: w2ws,
 - replace: 'read '
-  _tags: [w-r, standalone]
+  _tags:
+  - w-r
+  - standalone
   propagate_case: true
   allow_duplicate: false
-  triggers: ['w1,']
+  trigger: w1,
 - replace: 'write '
-  _tags: [w-r, standalone]
+  _tags:
+  - w-r
+  - standalone
   propagate_case: true
   allow_duplicate: false
-  triggers: ['w2,']
+  trigger: w2,

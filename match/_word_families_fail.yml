@@ -1,0 +1,73 @@
+name: _word_families_fail
+matches:
+- replace: 'fail '
+  _tags:
+  - verb
+  - to
+  - can
+  - else
+  propagate_case: true
+  allow_duplicate: false
+  trigger: fai,
+- replace: 'fails '
+  _tags:
+  - verb
+  - to
+  - can
+  - else
+  propagate_case: true
+  allow_duplicate: false
+  trigger: fais,
+- replace: 'failing '
+  _tags:
+  - verb
+  - ing
+  - to
+  - can
+  - else
+  propagate_case: true
+  allow_duplicate: false
+  trigger: faii,
+- replace: 'failed '
+  _tags:
+  - verb
+  - ed
+  - would
+  - to
+  - can
+  - else
+  propagate_case: true
+  allow_duplicate: false
+  trigger: faip,
+- replace: 'failure '
+  _tags:
+  - noun
+  - to
+  - else
+  propagate_case: true
+  allow_duplicate: false
+  trigger: faim,
+- replace: 'failures '
+  _tags:
+  - noun
+  - to
+  - else
+  propagate_case: true
+  allow_duplicate: false
+  trigger: faims,
+- replace: 'fail to '
+  propagate_case: true
+  allow_duplicate: false
+  trigger: fai2,
+- replace: 'fails to '
+  propagate_case: true
+  allow_duplicate: false
+  trigger: fais2,
+- replace: 'failing to '
+  propagate_case: true
+  allow_duplicate: false
+  trigger: faii2,
+- replace: 'failed to '
+  propagate_case: true
+  allow_duplicate: false
+  trigger: faip2,

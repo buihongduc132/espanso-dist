@@ -1,244 +1,374 @@
-# ⚠️  WARNING: AUTO-GENERATED FILE - DO NOT EDIT DIRECTLY!
-# This file is generated from word_version by:
-#   scripts/convert_to_tokenized_word_version.py
-# Edit source in space_version and re-run conversions.
-# Tokenizes trailing spaces in triggers to an explicit token.
-# Removes right_word property for tokenized version.
-# Adds trailing space to replacements that don't have one.
-# Current token: ','
-
 matches:
 - replace: 'one '
-  _tags: [pronoun, the, to, else]
+  _tags:
+  - pronoun
+  - the
+  - to
+  - else
   allow_duplicate: false
-  triggers: ['1,']
+  trigger: 1,
 - replace: 'first '
-  _tags: [ordinal, counting, else]
-  triggers: [',1,']
+  _tags:
+  - ordinal
+  - counting
+  - else
+  trigger: ',1,'
 - replace: 'second '
-  _tags: [ordinal, counting, else]
-  triggers: [',2,']
+  _tags:
+  - ordinal
+  - counting
+  - else
+  trigger: ',2,'
 - replace: 'third '
-  _tags: [ordinal, counting, else]
-  triggers: [',3,']
+  _tags:
+  - ordinal
+  - counting
+  - else
+  trigger: ',3,'
 - replace: 'fourth '
-  _tags: [ordinal, counting, else]
-  triggers: [',4,']
+  _tags:
+  - ordinal
+  - counting
+  - else
+  trigger: ',4,'
 - replace: 'fifth '
-  _tags: [ordinal, counting, else]
-  triggers: [',5,']
+  _tags:
+  - ordinal
+  - counting
+  - else
+  trigger: ',5,'
 - replace: 'sixth '
-  _tags: [ordinal, counting, else]
-  triggers: [',6,']
+  _tags:
+  - ordinal
+  - counting
+  - else
+  trigger: ',6,'
 - replace: 'seventh '
-  _tags: [ordinal, counting, else]
-  triggers: [',7,']
+  _tags:
+  - ordinal
+  - counting
+  - else
+  trigger: ',7,'
 - replace: 'eighth '
-  _tags: [ordinal, counting, else]
-  triggers: [',8,']
+  _tags:
+  - ordinal
+  - counting
+  - else
+  trigger: ',8,'
 - replace: 'ninth '
-  _tags: [ordinal, counting, else]
-  triggers: [',9,']
+  _tags:
+  - ordinal
+  - counting
+  - else
+  trigger: ',9,'
 - replace: 'last '
-  _tags: [ordinal, counting, else]
-  triggers: [',0,']
+  _tags:
+  - ordinal
+  - counting
+  - else
+  trigger: ',0,'
 - replace: 'once '
-  _tags: [occurrence, counting, can, else]
+  _tags:
+  - occurrence
+  - counting
+  - can
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['.1,']
+  trigger: .1,
 - replace: 'twice '
-  _tags: [occurrence, counting, pronoun, will, to, can]
+  _tags:
+  - occurrence
+  - counting
+  - pronoun
+  - will
+  - to
+  - can
   propagate_case: true
   allow_duplicate: false
-  triggers: ['.2,']
+  trigger: .2,
 - replace: 'thrice '
-  _tags: [occurrence, counting, else]
+  _tags:
+  - occurrence
+  - counting
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['.3,']
+  trigger: .3,
 - replace: 'never '
-  _tags: [occurrence, counting, else]
+  _tags:
+  - occurrence
+  - counting
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['.0,']
+  trigger: .0,
 - replace: 'once more '
-  _tags: [occurrence, counting, quantifier]
+  _tags:
+  - occurrence
+  - counting
+  - quantifier
   propagate_case: true
   allow_duplicate: false
-  triggers: ['.1m,']
+  trigger: .1m,
 - replace: 'once less '
-  _tags: [occurrence, counting, quantifier]
+  _tags:
+  - occurrence
+  - counting
+  - quantifier
   propagate_case: true
   allow_duplicate: false
-  triggers: ['.1l,']
+  trigger: .1l,
 - replace: 'once more time '
-  _tags: [occurrence, counting, quantifier]
+  _tags:
+  - occurrence
+  - counting
+  - quantifier
   propagate_case: true
   allow_duplicate: false
-  triggers: ['.1mt,']
+  trigger: .1mt,
 - replace: 'once less time '
-  _tags: [occurrence, counting, quantifier]
+  _tags:
+  - occurrence
+  - counting
+  - quantifier
   propagate_case: true
   allow_duplicate: false
-  triggers: ['.1lt,']
+  trigger: .1lt,
 - replace: 'twice more '
-  _tags: [occurrence, counting, quantifier]
+  _tags:
+  - occurrence
+  - counting
+  - quantifier
   propagate_case: true
   allow_duplicate: false
-  triggers: ['.2m,']
+  trigger: .2m,
 - replace: 'twice less '
-  _tags: [occurrence, counting, quantifier]
+  _tags:
+  - occurrence
+  - counting
+  - quantifier
   propagate_case: true
   allow_duplicate: false
-  triggers: ['.2l,']
+  trigger: .2l,
 - replace: 'twice more time '
-  _tags: [occurrence, counting, quantifier]
+  _tags:
+  - occurrence
+  - counting
+  - quantifier
   propagate_case: true
   allow_duplicate: false
-  triggers: ['.2mt,']
+  trigger: .2mt,
 - replace: 'twice less time '
-  _tags: [occurrence, counting, quantifier]
+  _tags:
+  - occurrence
+  - counting
+  - quantifier
   propagate_case: true
   allow_duplicate: false
-  triggers: ['.2lt,']
+  trigger: .2lt,
 - replace: 'thrice more '
-  _tags: [occurrence, counting, quantifier]
+  _tags:
+  - occurrence
+  - counting
+  - quantifier
   propagate_case: true
   allow_duplicate: false
-  triggers: ['.3m,']
+  trigger: .3m,
 - replace: 'thrice less '
-  _tags: [occurrence, counting, quantifier]
+  _tags:
+  - occurrence
+  - counting
+  - quantifier
   propagate_case: true
   allow_duplicate: false
-  triggers: ['.3l,']
+  trigger: .3l,
 - replace: 'thrice more time '
-  _tags: [occurrence, counting, quantifier]
+  _tags:
+  - occurrence
+  - counting
+  - quantifier
   propagate_case: true
   allow_duplicate: false
-  triggers: ['.3mt,']
+  trigger: .3mt,
 - replace: 'thrice less time '
-  _tags: [occurrence, counting, quantifier]
+  _tags:
+  - occurrence
+  - counting
+  - quantifier
   propagate_case: true
   allow_duplicate: false
-  triggers: ['.3lt,']
+  trigger: .3lt,
 - replace: 'one this '
-  _tags: [number, demonstrative, the]
+  _tags:
+  - number
+  - demonstrative
+  - the
   propagate_case: true
   allow_duplicate: false
-  triggers: ['1iz,']
+  trigger: 1iz,
 - replace: 'one that '
-  _tags: [number, demonstrative, the]
+  _tags:
+  - number
+  - demonstrative
+  - the
   propagate_case: true
   allow_duplicate: false
-  triggers: ['1az,']
+  trigger: 1az,
 - replace: 'one these '
-  _tags: [number, demonstrative, the]
+  _tags:
+  - number
+  - demonstrative
+  - the
   propagate_case: true
   allow_duplicate: false
-  triggers: ['1ez,']
+  trigger: 1ez,
 - replace: 'one those '
-  _tags: [number, demonstrative, the]
+  _tags:
+  - number
+  - demonstrative
+  - the
   propagate_case: true
   allow_duplicate: false
-  triggers: ['1oz,']
+  trigger: 1oz,
 - replace: 'one for '
-  _tags: [number, preposition]
+  _tags:
+  - number
+  - preposition
   propagate_case: true
   allow_duplicate: false
-  triggers: ['14,']
+  trigger: 14,
 - replace: 'one of '
-  _tags: [number, preposition]
+  _tags:
+  - number
+  - preposition
   propagate_case: true
   allow_duplicate: false
-  triggers: ['1o,']
+  trigger: 1o,
 - replace: 'one to '
-  _tags: [number, preposition]
+  _tags:
+  - number
+  - preposition
   propagate_case: true
   allow_duplicate: false
-  triggers: ['12,']
+  trigger: 12,
 - replace: 'one the '
-  _tags: [number, the]
+  _tags:
+  - number
+  - the
   propagate_case: true
   allow_duplicate: false
-  triggers: ['1h,']
+  trigger: 1h,
 - replace: 'one all '
-  _tags: [number, quantifier]
+  _tags:
+  - number
+  - quantifier
   propagate_case: true
   allow_duplicate: false
-  triggers: ['1a,']
+  trigger: 1a,
 - replace: 'one some '
-  _tags: [number, quantifier]
+  _tags:
+  - number
+  - quantifier
   propagate_case: true
   allow_duplicate: false
-  triggers: ['1sm,']
+  trigger: 1sm,
 - replace: 'one each '
-  _tags: [number, quantifier]
+  _tags:
+  - number
+  - quantifier
   propagate_case: true
   allow_duplicate: false
-  triggers: ['1eh,']
+  trigger: 1eh,
 - replace: 'one more '
-  _tags: [number, quantifier]
+  _tags:
+  - number
+  - quantifier
   propagate_case: true
   allow_duplicate: false
-  triggers: ['1m,']
+  trigger: 1m,
 - replace: 'one less '
-  _tags: [number, quantifier]
+  _tags:
+  - number
+  - quantifier
   allow_duplicate: true
   propagate_case: true
-  triggers: ['1l,']
+  trigger: 1l,
 - replace: 'one is '
-  _tags: [number, be]
+  _tags:
+  - number
+  - be
   propagate_case: true
   allow_duplicate: false
-  triggers: ['1t,']
+  trigger: 1t,
 - replace: 'one are '
-  _tags: [number, be]
+  _tags:
+  - number
+  - be
   propagate_case: true
   allow_duplicate: false
-  triggers: ['1a2,']
+  trigger: 1a2,
 - replace: 'one can '
-  _tags: [number, can]
+  _tags:
+  - number
+  - can
   propagate_case: true
   allow_duplicate: false
-  triggers: ['1q,']
+  trigger: 1q,
 - replace: 'one would '
-  _tags: [number, would]
+  _tags:
+  - number
+  - would
   propagate_case: true
   allow_duplicate: false
-  triggers: ['1wou,']
+  trigger: 1wou,
 - replace: 'one do '
-  _tags: [number, do]
+  _tags:
+  - number
+  - do
   propagate_case: true
   allow_duplicate: false
-  triggers: ['1u,']
+  trigger: 1u,
 - replace: 'one does '
-  _tags: [number, do]
+  _tags:
+  - number
+  - do
   propagate_case: true
   allow_duplicate: false
-  triggers: ['1uu,']
+  trigger: 1uu,
 - replace: 'one what '
-  _tags: [number, question]
+  _tags:
+  - number
+  - question
   propagate_case: true
   allow_duplicate: false
-  triggers: ['1wt,']
+  trigger: 1wt,
 - replace: 'one where '
-  _tags: [number, question]
+  _tags:
+  - number
+  - question
   propagate_case: true
   allow_duplicate: false
-  triggers: ['1wr,']
+  trigger: 1wr,
 - replace: 'one when '
-  _tags: [number, question]
+  _tags:
+  - number
+  - question
   propagate_case: true
   allow_duplicate: false
-  triggers: ['1wn,']
+  trigger: 1wn,
 - replace: 'one why '
-  _tags: [number, question]
+  _tags:
+  - number
+  - question
   propagate_case: true
   allow_duplicate: false
-  triggers: ['1wy,']
+  trigger: 1wy,
 - replace: 'one how '
-  _tags: [number, question]
+  _tags:
+  - number
+  - question
   propagate_case: true
   allow_duplicate: false
-  triggers: ['1hw,']
+  trigger: 1hw,
+name: _counting_systems

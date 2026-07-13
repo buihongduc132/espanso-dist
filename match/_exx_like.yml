@@ -1,132 +1,268 @@
-# ⚠️  WARNING: AUTO-GENERATED FILE - DO NOT EDIT DIRECTLY!
-# This file is generated from word_version by:
-#   scripts/convert_to_tokenized_word_version.py
-# Edit source in space_version and re-run conversions.
-# Tokenizes trailing spaces in triggers to an explicit token.
-# Removes right_word property for tokenized version.
-# Adds trailing space to replacements that don't have one.
-# Current token: ','
-
-name: exx_like
-parent: default
+name: _exx_like
 matches:
 - replace: 'be like '
-  _tags: [comparison, be, to, else, software_dev]
+  _tags:
+  - comparison
+  - be
+  - to
+  - else
+  - software_dev
   propagate_case: true
   allow_duplicate: false
-  triggers: ['blk,']
+  trigger: blk,
 - replace: 'not like '
-  _tags: [comparison, negate, to, else, software_dev]
+  _tags:
+  - comparison
+  - negate
+  - to
+  - else
+  - software_dev
   propagate_case: true
   allow_duplicate: false
-  triggers: ['nlk,']
+  trigger: nlk,
 - replace: 'not be like '
-  _tags: [comparison, be, negate, to, else, software_dev]
+  _tags:
+  - comparison
+  - be
+  - negate
+  - to
+  - else
+  - software_dev
   propagate_case: true
   allow_duplicate: false
-  triggers: ['nblk,']
+  trigger: nblk,
 - replace: 'don''t be like '
-  _tags: [comparison, be, negate, to, else, software_dev]
+  _tags:
+  - comparison
+  - be
+  - negate
+  - to
+  - else
+  - software_dev
   propagate_case: true
   allow_duplicate: false
-  triggers: ['unblk,']
+  trigger: unblk,
 - replace: 'like this '
-  _tags: [comparison, demonstrative, to, else, software_dev]
+  _tags:
+  - comparison
+  - demonstrative
+  - to
+  - else
+  - software_dev
   propagate_case: true
   allow_duplicate: false
-  triggers: ['lkiz,']
+  trigger: lkiz,
 - replace: 'like that '
-  _tags: [comparison, demonstrative, to, else, software_dev]
+  _tags:
+  - comparison
+  - demonstrative
+  - to
+  - else
+  - software_dev
   propagate_case: true
   allow_duplicate: false
-  triggers: ['lkaz,']
+  trigger: lkaz,
 - replace: 'like these '
-  _tags: [comparison, demonstrative, to, else, software_dev]
+  _tags:
+  - comparison
+  - demonstrative
+  - to
+  - else
+  - software_dev
   propagate_case: true
   allow_duplicate: false
-  triggers: ['lkez,']
+  trigger: lkez,
 - replace: 'like those '
-  _tags: [comparison, demonstrative, to, else, software_dev]
+  _tags:
+  - comparison
+  - demonstrative
+  - to
+  - else
+  - software_dev
   propagate_case: true
   allow_duplicate: false
-  triggers: ['lkoz,']
+  trigger: lkoz,
 - replace: 'be like this '
-  _tags: [comparison, be, demonstrative, to, else, software_dev]
+  _tags:
+  - comparison
+  - be
+  - demonstrative
+  - to
+  - else
+  - software_dev
   propagate_case: true
   allow_duplicate: false
-  triggers: ['blkiz,']
+  trigger: blkiz,
 - replace: 'be like that '
-  _tags: [comparison, be, demonstrative, to, else, software_dev]
+  _tags:
+  - comparison
+  - be
+  - demonstrative
+  - to
+  - else
+  - software_dev
   propagate_case: true
   allow_duplicate: false
-  triggers: ['blkaz,']
+  trigger: blkaz,
 - replace: 'be like these '
-  _tags: [comparison, be, demonstrative, to, else, software_dev]
+  _tags:
+  - comparison
+  - be
+  - demonstrative
+  - to
+  - else
+  - software_dev
   propagate_case: true
   allow_duplicate: false
-  triggers: ['blkez,']
+  trigger: blkez,
 - replace: 'be like those '
-  _tags: [comparison, be, demonstrative, to, else, software_dev]
+  _tags:
+  - comparison
+  - be
+  - demonstrative
+  - to
+  - else
+  - software_dev
   propagate_case: true
   allow_duplicate: false
-  triggers: ['blkoz,']
+  trigger: blkoz,
 - replace: 'not like this '
-  _tags: [comparison, negate, demonstrative, to, else, software_dev]
+  _tags:
+  - comparison
+  - negate
+  - demonstrative
+  - to
+  - else
+  - software_dev
   propagate_case: true
   allow_duplicate: false
-  triggers: ['nlkiz,']
+  trigger: nlkiz,
 - replace: 'not like that '
-  _tags: [comparison, negate, demonstrative, to, else, software_dev]
+  _tags:
+  - comparison
+  - negate
+  - demonstrative
+  - to
+  - else
+  - software_dev
   propagate_case: true
   allow_duplicate: false
-  triggers: ['nlkaz,']
+  trigger: nlkaz,
 - replace: 'not like these '
-  _tags: [comparison, negate, demonstrative, to, else, software_dev]
+  _tags:
+  - comparison
+  - negate
+  - demonstrative
+  - to
+  - else
+  - software_dev
   propagate_case: true
   allow_duplicate: false
-  triggers: ['nlkez,']
+  trigger: nlkez,
 - replace: 'not like those '
-  _tags: [comparison, negate, demonstrative, to, else, software_dev]
+  _tags:
+  - comparison
+  - negate
+  - demonstrative
+  - to
+  - else
+  - software_dev
   propagate_case: true
   allow_duplicate: false
-  triggers: ['nlkoz,']
+  trigger: nlkoz,
 - replace: 'not be like this '
-  _tags: [comparison, be, negate, demonstrative, to, else, software_dev]
+  _tags:
+  - comparison
+  - be
+  - negate
+  - demonstrative
+  - to
+  - else
+  - software_dev
   propagate_case: true
   allow_duplicate: false
-  triggers: ['nblkiz,']
+  trigger: nblkiz,
 - replace: 'not be like that '
-  _tags: [comparison, be, negate, demonstrative, to, else, software_dev]
+  _tags:
+  - comparison
+  - be
+  - negate
+  - demonstrative
+  - to
+  - else
+  - software_dev
   propagate_case: true
   allow_duplicate: false
-  triggers: ['nblkaz,']
+  trigger: nblkaz,
 - replace: 'not be like these '
-  _tags: [comparison, be, negate, demonstrative, to, else, software_dev]
+  _tags:
+  - comparison
+  - be
+  - negate
+  - demonstrative
+  - to
+  - else
+  - software_dev
   propagate_case: true
   allow_duplicate: false
-  triggers: ['nblkez,']
+  trigger: nblkez,
 - replace: 'not be like those '
-  _tags: [comparison, be, negate, demonstrative, to, else, software_dev]
+  _tags:
+  - comparison
+  - be
+  - negate
+  - demonstrative
+  - to
+  - else
+  - software_dev
   propagate_case: true
   allow_duplicate: false
-  triggers: ['nblkoz,']
+  trigger: nblkoz,
 - replace: 'don''t be like this '
-  _tags: [comparison, be, negate, demonstrative, to, else, software_dev]
+  _tags:
+  - comparison
+  - be
+  - negate
+  - demonstrative
+  - to
+  - else
+  - software_dev
   propagate_case: true
   allow_duplicate: false
-  triggers: ['unblkiz,']
+  trigger: unblkiz,
 - replace: 'don''t be like that '
-  _tags: [comparison, be, negate, demonstrative, to, else, software_dev]
+  _tags:
+  - comparison
+  - be
+  - negate
+  - demonstrative
+  - to
+  - else
+  - software_dev
   propagate_case: true
   allow_duplicate: false
-  triggers: ['unblkaz,']
+  trigger: unblkaz,
 - replace: 'don''t be like these '
-  _tags: [comparison, be, negate, demonstrative, to, else, software_dev]
+  _tags:
+  - comparison
+  - be
+  - negate
+  - demonstrative
+  - to
+  - else
+  - software_dev
   propagate_case: true
   allow_duplicate: false
-  triggers: ['unblkez,']
+  trigger: unblkez,
 - replace: 'don''t be like those '
-  _tags: [comparison, be, negate, demonstrative, to, else, software_dev]
+  _tags:
+  - comparison
+  - be
+  - negate
+  - demonstrative
+  - to
+  - else
+  - software_dev
   propagate_case: true
   allow_duplicate: false
-  triggers: ['unblkoz,']
+  trigger: unblkoz,

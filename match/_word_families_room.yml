@@ -1,0 +1,70 @@
+name: _word_families_room
+matches:
+- replace: 'room '
+  _tags:
+  - noun
+  - verb
+  - else
+  - to
+  propagate_case: true
+  allow_duplicate: false
+  trigger: woo,
+- replace: 'rooms '
+  _tags:
+  - noun
+  - verb
+  - plural
+  - else
+  - to
+  propagate_case: true
+  allow_duplicate: false
+  trigger: woos,
+- replace: 'rooming '
+  _tags:
+  - verb
+  - ing
+  - else
+  - to
+  propagate_case: true
+  allow_duplicate: false
+  trigger: wooi,
+- replace: 'roomed '
+  _tags:
+  - verb
+  - past
+  - else
+  - to
+  propagate_case: true
+  allow_duplicate: false
+  trigger: woop,
+- replace: 'roomer '
+  _tags:
+  - noun
+  - else
+  - to
+  propagate_case: true
+  allow_duplicate: false
+  trigger: woow,
+- replace: 'roomers '
+  _tags:
+  - noun
+  - plural
+  - else
+  - to
+  propagate_case: true
+  allow_duplicate: false
+  trigger: woows,
+- replace: 'room for '
+  _tags:
+  - phrase
+  - else
+  propagate_case: true
+  allow_duplicate: false
+  trigger: woo4,
+- replace: 'make room '
+  _tags:
+  - phrase
+  - else
+  propagate_case: true
+  allow_duplicate: false
+  trigger: mkwoo,

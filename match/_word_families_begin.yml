@@ -1,0 +1,73 @@
+name: _word_families_begin
+matches:
+- replace: 'begin '
+  _tags:
+  - verb
+  - to
+  - can
+  - else
+  propagate_case: true
+  allow_duplicate: false
+  trigger: bgn,
+- replace: 'begins '
+  _tags:
+  - verb
+  - to
+  - can
+  - else
+  propagate_case: true
+  allow_duplicate: false
+  trigger: bgns,
+- replace: 'beginning '
+  _tags:
+  - verb
+  - ing
+  - to
+  - can
+  - else
+  propagate_case: true
+  allow_duplicate: false
+  trigger: bgni,
+- replace: 'began '
+  _tags:
+  - verb
+  - ed
+  - would
+  - to
+  - can
+  - else
+  propagate_case: true
+  allow_duplicate: false
+  trigger: bgnp,
+- replace: 'beginning '
+  _tags:
+  - noun
+  - to
+  - else
+  propagate_case: true
+  allow_duplicate: false
+  trigger: bgnm,
+- replace: 'beginnings '
+  _tags:
+  - noun
+  - to
+  - else
+  propagate_case: true
+  allow_duplicate: false
+  trigger: bgnms,
+- replace: 'begin to '
+  propagate_case: true
+  allow_duplicate: false
+  trigger: bgn2,
+- replace: 'begins to '
+  propagate_case: true
+  allow_duplicate: false
+  trigger: bgns2,
+- replace: 'beginning to '
+  propagate_case: true
+  allow_duplicate: false
+  trigger: bgni2,
+- replace: 'began to '
+  propagate_case: true
+  allow_duplicate: false
+  trigger: bgnp2,

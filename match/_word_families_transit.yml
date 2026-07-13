@@ -1,0 +1,167 @@
+name: _word_families_transit
+matches:
+- replace: 'transit '
+  _tags:
+  - to
+  - can
+  - else
+  propagate_case: true
+  allow_duplicate: false
+  trigger: transi,
+- replace: 'transits '
+  _tags:
+  - to
+  - else
+  propagate_case: true
+  allow_duplicate: false
+  trigger: transis,
+- replace: 'transiting '
+  _tags:
+  - ing
+  - to
+  - else
+  propagate_case: true
+  allow_duplicate: false
+  trigger: transii,
+- replace: 'transited '
+  _tags:
+  - ed
+  - to
+  - else
+  propagate_case: true
+  allow_duplicate: false
+  trigger: transip,
+- replace: 'transition '
+  _tags:
+  - noun
+  - to
+  - else
+  propagate_case: true
+  allow_duplicate: false
+  trigger: transim,
+- replace: 'transitions '
+  _tags:
+  - noun
+  - to
+  - else
+  propagate_case: true
+  allow_duplicate: false
+  trigger: transims,
+- replace: 'transitioning '
+  _tags:
+  - ing
+  - to
+  - else
+  propagate_case: true
+  allow_duplicate: false
+  trigger: transimi,
+- replace: 'transitioned '
+  _tags:
+  - ed
+  - to
+  - else
+  propagate_case: true
+  allow_duplicate: false
+  trigger: transimp,
+- replace: 'transitional '
+  _tags:
+  - adjective
+  - else
+  propagate_case: true
+  allow_duplicate: false
+  trigger: transiml,
+- replace: 'transitionally '
+  _tags:
+  - adverb
+  - else
+  propagate_case: true
+  allow_duplicate: false
+  trigger: transimll,
+- replace: 'transit this '
+  _tags:
+  - verb
+  - demonstrative
+  - to
+  - else
+  propagate_case: true
+  allow_duplicate: false
+  trigger: transiiz,
+- replace: 'transit that '
+  _tags:
+  - verb
+  - demonstrative
+  - to
+  - else
+  propagate_case: true
+  allow_duplicate: false
+  trigger: transiaz,
+- replace: 'transit these '
+  _tags:
+  - verb
+  - demonstrative
+  - to
+  - else
+  propagate_case: true
+  allow_duplicate: false
+  trigger: transiez,
+- replace: 'transit those '
+  _tags:
+  - verb
+  - demonstrative
+  - to
+  - else
+  propagate_case: true
+  allow_duplicate: false
+  trigger: transioz,
+- replace: 'transit the '
+  _tags:
+  - verb
+  - to
+  - else
+  propagate_case: true
+  allow_duplicate: false
+  trigger: transih,
+- replace: 'transit it '
+  _tags:
+  - verb
+  - to
+  - else
+  propagate_case: true
+  allow_duplicate: false
+  trigger: transix,
+- replace: 'this transition '
+  _tags:
+  - demonstrative
+  - noun
+  - to
+  - else
+  propagate_case: true
+  allow_duplicate: false
+  trigger: iztransim,
+- replace: 'that transition '
+  _tags:
+  - demonstrative
+  - noun
+  - to
+  - else
+  propagate_case: true
+  allow_duplicate: false
+  trigger: aztransim,
+- replace: 'these transitions '
+  _tags:
+  - demonstrative
+  - noun
+  - to
+  - else
+  propagate_case: true
+  allow_duplicate: false
+  trigger: eztransims,
+- replace: 'those transitions '
+  _tags:
+  - demonstrative
+  - noun
+  - to
+  - else
+  propagate_case: true
+  allow_duplicate: false
+  trigger: oztransims,

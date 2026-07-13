@@ -1,89 +1,140 @@
-# ⚠️  WARNING: AUTO-GENERATED FILE - DO NOT EDIT DIRECTLY!
-# This file is generated from word_version by:
-#   scripts/convert_to_tokenized_word_version.py
-# Edit source in space_version and re-run conversions.
-# Tokenizes trailing spaces in triggers to an explicit token.
-# Removes right_word property for tokenized version.
-# Adds trailing space to replacements that don't have one.
-# Current token: ','
-
-name: word-families-mon
-parent: default
+name: _word_families_mon
 matches:
 - replace: 'monitor '
-  _tags: [to, can, else, verb]
+  _tags:
+  - to
+  - can
+  - else
+  - verb
   propagate_case: true
   allow_duplicate: false
-  triggers: ['mon,']
+  trigger: mon,
 - replace: 'monitors '
-  _tags: [to, can, else, verb]
+  _tags:
+  - to
+  - can
+  - else
+  - verb
   propagate_case: true
   allow_duplicate: false
-  triggers: ['mons,']
+  trigger: mons,
 - replace: 'monitoring '
-  _tags: [ing, to, can, else, verb, pronoun]
+  _tags:
+  - ing
+  - to
+  - can
+  - else
+  - verb
+  - pronoun
   allow_duplicate: true
   duplicate_group: monI-monitoring
   propagate_case: true
-  triggers: ['moni,']
+  trigger: moni,
 - replace: 'monitored '
-  _tags: [ed, would, to, can, else, verb]
+  _tags:
+  - ed
+  - would
+  - to
+  - can
+  - else
+  - verb
   allow_duplicate: true
   duplicate_group: mon-monitoring
   propagate_case: true
-  triggers: ['monp,']
+  trigger: monp,
 - replace: 'monitor '
-  _tags: [noun, to, can, else]
+  _tags:
+  - noun
+  - to
+  - can
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['monw,']
+  trigger: monw,
 - replace: 'monitors '
-  _tags: [noun, to, can, else]
+  _tags:
+  - noun
+  - to
+  - can
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['monws,']
+  trigger: monws,
 - replace: 'monitorable '
-  _tags: [adjective, to, can, else]
+  _tags:
+  - adjective
+  - to
+  - can
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['monb,']
+  trigger: monb,
 - replace: 'monitor to the '
-  _tags: [to, can, else]
+  _tags:
+  - to
+  - can
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['mon2h,']
+  trigger: mon2h,
 - replace: 'monitor this '
-  _tags: [demonstrative, to, can, else]
+  _tags:
+  - demonstrative
+  - to
+  - can
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['moniz,']
+  trigger: moniz,
 - replace: 'monitor that '
-  _tags: [demonstrative, to, can, else]
+  _tags:
+  - demonstrative
+  - to
+  - can
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['monaz,']
+  trigger: monaz,
 - replace: 'monitor these '
-  _tags: [demonstrative, to, can, else]
+  _tags:
+  - demonstrative
+  - to
+  - can
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['monez,']
+  trigger: monez,
 - replace: 'monitor those '
-  _tags: [demonstrative, to, can, else]
+  _tags:
+  - demonstrative
+  - to
+  - can
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['monoz,']
+  trigger: monoz,
 - replace: 'monitor investigation '
-  _tags: [to, can, else]
+  _tags:
+  - to
+  - can
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['moninje,']
+  trigger: moninje,
 - replace: 'monitor investigate '
-  _tags: [to, can, else]
+  _tags:
+  - to
+  - can
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['moninjea,']
+  trigger: moninjea,
 - replace: 'monitor these investigations '
-  _tags: [demonstrative, to, can, else]
+  _tags:
+  - demonstrative
+  - to
+  - can
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['moninjez,']
+  trigger: moninjez,

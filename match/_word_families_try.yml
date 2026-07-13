@@ -1,0 +1,57 @@
+name: _word_families_try
+matches:
+- replace: 'try '
+  _tags:
+  - verb
+  - to
+  - can
+  - else
+  propagate_case: true
+  allow_duplicate: false
+  trigger: twa,
+- replace: 'tries '
+  _tags:
+  - verb
+  - to
+  - can
+  - else
+  propagate_case: true
+  allow_duplicate: false
+  trigger: twas,
+- replace: 'trying '
+  _tags:
+  - verb
+  - ing
+  - to
+  - can
+  - else
+  propagate_case: true
+  allow_duplicate: false
+  trigger: twai,
+- replace: 'tried '
+  _tags:
+  - verb
+  - ed
+  - would
+  - to
+  - can
+  - else
+  propagate_case: true
+  allow_duplicate: false
+  trigger: twap,
+- replace: 'try to '
+  propagate_case: true
+  allow_duplicate: false
+  trigger: twa2,
+- replace: 'tries to '
+  propagate_case: true
+  allow_duplicate: false
+  trigger: twas2,
+- replace: 'trying to '
+  propagate_case: true
+  allow_duplicate: false
+  trigger: twai2,
+- replace: 'tried to '
+  propagate_case: true
+  allow_duplicate: false
+  trigger: twap2,

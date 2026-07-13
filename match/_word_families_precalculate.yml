@@ -1,0 +1,26 @@
+name: _word_families_precalculate
+matches:
+- replace: 'precalculate '
+  propagate_case: true
+  allow_duplicate: false
+  trigger: pwqal,
+- replace: 'precalculates '
+  propagate_case: true
+  allow_duplicate: false
+  trigger: pwqals,
+- replace: 'precalculating '
+  propagate_case: true
+  allow_duplicate: false
+  trigger: pwqali,
+- replace: 'precalculated '
+  propagate_case: true
+  allow_duplicate: false
+  trigger: pwqalp,
+- replace: 'precalculateion '
+  propagate_case: true
+  allow_duplicate: false
+  trigger: pwqalm,
+- replace: 'precalculatable '
+  propagate_case: true
+  allow_duplicate: false
+  trigger: pwqalb,

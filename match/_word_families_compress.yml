@@ -1,0 +1,54 @@
+name: _word_families_compress
+matches:
+- replace: 'compress '
+  _tags:
+  - to
+  - else
+  propagate_case: true
+  allow_duplicate: false
+  trigger: qmpwe,
+- replace: 'compresses '
+  _tags:
+  - to
+  - else
+  propagate_case: true
+  allow_duplicate: false
+  trigger: qmpwes,
+- replace: 'compressing '
+  _tags:
+  - to
+  - ing
+  - else
+  propagate_case: true
+  allow_duplicate: false
+  trigger: qmpwei,
+- replace: 'compressed '
+  _tags:
+  - to
+  - ed
+  - would
+  - else
+  propagate_case: true
+  allow_duplicate: false
+  trigger: qmpwep,
+- replace: 'compression '
+  _tags:
+  - noun
+  - else
+  propagate_case: true
+  allow_duplicate: false
+  trigger: qmpwem,
+- replace: 'compressor '
+  _tags:
+  - noun
+  - else
+  propagate_case: true
+  allow_duplicate: false
+  trigger: qmpwer,
+- replace: 'compressible '
+  _tags:
+  - adjective
+  - else
+  propagate_case: true
+  allow_duplicate: false
+  trigger: qmpweb,

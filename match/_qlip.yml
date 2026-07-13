@@ -1,0 +1,30 @@
+name: _qlip
+matches:
+- replace: 'clipboard '
+  _tags:
+  - clipboard
+  - qlip
+  propagate_case: true
+  allow_duplicate: false
+  trigger: qlip`
+- replace: 'copy to clipboard '
+  _tags:
+  - clipboard
+  - qlip
+  propagate_case: true
+  allow_duplicate: false
+  trigger: qp2qlip`
+- replace: 'to clipboard '
+  _tags:
+  - clipboard
+  - qlip
+  propagate_case: true
+  allow_duplicate: false
+  trigger: 2qlip`
+- replace: 'from clipboard '
+  _tags:
+  - clipboard
+  - qlip
+  propagate_case: true
+  allow_duplicate: false
+  trigger: 22qlip`

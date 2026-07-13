@@ -1,0 +1,34 @@
+matches:
+- replace: 'sprint '
+  propagate_case: true
+  allow_duplicate: false
+  trigger: spwi,
+- replace: 'sprints '
+  propagate_case: true
+  allow_duplicate: false
+  trigger: spwis,
+- replace: 'sprinting '
+  propagate_case: true
+  allow_duplicate: false
+  trigger: spwii,
+- replace: 'sprinted '
+  propagate_case: true
+  allow_duplicate: false
+  trigger: spwip,
+- replace: 'sprinter '
+  propagate_case: true
+  allow_duplicate: false
+  trigger: spwiw,
+- replace: 'sprinters '
+  propagate_case: true
+  allow_duplicate: false
+  trigger: spwiws,
+- replace: 'sprint plan '
+  propagate_case: true
+  allow_duplicate: false
+  trigger: spwipl,
+- replace: 'sprint plans '
+  propagate_case: true
+  allow_duplicate: false
+  trigger: spwipls,
+name: _word_families_sprint

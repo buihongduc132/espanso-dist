@@ -1,107 +1,156 @@
-# ⚠️  WARNING: AUTO-GENERATED FILE - DO NOT EDIT DIRECTLY!
-# This file is generated from word_version by:
-#   scripts/convert_to_tokenized_word_version.py
-# Edit source in space_version and re-run conversions.
-# Tokenizes trailing spaces in triggers to an explicit token.
-# Removes right_word property for tokenized version.
-# Adds trailing space to replacements that don't have one.
-# Current token: ','
-
-name: word-families-exist
-parent: default
+name: _word_families_exist
 matches:
 - replace: 'exist '
-  _tags: [to, else, be]
+  _tags:
+  - to
+  - else
+  - be
   propagate_case: true
   allow_duplicate: false
-  triggers: ['exi1,']
+  trigger: exi1,
 - replace: 'exists '
-  _tags: [to, else, be]
+  _tags:
+  - to
+  - else
+  - be
   propagate_case: true
   allow_duplicate: false
-  triggers: ['exi1s,']
+  trigger: exi1s,
 - replace: 'existing '
-  _tags: [ing, to, else, be]
+  _tags:
+  - ing
+  - to
+  - else
+  - be
   propagate_case: true
   allow_duplicate: false
-  triggers: ['exi1i,']
+  trigger: exi1i,
 - replace: 'existed '
-  _tags: [ed, to, else, be]
+  _tags:
+  - ed
+  - to
+  - else
+  - be
   propagate_case: true
   allow_duplicate: false
-  triggers: ['exi1p,']
+  trigger: exi1p,
 - replace: 'existence '
-  _tags: [noun, to, else]
+  _tags:
+  - noun
+  - to
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['exi1m,']
+  trigger: exi1m,
 - replace: 'existent '
-  _tags: [adjective, to, else]
+  _tags:
+  - adjective
+  - to
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['exi1f,']
+  trigger: exi1f,
 - replace: 'existently '
-  _tags: [adverb, to, else]
+  _tags:
+  - adverb
+  - to
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['exi1fl,']
+  trigger: exi1fl,
 - replace: 'existential '
-  _tags: [adjective, to, else]
+  _tags:
+  - adjective
+  - to
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['exi1el,']
+  trigger: exi1el,
 - replace: 'existentially '
-  _tags: [adverb, to, else]
+  _tags:
+  - adverb
+  - to
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['exi1ell,']
+  trigger: exi1ell,
 - replace: 'exist this '
-  _tags: [to, else, demonstrative]
+  _tags:
+  - to
+  - else
+  - demonstrative
   propagate_case: true
   allow_duplicate: false
-  triggers: ['exi1iz,']
+  trigger: exi1iz,
 - replace: 'exist that '
-  _tags: [to, else, demonstrative]
+  _tags:
+  - to
+  - else
+  - demonstrative
   propagate_case: true
   allow_duplicate: false
-  triggers: ['exi1az,']
+  trigger: exi1az,
 - replace: 'exist these '
-  _tags: [to, else, demonstrative]
+  _tags:
+  - to
+  - else
+  - demonstrative
   propagate_case: true
   allow_duplicate: false
-  triggers: ['exi1ez,']
+  trigger: exi1ez,
 - replace: 'exist those '
-  _tags: [to, else, demonstrative]
+  _tags:
+  - to
+  - else
+  - demonstrative
   propagate_case: true
   allow_duplicate: false
-  triggers: ['exi1oz,']
+  trigger: exi1oz,
 - replace: 'exist the '
-  _tags: [to, else, article]
+  _tags:
+  - to
+  - else
+  - article
   propagate_case: true
   allow_duplicate: false
-  triggers: ['exi1h,']
+  trigger: exi1h,
 - replace: 'what exist '
-  _tags: [to, else, question]
+  _tags:
+  - to
+  - else
+  - question
   propagate_case: true
   allow_duplicate: false
-  triggers: ['wtexi1,']
+  trigger: wtexi1,
 - replace: 'where exist '
-  _tags: [to, else, question]
+  _tags:
+  - to
+  - else
+  - question
   propagate_case: true
   allow_duplicate: false
-  triggers: ['wrexi1,']
+  trigger: wrexi1,
 - replace: 'when exist '
-  _tags: [to, else, question]
+  _tags:
+  - to
+  - else
+  - question
   propagate_case: true
   allow_duplicate: false
-  triggers: ['wnexi1,']
+  trigger: wnexi1,
 - replace: 'why exist '
-  _tags: [to, else, question]
+  _tags:
+  - to
+  - else
+  - question
   propagate_case: true
   allow_duplicate: false
-  triggers: ['wyexi1,']
+  trigger: wyexi1,
 - replace: 'how exist '
-  _tags: [to, else, question]
+  _tags:
+  - to
+  - else
+  - question
   propagate_case: true
   allow_duplicate: false
-  triggers: ['hwexi1,']
+  trigger: hwexi1,

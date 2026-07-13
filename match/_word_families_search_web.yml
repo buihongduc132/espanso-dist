@@ -1,137 +1,225 @@
-# ⚠️  WARNING: AUTO-GENERATED FILE - DO NOT EDIT DIRECTLY!
-# This file is generated from word_version by:
-#   scripts/convert_to_tokenized_word_version.py
-# Edit source in space_version and re-run conversions.
-# Tokenizes trailing spaces in triggers to an explicit token.
-# Removes right_word property for tokenized version.
-# Adds trailing space to replacements that don't have one.
-# Current token: ','
-
-name: word-families-search-web
-parent: default
+name: _word_families_search_web
 matches:
 - replace: 'search web '
-  _tags: [action, verb, web, else]
+  _tags:
+  - action
+  - verb
+  - web
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['seae,']
+  trigger: seae,
 - replace: 'search webs '
-  _tags: [action, verb, web, to]
+  _tags:
+  - action
+  - verb
+  - web
+  - to
   propagate_case: true
   allow_duplicate: false
-  triggers: ['seaes,']
+  trigger: seaes,
 - replace: 'searching web '
-  _tags: [action, verb, web, ing, can]
+  _tags:
+  - action
+  - verb
+  - web
+  - ing
+  - can
   propagate_case: true
   allow_duplicate: false
-  triggers: ['seaei,']
+  trigger: seaei,
 - replace: 'searched web '
-  _tags: [action, verb, web, ed, would]
+  _tags:
+  - action
+  - verb
+  - web
+  - ed
+  - would
   propagate_case: true
   allow_duplicate: false
-  triggers: ['seaep,']
+  trigger: seaep,
 - replace: 'search webbing '
-  _tags: [action, noun, web, else]
+  _tags:
+  - action
+  - noun
+  - web
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['seaem,']
+  trigger: seaem,
 - replace: 'search webness '
-  _tags: [action, noun, web, else]
+  _tags:
+  - action
+  - noun
+  - web
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['seaen,']
+  trigger: seaen,
 - replace: 'search webber '
-  _tags: [action, noun, web, else]
+  _tags:
+  - action
+  - noun
+  - web
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['seaew,']
+  trigger: seaew,
 - replace: 'search webbers '
-  _tags: [action, noun, web, to]
+  _tags:
+  - action
+  - noun
+  - web
+  - to
   propagate_case: true
   allow_duplicate: false
-  triggers: ['seaews,']
+  trigger: seaews,
 - replace: 'searchable web '
-  _tags: [adjective, web, else]
+  _tags:
+  - adjective
+  - web
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['seaeb,']
+  trigger: seaeb,
 - replace: 'searchably web '
-  _tags: [adverb, web, else]
+  _tags:
+  - adverb
+  - web
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['seaebl,']
+  trigger: seaebl,
 - replace: 'searchweb '
-  _tags: [adjective, web, else]
+  _tags:
+  - adjective
+  - web
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['seaej,']
+  trigger: seaej,
 - replace: 'searchwebly '
-  _tags: [adverb, web, else]
+  _tags:
+  - adverb
+  - web
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['seaejl,']
+  trigger: seaejl,
 - replace: 'this search web '
-  _tags: [demonstrative, this, web, else]
+  _tags:
+  - demonstrative
+  - this
+  - web
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['izseae,']
+  trigger: izseae,
 - replace: 'that search web '
-  _tags: [demonstrative, that, web, else]
+  _tags:
+  - demonstrative
+  - that
+  - web
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['azseae,']
+  trigger: azseae,
 - replace: 'these search webs '
-  _tags: [demonstrative, these, web, to]
+  _tags:
+  - demonstrative
+  - these
+  - web
+  - to
   propagate_case: true
   allow_duplicate: false
-  triggers: ['ezseaes,']
+  trigger: ezseaes,
 - replace: 'those search webs '
-  _tags: [demonstrative, those, web, to]
+  _tags:
+  - demonstrative
+  - those
+  - web
+  - to
   propagate_case: true
   allow_duplicate: false
-  triggers: ['ozseaes,']
+  trigger: ozseaes,
 - replace: 'what search web '
-  _tags: [question, what, web, else]
+  _tags:
+  - question
+  - what
+  - web
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['wtlseae,']
+  trigger: wtlseae,
 - replace: 'where search web '
-  _tags: [question, where, web, else]
+  _tags:
+  - question
+  - where
+  - web
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['whlseae,']
+  trigger: whlseae,
 - replace: 'when search web '
-  _tags: [question, when, web, else]
+  _tags:
+  - question
+  - when
+  - web
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['wnlseae,']
+  trigger: wnlseae,
 - replace: 'why search web '
-  _tags: [question, why, web, else]
+  _tags:
+  - question
+  - why
+  - web
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['wylseae,']
+  trigger: wylseae,
 - replace: 'how search web '
-  _tags: [question, how, web, else]
+  _tags:
+  - question
+  - how
+  - web
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['hwlseae,']
+  trigger: hwlseae,
 - replace: 'to the search web '
-  _tags: [directional, to, web, else]
+  _tags:
+  - directional
+  - to
+  - web
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['2hseae,']
+  trigger: 2hseae,
 - replace: 'from the search web '
-  _tags: [directional, from, web, else]
+  _tags:
+  - directional
+  - from
+  - web
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['22hseae,']
+  trigger: 22hseae,
 - replace: 'into search web '
-  _tags: [directional, into, web, else]
+  _tags:
+  - directional
+  - into
+  - web
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['2iseae,']
+  trigger: 2iseae,
 - replace: 'for the search web '
-  _tags: [directional, for, web, else]
+  _tags:
+  - directional
+  - for
+  - web
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['4toseae,']
+  trigger: 4toseae,

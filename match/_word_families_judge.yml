@@ -1,42 +1,48 @@
-# ⚠️  WARNING: AUTO-GENERATED FILE - DO NOT EDIT DIRECTLY!
-# This file is generated from word_version by:
-#   scripts/convert_to_tokenized_word_version.py
-# Edit source in space_version and re-run conversions.
-# Tokenizes trailing spaces in triggers to an explicit token.
-# Removes right_word property for tokenized version.
-# Adds trailing space to replacements that don't have one.
-# Current token: ','
-
-name: word-families-judge
-parent: default
+name: _word_families_judge
 matches:
 - replace: 'judge '
-  _tags: [verb, noun, else]
+  _tags:
+  - verb
+  - noun
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['jud,']
+  trigger: jud,
 - replace: 'judges '
-  _tags: [verb, noun, else]
+  _tags:
+  - verb
+  - noun
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['juds,']
+  trigger: juds,
 - replace: 'judging '
-  _tags: [ing, verb, else]
+  _tags:
+  - ing
+  - verb
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['judi,']
+  trigger: judi,
 - replace: 'judged '
-  _tags: [ed, verb, else]
+  _tags:
+  - ed
+  - verb
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['judp,']
+  trigger: judp,
 - replace: 'judgment '
-  _tags: [noun, else]
+  _tags:
+  - noun
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['judm,']
+  trigger: judm,
 - replace: 'judgments '
-  _tags: [noun, else]
+  _tags:
+  - noun
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['judms,']
+  trigger: judms,

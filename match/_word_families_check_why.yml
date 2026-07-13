@@ -1,137 +1,225 @@
-# ⚠️  WARNING: AUTO-GENERATED FILE - DO NOT EDIT DIRECTLY!
-# This file is generated from word_version by:
-#   scripts/convert_to_tokenized_word_version.py
-# Edit source in space_version and re-run conversions.
-# Tokenizes trailing spaces in triggers to an explicit token.
-# Removes right_word property for tokenized version.
-# Adds trailing space to replacements that don't have one.
-# Current token: ','
-
-name: word-families-check-why
-parent: default
+name: _word_families_check_why
 matches:
 - replace: 'check why '
-  _tags: [action, verb, question, else]
+  _tags:
+  - action
+  - verb
+  - question
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['hkwy,']
+  trigger: hkwy,
 - replace: 'check whys '
-  _tags: [action, verb, question, to]
+  _tags:
+  - action
+  - verb
+  - question
+  - to
   propagate_case: true
   allow_duplicate: false
-  triggers: ['hkwys,']
+  trigger: hkwys,
 - replace: 'checking why '
-  _tags: [action, verb, question, ing, can]
+  _tags:
+  - action
+  - verb
+  - question
+  - ing
+  - can
   propagate_case: true
   allow_duplicate: false
-  triggers: ['hkwyi,']
+  trigger: hkwyi,
 - replace: 'checked why '
-  _tags: [action, verb, question, ed, would]
+  _tags:
+  - action
+  - verb
+  - question
+  - ed
+  - would
   propagate_case: true
   allow_duplicate: false
-  triggers: ['hkwyp,']
+  trigger: hkwyp,
 - replace: 'checking why '
-  _tags: [action, noun, question, else]
+  _tags:
+  - action
+  - noun
+  - question
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['hkwym,']
+  trigger: hkwym,
 - replace: 'check whyness '
-  _tags: [action, noun, question, else]
+  _tags:
+  - action
+  - noun
+  - question
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['hkwyn,']
+  trigger: hkwyn,
 - replace: 'check whyer '
-  _tags: [action, noun, question, else]
+  _tags:
+  - action
+  - noun
+  - question
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['hkwyw,']
+  trigger: hkwyw,
 - replace: 'check whyers '
-  _tags: [action, noun, question, to]
+  _tags:
+  - action
+  - noun
+  - question
+  - to
   propagate_case: true
   allow_duplicate: false
-  triggers: ['hkwyws,']
+  trigger: hkwyws,
 - replace: 'check-whyable '
-  _tags: [adjective, question, else]
+  _tags:
+  - adjective
+  - question
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['hkwyb,']
+  trigger: hkwyb,
 - replace: 'check-whyably '
-  _tags: [adverb, question, else]
+  _tags:
+  - adverb
+  - question
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['hkwybl,']
+  trigger: hkwybl,
 - replace: 'checkwhy '
-  _tags: [adjective, question, else]
+  _tags:
+  - adjective
+  - question
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['hkwyj,']
+  trigger: hkwyj,
 - replace: 'checkwhyly '
-  _tags: [adverb, question, else]
+  _tags:
+  - adverb
+  - question
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['hkwyjl,']
+  trigger: hkwyjl,
 - replace: 'this check why '
-  _tags: [demonstrative, this, question, else]
+  _tags:
+  - demonstrative
+  - this
+  - question
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['izhkwy,']
+  trigger: izhkwy,
 - replace: 'that check why '
-  _tags: [demonstrative, that, question, else]
+  _tags:
+  - demonstrative
+  - that
+  - question
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['azhkwy,']
+  trigger: azhkwy,
 - replace: 'these check whys '
-  _tags: [demonstrative, these, question, to]
+  _tags:
+  - demonstrative
+  - these
+  - question
+  - to
   propagate_case: true
   allow_duplicate: false
-  triggers: ['ezhkwys,']
+  trigger: ezhkwys,
 - replace: 'those check whys '
-  _tags: [demonstrative, those, question, to]
+  _tags:
+  - demonstrative
+  - those
+  - question
+  - to
   propagate_case: true
   allow_duplicate: false
-  triggers: ['ozhkwys,']
+  trigger: ozhkwys,
 - replace: 'what check why '
-  _tags: [question, what, question, else]
+  _tags:
+  - question
+  - what
+  - question
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['wtlhkwy,']
+  trigger: wtlhkwy,
 - replace: 'where check why '
-  _tags: [question, where, question, else]
+  _tags:
+  - question
+  - where
+  - question
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['whlhkwy,']
+  trigger: whlhkwy,
 - replace: 'when check why '
-  _tags: [question, when, question, else]
+  _tags:
+  - question
+  - when
+  - question
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['wnlhkwy,']
+  trigger: wnlhkwy,
 - replace: 'why check why '
-  _tags: [question, why, question, else]
+  _tags:
+  - question
+  - why
+  - question
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['wylhkwy,']
+  trigger: wylhkwy,
 - replace: 'how check why '
-  _tags: [question, how, question, else]
+  _tags:
+  - question
+  - how
+  - question
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['hwlhkwy,']
+  trigger: hwlhkwy,
 - replace: 'to the check why '
-  _tags: [directional, to, question, else]
+  _tags:
+  - directional
+  - to
+  - question
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['2hhkwy,']
+  trigger: 2hhkwy,
 - replace: 'from the check why '
-  _tags: [directional, from, question, else]
+  _tags:
+  - directional
+  - from
+  - question
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['22hhkwy,']
+  trigger: 22hhkwy,
 - replace: 'into check why '
-  _tags: [directional, into, question, else]
+  _tags:
+  - directional
+  - into
+  - question
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['2ihkwy,']
+  trigger: 2ihkwy,
 - replace: 'for the check why '
-  _tags: [directional, for, question, else]
+  _tags:
+  - directional
+  - for
+  - question
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['4tohkwy,']
+  trigger: 4tohkwy,

@@ -1,467 +1,845 @@
-# ⚠️  WARNING: AUTO-GENERATED FILE - DO NOT EDIT DIRECTLY!
-# This file is generated from word_version by:
-#   scripts/convert_to_tokenized_word_version.py
-# Edit source in space_version and re-run conversions.
-# Tokenizes trailing spaces in triggers to an explicit token.
-# Removes right_word property for tokenized version.
-# Adds trailing space to replacements that don't have one.
-# Current token: ','
-
-name: operator-all-any-combinations
-parent: default
+name: _operator_all_any_combinations
 matches:
 - replace: 'remove all the '
-  _tags: [quantifier, to, else]
+  _tags:
+  - quantifier
+  - to
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['-al,']
+  trigger: -al,
 - replace: 'increase all the '
-  _tags: [quantifier, can, else]
+  _tags:
+  - quantifier
+  - can
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['>>al,']
+  trigger: '>>al,'
 - replace: 'reduce all the '
-  _tags: [quantifier, ed, else, would]
+  _tags:
+  - quantifier
+  - ed
+  - else
+  - would
   propagate_case: true
   allow_duplicate: false
-  triggers: ['<<al,']
+  trigger: <<al,
 - replace: 'more than all '
-  _tags: [quantifier, have, the, to, else]
+  _tags:
+  - quantifier
+  - have
+  - the
+  - to
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['>al,']
+  trigger: '>al,'
 - replace: 'less than all '
-  _tags: [quantifier, have, the, to, else]
+  _tags:
+  - quantifier
+  - have
+  - the
+  - to
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['<al,']
+  trigger: <al,
 - replace: 'remove all of '
-  _tags: [quantifier, to, else]
+  _tags:
+  - quantifier
+  - to
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['-alo,']
+  trigger: -alo,
 - replace: 'increase all of '
-  _tags: [quantifier, can, else]
+  _tags:
+  - quantifier
+  - can
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['>>alo,']
+  trigger: '>>alo,'
 - replace: 'reduce all of '
-  _tags: [quantifier, ed, else, would]
+  _tags:
+  - quantifier
+  - ed
+  - else
+  - would
   propagate_case: true
   allow_duplicate: false
-  triggers: ['<<alo,']
+  trigger: <<alo,
 - replace: 'more than all of '
-  _tags: [quantifier, have, the, to, else]
+  _tags:
+  - quantifier
+  - have
+  - the
+  - to
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['>alo,']
+  trigger: '>alo,'
 - replace: 'less than all of '
-  _tags: [quantifier, have, the, to, else]
+  _tags:
+  - quantifier
+  - have
+  - the
+  - to
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['<alo,']
+  trigger: <alo,
 - replace: 'remove all of this '
-  _tags: [quantifier, demonstrative, to, else]
+  _tags:
+  - quantifier
+  - demonstrative
+  - to
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['-aloiz,']
+  trigger: -aloiz,
 - replace: 'increase all of this '
-  _tags: [quantifier, demonstrative, can, else]
+  _tags:
+  - quantifier
+  - demonstrative
+  - can
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['>>aloiz,']
+  trigger: '>>aloiz,'
 - replace: 'reduce all of this '
-  _tags: [quantifier, demonstrative, ed, else, would]
+  _tags:
+  - quantifier
+  - demonstrative
+  - ed
+  - else
+  - would
   propagate_case: true
   allow_duplicate: false
-  triggers: ['<<aloiz,']
+  trigger: <<aloiz,
 - replace: 'more than all of this '
-  _tags: [quantifier, demonstrative, have, the, to, else]
+  _tags:
+  - quantifier
+  - demonstrative
+  - have
+  - the
+  - to
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['>aloiz,']
+  trigger: '>aloiz,'
 - replace: 'less than all of this '
-  _tags: [quantifier, demonstrative, have, the, to, else]
+  _tags:
+  - quantifier
+  - demonstrative
+  - have
+  - the
+  - to
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['<aloiz,']
+  trigger: <aloiz,
 - replace: 'remove all of that '
-  _tags: [quantifier, demonstrative, to, else]
+  _tags:
+  - quantifier
+  - demonstrative
+  - to
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['-aloaz,']
+  trigger: -aloaz,
 - replace: 'increase all of that '
-  _tags: [quantifier, demonstrative, can, else]
+  _tags:
+  - quantifier
+  - demonstrative
+  - can
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['>>aloaz,']
+  trigger: '>>aloaz,'
 - replace: 'reduce all of that '
-  _tags: [quantifier, demonstrative, ed, else, would]
+  _tags:
+  - quantifier
+  - demonstrative
+  - ed
+  - else
+  - would
   propagate_case: true
   allow_duplicate: false
-  triggers: ['<<aloaz,']
+  trigger: <<aloaz,
 - replace: 'more than all of that '
-  _tags: [quantifier, demonstrative, have, the, to, else]
+  _tags:
+  - quantifier
+  - demonstrative
+  - have
+  - the
+  - to
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['>aloaz,']
+  trigger: '>aloaz,'
 - replace: 'less than all of that '
-  _tags: [quantifier, demonstrative, have, the, to, else]
+  _tags:
+  - quantifier
+  - demonstrative
+  - have
+  - the
+  - to
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['<aloaz,']
+  trigger: <aloaz,
 - replace: 'remove all of these '
-  _tags: [quantifier, demonstrative, to, else]
+  _tags:
+  - quantifier
+  - demonstrative
+  - to
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['-aloez,']
+  trigger: -aloez,
 - replace: 'increase all of these '
-  _tags: [quantifier, demonstrative, can, else]
+  _tags:
+  - quantifier
+  - demonstrative
+  - can
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['>>aloez,']
+  trigger: '>>aloez,'
 - replace: 'reduce all of these '
-  _tags: [quantifier, demonstrative, ed, else, would]
+  _tags:
+  - quantifier
+  - demonstrative
+  - ed
+  - else
+  - would
   propagate_case: true
   allow_duplicate: false
-  triggers: ['<<aloez,']
+  trigger: <<aloez,
 - replace: 'more than all of these '
-  _tags: [quantifier, demonstrative, have, the, to, else]
+  _tags:
+  - quantifier
+  - demonstrative
+  - have
+  - the
+  - to
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['>aloez,']
+  trigger: '>aloez,'
 - replace: 'less than all of these '
-  _tags: [quantifier, demonstrative, have, the, to, else]
+  _tags:
+  - quantifier
+  - demonstrative
+  - have
+  - the
+  - to
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['<aloez,']
+  trigger: <aloez,
 - replace: 'remove all of those '
-  _tags: [quantifier, demonstrative, to, else]
+  _tags:
+  - quantifier
+  - demonstrative
+  - to
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['-alooz,']
+  trigger: -alooz,
 - replace: 'increase all of those '
-  _tags: [quantifier, demonstrative, can, else]
+  _tags:
+  - quantifier
+  - demonstrative
+  - can
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['>>alooz,']
+  trigger: '>>alooz,'
 - replace: 'reduce all of those '
-  _tags: [quantifier, demonstrative, ed, else, would]
+  _tags:
+  - quantifier
+  - demonstrative
+  - ed
+  - else
+  - would
   propagate_case: true
   allow_duplicate: false
-  triggers: ['<<alooz,']
+  trigger: <<alooz,
 - replace: 'more than all of those '
-  _tags: [quantifier, demonstrative, have, the, to, else]
+  _tags:
+  - quantifier
+  - demonstrative
+  - have
+  - the
+  - to
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['>alooz,']
+  trigger: '>alooz,'
 - replace: 'less than all of those '
-  _tags: [quantifier, demonstrative, have, the, to, else]
+  _tags:
+  - quantifier
+  - demonstrative
+  - have
+  - the
+  - to
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['<alooz,']
+  trigger: <alooz,
 - replace: 'remove all of them '
-  _tags: [pronoun, will, to, else]
+  _tags:
+  - pronoun
+  - will
+  - to
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['-alom,']
+  trigger: -alom,
 - replace: 'increase all of them '
-  _tags: [pronoun, can, else]
+  _tags:
+  - pronoun
+  - can
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['>>alom,']
+  trigger: '>>alom,'
 - replace: 'reduce all of them '
-  _tags: [pronoun, ed, else, would]
+  _tags:
+  - pronoun
+  - ed
+  - else
+  - would
   propagate_case: true
   allow_duplicate: false
-  triggers: ['<<alom,']
+  trigger: <<alom,
 - replace: 'more than all of them '
-  _tags: [pronoun, have, the, to, else]
+  _tags:
+  - pronoun
+  - have
+  - the
+  - to
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['>alom,']
+  trigger: '>alom,'
 - replace: 'less than all of them '
-  _tags: [pronoun, have, the, to, else]
+  _tags:
+  - pronoun
+  - have
+  - the
+  - to
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['<alom,']
+  trigger: <alom,
 - replace: 'remove any of '
-  _tags: [quantifier, to, else]
+  _tags:
+  - quantifier
+  - to
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['-ayo,']
+  trigger: -ayo,
 - replace: 'increase any of '
-  _tags: [quantifier, can, else]
+  _tags:
+  - quantifier
+  - can
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['>>ayo,']
+  trigger: '>>ayo,'
 - replace: 'reduce any of '
-  _tags: [quantifier, ed, else, would]
+  _tags:
+  - quantifier
+  - ed
+  - else
+  - would
   propagate_case: true
   allow_duplicate: false
-  triggers: ['<<ayo,']
+  trigger: <<ayo,
 - replace: 'more than any of '
-  _tags: [quantifier, have, the, to, else]
+  _tags:
+  - quantifier
+  - have
+  - the
+  - to
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['>ayo,']
+  trigger: '>ayo,'
 - replace: 'less than any of '
-  _tags: [quantifier, have, the, to, else]
+  _tags:
+  - quantifier
+  - have
+  - the
+  - to
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['<ayo,']
+  trigger: <ayo,
 - replace: 'remove any of this '
-  _tags: [quantifier, demonstrative, to, else]
+  _tags:
+  - quantifier
+  - demonstrative
+  - to
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['-ayoiz,']
+  trigger: -ayoiz,
 - replace: 'increase any of this '
-  _tags: [quantifier, demonstrative, can, else]
+  _tags:
+  - quantifier
+  - demonstrative
+  - can
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['>>ayoiz,']
+  trigger: '>>ayoiz,'
 - replace: 'reduce any of this '
-  _tags: [quantifier, demonstrative, ed, else, would]
+  _tags:
+  - quantifier
+  - demonstrative
+  - ed
+  - else
+  - would
   propagate_case: true
   allow_duplicate: false
-  triggers: ['<<ayoiz,']
+  trigger: <<ayoiz,
 - replace: 'more than any of this '
-  _tags: [quantifier, demonstrative, have, the, to, else]
+  _tags:
+  - quantifier
+  - demonstrative
+  - have
+  - the
+  - to
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['>ayoiz,']
+  trigger: '>ayoiz,'
 - replace: 'less than any of this '
-  _tags: [quantifier, demonstrative, have, the, to, else]
+  _tags:
+  - quantifier
+  - demonstrative
+  - have
+  - the
+  - to
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['<ayoiz,']
+  trigger: <ayoiz,
 - replace: 'remove any of that '
-  _tags: [quantifier, demonstrative, to, else]
+  _tags:
+  - quantifier
+  - demonstrative
+  - to
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['-ayoaz,']
+  trigger: -ayoaz,
 - replace: 'increase any of that '
-  _tags: [quantifier, demonstrative, can, else]
+  _tags:
+  - quantifier
+  - demonstrative
+  - can
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['>>ayoaz,']
+  trigger: '>>ayoaz,'
 - replace: 'reduce any of that '
-  _tags: [quantifier, demonstrative, ed, else, would]
+  _tags:
+  - quantifier
+  - demonstrative
+  - ed
+  - else
+  - would
   propagate_case: true
   allow_duplicate: false
-  triggers: ['<<ayoaz,']
+  trigger: <<ayoaz,
 - replace: 'more than any of that '
-  _tags: [quantifier, demonstrative, have, the, to, else]
+  _tags:
+  - quantifier
+  - demonstrative
+  - have
+  - the
+  - to
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['>ayoaz,']
+  trigger: '>ayoaz,'
 - replace: 'less than any of that '
-  _tags: [quantifier, demonstrative, have, the, to, else]
+  _tags:
+  - quantifier
+  - demonstrative
+  - have
+  - the
+  - to
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['<ayoaz,']
+  trigger: <ayoaz,
 - replace: 'remove any of these '
-  _tags: [quantifier, demonstrative, to, else]
+  _tags:
+  - quantifier
+  - demonstrative
+  - to
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['-ayoez,']
+  trigger: -ayoez,
 - replace: 'increase any of these '
-  _tags: [quantifier, demonstrative, can, else]
+  _tags:
+  - quantifier
+  - demonstrative
+  - can
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['>>ayoez,']
+  trigger: '>>ayoez,'
 - replace: 'reduce any of these '
-  _tags: [quantifier, demonstrative, ed, else, would]
+  _tags:
+  - quantifier
+  - demonstrative
+  - ed
+  - else
+  - would
   propagate_case: true
   allow_duplicate: false
-  triggers: ['<<ayoez,']
+  trigger: <<ayoez,
 - replace: 'more than any of these '
-  _tags: [quantifier, demonstrative, have, the, to, else]
+  _tags:
+  - quantifier
+  - demonstrative
+  - have
+  - the
+  - to
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['>ayoez,']
+  trigger: '>ayoez,'
 - replace: 'less than any of these '
-  _tags: [quantifier, demonstrative, have, the, to, else]
+  _tags:
+  - quantifier
+  - demonstrative
+  - have
+  - the
+  - to
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['<ayoez,']
+  trigger: <ayoez,
 - replace: 'remove any of those '
-  _tags: [quantifier, demonstrative, to, else]
+  _tags:
+  - quantifier
+  - demonstrative
+  - to
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['-ayooz,']
+  trigger: -ayooz,
 - replace: 'increase any of those '
-  _tags: [quantifier, demonstrative, can, else]
+  _tags:
+  - quantifier
+  - demonstrative
+  - can
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['>>ayooz,']
+  trigger: '>>ayooz,'
 - replace: 'reduce any of those '
-  _tags: [quantifier, demonstrative, ed, else, would]
+  _tags:
+  - quantifier
+  - demonstrative
+  - ed
+  - else
+  - would
   propagate_case: true
   allow_duplicate: false
-  triggers: ['<<ayooz,']
+  trigger: <<ayooz,
 - replace: 'more than any of those '
-  _tags: [quantifier, demonstrative, have, the, to, else]
+  _tags:
+  - quantifier
+  - demonstrative
+  - have
+  - the
+  - to
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['>ayooz,']
+  trigger: '>ayooz,'
 - replace: 'less than any of those '
-  _tags: [quantifier, demonstrative, have, the, to, else]
+  _tags:
+  - quantifier
+  - demonstrative
+  - have
+  - the
+  - to
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['<ayooz,']
+  trigger: <ayooz,
 - replace: 'add all '
-  _tags: [quantifier, to, else]
+  _tags:
+  - quantifier
+  - to
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['+al,']
+  trigger: +al,
 - replace: 'add all of '
-  _tags: [quantifier, to, else]
+  _tags:
+  - quantifier
+  - to
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['+alo,']
+  trigger: +alo,
 - replace: 'add all of this '
-  _tags: [quantifier, demonstrative, to, else]
+  _tags:
+  - quantifier
+  - demonstrative
+  - to
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['+aloiz,']
+  trigger: +aloiz,
 - replace: 'add all of that '
-  _tags: [quantifier, demonstrative, to, else]
+  _tags:
+  - quantifier
+  - demonstrative
+  - to
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['+aloaz,']
+  trigger: +aloaz,
 - replace: 'add all of these '
-  _tags: [quantifier, demonstrative, to, else]
+  _tags:
+  - quantifier
+  - demonstrative
+  - to
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['+aloez,']
+  trigger: +aloez,
 - replace: 'add all of those '
-  _tags: [quantifier, demonstrative, to, else]
+  _tags:
+  - quantifier
+  - demonstrative
+  - to
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['+alooz,']
+  trigger: +alooz,
 - replace: 'add any of '
-  _tags: [quantifier, to, else]
+  _tags:
+  - quantifier
+  - to
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['+ayo,']
+  trigger: +ayo,
 - replace: 'add any of this '
-  _tags: [quantifier, demonstrative, to, else]
+  _tags:
+  - quantifier
+  - demonstrative
+  - to
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['+ayoiz,']
+  trigger: +ayoiz,
 - replace: 'add any of that '
-  _tags: [quantifier, demonstrative, to, else]
+  _tags:
+  - quantifier
+  - demonstrative
+  - to
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['+ayoaz,']
+  trigger: +ayoaz,
 - replace: 'add any of these '
-  _tags: [quantifier, demonstrative, to, else]
+  _tags:
+  - quantifier
+  - demonstrative
+  - to
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['+ayoez,']
+  trigger: +ayoez,
 - replace: 'add any of those '
-  _tags: [quantifier, demonstrative, to, else]
+  _tags:
+  - quantifier
+  - demonstrative
+  - to
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['+ayooz,']
+  trigger: +ayooz,
 - replace: 'add the one '
-  _tags: [quantifier, to, else]
+  _tags:
+  - quantifier
+  - to
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['+ho,']
+  trigger: +ho,
 - replace: 'remove the one '
-  _tags: [quantifier, to, else]
+  _tags:
+  - quantifier
+  - to
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['-ho,']
+  trigger: -ho,
 - replace: 'to add all the '
-  _tags: [quantifier, to, else]
+  _tags:
+  - quantifier
+  - to
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['2+al,']
+  trigger: 2+al,
 - replace: 'to add all of '
-  _tags: [quantifier, to, else]
+  _tags:
+  - quantifier
+  - to
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['2+alo,']
+  trigger: 2+alo,
 - replace: 'to add any of '
-  _tags: [quantifier, to, else]
+  _tags:
+  - quantifier
+  - to
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['2+ayo,']
+  trigger: 2+ayo,
 - replace: 'to remove all the '
-  _tags: [quantifier, to, else]
+  _tags:
+  - quantifier
+  - to
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['2-al,']
+  trigger: 2-al,
 - replace: 'to remove all of '
-  _tags: [quantifier, to, else]
+  _tags:
+  - quantifier
+  - to
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['2-alo,']
+  trigger: 2-alo,
 - replace: 'to remove any of '
-  _tags: [quantifier, to, else]
+  _tags:
+  - quantifier
+  - to
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['2-ayo,']
+  trigger: 2-ayo,
 - replace: 'double all the '
-  _tags: [quantifier, to, else]
+  _tags:
+  - quantifier
+  - to
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['82al,']
+  trigger: 82al,
 - replace: 'double all of '
-  _tags: [quantifier, to, else]
+  _tags:
+  - quantifier
+  - to
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['82alo,']
+  trigger: 82alo,
 - replace: 'double any of '
-  _tags: [quantifier, to, else]
+  _tags:
+  - quantifier
+  - to
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['82ayo,']
+  trigger: 82ayo,
 - replace: 'triple all the '
-  _tags: [quantifier, to, else]
+  _tags:
+  - quantifier
+  - to
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['83al,']
+  trigger: 83al,
 - replace: 'triple all of '
-  _tags: [quantifier, to, else]
+  _tags:
+  - quantifier
+  - to
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['83alo,']
+  trigger: 83alo,
 - replace: 'triple any of '
-  _tags: [quantifier, to, else]
+  _tags:
+  - quantifier
+  - to
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['83ayo,']
+  trigger: 83ayo,
 - replace: 'multiply all the '
-  _tags: [quantifier, to, else, pronoun]
+  _tags:
+  - quantifier
+  - to
+  - else
+  - pronoun
   propagate_case: true
   allow_duplicate: false
-  triggers: ['*>al,']
+  trigger: '*>al,'
 - replace: 'multiply all of '
-  _tags: [quantifier, to, else, pronoun]
+  _tags:
+  - quantifier
+  - to
+  - else
+  - pronoun
   propagate_case: true
   allow_duplicate: false
-  triggers: ['*>alo,']
+  trigger: '*>alo,'
 - replace: 'multiply any of '
-  _tags: [quantifier, to, else, pronoun]
+  _tags:
+  - quantifier
+  - to
+  - else
+  - pronoun
   propagate_case: true
   allow_duplicate: false
-  triggers: ['*>ayo,']
+  trigger: '*>ayo,'
 - replace: 'multiply all the '
-  _tags: [quantifier, to, else, pronoun]
+  _tags:
+  - quantifier
+  - to
+  - else
+  - pronoun
   propagate_case: true
   allow_duplicate: false
-  triggers: ['**al,']
+  trigger: '**al,'
 - replace: 'multiply all of '
-  _tags: [quantifier, to, else, pronoun]
+  _tags:
+  - quantifier
+  - to
+  - else
+  - pronoun
   propagate_case: true
   allow_duplicate: false
-  triggers: ['**alo,']
+  trigger: '**alo,'
 - replace: 'multiply any of '
-  _tags: [quantifier, to, else, pronoun]
+  _tags:
+  - quantifier
+  - to
+  - else
+  - pronoun
   propagate_case: true
   allow_duplicate: false
-  triggers: ['**ayo,']
+  trigger: '**ayo,'

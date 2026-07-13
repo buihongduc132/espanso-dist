@@ -1,50 +1,73 @@
-# ⚠️  WARNING: AUTO-GENERATED FILE - DO NOT EDIT DIRECTLY!
-# This file is generated from word_version by:
-#   scripts/convert_to_tokenized_word_version.py
-# Edit source in space_version and re-run conversions.
-# Tokenizes trailing spaces in triggers to an explicit token.
-# Removes right_word property for tokenized version.
-# Adds trailing space to replacements that don't have one.
-# Current token: ','
-
 matches:
 - replace: 'this change '
-  _tags: [demonstrative, to, can, else]
+  _tags:
+  - demonstrative
+  - to
+  - can
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['izhg,']
+  trigger: izhg,
 - replace: 'that change '
-  _tags: [demonstrative, to, can, else, have]
+  _tags:
+  - demonstrative
+  - to
+  - can
+  - else
+  - have
   propagate_case: true
   allow_duplicate: false
-  triggers: ['azhg,']
+  trigger: azhg,
 - replace: 'these change '
-  _tags: [demonstrative, to, can, else]
+  _tags:
+  - demonstrative
+  - to
+  - can
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['ezhg,']
+  trigger: ezhg,
 - replace: 'those change '
-  _tags: [demonstrative, to, can, else]
+  _tags:
+  - demonstrative
+  - to
+  - can
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['ozhg,']
+  trigger: ozhg,
 - replace: 'the change '
-  _tags: [the, to, can, else]
+  _tags:
+  - the
+  - to
+  - can
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['hhg,']
+  trigger: hhg,
 - replace: 'all change '
-  _tags: [to, can, else]
+  _tags:
+  - to
+  - can
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['ahg,']
+  trigger: ahg,
 - replace: 'some change '
-  _tags: [to, can, else]
+  _tags:
+  - to
+  - can
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['smhg,']
+  trigger: smhg,
 - replace: 'each change '
-  _tags: [the, to, can, else]
+  _tags:
+  - the
+  - to
+  - can
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['ehhg,']
+  trigger: ehhg,
+name: _exx_change_reverse

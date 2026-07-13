@@ -1,126 +1,202 @@
-# ⚠️  WARNING: AUTO-GENERATED FILE - DO NOT EDIT DIRECTLY!
-# This file is generated from word_version by:
-#   scripts/convert_to_tokenized_word_version.py
-# Edit source in space_version and re-run conversions.
-# Tokenizes trailing spaces in triggers to an explicit token.
-# Removes right_word property for tokenized version.
-# Adds trailing space to replacements that don't have one.
-# Current token: ','
-
-name: word-families-action
-parent: default
+name: _word_families_action
 matches:
 - replace: 'act '
-  _tags: [to, can, else, verb]
+  _tags:
+  - to
+  - can
+  - else
+  - verb
   allow_duplicate: true
   propagate_case: true
-  triggers: ['aq,']
+  trigger: aq,
 - replace: 'acts '
-  _tags: [to, can, else, verb]
+  _tags:
+  - to
+  - can
+  - else
+  - verb
   propagate_case: true
   allow_duplicate: false
-  triggers: ['aqs,']
+  trigger: aqs,
 - replace: 'acting '
-  _tags: [ing, to, can, else, verb]
+  _tags:
+  - ing
+  - to
+  - can
+  - else
+  - verb
   propagate_case: true
   allow_duplicate: false
-  triggers: ['aqi,']
+  trigger: aqi,
 - replace: 'acted '
-  _tags: [ed, would, to, can, else, verb]
+  _tags:
+  - ed
+  - would
+  - to
+  - can
+  - else
+  - verb
   propagate_case: true
   allow_duplicate: false
-  triggers: ['aqp,']
+  trigger: aqp,
 - replace: 'going to '
-  _tags: [to, can, else, verb]
+  _tags:
+  - to
+  - can
+  - else
+  - verb
   keep_case: true
   allow_duplicate: false
-  triggers: ['aQM,']
+  trigger: aQM,
 - replace: 'actions '
-  _tags: [noun, to, can, else]
+  _tags:
+  - noun
+  - to
+  - can
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['aqms,']
+  trigger: aqms,
 - replace: 'actioning '
-  _tags: [ing, noun, to, can, else]
+  _tags:
+  - ing
+  - noun
+  - to
+  - can
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['aqmi,']
-- replace: 'active '
-  _tags: [adjective, to, can, else]
-  keep_case: true
-  allow_duplicate: false
-  triggers: ['aQJ,']
+  trigger: aqmi,
 - replace: 'actively '
-  _tags: [adverb, to, can, else]
+  _tags:
+  - adverb
+  - to
+  - can
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['aqjl,']
+  trigger: aqjl,
 - replace: 'activeness '
-  _tags: [noun, to, can, else]
+  _tags:
+  - noun
+  - to
+  - can
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['aqjm,']
+  trigger: aqjm,
 - replace: 'actor '
-  _tags: [noun, to, can, else]
+  _tags:
+  - noun
+  - to
+  - can
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['aqw,']
+  trigger: aqw,
 - replace: 'actors '
-  _tags: [noun, to, can, else]
+  _tags:
+  - noun
+  - to
+  - can
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['aqws,']
+  trigger: aqws,
 - replace: 'activity '
-  _tags: [noun, to, can, else]
+  _tags:
+  - noun
+  - to
+  - can
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['aqjr,']
+  trigger: aqjr,
 - replace: 'activities '
-  _tags: [noun, to, can, else]
+  _tags:
+  - noun
+  - to
+  - can
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['aqjrs,']
+  trigger: aqjrs,
 - replace: 'activator '
-  _tags: [noun, to, can, else]
+  _tags:
+  - noun
+  - to
+  - can
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['aqjw,']
+  trigger: aqjw,
 - replace: 'activators '
-  _tags: [noun, to, can, else]
+  _tags:
+  - noun
+  - to
+  - can
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['aqjws,']
+  trigger: aqjws,
 - replace: 'react '
-  _tags: [to, can, else, verb]
+  _tags:
+  - to
+  - can
+  - else
+  - verb
   allow_duplicate: true
   propagate_case: true
-  triggers: ['waq,']
+  trigger: waq,
 - replace: 'reacts '
-  _tags: [to, can, else, verb]
+  _tags:
+  - to
+  - can
+  - else
+  - verb
   propagate_case: true
   allow_duplicate: false
-  triggers: ['waqs,']
+  trigger: waqs,
 - replace: 'reacting '
-  _tags: [ing, to, can, else, verb]
+  _tags:
+  - ing
+  - to
+  - can
+  - else
+  - verb
   propagate_case: true
   allow_duplicate: false
-  triggers: ['waqi,']
+  trigger: waqi,
 - replace: 'reacted '
-  _tags: [ed, would, to, can, else, verb]
+  _tags:
+  - ed
+  - would
+  - to
+  - can
+  - else
+  - verb
   propagate_case: true
   allow_duplicate: false
-  triggers: ['waqp,']
+  trigger: waqp,
 - replace: 'reaction '
-  _tags: [noun, to, can, else]
+  _tags:
+  - noun
+  - to
+  - can
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['waqm,']
+  trigger: waqm,
 - replace: 'reactions '
-  _tags: [noun, to, can, else]
+  _tags:
+  - noun
+  - to
+  - can
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['waqms,']
+  trigger: waqms,
 - replace: 'activator '
   propagate_case: true
   allow_duplicate: false
-  triggers: ['aqjo,']
+  trigger: aqjo,

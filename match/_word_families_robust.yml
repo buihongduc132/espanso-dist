@@ -1,92 +1,162 @@
-# ⚠️  WARNING: AUTO-GENERATED FILE - DO NOT EDIT DIRECTLY!
-# This file is generated from word_version by:
-#   scripts/convert_to_tokenized_word_version.py
-# Edit source in space_version and re-run conversions.
-# Tokenizes trailing spaces in triggers to an explicit token.
-# Removes right_word property for tokenized version.
-# Adds trailing space to replacements that don't have one.
-# Current token: ','
-
-name: word-family-robust
-parent: default
+name: _word_families_robust
 matches:
 - replace: 'robust '
-  _tags: [adjective, to, can, else, pronoun]
+  _tags:
+  - adjective
+  - to
+  - can
+  - else
+  - pronoun
   propagate_case: true
   allow_duplicate: false
-  triggers: ['wobu,']
+  trigger: wobu,
 - replace: 'robusts '
-  _tags: [adjective, to, can, else, pronoun]
+  _tags:
+  - adjective
+  - to
+  - can
+  - else
+  - pronoun
   propagate_case: true
   allow_duplicate: false
-  triggers: ['wobus,']
+  trigger: wobus,
 - replace: 'robusting '
-  _tags: [adjective, ing, to, can, pronoun, else]
+  _tags:
+  - adjective
+  - ing
+  - to
+  - can
+  - pronoun
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['wobui,']
+  trigger: wobui,
 - replace: 'robusted '
-  _tags: [adjective, ed, would, to, can, else, pronoun]
+  _tags:
+  - adjective
+  - ed
+  - would
+  - to
+  - can
+  - else
+  - pronoun
   propagate_case: true
   allow_duplicate: false
-  triggers: ['wobup,']
+  trigger: wobup,
 - replace: 'robust '
-  _tags: [adjective, to, can, else, pronoun]
+  _tags:
+  - adjective
+  - to
+  - can
+  - else
+  - pronoun
   propagate_case: true
   allow_duplicate: false
-  triggers: ['wobuj,']
+  trigger: wobuj,
 - replace: 'robustly '
-  _tags: [adverb, to, can, else, pronoun]
+  _tags:
+  - adverb
+  - to
+  - can
+  - else
+  - pronoun
   propagate_case: true
   allow_duplicate: false
-  triggers: ['wobujl,']
+  trigger: wobujl,
 - replace: 'robustable '
-  _tags: [adjective, to, can, else, pronoun]
+  _tags:
+  - adjective
+  - to
+  - can
+  - else
+  - pronoun
   propagate_case: true
   allow_duplicate: false
-  triggers: ['wobub,']
+  trigger: wobub,
 - replace: 'robustably '
-  _tags: [adverb, to, can, else, pronoun]
+  _tags:
+  - adverb
+  - to
+  - can
+  - else
+  - pronoun
   propagate_case: true
   allow_duplicate: false
-  triggers: ['wobubl,']
+  trigger: wobubl,
 - replace: 'robustability '
-  _tags: [noun, to, can, else, pronoun]
+  _tags:
+  - noun
+  - to
+  - can
+  - else
+  - pronoun
   propagate_case: true
   allow_duplicate: false
-  triggers: ['wobubm,']
+  trigger: wobubm,
 - replace: 'robustify '
-  _tags: [verb, to, can, else, pronoun]
+  _tags:
+  - verb
+  - to
+  - can
+  - else
+  - pronoun
   propagate_case: true
   allow_duplicate: false
-  triggers: ['wobum,']
+  trigger: wobum,
 - replace: 'robustness '
-  _tags: [noun, to, can, else, pronoun]
+  _tags:
+  - noun
+  - to
+  - can
+  - else
+  - pronoun
   propagate_case: true
   allow_duplicate: false
-  triggers: ['wobun,']
+  trigger: wobun,
 - replace: 'robuster '
-  _tags: [adjective, to, can, else, pronoun]
+  _tags:
+  - adjective
+  - to
+  - can
+  - else
+  - pronoun
   propagate_case: true
   allow_duplicate: false
-  triggers: ['wobut,']
+  trigger: wobut,
 - replace: 'robustest '
-  _tags: [adjective, to, can, else, pronoun]
+  _tags:
+  - adjective
+  - to
+  - can
+  - else
+  - pronoun
   propagate_case: true
   allow_duplicate: false
-  triggers: ['wobutn,']
+  trigger: wobutn,
 - replace: 'robuster '
-  _tags: [noun, to, can, else, pronoun]
+  _tags:
+  - noun
+  - to
+  - can
+  - else
+  - pronoun
   propagate_case: true
   allow_duplicate: false
-  triggers: ['wobuw,']
+  trigger: wobuw,
 - replace: 'robusters '
-  _tags: [noun, to, can, else, pronoun]
+  _tags:
+  - noun
+  - to
+  - can
+  - else
+  - pronoun
   propagate_case: true
   allow_duplicate: false
-  triggers: ['wobuws,']
+  trigger: wobuws,
 - replace: 'robust / sophisticate / reliable '
-  _tags: [adjective, phrase]
+  _tags:
+  - adjective
+  - phrase
   propagate_case: true
   allow_duplicate: false
-  triggers: [wosowe`]
+  trigger: wosowe`

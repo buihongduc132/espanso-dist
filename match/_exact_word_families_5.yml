@@ -1,0 +1,141 @@
+name: _exact_word_families_5
+matches:
+- replace: 'opens '
+  _tags:
+  - else
+  propagate_case: true
+  allow_duplicate: false
+  trigger: opens,
+- replace: 'opened '
+  _tags:
+  - ed
+  - would
+  - else
+  propagate_case: true
+  allow_duplicate: false
+  trigger: openp,
+- replace: 'opening '
+  _tags:
+  - ing
+  - pronoun
+  - else
+  propagate_case: true
+  allow_duplicate: false
+  trigger: openi,
+- replace: 'happens '
+  _tags:
+  - have
+  - the
+  - else
+  propagate_case: true
+  allow_duplicate: false
+  trigger: happens,
+- replace: 'happened '
+  _tags:
+  - ed
+  - the
+  - else
+  - would
+  - have
+  propagate_case: true
+  allow_duplicate: false
+  trigger: happenp,
+- replace: 'happening '
+  _tags:
+  - pronoun
+  - the
+  - ing
+  - else
+  - have
+  propagate_case: true
+  allow_duplicate: false
+  trigger: happeni,
+- replace: 'hanging '
+  _tags: &id001
+  - have
+  - the
+  - pronoun
+  - ing
+  propagate_case: true
+  allow_duplicate: false
+  trigger: haii,
+- replace: 'hanging '
+  _tags: *id001
+  propagate_case: true
+  allow_duplicate: false
+  trigger: hangi,
+- replace: 'hung '
+  _tags: &id002
+  - have
+  - would
+  - the
+  propagate_case: true
+  allow_duplicate: false
+  trigger: hagd,
+- replace: 'hung '
+  _tags: *id002
+  propagate_case: true
+  allow_duplicate: false
+  trigger: hangd,
+- replace: 'hanger '
+  _tags: &id003
+  - have
+  - the
+  - else
+  propagate_case: true
+  allow_duplicate: false
+  trigger: hagw,
+- replace: 'hanger '
+  _tags: *id003
+  propagate_case: true
+  allow_duplicate: false
+  trigger: hangw,
+- replace: 'misses '
+  _tags:
+  - pronoun
+  - else
+  - be
+  propagate_case: true
+  allow_duplicate: false
+  trigger: mise,
+- replace: 'missing '
+  _tags:
+  - pronoun
+  - ing
+  - be
+  propagate_case: true
+  allow_duplicate: false
+  trigger: misi,
+- replace: 'miss '
+  _tags:
+  - base
+  - pronoun
+  - be
+  - else
+  propagate_case: true
+  allow_duplicate: false
+  trigger: mis,
+- replace: 'missed '
+  _tags:
+  - pronoun
+  - be
+  - ed
+  - would
+  - else
+  propagate_case: true
+  allow_duplicate: false
+  trigger: misp,
+- replace: 'feeling '
+  _tags:
+  - ing
+  - pronoun
+  - else
+  propagate_case: true
+  allow_duplicate: false
+  trigger: feeli,
+- replace: 'feels '
+  _tags:
+  - else
+  propagate_case: true
+  allow_duplicate: false
+  trigger: feels,

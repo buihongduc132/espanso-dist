@@ -1,57 +1,82 @@
-# ⚠️  WARNING: AUTO-GENERATED FILE - DO NOT EDIT DIRECTLY!
-# This file is generated from word_version by:
-#   scripts/convert_to_tokenized_word_version.py
-# Edit source in space_version and re-run conversions.
-# Tokenizes trailing spaces in triggers to an explicit token.
-# Removes right_word property for tokenized version.
-# Adds trailing space to replacements that don't have one.
-# Current token: ','
-
-name: word-families-practice
-parent: default
+name: _word_families_practice
 matches:
 - replace: 'practice '
-  _tags: [to, can, else]
+  _tags:
+  - to
+  - can
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['pwaq,']
+  trigger: pwaq,
 - replace: 'practices '
-  _tags: [to, can, else]
+  _tags:
+  - to
+  - can
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['pwaqs,']
+  trigger: pwaqs,
 - replace: 'practicing '
-  _tags: [ing, to, can, else]
+  _tags:
+  - ing
+  - to
+  - can
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['pwaqi,']
+  trigger: pwaqi,
 - replace: 'practiced '
-  _tags: [ed, would, to, can, else]
+  _tags:
+  - ed
+  - would
+  - to
+  - can
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['pwaqp,']
+  trigger: pwaqp,
 - replace: 'practice this '
-  _tags: [demonstrative, to, can, else]
+  _tags:
+  - demonstrative
+  - to
+  - can
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['pwaqiz,']
+  trigger: pwaqiz,
 - replace: 'practice that '
-  _tags: [demonstrative, to, can, else]
+  _tags:
+  - demonstrative
+  - to
+  - can
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['pwaqaz,']
+  trigger: pwaqaz,
 - replace: 'practice these '
-  _tags: [demonstrative, to, can, else]
+  _tags:
+  - demonstrative
+  - to
+  - can
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['pwaqez,']
+  trigger: pwaqez,
 - replace: 'practice those '
-  _tags: [demonstrative, to, can, else]
+  _tags:
+  - demonstrative
+  - to
+  - can
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['pwaqoz,']
+  trigger: pwaqoz,
 - replace: 'practice the '
-  _tags: [article, to, can, else]
+  _tags:
+  - article
+  - to
+  - can
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['pwaqh,']
+  trigger: pwaqh,

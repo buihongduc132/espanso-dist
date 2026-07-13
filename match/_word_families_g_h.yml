@@ -1,666 +1,976 @@
-# ⚠️  WARNING: AUTO-GENERATED FILE - DO NOT EDIT DIRECTLY!
-# This file is generated from word_version by:
-#   scripts/convert_to_tokenized_word_version.py
-# Edit source in space_version and re-run conversions.
-# Tokenizes trailing spaces in triggers to an explicit token.
-# Removes right_word property for tokenized version.
-# Adds trailing space to replacements that don't have one.
-# Current token: ','
-
-name: word-families-g-h
-parent: default
+name: _word_families_g_h
 matches:
 - replace: 'find out '
   propagate_case: true
   allow_duplicate: false
-  triggers: ['fio,']
+  trigger: fio,
 - replace: 'find outs '
   propagate_case: true
   allow_duplicate: false
-  triggers: ['fios,']
+  trigger: fios,
 - replace: 'finding out '
   propagate_case: true
   allow_duplicate: false
-  triggers: ['fioi,']
+  trigger: fioi,
 - replace: 'found out '
   propagate_case: true
   allow_duplicate: false
-  triggers: ['fiop,']
+  trigger: fiop,
 - replace: 'finding out '
   propagate_case: true
   allow_duplicate: false
-  triggers: ['fiom,']
+  trigger: fiom,
 - replace: 'heavy '
   propagate_case: true
   allow_duplicate: false
-  triggers: ['hea,']
+  trigger: hea,
 - replace: 'heavies '
   propagate_case: true
   allow_duplicate: false
-  triggers: ['heas,']
+  trigger: heas,
 - replace: 'heavying '
   propagate_case: true
   allow_duplicate: false
-  triggers: ['heai,']
+  trigger: heai,
 - replace: 'heavied '
   propagate_case: true
   allow_duplicate: false
-  triggers: ['heap,']
+  trigger: heap,
 - replace: 'heavily '
   propagate_case: true
   allow_duplicate: false
-  triggers: ['heal,']
+  trigger: heal,
 - replace: 'heavily '
   propagate_case: true
   allow_duplicate: false
-  triggers: ['heabl,']
+  trigger: heabl,
 - replace: 'health '
-  _tags: [noun, the, to, else]
+  _tags:
+  - noun
+  - the
+  - to
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['hp,']
+  trigger: hp,
 - replace: 'healths '
-  _tags: [noun, else]
+  _tags:
+  - noun
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['hps,']
+  trigger: hps,
 - replace: 'healthy '
-  _tags: [adjective, else]
+  _tags:
+  - adjective
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['hpj,']
+  trigger: hpy,
+- replace: 'healthier '
+  _tags:
+  - adjective
+  - comparative
+  propagate_case: true
+  allow_duplicate: false
+  trigger: hpyw,
+- replace: 'healthiest '
+  _tags:
+  - adjective
+  - superlative
+  propagate_case: true
+  allow_duplicate: false
+  trigger: hpyt,
 - replace: 'healthily '
-  _tags: [adverb, else]
+  _tags:
+  - adverb
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['hpjl,']
+  trigger: hpl,
 - replace: 'healthiness '
-  _tags: [noun, else]
+  _tags:
+  - noun
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['hpn,']
+  trigger: hpn,
+- replace: 'unhealthy '
+  _tags:
+  - adjective
+  - negate
+  propagate_case: true
+  allow_duplicate: false
+  trigger: uhpy,
+- replace: 'unhealthier '
+  _tags:
+  - adjective
+  - comparative
+  - negate
+  propagate_case: true
+  allow_duplicate: false
+  trigger: uhpyw,
+- replace: 'unhealthiest '
+  _tags:
+  - adjective
+  - superlative
+  - negate
+  propagate_case: true
+  allow_duplicate: false
+  trigger: uhpyt,
+- replace: 'unhealthily '
+  _tags:
+  - adverb
+  - negate
+  propagate_case: true
+  allow_duplicate: false
+  trigger: uhpl,
+- replace: 'unhealthiness '
+  _tags:
+  - noun
+  - negate
+  propagate_case: true
+  allow_duplicate: false
+  trigger: uhpn,
+- replace: 'this health '
+  _tags:
+  - demonstrative
+  - th_foundation
+  propagate_case: true
+  allow_duplicate: false
+  trigger: izhp,
+- replace: 'that health '
+  _tags:
+  - demonstrative
+  - th_foundation
+  propagate_case: true
+  allow_duplicate: false
+  trigger: azhp,
+- replace: 'this healthy '
+  _tags:
+  - demonstrative
+  - th_foundation
+  propagate_case: true
+  allow_duplicate: false
+  trigger: izhpy,
+- replace: 'that healthy '
+  _tags:
+  - demonstrative
+  - th_foundation
+  propagate_case: true
+  allow_duplicate: false
+  trigger: azhpy,
+- replace: 'this unhealthy '
+  _tags:
+  - demonstrative
+  - th_foundation
+  propagate_case: true
+  allow_duplicate: false
+  trigger: izuhpy,
+- replace: 'that unhealthy '
+  _tags:
+  - demonstrative
+  - th_foundation
+  propagate_case: true
+  allow_duplicate: false
+  trigger: azuhpy,
+- replace: 'then healthy '
+  propagate_case: true
+  allow_duplicate: false
+  trigger: nzhpy,
+- replace: 'then unhealthy '
+  propagate_case: true
+  allow_duplicate: false
+  trigger: nzuhpy,
 - replace: 'find that '
   propagate_case: true
   allow_duplicate: false
-  triggers: ['faaz,']
+  trigger: faaz,
 - replace: 'find these '
   propagate_case: true
   allow_duplicate: false
-  triggers: ['feez,']
+  trigger: feez,
 - replace: 'find those '
   propagate_case: true
   allow_duplicate: false
-  triggers: ['fooz,']
+  trigger: fooz,
 - replace: 'find it '
   propagate_case: true
   allow_duplicate: false
-  triggers: ['fiix,']
+  trigger: fiix,
 - replace: 'start it '
   propagate_case: true
   allow_duplicate: false
-  triggers: ['ssax,']
+  trigger: ssax,
 - replace: 'stop it '
   propagate_case: true
   allow_duplicate: false
-  triggers: ['sspx,']
+  trigger: sspx,
 - replace: 'start this '
   propagate_case: true
   allow_duplicate: false
-  triggers: ['siiz,']
+  trigger: siiz,
 - replace: 'start that '
   propagate_case: true
   allow_duplicate: false
-  triggers: ['saaz,']
+  trigger: saaz,
 - replace: 'start these '
   propagate_case: true
   allow_duplicate: false
-  triggers: ['seez,']
+  trigger: seez,
 - replace: 'start those '
   propagate_case: true
   allow_duplicate: false
-  triggers: ['srtz,']
+  trigger: srtz,
 - replace: 'start it '
   propagate_case: true
   allow_duplicate: false
-  triggers: ['siix,']
+  trigger: siix,
 - replace: 'stop this '
   propagate_case: true
   allow_duplicate: false
-  triggers: ['spiz,']
+  trigger: spiz,
 - replace: 'stop that '
   propagate_case: true
   allow_duplicate: false
-  triggers: ['spaz,']
+  trigger: spaz,
 - replace: 'stop these '
   propagate_case: true
   allow_duplicate: false
-  triggers: ['spez,']
+  trigger: spez,
 - replace: 'stop those '
   propagate_case: true
   allow_duplicate: false
-  triggers: ['spoz,']
+  trigger: spoz,
 - replace: 'stop it '
   propagate_case: true
   allow_duplicate: false
-  triggers: ['spix,']
+  trigger: spix,
 - replace: 'guard '
   propagate_case: true
   allow_duplicate: false
-  triggers: ['gua,']
+  trigger: gua,
 - replace: 'guards '
   propagate_case: true
   allow_duplicate: false
-  triggers: ['guas,']
+  trigger: guas,
 - replace: 'guarding '
   propagate_case: true
   allow_duplicate: false
-  triggers: ['guai,']
+  trigger: guai,
 - replace: 'guarded '
   propagate_case: true
   allow_duplicate: false
-  triggers: ['guap,']
+  trigger: guap,
 - replace: 'hook '
   propagate_case: true
   allow_duplicate: false
-  triggers: ['hok,']
+  trigger: hok,
 - replace: 'hooks '
   propagate_case: true
   allow_duplicate: false
-  triggers: ['hoks,']
+  trigger: hoks,
 - replace: 'hooking '
   propagate_case: true
   allow_duplicate: false
-  triggers: ['hoki,']
+  trigger: hoki,
 - replace: 'hooked '
   propagate_case: true
   allow_duplicate: false
-  triggers: ['hokp,']
+  trigger: hokp,
 - replace: 'graph '
-  _tags: [noun, programming]
+  _tags:
+  - noun
+  - programming
   propagate_case: true
   allow_duplicate: false
-  triggers: ['gwap,']
+  trigger: gwap,
 - replace: 'graphs '
-  _tags: [noun, plural, programming]
+  _tags:
+  - noun
+  - plural
+  - programming
   propagate_case: true
   allow_duplicate: false
-  triggers: ['gwaps,']
+  trigger: gwaps,
 - replace: 'graphing '
-  _tags: [ing, programming]
+  _tags:
+  - ing
+  - programming
   propagate_case: true
   allow_duplicate: false
-  triggers: ['gwapi,']
+  trigger: gwapi,
 - replace: 'graphed '
-  _tags: [ed, programming]
+  _tags:
+  - ed
+  - programming
   propagate_case: true
   allow_duplicate: false
-  triggers: ['gwapp,']
+  trigger: gwapp,
 - replace: 'link '
   propagate_case: true
   allow_duplicate: false
-  triggers: ['lnk,']
+  trigger: lnk,
 - replace: 'links '
   propagate_case: true
   allow_duplicate: false
-  triggers: ['lnks,']
+  trigger: lnks,
 - replace: 'linking '
   propagate_case: true
   allow_duplicate: false
-  triggers: ['lnki,']
+  trigger: lnki,
 - replace: 'linked '
   propagate_case: true
   allow_duplicate: false
-  triggers: ['lnkp,']
+  trigger: lnkp,
 - replace: 'likely '
   propagate_case: true
   allow_duplicate: false
-  triggers: ['lnkl,']
+  trigger: lnkl,
 - replace: 'link '
-  _tags: [to, can, else, verb]
+  _tags:
+  - to
+  - can
+  - else
+  - verb
   propagate_case: true
   allow_duplicate: false
-  triggers: ['li,']
+  trigger: li,
 - replace: 'links '
-  _tags: [to, can, else, noun]
+  _tags:
+  - to
+  - can
+  - else
+  - noun
   propagate_case: true
   allow_duplicate: false
-  triggers: ['lis,']
+  trigger: lis,
 - replace: 'linking '
-  _tags: [ing, to, can, else, verb, pronoun]
+  _tags:
+  - ing
+  - to
+  - can
+  - else
+  - verb
+  - pronoun
   propagate_case: true
   allow_duplicate: false
-  triggers: ['lii,']
+  trigger: lii,
 - replace: 'linked '
-  _tags: [ed, would, to, can, else, verb]
+  _tags:
+  - ed
+  - would
+  - to
+  - can
+  - else
+  - verb
   propagate_case: true
   allow_duplicate: false
-  triggers: ['lip,']
+  trigger: lip,
 - replace: 'linkage '
-  _tags: [noun, to, can, else]
+  _tags:
+  - noun
+  - to
+  - can
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['lim,']
+  trigger: lim,
 - replace: 'linker '
-  _tags: [noun, to, can, else]
+  _tags:
+  - noun
+  - to
+  - can
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['liw,']
+  trigger: liw,
 - replace: 'linkers '
-  _tags: [noun, to, can, else]
+  _tags:
+  - noun
+  - to
+  - can
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['liws,']
+  trigger: liws,
 - replace: 'linkable '
-  _tags: [adjective, to, can, else]
+  _tags:
+  - adjective
+  - to
+  - can
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['lij,']
+  trigger: lij,
 - replace: 'linkably '
-  _tags: [adverb, to, can, else]
+  _tags:
+  - adverb
+  - to
+  - can
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['lijl,']
+  trigger: lijl,
 - replace: 'linkness '
-  _tags: [noun, to, can, else]
+  _tags:
+  - noun
+  - to
+  - can
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['lin,']
+  trigger: lin,
 - replace: 'symlink '
-  _tags: [to, can, else, verb]
+  _tags:
+  - to
+  - can
+  - else
+  - verb
   propagate_case: true
   allow_duplicate: false
-  triggers: ['syli,']
+  trigger: syli,
 - replace: 'symlinks '
-  _tags: [to, can, else, noun]
+  _tags:
+  - to
+  - can
+  - else
+  - noun
   propagate_case: true
   allow_duplicate: false
-  triggers: ['sylis,']
+  trigger: sylis,
 - replace: 'symlinking '
-  _tags: [ing, to, can, else, verb, pronoun]
+  _tags:
+  - ing
+  - to
+  - can
+  - else
+  - verb
+  - pronoun
   propagate_case: true
   allow_duplicate: false
-  triggers: ['sylii,']
+  trigger: sylii,
 - replace: 'symlinked '
-  _tags: [ed, would, to, can, else, verb]
+  _tags:
+  - ed
+  - would
+  - to
+  - can
+  - else
+  - verb
   propagate_case: true
   allow_duplicate: false
-  triggers: ['sylip,']
+  trigger: sylip,
 - replace: 'symlinker '
-  _tags: [noun, to, can, else]
+  _tags:
+  - noun
+  - to
+  - can
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['syliw,']
+  trigger: syliw,
 - replace: 'symlinkers '
-  _tags: [noun, to, can, else]
+  _tags:
+  - noun
+  - to
+  - can
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['syliws,']
+  trigger: syliws,
 - replace: 'symlinkable '
-  _tags: [adjective, to, can, else]
+  _tags:
+  - adjective
+  - to
+  - can
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['sylij,']
+  trigger: sylij,
 - replace: 'symlinkably '
-  _tags: [adverb, to, can, else]
+  _tags:
+  - adverb
+  - to
+  - can
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['sylijl,']
+  trigger: sylijl,
 - replace: 'link to '
   propagate_case: true
   allow_duplicate: false
-  triggers: ['lito,']
+  trigger: lito,
 - replace: 'link with '
   propagate_case: true
   allow_duplicate: false
-  triggers: ['liwi,']
+  trigger: liwi,
 - replace: 'link from '
   propagate_case: true
   allow_duplicate: false
-  triggers: ['lifr,']
+  trigger: lifr,
 - replace: 'hyperlink '
   propagate_case: true
   allow_duplicate: false
-  triggers: ['lihy,']
+  trigger: lihy,
 - replace: 'hyperlinks '
   propagate_case: true
   allow_duplicate: false
-  triggers: ['lihys,']
+  trigger: lihys,
 - replace: 'symlink '
   propagate_case: true
   allow_duplicate: false
-  triggers: ['lisy,']
+  trigger: lisy,
 - replace: 'symlinks '
   propagate_case: true
   allow_duplicate: false
-  triggers: ['lisys,']
+  trigger: lisys,
 - replace: 'hardlink '
   propagate_case: true
   allow_duplicate: false
-  triggers: ['liha,']
+  trigger: liha,
 - replace: 'hardlinks '
   propagate_case: true
   allow_duplicate: false
-  triggers: ['lihas,']
+  trigger: lihas,
 - replace: 'unlink '
   propagate_case: true
   allow_duplicate: false
-  triggers: ['liun,']
+  trigger: liun,
 - replace: 'unlinks '
   propagate_case: true
   allow_duplicate: false
-  triggers: ['liuns,']
+  trigger: liuns,
 - replace: 'unlinking '
   propagate_case: true
   allow_duplicate: false
-  triggers: ['liuni,']
+  trigger: liuni,
 - replace: 'unlinked '
   propagate_case: true
   allow_duplicate: false
-  triggers: ['liunp,']
+  trigger: liunp,
 - replace: 'URL '
   propagate_case: true
   allow_duplicate: false
-  triggers: ['liurl,']
+  trigger: liurl,
 - replace: 'URLs '
   propagate_case: true
   allow_duplicate: false
-  triggers: ['liurls,']
+  trigger: liurls,
 - replace: 'URI '
   propagate_case: true
   allow_duplicate: false
-  triggers: ['liuri,']
+  trigger: liuri,
 - replace: 'URIs '
   propagate_case: true
   allow_duplicate: false
-  triggers: ['liuris,']
+  trigger: liuris,
 - replace: 'href '
   propagate_case: true
   allow_duplicate: false
-  triggers: ['lihref,']
+  trigger: lihref,
 - replace: 'hrefs '
   propagate_case: true
   allow_duplicate: false
-  triggers: ['lihrefs,']
+  trigger: lihrefs,
 - replace: 'web link '
   propagate_case: true
   allow_duplicate: false
-  triggers: ['liweb,']
+  trigger: liweb,
 - replace: 'web links '
   propagate_case: true
   allow_duplicate: false
-  triggers: ['liwebs,']
+  trigger: liwebs,
 - replace: 'external link '
   propagate_case: true
   allow_duplicate: false
-  triggers: ['liext,']
+  trigger: liext,
 - replace: 'external links '
   propagate_case: true
   allow_duplicate: false
-  triggers: ['liexts,']
+  trigger: liexts,
 - replace: 'internal link '
   propagate_case: true
   allow_duplicate: false
-  triggers: ['liint,']
+  trigger: liint,
 - replace: 'internal links '
   propagate_case: true
   allow_duplicate: false
-  triggers: ['liints,']
+  trigger: liints,
 - replace: 'incoming link '
   propagate_case: true
   allow_duplicate: false
-  triggers: ['liinc,']
+  trigger: liinc,
 - replace: 'incoming links '
   propagate_case: true
   allow_duplicate: false
-  triggers: ['liincs,']
+  trigger: liincs,
 - replace: 'outgoing link '
   propagate_case: true
   allow_duplicate: false
-  triggers: ['liout,']
+  trigger: liout,
 - replace: 'outgoing links '
   propagate_case: true
   allow_duplicate: false
-  triggers: ['liouts,']
+  trigger: liouts,
 - replace: 'inverted link '
   propagate_case: true
   allow_duplicate: false
-  triggers: ['liinv,']
+  trigger: liinv,
 - replace: 'inverted links '
   propagate_case: true
   allow_duplicate: false
-  triggers: ['liinvs,']
+  trigger: liinvs,
 - replace: 'inverting link '
   propagate_case: true
   allow_duplicate: false
-  triggers: ['liinvi,']
+  trigger: liinvi,
 - replace: 'inverted link '
   propagate_case: true
   allow_duplicate: false
-  triggers: ['liinvp,']
+  trigger: liinvp,
 - replace: 'inversion link '
   propagate_case: true
   allow_duplicate: false
-  triggers: ['liinvm,']
+  trigger: liinvm,
 - replace: 'inverter link '
   propagate_case: true
   allow_duplicate: false
-  triggers: ['liinvw,']
+  trigger: liinvw,
 - replace: 'invertible link '
   propagate_case: true
   allow_duplicate: false
-  triggers: ['liinvj,']
+  trigger: liinvj,
 - replace: 'invertibly link '
   propagate_case: true
   allow_duplicate: false
-  triggers: ['liinvjl,']
+  trigger: liinvjl,
 - replace: 'inversion linkness '
   propagate_case: true
   allow_duplicate: false
-  triggers: ['liinvn,']
+  trigger: liinvn,
 - replace: 'line '
   propagate_case: true
   allow_duplicate: false
-  triggers: ['lm,']
+  trigger: lm,
 - replace: 'lines '
   propagate_case: true
   allow_duplicate: false
-  triggers: ['lms,']
+  trigger: lms,
 - replace: 'lining '
   propagate_case: true
   allow_duplicate: false
-  triggers: ['lmi,']
+  trigger: lmi,
 - replace: 'lined '
   propagate_case: true
   allow_duplicate: false
-  triggers: ['lmp,']
+  trigger: lmp,
 - replace: 'liner '
   propagate_case: true
   allow_duplicate: false
-  triggers: ['lmw,']
+  trigger: lmw,
 - replace: 'liners '
   propagate_case: true
   allow_duplicate: false
-  triggers: ['lmws,']
+  trigger: lmws,
 - replace: 'lineal '
   propagate_case: true
   allow_duplicate: false
-  triggers: ['lmj,']
+  trigger: lmj,
 - replace: 'lineally '
   propagate_case: true
   allow_duplicate: false
-  triggers: ['lmjl,']
+  trigger: lmjl,
 - replace: 'line this '
   propagate_case: true
   allow_duplicate: false
-  triggers: ['lmiz,']
+  trigger: lmiz,
 - replace: 'line that '
   propagate_case: true
   allow_duplicate: false
-  triggers: ['lmaz,']
+  trigger: lmaz,
 - replace: 'line these '
   propagate_case: true
   allow_duplicate: false
-  triggers: ['lmez,']
+  trigger: lmez,
 - replace: 'line those '
   propagate_case: true
   allow_duplicate: false
-  triggers: ['lmoz,']
+  trigger: lmoz,
 - replace: 'line it '
   propagate_case: true
   allow_duplicate: false
-  triggers: ['lmit,']
+  trigger: lmit,
 - replace: 'this line '
-  _tags: [demonstrative, th_foundation, to, can, else, pronoun]
+  _tags:
+  - demonstrative
+  - th_foundation
+  - to
+  - can
+  - else
+  - pronoun
   propagate_case: true
   allow_duplicate: false
-  triggers: ['izlm,']
+  trigger: izlm,
 - replace: 'that line '
-  _tags: [demonstrative, th_foundation, to, can, else, pronoun]
+  _tags:
+  - demonstrative
+  - th_foundation
+  - to
+  - can
+  - else
+  - pronoun
   propagate_case: true
   allow_duplicate: false
-  triggers: ['azlm,']
+  trigger: azlm,
 - replace: 'these lines '
-  _tags: [demonstrative, th_foundation, plural, to, can, else, pronoun]
+  _tags:
+  - demonstrative
+  - th_foundation
+  - plural
+  - to
+  - can
+  - else
+  - pronoun
   propagate_case: true
   allow_duplicate: false
-  triggers: ['ezlms,']
+  trigger: ezlms,
 - replace: 'those lines '
-  _tags: [demonstrative, th_foundation, plural, to, can, else, pronoun]
+  _tags:
+  - demonstrative
+  - th_foundation
+  - plural
+  - to
+  - can
+  - else
+  - pronoun
   propagate_case: true
   allow_duplicate: false
-  triggers: ['ozlms,']
+  trigger: ozlms,
 - replace: 'what line '
-  _tags: [question, to, can, else, pronoun]
+  _tags:
+  - question
+  - to
+  - can
+  - else
+  - pronoun
   propagate_case: true
   allow_duplicate: false
-  triggers: ['wtlm,']
+  trigger: wtlm,
 - replace: 'where line '
-  _tags: [question, to, can, else, pronoun]
+  _tags:
+  - question
+  - to
+  - can
+  - else
+  - pronoun
   propagate_case: true
   allow_duplicate: false
-  triggers: ['wwlm,']
+  trigger: wwlm,
 - replace: 'when line '
-  _tags: [question, to, can, else, pronoun]
+  _tags:
+  - question
+  - to
+  - can
+  - else
+  - pronoun
   propagate_case: true
   allow_duplicate: false
-  triggers: ['wnlm,']
+  trigger: wnlm,
 - replace: 'why line '
-  _tags: [question, to, can, else, pronoun]
+  _tags:
+  - question
+  - to
+  - can
+  - else
+  - pronoun
   propagate_case: true
   allow_duplicate: false
-  triggers: ['wylm,']
+  trigger: wylm,
 - replace: 'how line '
-  _tags: [question, to, can, else, pronoun]
+  _tags:
+  - question
+  - to
+  - can
+  - else
+  - pronoun
   propagate_case: true
   allow_duplicate: false
-  triggers: ['hwlm,']
+  trigger: hwlm,
 - replace: 'line to the '
-  _tags: [directional, to, can, else]
+  _tags:
+  - directional
+  - to
+  - can
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['lm2h,']
+  trigger: lm2h,
 - replace: 'lines to the '
-  _tags: [directional, to, can, else]
+  _tags:
+  - directional
+  - to
+  - can
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['lms2h,']
+  trigger: lms2h,
 - replace: 'from the line '
-  _tags: [directional, from, can, else]
+  _tags:
+  - directional
+  - from
+  - can
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['22hlm,']
+  trigger: 22hlm,
 - replace: 'from the lines '
-  _tags: [directional, from, can, else]
+  _tags:
+  - directional
+  - from
+  - can
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['22hlms,']
+  trigger: 22hlms,
 - replace: 'link this '
-  _tags: [demonstrative, th_foundation, to, can, else]
+  _tags:
+  - demonstrative
+  - th_foundation
+  - to
+  - can
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['izli,']
+  trigger: izli,
 - replace: 'link that '
-  _tags: [demonstrative, th_foundation, to, can, else]
+  _tags:
+  - demonstrative
+  - th_foundation
+  - to
+  - can
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['azli,']
+  trigger: azli,
 - replace: 'link these '
-  _tags: [demonstrative, th_foundation, to, can, else]
+  _tags:
+  - demonstrative
+  - th_foundation
+  - to
+  - can
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['ezli,']
+  trigger: ezli,
 - replace: 'link those '
-  _tags: [demonstrative, th_foundation, to, can, else]
+  _tags:
+  - demonstrative
+  - th_foundation
+  - to
+  - can
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['ozli,']
+  trigger: ozli,
 - replace: 'link it '
-  _tags: [pronoun, to, can, else]
+  _tags:
+  - pronoun
+  - to
+  - can
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['liit,']
+  trigger: liit,
 - replace: 'link have '
-  _tags: [to, can, else]
+  _tags:
+  - to
+  - can
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['lihv,']
+  trigger: lihv,
 - replace: 'link has '
-  _tags: [to, can, else]
+  _tags:
+  - to
+  - can
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['lihass,']
+  trigger: lihass,
 - replace: 'link to the '
-  _tags: [to, the, directional]
+  _tags:
+  - to
+  - the
+  - directional
   propagate_case: true
   allow_duplicate: false
-  triggers: ['li2h,']
+  trigger: li2h,
 - replace: 'link from the '
-  _tags: [to, the, directional]
+  _tags:
+  - to
+  - the
+  - directional
   propagate_case: true
   allow_duplicate: false
-  triggers: ['li22,']
+  trigger: li22,
 - replace: 'link from to the '
-  _tags: [to, the, directional]
+  _tags:
+  - to
+  - the
+  - directional
   propagate_case: true
   allow_duplicate: false
-  triggers: ['li22h,']
+  trigger: li22h,
 - replace: 'what link '
-  _tags: [question, to, the]
+  _tags:
+  - question
+  - to
+  - the
   propagate_case: true
   allow_duplicate: false
-  triggers: ['wholi,']
+  trigger: wholi,
 - replace: 'where link '
-  _tags: [question, to, the]
+  _tags:
+  - question
+  - to
+  - the
   propagate_case: true
   allow_duplicate: false
-  triggers: ['whrli,']
+  trigger: whrli,
 - replace: 'which link '
-  _tags: [question, to, the]
+  _tags:
+  - question
+  - to
+  - the
   propagate_case: true
   allow_duplicate: false
-  triggers: ['whlli,']
+  trigger: whlli,
 - replace: 'how link '
-  _tags: [question, to, the]
+  _tags:
+  - question
+  - to
+  - the
   propagate_case: true
   allow_duplicate: false
-  triggers: ['howli,']
+  trigger: howli,
 - replace: 'line by line '
   propagate_case: true
   allow_duplicate: false
-  triggers: ['lnbl,']
+  trigger: lnbl,
 - replace: 'full link '
   propagate_case: true
   allow_duplicate: false
-  triggers: ['fuli,']
+  trigger: fuli,
 - replace: 'full links '
   propagate_case: true
   allow_duplicate: false
-  triggers: ['fulis,']
+  trigger: fulis,
 - replace: 'full linking '
   propagate_case: true
   allow_duplicate: false
-  triggers: ['fulii,']
+  trigger: fulii,
 - replace: 'full linked '
   propagate_case: true
   allow_duplicate: false
-  triggers: ['fulip,']
+  trigger: fulip,

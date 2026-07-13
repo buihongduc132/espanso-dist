@@ -1,1721 +1,3087 @@
-# ⚠️  WARNING: AUTO-GENERATED FILE - DO NOT EDIT DIRECTLY!
-# This file is generated from word_version by:
-#   scripts/convert_to_tokenized_word_version.py
-# Edit source in space_version and re-run conversions.
-# Tokenizes trailing spaces in triggers to an explicit token.
-# Removes right_word property for tokenized version.
-# Adds trailing space to replacements that don't have one.
-# Current token: ','
-
 matches:
 - replace: 'communicate '
-  _tags: [to, can, else]
+  _tags:
+  - to
+  - can
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['qmu,']
+  trigger: qmu,
 - replace: 'communicates '
-  _tags: [to, can, else]
+  _tags:
+  - to
+  - can
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['qmus,']
+  trigger: qmus,
 - replace: 'communicating '
-  _tags: [to, can, ing, else]
+  _tags:
+  - to
+  - can
+  - ing
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['qmui,']
+  trigger: qmui,
 - replace: 'communicated '
-  _tags: [to, can, ed, would, else]
+  _tags:
+  - to
+  - can
+  - ed
+  - would
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['qmup,']
+  trigger: qmup,
 - replace: 'communication '
-  _tags: [to, noun, can, else]
+  _tags:
+  - to
+  - noun
+  - can
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['qmum,']
+  trigger: qmum,
 - replace: 'communications '
-  _tags: [to, noun, can, else]
+  _tags:
+  - to
+  - noun
+  - can
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['qmums,']
+  trigger: qmums,
 - replace: 'communicator '
-  _tags: [to, can, else]
+  _tags:
+  - to
+  - can
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['qmuw,']
+  trigger: qmuw,
 - replace: 'communicators '
-  _tags: [to, can, else]
+  _tags:
+  - to
+  - can
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['qmuws,']
+  trigger: qmuws,
 - replace: 'communicative '
-  _tags: [to, can, else]
+  _tags:
+  - to
+  - can
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['qmuj,']
+  trigger: qmuj,
 - replace: 'communicatively '
-  _tags: [to, can, else]
+  _tags:
+  - to
+  - can
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['qmujl,']
+  trigger: qmujl,
 - replace: 'communicable '
-  _tags: [to, can, else]
+  _tags:
+  - to
+  - can
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['qmub,']
+  trigger: qmub,
 - replace: 'communicably '
-  _tags: [to, can, else]
+  _tags:
+  - to
+  - can
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['qmubl,']
+  trigger: qmubl,
 - replace: 'stage '
-  _tags: [to, can, else, pronoun]
+  _tags:
+  - to
+  - can
+  - else
+  - pronoun
   propagate_case: true
   allow_duplicate: false
-  triggers: ['stag,']
+  trigger: stag,
 - replace: 'stageable '
-  _tags: [adjective, can, else]
+  _tags:
+  - adjective
+  - can
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['stagb,']
+  trigger: stagb,
 - replace: 'staging '
-  _tags: [ing, to, can, else, pronoun]
+  _tags:
+  - ing
+  - to
+  - can
+  - else
+  - pronoun
   propagate_case: true
   allow_duplicate: false
-  triggers: ['stagi,']
+  trigger: stagi,
 - replace: 'staged '
-  _tags: [ed, to, can, would, else]
+  _tags:
+  - ed
+  - to
+  - can
+  - would
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['stagp,']
+  trigger: stagp,
 - replace: 'stages '
-  _tags: [to, can, else]
+  _tags:
+  - to
+  - can
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['stags,']
+  trigger: stags,
 - replace: 'staging '
-  _tags: [noun, to, can, else, pronoun]
+  _tags:
+  - noun
+  - to
+  - can
+  - else
+  - pronoun
   propagate_case: true
   allow_duplicate: false
-  triggers: ['stagm,']
+  trigger: stagm,
 - replace: 'stager '
-  _tags: [noun, to, can, else]
+  _tags:
+  - noun
+  - to
+  - can
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['stagw,']
+  trigger: stagw,
 - replace: 'stop '
-  _tags: [to]
+  _tags:
+  - to
   propagate_case: true
   allow_duplicate: false
-  triggers: ['stp,']
-- triggers: ['stpg,', 'stpi,']
-  replace: 'stopping '
-  _tags: [to, ing, pronoun]
+  trigger: stop,
+- replace: 'stopping '
+  _tags: &id001
+  - to
+  - ing
+  - pronoun
   propagate_case: true
   allow_duplicate: false
-- triggers: ['stpd,', 'stpp,']
-  replace: 'stopped '
-  _tags: [ed, to, else, would]
+  trigger: stopi,
+- replace: 'stopping '
+  _tags: *id001
   propagate_case: true
   allow_duplicate: false
+  trigger: stpg,
+- replace: 'stopped '
+  _tags: &id002
+  - ed
+  - to
+  - else
+  - would
+  propagate_case: true
+  allow_duplicate: false
+  trigger: stopp,
+- replace: 'stopped '
+  _tags: *id002
+  propagate_case: true
+  allow_duplicate: false
+  trigger: stpd,
 - replace: 'stops '
-  _tags: [to]
+  _tags:
+  - to
   propagate_case: true
   allow_duplicate: false
-  triggers: ['stps,']
+  trigger: stops,
 - replace: 'stopper '
-  _tags: [to, else]
+  _tags:
+  - to
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['stpw,']
+  trigger: stopw,
 - replace: 'group '
   propagate_case: true
   allow_duplicate: false
-  triggers: ['gwp,']
+  trigger: gwp,
 - replace: 'grouped '
-  _tags: [ed, would, else]
+  _tags:
+  - ed
+  - would
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['gwpp,']
+  trigger: gwpp,
 - replace: 'group by '
   propagate_case: true
   allow_duplicate: false
-  triggers: ['gwpby,']
+  trigger: gwpby,
 - replace: 'group by '
   allow_duplicate: true
   propagate_case: true
-  triggers: ['gwpb,']
+  trigger: gwpb,
 - replace: 'grouping '
-  _tags: [pronoun, ing]
+  _tags:
+  - pronoun
+  - ing
   propagate_case: true
   allow_duplicate: false
-  triggers: ['gwpi,']
+  trigger: gwpi,
 - replace: 'groups '
-  _tags: [else]
+  _tags:
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['gwps,']
+  trigger: gwps,
 - replace: 'this group '
-  _tags: [demonstrative, to, the]
+  _tags:
+  - demonstrative
+  - to
+  - the
   propagate_case: true
   allow_duplicate: false
-  triggers: ['izgwp,']
+  trigger: izgwp,
 - replace: 'that group '
-  _tags: [demonstrative, to, the]
+  _tags:
+  - demonstrative
+  - to
+  - the
   propagate_case: true
   allow_duplicate: false
-  triggers: ['azgwp,']
+  trigger: azgwp,
 - replace: 'these groups '
-  _tags: [demonstrative, to, the]
+  _tags:
+  - demonstrative
+  - to
+  - the
   propagate_case: true
   allow_duplicate: false
-  triggers: ['ezgwps,']
+  trigger: ezgwps,
 - replace: 'those groups '
-  _tags: [demonstrative, to, the]
+  _tags:
+  - demonstrative
+  - to
+  - the
   propagate_case: true
   allow_duplicate: false
-  triggers: ['ozgwps,']
+  trigger: ozgwps,
 - replace: 'groupness '
-  _tags: [noun, to, else]
+  _tags:
+  - noun
+  - to
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['gwpn,']
+  trigger: gwpn,
 - replace: 'what group '
-  _tags: [question, to, the]
+  _tags:
+  - question
+  - to
+  - the
   propagate_case: true
   allow_duplicate: false
-  triggers: ['whtgwp,']
+  trigger: whtgwp,
 - replace: 'where group '
-  _tags: [question, to, the]
+  _tags:
+  - question
+  - to
+  - the
   propagate_case: true
   allow_duplicate: false
-  triggers: ['whrgwp,']
+  trigger: whrgwp,
 - replace: 'when group '
-  _tags: [question, to, the]
+  _tags:
+  - question
+  - to
+  - the
   propagate_case: true
   allow_duplicate: false
-  triggers: ['whngwp,']
+  trigger: whngwp,
 - replace: 'which group '
-  _tags: [question, to, the]
+  _tags:
+  - question
+  - to
+  - the
   propagate_case: true
   allow_duplicate: false
-  triggers: ['whlgwp,']
+  trigger: whlgwp,
 - replace: 'how group '
-  _tags: [question, to, the]
+  _tags:
+  - question
+  - to
+  - the
   propagate_case: true
   allow_duplicate: false
-  triggers: ['howgwp,']
+  trigger: howgwp,
 - replace: 'grouped for '
-  _tags: [to, else]
+  _tags:
+  - to
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['gwpf,']
+  trigger: gwpf,
 - replace: 'grouped like '
-  _tags: [to, else]
+  _tags:
+  - to
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['gwpl,']
+  trigger: gwpl,
 - replace: 'group to the '
-  _tags: [to, the, directional]
+  _tags:
+  - to
+  - the
+  - directional
   propagate_case: true
   allow_duplicate: false
-  triggers: ['gwp2h,']
+  trigger: gwp2h,
 - replace: 'grouped to the '
-  _tags: [to, the, directional, ed]
+  _tags:
+  - to
+  - the
+  - directional
+  - ed
   propagate_case: true
   allow_duplicate: false
-  triggers: ['gwpm2h,']
+  trigger: gwpm2h,
 - replace: 'grouper '
-  _tags: [else]
+  _tags:
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['gwpw,']
+  trigger: gwpw,
 - replace: 'updating '
-  _tags: [to, pronoun, ing, would]
+  _tags:
+  - to
+  - pronoun
+  - ing
+  - would
   propagate_case: true
   allow_duplicate: false
-  triggers: ['updi,']
+  trigger: updi,
 - replace: 'generate '
-  _tags: [to, else]
+  _tags:
+  - to
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['gen,']
+  trigger: gen,
 - replace: 'duplicate '
-  _tags: [to, can, else]
+  _tags:
+  - to
+  - can
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['dup,']
+  trigger: dup,
 - replace: 'duplicates '
-  _tags: [to, can, else]
+  _tags:
+  - to
+  - can
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['dups,']
+  trigger: dups,
 - replace: 'duplicating '
-  _tags: [to, can, ing, else]
+  _tags:
+  - to
+  - can
+  - ing
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['dupi,']
+  trigger: dupi,
 - replace: 'duplicated '
-  _tags: [to, can, ed, would, else]
+  _tags:
+  - to
+  - can
+  - ed
+  - would
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['dupp,']
+  trigger: dupp,
 - replace: 'duplication '
-  _tags: [to, can, noun, else]
+  _tags:
+  - to
+  - can
+  - noun
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['dupm,']
+  trigger: dupm,
 - replace: 'duplications '
-  _tags: [to, can, noun, else]
+  _tags:
+  - to
+  - can
+  - noun
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['dupms,']
+  trigger: dupms,
 - replace: 'duplicator '
-  _tags: [to, can, else]
+  _tags:
+  - to
+  - can
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['dupw,']
+  trigger: dupw,
 - replace: 'duplicators '
-  _tags: [to, can, else]
+  _tags:
+  - to
+  - can
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['dupws,']
+  trigger: dupws,
 - replace: 'duplicative '
-  _tags: [to, can, else]
+  _tags:
+  - to
+  - can
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['dupj,']
+  trigger: dupj,
 - replace: 'duplicatively '
-  _tags: [to, can, else]
+  _tags:
+  - to
+  - can
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['dupjl,']
+  trigger: dupjl,
 - replace: 'duplicable '
-  _tags: [to, can, else]
+  _tags:
+  - to
+  - can
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['dupb,']
+  trigger: dupb,
 - replace: 'duplicably '
-  _tags: [to, can, else]
+  _tags:
+  - to
+  - can
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['dupbl,']
+  trigger: dupbl,
 - replace: 'deduplicate '
-  _tags: [to, can, else]
+  _tags:
+  - to
+  - can
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['ddup,']
+  trigger: ddup,
 - replace: 'deduplicates '
-  _tags: [to, can, else]
+  _tags:
+  - to
+  - can
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['ddups,']
+  trigger: ddups,
 - replace: 'deduplicating '
-  _tags: [to, can, ing, else]
+  _tags:
+  - to
+  - can
+  - ing
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['ddupi,']
+  trigger: ddupi,
 - replace: 'deduplicated '
-  _tags: [to, can, ed, would, else]
+  _tags:
+  - to
+  - can
+  - ed
+  - would
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['ddupp,']
+  trigger: ddupp,
 - replace: 'deduplication '
-  _tags: [to, can, noun, else]
+  _tags:
+  - to
+  - can
+  - noun
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['ddupm,']
+  trigger: ddupm,
 - replace: 'deduplications '
-  _tags: [to, can, noun, else]
+  _tags:
+  - to
+  - can
+  - noun
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['ddupms,']
+  trigger: ddupms,
 - replace: 'deduplicator '
-  _tags: [to, can, else]
+  _tags:
+  - to
+  - can
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['ddupw,']
+  trigger: ddupw,
 - replace: 'deduplicators '
-  _tags: [to, can, else]
+  _tags:
+  - to
+  - can
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['ddupws,']
+  trigger: ddupws,
 - replace: 'deduplicative '
-  _tags: [to, can, else]
+  _tags:
+  - to
+  - can
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['ddupj,']
+  trigger: ddupj,
 - replace: 'deduplicatively '
-  _tags: [to, can, else]
+  _tags:
+  - to
+  - can
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['ddupjl,']
+  trigger: ddupjl,
 - replace: 'relate '
-  _tags: [verb, to, else]
+  _tags:
+  - verb
+  - to
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['wel,']
+  trigger: wel,
 - replace: 'relatable '
-  _tags: [adjective, can, else]
+  _tags:
+  - adjective
+  - can
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['welb,']
+  trigger: welb,
 - replace: 'related '
-  _tags: [ed, verb, to, else, would]
+  _tags:
+  - ed
+  - verb
+  - to
+  - else
+  - would
   propagate_case: true
   allow_duplicate: false
-  triggers: ['welp,']
+  trigger: welp,
 - replace: 'related to the '
-  _tags: [ed, verb, to, the, else]
+  _tags:
+  - ed
+  - verb
+  - to
+  - the
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['welp2h,']
+  trigger: welp2h,
 - replace: 'relative '
-  _tags: [adjective, to, else, pronoun]
+  _tags:
+  - adjective
+  - to
+  - else
+  - pronoun
   propagate_case: true
   allow_duplicate: false
-  triggers: ['welj,']
+  trigger: welj,
 - replace: 'relation '
-  _tags: [noun, to, else, pronoun]
+  _tags:
+  - noun
+  - to
+  - else
+  - pronoun
   propagate_case: true
   allow_duplicate: false
-  triggers: ['welm,']
+  trigger: welm,
 - replace: 'relationship '
-  _tags: [noun, to, else, pronoun]
+  _tags:
+  - noun
+  - to
+  - else
+  - pronoun
   propagate_case: true
   allow_duplicate: false
-  triggers: ['welmh,']
+  trigger: welmh,
 - replace: 'relationships '
-  _tags: [noun, to, else, pronoun]
+  _tags:
+  - noun
+  - to
+  - else
+  - pronoun
   propagate_case: true
   allow_duplicate: false
-  triggers: ['welmhs,']
+  trigger: welmhs,
 - replace: 'message '
-  _tags: [else]
+  _tags:
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['msg,']
+  trigger: msg,
 - replace: 'messages '
-  _tags: [else]
+  _tags:
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['msgs,']
-- triggers: ['msgg,', 'msii,']
-  replace: 'messaging '
-  _tags: [ing, pronoun, else]
+  trigger: msgs,
+- replace: 'messaging '
+  _tags: &id003
+  - ing
+  - pronoun
+  - else
   propagate_case: true
   allow_duplicate: false
-- triggers: ['msgd,', 'msgp,']
-  replace: 'messaged '
-  _tags: [ed, would, else]
+  trigger: msgg,
+- replace: 'messaging '
+  _tags: *id003
   propagate_case: true
   allow_duplicate: false
+  trigger: msii,
+- replace: 'messaged '
+  _tags: &id004
+  - ed
+  - would
+  - else
+  propagate_case: true
+  allow_duplicate: false
+  trigger: msgd,
+- replace: 'messaged '
+  _tags: *id004
+  propagate_case: true
+  allow_duplicate: false
+  trigger: msgp,
 - replace: 'direct '
-  _tags: [pronoun, to, can, would, else]
+  _tags:
+  - pronoun
+  - to
+  - can
+  - would
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['diwe,']
+  trigger: diwe,
 - replace: 'directly '
-  _tags: [pronoun, to, can, would, else]
+  _tags:
+  - pronoun
+  - to
+  - can
+  - would
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['diwel,']
+  trigger: diwel,
 - replace: 'summary '
-  _tags: [noun, else]
+  _tags:
+  - noun
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['summ,']
+  trigger: summ,
 - replace: 'summaries '
-  _tags: [noun, else]
+  _tags:
+  - noun
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['summs,']
+  trigger: summs,
 - replace: 'summarize '
-  _tags: [verb, else]
+  _tags:
+  - verb
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['summz,']
+  trigger: summz,
 - replace: 'summarizable '
-  _tags: [adjective, can, else]
+  _tags:
+  - adjective
+  - can
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['summb,']
+  trigger: summb,
 - replace: 'summarizes '
-  _tags: [verb, else]
+  _tags:
+  - verb
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['summzs,']
+  trigger: summzs,
 - replace: 'summarized '
-  _tags: [verb, else]
+  _tags:
+  - verb
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['summzp,']
+  trigger: summzp,
 - replace: 'summarizing '
-  _tags: [verb, else]
+  _tags:
+  - verb
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['summzi,']
+  trigger: summzi,
 - replace: 'summarization '
-  _tags: [noun, else]
+  _tags:
+  - noun
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['summzm,']
+  trigger: summzm,
 - replace: 'summarizer '
-  _tags: [noun, else]
+  _tags:
+  - noun
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['summzw,']
+  trigger: summzw,
 - replace: 'calculate '
-  _tags: [to, can, else]
+  _tags:
+  - to
+  - can
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['qal,']
+  trigger: qal,
 - replace: 'calculation '
-  _tags: [pronoun, to, can, noun, else]
+  _tags:
+  - pronoun
+  - to
+  - can
+  - noun
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['qalm,']
+  trigger: qalm,
 - replace: 'calculating '
-  _tags: [ing, to, can, else]
+  _tags:
+  - ing
+  - to
+  - can
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['qali,']
+  trigger: qali,
 - replace: 'estimate '
-  _tags: [to, else, pronoun]
+  _tags:
+  - to
+  - else
+  - pronoun
   propagate_case: true
   allow_duplicate: false
-  triggers: ['esti,']
+  trigger: esti,
 - replace: 'estimable '
-  _tags: [adjective, can, else]
+  _tags:
+  - adjective
+  - can
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['estib,']
+  trigger: estib,
 - replace: 'estimation '
-  _tags: [noun, to, else, pronoun]
+  _tags:
+  - noun
+  - to
+  - else
+  - pronoun
   propagate_case: true
   allow_duplicate: false
-  triggers: ['estim,']
+  trigger: estim,
 - replace: 'estimated '
-  _tags: [ed, would, to, else, pronoun]
+  _tags:
+  - ed
+  - would
+  - to
+  - else
+  - pronoun
   propagate_case: true
   allow_duplicate: false
-  triggers: ['estip,']
+  trigger: estip,
 - replace: 'approximate '
-  _tags: [to, else, pronoun]
+  _tags:
+  - to
+  - else
+  - pronoun
   propagate_case: true
   allow_duplicate: false
-  triggers: ['appwx,']
+  trigger: appwx,
 - replace: 'approximation '
-  _tags: [noun, to, pronoun]
+  _tags:
+  - noun
+  - to
+  - pronoun
   propagate_case: true
   allow_duplicate: false
-  triggers: ['appwxm,']
+  trigger: appwxm,
 - replace: 'horizon '
-  _tags: [pronoun, the]
+  _tags:
+  - pronoun
+  - the
   propagate_case: true
   allow_duplicate: false
-  triggers: ['howi,']
+  trigger: howi,
 - replace: 'horizontally '
-  _tags: [pronoun, will, the, to, else]
+  _tags:
+  - pronoun
+  - will
+  - the
+  - to
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['howiy,']
+  trigger: howiy,
 - replace: 'vertical '
-  _tags: [to, can, else, pronoun]
+  _tags:
+  - to
+  - can
+  - else
+  - pronoun
   propagate_case: true
   allow_duplicate: false
-  triggers: ['jewt,']
+  trigger: jewt,
 - replace: 'vertically '
-  _tags: [pronoun, will, to, can, else]
+  _tags:
+  - pronoun
+  - will
+  - to
+  - can
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['jewty,']
+  trigger: jewty,
 - replace: 'could '
-  _tags: [can, else, would]
+  _tags:
+  - can
+  - else
+  - would
   allow_duplicate: true
   propagate_case: true
-  triggers: ['qld,']
+  trigger: qld,
 - replace: 'couldn''t '
-  _tags: [negate, can, to, would, else]
+  _tags:
+  - negate
+  - can
+  - to
+  - would
+  - else
   allow_duplicate: true
   propagate_case: true
-  triggers: ['qldm,']
+  trigger: qldm,
 - replace: 'client '
-  _tags: [noun, software]
+  _tags:
+  - noun
+  - software
   propagate_case: true
   allow_duplicate: false
-  triggers: ['qli,']
+  trigger: qli,
 - replace: 'clients '
-  _tags: [noun, software]
+  _tags:
+  - noun
+  - software
   propagate_case: true
   allow_duplicate: false
-  triggers: ['qlis,']
+  trigger: qlis,
 - replace: 'clienting '
-  _tags: [ing, software]
+  _tags:
+  - ing
+  - software
   enable: false
   propagate_case: true
   allow_duplicate: false
-  triggers: ['qlii,']
+  trigger: qlii,
 - replace: 'cliently '
-  _tags: [adverb, software]
+  _tags:
+  - adverb
+  - software
   propagate_case: true
   allow_duplicate: false
-  triggers: ['qliy,']
+  trigger: qliy,
 - replace: 'cliented '
-  _tags: [ed, software]
+  _tags:
+  - ed
+  - software
   enable: false
   propagate_case: true
   allow_duplicate: false
-  triggers: ['qlip,']
+  trigger: qlip,
 - replace: 'clientable '
-  _tags: [adjective, software]
+  _tags:
+  - adjective
+  - software
   enable: false
   propagate_case: true
   allow_duplicate: false
-  triggers: ['qlib,']
+  trigger: qlib,
 - replace: 'cliental '
-  _tags: [adjective, software]
+  _tags:
+  - adjective
+  - software
   propagate_case: true
   allow_duplicate: false
-  triggers: ['qlij,']
+  trigger: qlij,
 - replace: 'clientally '
-  _tags: [adverb, software]
+  _tags:
+  - adverb
+  - software
   propagate_case: true
   allow_duplicate: false
-  triggers: ['qlil,']
+  trigger: qlil,
 - replace: 'clientness '
-  _tags: [noun, software]
+  _tags:
+  - noun
+  - software
   enable: false
   propagate_case: true
   allow_duplicate: false
-  triggers: ['qlim,']
+  trigger: qlim,
 - replace: 'clientele '
-  _tags: [noun, software]
+  _tags:
+  - noun
+  - software
   propagate_case: true
   allow_duplicate: false
-  triggers: ['qliw,']
+  trigger: qliw,
 - replace: 'clienteles '
-  _tags: [noun, software]
+  _tags:
+  - noun
+  - software
   propagate_case: true
   allow_duplicate: false
-  triggers: ['qliws,']
+  trigger: qliws,
 - replace: 'client this '
-  _tags: [demonstrative, software]
+  _tags:
+  - demonstrative
+  - software
   propagate_case: true
   allow_duplicate: false
-  triggers: ['qliiz,']
+  trigger: qliiz,
 - replace: 'client that '
-  _tags: [demonstrative, software]
+  _tags:
+  - demonstrative
+  - software
   propagate_case: true
   allow_duplicate: false
-  triggers: ['qliaz,']
+  trigger: qliaz,
 - replace: 'clients these '
-  _tags: [demonstrative, software]
+  _tags:
+  - demonstrative
+  - software
   propagate_case: true
   allow_duplicate: false
-  triggers: ['qliez,']
+  trigger: qliez,
 - replace: 'clients those '
-  _tags: [demonstrative, software]
+  _tags:
+  - demonstrative
+  - software
   propagate_case: true
   allow_duplicate: false
-  triggers: ['qlioz,']
+  trigger: qlioz,
 - replace: 'client to the '
-  _tags: [directional, software]
+  _tags:
+  - directional
+  - software
   propagate_case: true
   allow_duplicate: false
-  triggers: ['qli2h,']
+  trigger: qli2h,
 - replace: 'to the client '
-  _tags: [directional, software]
+  _tags:
+  - directional
+  - software
   propagate_case: true
   allow_duplicate: false
-  triggers: ['2hqli,']
+  trigger: 2hqli,
 - replace: 'client from the '
-  _tags: [directional, software]
+  _tags:
+  - directional
+  - software
   propagate_case: true
   allow_duplicate: false
-  triggers: ['qli-2h,']
+  trigger: qli-2h,
 - replace: 'from the client '
-  _tags: [directional, software]
+  _tags:
+  - directional
+  - software
   propagate_case: true
   allow_duplicate: false
-  triggers: ['-2hqli,']
+  trigger: -2hqli,
 - replace: 'terminal '
-  _tags: [to, else, pronoun]
+  _tags:
+  - to
+  - else
+  - pronoun
   propagate_case: true
   allow_duplicate: false
-  triggers: ['tewm,']
+  trigger: tewm,
 - replace: 'terminals '
-  _tags: [to, else, pronoun]
+  _tags:
+  - to
+  - else
+  - pronoun
   propagate_case: true
   allow_duplicate: false
-  triggers: ['tewms,']
+  trigger: tewms,
 - replace: 'terminate '
-  _tags: [to, else, pronoun]
+  _tags:
+  - to
+  - else
+  - pronoun
   propagate_case: true
   allow_duplicate: false
-  triggers: ['tewmt,']
+  trigger: tewmt,
 - replace: 'terminating '
-  _tags: [ing, to, else, pronoun]
+  _tags:
+  - ing
+  - to
+  - else
+  - pronoun
   propagate_case: true
   allow_duplicate: false
-  triggers: ['tewmi,']
+  trigger: tewmi,
 - replace: 'terminated '
-  _tags: [pronoun, to, ed, would, else]
+  _tags:
+  - pronoun
+  - to
+  - ed
+  - would
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['tewmp,']
+  trigger: tewmp,
 - replace: 'terminates '
-  _tags: [to, else, pronoun]
+  _tags:
+  - to
+  - else
+  - pronoun
   propagate_case: true
   allow_duplicate: false
-  triggers: ['tews,']
+  trigger: tews,
 - replace: 'termination '
-  _tags: [noun, to, else, pronoun]
+  _tags:
+  - noun
+  - to
+  - else
+  - pronoun
   propagate_case: true
   allow_duplicate: false
-  triggers: ['tewmm,']
+  trigger: tewmm,
 - replace: 'every '
-  _tags: [every, else]
+  _tags:
+  - every
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['yy,']
+  trigger: yy,
 - replace: 'every thing '
-  _tags: [pronoun, every, the, ing, to, else]
+  _tags:
+  - pronoun
+  - every
+  - the
+  - ing
+  - to
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['yyi,']
+  trigger: yyi,
 - replace: 'every time '
-  _tags: [pronoun, every, time, to, else]
+  _tags:
+  - pronoun
+  - every
+  - time
+  - to
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['yyt,']
+  trigger: yyt,
 - replace: 'every one '
-  _tags: [pronoun, every, the, else]
+  _tags:
+  - pronoun
+  - every
+  - the
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['yy1,']
+  trigger: yy1,
 - replace: 'yourself '
-  _tags: [possessive, ours, pronoun, else]
+  _tags:
+  - possessive
+  - ours
+  - pronoun
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['ys,']
+  trigger: ys,
 - replace: 'ourself '
-  _tags: [possessive, ours, pronoun, else]
+  _tags:
+  - possessive
+  - ours
+  - pronoun
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['ous,']
+  trigger: ous,
 - replace: 'myself '
-  _tags: [possessive, ours, else]
+  _tags:
+  - possessive
+  - ours
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['mys,']
+  trigger: mys,
 - replace: 'itself '
-  _tags: [possessive, to, else, pronoun]
+  _tags:
+  - possessive
+  - to
+  - else
+  - pronoun
   propagate_case: true
   allow_duplicate: false
-  triggers: ['its,']
+  trigger: its,
 - replace: 'themself '
-  _tags: [them, the, to, else]
+  _tags:
+  - them
+  - the
+  - to
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['ems,']
+  trigger: ems,
 - replace: 'case insensitive '
-  _tags: [to, can, else, pronoun]
+  _tags:
+  - to
+  - can
+  - else
+  - pronoun
   propagate_case: true
   allow_duplicate: false
-  triggers: ['qasei,']
+  trigger: qasei,
 - replace: 'case sensitive '
-  _tags: [to, can, else, pronoun]
+  _tags:
+  - to
+  - can
+  - else
+  - pronoun
   propagate_case: true
   allow_duplicate: false
-  triggers: ['qases,']
+  trigger: qases,
 - replace: 'detect '
-  _tags: [to, can, else, would]
+  _tags:
+  - to
+  - can
+  - else
+  - would
   propagate_case: true
   allow_duplicate: false
-  triggers: ['dete,']
+  trigger: dete,
 - replace: 'detected '
-  _tags: [to, can, ed, would, else]
+  _tags:
+  - to
+  - can
+  - ed
+  - would
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['detep,']
+  trigger: detep,
 - replace: 'detecting '
-  _tags: [pronoun, ing, to, can, would, else]
+  _tags:
+  - pronoun
+  - ing
+  - to
+  - can
+  - would
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['detei,']
+  trigger: detei,
 - replace: 'detection '
-  _tags: [pronoun, to, can, noun, would, else]
+  _tags:
+  - pronoun
+  - to
+  - can
+  - noun
+  - would
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['detem,']
+  trigger: detem,
 - replace: 'detector '
-  _tags: [to, can, else, would]
+  _tags:
+  - to
+  - can
+  - else
+  - would
   propagate_case: true
   allow_duplicate: false
-  triggers: ['detow,']
+  trigger: detow,
 - replace: 'detail '
-  _tags: [to, pronoun, else, would]
+  _tags:
+  - to
+  - pronoun
+  - else
+  - would
   propagate_case: true
   allow_duplicate: false
-  triggers: ['deta,']
+  trigger: deta,
 - replace: 'detailed '
-  _tags: [pronoun, to, ed, would, else]
+  _tags:
+  - pronoun
+  - to
+  - ed
+  - would
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['detap,']
+  trigger: detap,
 - replace: 'detailable '
-  _tags: [to, can, else]
+  _tags:
+  - to
+  - can
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['detab,']
+  trigger: detab,
 - replace: 'type '
-  _tags: [to, else]
+  _tags:
+  - to
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['typ,']
+  trigger: typ,
 - replace: 'typeable '
-  _tags: [to, can, else]
+  _tags:
+  - to
+  - can
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['typb,']
+  trigger: typb,
 - replace: 'typing '
-  _tags: [to, ing, pronoun]
+  _tags:
+  - to
+  - ing
+  - pronoun
   propagate_case: true
   allow_duplicate: false
-  triggers: ['typi,']
+  trigger: typi,
 - replace: 'typed '
-  _tags: [ed, to, else, would]
+  _tags:
+  - ed
+  - to
+  - else
+  - would
   propagate_case: true
   allow_duplicate: false
-  triggers: ['typp,']
+  trigger: typp,
 - replace: 'I can '
-  _tags: [can, pronoun]
+  _tags:
+  - can
+  - pronoun
   allow_duplicate: true
   propagate_case: true
-  triggers: ['iqa,']
+  trigger: iqa,
 - replace: 'I can see '
-  _tags: [can, else, pronoun]
+  _tags:
+  - can
+  - else
+  - pronoun
   allow_duplicate: true
   propagate_case: true
-  triggers: ['iqaq,']
+  trigger: iqaq,
 - replace: 'I can see that '
-  _tags: [pronoun, the, demonstrative, can, to, else, have]
+  _tags:
+  - pronoun
+  - the
+  - demonstrative
+  - can
+  - to
+  - else
+  - have
   propagate_case: true
   allow_duplicate: false
-  triggers: ['iqaqt,']
+  trigger: iqaqt,
 - replace: 'I can do '
-  _tags: [pronoun, can, would]
+  _tags:
+  - pronoun
+  - can
+  - would
   propagate_case: true
   allow_duplicate: false
-  triggers: ['iqad,']
+  trigger: iqad,
 - replace: 'I can not do '
-  _tags: [pronoun, negate, to, can, would]
+  _tags:
+  - pronoun
+  - negate
+  - to
+  - can
+  - would
   propagate_case: true
   allow_duplicate: false
-  triggers: ['iqand,']
+  trigger: iqand,
 - replace: 'I can not '
-  _tags: [negate, can, to, pronoun]
+  _tags:
+  - negate
+  - can
+  - to
+  - pronoun
   allow_duplicate: true
   propagate_case: true
-  triggers: ['iqan,']
+  trigger: iqan,
 - replace: 'we can '
-  _tags: [will, can, else, pronoun]
+  _tags:
+  - will
+  - can
+  - else
+  - pronoun
   allow_duplicate: true
   propagate_case: true
-  triggers: ['eqa,']
-- triggers: ['eqam,', 'eqan,']
-  replace: 'we can not '
-  _tags: [pronoun, will, negate, to, can, else]
+  trigger: eqa,
+- replace: 'we can not '
+  _tags: &id005
+  - pronoun
+  - will
+  - negate
+  - to
+  - can
+  - else
   propagate_case: true
   allow_duplicate: false
+  trigger: eqam,
+- replace: 'we can not '
+  _tags: *id005
+  propagate_case: true
+  allow_duplicate: false
+  trigger: eqan,
 - replace: 'you can '
-  _tags: [can, pronoun]
+  _tags:
+  - can
+  - pronoun
   propagate_case: true
   allow_duplicate: false
-  triggers: ['yaqa,']
+  trigger: yaqa,
 - replace: 'you can not '
-  _tags: [negate, can, to, pronoun]
+  _tags:
+  - negate
+  - can
+  - to
+  - pronoun
   propagate_case: true
   allow_duplicate: false
-  triggers: ['yaqan,']
+  trigger: yaqan,
 - replace: 'this can '
-  _tags: [pronoun, the, demonstrative, to, can, be]
+  _tags:
+  - pronoun
+  - the
+  - demonstrative
+  - to
+  - can
+  - be
   propagate_case: true
   allow_duplicate: false
-  triggers: ['isqa,']
+  trigger: isqa,
 - replace: 'this can not '
-  _tags: [pronoun, the, demonstrative, to, can, negate, be]
+  _tags:
+  - pronoun
+  - the
+  - demonstrative
+  - to
+  - can
+  - negate
+  - be
   propagate_case: true
   allow_duplicate: false
-  triggers: ['isqan,']
+  trigger: isqan,
 - replace: 'those can '
-  _tags: [the, demonstrative, to, can, else]
+  _tags:
+  - the
+  - demonstrative
+  - to
+  - can
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['thoqa,']
+  trigger: thoqa,
 - replace: 'those can not '
-  _tags: [the, demonstrative, can, negate, to, else]
+  _tags:
+  - the
+  - demonstrative
+  - can
+  - negate
+  - to
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['thoqan,']
+  trigger: thoqan,
 - replace: 'they can '
-  _tags: [pronoun, the, to, can, else]
+  _tags:
+  - pronoun
+  - the
+  - to
+  - can
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['thqa,']
+  trigger: thqa,
 - replace: 'they can not '
-  _tags: [pronoun, the, negate, to, can, else]
+  _tags:
+  - pronoun
+  - the
+  - negate
+  - to
+  - can
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['thqan,']
+  trigger: thqan,
 - replace: 'these '
-  _tags: [demonstrative, the, to, else]
+  _tags:
+  - demonstrative
+  - the
+  - to
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['ths,']
+  trigger: ths,
 - replace: 'these can '
-  _tags: [the, demonstrative, to, can, else]
+  _tags:
+  - the
+  - demonstrative
+  - to
+  - can
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['thsqa,']
+  trigger: thsqa,
 - replace: 'these can not '
-  _tags: [the, demonstrative, can, negate, to, else]
+  _tags:
+  - the
+  - demonstrative
+  - can
+  - negate
+  - to
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['thsqan,']
+  trigger: thsqan,
 - replace: 'user can '
-  _tags: [can, else]
+  _tags:
+  - can
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['uswqa,']
+  trigger: uswqa,
 - replace: 'user can not '
-  _tags: [negate, can, to, else]
+  _tags:
+  - negate
+  - can
+  - to
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['uswqan,']
+  trigger: uswqan,
 - replace: 'can user '
-  _tags: [can, else]
+  _tags:
+  - can
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['qausw,']
+  trigger: qausw,
 - replace: 'can user not '
-  _tags: [negate, can, to, else]
+  _tags:
+  - negate
+  - can
+  - to
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['qanusw,']
+  trigger: qanusw,
 - replace: 'can I '
-  _tags: [can, pronoun]
+  _tags:
+  - can
+  - pronoun
   allow_duplicate: true
   propagate_case: true
-  triggers: ['qai,']
+  trigger: qai,
 - replace: 'can I not '
-  _tags: [negate, can, to, pronoun]
+  _tags:
+  - negate
+  - can
+  - to
+  - pronoun
   propagate_case: true
   allow_duplicate: false
-  triggers: ['qani,']
+  trigger: qani,
 - replace: 'can you '
-  _tags: [can, pronoun]
+  _tags:
+  - can
+  - pronoun
   propagate_case: true
   allow_duplicate: false
-  triggers: ['qay,']
+  trigger: qay,
 - replace: 'can we '
-  _tags: [will, can, else, pronoun]
+  _tags:
+  - will
+  - can
+  - else
+  - pronoun
   propagate_case: true
   allow_duplicate: false
-  triggers: ['qae,']
+  trigger: qae,
 - replace: 'can we not '
-  _tags: [pronoun, will, negate, to, can, else]
+  _tags:
+  - pronoun
+  - will
+  - negate
+  - to
+  - can
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['qane,']
+  trigger: qane,
 - replace: 'can this '
-  _tags: [pronoun, the, demonstrative, to, can, be]
+  _tags:
+  - pronoun
+  - the
+  - demonstrative
+  - to
+  - can
+  - be
   allow_duplicate: true
   propagate_case: true
-  triggers: ['qaiz,']
+  trigger: qaiz,
 - replace: 'can this not '
-  _tags: [pronoun, the, demonstrative, to, can, negate, be]
+  _tags:
+  - pronoun
+  - the
+  - demonstrative
+  - to
+  - can
+  - negate
+  - be
   allow_duplicate: true
   propagate_case: true
-  triggers: ['qaniz,']
+  trigger: qaniz,
 - replace: 'can those '
-  _tags: [the, demonstrative, to, can, else]
+  _tags:
+  - the
+  - demonstrative
+  - to
+  - can
+  - else
   allow_duplicate: true
   propagate_case: true
-  triggers: ['qaoz,']
+  trigger: qaoz,
 - replace: 'can those not '
-  _tags: [the, demonstrative, can, negate, to, else]
+  _tags:
+  - the
+  - demonstrative
+  - can
+  - negate
+  - to
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['qanoz,']
+  trigger: qanoz,
 - replace: 'can they '
-  _tags: [pronoun, the, to, can, else]
+  _tags:
+  - pronoun
+  - the
+  - to
+  - can
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['qaty,']
+  trigger: qaty,
 - replace: 'can they not '
-  _tags: [pronoun, the, negate, to, can, else]
+  _tags:
+  - pronoun
+  - the
+  - negate
+  - to
+  - can
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['qanty,']
+  trigger: qanty,
 - replace: 'can these '
-  _tags: [the, demonstrative, to, can, else]
+  _tags:
+  - the
+  - demonstrative
+  - to
+  - can
+  - else
   allow_duplicate: true
   propagate_case: true
-  triggers: ['qaez,']
+  trigger: qaez,
 - replace: 'can these not '
-  _tags: [the, demonstrative, can, negate, to, else]
+  _tags:
+  - the
+  - demonstrative
+  - can
+  - negate
+  - to
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['qanez,']
+  trigger: qanez,
 - replace: 'organize '
-  _tags: [pronoun, else]
+  _tags:
+  - pronoun
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['owg,']
+  trigger: owg,
 - replace: 'organization '
-  _tags: [noun, to, pronoun]
+  _tags:
+  - noun
+  - to
+  - pronoun
   propagate_case: true
   allow_duplicate: false
-  triggers: ['owgm,']
+  trigger: owgm,
 - replace: 'success '
-  _tags: [success, can, else, noun]
+  _tags:
+  - success
+  - can
+  - else
+  - noun
   propagate_case: true
   allow_duplicate: false
-  triggers: ['suq,']
+  trigger: suq,
 - replace: 'successes '
-  _tags: [success, can, else, noun]
+  _tags:
+  - success
+  - can
+  - else
+  - noun
   propagate_case: true
   allow_duplicate: false
-  triggers: ['suqs,']
+  trigger: suqs,
 - replace: 'succeeding '
-  _tags: [success, ing, can, else, verb]
+  _tags:
+  - success
+  - ing
+  - can
+  - else
+  - verb
   propagate_case: true
   allow_duplicate: false
-  triggers: ['suqi,']
+  trigger: suqi,
 - replace: 'succeeded '
-  _tags: [success, ed, would, can, else, verb]
+  _tags:
+  - success
+  - ed
+  - would
+  - can
+  - else
+  - verb
   propagate_case: true
   allow_duplicate: false
-  triggers: ['suqp,']
+  trigger: suqp,
 - replace: 'succeed '
-  _tags: [success, verb, to, can, else]
+  _tags:
+  - success
+  - verb
+  - to
+  - can
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['suqm,']
+  trigger: suqm,
 - replace: 'succeeder '
-  _tags: [success, noun, to, can, else]
+  _tags:
+  - success
+  - noun
+  - to
+  - can
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['suqw,']
+  trigger: suqw,
 - replace: 'succeeders '
-  _tags: [success, noun, to, can, else]
+  _tags:
+  - success
+  - noun
+  - to
+  - can
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['suqws,']
+  trigger: suqws,
 - replace: 'successful '
-  _tags: [success, can, else, adjective]
+  _tags:
+  - success
+  - can
+  - else
+  - adjective
   propagate_case: true
   allow_duplicate: false
-  triggers: ['suqf,']
+  trigger: suqf,
 - replace: 'successfully '
-  _tags: [success, will, can, else, adverb]
+  _tags:
+  - success
+  - will
+  - can
+  - else
+  - adverb
   propagate_case: true
   allow_duplicate: false
-  triggers: ['suql,']
+  trigger: suql,
 - replace: 'not success '
-  _tags: [success, negate, can, to, else, noun]
+  _tags:
+  - success
+  - negate
+  - can
+  - to
+  - else
+  - noun
   propagate_case: true
   allow_duplicate: false
-  triggers: ['nsuq,']
+  trigger: nsuq,
 - replace: 'not succeeding '
-  _tags: [success, negate, ing, can, to, else, verb]
+  _tags:
+  - success
+  - negate
+  - ing
+  - can
+  - to
+  - else
+  - verb
   propagate_case: true
   allow_duplicate: false
-  triggers: ['nsuqi,']
+  trigger: nsuqi,
 - replace: 'not succeeded '
-  _tags: [success, negate, ed, would, can, to, else, verb]
+  _tags:
+  - success
+  - negate
+  - ed
+  - would
+  - can
+  - to
+  - else
+  - verb
   propagate_case: true
   allow_duplicate: false
-  triggers: ['nsuqp,']
+  trigger: nsuqp,
 - replace: 'not succeed '
-  _tags: [success, negate, verb, to, can, else]
+  _tags:
+  - success
+  - negate
+  - verb
+  - to
+  - can
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['nsuqm,']
+  trigger: nsuqm,
 - replace: 'not succeeder '
-  _tags: [success, negate, noun, to, can, else]
+  _tags:
+  - success
+  - negate
+  - noun
+  - to
+  - can
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['nsuqw,']
+  trigger: nsuqw,
 - replace: 'not successful '
-  _tags: [success, negate, can, to, else, adjective]
+  _tags:
+  - success
+  - negate
+  - can
+  - to
+  - else
+  - adjective
   propagate_case: true
   allow_duplicate: false
-  triggers: ['nsuqf,']
+  trigger: nsuqf,
 - replace: 'not successfully '
-  _tags: [success, will, negate, can, to, else, adverb]
+  _tags:
+  - success
+  - will
+  - negate
+  - can
+  - to
+  - else
+  - adverb
   propagate_case: true
   allow_duplicate: false
-  triggers: ['nsuql,']
+  trigger: nsuql,
 - replace: 'remote '
-  _tags: [to, else]
+  _tags:
+  - to
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['wmt,']
+  trigger: wmt,
 - replace: 'remotely '
-  _tags: [to, else]
+  _tags:
+  - to
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['wmtl,']
+  trigger: wmtl,
 - replace: 'local '
-  _tags: [can, else]
+  _tags:
+  - can
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['lql,']
+  trigger: lql,
 - replace: 'locally '
-  _tags: [will, can, else]
+  _tags:
+  - will
+  - can
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['lqly,']
+  trigger: lqly,
 - replace: 'different '
-  _tags: [to, pronoun, else, would]
+  _tags:
+  - to
+  - pronoun
+  - else
+  - would
   propagate_case: true
   allow_duplicate: false
-  triggers: ['diff,']
+  trigger: diff,
 - replace: 'differently '
-  _tags: [to, pronoun, else, would]
+  _tags:
+  - to
+  - pronoun
+  - else
+  - would
   propagate_case: true
   allow_duplicate: false
-  triggers: ['diffl,']
+  trigger: diffl,
 - replace: 'difference '
-  _tags: [pronoun, can, else, would]
+  _tags:
+  - pronoun
+  - can
+  - else
+  - would
   propagate_case: true
   allow_duplicate: false
-  triggers: ['diffm,']
+  trigger: diffm,
 - replace: 'differences '
-  _tags: [pronoun, can, else, would]
+  _tags:
+  - pronoun
+  - can
+  - else
+  - would
   propagate_case: true
   allow_duplicate: false
-  triggers: ['diffs,']
-- triggers: ['pawa,', 'pawal,']
-  replace: 'parallel '
-  _tags: [will, else]
+  trigger: diffs,
+- replace: 'differentness '
+  _tags:
+  - noun
+  - to
+  - else
   propagate_case: true
   allow_duplicate: false
-- triggers: ['pawalm,', 'pawam,']
-  replace: 'parallelism '
-  _tags: [will, pronoun, else, be]
+  trigger: diffn,
+- replace: 'differ '
+  _tags:
+  - verb
+  - to
+  - else
   propagate_case: true
   allow_duplicate: false
+  trigger: diffv,
+- replace: 'differs '
+  _tags:
+  - verb
+  - to
+  - else
+  propagate_case: true
+  allow_duplicate: false
+  trigger: diffvs,
+- replace: 'differed '
+  _tags:
+  - ed
+  - to
+  - else
+  propagate_case: true
+  allow_duplicate: false
+  trigger: diffvp,
+- replace: 'differing '
+  _tags:
+  - ing
+  - to
+  - else
+  propagate_case: true
+  allow_duplicate: false
+  trigger: diffvi,
+- replace: 'differentiation '
+  _tags:
+  - noun
+  - to
+  - else
+  propagate_case: true
+  allow_duplicate: false
+  trigger: diffvm,
+- replace: 'differentiations '
+  _tags:
+  - noun
+  - to
+  - else
+  propagate_case: true
+  allow_duplicate: false
+  trigger: diffvms,
+- replace: 'differentiator '
+  _tags:
+  - noun
+  - to
+  - else
+  propagate_case: true
+  allow_duplicate: false
+  trigger: diffvw,
+- replace: 'differentiators '
+  _tags:
+  - noun
+  - to
+  - else
+  propagate_case: true
+  allow_duplicate: false
+  trigger: diffvws,
+- replace: 'parallel '
+  _tags: &id006
+  - will
+  - else
+  propagate_case: true
+  allow_duplicate: false
+  trigger: pawa,
+- replace: 'parallel '
+  _tags: *id006
+  propagate_case: true
+  allow_duplicate: false
+  trigger: pawal,
+- replace: 'parallelism '
+  _tags: &id007
+  - will
+  - pronoun
+  - else
+  - be
+  propagate_case: true
+  allow_duplicate: false
+  trigger: pawalm,
+- replace: 'parallelism '
+  _tags: *id007
+  propagate_case: true
+  allow_duplicate: false
+  trigger: pawam,
 - replace: 'clarify '
-  _tags: [can, else, pronoun]
+  _tags:
+  - can
+  - else
+  - pronoun
   propagate_case: true
   allow_duplicate: false
-  triggers: ['qlawi,']
+  trigger: qlawi,
 - replace: 'clarifiable '
-  _tags: [adjective, can, else]
+  _tags:
+  - adjective
+  - can
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['qlawib,']
+  trigger: qlawib,
 - replace: 'clarification '
-  _tags: [pronoun, to, can, noun, else]
+  _tags:
+  - pronoun
+  - to
+  - can
+  - noun
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['qlawim,']
+  trigger: qlawim,
 - replace: 'clarified '
-  _tags: [pronoun, can, ed, would, else]
+  _tags:
+  - pronoun
+  - can
+  - ed
+  - would
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['qlawip,']
+  trigger: qlawip,
 - replace: 'clarifying '
-  _tags: [ing, can, else, pronoun]
+  _tags:
+  - ing
+  - can
+  - else
+  - pronoun
   propagate_case: true
   allow_duplicate: false
-  triggers: ['qlawii,']
+  trigger: qlawii,
 - replace: 'decide '
-  _tags: [pronoun, can, else, would]
+  _tags:
+  - pronoun
+  - can
+  - else
+  - would
   propagate_case: true
   allow_duplicate: false
-  triggers: ['deqi,']
+  trigger: deqi,
 - replace: 'decidable '
-  _tags: [adjective, can, else]
+  _tags:
+  - adjective
+  - can
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['deqib,']
+  trigger: deqib,
 - replace: 'decision '
-  _tags: [pronoun, can, be, would, else]
+  _tags:
+  - pronoun
+  - can
+  - be
+  - would
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['deqim,']
+  trigger: deqim,
 - replace: 'decided '
-  _tags: [pronoun, can, ed, would, else]
+  _tags:
+  - pronoun
+  - can
+  - ed
+  - would
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['deqip,']
+  trigger: deqip,
+- replace: 'decide to '
+  propagate_case: true
+  allow_duplicate: false
+  trigger: deqi2,
+- replace: 'decides to '
+  propagate_case: true
+  allow_duplicate: false
+  trigger: deqis2,
+- replace: 'deciding to '
+  propagate_case: true
+  allow_duplicate: false
+  trigger: deqii2,
+- replace: 'decided to '
+  propagate_case: true
+  allow_duplicate: false
+  trigger: deqip2,
 - replace: 'deciding '
-  _tags: [pronoun, ing, can, would, else]
+  _tags:
+  - pronoun
+  - ing
+  - can
+  - would
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['deqii,']
+  trigger: deqii,
 - replace: 'decisive '
-  _tags: [pronoun, can, be, would, else]
+  _tags:
+  - pronoun
+  - can
+  - be
+  - would
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['deqij,']
+  trigger: deqij,
 - replace: 'positive '
-  _tags: [to, else, pronoun]
+  _tags:
+  - to
+  - else
+  - pronoun
   propagate_case: true
   allow_duplicate: false
-  triggers: ['posiij,']
+  trigger: posiij,
 - replace: 'possibilities '
-  _tags: [to, pronoun, else, be]
+  _tags:
+  - to
+  - pronoun
+  - else
+  - be
   propagate_case: true
   allow_duplicate: false
-  triggers: ['posiis,']
+  trigger: posiis,
 - replace: 'access '
-  _tags: [action, verb, to, can, else]
+  _tags:
+  - action
+  - verb
+  - to
+  - can
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['aqqe,']
+  trigger: aqqe,
 - replace: 'accesses '
-  _tags: [action, verb, to]
+  _tags:
+  - action
+  - verb
+  - to
   propagate_case: true
   allow_duplicate: false
-  triggers: ['aqqes,']
+  trigger: aqqes,
 - replace: 'accessing '
-  _tags: [action, verb, ing, can]
+  _tags:
+  - action
+  - verb
+  - ing
+  - can
   propagate_case: true
   allow_duplicate: false
-  triggers: ['aqqei,']
+  trigger: aqqei,
 - replace: 'accessed '
-  _tags: [action, verb, ed, would]
+  _tags:
+  - action
+  - verb
+  - ed
+  - would
   propagate_case: true
   allow_duplicate: false
-  triggers: ['aqqep,']
+  trigger: aqqep,
 - replace: 'accessment '
-  _tags: [action, noun, else]
+  _tags:
+  - action
+  - noun
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['aqqem,']
+  trigger: aqqem,
 - replace: 'accessor '
-  _tags: [action, noun, else]
+  _tags:
+  - action
+  - noun
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['aqqew,']
+  trigger: aqqew,
 - replace: 'accessors '
-  _tags: [action, noun, to]
+  _tags:
+  - action
+  - noun
+  - to
   propagate_case: true
   allow_duplicate: false
-  triggers: ['aqqews,']
+  trigger: aqqews,
 - replace: 'accessible '
-  _tags: [adjective, else]
+  _tags:
+  - adjective
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['aqqeb,']
+  trigger: aqqeb,
 - replace: 'accessibly '
-  _tags: [adverb, else, can, else]
+  _tags:
+  - adverb
+  - else
+  - can
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['aqqebl,']
+  trigger: aqqebl,
 - replace: 'wait '
-  _tags: [will, to, pronoun]
+  _tags:
+  - will
+  - to
+  - pronoun
   propagate_case: true
   allow_duplicate: false
-  triggers: ['wait,']
+  trigger: wait,
 - replace: 'waited '
-  _tags: [pronoun, will, to, ed, would, else]
+  _tags:
+  - pronoun
+  - will
+  - to
+  - ed
+  - would
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['waitp,']
+  trigger: waitp,
 - replace: 'waiting '
-  _tags: [will, to, ing, pronoun]
+  _tags:
+  - will
+  - to
+  - ing
+  - pronoun
   propagate_case: true
   allow_duplicate: false
-  triggers: ['waiti,']
+  trigger: waiti,
 - replace: 'waits '
-  _tags: [possessive, will, to, pronoun]
+  _tags:
+  - possessive
+  - will
+  - to
+  - pronoun
   propagate_case: true
   allow_duplicate: false
-  triggers: ['waits,']
+  trigger: waits,
 - replace: 'progress '
-  _tags: [else]
+  _tags:
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['pwg,']
+  trigger: pwg,
 - replace: 'progressing '
-  _tags: [ing, pronoun, else]
+  _tags:
+  - ing
+  - pronoun
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['pwgi,']
+  trigger: pwgi,
 - replace: 'progressed '
-  _tags: [ed, would, pronoun, else]
+  _tags:
+  - ed
+  - would
+  - pronoun
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['pwgp,']
+  trigger: pwgp,
 - replace: 'progression '
-  _tags: [pronoun, else]
+  _tags:
+  - pronoun
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['pwgm,']
+  trigger: pwgm,
 - replace: 'program '
   propagate_case: true
   allow_duplicate: false
-  triggers: ['pwgw,']
+  trigger: pwgw,
 - replace: 'programming '
-  _tags: [pronoun, ing]
+  _tags:
+  - pronoun
+  - ing
   propagate_case: true
   allow_duplicate: false
-  triggers: ['pwgwi,']
+  trigger: pwgwi,
 - replace: 'programmed '
-  _tags: [ed, would, else]
+  _tags:
+  - ed
+  - would
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['pwgwp,']
+  trigger: pwgwp,
 - replace: 'programmer '
-  _tags: [else]
+  _tags:
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['pwgww,']
+  trigger: pwgww,
 - replace: 'programmatically '
-  _tags: [pronoun, will, to, can, else]
+  _tags:
+  - pronoun
+  - will
+  - to
+  - can
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['pwgwl,']
+  trigger: pwgwl,
 - replace: 'no one '
-  _tags: [negate, else]
+  _tags:
+  - negate
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['ne,']
+  trigger: ne,
 - replace: 'no one else '
-  _tags: [negate, else]
+  _tags:
+  - negate
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['nel,']
+  trigger: nel,
+- replace: 'nowhere '
+  _tags:
+  - negate
+  - place
+  - else
+  propagate_case: true
+  allow_duplicate: false
+  trigger: now`
+- replace: 'nowhere else '
+  _tags:
+  - negate
+  - place
+  - else
+  propagate_case: true
+  allow_duplicate: false
+  trigger: nowe`
 - replace: 'network '
-  _tags: [will, to, else]
+  _tags:
+  - will
+  - to
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['netw,']
+  trigger: netw,
 - replace: 'networking '
-  _tags: [pronoun, will, ing, to, else]
+  _tags:
+  - pronoun
+  - will
+  - ing
+  - to
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['netwi,']
+  trigger: netwi,
 - replace: 'networked '
-  _tags: [will, to, ed, would, else]
+  _tags:
+  - will
+  - to
+  - ed
+  - would
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['netwp,']
+  trigger: netwp,
 - replace: 'potent '
-  _tags: [to, else]
+  _tags:
+  - to
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['pote,']
+  trigger: pote,
 - replace: 'potential '
-  _tags: [to, else, pronoun]
+  _tags:
+  - to
+  - else
+  - pronoun
   propagate_case: true
   allow_duplicate: false
-  triggers: ['potel,']
+  trigger: potel,
 - replace: 'potentially '
-  _tags: [will, to, else, pronoun]
+  _tags:
+  - will
+  - to
+  - else
+  - pronoun
   propagate_case: true
   allow_duplicate: false
-  triggers: ['potl,']
+  trigger: potl,
 - replace: 'potency '
-  _tags: [to, can, else]
+  _tags:
+  - to
+  - can
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['potem,']
+  trigger: potem,
 - replace: 'trouble '
-  _tags: [to, else]
+  _tags:
+  - to
+  - else
   tr_exception: true
   propagate_case: true
   allow_duplicate: false
-  triggers: ['troub,']
+  trigger: troub,
 - replace: 'troubleshoot '
-  _tags: [should, the, to, else]
+  _tags:
+  - should
+  - the
+  - to
+  - else
   tr_exception: true
   propagate_case: true
   allow_duplicate: false
-  triggers: ['troubs,']
+  trigger: troubs,
 - replace: 'troubleshooting '
-  _tags: [pronoun, the, ing, should, to, else]
+  _tags:
+  - pronoun
+  - the
+  - ing
+  - should
+  - to
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['troubsi,']
+  trigger: troubsi,
 - replace: 'troubleshot '
-  _tags: [the, ed, should, to, would, else]
+  _tags:
+  - the
+  - ed
+  - should
+  - to
+  - would
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['troubsp,']
+  trigger: troubsp,
 - replace: 'troubleshoots '
-  _tags: [should, the, to, else]
+  _tags:
+  - should
+  - the
+  - to
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['troubss,']
+  trigger: troubss,
 - replace: 'troubleshooter '
-  _tags: [noun, should, the, to, else]
+  _tags:
+  - noun
+  - should
+  - the
+  - to
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['troubsw,']
+  trigger: troubsw,
 - replace: 'troubleshooters '
-  _tags: [noun, should, the, to, else]
+  _tags:
+  - noun
+  - should
+  - the
+  - to
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['troubsws,']
+  trigger: troubsws,
 - replace: 'troubleshooting '
-  _tags: [noun, should, the, to, else]
+  _tags:
+  - noun
+  - should
+  - the
+  - to
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['troubsm,']
+  trigger: troubsm,
 - replace: 'troubleshootable '
-  _tags: [should, the, to, else]
+  _tags:
+  - should
+  - the
+  - to
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['troubsl,']
+  trigger: troubsl,
 - replace: 'troubleshootably '
-  _tags: [should, the, to, else]
+  _tags:
+  - should
+  - the
+  - to
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['troubsll,']
+  trigger: troubsll,
 - replace: 'option '
-  _tags: [to, pronoun]
+  _tags:
+  - to
+  - pronoun
   propagate_case: true
   allow_duplicate: false
-  triggers: ['opt,']
+  trigger: opt,
 - replace: 'optional '
-  _tags: [to, else, pronoun]
+  _tags:
+  - to
+  - else
+  - pronoun
   propagate_case: true
   allow_duplicate: false
-  triggers: ['optm,']
+  trigger: optm,
 - replace: 'navigate '
-  _tags: [to, else, pronoun]
+  _tags:
+  - to
+  - else
+  - pronoun
   propagate_case: true
   allow_duplicate: false
-  triggers: ['naj,']
+  trigger: naj,
 - replace: 'nav bar '
   propagate_case: true
   allow_duplicate: false
-  triggers: ['najb,']
+  trigger: najb,
 - replace: 'navigated '
-  _tags: [pronoun, to, ed, would, else]
+  _tags:
+  - pronoun
+  - to
+  - ed
+  - would
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['naje,']
+  trigger: naje,
 - replace: 'navigating '
-  _tags: [to, ing, pronoun]
+  _tags:
+  - to
+  - ing
+  - pronoun
   propagate_case: true
   allow_duplicate: false
-  triggers: ['naji,']
+  trigger: naji,
 - replace: 'navigation '
-  _tags: [noun, to, pronoun]
+  _tags:
+  - noun
+  - to
+  - pronoun
   propagate_case: true
   allow_duplicate: false
-  triggers: ['najm,']
+  trigger: najm,
 - replace: 'navigator '
-  _tags: [to, pronoun]
+  _tags:
+  - to
+  - pronoun
   propagate_case: true
   allow_duplicate: false
-  triggers: ['najw,']
+  trigger: najw,
 - replace: 'calculated '
-  _tags: [ed, would, to, can, else]
+  _tags:
+  - ed
+  - would
+  - to
+  - can
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['qalp,']
+  trigger: qalp,
 - replace: 'iterate '
-  _tags: [to, can, else]
+  _tags:
+  - to
+  - can
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['itew,']
+  trigger: itew,
 - replace: 'iterating '
-  _tags: [ing, to, can, else]
+  _tags:
+  - ing
+  - to
+  - can
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['itewi,']
+  trigger: itewi,
 - replace: 'iterated '
-  _tags: [ed, would, to, can, else]
+  _tags:
+  - ed
+  - would
+  - to
+  - can
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['itewp,']
+  trigger: itewp,
 - replace: 'iterates '
-  _tags: [to, can, else]
+  _tags:
+  - to
+  - can
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['itews,']
+  trigger: itews,
 - replace: 'iterative '
-  _tags: [adjective, to, else]
+  _tags:
+  - adjective
+  - to
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['itewj,']
+  trigger: itewj,
 - replace: 'iteratively '
-  _tags: [adverb, to, else]
+  _tags:
+  - adverb
+  - to
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['itewjl,']
+  trigger: itewjl,
 - replace: 'iterator '
-  _tags: [noun, to, else]
+  _tags:
+  - noun
+  - to
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['iteww,']
+  trigger: iteww,
 - replace: 'iterators '
-  _tags: [noun, to, else]
+  _tags:
+  - noun
+  - to
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['itewws,']
+  trigger: itewws,
 - replace: 'intend '
-  _tags: [to, can, else]
+  _tags:
+  - to
+  - can
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['inte,']
+  trigger: inte,
 - replace: 'intends '
-  _tags: [to, can, else]
+  _tags:
+  - to
+  - can
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['intes,']
+  trigger: intes,
 - replace: 'intending '
-  _tags: [ing, to, can, else]
+  _tags:
+  - ing
+  - to
+  - can
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['intei,']
+  trigger: intei,
 - replace: 'intended '
-  _tags: [ed, would, to, can, else]
+  _tags:
+  - ed
+  - would
+  - to
+  - can
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['intep,']
+  trigger: intep,
+- replace: 'intend to '
+  propagate_case: true
+  allow_duplicate: false
+  trigger: inte2,
+- replace: 'intends to '
+  propagate_case: true
+  allow_duplicate: false
+  trigger: intes2,
+- replace: 'intending to '
+  propagate_case: true
+  allow_duplicate: false
+  trigger: intei2,
+- replace: 'intended to '
+  propagate_case: true
+  allow_duplicate: false
+  trigger: intep2,
 - replace: 'intention '
-  _tags: [noun, to, can, else]
+  _tags:
+  - noun
+  - to
+  - can
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['intem,']
+  trigger: intem,
 - replace: 'intentions '
-  _tags: [noun, to, can, else]
+  _tags:
+  - noun
+  - to
+  - can
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['intems,']
+  trigger: intems,
 - replace: 'intentional '
-  _tags: [adjective, to, can, else]
+  _tags:
+  - adjective
+  - to
+  - can
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['intej,']
+  trigger: intej,
 - replace: 'intentionally '
-  _tags: [adverb, to, can, else]
+  _tags:
+  - adverb
+  - to
+  - can
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['intejl,']
+  trigger: intejl,
 - replace: 'pair '
-  _tags: [noun, to, else]
+  _tags:
+  - noun
+  - to
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['pai,']
+  trigger: pai,
 - replace: 'pairs '
-  _tags: [noun, to, else]
+  _tags:
+  - noun
+  - to
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['pais,']
+  trigger: pais,
 - replace: 'pairing '
-  _tags: [ing, to, pronoun, else]
+  _tags:
+  - ing
+  - to
+  - pronoun
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['paii,']
+  trigger: paii,
 - replace: 'paired '
-  _tags: [ed, to, else, would]
+  _tags:
+  - ed
+  - to
+  - else
+  - would
   propagate_case: true
   allow_duplicate: false
-  triggers: ['paip,']
+  trigger: paip,
 - replace: 'pairer '
-  _tags: [noun, to, else]
+  _tags:
+  - noun
+  - to
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['paiw,']
+  trigger: paiw,
 - replace: 'parity '
-  _tags: [noun, to, else, pronoun]
+  _tags:
+  - noun
+  - to
+  - else
+  - pronoun
   propagate_case: true
   allow_duplicate: false
-  triggers: ['paiy,']
+  trigger: paiy,
 - replace: 'parities '
-  _tags: [noun, to, else, pronoun]
+  _tags:
+  - noun
+  - to
+  - else
+  - pronoun
   propagate_case: true
   allow_duplicate: false
-  triggers: ['paiys,']
+  trigger: paiys,
 - replace: 'paritying '
-  _tags: [ing, to, pronoun, else]
+  _tags:
+  - ing
+  - to
+  - pronoun
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['paiyi,']
+  trigger: paiyi,
 - replace: 'parityed '
-  _tags: [ed, to, else, would]
+  _tags:
+  - ed
+  - to
+  - else
+  - would
   propagate_case: true
   allow_duplicate: false
-  triggers: ['paiyp,']
+  trigger: paiyp,
 - replace: 'parityer '
-  _tags: [noun, to, else, pronoun]
+  _tags:
+  - noun
+  - to
+  - else
+  - pronoun
   propagate_case: true
   allow_duplicate: false
-  triggers: ['paiyw,']
+  trigger: paiyw,
 - replace: '100% parity '
-  _tags: [quantify, to, else]
+  _tags:
+  - quantify
+  - to
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['1paiy,']
+  trigger: 1paiy,
 - replace: 'dedicate '
-  _tags: [to, can, else]
+  _tags:
+  - to
+  - can
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['dedi,']
+  trigger: dedi,
 - replace: 'dedicating '
-  _tags: [ing, to, can, else]
+  _tags:
+  - ing
+  - to
+  - can
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['dedii,']
+  trigger: dedii,
 - replace: 'dedicated '
-  _tags: [ed, to, can, would, else]
+  _tags:
+  - ed
+  - to
+  - can
+  - would
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['dedip,']
+  trigger: dedip,
 - replace: 'dedicates '
-  _tags: [to, can, else]
+  _tags:
+  - to
+  - can
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['dedis,']
+  trigger: dedis,
 - replace: 'dedication '
-  _tags: [noun, to, can, else]
+  _tags:
+  - noun
+  - to
+  - can
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['dedim,']
+  trigger: dedim,
 - replace: 'dedicator '
-  _tags: [noun, to, can, else]
+  _tags:
+  - noun
+  - to
+  - can
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['dediw,']
+  trigger: dediw,
 - replace: 'dedicators '
-  _tags: [noun, to, can, else]
+  _tags:
+  - noun
+  - to
+  - can
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['dediws,']
+  trigger: dediws,
 - replace: 'dedicate this '
-  _tags: [demonstrative, th_foundation, to, can, else]
+  _tags:
+  - demonstrative
+  - th_foundation
+  - to
+  - can
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['izdedi,']
+  trigger: izdedi,
 - replace: 'dedicate that '
-  _tags: [demonstrative, th_foundation, to, can, else]
+  _tags:
+  - demonstrative
+  - th_foundation
+  - to
+  - can
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['azdedi,']
+  trigger: azdedi,
 - replace: 'dedicate these '
-  _tags: [demonstrative, th_foundation, to, can, else]
+  _tags:
+  - demonstrative
+  - th_foundation
+  - to
+  - can
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['ezdedi,']
+  trigger: ezdedi,
 - replace: 'dedicate those '
-  _tags: [demonstrative, th_foundation, to, can, else]
+  _tags:
+  - demonstrative
+  - th_foundation
+  - to
+  - can
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['ozdedi,']
+  trigger: ozdedi,
 - replace: 'dedicate it '
-  _tags: [pronoun, to, can, else]
+  _tags:
+  - pronoun
+  - to
+  - can
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['dediit,']
+  trigger: dediit,
 - replace: 'dedicate has '
-  _tags: [to, can, else]
+  _tags:
+  - to
+  - can
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['dedihv,']
+  trigger: dedihv,
 - replace: 'detector '
   propagate_case: true
   allow_duplicate: false
-  triggers: ['detoo,']
+  trigger: detoo,
 - replace: 'accessor '
   propagate_case: true
   allow_duplicate: false
-  triggers: ['aqqeo,']
+  trigger: aqqeo,
 - replace: 'navigator '
   propagate_case: true
   allow_duplicate: false
-  triggers: ['najo,']
+  trigger: najo,
 - replace: 'iterator '
   propagate_case: true
   allow_duplicate: false
-  triggers: ['itewo,']
+  trigger: itewo,
 - replace: 'iteration '
-  _tags: [noun, to, can, else]
+  _tags:
+  - noun
+  - to
+  - can
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['itewm,']
+  trigger: itewm,
 - replace: 'excuse '
-  _tags: [to, can, else]
+  _tags:
+  - to
+  - can
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['excu,']
+  trigger: excu,
 - replace: 'excuses '
-  _tags: [noun, to, can, else]
+  _tags:
+  - noun
+  - to
+  - can
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['excums,']
+  trigger: excums,
 - replace: 'reason '
-  _tags: [noun, to, can, else]
+  _tags:
+  - noun
+  - to
+  - can
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['reas,']
+  trigger: reas,
 - replace: 'reasons '
-  _tags: [noun, to, can, else]
+  _tags:
+  - noun
+  - to
+  - can
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['reasms,']
+  trigger: reasms,
 - replace: 'reasonable '
-  _tags: [adjective, to, can, else]
+  _tags:
+  - adjective
+  - to
+  - can
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['reasnbl,']
+  trigger: reasnbl,
 - replace: 'reasonably '
-  _tags: [adverb, to, can, else]
+  _tags:
+  - adverb
+  - to
+  - can
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['reasnbly,']
+  trigger: reasnbly,
 - replace: 'reasonableness '
-  _tags: [noun, to, can, else]
+  _tags:
+  - noun
+  - to
+  - can
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['reasnblms,']
+  trigger: reasnblms,
 - replace: 'cycle '
-  _tags: [noun, to, can, else]
+  _tags:
+  - noun
+  - to
+  - can
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['cyc,']
+  trigger: cyc,
 - replace: 'cycles '
-  _tags: [noun, to, can, else]
+  _tags:
+  - noun
+  - to
+  - can
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['cycms,']
+  trigger: cycms,
 - replace: 'cycled '
-  _tags: [ed, would, to, can, else]
+  _tags:
+  - ed
+  - would
+  - to
+  - can
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['cycep,']
+  trigger: cycep,
 - replace: 'cycle '
-  _tags: [verb, to, can, else]
+  _tags:
+  - verb
+  - to
+  - can
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['cyce,']
+  trigger: cyce,
 - replace: 'cycling '
-  _tags: [ing, to, can, else]
+  _tags:
+  - ing
+  - to
+  - can
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['cyci,']
+  trigger: cyci,
 - replace: 'cyclical '
-  _tags: [adjective, to, can, else]
+  _tags:
+  - adjective
+  - to
+  - can
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['cycicl,']
+  trigger: cycicl,
 - replace: 'cyclically '
-  _tags: [adverb, to, can, else]
+  _tags:
+  - adverb
+  - to
+  - can
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['cycicly,']
+  trigger: cycicly,
 - replace: 'dedicator '
   propagate_case: true
   allow_duplicate: false
-  triggers: ['dedio,']
+  trigger: dedio,
+name: _word_families_2

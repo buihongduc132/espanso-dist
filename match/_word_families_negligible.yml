@@ -1,0 +1,65 @@
+name: _word_families_negligible
+matches:
+- replace: 'negligible '
+  propagate_case: true
+  _tags:
+  - to
+  - can
+  - else
+  - base
+  allow_duplicate: false
+  trigger: negli,
+- replace: 'negligibly '
+  propagate_case: true
+  _tags:
+  - to
+  - can
+  - else
+  - adverb
+  allow_duplicate: false
+  trigger: neglil,
+- replace: 'negligibility '
+  propagate_case: true
+  _tags:
+  - to
+  - can
+  - else
+  - noun
+  allow_duplicate: false
+  trigger: neglin,
+- replace: 'this negligible '
+  propagate_case: true
+  _tags:
+  - to
+  - can
+  - else
+  - demonstrative
+  allow_duplicate: false
+  trigger: iznegli,
+- replace: 'that negligible '
+  propagate_case: true
+  _tags:
+  - to
+  - can
+  - else
+  - demonstrative
+  allow_duplicate: false
+  trigger: aznegli,
+- replace: 'these negligible '
+  propagate_case: true
+  _tags:
+  - to
+  - can
+  - else
+  - demonstrative
+  allow_duplicate: false
+  trigger: eznegli,
+- replace: 'those negligible '
+  propagate_case: true
+  _tags:
+  - to
+  - can
+  - else
+  - demonstrative
+  allow_duplicate: false
+  trigger: oznegli,

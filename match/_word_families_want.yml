@@ -1,0 +1,57 @@
+name: _word_families_want
+matches:
+- replace: 'want '
+  _tags:
+  - verb
+  - to
+  - can
+  - else
+  propagate_case: true
+  allow_duplicate: false
+  trigger: wntt,
+- replace: 'wants '
+  _tags:
+  - verb
+  - to
+  - can
+  - else
+  propagate_case: true
+  allow_duplicate: false
+  trigger: wntts,
+- replace: 'wanting '
+  _tags:
+  - verb
+  - ing
+  - to
+  - can
+  - else
+  propagate_case: true
+  allow_duplicate: false
+  trigger: wntti,
+- replace: 'wanted '
+  _tags:
+  - verb
+  - ed
+  - would
+  - to
+  - can
+  - else
+  propagate_case: true
+  allow_duplicate: false
+  trigger: wnttp,
+- replace: 'want to '
+  propagate_case: true
+  allow_duplicate: false
+  trigger: wntt2,
+- replace: 'wants to '
+  propagate_case: true
+  allow_duplicate: false
+  trigger: wntts2,
+- replace: 'wanting to '
+  propagate_case: true
+  allow_duplicate: false
+  trigger: wntti2,
+- replace: 'wanted to '
+  propagate_case: true
+  allow_duplicate: false
+  trigger: wnttp2,

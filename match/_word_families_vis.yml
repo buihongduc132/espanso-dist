@@ -1,157 +1,439 @@
-# ⚠️  WARNING: AUTO-GENERATED FILE - DO NOT EDIT DIRECTLY!
-# This file is generated from word_version by:
-#   scripts/convert_to_tokenized_word_version.py
-# Edit source in space_version and re-run conversions.
-# Tokenizes trailing spaces in triggers to an explicit token.
-# Removes right_word property for tokenized version.
-# Adds trailing space to replacements that don't have one.
-# Current token: ','
-
-name: word-families-vis
-parent: default
+name: _word_families_vis
 matches:
 - replace: 'vision '
-  _tags: [noun, to, can, else]
+  _tags:
+  - noun
+  - to
+  - can
+  - else
   allow_duplicate: true
   propagate_case: true
-  triggers: ['jis,']
+  trigger: jis,
 - replace: 'visions '
-  _tags: [noun, to, can, else]
+  _tags:
+  - noun
+  - to
+  - can
+  - else
   allow_duplicate: true
   propagate_case: true
-  triggers: ['jiss,']
+  trigger: jiss,
 - replace: 'visioning '
-  _tags: [ing, noun, to, can, else]
+  _tags:
+  - ing
+  - noun
+  - to
+  - can
+  - else
   allow_duplicate: true
   propagate_case: true
-  triggers: ['jisi,']
+  trigger: jisi,
 - replace: 'visioned '
-  _tags: [ed, would, noun, to, can, else]
+  _tags:
+  - ed
+  - would
+  - noun
+  - to
+  - can
+  - else
   allow_duplicate: true
   propagate_case: true
-  triggers: ['jisp,']
+  trigger: jisp,
 - replace: 'visioner '
-  _tags: [noun, to, can, else]
+  _tags:
+  - noun
+  - to
+  - can
+  - else
   allow_duplicate: true
   propagate_case: true
-  triggers: ['jisw,']
+  trigger: jisw,
 - replace: 'visionary '
-  _tags: [adjective, noun, to, can, else]
+  _tags:
+  - adjective
+  - noun
+  - to
+  - can
+  - else
   allow_duplicate: true
   propagate_case: true
-  triggers: ['jisj,']
+  trigger: jisj,
 - replace: 'visionarily '
-  _tags: [adjective, to, can, else]
+  _tags:
+  - adjective
+  - to
+  - can
+  - else
   allow_duplicate: true
   propagate_case: true
-  triggers: ['jisjl,']
+  trigger: jisjl,
 - replace: 'visible '
-  _tags: [adjective, to, can, else]
+  _tags:
+  - adjective
+  - to
+  - can
+  - else
   allow_duplicate: true
   propagate_case: true
-  triggers: ['jisb,']
+  trigger: jisb,
 - replace: 'visibles '
-  _tags: [adjective, noun, to, can, else]
+  _tags:
+  - adjective
+  - noun
+  - to
+  - can
+  - else
   allow_duplicate: true
   propagate_case: true
-  triggers: ['jisbs,']
+  trigger: jisbs,
 - replace: 'visibly '
-  _tags: [adjective, to, can, else]
+  _tags:
+  - adjective
+  - to
+  - can
+  - else
   allow_duplicate: true
   propagate_case: true
-  triggers: ['jisbl,']
+  trigger: jisbl,
 - replace: 'visibility '
-  _tags: [noun, adjective, to, can, else]
+  _tags:
+  - noun
+  - adjective
+  - to
+  - can
+  - else
   allow_duplicate: true
   propagate_case: true
-  triggers: ['jisbm,']
+  trigger: jisbm,
 - replace: 'visibilizer '
-  _tags: [noun, adjective, to, can, else]
+  _tags:
+  - noun
+  - adjective
+  - to
+  - can
+  - else
   allow_duplicate: true
   propagate_case: true
-  triggers: ['jisbw,']
+  trigger: jisbw,
 - replace: 'visual '
-  _tags: [adjective, to, can, else]
+  _tags:
+  - adjective
+  - to
+  - can
+  - else
   allow_duplicate: true
   propagate_case: true
-  triggers: ['jisl,']
+  trigger: jisl,
 - replace: 'visuals '
-  _tags: [adjective, noun, to, can, else]
+  _tags:
+  - adjective
+  - noun
+  - to
+  - can
+  - else
   allow_duplicate: true
   propagate_case: true
-  triggers: ['jisls,']
+  trigger: jisls,
 - replace: 'visually '
-  _tags: [adjective, to, can, else]
+  _tags:
+  - adjective
+  - to
+  - can
+  - else
   allow_duplicate: true
   propagate_case: true
-  triggers: ['jisll,']
+  trigger: jisll,
 - replace: 'visualize '
-  _tags: [verb, to, can, else]
+  _tags:
+  - verb
+  - to
+  - can
+  - else
   allow_duplicate: true
   propagate_case: true
-  triggers: ['jislz,']
+  trigger: jislz,
 - replace: 'visualizes '
-  _tags: [verb, to, can, else]
+  _tags:
+  - verb
+  - to
+  - can
+  - else
   allow_duplicate: true
   propagate_case: true
-  triggers: ['jislzs,']
+  trigger: jislzs,
 - replace: 'visualizing '
-  _tags: [ing, verb, to, can, else]
+  _tags:
+  - ing
+  - verb
+  - to
+  - can
+  - else
   allow_duplicate: true
   propagate_case: true
-  triggers: ['jislzi,']
+  trigger: jislzi,
 - replace: 'visualized '
-  _tags: [ed, would, verb, to, can, else]
+  _tags:
+  - ed
+  - would
+  - verb
+  - to
+  - can
+  - else
   allow_duplicate: true
   propagate_case: true
-  triggers: ['jislzp,']
+  trigger: jislzp,
 - replace: 'visualization '
-  _tags: [noun, to, can, else]
+  _tags:
+  - noun
+  - to
+  - can
+  - else
   allow_duplicate: true
   propagate_case: true
-  triggers: ['jislzm,']
+  trigger: jislzm,
 - replace: 'visualizer '
-  _tags: [noun, to, can, else]
+  _tags:
+  - noun
+  - to
+  - can
+  - else
   allow_duplicate: true
   propagate_case: true
-  triggers: ['jislzw,']
+  trigger: jislzw,
 - replace: 'visualizable '
-  _tags: [adjective, to, can, else]
+  _tags:
+  - adjective
+  - to
+  - can
+  - else
   allow_duplicate: true
   propagate_case: true
-  triggers: ['jislzb,']
+  trigger: jislzb,
 - replace: 'visualizably '
-  _tags: [adjective, to, can, else]
+  _tags:
+  - adjective
+  - to
+  - can
+  - else
   allow_duplicate: true
   propagate_case: true
-  triggers: ['jislzbl,']
+  trigger: jislzbl,
 - replace: 'visualizability '
-  _tags: [noun, adjective, to, can, else]
+  _tags:
+  - noun
+  - adjective
+  - to
+  - can
+  - else
   allow_duplicate: true
   propagate_case: true
-  triggers: ['jislzbm,']
+  trigger: jislzbm,
 - replace: 'invisible '
-  _tags: [negate, adjective, to, can, else]
+  _tags:
+  - negate
+  - adjective
+  - to
+  - can
+  - else
   allow_duplicate: true
   propagate_case: true
-  triggers: ['ijisb,']
+  trigger: ijisb,
 - replace: 'invisibles '
-  _tags: [negate, adjective, noun, to, can, else]
+  _tags:
+  - negate
+  - adjective
+  - noun
+  - to
+  - can
+  - else
   allow_duplicate: true
   propagate_case: true
-  triggers: ['ijisbs,']
+  trigger: ijisbs,
 - replace: 'invisibly '
-  _tags: [negate, adjective, to, can, else]
+  _tags:
+  - negate
+  - adjective
+  - to
+  - can
+  - else
   allow_duplicate: true
   propagate_case: true
-  triggers: ['ijisbl,']
+  trigger: ijisbl,
 - replace: 'invisibility '
-  _tags: [negate, noun, adjective, to, can, else]
+  _tags:
+  - negate
+  - noun
+  - adjective
+  - to
+  - can
+  - else
   allow_duplicate: true
   propagate_case: true
-  triggers: ['ijisbm,']
+  trigger: ijisbm,
 - replace: 'invisibilizer '
-  _tags: [negate, noun, adjective, to, can, else]
+  _tags:
+  - negate
+  - noun
+  - adjective
+  - to
+  - can
+  - else
   allow_duplicate: true
   propagate_case: true
-  triggers: ['ijisbw,']
+  trigger: ijisbw,
+- replace: 'this vision '
+  _tags:
+  - demonstrative
+  - to
+  - can
+  - else
+  allow_duplicate: true
+  propagate_case: true
+  trigger: izjis,
+- replace: 'that vision '
+  _tags:
+  - demonstrative
+  - to
+  - can
+  - else
+  allow_duplicate: true
+  propagate_case: true
+  trigger: azjis,
+- replace: 'these visions '
+  _tags:
+  - demonstrative
+  - to
+  - can
+  - else
+  allow_duplicate: true
+  propagate_case: true
+  trigger: ezjiss,
+- replace: 'those visions '
+  _tags:
+  - demonstrative
+  - to
+  - can
+  - else
+  allow_duplicate: true
+  propagate_case: true
+  trigger: ozjiss,
+- replace: 'visualize this '
+  _tags:
+  - verb
+  - demonstrative
+  - to
+  - can
+  - else
+  allow_duplicate: true
+  propagate_case: true
+  trigger: jislziz,
+- replace: 'visualize that '
+  _tags:
+  - verb
+  - demonstrative
+  - to
+  - can
+  - else
+  allow_duplicate: true
+  propagate_case: true
+  trigger: jislzaz,
+- replace: 'visualize these '
+  _tags:
+  - verb
+  - demonstrative
+  - to
+  - can
+  - else
+  allow_duplicate: true
+  propagate_case: true
+  trigger: jislzez,
+- replace: 'visualize those '
+  _tags:
+  - verb
+  - demonstrative
+  - to
+  - can
+  - else
+  allow_duplicate: true
+  propagate_case: true
+  trigger: jislzoz,
+- replace: 'visualize the '
+  _tags:
+  - verb
+  - article
+  - to
+  - can
+  - else
+  allow_duplicate: true
+  propagate_case: true
+  trigger: jislzh,
+- replace: 'visualize it '
+  _tags:
+  - verb
+  - pronoun
+  - to
+  - can
+  - else
+  allow_duplicate: true
+  propagate_case: true
+  trigger: jislzx,
+- replace: 'this visual '
+  _tags:
+  - demonstrative
+  - adjective
+  - to
+  - can
+  - else
+  allow_duplicate: true
+  propagate_case: true
+  trigger: izjisl,
+- replace: 'that visual '
+  _tags:
+  - demonstrative
+  - adjective
+  - to
+  - can
+  - else
+  allow_duplicate: true
+  propagate_case: true
+  trigger: azjisl,
+- replace: 'these visuals '
+  _tags:
+  - demonstrative
+  - adjective
+  - to
+  - can
+  - else
+  allow_duplicate: true
+  propagate_case: true
+  trigger: ezjisls,
+- replace: 'those visuals '
+  _tags:
+  - demonstrative
+  - adjective
+  - to
+  - can
+  - else
+  allow_duplicate: true
+  propagate_case: true
+  trigger: ozjisls,
+- replace: 'what visualize '
+  _tags:
+  - question
+  - verb
+  - to
+  - can
+  - else
+  allow_duplicate: true
+  propagate_case: true
+  trigger: wtjislz,
+- replace: 'how visualize '
+  _tags:
+  - question
+  - verb
+  - to
+  - can
+  - else
+  allow_duplicate: true
+  propagate_case: true
+  trigger: hwjislz,

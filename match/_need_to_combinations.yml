@@ -1,72 +1,62 @@
-# ⚠️  WARNING: AUTO-GENERATED FILE - DO NOT EDIT DIRECTLY!
-# This file is generated from word_version by:
-#   scripts/convert_to_tokenized_word_version.py
-# Edit source in space_version and re-run conversions.
-# Tokenizes trailing spaces in triggers to an explicit token.
-# Removes right_word property for tokenized version.
-# Adds trailing space to replacements that don't have one.
-# Current token: ','
-
-name: need_to_combinations
-parent: default
+name: _need_to_combinations
 matches:
 - replace: 'need to '
   propagate_case: true
   allow_duplicate: false
-  triggers: ['nd2,']
+  trigger: nd2,
 - replace: 'need to use '
   propagate_case: true
   allow_duplicate: false
-  triggers: ['nd2use,']
+  trigger: nd2use,
 - replace: 'need to work '
   propagate_case: true
   allow_duplicate: false
-  triggers: ['nd2work,']
+  trigger: nd2work,
 - replace: 'need to read '
   propagate_case: true
   allow_duplicate: false
-  triggers: ['nd2read,']
+  trigger: nd2read,
 - replace: 'need to update '
   propagate_case: true
   allow_duplicate: false
-  triggers: ['nd2update,']
+  trigger: nd2update,
 - replace: 'need to create '
   propagate_case: true
   allow_duplicate: false
-  triggers: ['nd2create,']
+  trigger: nd2create,
 - replace: 'need to add '
   propagate_case: true
   allow_duplicate: false
-  triggers: ['nd2add,']
+  trigger: nd2add,
 - replace: 'need to write '
   propagate_case: true
   allow_duplicate: false
-  triggers: ['nd2write,']
+  trigger: nd2write,
 - replace: 'need to test '
   propagate_case: true
   allow_duplicate: false
-  triggers: ['nd2test,']
+  trigger: nd2test,
 - replace: 'need to commit '
   propagate_case: true
   allow_duplicate: false
-  triggers: ['nd2commit,']
+  trigger: nd2commit,
 - replace: 'need to complete '
   propagate_case: true
   allow_duplicate: false
-  triggers: ['nd2complete,']
+  trigger: nd2complete,
 - replace: 'need to place '
   propagate_case: true
   allow_duplicate: false
-  triggers: ['nd2place,']
+  trigger: nd2place,
 - replace: 'need to process '
   propagate_case: true
   allow_duplicate: false
-  triggers: ['nd2process,']
+  trigger: nd2process,
 - replace: 'need to document '
   propagate_case: true
   allow_duplicate: false
-  triggers: ['nd2document,']
+  trigger: nd2document,
 - replace: 'need to execute '
   propagate_case: true
   allow_duplicate: false
-  triggers: ['nd2execute,']
+  trigger: nd2execute,

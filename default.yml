@@ -1,5 +1,3 @@
-# Espanso config for bhd-trigger-pack
-# Copied to ~/.config/espanso/config/default.yml by install.sh
 search_shortcut: SHIFT+CTRL+E
 toggle_key: RIGHT_CTRL
 min_trigger_length: 1

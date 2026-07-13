@@ -1,107 +1,166 @@
-# ⚠️  WARNING: AUTO-GENERATED FILE - DO NOT EDIT DIRECTLY!
-# This file is generated from word_version by:
-#   scripts/convert_to_tokenized_word_version.py
-# Edit source in space_version and re-run conversions.
-# Tokenizes trailing spaces in triggers to an explicit token.
-# Removes right_word property for tokenized version.
-# Adds trailing space to replacements that don't have one.
-# Current token: ','
-
-name: exx_imperative
-parent: default
+name: _exx_imperative
 matches:
 - replace: 'imperative '
-  _tags: [to, can, else, adjective]
+  _tags:
+  - to
+  - can
+  - else
+  - adjective
   propagate_case: true
   allow_duplicate: false
-  triggers: ['fimpe,']
+  trigger: fimpe,
 - replace: 'imperatives '
-  _tags: [to, can, else, noun]
+  _tags:
+  - to
+  - can
+  - else
+  - noun
   propagate_case: true
   allow_duplicate: false
-  triggers: ['fimpes,']
+  trigger: fimpes,
 - replace: 'imperatively '
-  _tags: [ing, to, can, else, adverb]
+  _tags:
+  - ing
+  - to
+  - can
+  - else
+  - adverb
   propagate_case: true
   allow_duplicate: false
-  triggers: ['fimpei,']
+  trigger: fimpei,
 - replace: 'imperatived '
-  _tags: [ed, would, to, can, else, verb]
+  _tags:
+  - ed
+  - would
+  - to
+  - can
+  - else
+  - verb
   propagate_case: true
   allow_duplicate: false
-  triggers: ['fimpep,']
+  trigger: fimpep,
 - replace: 'imperative this '
-  _tags: [demonstrative, to, can, else]
+  _tags:
+  - demonstrative
+  - to
+  - can
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['fimpeiz,']
+  trigger: fimpeiz,
 - replace: 'imperative that '
-  _tags: [demonstrative, to, can, else]
+  _tags:
+  - demonstrative
+  - to
+  - can
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['fimpeaz,']
+  trigger: fimpeaz,
 - replace: 'imperative these '
-  _tags: [demonstrative, to, can, else]
+  _tags:
+  - demonstrative
+  - to
+  - can
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['fimpeez,']
+  trigger: fimpeez,
 - replace: 'imperative those '
-  _tags: [demonstrative, to, can, else]
+  _tags:
+  - demonstrative
+  - to
+  - can
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['fimpeoz,']
+  trigger: fimpeoz,
 - replace: 'be imperative '
-  _tags: [to, can, be]
+  _tags:
+  - to
+  - can
+  - be
   propagate_case: true
   allow_duplicate: false
-  triggers: ['bimpe,']
+  trigger: bimpe,
 - replace: 'is imperative '
-  _tags: [to, can, be]
+  _tags:
+  - to
+  - can
+  - be
   propagate_case: true
   allow_duplicate: false
-  triggers: ['bimpes,']
+  trigger: bimpes,
 - replace: 'was imperative '
-  _tags: [to, can, be]
+  _tags:
+  - to
+  - can
+  - be
   propagate_case: true
   allow_duplicate: false
-  triggers: ['bimpep,']
+  trigger: bimpep,
 - replace: 'not imperative '
-  _tags: [negate, to, can]
+  _tags:
+  - negate
+  - to
+  - can
   propagate_case: true
   allow_duplicate: false
-  triggers: ['nimpe,']
+  trigger: nimpe,
 - replace: 'is not imperative '
-  _tags: [negate, to, can, be]
+  _tags:
+  - negate
+  - to
+  - can
+  - be
   propagate_case: true
   allow_duplicate: false
-  triggers: ['nimpes,']
+  trigger: nimpes,
 - replace: 'have imperative '
-  _tags: [to, can, have]
+  _tags:
+  - to
+  - can
+  - have
   propagate_case: true
   allow_duplicate: false
-  triggers: ['himpe,']
+  trigger: himpe,
 - replace: 'has imperative '
-  _tags: [to, can, have]
+  _tags:
+  - to
+  - can
+  - have
   propagate_case: true
   allow_duplicate: false
-  triggers: ['himpes,']
+  trigger: himpes,
 - replace: 'what imperative '
-  _tags: [question, to, can]
+  _tags:
+  - question
+  - to
+  - can
   propagate_case: true
   allow_duplicate: false
-  triggers: ['wtimpe,']
+  trigger: wtimpe,
 - replace: 'where imperative '
-  _tags: [question, to, can]
+  _tags:
+  - question
+  - to
+  - can
   propagate_case: true
   allow_duplicate: false
-  triggers: ['wrimpe,']
+  trigger: wrimpe,
 - replace: 'when imperative '
-  _tags: [question, to, can]
+  _tags:
+  - question
+  - to
+  - can
   propagate_case: true
   allow_duplicate: false
-  triggers: ['wnimpe,']
+  trigger: wnimpe,
 - replace: 'why imperative '
-  _tags: [question, to, can]
+  _tags:
+  - question
+  - to
+  - can
   propagate_case: true
   allow_duplicate: false
-  triggers: ['wyimpe,']
+  trigger: wyimpe,

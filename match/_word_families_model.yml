@@ -1,78 +1,98 @@
-# ⚠️  WARNING: AUTO-GENERATED FILE - DO NOT EDIT DIRECTLY!
-# This file is generated from word_version by:
-#   scripts/convert_to_tokenized_word_version.py
-# Edit source in space_version and re-run conversions.
-# Tokenizes trailing spaces in triggers to an explicit token.
-# Removes right_word property for tokenized version.
-# Adds trailing space to replacements that don't have one.
-# Current token: ','
-
-name: word-families-model
-parent: default
+name: _word_families_model
 matches:
 - replace: 'model '
   propagate_case: true
   allow_duplicate: false
-  triggers: ['mo,']
+  trigger: mo,
 - replace: 'models '
   propagate_case: true
   allow_duplicate: false
-  triggers: ['mos,']
+  trigger: mos,
 - replace: 'modeling '
   propagate_case: true
   allow_duplicate: false
-  triggers: ['moi,']
+  trigger: moi,
 - replace: 'modeled '
   propagate_case: true
   allow_duplicate: false
-  triggers: ['mop,']
+  trigger: mop,
 - replace: 'agent '
-  _tags: [noun, person]
+  _tags:
+  - noun
+  - person
   propagate_case: true
   allow_duplicate: false
-  triggers: ['age,']
+  trigger: age,
 - replace: 'agents '
-  _tags: [noun, person]
+  _tags:
+  - noun
+  - person
   propagate_case: true
   allow_duplicate: false
-  triggers: ['ages,']
+  trigger: ages,
 - replace: 'agentic '
-  _tags: [adjective]
+  _tags:
+  - adjective
   propagate_case: true
   allow_duplicate: false
-  triggers: ['agei,']
+  trigger: agei,
 - replace: 'agented '
-  _tags: [ed, verb]
+  _tags:
+  - ed
+  - verb
   propagate_case: true
   allow_duplicate: false
-  triggers: ['agep,']
+  trigger: agep,
 - replace: 'agency '
-  _tags: [noun]
+  _tags:
+  - noun
   propagate_case: true
   allow_duplicate: false
-  triggers: ['agem,']
+  trigger: agem,
 - replace: 'agencies '
-  _tags: [noun]
+  _tags:
+  - noun
   propagate_case: true
   allow_duplicate: false
-  triggers: ['agems,']
+  trigger: agems,
 - replace: 'agentizer '
-  _tags: [noun, person]
+  _tags:
+  - noun
+  - person
   propagate_case: true
   allow_duplicate: false
-  triggers: ['agew,']
+  trigger: agew,
 - replace: 'agentizers '
-  _tags: [noun, person]
+  _tags:
+  - noun
+  - person
   propagate_case: true
   allow_duplicate: false
-  triggers: ['agews,']
+  trigger: agews,
+- replace: 'agentic '
+  _tags:
+  - adjective
+  propagate_case: true
+  allow_duplicate: false
+  trigger: ageq,
+- replace: 'agentic workflow '
+  _tags:
+  - noun
+  - technical
+  propagate_case: true
+  allow_duplicate: false
+  trigger: ageqwf,
 - replace: 'sub agents '
-  _tags: [noun, person]
+  _tags:
+  - noun
+  - person
   propagate_case: true
   allow_duplicate: false
-  triggers: ['sai,']
+  trigger: sai,
 - replace: 'sub AI AGENTS '
-  _tags: [noun, person]
+  _tags:
+  - noun
+  - person
   propagate_case: true
   allow_duplicate: false
-  triggers: ['saia,']
+  trigger: saia,

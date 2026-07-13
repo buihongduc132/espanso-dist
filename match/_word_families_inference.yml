@@ -1,0 +1,74 @@
+name: _word_families_inference
+matches:
+- replace: 'inference '
+  _tags:
+  - noun
+  - can
+  - else
+  propagate_case: true
+  allow_duplicate: false
+  trigger: infe,
+- replace: 'inferences '
+  _tags:
+  - noun
+  - can
+  - else
+  propagate_case: true
+  allow_duplicate: false
+  trigger: infes,
+- replace: 'infer '
+  _tags:
+  - verb
+  - can
+  - else
+  propagate_case: true
+  allow_duplicate: false
+  trigger: infe-,
+- replace: 'infers '
+  _tags:
+  - verb
+  - can
+  - else
+  propagate_case: true
+  allow_duplicate: false
+  trigger: infe-s,
+- replace: 'inferring '
+  _tags:
+  - ing
+  - can
+  - else
+  propagate_case: true
+  allow_duplicate: false
+  trigger: infe-i,
+- replace: 'inferred '
+  _tags:
+  - ed
+  - can
+  - else
+  propagate_case: true
+  allow_duplicate: false
+  trigger: infe-p,
+- replace: 'inferable '
+  _tags:
+  - adjective
+  - can
+  - else
+  propagate_case: true
+  allow_duplicate: false
+  trigger: infeb,
+- replace: 'inference this '
+  propagate_case: true
+  allow_duplicate: false
+  trigger: infeiz,
+- replace: 'inference that '
+  propagate_case: true
+  allow_duplicate: false
+  trigger: infeaz,
+- replace: 'inference these '
+  propagate_case: true
+  allow_duplicate: false
+  trigger: infeez,
+- replace: 'inference those '
+  propagate_case: true
+  allow_duplicate: false
+  trigger: infeoz,

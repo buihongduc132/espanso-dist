@@ -1,95 +1,162 @@
-# ⚠️  WARNING: AUTO-GENERATED FILE - DO NOT EDIT DIRECTLY!
-# This file is generated from word_version by:
-#   scripts/convert_to_tokenized_word_version.py
-# Edit source in space_version and re-run conversions.
-# Tokenizes trailing spaces in triggers to an explicit token.
-# Removes right_word property for tokenized version.
-# Adds trailing space to replacements that don't have one.
-# Current token: ','
-
 matches:
 - replace: 'have change '
-  _tags: [have, to, can, else]
+  _tags:
+  - have
+  - to
+  - can
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['hahg,']
+  trigger: hahg,
 - replace: 'change '
-  _tags: [have, the, can, else]
+  _tags:
+  - have
+  - the
+  - can
+  - else
   allow_duplicate: true
   propagate_case: true
-  triggers: ['hg,']
+  trigger: hg,
 - replace: 'changes '
-  _tags: [have, the, can, else]
+  _tags:
+  - have
+  - the
+  - can
+  - else
   allow_duplicate: true
   propagate_case: true
-  triggers: ['hgs,']
+  trigger: hgs,
 - replace: 'changing '
-  _tags: [pronoun, the, ing, can, have]
+  _tags:
+  - pronoun
+  - the
+  - ing
+  - can
+  - have
   allow_duplicate: true
   propagate_case: true
-  triggers: ['hgi,']
+  trigger: hgi,
 - replace: 'changed '
-  _tags: [the, have, can, ed, would, else]
+  _tags:
+  - the
+  - have
+  - can
+  - ed
+  - would
+  - else
   allow_duplicate: true
   propagate_case: true
-  triggers: ['hgp,']
+  trigger: hgp,
 - replace: 'change this '
-  _tags: [demonstrative, have, the, can, else]
+  _tags:
+  - demonstrative
+  - have
+  - the
+  - can
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['hgiz,']
+  trigger: hgiz,
 - replace: 'change that '
-  _tags: [demonstrative, have, the, can, else]
+  _tags:
+  - demonstrative
+  - have
+  - the
+  - can
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['hgaz,']
+  trigger: hgaz,
 - replace: 'change these '
-  _tags: [demonstrative, have, the, can, else]
+  _tags:
+  - demonstrative
+  - have
+  - the
+  - can
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['hgez,']
+  trigger: hgez,
 - replace: 'change those '
-  _tags: [demonstrative, have, the, can, else]
+  _tags:
+  - demonstrative
+  - have
+  - the
+  - can
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['hgoz,']
+  trigger: hgoz,
 - replace: 'change the '
-  _tags: [have, the, can, else]
+  _tags:
+  - have
+  - the
+  - can
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['hgh,']
+  trigger: hgh,
 - replace: 'change all '
-  _tags: [have, the, can, else]
+  _tags:
+  - have
+  - the
+  - can
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['hga,']
+  trigger: hga,
 - replace: 'change some '
-  _tags: [have, the, can, else]
+  _tags:
+  - have
+  - the
+  - can
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['hgsm,']
+  trigger: hgsm,
 - replace: 'change each '
-  _tags: [have, the, can, else]
+  _tags:
+  - have
+  - the
+  - can
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['hgeh,']
+  trigger: hgeh,
 - replace: 'change it '
-  _tags: [pronoun, to, can, else]
+  _tags:
+  - pronoun
+  - to
+  - can
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['hgx,']
+  trigger: hgx,
 - replace: 'change them '
-  _tags: [pronoun, to, can, else]
+  _tags:
+  - pronoun
+  - to
+  - can
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['hgmm,']
+  trigger: hgmm,
 - replace: 'change them all '
-  _tags: [pronoun, to, can, else]
+  _tags:
+  - pronoun
+  - to
+  - can
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['hgmmal,']
+  trigger: hgmmal,
 - replace: 'changeable '
-  _tags: [adjective, to, can, else]
+  _tags:
+  - adjective
+  - to
+  - can
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['hgb,']
+  trigger: hgb,
+name: _exx_change

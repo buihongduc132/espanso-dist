@@ -1,0 +1,27 @@
+name: _word_families_ready
+matches:
+- replace: 'ready '
+  _tags:
+  - adjective
+  - else
+  propagate_case: true
+  allow_duplicate: false
+  trigger: red,
+- replace: 'ready to '
+  propagate_case: true
+  allow_duplicate: false
+  trigger: red2,
+- replace: 'readily '
+  _tags:
+  - adverb
+  - else
+  propagate_case: true
+  allow_duplicate: false
+  trigger: redl,
+- replace: 'readiness '
+  _tags:
+  - noun
+  - else
+  propagate_case: true
+  allow_duplicate: false
+  trigger: redm,

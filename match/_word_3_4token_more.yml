@@ -1,107 +1,269 @@
-# ⚠️  WARNING: AUTO-GENERATED FILE - DO NOT EDIT DIRECTLY!
-# This file is generated from word_version by:
-#   scripts/convert_to_tokenized_word_version.py
-# Edit source in space_version and re-run conversions.
-# Tokenizes trailing spaces in triggers to an explicit token.
-# Removes right_word property for tokenized version.
-# Adds trailing space to replacements that don't have one.
-# Current token: ','
-
-name: word_3_four_plus_token
-parent: default
+name: _word_3_4token_more
 matches:
 - replace: 'how can I do '
-  _tags: [question, pronoun, will, the, how, can, would]
+  _tags:
+  - question
+  - pronoun
+  - will
+  - the
+  - how
+  - can
+  - would
   allow_duplicate: true
   propagate_case: true
-  triggers: ['hwqido,']
+  trigger: hwqido,
 - replace: 'what if that is '
-  _tags: [question, pronoun, will, the, what, demonstrative, to, be, have]
+  _tags:
+  - question
+  - pronoun
+  - will
+  - the
+  - what
+  - demonstrative
+  - to
+  - be
+  - have
   propagate_case: true
   allow_duplicate: false
-  triggers: ['wtfazt,']
+  trigger: wtfazt,
 - replace: 'how if this will not '
-  _tags: [question, pronoun, will, the, demonstrative, how, to, negate, be, else]
+  _tags:
+  - question
+  - pronoun
+  - will
+  - the
+  - demonstrative
+  - how
+  - to
+  - negate
+  - be
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['hwfizlln,']
+  trigger: hwfizlln,
 - replace: 'if this is then '
-  _tags: [pronoun, the, demonstrative, time, to, be, else]
+  _tags:
+  - pronoun
+  - the
+  - demonstrative
+  - time
+  - to
+  - be
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['fiztnz,']
+  trigger: fiztnz,
 - replace: 'then if that is '
-  _tags: [pronoun, the, demonstrative, time, to, be, else, have]
+  _tags:
+  - pronoun
+  - the
+  - demonstrative
+  - time
+  - to
+  - be
+  - else
+  - have
   propagate_case: true
   allow_duplicate: false
-  triggers: ['nzfazt,']
-- triggers: ['faztm,', 'faztn,']
-  replace: 'if that is not '
-  _tags: [pronoun, the, demonstrative, to, negate, be, have]
+  trigger: nzfazt,
+- replace: 'if that is not '
+  _tags: &id001
+  - pronoun
+  - the
+  - demonstrative
+  - to
+  - negate
+  - be
+  - have
   propagate_case: true
   allow_duplicate: false
-- triggers: ['wtfido,', 'wtfidot,']
-  replace: 'what if I do '
-  _tags: [question, pronoun, will, the, what, to, would, have]
+  trigger: faztm,
+- replace: 'if that is not '
+  _tags: *id001
   propagate_case: true
   allow_duplicate: false
-- triggers: ['hwqidom,', 'hwqidon,']
-  replace: 'how can I do not '
-  _tags: [question, pronoun, will, the, how, to, negate, can, would]
+  trigger: faztn,
+- replace: 'what if I do '
+  _tags: &id002
+  - question
+  - pronoun
+  - will
+  - the
+  - what
+  - to
+  - would
+  - have
   propagate_case: true
   allow_duplicate: false
+  trigger: wtfido,
+- replace: 'what if I do '
+  _tags: *id002
+  propagate_case: true
+  allow_duplicate: false
+  trigger: wtfidot,
+- replace: 'how can I do not '
+  _tags: &id003
+  - question
+  - pronoun
+  - will
+  - the
+  - how
+  - to
+  - negate
+  - can
+  - would
+  propagate_case: true
+  allow_duplicate: false
+  trigger: hwqidom,
+- replace: 'how can I do not '
+  _tags: *id003
+  propagate_case: true
+  allow_duplicate: false
+  trigger: hwqidon,
 - replace: 'if this is I '
-  _tags: [pronoun, the, demonstrative, to, be]
+  _tags:
+  - pronoun
+  - the
+  - demonstrative
+  - to
+  - be
   propagate_case: true
   allow_duplicate: false
-  triggers: ['fizti,']
+  trigger: fizti,
 - replace: 'what if you can not '
-  _tags: [question, pronoun, will, the, what, to, negate, can, have]
+  _tags:
+  - question
+  - pronoun
+  - will
+  - the
+  - what
+  - to
+  - negate
+  - can
+  - have
   propagate_case: true
   allow_duplicate: false
-  triggers: ['wtfyaqn,']
+  trigger: wtfyaqn,
 - replace: 'how can you do '
-  _tags: [question, pronoun, will, the, how, can, would]
+  _tags:
+  - question
+  - pronoun
+  - will
+  - the
+  - how
+  - can
+  - would
   propagate_case: true
   allow_duplicate: false
-  triggers: ['hwqyado,']
+  trigger: hwqyado,
 - replace: 'if this is you '
-  _tags: [pronoun, the, demonstrative, to, be]
+  _tags:
+  - pronoun
+  - the
+  - demonstrative
+  - to
+  - be
   propagate_case: true
   allow_duplicate: false
-  triggers: ['fiztya,']
+  trigger: fiztya,
 - replace: 'where is not this '
-  _tags: [question, place, pronoun, will, the, demonstrative, where, to, negate, be, else]
+  _tags:
+  - question
+  - place
+  - pronoun
+  - will
+  - the
+  - demonstrative
+  - where
+  - to
+  - negate
+  - be
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['wwxniz,']
+  trigger: wwxniz,
 - replace: 'where is not that '
-  _tags: [question, place, pronoun, will, the, demonstrative, where, to, negate, be, else, have]
+  _tags:
+  - question
+  - place
+  - pronoun
+  - will
+  - the
+  - demonstrative
+  - where
+  - to
+  - negate
+  - be
+  - else
+  - have
   propagate_case: true
   allow_duplicate: false
-  triggers: ['wwxnaz,']
+  trigger: wwxnaz,
 - replace: 'where is not the '
-  _tags: [question, place, pronoun, will, the, where, to, negate, be, else]
+  _tags:
+  - question
+  - place
+  - pronoun
+  - will
+  - the
+  - where
+  - to
+  - negate
+  - be
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['wwxnh,']
-- triggers: ['wfabt,', 'wtfabt,']
-  replace: 'what if about is '
-  _tags: [question, pronoun, will, the, what, to, be, have]
+  trigger: wwxnh,
+- replace: 'what if about is '
+  _tags: &id004
+  - question
+  - pronoun
+  - will
+  - the
+  - what
+  - to
+  - be
+  - have
   propagate_case: true
   allow_duplicate: false
+  trigger: wfabt,
+- replace: 'what if about is '
+  _tags: *id004
+  propagate_case: true
+  allow_duplicate: false
+  trigger: wtfabt,
 - replace: 'this is not about '
-  _tags: [pronoun, the, demonstrative, to, negate, be]
+  _tags:
+  - pronoun
+  - the
+  - demonstrative
+  - to
+  - negate
+  - be
   propagate_case: true
   allow_duplicate: false
-  triggers: ['iztnab,']
+  trigger: iztnab,
 - replace: 'what if any is '
-  _tags: [question, pronoun, will, the, what, to, be, have]
+  _tags:
+  - question
+  - pronoun
+  - will
+  - the
+  - what
+  - to
+  - be
+  - have
   propagate_case: true
   allow_duplicate: false
-  triggers: ['wtfayt,']
+  trigger: wtfayt,
 - replace: 'this do any is '
-  _tags: [pronoun, the, demonstrative, to, be, would]
+  _tags:
+  - pronoun
+  - the
+  - demonstrative
+  - to
+  - be
+  - would
   propagate_case: true
   allow_duplicate: false
-  triggers: ['izdoayt,']
+  trigger: izdoayt,

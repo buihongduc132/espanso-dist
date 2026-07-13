@@ -1,0 +1,146 @@
+name: _word_families_benefit
+matches:
+- replace: 'benefit '
+  _tags:
+  - to
+  - can
+  - else
+  _context_tags:
+  - engineering
+  - prompt
+  propagate_case: true
+  allow_duplicate: false
+  trigger: bene`
+- replace: 'benefits '
+  _tags:
+  - noun
+  - to
+  - else
+  propagate_case: true
+  allow_duplicate: false
+  trigger: benes,
+- replace: 'benefiting '
+  _tags:
+  - ing
+  - to
+  - else
+  propagate_case: true
+  allow_duplicate: false
+  trigger: benei,
+- replace: 'benefited '
+  _tags:
+  - ed
+  - to
+  - else
+  propagate_case: true
+  allow_duplicate: false
+  trigger: benep,
+- replace: 'beneficial '
+  _tags:
+  - adjective
+  - else
+  propagate_case: true
+  allow_duplicate: false
+  trigger: benel,
+- replace: 'beneficially '
+  _tags:
+  - adverb
+  - else
+  propagate_case: true
+  allow_duplicate: false
+  trigger: benell,
+- replace: 'beneficence '
+  _tags:
+  - noun
+  - else
+  propagate_case: true
+  allow_duplicate: false
+  trigger: benemn,
+- replace: 'benefit this '
+  _tags:
+  - verb
+  - demonstrative
+  - to
+  - else
+  propagate_case: true
+  allow_duplicate: false
+  trigger: beneiz,
+- replace: 'benefit that '
+  _tags:
+  - verb
+  - demonstrative
+  - to
+  - else
+  propagate_case: true
+  allow_duplicate: false
+  trigger: beneaz,
+- replace: 'benefit these '
+  _tags:
+  - verb
+  - demonstrative
+  - to
+  - else
+  propagate_case: true
+  allow_duplicate: false
+  trigger: beneez,
+- replace: 'benefit those '
+  _tags:
+  - verb
+  - demonstrative
+  - to
+  - else
+  propagate_case: true
+  allow_duplicate: false
+  trigger: beneoz,
+- replace: 'benefit the '
+  _tags:
+  - verb
+  - to
+  - else
+  propagate_case: true
+  allow_duplicate: false
+  trigger: beneh,
+- replace: 'benefit it '
+  _tags:
+  - verb
+  - to
+  - else
+  propagate_case: true
+  allow_duplicate: false
+  trigger: benex,
+- replace: 'this benefit '
+  _tags:
+  - demonstrative
+  - noun
+  - to
+  - else
+  propagate_case: true
+  allow_duplicate: false
+  trigger: izbene,
+- replace: 'that benefit '
+  _tags:
+  - demonstrative
+  - noun
+  - to
+  - else
+  propagate_case: true
+  allow_duplicate: false
+  trigger: azbene,
+- replace: 'these benefits '
+  _tags:
+  - demonstrative
+  - noun
+  - to
+  - else
+  propagate_case: true
+  allow_duplicate: false
+  trigger: ezbenes,
+- replace: 'those benefits '
+  _tags:
+  - demonstrative
+  - noun
+  - to
+  - else
+  propagate_case: true
+  allow_duplicate: false
+  trigger: ozbenes,

@@ -1,0 +1,111 @@
+name: _word_families_compact
+matches:
+- replace: 'compact '
+  _tags:
+  - to
+  - can
+  - else
+  propagate_case: true
+  allow_duplicate: false
+  trigger: qmpt,
+- replace: 'compacts '
+  _tags:
+  - to
+  - can
+  - else
+  propagate_case: true
+  allow_duplicate: false
+  trigger: qmpts,
+- replace: 'compacting '
+  _tags:
+  - ing
+  - to
+  - can
+  - else
+  - pronoun
+  propagate_case: true
+  allow_duplicate: false
+  trigger: qmpti,
+- replace: 'compacted '
+  _tags:
+  - to
+  - can
+  - ed
+  - would
+  - else
+  propagate_case: true
+  allow_duplicate: false
+  trigger: qmptp,
+- replace: 'compaction '
+  _tags:
+  - noun
+  - else
+  propagate_case: true
+  allow_duplicate: false
+  trigger: qmptm,
+- replace: 'compactness '
+  _tags:
+  - noun
+  - else
+  propagate_case: true
+  allow_duplicate: false
+  trigger: qmptj,
+- replace: 'compactly '
+  _tags:
+  - adverb
+  - else
+  propagate_case: true
+  allow_duplicate: false
+  trigger: qmpty,
+- replace: 'compact this '
+  _tags:
+  - demonstrative
+  - to
+  - can
+  - else
+  propagate_case: true
+  allow_duplicate: false
+  trigger: qmptiz,
+- replace: 'compact that '
+  _tags:
+  - demonstrative
+  - to
+  - can
+  - else
+  propagate_case: true
+  allow_duplicate: false
+  trigger: qmptaz,
+- replace: 'compact these '
+  _tags:
+  - demonstrative
+  - to
+  - can
+  - else
+  propagate_case: true
+  allow_duplicate: false
+  trigger: qmptez,
+- replace: 'compact those '
+  _tags:
+  - demonstrative
+  - to
+  - can
+  - else
+  propagate_case: true
+  allow_duplicate: false
+  trigger: qmptoz,
+- replace: 'compact the '
+  _tags:
+  - the
+  - can
+  - else
+  propagate_case: true
+  allow_duplicate: false
+  trigger: qmpth,
+- replace: 'compact it '
+  _tags:
+  - pronoun
+  - can
+  - else
+  propagate_case: true
+  allow_duplicate: false
+  trigger: qmptx,

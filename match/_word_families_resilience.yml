@@ -1,0 +1,83 @@
+name: _word_families_resilience
+matches:
+- replace: 'resilience '
+  propagate_case: true
+  _tags:
+  - to
+  - can
+  - else
+  - base
+  allow_duplicate: false
+  trigger: weisl,
+- replace: 'resiliences '
+  propagate_case: true
+  _tags:
+  - to
+  - can
+  - else
+  - plural
+  allow_duplicate: false
+  trigger: weisls,
+- replace: 'resilient '
+  propagate_case: true
+  _tags:
+  - to
+  - can
+  - else
+  - adjective
+  allow_duplicate: false
+  trigger: weislj,
+- replace: 'resiliently '
+  propagate_case: true
+  _tags:
+  - to
+  - can
+  - else
+  - adverb
+  allow_duplicate: false
+  trigger: weisljl,
+- replace: 'this resilience '
+  propagate_case: true
+  _tags:
+  - to
+  - can
+  - else
+  - demonstrative
+  allow_duplicate: false
+  trigger: izweisl,
+- replace: 'that resilience '
+  propagate_case: true
+  _tags:
+  - to
+  - can
+  - else
+  - demonstrative
+  allow_duplicate: false
+  trigger: azweisl,
+- replace: 'these resilience '
+  propagate_case: true
+  _tags:
+  - to
+  - can
+  - else
+  - demonstrative
+  allow_duplicate: false
+  trigger: ezweisl,
+- replace: 'those resilience '
+  propagate_case: true
+  _tags:
+  - to
+  - can
+  - else
+  - demonstrative
+  allow_duplicate: false
+  trigger: ozweisl,
+- replace: 'resilience to the '
+  propagate_case: true
+  _tags:
+  - to
+  - can
+  - else
+  - directional
+  allow_duplicate: false
+  trigger: weisl2h,

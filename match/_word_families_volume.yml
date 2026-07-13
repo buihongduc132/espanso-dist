@@ -1,142 +1,224 @@
-# ⚠️  WARNING: AUTO-GENERATED FILE - DO NOT EDIT DIRECTLY!
-# This file is generated from word_version by:
-#   scripts/convert_to_tokenized_word_version.py
-# Edit source in space_version and re-run conversions.
-# Tokenizes trailing spaces in triggers to an explicit token.
-# Removes right_word property for tokenized version.
-# Adds trailing space to replacements that don't have one.
-# Current token: ','
-
-name: word-families-volume
-parent: default
+name: _word_families_volume
 matches:
 - replace: 'volume '
-  _tags: [to, else, would]
+  _tags:
+  - to
+  - else
+  - would
   propagate_case: true
   allow_duplicate: false
-  triggers: ['jol,']
+  trigger: jol,
 - replace: 'volumes '
   _tags: null
   propagate_case: true
   allow_duplicate: false
-  triggers: ['jols,']
+  trigger: jols,
 - replace: 'volumize '
-  _tags: [to, else, would]
+  _tags:
+  - to
+  - else
+  - would
   propagate_case: true
   allow_duplicate: false
-  triggers: ['jolz,']
+  trigger: jolz,
 - replace: 'volumizes '
   _tags: null
   propagate_case: true
   allow_duplicate: false
-  triggers: ['jolzs,']
+  trigger: jolzs,
 - replace: 'volumized '
-  _tags: [ed, to, else, would]
+  _tags:
+  - ed
+  - to
+  - else
+  - would
   propagate_case: true
   allow_duplicate: false
-  triggers: ['jolzp,']
+  trigger: jolzp,
 - replace: 'volumizing '
-  _tags: [pronoun, ing, to, would, else]
+  _tags:
+  - pronoun
+  - ing
+  - to
+  - would
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['jolzi,']
+  trigger: jolzi,
 - replace: 'volumization '
   _tags: null
   propagate_case: true
   allow_duplicate: false
-  triggers: ['jolzm,']
+  trigger: jolzm,
 - replace: 'volumizer '
   _tags: null
   propagate_case: true
   allow_duplicate: false
-  triggers: ['jolzw,']
+  trigger: jolzw,
 - replace: 'volume all '
-  _tags: [quantifier, to, else, would]
+  _tags:
+  - quantifier
+  - to
+  - else
+  - would
   propagate_case: true
   allow_duplicate: false
-  triggers: ['jola,']
+  trigger: jola,
 - replace: 'volume all the '
-  _tags: [quantifier, article, to, else, would]
+  _tags:
+  - quantifier
+  - article
+  - to
+  - else
+  - would
   propagate_case: true
   allow_duplicate: false
-  triggers: ['jolah,']
+  trigger: jolah,
 - replace: 'volume this '
-  _tags: [demonstrative, to, can, else, pronoun]
+  _tags:
+  - demonstrative
+  - to
+  - can
+  - else
+  - pronoun
   propagate_case: true
   allow_duplicate: false
-  triggers: ['izjol,']
+  trigger: izjol,
 - replace: 'volume that '
-  _tags: [demonstrative, to, can, else, pronoun]
+  _tags:
+  - demonstrative
+  - to
+  - can
+  - else
+  - pronoun
   propagate_case: true
   allow_duplicate: false
-  triggers: ['azjol,']
+  trigger: azjol,
 - replace: 'volume these '
-  _tags: [demonstrative, to, can, else, pronoun]
+  _tags:
+  - demonstrative
+  - to
+  - can
+  - else
+  - pronoun
   propagate_case: true
   allow_duplicate: false
-  triggers: ['ezjol,']
+  trigger: ezjol,
 - replace: 'volume those '
-  _tags: [demonstrative, to, can, else, pronoun]
+  _tags:
+  - demonstrative
+  - to
+  - can
+  - else
+  - pronoun
   propagate_case: true
   allow_duplicate: false
-  triggers: ['ozjol,']
+  trigger: ozjol,
 - replace: 'volumize this '
-  _tags: [demonstrative, to, can, else, pronoun]
+  _tags:
+  - demonstrative
+  - to
+  - can
+  - else
+  - pronoun
   propagate_case: true
   allow_duplicate: false
-  triggers: ['izjolz,']
+  trigger: izjolz,
 - replace: 'volumize that '
-  _tags: [demonstrative, to, can, else, pronoun]
+  _tags:
+  - demonstrative
+  - to
+  - can
+  - else
+  - pronoun
   propagate_case: true
   allow_duplicate: false
-  triggers: ['azjolz,']
+  trigger: azjolz,
 - replace: 'volumize these '
-  _tags: [demonstrative, to, can, else, pronoun]
+  _tags:
+  - demonstrative
+  - to
+  - can
+  - else
+  - pronoun
   propagate_case: true
   allow_duplicate: false
-  triggers: ['ezjolz,']
+  trigger: ezjolz,
 - replace: 'volumize those '
-  _tags: [demonstrative, to, can, else, pronoun]
+  _tags:
+  - demonstrative
+  - to
+  - can
+  - else
+  - pronoun
   propagate_case: true
   allow_duplicate: false
-  triggers: ['ozjolz,']
+  trigger: ozjolz,
 - replace: 'volume to the '
-  _tags: [directional, to, can, else]
+  _tags:
+  - directional
+  - to
+  - can
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['jol2h,']
+  trigger: jol2h,
 - replace: 'volume from the '
-  _tags: [directional, from, can, else]
+  _tags:
+  - directional
+  - from
+  - can
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['jol-2h,']
+  trigger: jol-2h,
 - replace: 'volumize to the '
-  _tags: [directional, to, can, else]
+  _tags:
+  - directional
+  - to
+  - can
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['jolz2h,']
+  trigger: jolz2h,
 - replace: 'volumize from the '
-  _tags: [directional, from, can, else]
+  _tags:
+  - directional
+  - from
+  - can
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['jolz-2h,']
+  trigger: jolz-2h,
 - replace: 'single volume '
-  _tags: [number, noun, phrase]
+  _tags:
+  - number
+  - noun
+  - phrase
   propagate_case: true
   allow_duplicate: false
-  triggers: ['1jol,']
+  trigger: 1jol,
 - replace: 'multiple volume '
-  _tags: [number, noun, phrase]
+  _tags:
+  - number
+  - noun
+  - phrase
   propagate_case: true
   allow_duplicate: false
-  triggers: ['8jol,']
+  trigger: 8jol,
 - replace: 'single volumize '
-  _tags: [number, verb, phrase]
+  _tags:
+  - number
+  - verb
+  - phrase
   propagate_case: true
   allow_duplicate: false
-  triggers: ['1jolz,']
+  trigger: 1jolz,
 - replace: 'multiple volumize '
-  _tags: [number, verb, phrase]
+  _tags:
+  - number
+  - verb
+  - phrase
   propagate_case: true
   allow_duplicate: false
-  triggers: ['8jolz,']
+  trigger: 8jolz,

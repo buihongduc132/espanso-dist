@@ -1,85 +1,149 @@
-# ⚠️  WARNING: AUTO-GENERATED FILE - DO NOT EDIT DIRECTLY!
-# This file is generated from word_version by:
-#   scripts/convert_to_tokenized_word_version.py
-# Edit source in space_version and re-run conversions.
-# Tokenizes trailing spaces in triggers to an explicit token.
-# Removes right_word property for tokenized version.
-# Adds trailing space to replacements that don't have one.
-# Current token: ','
-
 matches:
 - replace: 'modify '
-  _tags: [to, can, else, would, pronoun]
+  _tags:
+  - to
+  - can
+  - else
+  - would
+  - pronoun
   propagate_case: true
   allow_duplicate: false
-  triggers: ['emod,']
+  trigger: emod,
 - replace: 'modifier '
-  _tags: [noun, to, can, else, pronoun]
+  _tags:
+  - noun
+  - to
+  - can
+  - else
+  - pronoun
   propagate_case: true
   allow_duplicate: false
-  triggers: ['modw,']
+  trigger: modw,
 - replace: 'modifiers '
-  _tags: [noun, to, can, else, pronoun]
+  _tags:
+  - noun
+  - to
+  - can
+  - else
+  - pronoun
   propagate_case: true
   allow_duplicate: false
-  triggers: ['modws,']
+  trigger: modws,
 - replace: 'upon modify '
-  _tags: [preposition, to, can, else]
+  _tags:
+  - preposition
+  - to
+  - can
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['umod,']
+  trigger: umod,
 - replace: 'not modify '
-  _tags: [negate, to, can, else]
+  _tags:
+  - negate
+  - to
+  - can
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['nmod,']
+  trigger: nmod,
 - replace: 'have been modified '
-  _tags: [ed, would, have, to, can, else]
+  _tags:
+  - ed
+  - would
+  - have
+  - to
+  - can
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['hbmod,']
+  trigger: hbmod,
 - replace: 'is modified '
-  _tags: [ed, be, to, can, else]
+  _tags:
+  - ed
+  - be
+  - to
+  - can
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['tmod,']
+  trigger: tmod,
 - replace: 'modify this '
-  _tags: [demonstrative, to, can, else, pronoun]
+  _tags:
+  - demonstrative
+  - to
+  - can
+  - else
+  - pronoun
   propagate_case: true
   allow_duplicate: false
-  triggers: ['modiz,']
+  trigger: modiz,
 - replace: 'modify that '
-  _tags: [demonstrative, to, can, else, have, pronoun]
+  _tags:
+  - demonstrative
+  - to
+  - can
+  - else
+  - have
+  - pronoun
   propagate_case: true
   allow_duplicate: false
-  triggers: ['modaz,']
+  trigger: modaz,
 - replace: 'modify these '
-  _tags: [demonstrative, to, can, else, pronoun]
+  _tags:
+  - demonstrative
+  - to
+  - can
+  - else
+  - pronoun
   propagate_case: true
   allow_duplicate: false
-  triggers: ['modez,']
+  trigger: modez,
 - replace: 'modify those '
-  _tags: [demonstrative, to, can, else, pronoun]
+  _tags:
+  - demonstrative
+  - to
+  - can
+  - else
+  - pronoun
   propagate_case: true
   allow_duplicate: false
-  triggers: ['modoz,']
+  trigger: modoz,
 - replace: 'modify the '
-  _tags: [the, to, can, else, pronoun]
+  _tags:
+  - the
+  - to
+  - can
+  - else
+  - pronoun
   propagate_case: true
   allow_duplicate: false
-  triggers: ['modh,']
+  trigger: modh,
 - replace: 'modify all '
-  _tags: [to, can, else, pronoun]
+  _tags:
+  - to
+  - can
+  - else
+  - pronoun
   propagate_case: true
   allow_duplicate: false
-  triggers: ['moda,']
+  trigger: moda,
 - replace: 'modify some '
-  _tags: [to, can, else, pronoun]
+  _tags:
+  - to
+  - can
+  - else
+  - pronoun
   propagate_case: true
   allow_duplicate: false
-  triggers: ['modsm,']
+  trigger: modsm,
 - replace: 'modify each '
-  _tags: [to, can, else, pronoun]
+  _tags:
+  - to
+  - can
+  - else
+  - pronoun
   propagate_case: true
   allow_duplicate: false
-  triggers: ['modeh,']
+  trigger: modeh,
+name: _exx_modify

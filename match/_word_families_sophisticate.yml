@@ -1,44 +1,34 @@
-# ⚠️  WARNING: AUTO-GENERATED FILE - DO NOT EDIT DIRECTLY!
-# This file is generated from word_version by:
-#   scripts/convert_to_tokenized_word_version.py
-# Edit source in space_version and re-run conversions.
-# Tokenizes trailing spaces in triggers to an explicit token.
-# Removes right_word property for tokenized version.
-# Adds trailing space to replacements that don't have one.
-# Current token: ','
-
-name: word-families-sophisticate
-parent: default
+name: _word_families_sophisticate
 matches:
 - replace: 'sophisticate '
   propagate_case: true
   allow_duplicate: false
-  triggers: ['sophi,']
+  trigger: sophi,
 - replace: 'sophisticates '
   propagate_case: true
   allow_duplicate: false
-  triggers: ['sophis,']
+  trigger: sophis,
 - replace: 'sophisticating '
   propagate_case: true
   allow_duplicate: false
-  triggers: ['sophii,']
+  trigger: sophii,
 - replace: 'sophisticated '
   propagate_case: true
   allow_duplicate: false
-  triggers: ['sophip,']
+  trigger: sophip,
 - replace: 'sophistication '
   propagate_case: true
   allow_duplicate: false
-  triggers: ['sophim,']
+  trigger: sophim,
 - replace: 'sophisticable '
   propagate_case: true
   allow_duplicate: false
-  triggers: ['sophib,']
+  trigger: sophib,
 - replace: 'sophisticator '
   propagate_case: true
   allow_duplicate: false
-  triggers: ['sophiw,']
+  trigger: sophiw,
 - replace: 'sophisticator '
   propagate_case: true
   allow_duplicate: false
-  triggers: ['sophio,']
+  trigger: sophio,

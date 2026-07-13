@@ -1,52 +1,82 @@
-# ⚠️  WARNING: AUTO-GENERATED FILE - DO NOT EDIT DIRECTLY!
-# This file is generated from word_version by:
-#   scripts/convert_to_tokenized_word_version.py
-# Edit source in space_version and re-run conversions.
-# Tokenizes trailing spaces in triggers to an explicit token.
-# Removes right_word property for tokenized version.
-# Adds trailing space to replacements that don't have one.
-# Current token: ','
-
-name: word-family-matrix
-parent: default
+name: _word_families_matrix
 matches:
 - replace: 'matrix '
-  _tags: [noun, to, can, else, pronoun]
+  _tags:
+  - noun
+  - to
+  - can
+  - else
+  - pronoun
   propagate_case: true
   allow_duplicate: false
-  triggers: ['miax,']
+  trigger: miax,
 - replace: 'matrices '
-  _tags: [noun, to, can, else, pronoun]
+  _tags:
+  - noun
+  - to
+  - can
+  - else
+  - pronoun
   propagate_case: true
   allow_duplicate: false
-  triggers: ['miaxs,']
+  trigger: miaxs,
 - replace: 'matrixing '
-  _tags: [verb, ing, to, can, pronoun, else]
+  _tags:
+  - verb
+  - ing
+  - to
+  - can
+  - pronoun
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['miaxi,']
+  trigger: miaxi,
 - replace: 'matrixed '
-  _tags: [verb, ed, would, to, can, else, pronoun]
+  _tags:
+  - verb
+  - ed
+  - would
+  - to
+  - can
+  - else
+  - pronoun
   propagate_case: true
   allow_duplicate: false
-  triggers: ['miaxp,']
+  trigger: miaxp,
 - replace: 'matrixable '
-  _tags: [adjective, to, can, else, pronoun]
+  _tags:
+  - adjective
+  - to
+  - can
+  - else
+  - pronoun
   propagate_case: true
   allow_duplicate: false
-  triggers: ['miaxb,']
+  trigger: miaxb,
 - replace: 'matrix to the '
-  _tags: [phrase, to, can, else]
+  _tags:
+  - phrase
+  - to
+  - can
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['miax2h,']
+  trigger: miax2h,
 - replace: 'this matrix '
-  _tags: [phrase, to, can, else]
+  _tags:
+  - phrase
+  - to
+  - can
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['miaxiz,']
+  trigger: miaxiz,
 - replace: 'that matrix '
-  _tags: [phrase, to, can, else]
+  _tags:
+  - phrase
+  - to
+  - can
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['miaxaz,']
+  trigger: miaxaz,

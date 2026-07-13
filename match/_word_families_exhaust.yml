@@ -1,0 +1,211 @@
+name: _word_families_exhaust
+matches:
+- replace: 'exhaust '
+  _tags:
+  - noun
+  - verb
+  - to
+  - else
+  propagate_case: true
+  allow_duplicate: false
+  trigger: exha,
+- replace: 'exhausts '
+  _tags:
+  - noun
+  - plural
+  - verb
+  - to
+  - else
+  propagate_case: true
+  allow_duplicate: false
+  trigger: exhas,
+- replace: 'exhausting '
+  _tags:
+  - ing
+  - verb
+  - to
+  - else
+  propagate_case: true
+  allow_duplicate: false
+  trigger: exhai,
+- replace: 'exhausted '
+  _tags:
+  - ed
+  - verb
+  - to
+  - else
+  propagate_case: true
+  allow_duplicate: false
+  trigger: exhap,
+- replace: 'exhaustion '
+  _tags:
+  - noun
+  - to
+  - else
+  propagate_case: true
+  allow_duplicate: false
+  trigger: exham,
+- replace: 'exhaustive '
+  _tags:
+  - adjective
+  - to
+  - else
+  propagate_case: true
+  allow_duplicate: false
+  trigger: exhav,
+- replace: 'exhaustively '
+  _tags:
+  - adverb
+  - to
+  - else
+  propagate_case: true
+  allow_duplicate: false
+  trigger: exhavl,
+- replace: 'exhaustible '
+  _tags:
+  - adjective
+  - to
+  - else
+  propagate_case: true
+  allow_duplicate: false
+  trigger: exhab,
+- replace: 'exhaustibly '
+  _tags:
+  - adverb
+  - to
+  - else
+  propagate_case: true
+  allow_duplicate: false
+  trigger: exhabl,
+- replace: 'this exhaust '
+  _tags:
+  - demonstrative
+  - th_foundation
+  propagate_case: true
+  allow_duplicate: false
+  trigger: izexha,
+- replace: 'that exhaust '
+  _tags:
+  - demonstrative
+  - th_foundation
+  propagate_case: true
+  allow_duplicate: false
+  trigger: azexha,
+- replace: 'these exhausts '
+  _tags:
+  - demonstrative
+  - th_foundation
+  - plural
+  propagate_case: true
+  allow_duplicate: false
+  trigger: ezexhas,
+- replace: 'those exhausts '
+  _tags:
+  - demonstrative
+  - th_foundation
+  - plural
+  propagate_case: true
+  allow_duplicate: false
+  trigger: ozexhas,
+- replace: 'exhaust this '
+  _tags:
+  - demonstrative
+  - th_foundation
+  propagate_case: true
+  allow_duplicate: false
+  trigger: exhaiz,
+- replace: 'exhaust that '
+  _tags:
+  - demonstrative
+  - th_foundation
+  propagate_case: true
+  allow_duplicate: false
+  trigger: exhaaz,
+- replace: 'exhaust these '
+  _tags:
+  - demonstrative
+  - th_foundation
+  propagate_case: true
+  allow_duplicate: false
+  trigger: exhaez,
+- replace: 'exhaust those '
+  _tags:
+  - demonstrative
+  - th_foundation
+  propagate_case: true
+  allow_duplicate: false
+  trigger: exhaoz,
+- replace: 'exhaust it '
+  _tags:
+  - pronoun
+  propagate_case: true
+  allow_duplicate: false
+  trigger: exhait,
+- replace: 'exhaust them '
+  _tags:
+  - pronoun
+  propagate_case: true
+  allow_duplicate: false
+  trigger: exhamm,
+- replace: 'exhaust the '
+  _tags:
+  - pronoun
+  propagate_case: true
+  allow_duplicate: false
+  trigger: exhah,
+- replace: 'what exhaust '
+  _tags:
+  - question
+  propagate_case: true
+  allow_duplicate: false
+  trigger: wtexha,
+- replace: 'where exhaust '
+  _tags:
+  - question
+  propagate_case: true
+  allow_duplicate: false
+  trigger: wwexha,
+- replace: 'when exhaust '
+  _tags:
+  - question
+  propagate_case: true
+  allow_duplicate: false
+  trigger: wnexha,
+- replace: 'why exhaust '
+  _tags:
+  - question
+  propagate_case: true
+  allow_duplicate: false
+  trigger: wyexha,
+- replace: 'how exhaust '
+  _tags:
+  - question
+  propagate_case: true
+  allow_duplicate: false
+  trigger: hwexha,
+- replace: 'exhaust to the '
+  _tags:
+  - directional
+  propagate_case: true
+  allow_duplicate: false
+  trigger: exha2h,
+- replace: 'from the exhaust '
+  _tags:
+  - directional
+  propagate_case: true
+  allow_duplicate: false
+  trigger: 22hexha,
+- replace: 'from the exhausts '
+  _tags:
+  - directional
+  propagate_case: true
+  allow_duplicate: false
+  trigger: 22hexhas,
+- replace: 'exhaust have '
+  propagate_case: true
+  allow_duplicate: false
+  trigger: exhaha,
+- replace: 'exhaust has '
+  propagate_case: true
+  allow_duplicate: false
+  trigger: exhahass,

@@ -1,137 +1,225 @@
-# ⚠️  WARNING: AUTO-GENERATED FILE - DO NOT EDIT DIRECTLY!
-# This file is generated from word_version by:
-#   scripts/convert_to_tokenized_word_version.py
-# Edit source in space_version and re-run conversions.
-# Tokenizes trailing spaces in triggers to an explicit token.
-# Removes right_word property for tokenized version.
-# Adds trailing space to replacements that don't have one.
-# Current token: ','
-
-name: word-families-w8
-parent: default
+name: _word_families_wait_numeric
 matches:
 - replace: 'wait '
-  _tags: [action, verb, abbreviation, else]
+  _tags:
+  - action
+  - verb
+  - abbreviation
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['w8,']
+  trigger: w8,
 - replace: 'waits '
-  _tags: [action, verb, abbreviation, to]
+  _tags:
+  - action
+  - verb
+  - abbreviation
+  - to
   propagate_case: true
   allow_duplicate: false
-  triggers: ['w8s,']
+  trigger: w8s,
 - replace: 'waiting '
-  _tags: [action, verb, abbreviation, ing, can]
+  _tags:
+  - action
+  - verb
+  - abbreviation
+  - ing
+  - can
   propagate_case: true
   allow_duplicate: false
-  triggers: ['w8i,']
+  trigger: w8i,
 - replace: 'waited '
-  _tags: [action, verb, abbreviation, ed, would]
+  _tags:
+  - action
+  - verb
+  - abbreviation
+  - ed
+  - would
   propagate_case: true
   allow_duplicate: false
-  triggers: ['w8p,']
+  trigger: w8p,
 - replace: 'waiting '
-  _tags: [action, noun, abbreviation, else]
+  _tags:
+  - action
+  - noun
+  - abbreviation
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['w8m,']
+  trigger: w8m,
 - replace: 'waitness '
-  _tags: [action, noun, abbreviation, else]
+  _tags:
+  - action
+  - noun
+  - abbreviation
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['w8n,']
+  trigger: w8n,
 - replace: 'waiter '
-  _tags: [action, noun, abbreviation, else]
+  _tags:
+  - action
+  - noun
+  - abbreviation
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['w8w,']
+  trigger: w8w,
 - replace: 'waiters '
-  _tags: [action, noun, abbreviation, to]
+  _tags:
+  - action
+  - noun
+  - abbreviation
+  - to
   propagate_case: true
   allow_duplicate: false
-  triggers: ['w8ws,']
+  trigger: w8ws,
 - replace: 'waitable '
-  _tags: [adjective, abbreviation, else]
+  _tags:
+  - adjective
+  - abbreviation
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['w8b,']
+  trigger: w8b,
 - replace: 'waitably '
-  _tags: [adverb, abbreviation, else]
+  _tags:
+  - adverb
+  - abbreviation
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['w8bl,']
+  trigger: w8bl,
 - replace: 'wait '
-  _tags: [adjective, abbreviation, else]
+  _tags:
+  - adjective
+  - abbreviation
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['w8j,']
+  trigger: w8j,
 - replace: 'waitly '
-  _tags: [adverb, abbreviation, else]
+  _tags:
+  - adverb
+  - abbreviation
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['w8jl,']
+  trigger: w8jl,
 - replace: 'this wait '
-  _tags: [demonstrative, this, abbreviation, else]
+  _tags:
+  - demonstrative
+  - this
+  - abbreviation
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['izw8,']
+  trigger: izw8,
 - replace: 'that wait '
-  _tags: [demonstrative, that, abbreviation, else]
+  _tags:
+  - demonstrative
+  - that
+  - abbreviation
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['azw8,']
+  trigger: azw8,
 - replace: 'these waits '
-  _tags: [demonstrative, these, abbreviation, to]
+  _tags:
+  - demonstrative
+  - these
+  - abbreviation
+  - to
   propagate_case: true
   allow_duplicate: false
-  triggers: ['ezw8s,']
+  trigger: ezw8s,
 - replace: 'those waits '
-  _tags: [demonstrative, those, abbreviation, to]
+  _tags:
+  - demonstrative
+  - those
+  - abbreviation
+  - to
   propagate_case: true
   allow_duplicate: false
-  triggers: ['ozw8s,']
+  trigger: ozw8s,
 - replace: 'what wait '
-  _tags: [question, what, abbreviation, else]
+  _tags:
+  - question
+  - what
+  - abbreviation
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['wtlw8,']
+  trigger: wtlw8,
 - replace: 'where wait '
-  _tags: [question, where, abbreviation, else]
+  _tags:
+  - question
+  - where
+  - abbreviation
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['whlw8,']
+  trigger: whlw8,
 - replace: 'when wait '
-  _tags: [question, when, abbreviation, else]
+  _tags:
+  - question
+  - when
+  - abbreviation
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['wnlw8,']
+  trigger: wnlw8,
 - replace: 'why wait '
-  _tags: [question, why, abbreviation, else]
+  _tags:
+  - question
+  - why
+  - abbreviation
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['wylw8,']
+  trigger: wylw8,
 - replace: 'how wait '
-  _tags: [question, how, abbreviation, else]
+  _tags:
+  - question
+  - how
+  - abbreviation
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['hwlw8,']
+  trigger: hwlw8,
 - replace: 'to the wait '
-  _tags: [directional, to, abbreviation, else]
+  _tags:
+  - directional
+  - to
+  - abbreviation
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['2hw8,']
+  trigger: 2hw8,
 - replace: 'from the wait '
-  _tags: [directional, from, abbreviation, else]
+  _tags:
+  - directional
+  - from
+  - abbreviation
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['22hw8,']
+  trigger: 22hw8,
 - replace: 'into wait '
-  _tags: [directional, into, abbreviation, else]
+  _tags:
+  - directional
+  - into
+  - abbreviation
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['2iw8,']
+  trigger: 2iw8,
 - replace: 'for the wait '
-  _tags: [directional, for, abbreviation, else]
+  _tags:
+  - directional
+  - for
+  - abbreviation
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['4tow8,']
+  trigger: 4tow8,

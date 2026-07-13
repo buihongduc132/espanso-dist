@@ -1,0 +1,54 @@
+name: _word_families_tackle
+matches:
+- replace: 'tackle '
+  _tags:
+  - verb
+  - noun
+  - to
+  - else
+  propagate_case: true
+  allow_duplicate: false
+  trigger: tkl,
+- replace: 'tackles '
+  _tags:
+  - verb
+  - noun
+  - to
+  - else
+  propagate_case: true
+  allow_duplicate: false
+  trigger: tkls,
+- replace: 'tackling '
+  _tags:
+  - ing
+  - verb
+  - to
+  - else
+  propagate_case: true
+  allow_duplicate: false
+  trigger: tkli,
+- replace: 'tackled '
+  _tags:
+  - ed
+  - verb
+  - to
+  - else
+  propagate_case: true
+  allow_duplicate: false
+  trigger: tklp,
+- replace: 'tackler '
+  _tags:
+  - noun
+  - to
+  - else
+  propagate_case: true
+  allow_duplicate: false
+  trigger: tklw,
+- replace: 'tacklers '
+  _tags:
+  - noun
+  - to
+  - else
+  propagate_case: true
+  allow_duplicate: false
+  trigger: tklws,

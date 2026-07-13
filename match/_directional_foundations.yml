@@ -1,0 +1,293 @@
+matches:
+- replace: 'to if '
+  _tags:
+  - to
+  - preposition
+  - directional
+  - foundation
+  - 222_group
+  propagate_case: true
+  allow_duplicate: false
+  trigger: 2f,
+- replace: 'from if '
+  _tags:
+  - from
+  - preposition
+  - directional
+  - foundation
+  - 222_group
+  propagate_case: true
+  allow_duplicate: false
+  trigger: 22f,
+- replace: 'to with '
+  _tags:
+  - to
+  - preposition
+  - directional
+  - foundation
+  - 222_group
+  propagate_case: true
+  allow_duplicate: false
+  trigger: 2w,
+- replace: 'from with '
+  _tags:
+  - from
+  - preposition
+  - directional
+  - foundation
+  - 222_group
+  propagate_case: true
+  allow_duplicate: false
+  trigger: 22w,
+- replace: 'to them '
+  _tags:
+  - to
+  - preposition
+  - directional
+  - foundation
+  - 222_group
+  propagate_case: true
+  allow_duplicate: false
+  trigger: 2mm,
+- replace: 'from them '
+  _tags:
+  - from
+  - preposition
+  - directional
+  - foundation
+  - 222_group
+  propagate_case: true
+  allow_duplicate: false
+  trigger: 22mm,
+- replace: 'to not '
+  _tags:
+  - to
+  - preposition
+  - directional
+  - foundation
+  - 222_group
+  propagate_case: true
+  allow_duplicate: false
+  trigger: 2n,
+- replace: 'from not '
+  _tags:
+  - from
+  - preposition
+  - directional
+  - foundation
+  - 222_group
+  propagate_case: true
+  allow_duplicate: false
+  trigger: 22n,
+- replace: 'to and '
+  _tags:
+  - to
+  - preposition
+  - directional
+  - foundation
+  - 222_group
+  propagate_case: true
+  allow_duplicate: false
+  trigger: 2d,
+- replace: 'from and '
+  _tags:
+  - from
+  - preposition
+  - directional
+  - foundation
+  - 222_group
+  propagate_case: true
+  allow_duplicate: false
+  trigger: 22d,
+- replace: 'to is '
+  _tags:
+  - to
+  - preposition
+  - directional
+  - foundation
+  - 222_group
+  propagate_case: true
+  allow_duplicate: false
+  trigger: 2s,
+- replace: 'from is '
+  _tags:
+  - from
+  - preposition
+  - directional
+  - foundation
+  - 222_group
+  propagate_case: true
+  allow_duplicate: false
+  trigger: 22s,
+- replace: 'to have '
+  _tags:
+  - to
+  - preposition
+  - directional
+  - foundation
+  - 222_group
+  propagate_case: true
+  allow_duplicate: false
+  trigger: 2j,
+- replace: 'from have '
+  _tags:
+  - from
+  - preposition
+  - directional
+  - foundation
+  - 222_group
+  propagate_case: true
+  allow_duplicate: false
+  trigger: 22j,
+- replace: 'to be '
+  _tags:
+  - to
+  - preposition
+  - directional
+  - foundation
+  - 222_group
+  propagate_case: true
+  allow_duplicate: false
+  trigger: 2b,
+- replace: 'from be '
+  _tags:
+  - from
+  - preposition
+  - directional
+  - foundation
+  - 222_group
+  propagate_case: true
+  allow_duplicate: false
+  trigger: 22b,
+- replace: 'to get '
+  _tags:
+  - to
+  - preposition
+  - directional
+  - foundation
+  - 222_group
+  propagate_case: true
+  allow_duplicate: false
+  trigger: 2g,
+- replace: 'from get '
+  _tags:
+  - from
+  - preposition
+  - directional
+  - foundation
+  - 222_group
+  propagate_case: true
+  allow_duplicate: false
+  trigger: 22g,
+- replace: 'to you '
+  _tags:
+  - to
+  - preposition
+  - directional
+  - foundation
+  - 222_group
+  propagate_case: true
+  allow_duplicate: false
+  trigger: 2ya,
+- replace: 'from you '
+  _tags:
+  - from
+  - preposition
+  - directional
+  - foundation
+  - 222_group
+  propagate_case: true
+  allow_duplicate: false
+  trigger: 22ya,
+- replace: 'to do '
+  _tags:
+  - to
+  - preposition
+  - directional
+  - foundation
+  - 222_group
+  propagate_case: true
+  allow_duplicate: false
+  trigger: 2u,
+- replace: 'to do it '
+  _tags:
+  - to
+  - preposition
+  - directional
+  - foundation
+  - 222_group
+  propagate_case: true
+  allow_duplicate: false
+  trigger: 2ux,
+- replace: 'from do '
+  _tags:
+  - from
+  - preposition
+  - directional
+  - foundation
+  - 222_group
+  propagate_case: true
+  allow_duplicate: false
+  trigger: 22u,
+- replace: 'to it '
+  _tags:
+  - to
+  - preposition
+  - directional
+  - foundation
+  - 222_group
+  propagate_case: true
+  allow_duplicate: false
+  trigger: 2i,
+- replace: 'to it '
+  _tags:
+  - to
+  - preposition
+  - directional
+  - foundation
+  - 222_group
+  propagate_case: true
+  allow_duplicate: false
+  trigger: 2x,
+- replace: 'from it '
+  _tags:
+  - from
+  - preposition
+  - directional
+  - foundation
+  - 222_group
+  propagate_case: true
+  allow_duplicate: false
+  trigger: 22i,
+- replace: 'to move '
+  _tags:
+  - to
+  - preposition
+  - directional
+  - foundation
+  - 222_group
+  propagate_case: true
+  allow_duplicate: false
+  trigger: 2mz,
+- replace: 'from move '
+  _tags:
+  - from
+  - preposition
+  - directional
+  - foundation
+  - 222_group
+  propagate_case: true
+  allow_duplicate: false
+  trigger: 22mz,
+- replace: 'to not be '
+  _tags:
+  - to
+  - negate
+  - be
+  - directional
+  - foundation
+  - 222_group
+  propagate_case: true
+  allow_duplicate: false
+  trigger: 2nb,
+name: _directional_foundations

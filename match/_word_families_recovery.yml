@@ -1,0 +1,53 @@
+name: _word_families_recovery
+matches:
+- replace: 'recover '
+  _tags:
+  - verb
+  - else
+  propagate_case: true
+  allow_duplicate: false
+  trigger: wqoj,
+- replace: 'recovers '
+  _tags:
+  - verb
+  - else
+  propagate_case: true
+  allow_duplicate: false
+  trigger: wqojs,
+- replace: 'recovering '
+  _tags:
+  - verb
+  - ing
+  - else
+  propagate_case: true
+  allow_duplicate: false
+  trigger: wqoji,
+- replace: 'recovered '
+  _tags:
+  - verb
+  - ed
+  - else
+  propagate_case: true
+  allow_duplicate: false
+  trigger: wqojp,
+- replace: 'recovery '
+  _tags:
+  - noun
+  - else
+  propagate_case: true
+  allow_duplicate: false
+  trigger: wqojy,
+- replace: 'recoveries '
+  _tags:
+  - noun
+  - else
+  propagate_case: true
+  allow_duplicate: false
+  trigger: wqojys,
+- replace: 'recoverable '
+  _tags:
+  - adjective
+  - else
+  propagate_case: true
+  allow_duplicate: false
+  trigger: wqojb,

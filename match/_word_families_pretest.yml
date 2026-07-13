@@ -1,0 +1,26 @@
+name: _word_families_pretest
+matches:
+- replace: 'pretest '
+  propagate_case: true
+  allow_duplicate: false
+  trigger: pwtes,
+- replace: 'pretests '
+  propagate_case: true
+  allow_duplicate: false
+  trigger: pwtess,
+- replace: 'pretesting '
+  propagate_case: true
+  allow_duplicate: false
+  trigger: pwtesi,
+- replace: 'pretested '
+  propagate_case: true
+  allow_duplicate: false
+  trigger: pwtesp,
+- replace: 'pretestion '
+  propagate_case: true
+  allow_duplicate: false
+  trigger: pwtesm,
+- replace: 'pretestable '
+  propagate_case: true
+  allow_duplicate: false
+  trigger: pwtesb,

@@ -1,34 +1,36 @@
-# ⚠️  WARNING: AUTO-GENERATED FILE - DO NOT EDIT DIRECTLY!
-# This file is generated from word_version by:
-#   scripts/convert_to_tokenized_word_version.py
-# Edit source in space_version and re-run conversions.
-# Tokenizes trailing spaces in triggers to an explicit token.
-# Removes right_word property for tokenized version.
-# Adds trailing space to replacements that don't have one.
-# Current token: ','
-
-name: ai
-parent: default
+name: _ai
 global_vars:
 - name: PYTHON_CMD
   type: var
-  params: {name: python}
+  params:
+    name: python
 - name: SCRIPTS_DIR
   type: path
-  params: {path: '{{BASE_DIR}}/scripts'}
+  params:
+    path: '{{BASE_DIR}}/scripts'
 matches:
 - replace: 'stelterlab/DeepSeek-R1-Distill-Qwen-14B-AWQ '
-  _tags: [pronoun, will, to, can, be, would, else]
+  _tags:
+  - pronoun
+  - will
+  - to
+  - can
+  - be
+  - would
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['::loqalmodel,']
+  trigger: ::loqalmodel,
 - replace: '{{output}} '
   regex: ::itmo (?P<question>.+)
   vars:
   - name: output
     type: script
     params:
-      args: ['{{PYTHON_CMD}}', '{{SCRIPTS_DIR}}/openai_query.py', '{{question}}']
+      args:
+      - '{{PYTHON_CMD}}'
+      - '{{SCRIPTS_DIR}}/openai_query.py'
+      - '{{question}}'
   propagate_case: true
   allow_duplicate: false
 - replace: '{{output}} '
@@ -37,6 +39,9 @@ matches:
   - name: output
     type: script
     params:
-      args: ['{{PYTHON_CMD}}', '{{SCRIPTS_DIR}}/gemini_query.py', '{{question}}']
+      args:
+      - '{{PYTHON_CMD}}'
+      - '{{SCRIPTS_DIR}}/gemini_query.py'
+      - '{{question}}'
   propagate_case: true
   allow_duplicate: false

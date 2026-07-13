@@ -1,0 +1,30 @@
+name: _word_families_module
+matches:
+- replace: 'module '
+  _tags:
+  - noun
+  - else
+  propagate_case: true
+  allow_duplicate: false
+  trigger: mou,,
+- replace: 'modules '
+  _tags:
+  - noun
+  - else
+  propagate_case: true
+  allow_duplicate: false
+  trigger: mous,
+- replace: 'modular '
+  _tags:
+  - adjective
+  - else
+  propagate_case: true
+  allow_duplicate: false
+  trigger: mour,
+- replace: 'modularity '
+  _tags:
+  - noun
+  - else
+  propagate_case: true
+  allow_duplicate: false
+  trigger: mourm,

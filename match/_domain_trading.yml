@@ -1,152 +1,226 @@
-# ⚠️  WARNING: AUTO-GENERATED FILE - DO NOT EDIT DIRECTLY!
-# This file is generated from word_version by:
-#   scripts/convert_to_tokenized_word_version.py
-# Edit source in space_version and re-run conversions.
-# Tokenizes trailing spaces in triggers to an explicit token.
-# Removes right_word property for tokenized version.
-# Adds trailing space to replacements that don't have one.
-# Current token: ','
-
-name: 1char
-parent: default
+name: _domain_trading
 matches:
 - replace: 'funding rate '
-  _tags: [pronoun, ing, to, would, else]
+  _tags:
+  - pronoun
+  - ing
+  - to
+  - would
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: [fw`]
+  trigger: fw`
 - replace: 'arbitrage '
-  _tags: [to, else, pronoun]
+  _tags:
+  - to
+  - else
+  - pronoun
   propagate_case: true
   allow_duplicate: false
-  triggers: ['awbt,']
+  trigger: awbt,
 - replace: 'arbitrages '
-  _tags: [to, else, pronoun]
+  _tags:
+  - to
+  - else
+  - pronoun
   propagate_case: true
   allow_duplicate: false
-  triggers: ['awbts,']
+  trigger: awbts,
 - replace: 'arbitraging '
-  _tags: [to, else, pronoun]
+  _tags:
+  - to
+  - else
+  - pronoun
   propagate_case: true
   allow_duplicate: false
-  triggers: ['awbti,']
+  trigger: awbti,
 - replace: 'arbitraged '
-  _tags: [to, else, pronoun]
+  _tags:
+  - to
+  - else
+  - pronoun
   propagate_case: true
   allow_duplicate: false
-  triggers: ['awbtp,']
+  trigger: awbtp,
 - replace: 'arbitrager '
-  _tags: [to, else, pronoun]
+  _tags:
+  - to
+  - else
+  - pronoun
   propagate_case: true
   allow_duplicate: false
-  triggers: ['awbtr,']
+  trigger: awbtr,
 - replace: 'arbitragers '
-  _tags: [to, else, pronoun]
+  _tags:
+  - to
+  - else
+  - pronoun
   propagate_case: true
   allow_duplicate: false
-  triggers: ['awbtrs,']
+  trigger: awbtrs,
 - replace: 'arbitrager '
-  _tags: [to, else, pronoun]
+  _tags:
+  - to
+  - else
+  - pronoun
   allow_duplicate: true
   propagate_case: true
-  triggers: ['awbtw,']
+  trigger: awbtw,
 - replace: 'arbitragers '
-  _tags: [to, else, pronoun]
+  _tags:
+  - to
+  - else
+  - pronoun
   allow_duplicate: true
   propagate_case: true
-  triggers: ['awbtws,']
+  trigger: awbtws,
 - replace: 'subscribe '
-  _tags: [to, else]
+  _tags:
+  - to
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['sub,']
+  trigger: sub,
 - replace: 'subscribes '
-  _tags: [to, else]
+  _tags:
+  - to
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['subs,']
+  trigger: subs,
 - replace: 'subscribing '
-  _tags: [to, else]
+  _tags:
+  - to
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['subi,']
+  trigger: subi,
 - replace: 'subscribed '
-  _tags: [to, else]
+  _tags:
+  - to
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['subp,']
+  trigger: subp,
 - replace: 'subscriber '
-  _tags: [to, else]
+  _tags:
+  - to
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['subw,']
+  trigger: subw,
 - replace: 'subscribers '
-  _tags: [to, else]
+  _tags:
+  - to
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['subws,']
+  trigger: subws,
 - replace: 'connector '
-  _tags: [to, else]
+  _tags:
+  - to
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['qneo,']
+  trigger: qneo,
 - replace: 'connectors '
-  _tags: [to, else, else]
+  _tags:
+  - to
+  - else
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['qneos,']
+  trigger: qneos,
 - replace: 'positions(s) '
-  _tags: [to, pronoun]
+  _tags:
+  - to
+  - pronoun
   propagate_case: true
   allow_duplicate: false
-  triggers: [POS`]
+  trigger: POS`
 - replace: 'trader '
-  _tags: [to, else, would]
+  _tags:
+  - to
+  - else
+  - would
   propagate_case: true
   allow_duplicate: false
-  triggers: [TD`]
+  trigger: TD`
 - replace: 'trading '
-  _tags: [to, pronoun, ing, would]
+  _tags:
+  - to
+  - pronoun
+  - ing
+  - would
   propagate_case: true
   allow_duplicate: false
-  triggers: [TDI`]
+  trigger: TDI`
 - replace: 'symbol(s) '
-  _tags: [else]
+  _tags:
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: [SYM`]
+  trigger: SYM`
 - replace: 'portfolio '
-  _tags: [to, else, pronoun]
+  _tags:
+  - to
+  - else
+  - pronoun
   propagate_case: true
   allow_duplicate: false
-  triggers: [powt`]
+  trigger: powt`
 - replace: 'exchange(s) '
-  _tags: [have, the, can, else]
+  _tags:
+  - have
+  - the
+  - can
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: [EX`]
+  trigger: EX`
 - replace: 'currency(ies) '
-  _tags: [can, else, pronoun]
+  _tags:
+  - can
+  - else
+  - pronoun
   propagate_case: true
   allow_duplicate: false
-  triggers: [quw`]
+  trigger: quw`
 - replace: 'withdrawal '
-  _tags: [pronoun, will, the, to, would, else]
+  _tags:
+  - pronoun
+  - will
+  - the
+  - to
+  - would
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: [WIT`]
+  trigger: WIT`
 - replace: 'deposit '
-  _tags: [to, pronoun, else, would]
+  _tags:
+  - to
+  - pronoun
+  - else
+  - would
   propagate_case: true
   allow_duplicate: false
-  triggers: [DEP`]
+  trigger: DEP`
 - replace: 'stoploss '
-  _tags: [to, else]
+  _tags:
+  - to
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: [SL`]
+  trigger: SL`
 - replace: 'risk/reward ratio '
-  _tags: [pronoun, will, to, be, would, else]
+  _tags:
+  - pronoun
+  - will
+  - to
+  - be
+  - would
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: [ww`]
+  trigger: ww`

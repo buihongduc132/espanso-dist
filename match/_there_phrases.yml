@@ -1,102 +1,209 @@
-# ⚠️  WARNING: AUTO-GENERATED FILE - DO NOT EDIT DIRECTLY!
-# This file is generated from word_version by:
-#   scripts/convert_to_tokenized_word_version.py
-# Edit source in space_version and re-run conversions.
-# Tokenizes trailing spaces in triggers to an explicit token.
-# Removes right_word property for tokenized version.
-# Adds trailing space to replacements that don't have one.
-# Current token: ','
-
-name: there-phrases
-parent: default
+name: _there_phrases
 matches:
 - replace: 'if there any '
-  _tags: [place, pronoun, the, to, else]
+  _tags:
+  - place
+  - pronoun
+  - the
+  - to
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['feway,']
+  trigger: feway,
 - replace: 'is there any '
-  _tags: [place, pronoun, the, to, be, else]
+  _tags:
+  - place
+  - pronoun
+  - the
+  - to
+  - be
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['teway,']
+  trigger: teway,
 - replace: 'there is not '
-  _tags: [place, pronoun, the, to, negate, be, else]
+  _tags:
+  - place
+  - pronoun
+  - the
+  - to
+  - negate
+  - be
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['ewtn,']
+  trigger: ewtn,
 - replace: 'there are not '
-  _tags: [place, the, negate, to, be, else]
+  _tags:
+  - place
+  - the
+  - negate
+  - to
+  - be
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['ewan,']
+  trigger: ewan,
 - replace: 'this is there '
-  _tags: [place, pronoun, the, demonstrative, to, be, else]
+  _tags:
+  - place
+  - pronoun
+  - the
+  - demonstrative
+  - to
+  - be
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['iztew,']
+  trigger: iztew,
 - replace: 'that are there '
-  _tags: [place, the, demonstrative, to, be, else, have]
+  _tags:
+  - place
+  - the
+  - demonstrative
+  - to
+  - be
+  - else
+  - have
   propagate_case: true
   allow_duplicate: false
-  triggers: ['azataw,']
+  trigger: azataw,
 - replace: 'what there is '
-  _tags: [question, place, pronoun, will, the, what, to, be, else, have]
+  _tags:
+  - question
+  - place
+  - pronoun
+  - will
+  - the
+  - what
+  - to
+  - be
+  - else
+  - have
   propagate_case: true
   allow_duplicate: false
-  triggers: ['wtewt,']
+  trigger: wtewt,
 - replace: 'what there are '
-  _tags: [question, place, will, the, what, to, be, else, have]
+  _tags:
+  - question
+  - place
+  - will
+  - the
+  - what
+  - to
+  - be
+  - else
+  - have
   propagate_case: true
   allow_duplicate: false
-  triggers: ['wtewa,']
+  trigger: wtewa,
 - replace: 'if there is '
-  _tags: [place, pronoun, the, to, be, else]
+  _tags:
+  - place
+  - pronoun
+  - the
+  - to
+  - be
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['fewt,']
+  trigger: fewt,
 - replace: 'if there are '
-  _tags: [place, pronoun, the, to, be, else]
+  _tags:
+  - place
+  - pronoun
+  - the
+  - to
+  - be
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['fewa,']
+  trigger: fewa,
 - replace: 'this there is '
-  _tags: [place, pronoun, the, demonstrative, to, be, else]
+  _tags:
+  - place
+  - pronoun
+  - the
+  - demonstrative
+  - to
+  - be
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['izewt,']
+  trigger: izewt,
 - replace: 'that there are '
-  _tags: [place, the, demonstrative, to, be, else, have]
+  _tags:
+  - place
+  - the
+  - demonstrative
+  - to
+  - be
+  - else
+  - have
   propagate_case: true
   allow_duplicate: false
-  triggers: ['azewa,']
+  trigger: azewa,
 - replace: 'there is this '
-  _tags: [place, pronoun, the, demonstrative, to, be, else]
+  _tags:
+  - place
+  - pronoun
+  - the
+  - demonstrative
+  - to
+  - be
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['ewtiz,']
+  trigger: ewtiz,
 - replace: 'there are that '
-  _tags: [place, the, demonstrative, to, be, else, have]
+  _tags:
+  - place
+  - the
+  - demonstrative
+  - to
+  - be
+  - else
+  - have
   propagate_case: true
   allow_duplicate: false
-  triggers: ['ewaaz,']
+  trigger: ewaaz,
 - replace: 'there is '
-  _tags: [place, pronoun, the, to, be, else]
+  _tags:
+  - place
+  - pronoun
+  - the
+  - to
+  - be
+  - else
   allow_duplicate: true
   propagate_case: true
-  triggers: ['ewt,']
+  trigger: ewt,
 - replace: 'there are '
-  _tags: [place, the, to, be, else]
+  _tags:
+  - place
+  - the
+  - to
+  - be
+  - else
   allow_duplicate: true
   propagate_case: true
-  triggers: ['ewa,']
+  trigger: ewa,
 - replace: 'there will '
-  _tags: [place, will, to, else]
+  _tags:
+  - place
+  - will
+  - to
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['ewll,']
+  trigger: ewll,
 - replace: 'there will be '
-  _tags: [place, will, to, be, else]
+  _tags:
+  - place
+  - will
+  - to
+  - be
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['ewllb,']
+  trigger: ewllb,

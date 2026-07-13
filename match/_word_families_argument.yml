@@ -1,0 +1,90 @@
+name: _word_families_argument
+matches:
+- replace: 'argument '
+  propagate_case: true
+  allow_duplicate: false
+  trigger: awg,
+- replace: 'arguments '
+  propagate_case: true
+  allow_duplicate: false
+  trigger: awgs,
+- replace: 'arguing '
+  propagate_case: true
+  allow_duplicate: false
+  trigger: awgi,
+- replace: 'argued '
+  propagate_case: true
+  allow_duplicate: false
+  trigger: awgp,
+- replace: 'argumentation '
+  propagate_case: true
+  allow_duplicate: false
+  trigger: awgm,
+- replace: 'arguer '
+  propagate_case: true
+  allow_duplicate: false
+  trigger: awgw,
+- replace: 'arguers '
+  propagate_case: true
+  allow_duplicate: false
+  trigger: awgws,
+- replace: 'argumentative '
+  propagate_case: true
+  allow_duplicate: false
+  trigger: awgj,
+- replace: 'argumentatively '
+  propagate_case: true
+  allow_duplicate: false
+  trigger: awgjl,
+- replace: 'arguable '
+  propagate_case: true
+  allow_duplicate: false
+  trigger: awgb,
+- replace: 'arguably '
+  propagate_case: true
+  allow_duplicate: false
+  trigger: awgbl,
+- replace: 'argumentativeness '
+  propagate_case: true
+  allow_duplicate: false
+  trigger: awgn,
+- replace: 'this argument '
+  propagate_case: true
+  allow_duplicate: false
+  trigger: izawg,
+- replace: 'that argument '
+  propagate_case: true
+  allow_duplicate: false
+  trigger: azawg,
+- replace: 'these arguments '
+  propagate_case: true
+  allow_duplicate: false
+  trigger: ezawgs,
+- replace: 'those arguments '
+  propagate_case: true
+  allow_duplicate: false
+  trigger: ozawgs,
+- replace: 'argument the '
+  propagate_case: true
+  allow_duplicate: false
+  trigger: awgh,
+- replace: 'the argument '
+  propagate_case: true
+  allow_duplicate: false
+  trigger: hawg,
+- replace: 'argument to '
+  propagate_case: true
+  allow_duplicate: false
+  trigger: awg2,
+- replace: 'argument to the '
+  propagate_case: true
+  allow_duplicate: false
+  trigger: awg2h,
+- replace: 'argument from '
+  propagate_case: true
+  allow_duplicate: false
+  trigger: awg-2,
+- replace: 'argument from the '
+  propagate_case: true
+  allow_duplicate: false
+  trigger: awg-2h,

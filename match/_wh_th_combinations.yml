@@ -1,112 +1,182 @@
-# ⚠️  WARNING: AUTO-GENERATED FILE - DO NOT EDIT DIRECTLY!
-# This file is generated from word_version by:
-#   scripts/convert_to_tokenized_word_version.py
-# Edit source in space_version and re-run conversions.
-# Tokenizes trailing spaces in triggers to an explicit token.
-# Removes right_word property for tokenized version.
-# Adds trailing space to replacements that don't have one.
-# Current token: ','
-
-name: wh_th_combinations
-parent: default
+name: _wh_th_combinations
 matches:
 - replace: 'why the '
-  _tags: [question, why, the, to]
+  _tags:
+  - question
+  - why
+  - the
+  - to
   propagate_case: true
   allow_duplicate: false
-  triggers: ['wyh,']
+  trigger: wyh,
 - replace: 'what the '
-  _tags: [question, what, the, to]
+  _tags:
+  - question
+  - what
+  - the
+  - to
   propagate_case: true
   allow_duplicate: false
-  triggers: ['wth,']
+  trigger: wth,
 - replace: 'where the '
-  _tags: [question, where, the, to]
+  _tags:
+  - question
+  - where
+  - the
+  - to
   propagate_case: true
   allow_duplicate: false
-  triggers: ['wwh,']
+  trigger: wwh,
 - replace: 'when the '
-  _tags: [question, when, the, to]
+  _tags:
+  - question
+  - when
+  - the
+  - to
   propagate_case: true
   allow_duplicate: false
-  triggers: ['wnh,']
+  trigger: wnh,
 - replace: 'why this '
-  _tags: [question, why, demonstrative, the]
+  _tags:
+  - question
+  - why
+  - demonstrative
+  - the
   propagate_case: true
   allow_duplicate: false
-  triggers: ['wyiz,']
+  trigger: wyiz,
 - replace: 'why that '
-  _tags: [question, why, demonstrative, the]
+  _tags:
+  - question
+  - why
+  - demonstrative
+  - the
   propagate_case: true
   allow_duplicate: false
-  triggers: ['wyaz,']
+  trigger: wyaz,
 - replace: 'why these '
-  _tags: [question, why, demonstrative, the]
+  _tags:
+  - question
+  - why
+  - demonstrative
+  - the
   propagate_case: true
   allow_duplicate: false
-  triggers: ['wyez,']
+  trigger: wyez,
 - replace: 'why those '
-  _tags: [question, why, demonstrative, the]
+  _tags:
+  - question
+  - why
+  - demonstrative
+  - the
   propagate_case: true
   allow_duplicate: false
-  triggers: ['wyoz,']
+  trigger: wyoz,
 - replace: 'what this '
-  _tags: [question, what, demonstrative, the]
+  _tags:
+  - question
+  - what
+  - demonstrative
+  - the
   propagate_case: true
   allow_duplicate: false
-  triggers: ['wtiz,']
+  trigger: wtiz,
 - replace: 'what that '
-  _tags: [question, what, demonstrative, the]
+  _tags:
+  - question
+  - what
+  - demonstrative
+  - the
   propagate_case: true
   allow_duplicate: false
-  triggers: ['wtaz,']
+  trigger: wtaz,
 - replace: 'what these '
-  _tags: [question, what, demonstrative, the]
+  _tags:
+  - question
+  - what
+  - demonstrative
+  - the
   propagate_case: true
   allow_duplicate: false
-  triggers: ['wtez,']
+  trigger: wtez,
 - replace: 'what those '
-  _tags: [question, what, demonstrative, the]
+  _tags:
+  - question
+  - what
+  - demonstrative
+  - the
   propagate_case: true
   allow_duplicate: false
-  triggers: ['wtoz,']
+  trigger: wtoz,
 - replace: 'where this '
-  _tags: [question, where, demonstrative, the]
+  _tags:
+  - question
+  - where
+  - demonstrative
+  - the
   propagate_case: true
   allow_duplicate: false
-  triggers: ['wriz,']
+  trigger: wriz,
 - replace: 'where that '
-  _tags: [question, where, demonstrative, the]
+  _tags:
+  - question
+  - where
+  - demonstrative
+  - the
   propagate_case: true
   allow_duplicate: false
-  triggers: ['wraz,']
+  trigger: wraz,
 - replace: 'where these '
-  _tags: [question, where, demonstrative, the]
+  _tags:
+  - question
+  - where
+  - demonstrative
+  - the
   propagate_case: true
   allow_duplicate: false
-  triggers: ['wrez,']
+  trigger: wrez,
 - replace: 'where those '
-  _tags: [question, where, demonstrative, the]
+  _tags:
+  - question
+  - where
+  - demonstrative
+  - the
   propagate_case: true
   allow_duplicate: false
-  triggers: ['wroz,']
+  trigger: wroz,
 - replace: 'when this '
-  _tags: [question, when, demonstrative, the]
+  _tags:
+  - question
+  - when
+  - demonstrative
+  - the
   propagate_case: true
   allow_duplicate: false
-  triggers: ['wniz,']
+  trigger: wniz,
 - replace: 'when that '
-  _tags: [question, when, demonstrative, the]
+  _tags:
+  - question
+  - when
+  - demonstrative
+  - the
   propagate_case: true
   allow_duplicate: false
-  triggers: ['wnaz,']
+  trigger: wnaz,
 - replace: 'when these '
-  _tags: [question, when, demonstrative, the]
+  _tags:
+  - question
+  - when
+  - demonstrative
+  - the
   propagate_case: true
   allow_duplicate: false
-  triggers: ['wnez,']
+  trigger: wnez,
 - replace: 'when those '
-  _tags: [question, when, demonstrative, the]
+  _tags:
+  - question
+  - when
+  - demonstrative
+  - the
   propagate_case: true
   allow_duplicate: false
-  triggers: ['wnoz,']
+  trigger: wnoz,

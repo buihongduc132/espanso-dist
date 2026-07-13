@@ -1,108 +1,191 @@
-# ⚠️  WARNING: AUTO-GENERATED FILE - DO NOT EDIT DIRECTLY!
-# This file is generated from word_version by:
-#   scripts/convert_to_tokenized_word_version.py
-# Edit source in space_version and re-run conversions.
-# Tokenizes trailing spaces in triggers to an explicit token.
-# Removes right_word property for tokenized version.
-# Adds trailing space to replacements that don't have one.
-# Current token: ','
-
-name: word-3-complex-foundations
-parent: default
+name: _word_3_complex_foundations
 matches:
 - replace: 'would be '
-  _tags: [will, would, else, be]
+  _tags:
+  - will
+  - would
+  - else
+  - be
   propagate_case: true
   allow_duplicate: false
-  triggers: ['woub,']
+  trigger: woub,
 - replace: 'would not be '
-  _tags: [will, negate, to, be, would, else]
+  _tags:
+  - will
+  - negate
+  - to
+  - be
+  - would
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['woubn,']
+  trigger: woubn,
 - replace: 'would like '
-  _tags: [will, would, else, pronoun]
+  _tags:
+  - will
+  - would
+  - else
+  - pronoun
   propagate_case: true
   allow_duplicate: false
-  triggers: ['woul,']
+  trigger: woul,
 - replace: 'would not like '
-  _tags: [pronoun, will, negate, to, would, else]
+  _tags:
+  - pronoun
+  - will
+  - negate
+  - to
+  - would
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['wouln,']
+  trigger: wouln,
 - replace: 'should be '
-  _tags: [the, should, be, would, else]
+  _tags:
+  - the
+  - should
+  - be
+  - would
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['soub,']
+  trigger: soub,
 - replace: 'should not be '
-  _tags: [the, should, negate, to, be, would, else]
+  _tags:
+  - the
+  - should
+  - negate
+  - to
+  - be
+  - would
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['soubn,']
+  trigger: soubn,
 - replace: 'should like '
-  _tags: [pronoun, the, should, would, else]
+  _tags:
+  - pronoun
+  - the
+  - should
+  - would
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['soul,']
+  trigger: soul,
 - replace: 'should not like '
-  _tags: [pronoun, the, should, to, negate, would, else]
+  _tags:
+  - pronoun
+  - the
+  - should
+  - to
+  - negate
+  - would
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['souln,']
+  trigger: souln,
 - replace: 'will be '
-  _tags: [will, pronoun, else, be]
+  _tags:
+  - will
+  - pronoun
+  - else
+  - be
   propagate_case: true
   allow_duplicate: false
-  triggers: ['llb,']
+  trigger: llb,
 - replace: 'will not be '
-  _tags: [pronoun, will, negate, to, be, else]
+  _tags:
+  - pronoun
+  - will
+  - negate
+  - to
+  - be
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['llbn,']
+  trigger: llbn,
 - replace: 'will like '
-  _tags: [will, pronoun, else]
+  _tags:
+  - will
+  - pronoun
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['lll,']
+  trigger: lll,
 - replace: 'will not like '
-  _tags: [pronoun, will, negate, to, else]
+  _tags:
+  - pronoun
+  - will
+  - negate
+  - to
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['llln,']
+  trigger: llln,
 - replace: 'will not be '
-  _tags: [pronoun, will, negate, to, be, else]
+  _tags:
+  - pronoun
+  - will
+  - negate
+  - to
+  - be
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['llnb,']
+  trigger: llnb,
 - replace: 'will not like '
-  _tags: [pronoun, will, negate, to, else]
+  _tags:
+  - pronoun
+  - will
+  - negate
+  - to
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['llnl,']
+  trigger: llnl,
 - replace: 'being '
-  _tags: [be, ing, else]
+  _tags:
+  - be
+  - ing
+  - else
   allow_duplicate: true
   duplicate_group: being-aux
   propagate_case: true
-  triggers: ['bi,']
+  trigger: bi,
 - replace: 'could not be '
-  _tags: [could, negate, be, would, else]
+  _tags:
+  - could
+  - negate
+  - be
+  - would
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['qounb,']
+  trigger: qounb,
 - replace: 'would not be '
-  _tags: [would, negate, be, else]
+  _tags:
+  - would
+  - negate
+  - be
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['wounb,']
+  trigger: wounb,
 - replace: 'should not be '
-  _tags: [should, negate, be, would, else]
+  _tags:
+  - should
+  - negate
+  - be
+  - would
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['sounb,']
+  trigger: sounb,
 - replace: 'be not '
-  _tags: [be, negate, else]
+  _tags:
+  - be
+  - negate
+  - else
   allow_duplicate: true
   propagate_case: true
-  triggers: ['bn,']
+  trigger: bn,

@@ -1,107 +1,181 @@
-# ⚠️  WARNING: AUTO-GENERATED FILE - DO NOT EDIT DIRECTLY!
-# This file is generated from word_version by:
-#   scripts/convert_to_tokenized_word_version.py
-# Edit source in space_version and re-run conversions.
-# Tokenizes trailing spaces in triggers to an explicit token.
-# Removes right_word property for tokenized version.
-# Adds trailing space to replacements that don't have one.
-# Current token: ','
-
-name: exx_declare
-parent: default
+name: _exx_declare
 matches:
 - replace: 'declare '
-  _tags: [to, can, else, verb]
+  _tags:
+  - to
+  - can
+  - else
+  - verb
   propagate_case: true
   allow_duplicate: false
-  triggers: ['fdqle,']
+  trigger: fdqle,
 - replace: 'declares '
-  _tags: [to, can, else, verb]
+  _tags:
+  - to
+  - can
+  - else
+  - verb
   propagate_case: true
   allow_duplicate: false
-  triggers: ['fdqles,']
+  trigger: fdqles,
 - replace: 'declaring '
-  _tags: [ing, to, can, else, verb]
+  _tags:
+  - ing
+  - to
+  - can
+  - else
+  - verb
   propagate_case: true
   allow_duplicate: false
-  triggers: ['fdqlei,']
+  trigger: fdqlei,
 - replace: 'declared '
-  _tags: [ed, would, to, can, else, verb]
+  _tags:
+  - ed
+  - would
+  - to
+  - can
+  - else
+  - verb
   propagate_case: true
   allow_duplicate: false
-  triggers: ['fdqlep,']
+  trigger: fdqlep,
 - replace: 'declare this '
-  _tags: [demonstrative, to, can, else, verb]
+  _tags:
+  - demonstrative
+  - to
+  - can
+  - else
+  - verb
   propagate_case: true
   allow_duplicate: false
-  triggers: ['fdqleiz,']
+  trigger: fdqleiz,
 - replace: 'declare that '
-  _tags: [demonstrative, to, can, else, verb]
+  _tags:
+  - demonstrative
+  - to
+  - can
+  - else
+  - verb
   propagate_case: true
   allow_duplicate: false
-  triggers: ['fdqleaz,']
+  trigger: fdqleaz,
 - replace: 'declare these '
-  _tags: [demonstrative, to, can, else, verb]
+  _tags:
+  - demonstrative
+  - to
+  - can
+  - else
+  - verb
   propagate_case: true
   allow_duplicate: false
-  triggers: ['fdqleez,']
+  trigger: fdqleez,
 - replace: 'declare those '
-  _tags: [demonstrative, to, can, else, verb]
+  _tags:
+  - demonstrative
+  - to
+  - can
+  - else
+  - verb
   propagate_case: true
   allow_duplicate: false
-  triggers: ['fdqleoz,']
+  trigger: fdqleoz,
 - replace: 'be declare '
-  _tags: [to, can, be, verb]
+  _tags:
+  - to
+  - can
+  - be
+  - verb
   propagate_case: true
   allow_duplicate: false
-  triggers: ['bdqle,']
+  trigger: bdqle,
 - replace: 'is declare '
-  _tags: [to, can, be, verb]
+  _tags:
+  - to
+  - can
+  - be
+  - verb
   propagate_case: true
   allow_duplicate: false
-  triggers: ['bdqles,']
+  trigger: bdqles,
 - replace: 'was declare '
-  _tags: [to, can, be, verb]
+  _tags:
+  - to
+  - can
+  - be
+  - verb
   propagate_case: true
   allow_duplicate: false
-  triggers: ['bdqlep,']
+  trigger: bdqlep,
 - replace: 'not declare '
-  _tags: [negate, to, can, verb]
+  _tags:
+  - negate
+  - to
+  - can
+  - verb
   propagate_case: true
   allow_duplicate: false
-  triggers: ['ndqle,']
+  trigger: ndqle,
 - replace: 'is not declare '
-  _tags: [negate, to, can, be, verb]
+  _tags:
+  - negate
+  - to
+  - can
+  - be
+  - verb
   propagate_case: true
   allow_duplicate: false
-  triggers: ['ndqles,']
+  trigger: ndqles,
 - replace: 'have declare '
-  _tags: [to, can, have, verb]
+  _tags:
+  - to
+  - can
+  - have
+  - verb
   propagate_case: true
   allow_duplicate: false
-  triggers: ['hdqle,']
+  trigger: hdqle,
 - replace: 'has declare '
-  _tags: [to, can, have, verb]
+  _tags:
+  - to
+  - can
+  - have
+  - verb
   propagate_case: true
   allow_duplicate: false
-  triggers: ['hdqles,']
+  trigger: hdqles,
 - replace: 'what declare '
-  _tags: [question, to, can, verb]
+  _tags:
+  - question
+  - to
+  - can
+  - verb
   propagate_case: true
   allow_duplicate: false
-  triggers: ['wtdqle,']
+  trigger: wtdqle,
 - replace: 'where declare '
-  _tags: [question, to, can, verb]
+  _tags:
+  - question
+  - to
+  - can
+  - verb
   propagate_case: true
   allow_duplicate: false
-  triggers: ['wrdqle,']
+  trigger: wrdqle,
 - replace: 'when declare '
-  _tags: [question, to, can, verb]
+  _tags:
+  - question
+  - to
+  - can
+  - verb
   propagate_case: true
   allow_duplicate: false
-  triggers: ['wndqle,']
+  trigger: wndqle,
 - replace: 'why declare '
-  _tags: [question, to, can, verb]
+  _tags:
+  - question
+  - to
+  - can
+  - verb
   propagate_case: true
   allow_duplicate: false
-  triggers: ['wydqle,']
+  trigger: wydqle,

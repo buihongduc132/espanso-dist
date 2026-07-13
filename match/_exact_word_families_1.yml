@@ -1,0 +1,38 @@
+name: _exact_word_families_1
+matches:
+- replace: 'planner '
+  _tags:
+  - else
+  propagate_case: true
+  allow_duplicate: false
+  trigger: planw,
+- replace: 'planned '
+  _tags:
+  - ed
+  - would
+  - else
+  propagate_case: true
+  allow_duplicate: false
+  trigger: planp,
+- replace: 'planning '
+  _tags:
+  - ing
+  - pronoun
+  - else
+  propagate_case: true
+  allow_duplicate: false
+  trigger: plani,
+- replace: 'detail plan '
+  _tags:
+  - noun
+  - phrase
+  propagate_case: true
+  allow_duplicate: false
+  trigger: detapl,
+- replace: 'sophisticate plan '
+  _tags:
+  - verb
+  - phrase
+  propagate_case: true
+  allow_duplicate: false
+  trigger: sophipl,

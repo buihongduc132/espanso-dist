@@ -1,497 +1,838 @@
-# ⚠️  WARNING: AUTO-GENERATED FILE - DO NOT EDIT DIRECTLY!
-# This file is generated from word_version by:
-#   scripts/convert_to_tokenized_word_version.py
-# Edit source in space_version and re-run conversions.
-# Tokenizes trailing spaces in triggers to an explicit token.
-# Removes right_word property for tokenized version.
-# Adds trailing space to replacements that don't have one.
-# Current token: ','
-
-name: 1char
-parent: default
+name: _1char
 matches:
 - replace: 'with '
   left_word: true
   propagate_case: true
-  _tags: [will, to, the, pronoun]
-  triggers: ['w,']
+  _tags:
+  - will
+  - to
+  - the
+  - pronoun
+  trigger: w,
 - replace: 'for '
   left_word: true
-  triggers: ['4,']
+  trigger: 4,
 - replace: 'if '
   left_word: true
   propagate_case: true
-  _tags: [to, else]
-  triggers: ['f,']
+  _tags:
+  - to
+  - else
+  trigger: f,
 - replace: 'of '
   left_word: true
-  _tags: [to, else]
-  triggers: ['o,']
+  _tags:
+  - to
+  - else
+  trigger: o,
 - replace: 'be '
   left_word: true
   propagate_case: true
-  _tags: [to, pronoun, be]
-  triggers: ['b,']
+  _tags:
+  - to
+  - pronoun
+  - be
+  trigger: b,
 - replace: 'be the '
   left_word: true
   propagate_case: true
-  _tags: [to, the, be]
-  triggers: ['bh,']
+  _tags:
+  - to
+  - the
+  - be
+  trigger: bh,
 - replace: 'be this '
   left_word: true
   propagate_case: true
-  _tags: [to, demonstrative, be]
-  triggers: ['biz,']
+  _tags:
+  - to
+  - demonstrative
+  - be
+  trigger: biz,
 - replace: 'be that '
   left_word: true
   propagate_case: true
-  _tags: [to, demonstrative, be]
-  triggers: ['baz,']
+  _tags:
+  - to
+  - demonstrative
+  - be
+  trigger: baz,
 - replace: 'be these '
   left_word: true
   propagate_case: true
-  _tags: [to, demonstrative, be]
-  triggers: ['bez,']
+  _tags:
+  - to
+  - demonstrative
+  - be
+  trigger: bez,
 - replace: 'be those '
   left_word: true
   propagate_case: true
-  _tags: [to, demonstrative, be]
-  triggers: ['boz,']
+  _tags:
+  - to
+  - demonstrative
+  - be
+  trigger: boz,
 - replace: 'be not '
   left_word: true
   propagate_case: true
-  _tags: [be, negate, else]
+  _tags:
+  - be
+  - negate
+  - else
   allow_duplicate: true
   duplicate_group: bn-be-not
-  triggers: ['bn,']
+  trigger: bn,
 - replace: 'be not the '
   left_word: true
   propagate_case: true
-  _tags: [be, negate, the, else]
-  triggers: ['bnh,']
+  _tags:
+  - be
+  - negate
+  - the
+  - else
+  trigger: bnh,
 - replace: 'be not this '
   left_word: true
   propagate_case: true
-  _tags: [be, negate, demonstrative, else]
-  triggers: ['bniz,']
+  _tags:
+  - be
+  - negate
+  - demonstrative
+  - else
+  trigger: bniz,
 - replace: 'be not that '
   left_word: true
   propagate_case: true
-  _tags: [be, negate, demonstrative, else]
-  triggers: ['bnaz,']
+  _tags:
+  - be
+  - negate
+  - demonstrative
+  - else
+  trigger: bnaz,
 - replace: 'be not these '
   left_word: true
   propagate_case: true
-  _tags: [be, negate, demonstrative, else]
-  triggers: ['bnez,']
+  _tags:
+  - be
+  - negate
+  - demonstrative
+  - else
+  trigger: bnez,
 - replace: 'be not those '
   left_word: true
   propagate_case: true
-  _tags: [be, negate, demonstrative, else]
-  triggers: ['bnoz,']
+  _tags:
+  - be
+  - negate
+  - demonstrative
+  - else
+  trigger: bnoz,
 - replace: 'being '
   left_word: true
   propagate_case: true
-  _tags: [be, ing, else]
+  _tags:
+  - be
+  - ing
+  - else
   allow_duplicate: true
   duplicate_group: being-aux
-  triggers: ['bi,']
+  trigger: bi,
 - replace: 'see the '
   left_word: true
   propagate_case: true
-  _tags: [to, the, else]
+  _tags:
+  - to
+  - the
+  - else
   allow_duplicate: true
   duplicate_group: see-the-demonstrative
-  triggers: ['Ch,']
+  trigger: Ch,
 - replace: 'see this '
   left_word: true
   propagate_case: true
-  _tags: [to, demonstrative, else]
+  _tags:
+  - to
+  - demonstrative
+  - else
   allow_duplicate: true
   duplicate_group: see-the-demonstrative
-  triggers: ['Ciz,']
+  trigger: Ciz,
 - replace: 'see that '
   left_word: true
   propagate_case: true
-  _tags: [to, demonstrative, else]
+  _tags:
+  - to
+  - demonstrative
+  - else
   allow_duplicate: true
   duplicate_group: see-the-demonstrative
-  triggers: ['Caz,']
+  trigger: Caz,
 - replace: 'see these '
   left_word: true
   propagate_case: true
-  _tags: [to, demonstrative, else]
+  _tags:
+  - to
+  - demonstrative
+  - else
   allow_duplicate: true
   duplicate_group: see-the-demonstrative
-  triggers: ['Cez,']
+  trigger: Cez,
 - replace: 'see those '
   left_word: true
   propagate_case: true
-  _tags: [to, demonstrative, else]
+  _tags:
+  - to
+  - demonstrative
+  - else
   allow_duplicate: true
   duplicate_group: see-the-demonstrative
-  triggers: ['Coz,']
+  trigger: Coz,
 - replace: 'the '
   left_word: true
   propagate_case: true
-  _tags: [the, to, pronoun, else, pronoun]
-  triggers: ['h,']
-- replace: 'the '
-  left_word: true
-  _tags: [the, to, else]
-  triggers: ['H,']
+  _tags:
+  - the
+  trigger: h,
 - replace: 'and the '
-  _tags: [the, to, else]
-  triggers: [',h,']
+  _tags:
+  - the
+  - to
+  - else
+  trigger: ',h,'
 - replace: 'and this '
-  _tags: [demonstrative, to, else]
-  triggers: [',iz,']
+  _tags:
+  - demonstrative
+  - to
+  - else
+  trigger: ',iz,'
 - replace: 'and that '
-  _tags: [demonstrative, to, else]
-  triggers: [',az,']
+  _tags:
+  - demonstrative
+  - to
+  - else
+  trigger: ',az,'
 - replace: 'and these '
-  _tags: [demonstrative, to, else]
-  triggers: [',ez,']
+  _tags:
+  - demonstrative
+  - to
+  - else
+  trigger: ',ez,'
 - replace: 'and those '
-  _tags: [demonstrative, to, else]
-  triggers: [',oz,']
+  _tags:
+  - demonstrative
+  - to
+  - else
+  trigger: ',oz,'
 - replace: 'and all '
-  _tags: [quantifier, to, else]
-  triggers: [',al,']
+  _tags:
+  - quantifier
+  - to
+  - else
+  trigger: ',al,'
 - replace: 'and all the '
-  _tags: [quantifier, the, to, else]
-  triggers: [',alh,']
+  _tags:
+  - quantifier
+  - the
+  - to
+  - else
+  trigger: ',alh,'
 - replace: 'and all this '
-  _tags: [quantifier, demonstrative, to, else]
-  triggers: [',aliz,']
+  _tags:
+  - quantifier
+  - demonstrative
+  - to
+  - else
+  trigger: ',aliz,'
 - replace: 'and all that '
-  _tags: [quantifier, demonstrative, to, else]
-  triggers: [',alaz,']
+  _tags:
+  - quantifier
+  - demonstrative
+  - to
+  - else
+  trigger: ',alaz,'
 - replace: 'and all these '
-  _tags: [quantifier, demonstrative, to, else]
-  triggers: [',alez,']
+  _tags:
+  - quantifier
+  - demonstrative
+  - to
+  - else
+  trigger: ',alez,'
 - replace: 'and all those '
-  _tags: [quantifier, demonstrative, to, else]
-  triggers: [',aloz,']
+  _tags:
+  - quantifier
+  - demonstrative
+  - to
+  - else
+  trigger: ',aloz,'
 - replace: 'are not '
-  _tags: [negate, to, else, be]
-  triggers: ['wN,']
+  _tags:
+  - negate
+  - to
+  - else
+  - be
+  trigger: wN,
 - replace: 'around '
   left_word: true
-  _tags: [preposition, to, else]
-  triggers: ['aW,']
+  _tags:
+  - preposition
+  - to
+  - else
+  trigger: aW,
 - replace: 'are '
   left_word: true
   propagate_case: true
-  _tags: [to, pronoun, be]
-  triggers: ['a,']
+  _tags:
+  - to
+  - pronoun
+  - be
+  trigger: a,
 - replace: 'is '
   left_word: true
-  _tags: [to, pronoun, be]
+  _tags:
+  - to
+  - pronoun
+  - be
   allow_duplicate: true
-  triggers: ['t,']
+  trigger: t,
 - replace: 'is '
   left_word: true
-  _tags: [to, pronoun, be]
+  _tags:
+  - to
+  - pronoun
+  - be
   allow_duplicate: true
-  triggers: ['T,']
+  trigger: T,
 - replace: 'is not '
   left_word: true
-  _tags: [negate, to, be, pronoun]
-  triggers: ['TN,']
+  _tags:
+  - negate
+  - to
+  - be
+  - pronoun
+  trigger: TN,
 - replace: 'it '
   left_word: true
-  _tags: [pronoun]
+  _tags:
+  - pronoun
   allow_duplicate: true
-  triggers: ['x,']
+  trigger: x,
 - replace: 'it to '
   left_word: true
-  _tags: [pronoun, to]
-  triggers: ['x2,']
+  _tags:
+  - pronoun
+  - to
+  trigger: x2,
 - replace: 'it to the '
   left_word: true
-  _tags: [pronoun, to, the]
-  triggers: ['x2h,']
+  _tags:
+  - pronoun
+  - to
+  - the
+  trigger: x2h,
 - replace: 'it to this '
   left_word: true
-  _tags: [pronoun, to, demonstrative]
-  triggers: ['x2iz,']
+  _tags:
+  - pronoun
+  - to
+  - demonstrative
+  trigger: x2iz,
 - replace: 'it to that '
   left_word: true
-  _tags: [pronoun, to, demonstrative]
-  triggers: ['x2az,']
+  _tags:
+  - pronoun
+  - to
+  - demonstrative
+  trigger: x2az,
 - replace: 'it to these '
   left_word: true
-  _tags: [pronoun, to, demonstrative]
-  triggers: ['x2ez,']
+  _tags:
+  - pronoun
+  - to
+  - demonstrative
+  trigger: x2ez,
 - replace: 'it to those '
   left_word: true
-  _tags: [pronoun, to, demonstrative]
-  triggers: ['x2oz,']
+  _tags:
+  - pronoun
+  - to
+  - demonstrative
+  trigger: x2oz,
 - replace: 'what it to '
-  _tags: [pronoun, to, question]
-  triggers: ['wtx2,']
+  _tags:
+  - pronoun
+  - to
+  - question
+  trigger: wtx2,
 - replace: 'where it to '
-  _tags: [pronoun, to, question]
-  triggers: ['wrx2,']
+  _tags:
+  - pronoun
+  - to
+  - question
+  trigger: wrx2,
 - replace: 'when it to '
-  _tags: [pronoun, to, question]
-  triggers: ['wnx2,']
+  _tags:
+  - pronoun
+  - to
+  - question
+  trigger: wnx2,
 - replace: 'why it to '
-  _tags: [pronoun, to, question]
-  triggers: ['wyx2,']
+  _tags:
+  - pronoun
+  - to
+  - question
+  trigger: wyx2,
 - replace: 'how it to '
-  _tags: [pronoun, to, question]
-  triggers: ['hwx2,']
+  _tags:
+  - pronoun
+  - to
+  - question
+  trigger: hwx2,
 - replace: 'see '
   left_word: true
   propagate_case: true
-  _tags: [to, else]
-  triggers: ['C,']
+  _tags:
+  - to
+  - else
+  trigger: C,
 - replace: 'we '
   left_word: true
   propagate_case: true
-  _tags: [pronoun, else]
-  triggers: ['e,']
+  _tags:
+  - pronoun
+  - else
+  trigger: e,
 - replace: 'if you '
-  _tags: [condition, pronoun, to, else]
-  triggers: ['fya,']
+  _tags:
+  - condition
+  - pronoun
+  - to
+  - else
+  trigger: fya,
 - replace: 'if you not '
-  _tags: [condition, pronoun, to, negate, else]
-  triggers: ['fyan,']
+  _tags:
+  - condition
+  - pronoun
+  - to
+  - negate
+  - else
+  trigger: fyan,
 - replace: 'less '
   left_word: true
-  _tags: [have, the, to, else]
-  triggers: ['<,']
+  _tags:
+  - have
+  - the
+  - to
+  - else
+  trigger: <,
 - replace: 'less than '
   left_word: true
-  _tags: [have, the, to, else]
-  triggers: ['<hz,']
+  _tags:
+  - have
+  - the
+  - to
+  - else
+  trigger: <hz,
 - replace: 'more '
   left_word: true
-  _tags: [have, the, to, else]
-  triggers: ['>,']
+  _tags:
+  - have
+  - the
+  - to
+  - else
+  trigger: '>,'
 - replace: 'more than '
   left_word: true
-  _tags: [have, the, to, else]
-  triggers: ['>hz,']
+  _tags:
+  - have
+  - the
+  - to
+  - else
+  trigger: '>hz,'
 - replace: 'even '
   left_word: true
-  _tags: [to, else]
-  triggers: ['=,']
+  _tags:
+  - to
+  - else
+  trigger: =,
 - replace: 'even to '
   left_word: true
-  _tags: [to, else]
-  triggers: ['=2,']
+  _tags:
+  - to
+  - else
+  trigger: =2,
 - replace: 'even to the '
   left_word: true
-  _tags: [to, the, else]
-  triggers: ['=2h,']
+  _tags:
+  - to
+  - the
+  - else
+  trigger: =2h,
 - replace: 'evens '
   left_word: true
-  _tags: [to, else]
-  triggers: ['=S,']
+  _tags:
+  - to
+  - else
+  trigger: =S,
 - replace: 'evening '
   left_word: true
-  _tags: [ing, to, else]
-  triggers: ['=I,']
+  _tags:
+  - ing
+  - to
+  - else
+  trigger: =I,
 - replace: 'evened '
   left_word: true
-  _tags: [ed, to, else]
-  triggers: ['=P,']
+  _tags:
+  - ed
+  - to
+  - else
+  trigger: =P,
 - replace: 'evenly '
   left_word: true
-  _tags: [to, else]
-  triggers: ['=L,']
+  _tags:
+  - to
+  - else
+  trigger: =L,
 - replace: 'equal '
   left_word: true
-  _tags: [to, else]
-  triggers: ['==,']
+  _tags:
+  - to
+  - else
+  trigger: ==,
 - replace: 'equal to '
   left_word: true
-  _tags: [to, else]
-  triggers: ['==2,']
+  _tags:
+  - to
+  - else
+  trigger: ==2,
 - replace: 'equal to the '
   left_word: true
-  _tags: [to, the, else]
-  triggers: ['==2h,']
+  _tags:
+  - to
+  - the
+  - else
+  trigger: ==2h,
 - replace: 'equals '
   left_word: true
-  _tags: [to, else]
-  triggers: ['==S,']
+  _tags:
+  - to
+  - else
+  trigger: ==S,
 - replace: 'equaling '
   left_word: true
-  _tags: [ing, to, else]
-  triggers: ['==I,']
+  _tags:
+  - ing
+  - to
+  - else
+  trigger: ==I,
 - replace: 'equaled '
   left_word: true
-  _tags: [ed, to, else]
-  triggers: ['==P,']
+  _tags:
+  - ed
+  - to
+  - else
+  trigger: ==P,
 - replace: 'equally '
   left_word: true
-  _tags: [to, else]
-  triggers: ['==L,']
-- triggers: [',,']
-  replace: 'and '
+  _tags:
+  - to
+  - else
+  trigger: ==L,
+- replace: 'and '
   left_word: true
-  _tags: [would]
+  _tags:
+  - would
+  trigger: ',,'
 - replace: 'and only '
-  _tags: [would, condition]
-  triggers: [',oy,']
+  _tags:
+  - would
+  - condition
+  trigger: ',oy,'
 - replace: 'new '
   left_word: true
-  _tags: [else]
-  triggers: ['N,']
+  _tags:
+  - else
+  trigger: N,
 - replace: 'percent '
   left_word: true
-  _tags: [to, can, else]
-  triggers: ['%,']
+  _tags:
+  - to
+  - can
+  - else
+  trigger: '%,'
 - replace: 'percentage '
   left_word: true
-  _tags: [to, can, else]
-  triggers: ['%%,']
+  _tags:
+  - to
+  - can
+  - else
+  trigger: '%%,'
 - replace: 'multiply '
   left_word: true
-  _tags: [to, else, pronoun]
-  triggers: ['**,']
+  _tags:
+  - to
+  - else
+  - pronoun
+  trigger: '**,'
 - replace: 'multiple '
-  _tags: [to, else, pronoun]
-  triggers: ['*l,']
+  _tags:
+  - to
+  - else
+  - pronoun
+  trigger: '*l,'
 - replace: 'multiply '
-  _tags: [to, else, pronoun]
-  triggers: ['*y,']
+  _tags:
+  - to
+  - else
+  - pronoun
+  trigger: '*y,'
 - replace: 'left '
   left_word: true
-  _tags: [to, else]
-  triggers: ['L,']
+  _tags:
+  - to
+  - else
+  trigger: L,
 - replace: 'right '
   left_word: true
   propagate_case: true
-  _tags: [to, the, pronoun]
-  triggers: ['R,']
+  _tags:
+  - to
+  - the
+  - pronoun
+  trigger: R,
 - replace: 'upper '
-  left_word: true
-  _tags: [else]
-  triggers: ['U,']
+  _tags:
+  - else
+  trigger: U`
 - replace: 'down '
   left_word: true
-  _tags: [will, would]
-  triggers: ['D,']
-- triggers: ['B,']
-  replace: 'bottom '
-  left_word: true
-  _tags: [to]
+  _tags:
+  - will
+  - would
+  trigger: D,
 - replace: 'top-left '
-  _tags: [to, else]
-  triggers: ['TL,']
+  _tags:
+  - to
+  - else
+  trigger: TL,
 - replace: 'top-right '
-  _tags: [to, the, pronoun]
-  triggers: ['Tw,']
+  _tags:
+  - to
+  - the
+  - pronoun
+  trigger: Tw,
 - replace: 'bottom-left '
-  _tags: [to, else]
-  triggers: ['BL,']
+  _tags:
+  - to
+  - else
+  trigger: BL,
 - replace: 'bottom-right '
-  _tags: [to, the, pronoun]
-  triggers: ['Bw,']
+  _tags:
+  - to
+  - the
+  - pronoun
+  trigger: Bw,
 - replace: 'with '
-  _tags: [will, to, the, pronoun]
-  triggers: ['.wH,']
+  _tags:
+  - will
+  - to
+  - the
+  - pronoun
+  trigger: .wH,
 - replace: 'with '
-  _tags: [will, to, the, pronoun]
-  triggers: [wh`]
+  _tags:
+  - will
+  - to
+  - the
+  - pronoun
+  trigger: wh`
 - replace: 'some how '
-  _tags: [quantifier, to, the, else]
-  triggers: [shw`]
+  _tags:
+  - quantifier
+  - to
+  - the
+  - else
+  trigger: shw`
 - replace: 'three times '
-  _tags: [pronoun, the, time, to, else]
-  triggers: ['33,']
+  _tags:
+  - pronoun
+  - the
+  - time
+  - to
+  - else
+  trigger: 33,
 - replace: 'four times '
-  _tags: [pronoun, possessive, time, to, else]
-  triggers: ['44,']
+  _tags:
+  - pronoun
+  - possessive
+  - time
+  - to
+  - else
+  trigger: 44,
 - replace: 'whole '
-  _tags: [question, will, the, else]
-  triggers: ['/1,']
+  _tags:
+  - question
+  - will
+  - the
+  - else
+  trigger: /1,
 - replace: '(the whole) '
-  _tags: [question, will, the, else]
-  triggers: ['h/1,']
+  _tags:
+  - question
+  - will
+  - the
+  - else
+  trigger: h/1,
 - replace: 'half '
-  _tags: [have, the, to, else]
-  triggers: ['/2,']
+  _tags:
+  - have
+  - the
+  - to
+  - else
+  trigger: /2,
 - replace: 'half bake '
-  _tags: [have, the, to, else]
-  triggers: ['/2ba,']
+  _tags:
+  - have
+  - the
+  - to
+  - else
+  trigger: /2ba,
 - replace: 'one third '
-  _tags: [pronoun, the, to, would, else]
-  triggers: ['/3,']
+  _tags:
+  - pronoun
+  - the
+  - to
+  - would
+  - else
+  trigger: /3,
 - replace: 'one fourth '
-  _tags: [possessive, the, to, else]
-  triggers: ['/4,']
+  _tags:
+  - possessive
+  - the
+  - to
+  - else
+  trigger: /4,
 - replace: 'one fifth '
-  _tags: [the, to, else, pronoun]
-  triggers: ['/5,']
+  _tags:
+  - the
+  - to
+  - else
+  - pronoun
+  trigger: /5,
 - replace: 'one sixth '
-  _tags: [the, to, else, pronoun]
-  triggers: ['/6,']
+  _tags:
+  - the
+  - to
+  - else
+  - pronoun
+  trigger: /6,
 - replace: 'one seventh '
-  _tags: [the, to, else]
-  triggers: ['/7,']
+  _tags:
+  - the
+  - to
+  - else
+  trigger: /7,
 - replace: 'one eighth '
-  _tags: [the, to, else, pronoun]
-  triggers: ['/8,']
+  _tags:
+  - the
+  - to
+  - else
+  - pronoun
+  trigger: /8,
 - replace: 'one ninth '
-  _tags: [the, to, else, pronoun]
-  triggers: ['/9,']
+  _tags:
+  - the
+  - to
+  - else
+  - pronoun
+  trigger: /9,
 - replace: 'one tenth '
-  _tags: [the, to, else]
-  triggers: ['/10,']
+  _tags:
+  - the
+  - to
+  - else
+  trigger: /10,
 - replace: 'and '
-  _tags: [to, else]
-  triggers: [';;,']
+  _tags:
+  - to
+  - else
+  trigger: ;;,
 - replace: 'up to '
   left_word: true
-  _tags: [to, else]
-  triggers: ['u2,']
+  _tags:
+  - to
+  - else
+  trigger: u2,
 - replace: 'just '
-  triggers: ['uJ,']
+  trigger: uJ,
 - replace: 'do you '
-  _tags: [pronoun, question]
-  triggers: ['uya,']
+  _tags:
+  - pronoun
+  - question
+  trigger: uya,
 - replace: 'root '
   left_word: true
-  _tags: [else]
-  triggers: [/`]
+  _tags:
+  - else
+  trigger: /`
 - replace: 'root the '
-  _tags: [to, can, else]
-  triggers: ['/` h,']
+  _tags:
+  - to
+  - can
+  - else
+  trigger: /` h,
 - replace: 'not '
-  triggers: ['n,']
+  trigger: n,
 - replace: 'not this '
-  _tags: [demonstrative, negate, to, can]
-  triggers: ['niz,']
+  _tags:
+  - demonstrative
+  - negate
+  - to
+  - can
+  trigger: niz,
 - replace: 'not that '
-  _tags: [demonstrative, negate, to, can]
-  triggers: ['naz,']
+  _tags:
+  - demonstrative
+  - negate
+  - to
+  - can
+  trigger: naz,
 - replace: 'not these '
-  _tags: [demonstrative, negate, to, can]
-  triggers: ['nez,']
+  _tags:
+  - demonstrative
+  - negate
+  - to
+  - can
+  trigger: nez,
 - replace: 'not those '
-  _tags: [demonstrative, negate, to, can]
-  triggers: ['noz,']
+  _tags:
+  - demonstrative
+  - negate
+  - to
+  - can
+  trigger: noz,
 - replace: 'nothing '
-  triggers: ['nt,']
+  trigger: nt,
 - replace: 'nothing else '
-  triggers: ['nte,']
+  trigger: nte,
 - replace: 'about '
-  _tags: [to, can]
+  _tags:
+  - to
+  - can
   allow_duplicate: true
-  triggers: ['ab,']
+  trigger: ab,
 - replace: 'or not '
   left_word: true
-  _tags: [to, else]
-  triggers: ['on,']
+  _tags:
+  - to
+  - else
+  trigger: on,
 - replace: 'and not '
   left_word: true
-  _tags: [to, else]
-  triggers: ['nn,']
+  _tags:
+  - to
+  - else
+  trigger: nn,
 - replace: 'the one '
-  triggers: ['h1,']
+  trigger: h1,

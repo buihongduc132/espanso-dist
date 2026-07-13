@@ -1,0 +1,70 @@
+name: _word_families_collide
+matches:
+- replace: 'collide '
+  propagate_case: true
+  allow_duplicate: false
+  trigger: qlli,
+- replace: 'collides '
+  propagate_case: true
+  allow_duplicate: false
+  trigger: qllis,
+- replace: 'colliding '
+  propagate_case: true
+  allow_duplicate: false
+  trigger: qllii,
+- replace: 'collided '
+  propagate_case: true
+  allow_duplicate: false
+  trigger: qllip,
+- replace: 'collision '
+  propagate_case: true
+  allow_duplicate: false
+  trigger: qllim,
+- replace: 'collisions '
+  propagate_case: true
+  allow_duplicate: false
+  trigger: qllims,
+- replace: 'collider '
+  propagate_case: true
+  allow_duplicate: false
+  trigger: qlliw,
+- replace: 'colliders '
+  propagate_case: true
+  allow_duplicate: false
+  trigger: qlliws,
+- replace: 'collide this '
+  propagate_case: true
+  allow_duplicate: false
+  trigger: qlliiz,
+- replace: 'collide that '
+  propagate_case: true
+  allow_duplicate: false
+  trigger: qlliaz,
+- replace: 'collide these '
+  propagate_case: true
+  allow_duplicate: false
+  trigger: qlliez,
+- replace: 'collide those '
+  propagate_case: true
+  allow_duplicate: false
+  trigger: qllioz,
+- replace: 'collide the '
+  propagate_case: true
+  allow_duplicate: false
+  trigger: qllih,
+- replace: 'collide to '
+  propagate_case: true
+  allow_duplicate: false
+  trigger: qlli2,
+- replace: 'collide to the '
+  propagate_case: true
+  allow_duplicate: false
+  trigger: qlli2h,
+- replace: 'collide from '
+  propagate_case: true
+  allow_duplicate: false
+  trigger: qlli-2,
+- replace: 'collide from the '
+  propagate_case: true
+  allow_duplicate: false
+  trigger: qlli-2h,

@@ -1,165 +1,445 @@
-# ⚠️  WARNING: AUTO-GENERATED FILE - DO NOT EDIT DIRECTLY!
-# This file is generated from word_version by:
-#   scripts/convert_to_tokenized_word_version.py
-# Edit source in space_version and re-run conversions.
-# Tokenizes trailing spaces in triggers to an explicit token.
-# Removes right_word property for tokenized version.
-# Adds trailing space to replacements that don't have one.
-# Current token: ','
-
-name: pom-qox prompts
-parent: default
+name: _pom_qox
 _note: ⚠️ AUTO-GENERATED. Edit prompts under prompts/agents/codex/slash_cmd/ instead.
 matches:
-- replace: "These are the files that will be added into the CODEX_HOME/prompts/*.md.\n\nMust be flattened out under the `prompts` directory in there without having any child directory.\n\n`CODEX_HOME` if not set then by default to `~/.codex`.\n\nThese should be symlink, not a copy version.\n "
+- replace: "These are the files that will be added into the CODEX_HOME/prompts/*.md.\n\
+    \nMust be flattened out under the `prompts` directory in there without having\
+    \ any child directory.\n\n`CODEX_HOME` if not set then by default to `~/.codex`.\n\
+    \nThese should be symlink, not a copy version.\n "
   label: AGENTS
   allow_duplicate: true
   _duplicate_group: pom::qox
   _source: ../prompts/agents/codex/slash_cmd/AGENTS.md
-  _tags: [prompt, codex, slash]
+  _tags:
+  - prompt
+  - codex
+  - slash
   propagate_case: true
-  triggers: ['pom::qox,']
-- replace: "• RCA-First Troubleshooting Charter\n\n- Principles\n    - Fix the root cause, not symptoms.\n    - Minimize blast radius and reversibly change only one thing at a time.\n    - Evidence over intuition; hypotheses require proof.\n- Reproduce\n    - Create the smallest reliable repro (single command/script).\n    - Capture baseline: timestamped CPU/memory/I/O/latency and the exact invocation.\n    - Freeze variables: same inputs, environment, and versions.\n- Localize\n    - Narrow by halves: disable features or isolate components until the signal drops.\n    - Identify the hot path with file:line or function and the triggering condition.\n    - Confirm with at least one independent signal (e.g., logs + profiler, metrics + traces).\n- Containment (only if explicitly allowed)\n    - Use process/OS-level measures (nice/limits/restarts) that are fully reversible.\n    - No code/config tuning (timeouts, retries, sleeps, caches) before cause is proven.\n- Fix\n    - Add a failing test\
-    \ that encodes the repro; confirm it fails for the right reason.\n    - Implement the smallest change that makes the test pass; no drive‑by refactors.\n    - Include a rollback plan and guardrails (input validation, bounds, timeouts if intrinsic to the fix).\n- Validate\n    - Rerun the repro on the fixed build; collect the same metrics under identical conditions.\n    - Show before/after deltas and verify no regressions in adjacent behavior.\n    - Soak, then recheck key signals (errors, latency, resource use).\n- Deliverables\n    - Repro steps (copy‑pasteable), cause summary (one sentence), precise code references, fix diff.\n    - Test name/location and why it fails pre‑fix/passes post‑fix.\n    - Metrics with timestamps and commands used; rollback instructions.\n- Never Do\n    - Don’t “tune” to hide issues (timeouts/retries/backoffs/sleeps) without prior approval.\n    - Don’t change multiple variables at once or ship unmeasured fixes.\n    - Don’t rely on logs alone when profilers/metrics\
-    \ can confirm.\n- When Uncertain\n    - State assumptions, propose 2–3 falsifiable checks, and run the cheapest first.\n    - Escalate early if blocked on data, access, or environment parity.\n "
+  trigger: pom::qox,
+- replace: "• RCA-First Troubleshooting Charter\n\n- Principles\n    - Fix the root\
+    \ cause, not symptoms.\n    - Minimize blast radius and reversibly change only\
+    \ one thing at a time.\n    - Evidence over intuition; hypotheses require proof.\n\
+    - Reproduce\n    - Create the smallest reliable repro (single command/script).\n\
+    \    - Capture baseline: timestamped CPU/memory/I/O/latency and the exact invocation.\n\
+    \    - Freeze variables: same inputs, environment, and versions.\n- Localize\n\
+    \    - Narrow by halves: disable features or isolate components until the signal\
+    \ drops.\n    - Identify the hot path with file:line or function and the triggering\
+    \ condition.\n    - Confirm with at least one independent signal (e.g., logs +\
+    \ profiler, metrics + traces).\n- Containment (only if explicitly allowed)\n \
+    \   - Use process/OS-level measures (nice/limits/restarts) that are fully reversible.\n\
+    \    - No code/config tuning (timeouts, retries, sleeps, caches) before cause\
+    \ is proven.\n- Fix\n    - Add a failing test that encodes the repro; confirm\
+    \ it fails for the right reason.\n    - Implement the smallest change that makes\
+    \ the test pass; no drive‑by refactors.\n    - Include a rollback plan and guardrails\
+    \ (input validation, bounds, timeouts if intrinsic to the fix).\n- Validate\n\
+    \    - Rerun the repro on the fixed build; collect the same metrics under identical\
+    \ conditions.\n    - Show before/after deltas and verify no regressions in adjacent\
+    \ behavior.\n    - Soak, then recheck key signals (errors, latency, resource use).\n\
+    - Deliverables\n    - Repro steps (copy‑pasteable), cause summary (one sentence),\
+    \ precise code references, fix diff.\n    - Test name/location and why it fails\
+    \ pre‑fix/passes post‑fix.\n    - Metrics with timestamps and commands used; rollback\
+    \ instructions.\n- Never Do\n    - Don’t “tune” to hide issues (timeouts/retries/backoffs/sleeps)\
+    \ without prior approval.\n    - Don’t change multiple variables at once or ship\
+    \ unmeasured fixes.\n    - Don’t rely on logs alone when profilers/metrics can\
+    \ confirm.\n- When Uncertain\n    - State assumptions, propose 2–3 falsifiable\
+    \ checks, and run the cheapest first.\n    - Escalate early if blocked on data,\
+    \ access, or environment parity.\n "
   label: custom/_fi_fix
   allow_duplicate: true
   _duplicate_group: pom::qox
   _source: ../prompts/agents/codex/slash_cmd/custom/_fi_fix.md
-  _tags: [prompt, codex, slash]
+  _tags:
+  - prompt
+  - codex
+  - slash
   propagate_case: true
-  triggers: ['pom::qox,']
-- replace: "Now we do a sync **ALL** to main.\n1. Check if current branch have stacked commits that is NOT merged nor having pr to main yet. Then make stacked pr for all of them.\n2. Then sleep and then resolve the pr by this guide: `/home/bhd/Documents/Projects/bhd/prompts/agents/codex/slash_cmd/custom/_hk_weso_qw_is.md`.\n3. Then merge all them into main one by one. MAKE SURE all the pr are eventually merged into main branch.\n4. Check if any remote issue related to these pr / commit , then update the issue. If completed then close it.\n5. Change local branch to main. At this state , MAKE SURE ALL THE current local works are landed in main branch .\n6. For all the branch remains,\n- 6.1. Check if they are having another squashed or it's works are presented in main.\n- 6.2. If it's works that is not in main.\nFor both 6.1 , 6.2: create 2 gh issue to: 6.1: clear the worktree & local branch; 6.2: create pr to do continue the work or merge them into main. MAKE SURE the issue illustrate clearly\
-    \ which branches each .\n\n---\n\nthe FINAL GOAL:\n- all the completed PR are merged to main (or other baseline branch, if in YOLO mode and non-specified otherwise , always use `main` / `master`)\n- currently stale / orphan ISSUE: must link to pr if possible, then close.\n- worktree pruned.\n- If having stale docker img running / background progress that is NOT working anymore: prune.\n- Clean up background progress that is faulty / duplicated / not needed anymore .\n "
+  trigger: pom::qox,
+- replace: "Now we do a sync **ALL** to main.\n1. Check if current branch have stacked\
+    \ commits that is NOT merged nor having pr to main yet. Then make stacked pr for\
+    \ all of them.\n2. Then sleep and then resolve the pr by this guide: `/home/bhd/Documents/Projects/bhd/prompts/agents/codex/slash_cmd/custom/_hk_weso_qw_is.md`.\n\
+    3. Then merge all them into main one by one. MAKE SURE all the pr are eventually\
+    \ merged into main branch.\n4. Check if any remote issue related to these pr /\
+    \ commit , then update the issue. If completed then close it.\n5. Change local\
+    \ branch to main. At this state , MAKE SURE ALL THE current local works are landed\
+    \ in main branch .\n6. For all the branch remains,\n- 6.1. Check if they are having\
+    \ another squashed or it's works are presented in main.\n- 6.2. If it's works\
+    \ that is not in main.\nFor both 6.1 , 6.2: create 2 gh issue to: 6.1: clear the\
+    \ worktree & local branch; 6.2: create pr to do continue the work or merge them\
+    \ into main. MAKE SURE the issue illustrate clearly which branches each .\n\n\
+    ---\n\nthe FINAL GOAL:\n- all the completed PR are merged to main (or other baseline\
+    \ branch, if in YOLO mode and non-specified otherwise , always use `main` / `master`)\n\
+    - currently stale / orphan ISSUE: must link to pr if possible, then close.\n-\
+    \ worktree pruned.\n- If having stale docker img running / background progress\
+    \ that is NOT working anymore: prune.\n- Clean up background progress that is\
+    \ faulty / duplicated / not needed anymore .\n "
   label: custom/_hk_all_pr_is
   allow_duplicate: true
   _duplicate_group: pom::qox
   _source: ../prompts/agents/codex/slash_cmd/custom/_hk_all_pr_is.md
-  _tags: [prompt, codex, slash]
+  _tags:
+  - prompt
+  - codex
+  - slash
   propagate_case: true
-  triggers: ['pom::qox,']
-- replace: "Check the progress of the current project compare to remote issue and flow/{docs , plans , original_docs , ideas}. How much it's completed. Give me in bullet and in %.\n "
+  trigger: pom::qox,
+- replace: "Check the progress of the current project compare to remote issue and\
+    \ flow/{docs , plans , original_docs , ideas}. How much it's completed. Give me\
+    \ in bullet and in %.\n "
   label: custom/_hk_pwog
   allow_duplicate: true
   _duplicate_group: pom::qox
   _source: ../prompts/agents/codex/slash_cmd/custom/_hk_pwog.md
-  _tags: [prompt, codex, slash]
+  _tags:
+  - prompt
+  - codex
+  - slash
   propagate_case: true
-  triggers: ['pom::qox,']
-- replace: "check the remote review then:\n\n- For simple problem, resolve them.\n- For problem that can group together & complex and having multiple pr stacked together and have a common issue, make another issue to resolve them later. MAKE SURE you link that issue to the pr review comment for tracability.\n\nMAKE SURE for all the current pr you review and resolve , MUST do these:\n- Merge them into it's parent branch.\n- Find the gh issue and update (link to pr) and close it.\n- If there are milestone related to these and it's completed . Then close it as well .\n "
+  trigger: pom::qox,
+- replace: "check the remote review then:\n\n- For simple problem, resolve them.\n\
+    - For problem that can group together & complex and having multiple pr stacked\
+    \ together and have a common issue, make another issue to resolve them later.\
+    \ MAKE SURE you link that issue to the pr review comment for tracability.\n\n\
+    MAKE SURE for all the current pr you review and resolve , MUST do these:\n- Merge\
+    \ them into it's parent branch.\n- Find the gh issue and update (link to pr) and\
+    \ close it.\n- If there are milestone related to these and it's completed . Then\
+    \ close it as well .\n "
   label: custom/_hk_weso_qw_is
   allow_duplicate: true
   _duplicate_group: pom::qox
   _source: ../prompts/agents/codex/slash_cmd/custom/_hk_weso_qw_is.md
-  _tags: [prompt, codex, slash]
+  _tags:
+  - prompt
+  - codex
+  - slash
   propagate_case: true
-  triggers: ['pom::qox,']
-- replace: "<duration>: 24hours\n\nRead the _WYW.md file, you are NOT going to do any of it but to check it's progress. Follow the notes , progress files in there, also the commit and pr. Then let me know what is the progress of it. Also highlight the progress during last <duration>: 24hours as well. Consider the final goal, how much are we going so far and how much left (also give me in % as well), what are the other things that needs to do in order to completed the whole FINAL GOAL?\n\n1. Do we going around and around in 1 place WITHOUT having any real progress.\n\n**YOLO**\nIf progress is `YOLO` mode (normally it's this way): it must have added the functionalities toward the project goal. Not the CICD / compliance / guardrail / ... stuffs. Identify the final goal of the project and steer the cycles toward it. Do NOT derived to doing other stuffs.\n\nIf not , then it must improve all the aspect of the project to make it fully production ready (compliance last). Including:\n- testing (unittest\
-    \ / e2e / manual / ...)\n- CICD (if already specify. Otherwise assumes AWS & Rancher & Fleet & GHActions by default)\n\n**Project scope**\n- If it's just going around like in a rat race because it FULLY (or almost) explored all the possible path could do with the current project scope. Then guide it to do something else (think outside of the box in this scenario , as long as it's aligned with the project initial goal <out_of_the_box>)\n- If it's not exausting the current capable of the project , guide it with <out_of_the_box> thinking .\n\n2. Check all the document mentioned in _WYW.md , then some of them might have overlapped / duplicated information . Consolidated them (as a summarize , MAKE SURE you are not remove any LATEST information in there).\n "
+  trigger: pom::qox,
+- replace: "<duration>: 24hours\n\nRead the _WYW.md file, you are NOT going to do\
+    \ any of it but to check it's progress. Follow the notes , progress files in there,\
+    \ also the commit and pr. Then let me know what is the progress of it. Also highlight\
+    \ the progress during last <duration>: 24hours as well. Consider the final goal,\
+    \ how much are we going so far and how much left (also give me in % as well),\
+    \ what are the other things that needs to do in order to completed the whole FINAL\
+    \ GOAL?\n\n1. Do we going around and around in 1 place WITHOUT having any real\
+    \ progress.\n\n**YOLO**\nIf progress is `YOLO` mode (normally it's this way):\
+    \ it must have added the functionalities toward the project goal. Not the CICD\
+    \ / compliance / guardrail / ... stuffs. Identify the final goal of the project\
+    \ and steer the cycles toward it. Do NOT derived to doing other stuffs.\n\nIf\
+    \ not , then it must improve all the aspect of the project to make it fully production\
+    \ ready (compliance last). Including:\n- testing (unittest / e2e / manual / ...)\n\
+    - CICD (if already specify. Otherwise assumes AWS & Rancher & Fleet & GHActions\
+    \ by default)\n\n**Project scope**\n- If it's just going around like in a rat\
+    \ race because it FULLY (or almost) explored all the possible path could do with\
+    \ the current project scope. Then guide it to do something else (think outside\
+    \ of the box in this scenario , as long as it's aligned with the project initial\
+    \ goal <out_of_the_box>)\n- If it's not exausting the current capable of the project\
+    \ , guide it with <out_of_the_box> thinking .\n\n2. Check all the document mentioned\
+    \ in _WYW.md , then some of them might have overlapped / duplicated information\
+    \ . Consolidated them (as a summarize , MAKE SURE you are not remove any LATEST\
+    \ information in there).\n "
   label: custom/_hk_wyw
   allow_duplicate: true
   _duplicate_group: pom::qox
   _source: ../prompts/agents/codex/slash_cmd/custom/_hk_wyw.md
-  _tags: [prompt, codex, slash]
+  _tags:
+  - prompt
+  - codex
+  - slash
   propagate_case: true
-  triggers: ['pom::qox,']
-- replace: "There are another remote AI AGENT that will do the pr review. It's will by default using these patterns:\n\n```text\nStandard code review patterns\nWhen custom style guides aren't specified, these are the main categories of areas where Gemini Code Assist focuses its code review on:\n\nCorrectness: Makes sure the code functions as intended and handles edge cases, checks for logic errors, race conditions, or incorrect API usage.\n\nEfficiency: Identifies potential performance bottlenecks or areas for optimization, like excessive loops, memory leaks, inefficient data structures, redundant calculations, excessive logging, and inefficient string manipulation.\n\nMaintainability: Assesses code readability, modularity, and adherence to language idioms and best practices. Targets poor naming for variables, functions, and classes, lack of comments or documentation, complex code, code duplication, inconsistent formatting, and magic numbers.\n\nSecurity: Identifies potential vulnerabilities\
-    \ in data handling or input validation, like insecure storage of sensitive data, injection attacks, insufficient access controls, Cross-Site Request Forgery (CSRF), and Insecure Direct Object References (IDOR).\n\nMiscellaneous: Other topics are considered when reviewing the pull request, like testing, performance, scalability, modularity and reusability, and error logging and monitoring.\n```\n\nNow by current document and your understand of the project. Ensure the file `.gemini/styleguide.md` to have including these above aspect and also tailored instruction for it to aligns with the current project.\n\nThen ensure these information are available in there as well (as-is , without any rewording)\n\n```text\nYou will not just review about the coding but also the alignment of the implementation with the initial document and requirement as well.\n\nAny things violate the below will me mark as CRITICAL, even if it's not bug or coding problem:\n- all the works MUST aligned with the original\
-    \ document and requirement or the related gh issue. NO gold-platting or over-engineering.\n- ABSOLUTE ZERO tolerance on: masking issue by multiple try catch, mock / stub / fake (<fake>) implementation WITHOUT **CLEAR** explaination on exact WHY it's do so , the explanation MUST stays in 3 places in order to be consider as valid: in that exact <fake> implementation function, in ./flow/* docs , in the commit & PR comment.\n- ZERO tolerance for false claim WITHOUT real proof and evidence.\n```\n "
+  trigger: pom::qox,
+- replace: "There are another remote AI AGENT that will do the pr review. It's will\
+    \ by default using these patterns:\n\n```text\nStandard code review patterns\n\
+    When custom style guides aren't specified, these are the main categories of areas\
+    \ where Gemini Code Assist focuses its code review on:\n\nCorrectness: Makes sure\
+    \ the code functions as intended and handles edge cases, checks for logic errors,\
+    \ race conditions, or incorrect API usage.\n\nEfficiency: Identifies potential\
+    \ performance bottlenecks or areas for optimization, like excessive loops, memory\
+    \ leaks, inefficient data structures, redundant calculations, excessive logging,\
+    \ and inefficient string manipulation.\n\nMaintainability: Assesses code readability,\
+    \ modularity, and adherence to language idioms and best practices. Targets poor\
+    \ naming for variables, functions, and classes, lack of comments or documentation,\
+    \ complex code, code duplication, inconsistent formatting, and magic numbers.\n\
+    \nSecurity: Identifies potential vulnerabilities in data handling or input validation,\
+    \ like insecure storage of sensitive data, injection attacks, insufficient access\
+    \ controls, Cross-Site Request Forgery (CSRF), and Insecure Direct Object References\
+    \ (IDOR).\n\nMiscellaneous: Other topics are considered when reviewing the pull\
+    \ request, like testing, performance, scalability, modularity and reusability,\
+    \ and error logging and monitoring.\n```\n\nNow by current document and your understand\
+    \ of the project. Ensure the file `.gemini/styleguide.md` to have including these\
+    \ above aspect and also tailored instruction for it to aligns with the current\
+    \ project.\n\nThen ensure these information are available in there as well (as-is\
+    \ , without any rewording)\n\n```text\nYou will not just review about the coding\
+    \ but also the alignment of the implementation with the initial document and requirement\
+    \ as well.\n\nAny things violate the below will me mark as CRITICAL, even if it's\
+    \ not bug or coding problem:\n- all the works MUST aligned with the original document\
+    \ and requirement or the related gh issue. NO gold-platting or over-engineering.\n\
+    - ABSOLUTE ZERO tolerance on: masking issue by multiple try catch, mock / stub\
+    \ / fake (<fake>) implementation WITHOUT **CLEAR** explaination on exact WHY it's\
+    \ do so , the explanation MUST stays in 3 places in order to be consider as valid:\
+    \ in that exact <fake> implementation function, in ./flow/* docs , in the commit\
+    \ & PR comment.\n- ZERO tolerance for false claim WITHOUT real proof and evidence.\n\
+    ```\n "
   label: custom/_init_mini_styleguide
   allow_duplicate: true
   _duplicate_group: pom::qox
   _source: ../prompts/agents/codex/slash_cmd/custom/_init_mini_styleguide.md
-  _tags: [prompt, codex, slash]
+  _tags:
+  - prompt
+  - codex
+  - slash
   propagate_case: true
-  triggers: ['pom::qox,']
-- replace: "# _init_service\n\nThis file replaces a broken symlink that previously pointed to `../../../../noco-mesh/flow/setup/_init_service.md` outside this repository. Keep this repo-local copy as the authoritative reference for Codex slash command service initialization.\n\nIf you need to sync with the upstream doc, paste updates here explicitly.\n "
+  trigger: pom::qox,
+- replace: "# _init_service\n\nThis file replaces a broken symlink that previously\
+    \ pointed to `../../../../noco-mesh/flow/setup/_init_service.md` outside this\
+    \ repository. Keep this repo-local copy as the authoritative reference for Codex\
+    \ slash command service initialization.\n\nIf you need to sync with the upstream\
+    \ doc, paste updates here explicitly.\n "
   label: custom/_init_service
   allow_duplicate: true
   _duplicate_group: pom::qox
   _source: ../prompts/agents/codex/slash_cmd/custom/_init_service.md
-  _tags: [prompt, codex, slash]
+  _tags:
+  - prompt
+  - codex
+  - slash
   propagate_case: true
-  triggers: ['pom::qox,']
-- replace: "Read `/home/bhd/Documents/Projects/bhd/prompts/corpus/3_workflows/wwc/_WYW.md`.\n\nThen there are the part for you you populate the information in with `{{}}`.\n\nDo it and put it in the current `./_WYW.md`. MAKE SURE you carefully read through the requirement and the document.\n\nIf provide with initial milstone / gh issue and you ARE in the worktree. Then that issue / milestone is the goal of the current `WYW`.\n\nIf you ARE in the main worktree WITHOUT any context of any milestone or issue , then it's about the project as a whole.\n "
+  trigger: pom::qox,
+- replace: "Read `/home/bhd/Documents/Projects/bhd/prompts/corpus/3_workflows/wwc/_WYW.md`.\n\
+    \nThen there are the part for you you populate the information in with `{{}}`.\n\
+    \nDo it and put it in the current `./_WYW.md`. MAKE SURE you carefully read through\
+    \ the requirement and the document.\n\nIf provide with initial milstone / gh issue\
+    \ and you ARE in the worktree. Then that issue / milestone is the goal of the\
+    \ current `WYW`.\n\nIf you ARE in the main worktree WITHOUT any context of any\
+    \ milestone or issue , then it's about the project as a whole.\n "
   label: custom/_init_wyw
   allow_duplicate: true
   _duplicate_group: pom::qox
   _source: ../prompts/agents/codex/slash_cmd/custom/_init_wyw.md
-  _tags: [prompt, codex, slash]
+  _tags:
+  - prompt
+  - codex
+  - slash
   propagate_case: true
-  triggers: ['pom::qox,']
-- replace: "Now add these comment into the pr:\n\"@codex review <summarize>\"\n\"@codegen review <summarize>\"\n\nThen SLEEP for 3 mins. Then check the comment and resolve them even if they are not blocking.\n "
+  trigger: pom::qox,
+- replace: "Now add these comment into the pr:\n\"@codex review <summarize>\"\n\"\
+    @codegen review <summarize>\"\n\nThen SLEEP for 3 mins. Then check the comment\
+    \ and resolve them even if they are not blocking.\n "
   label: custom/_mini_review
   allow_duplicate: true
   _duplicate_group: pom::qox
   _source: ../prompts/agents/codex/slash_cmd/custom/_mini_review.md
-  _tags: [prompt, codex, slash]
+  _tags:
+  - prompt
+  - codex
+  - slash
   propagate_case: true
-  triggers: ['pom::qox,']
-- replace: "• RCA-First Troubleshooting Charter\n\n- Principles\n    - Fix the root cause, not symptoms.\n    - Minimize blast radius and reversibly change only one thing at a time.\n    - Evidence over intuition; hypotheses require proof.\n- Reproduce\n    - Create the smallest reliable repro (single command/script).\n    - Capture baseline: timestamped CPU/memory/I/O/latency and the exact invocation.\n    - Freeze variables: same inputs, environment, and versions.\n- Localize\n    - Narrow by halves: disable features or isolate components until the signal drops.\n    - Identify the hot path with file:line or function and the triggering condition.\n    - Confirm with at least one independent signal (e.g., logs + profiler, metrics + traces).\n- Containment (only if explicitly allowed)\n    - Use process/OS-level measures (nice/limits/restarts) that are fully reversible.\n    - No code/config tuning (timeouts, retries, sleeps, caches) before cause is proven.\n- Fix\n    - Add a failing test\
-    \ that encodes the repro; confirm it fails for the right reason.\n    - Implement the smallest change that makes the test pass; no drive‑by refactors.\n    - Include a rollback plan and guardrails (input validation, bounds, timeouts if intrinsic to the fix).\n- Validate\n    - Rerun the repro on the fixed build; collect the same metrics under identical conditions.\n    - Show before/after deltas and verify no regressions in adjacent behavior.\n    - Soak, then recheck key signals (errors, latency, resource use).\n- Deliverables\n    - Repro steps (copy‑pasteable), cause summary (one sentence), precise code references, fix diff.\n    - Test name/location and why it fails pre‑fix/passes post‑fix.\n    - Metrics with timestamps and commands used; rollback instructions.\n- Never Do\n    - Don’t “tune” to hide issues (timeouts/retries/backoffs/sleeps) without prior approval.\n    - Don’t change multiple variables at once or ship unmeasured fixes.\n    - Don’t rely on logs alone when profilers/metrics\
-    \ can confirm.\n- When Uncertain\n    - State assumptions, propose 2–3 falsifiable checks, and run the cheapest first.\n    - Escalate early if blocked on data, access, or environment parity.\n "
+  trigger: pom::qox,
+- replace: "• RCA-First Troubleshooting Charter\n\n- Principles\n    - Fix the root\
+    \ cause, not symptoms.\n    - Minimize blast radius and reversibly change only\
+    \ one thing at a time.\n    - Evidence over intuition; hypotheses require proof.\n\
+    - Reproduce\n    - Create the smallest reliable repro (single command/script).\n\
+    \    - Capture baseline: timestamped CPU/memory/I/O/latency and the exact invocation.\n\
+    \    - Freeze variables: same inputs, environment, and versions.\n- Localize\n\
+    \    - Narrow by halves: disable features or isolate components until the signal\
+    \ drops.\n    - Identify the hot path with file:line or function and the triggering\
+    \ condition.\n    - Confirm with at least one independent signal (e.g., logs +\
+    \ profiler, metrics + traces).\n- Containment (only if explicitly allowed)\n \
+    \   - Use process/OS-level measures (nice/limits/restarts) that are fully reversible.\n\
+    \    - No code/config tuning (timeouts, retries, sleeps, caches) before cause\
+    \ is proven.\n- Fix\n    - Add a failing test that encodes the repro; confirm\
+    \ it fails for the right reason.\n    - Implement the smallest change that makes\
+    \ the test pass; no drive‑by refactors.\n    - Include a rollback plan and guardrails\
+    \ (input validation, bounds, timeouts if intrinsic to the fix).\n- Validate\n\
+    \    - Rerun the repro on the fixed build; collect the same metrics under identical\
+    \ conditions.\n    - Show before/after deltas and verify no regressions in adjacent\
+    \ behavior.\n    - Soak, then recheck key signals (errors, latency, resource use).\n\
+    - Deliverables\n    - Repro steps (copy‑pasteable), cause summary (one sentence),\
+    \ precise code references, fix diff.\n    - Test name/location and why it fails\
+    \ pre‑fix/passes post‑fix.\n    - Metrics with timestamps and commands used; rollback\
+    \ instructions.\n- Never Do\n    - Don’t “tune” to hide issues (timeouts/retries/backoffs/sleeps)\
+    \ without prior approval.\n    - Don’t change multiple variables at once or ship\
+    \ unmeasured fixes.\n    - Don’t rely on logs alone when profilers/metrics can\
+    \ confirm.\n- When Uncertain\n    - State assumptions, propose 2–3 falsifiable\
+    \ checks, and run the cheapest first.\n    - Escalate early if blocked on data,\
+    \ access, or environment parity.\n "
   label: custom/_oqo_init_a
   allow_duplicate: true
   _duplicate_group: pom::qox
   _source: ../prompts/agents/codex/slash_cmd/custom/_oqo_init_a.md
-  _tags: [prompt, codex, slash]
+  _tags:
+  - prompt
+  - codex
+  - slash
   propagate_case: true
-  triggers: ['pom::qox,']
-- replace: "Requirement:\n```\n- Purpose\n      - Expose all inter-component contracts via a unified produces/consumes pattern wired with symlinks so artifacts stay synchronized inside the repo.\n- Layout\n    - Producer (source of truth): components/<component>/interfaces/produces/<contract>/\n    - Canonical mount: interfaces/data/<contract> → symlink to the producer dir (exactly one producer per contract)\n    - Consumer: components/<component>/interfaces/consumes/data/<contract> → symlink to interfaces/data/<contract>\n- Invariants\n    - One producer per contract; consumers never modify artifacts.\n    - No copies; only symlinks along producer → interfaces/data → consumer.\n    - Artifacts are Git-tracked and reviewable.\n- Contracts (examples, not exhaustive)\n    - openapi/ (HTTP API schemas)\n    - asyncapi/ (event schemas)\n    - db/ (database schemas/migrations)\n    - redis/ (key/value schemas, TTLs)\n    - Add others as needed under the same pattern.\n- Producer responsibilities\n\
-    \    - Keep the contract files in interfaces/produces/<contract>/.\n    - Update artifacts there; document any breaking changes within that contract folder if needed.\n- Canonical mount\n    - Create/maintain a single symlink at interfaces/data/<contract> pointing to the producer’s folder.\n- Consumer responsibilities\n    - Depend only on components/<comp>/interfaces/consumes/data/<contract> (symlink to canonical mount).\n    - Regenerate or read from the symlinked contract; do not duplicate artifacts.\n- Adding a new contract\n    - Create producer dir under components/<producer>/interfaces/produces/<contract>/ and place artifacts.\n    - ln -sfn components/<producer>/interfaces/produces/<contract> interfaces/data/<contract>\n    - ln -sfn interfaces/data/<contract> components/<consumer>/interfaces/consumes/data/<contract>\n- Updating a contract\n    - Change artifacts in the producer dir; the symlink chain propagates to interfaces/data and all consumers automatically.\n\n```\n\n```\n\
-    Here’s a practical, SDK‑free, Git‑tracked way to cover contracts beyond HTTP/JSON — DBs, Redis, Kafka, and mixed stacks — with zero‑cost, open tooling and a uniform layout.\n\nUniform, Git‑tracked contracts\n\n- Versioned specs live under interfaces/data and flow to components via symlinks (produces → data → consumes).\n- Validate every contract in CI via CLI tools; block merges on drift.\n- Prefer plain, stable formats (YAML/JSON/SQL/DBML/HCL/Avro) over codegen‑only artifacts.\n\nRecommended open formats + CLIs (free, no limits)\n\n- HTTP APIs: OpenAPI JSON/YAML + spectral (lint), ajv‑cli (schema validate), openapi-generator-cli (optional).\n- Events/streams (Kafka/Redpanda/NATS): AsyncAPI YAML + message schemas in Avro or JSON Schema; asyncapi CLI, ajv‑cli/avro-tools.\n- Relational DB schema: pick one canonical source and keep SQL snapshots.\n    - Option A (migrations-as-code): Atlas (HCL + migrate/lint/diff) or Sqitch (change management, no “up/down” trap). Both are OSS.\n    - Option\
-    \ B (descriptive): DBML (dbml-cli for diagrams/codegen) plus SQL migrations (Flyway/Liquibase Community or Atlas).\n- Caches (Redis): declare keyspace contracts as YAML + JSON Schemas; validate with a tiny CLI script (Python/Node) and ajv‑cli. No server plugin required.\n- Search indexes: JSON index mappings (OpenSearch/Elasticsearch) + jq/schematests.\n- Jobs/queues: JSON Schema for payloads + ajv‑cli.\n\nOrches layout (uniform)\n\n- Producer (backend): components/backend/interfaces/produces/\n    - openapi/api.json\n    - asyncapi/events.yml\n    - db/atlas/schema.hcl and/or db/sql/migrations/...\n    - redis/contracts.yml and redis/schemas/*.schema.json\n- Canonical mount: interfaces/data/\n    - openapi -> symlink to backend produces/openapi\n    - asyncapi -> symlink to backend produces/asyncapi\n    - db -> symlink to backend produces/db\n    - redis -> symlink to backend produces/redis\n- Consumer (frontend/others): components/<comp>/interfaces/consumes/data/<contract> -> symlink\
-    \ to interfaces/data/<contract>\n\nValidation (CLI‑first; add to CI)\n\n- OpenAPI:\n    - spectral lint interfaces/data/openapi/api.json\n    - python scripts/check_openapi_drift.py (already present)\n- AsyncAPI:\n    - asyncapi validate interfaces/data/asyncapi/events.yml\n- Avro/JSON Schema messages:\n    - avro-tools idl or ajv validate -s schema.json -d sample.json\n- DB (choose one):\n    - Atlas: atlas schema lint -f interfaces/data/db/atlas/schema.hcl; atlas migrate diff …; atlas schema diff …\n    - Sqitch: sqitch verify; sqitch deploy --verify (against disposable DB)\n    - DBML (complement): dbml-render for diagrams; generate SQL and compare vs canonical snapshot\n- Redis:\n    - python scripts/redis_contract_check.py --spec interfaces/data/redis/contracts.yml (walk keys, fetch samples, validate with ajv)\n\nExample Redis contract (tracked, uniform)\n\n- interfaces/data/redis/contracts.yml\n    - key_pattern: user:{id}:profile\n    - type: json (or hash/string)\n    - ttl_seconds:\
-    \ 86400\n    - schema: schemas/user_profile.schema.json\n    - invariants: unique_fields: [id], required_fields: [...]\n- interfaces/data/redis/schemas/user_profile.schema.json: JSON Schema for the value\n- A tiny script connects to REDIS_URL and validates live keys against schema + TTL.\n\nRelational DB contract (two proven paths)\n\n- Atlas (cleanest for multi‑DB): interfaces/data/db/atlas/schema.hcl as source‑of‑truth; keep SQL snapshots per dialect under interfaces/data/db/sql/<dialect>/schema.sql; use atlas diff to guard drifts.\n- Sqitch (migration discipline): interfaces/data/db/sql/sqitch/{deploy,revert,verify}/…; sqitch plan tracks order; verification is first‑class.\n\nMessaging/event contract\n\n- AsyncAPI in interfaces/data/asyncapi/events.yml describes channels, bindings (kafka), and references to message schemas under interfaces/data/asyncapi/schemas/*.avsc or *.schema.json.\n- Validate with asyncapi CLI; validate message examples with avro-tools/ajv‑cli.\n\nSDK‑free integration\
-    \ for CLI agents\n\n- Everything above runs via CLIs or Docker:\n    - spectral/ajv/asyncapi/openapi-generator/atlas/sqitch/dbml-cli/avro-tools\n- Gate scripts under scripts/contracts/* (bash/python). Example:\n    - scripts/contracts/validate_all.sh runs each validator; exit non‑zero on any drift.\n    - scripts/contracts/render_db_diagram.sh (dbml-cli) for quick visual reviews.\n- Consumers regenerate types/clients via openapi-generator-cli, or skip codegen and use plain HTTP with schemas for validation.\n\nWhy not Schema Registry or Pact by default?\n\n- Registry (Confluent): powerful but adds infrastructure and governance model; use only when you actually need runtime schema enforcement across independent teams. If you do, prefer OSS registries like Apicurio Registry or Karapace (both free) and interact via REST/CLI.\n- Pact: valuable with many cross‑team consumer/provider pairs and frequent changes. It adds a broker and test wiring. Start with static specs + CI validation; add Pact\
-    \ later if coordination pain appears.\n\nMinimal starter checklist (actionable)\n\n- OpenAPI: already wired (interfaces/data/openapi).\n- Add AsyncAPI scaffold: interfaces/data/asyncapi/events.yml (+ schemas/).\n- Add DB contract:\n    - Pick Atlas or Sqitch; create interfaces/data/db/{atlas|sql}/…; wire a make contracts-db-check target.\n- Add Redis contract:\n    - Add interfaces/data/redis/contracts.yml and schemas/; add scripts/redis_contract_check.py.\n- CI:\n    - make contracts-check running spectral, asyncapi, ajv, and your DB/Redis validators; block merge on failure.\n\n```\n "
+  trigger: pom::qox,
+- replace: "Requirement:\n```\n- Purpose\n      - Expose all inter-component contracts\
+    \ via a unified produces/consumes pattern wired with symlinks so artifacts stay\
+    \ synchronized inside the repo.\n- Layout\n    - Producer (source of truth): components/<component>/interfaces/produces/<contract>/\n\
+    \    - Canonical mount: interfaces/data/<contract> → symlink to the producer dir\
+    \ (exactly one producer per contract)\n    - Consumer: components/<component>/interfaces/consumes/data/<contract>\
+    \ → symlink to interfaces/data/<contract>\n- Invariants\n    - One producer per\
+    \ contract; consumers never modify artifacts.\n    - No copies; only symlinks\
+    \ along producer → interfaces/data → consumer.\n    - Artifacts are Git-tracked\
+    \ and reviewable.\n- Contracts (examples, not exhaustive)\n    - openapi/ (HTTP\
+    \ API schemas)\n    - asyncapi/ (event schemas)\n    - db/ (database schemas/migrations)\n\
+    \    - redis/ (key/value schemas, TTLs)\n    - Add others as needed under the\
+    \ same pattern.\n- Producer responsibilities\n    - Keep the contract files in\
+    \ interfaces/produces/<contract>/.\n    - Update artifacts there; document any\
+    \ breaking changes within that contract folder if needed.\n- Canonical mount\n\
+    \    - Create/maintain a single symlink at interfaces/data/<contract> pointing\
+    \ to the producer’s folder.\n- Consumer responsibilities\n    - Depend only on\
+    \ components/<comp>/interfaces/consumes/data/<contract> (symlink to canonical\
+    \ mount).\n    - Regenerate or read from the symlinked contract; do not duplicate\
+    \ artifacts.\n- Adding a new contract\n    - Create producer dir under components/<producer>/interfaces/produces/<contract>/\
+    \ and place artifacts.\n    - ln -sfn components/<producer>/interfaces/produces/<contract>\
+    \ interfaces/data/<contract>\n    - ln -sfn interfaces/data/<contract> components/<consumer>/interfaces/consumes/data/<contract>\n\
+    - Updating a contract\n    - Change artifacts in the producer dir; the symlink\
+    \ chain propagates to interfaces/data and all consumers automatically.\n\n```\n\
+    \n```\nHere’s a practical, SDK‑free, Git‑tracked way to cover contracts beyond\
+    \ HTTP/JSON — DBs, Redis, Kafka, and mixed stacks — with zero‑cost, open tooling\
+    \ and a uniform layout.\n\nUniform, Git‑tracked contracts\n\n- Versioned specs\
+    \ live under interfaces/data and flow to components via symlinks (produces → data\
+    \ → consumes).\n- Validate every contract in CI via CLI tools; block merges on\
+    \ drift.\n- Prefer plain, stable formats (YAML/JSON/SQL/DBML/HCL/Avro) over codegen‑only\
+    \ artifacts.\n\nRecommended open formats + CLIs (free, no limits)\n\n- HTTP APIs:\
+    \ OpenAPI JSON/YAML + spectral (lint), ajv‑cli (schema validate), openapi-generator-cli\
+    \ (optional).\n- Events/streams (Kafka/Redpanda/NATS): AsyncAPI YAML + message\
+    \ schemas in Avro or JSON Schema; asyncapi CLI, ajv‑cli/avro-tools.\n- Relational\
+    \ DB schema: pick one canonical source and keep SQL snapshots.\n    - Option A\
+    \ (migrations-as-code): Atlas (HCL + migrate/lint/diff) or Sqitch (change management,\
+    \ no “up/down” trap). Both are OSS.\n    - Option B (descriptive): DBML (dbml-cli\
+    \ for diagrams/codegen) plus SQL migrations (Flyway/Liquibase Community or Atlas).\n\
+    - Caches (Redis): declare keyspace contracts as YAML + JSON Schemas; validate\
+    \ with a tiny CLI script (Python/Node) and ajv‑cli. No server plugin required.\n\
+    - Search indexes: JSON index mappings (OpenSearch/Elasticsearch) + jq/schematests.\n\
+    - Jobs/queues: JSON Schema for payloads + ajv‑cli.\n\nOrches layout (uniform)\n\
+    \n- Producer (backend): components/backend/interfaces/produces/\n    - openapi/api.json\n\
+    \    - asyncapi/events.yml\n    - db/atlas/schema.hcl and/or db/sql/migrations/...\n\
+    \    - redis/contracts.yml and redis/schemas/*.schema.json\n- Canonical mount:\
+    \ interfaces/data/\n    - openapi -> symlink to backend produces/openapi\n   \
+    \ - asyncapi -> symlink to backend produces/asyncapi\n    - db -> symlink to backend\
+    \ produces/db\n    - redis -> symlink to backend produces/redis\n- Consumer (frontend/others):\
+    \ components/<comp>/interfaces/consumes/data/<contract> -> symlink to interfaces/data/<contract>\n\
+    \nValidation (CLI‑first; add to CI)\n\n- OpenAPI:\n    - spectral lint interfaces/data/openapi/api.json\n\
+    \    - python scripts/check_openapi_drift.py (already present)\n- AsyncAPI:\n\
+    \    - asyncapi validate interfaces/data/asyncapi/events.yml\n- Avro/JSON Schema\
+    \ messages:\n    - avro-tools idl or ajv validate -s schema.json -d sample.json\n\
+    - DB (choose one):\n    - Atlas: atlas schema lint -f interfaces/data/db/atlas/schema.hcl;\
+    \ atlas migrate diff …; atlas schema diff …\n    - Sqitch: sqitch verify; sqitch\
+    \ deploy --verify (against disposable DB)\n    - DBML (complement): dbml-render\
+    \ for diagrams; generate SQL and compare vs canonical snapshot\n- Redis:\n   \
+    \ - python scripts/redis_contract_check.py --spec interfaces/data/redis/contracts.yml\
+    \ (walk keys, fetch samples, validate with ajv)\n\nExample Redis contract (tracked,\
+    \ uniform)\n\n- interfaces/data/redis/contracts.yml\n    - key_pattern: user:{id}:profile\n\
+    \    - type: json (or hash/string)\n    - ttl_seconds: 86400\n    - schema: schemas/user_profile.schema.json\n\
+    \    - invariants: unique_fields: [id], required_fields: [...]\n- interfaces/data/redis/schemas/user_profile.schema.json:\
+    \ JSON Schema for the value\n- A tiny script connects to REDIS_URL and validates\
+    \ live keys against schema + TTL.\n\nRelational DB contract (two proven paths)\n\
+    \n- Atlas (cleanest for multi‑DB): interfaces/data/db/atlas/schema.hcl as source‑of‑truth;\
+    \ keep SQL snapshots per dialect under interfaces/data/db/sql/<dialect>/schema.sql;\
+    \ use atlas diff to guard drifts.\n- Sqitch (migration discipline): interfaces/data/db/sql/sqitch/{deploy,revert,verify}/…;\
+    \ sqitch plan tracks order; verification is first‑class.\n\nMessaging/event contract\n\
+    \n- AsyncAPI in interfaces/data/asyncapi/events.yml describes channels, bindings\
+    \ (kafka), and references to message schemas under interfaces/data/asyncapi/schemas/*.avsc\
+    \ or *.schema.json.\n- Validate with asyncapi CLI; validate message examples with\
+    \ avro-tools/ajv‑cli.\n\nSDK‑free integration for CLI agents\n\n- Everything above\
+    \ runs via CLIs or Docker:\n    - spectral/ajv/asyncapi/openapi-generator/atlas/sqitch/dbml-cli/avro-tools\n\
+    - Gate scripts under scripts/contracts/* (bash/python). Example:\n    - scripts/contracts/validate_all.sh\
+    \ runs each validator; exit non‑zero on any drift.\n    - scripts/contracts/render_db_diagram.sh\
+    \ (dbml-cli) for quick visual reviews.\n- Consumers regenerate types/clients via\
+    \ openapi-generator-cli, or skip codegen and use plain HTTP with schemas for validation.\n\
+    \nWhy not Schema Registry or Pact by default?\n\n- Registry (Confluent): powerful\
+    \ but adds infrastructure and governance model; use only when you actually need\
+    \ runtime schema enforcement across independent teams. If you do, prefer OSS registries\
+    \ like Apicurio Registry or Karapace (both free) and interact via REST/CLI.\n\
+    - Pact: valuable with many cross‑team consumer/provider pairs and frequent changes.\
+    \ It adds a broker and test wiring. Start with static specs + CI validation; add\
+    \ Pact later if coordination pain appears.\n\nMinimal starter checklist (actionable)\n\
+    \n- OpenAPI: already wired (interfaces/data/openapi).\n- Add AsyncAPI scaffold:\
+    \ interfaces/data/asyncapi/events.yml (+ schemas/).\n- Add DB contract:\n    -\
+    \ Pick Atlas or Sqitch; create interfaces/data/db/{atlas|sql}/…; wire a make contracts-db-check\
+    \ target.\n- Add Redis contract:\n    - Add interfaces/data/redis/contracts.yml\
+    \ and schemas/; add scripts/redis_contract_check.py.\n- CI:\n    - make contracts-check\
+    \ running spectral, asyncapi, ajv, and your DB/Redis validators; block merge on\
+    \ failure.\n\n```\n "
   label: custom/_scalf_interfaces
   allow_duplicate: true
   _duplicate_group: pom::qox
   _source: ../prompts/agents/codex/slash_cmd/custom/_scalf_interfaces.md
-  _tags: [prompt, codex, slash]
+  _tags:
+  - prompt
+  - codex
+  - slash
   propagate_case: true
-  triggers: ['pom::qox,']
-- replace: "Scalfold the current project with all the project structure that you know including:\n- `./flow/*` and all the related files\n- `./*.md`\n "
+  trigger: pom::qox,
+- replace: "Scalfold the current project with all the project structure that you know\
+    \ including:\n- `./flow/*` and all the related files\n- `./*.md`\n "
   label: custom/_scalf_pwj
   allow_duplicate: true
   _duplicate_group: pom::qox
   _source: ../prompts/agents/codex/slash_cmd/custom/_scalf_pwj.md
-  _tags: [prompt, codex, slash]
+  _tags:
+  - prompt
+  - codex
+  - slash
   propagate_case: true
-  triggers: ['pom::qox,']
-- replace: "Do we note all 100% of configuration into the `_STATE(.example).md` yet. If not then fill them in.\n "
+  trigger: pom::qox,
+- replace: "Do we note all 100% of configuration into the `_STATE(.example).md` yet.\
+    \ If not then fill them in.\n "
   label: custom/_state
   allow_duplicate: true
   _duplicate_group: pom::qox
   _source: ../prompts/agents/codex/slash_cmd/custom/_state.md
-  _tags: [prompt, codex, slash]
+  _tags:
+  - prompt
+  - codex
+  - slash
   propagate_case: true
-  triggers: ['pom::qox,']
+  trigger: pom::qox,
 - replace: "Update the `_STATE.md` to reflect the current setup.\n "
   label: custom/_up_state
   allow_duplicate: true
   _duplicate_group: pom::qox
   _source: ../prompts/agents/codex/slash_cmd/custom/_up_state.md
-  _tags: [prompt, codex, slash]
+  _tags:
+  - prompt
+  - codex
+  - slash
   propagate_case: true
-  triggers: ['pom::qox,']
-- replace: "Now check all the remote issue , then use the os `subagents-cli`. MAKE SURE you delegate all the tasks and non will be done by yourself . Run the `subagents-cli` manual WITHOUT using a script to run it. Now you are doing 2 tasks at once (but NON of the implementing task). 1. You will explore the ways to use the subagents-cli to use it in the very efficience way to complete all the works above WITHOUT even touching or reading the code yourself . Then you will read 1 very detailed issue on the `buihongduc132/cli-agents` repo about how to make it super efficient and how to update the help to help you later on if you ever need to use it again . IF you encounter any error , create gh issue to that `cli-agents` repository as well and illustrate the problem in very detailed way. 2. Completed all the phases and issue above using the `subagents-cli` only . For verification , MAKE SURE you init it twice to be sure about all the works . Commit regularly. Per commit noted down which agents\
-    \ did you use during that working session .\n\nMAKE SURE you leave high timeout for these delegation tasks (at least 15 mins).\n "
+  trigger: pom::qox,
+- replace: "Now check all the remote issue , then use the os `subagents-cli`. MAKE\
+    \ SURE you delegate all the tasks and non will be done by yourself . Run the `subagents-cli`\
+    \ manual WITHOUT using a script to run it. Now you are doing 2 tasks at once (but\
+    \ NON of the implementing task). 1. You will explore the ways to use the subagents-cli\
+    \ to use it in the very efficience way to complete all the works above WITHOUT\
+    \ even touching or reading the code yourself . Then you will read 1 very detailed\
+    \ issue on the `buihongduc132/cli-agents` repo about how to make it super efficient\
+    \ and how to update the help to help you later on if you ever need to use it again\
+    \ . IF you encounter any error , create gh issue to that `cli-agents` repository\
+    \ as well and illustrate the problem in very detailed way. 2. Completed all the\
+    \ phases and issue above using the `subagents-cli` only . For verification , MAKE\
+    \ SURE you init it twice to be sure about all the works . Commit regularly. Per\
+    \ commit noted down which agents did you use during that working session .\n\n\
+    MAKE SURE you leave high timeout for these delegation tasks (at least 15 mins).\n\
+    \ "
   label: custom/_use_subagents
   allow_duplicate: true
   _duplicate_group: pom::qox
   _source: ../prompts/agents/codex/slash_cmd/custom/_use_subagents.md
-  _tags: [prompt, codex, slash]
+  _tags:
+  - prompt
+  - codex
+  - slash
   propagate_case: true
-  triggers: ['pom::qox,']
-- replace: "Create gh worktree to do the below work. MAKE SURE:\n- not tamper with the current working dir\n- creating pr into main branch afterward\n- link gh issue if anything related\n "
+  trigger: pom::qox,
+- replace: "Create gh worktree to do the below work. MAKE SURE:\n- not tamper with\
+    \ the current working dir\n- creating pr into main branch afterward\n- link gh\
+    \ issue if anything related\n "
   label: custom/_wk3_pr
   allow_duplicate: true
   _duplicate_group: pom::qox
   _source: ../prompts/agents/codex/slash_cmd/custom/_wk3_pr.md
-  _tags: [prompt, codex, slash]
+  _tags:
+  - prompt
+  - codex
+  - slash
   propagate_case: true
-  triggers: ['pom::qox,']
+  trigger: pom::qox,

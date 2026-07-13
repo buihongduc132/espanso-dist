@@ -1,0 +1,112 @@
+name: _word_families_alarm
+matches:
+- replace: 'alarm '
+  propagate_case: true
+  _tags:
+  - to
+  - can
+  - else
+  - base
+  allow_duplicate: false
+  trigger: alaw,
+- replace: 'alarms '
+  propagate_case: true
+  _tags:
+  - to
+  - can
+  - else
+  - plural
+  allow_duplicate: false
+  trigger: alaws,
+- replace: 'alarming '
+  propagate_case: true
+  _tags:
+  - to
+  - can
+  - else
+  - ing
+  allow_duplicate: false
+  trigger: alawi,
+- replace: 'alarmed '
+  propagate_case: true
+  _tags:
+  - to
+  - can
+  - else
+  - ed
+  - past
+  allow_duplicate: false
+  trigger: alawp,
+- replace: 'alarmer '
+  propagate_case: true
+  _tags:
+  - to
+  - can
+  - else
+  - agent
+  allow_duplicate: false
+  trigger: alaww,
+- replace: 'alarmable '
+  propagate_case: true
+  _tags:
+  - to
+  - can
+  - else
+  - adjective
+  - able
+  allow_duplicate: false
+  trigger: alawb,
+- replace: 'alarmingly '
+  propagate_case: true
+  _tags:
+  - to
+  - can
+  - else
+  - adverb
+  allow_duplicate: false
+  trigger: alawl,
+- replace: 'this alarm '
+  propagate_case: true
+  _tags:
+  - to
+  - can
+  - else
+  - demonstrative
+  allow_duplicate: false
+  trigger: izalaw,
+- replace: 'that alarm '
+  propagate_case: true
+  _tags:
+  - to
+  - can
+  - else
+  - demonstrative
+  allow_duplicate: false
+  trigger: azalaw,
+- replace: 'these alarm '
+  propagate_case: true
+  _tags:
+  - to
+  - can
+  - else
+  - demonstrative
+  allow_duplicate: false
+  trigger: ezalaw,
+- replace: 'those alarm '
+  propagate_case: true
+  _tags:
+  - to
+  - can
+  - else
+  - demonstrative
+  allow_duplicate: false
+  trigger: ozalaw,
+- replace: 'alarm to the '
+  propagate_case: true
+  _tags:
+  - to
+  - can
+  - else
+  - directional
+  allow_duplicate: false
+  trigger: alaw2h,

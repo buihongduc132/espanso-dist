@@ -1,0 +1,284 @@
+name: _exact_word_families_4
+matches:
+- replace: 'queries '
+  _tags:
+  - ours
+  - pronoun
+  - else
+  propagate_case: true
+  allow_duplicate: false
+  trigger: quewys,
+- replace: 'queried '
+  _tags:
+  - ed
+  - would
+  - else
+  - pronoun
+  propagate_case: true
+  allow_duplicate: false
+  trigger: quewyp,
+- replace: 'querying '
+  _tags:
+  - ing
+  - pronoun
+  - else
+  propagate_case: true
+  allow_duplicate: false
+  trigger: quewyi,
+- replace: 'compiler '
+  _tags:
+  - can
+  - else
+  - pronoun
+  propagate_case: true
+  allow_duplicate: false
+  trigger: qompilew,
+- replace: 'compiles '
+  _tags:
+  - can
+  - else
+  - pronoun
+  propagate_case: true
+  allow_duplicate: false
+  trigger: qompiles,
+- replace: 'compiled '
+  _tags:
+  - pronoun
+  - can
+  - ed
+  - would
+  - else
+  propagate_case: true
+  allow_duplicate: false
+  trigger: qompilep,
+- replace: 'compiling '
+  _tags:
+  - ing
+  - can
+  - else
+  - pronoun
+  propagate_case: true
+  allow_duplicate: false
+  trigger: qompilei,
+- replace: 'compilation '
+  _tags:
+  - pronoun
+  - to
+  - can
+  - noun
+  - else
+  propagate_case: true
+  allow_duplicate: false
+  trigger: qompilem,
+- replace: 'refactors '
+  _tags:
+  - to
+  - can
+  - else
+  propagate_case: true
+  allow_duplicate: false
+  trigger: wefaqtows,
+- replace: 'refactored '
+  _tags:
+  - to
+  - can
+  - ed
+  - would
+  - else
+  propagate_case: true
+  allow_duplicate: false
+  trigger: wefaqtowp,
+- replace: 'refactoring '
+  _tags:
+  - pronoun
+  - ing
+  - to
+  - can
+  - else
+  propagate_case: true
+  allow_duplicate: false
+  trigger: wefaqtowi,
+- replace: 'releases '
+  _tags:
+  - else
+  propagate_case: true
+  allow_duplicate: false
+  trigger: weleases,
+- replace: 'released '
+  _tags:
+  - ed
+  - would
+  - else
+  propagate_case: true
+  allow_duplicate: false
+  trigger: weleasep,
+- replace: 'releasing '
+  _tags:
+  - ing
+  - pronoun
+  - else
+  propagate_case: true
+  allow_duplicate: false
+  trigger: weleasei,
+- replace: 'caches '
+  _tags:
+  - the
+  - can
+  - else
+  propagate_case: true
+  allow_duplicate: false
+  trigger: qaqhs,
+- replace: 'cached '
+  _tags:
+  - the
+  - can
+  - ed
+  - would
+  - else
+  propagate_case: true
+  allow_duplicate: false
+  trigger: qaqhp,
+- replace: 'caching '
+  _tags:
+  - pronoun
+  - the
+  - ing
+  - can
+  - else
+  propagate_case: true
+  allow_duplicate: false
+  trigger: qaqhi,
+- replace: 'parser '
+  _tags:
+  - else
+  propagate_case: true
+  allow_duplicate: false
+  trigger: pawsew,
+- replace: 'parses '
+  _tags:
+  - else
+  propagate_case: true
+  allow_duplicate: false
+  trigger: pawses,
+- replace: 'parsed '
+  _tags:
+  - ed
+  - would
+  - else
+  propagate_case: true
+  allow_duplicate: false
+  trigger: pawsep,
+- replace: 'parsing '
+  _tags:
+  - ing
+  - pronoun
+  - else
+  propagate_case: true
+  allow_duplicate: false
+  trigger: pawsei,
+- replace: 'serializer '
+  _tags:
+  - pronoun
+  - else
+  propagate_case: true
+  allow_duplicate: false
+  trigger: sewializew,
+- replace: 'serializes '
+  _tags:
+  - pronoun
+  - else
+  propagate_case: true
+  allow_duplicate: false
+  trigger: sewializes,
+- replace: 'serialized '
+  _tags:
+  - ed
+  - would
+  - else
+  - pronoun
+  propagate_case: true
+  allow_duplicate: false
+  trigger: sewializep,
+- replace: 'serializing '
+  _tags:
+  - ing
+  - pronoun
+  - else
+  propagate_case: true
+  allow_duplicate: false
+  trigger: sewializei,
+- replace: 'serialization '
+  _tags:
+  - noun
+  - to
+  - else
+  - pronoun
+  propagate_case: true
+  allow_duplicate: false
+  trigger: sewializem,
+- replace: 'tester '
+  _tags:
+  - to
+  - else
+  propagate_case: true
+  allow_duplicate: false
+  trigger: testw,
+- replace: 'tests '
+  _tags:
+  - to
+  - else
+  propagate_case: true
+  allow_duplicate: false
+  trigger: tests,
+- replace: 'fix '
+  _tags:
+  - pronoun
+  propagate_case: true
+  allow_duplicate: false
+  trigger: fixn,
+- replace: 'tested '
+  _tags:
+  - ed
+  - to
+  - else
+  - would
+  propagate_case: true
+  allow_duplicate: false
+  trigger: testp,
+- replace: 'testing '
+  _tags:
+  - ing
+  - to
+  - else
+  - pronoun
+  propagate_case: true
+  allow_duplicate: false
+  trigger: testi,
+- replace: 'asked '
+  _tags:
+  - ed
+  - would
+  - else
+  propagate_case: true
+  allow_duplicate: false
+  trigger: askp,
+- replace: 'asking '
+  _tags:
+  - pronoun
+  - ing
+  propagate_case: true
+  allow_duplicate: false
+  trigger: aski,
+- replace: 'asker '
+  _tags:
+  - else
+  propagate_case: true
+  allow_duplicate: false
+  trigger: askw,
+- replace: 'doer '
+  _tags:
+  - would
+  - else
+  propagate_case: true
+  allow_duplicate: false
+  trigger: dow,

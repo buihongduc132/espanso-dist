@@ -1,0 +1,26 @@
+name: _word_families_preconfig
+matches:
+- replace: 'preconfig '
+  propagate_case: true
+  allow_duplicate: false
+  trigger: pwqnf,
+- replace: 'preconfigs '
+  propagate_case: true
+  allow_duplicate: false
+  trigger: pwqnfs,
+- replace: 'preconfiging '
+  propagate_case: true
+  allow_duplicate: false
+  trigger: pwqnfi,
+- replace: 'preconfiged '
+  propagate_case: true
+  allow_duplicate: false
+  trigger: pwqnfp,
+- replace: 'preconfigion '
+  propagate_case: true
+  allow_duplicate: false
+  trigger: pwqnfm,
+- replace: 'preconfigable '
+  propagate_case: true
+  allow_duplicate: false
+  trigger: pwqnfb,

@@ -1,57 +1,92 @@
-# ⚠️  WARNING: AUTO-GENERATED FILE - DO NOT EDIT DIRECTLY!
-# This file is generated from word_version by:
-#   scripts/convert_to_tokenized_word_version.py
-# Edit source in space_version and re-run conversions.
-# Tokenizes trailing spaces in triggers to an explicit token.
-# Removes right_word property for tokenized version.
-# Adds trailing space to replacements that don't have one.
-# Current token: ','
-
-name: word-family-gift
-parent: default
+name: _word_families_gift
 matches:
 - replace: 'gift '
-  _tags: [noun, to, can, else, pronoun]
+  _tags:
+  - noun
+  - to
+  - can
+  - else
+  - pronoun
   propagate_case: true
   allow_duplicate: false
-  triggers: ['gif,']
+  trigger: gif,
 - replace: 'gifts '
-  _tags: [noun, to, can, else, pronoun]
+  _tags:
+  - noun
+  - to
+  - can
+  - else
+  - pronoun
   propagate_case: true
   allow_duplicate: false
-  triggers: ['gifs,']
+  trigger: gifs,
 - replace: 'gifting '
-  _tags: [verb, ing, to, can, pronoun, else]
+  _tags:
+  - verb
+  - ing
+  - to
+  - can
+  - pronoun
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['gifi,']
+  trigger: gifi,
 - replace: 'gifted '
-  _tags: [verb, ed, would, to, can, else, pronoun]
+  _tags:
+  - verb
+  - ed
+  - would
+  - to
+  - can
+  - else
+  - pronoun
   propagate_case: true
   allow_duplicate: false
-  triggers: ['gifp,']
+  trigger: gifp,
 - replace: 'giftee '
-  _tags: [noun, to, can, else, pronoun]
+  _tags:
+  - noun
+  - to
+  - can
+  - else
+  - pronoun
   propagate_case: true
   allow_duplicate: false
-  triggers: ['gifw,']
+  trigger: gifw,
 - replace: 'giftable '
-  _tags: [adjective, to, can, else, pronoun]
+  _tags:
+  - adjective
+  - to
+  - can
+  - else
+  - pronoun
   propagate_case: true
   allow_duplicate: false
-  triggers: ['gifb,']
+  trigger: gifb,
 - replace: 'gift to the '
-  _tags: [phrase, to, can, else]
+  _tags:
+  - phrase
+  - to
+  - can
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['gif2h,']
+  trigger: gif2h,
 - replace: 'this gift '
-  _tags: [phrase, to, can, else]
+  _tags:
+  - phrase
+  - to
+  - can
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['gifiz,']
+  trigger: gifiz,
 - replace: 'that gift '
-  _tags: [phrase, to, can, else]
+  _tags:
+  - phrase
+  - to
+  - can
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['gifaz,']
+  trigger: gifaz,

@@ -1,71 +1,86 @@
-# ⚠️  WARNING: AUTO-GENERATED FILE - DO NOT EDIT DIRECTLY!
-# This file is generated from word_version by:
-#   scripts/convert_to_tokenized_word_version.py
-# Edit source in space_version and re-run conversions.
-# Tokenizes trailing spaces in triggers to an explicit token.
-# Removes right_word property for tokenized version.
-# Adds trailing space to replacements that don't have one.
-# Current token: ','
-
-name: word-families-separate
-parent: default
+name: _word_families_separate
 matches:
 - replace: 'separate '
-  _tags: [verb]
+  _tags:
+  - verb
   propagate_case: true
   allow_duplicate: false
-  triggers: ['sep,']
+  trigger: sep,
 - replace: 'separates '
-  _tags: [verb]
+  _tags:
+  - verb
   propagate_case: true
   allow_duplicate: false
-  triggers: ['seps,']
+  trigger: seps,
 - replace: 'separating '
-  _tags: [verb, ing]
+  _tags:
+  - verb
+  - ing
   propagate_case: true
   allow_duplicate: false
-  triggers: ['sepi,']
+  trigger: sepi,
 - replace: 'separated '
-  _tags: [verb, ed]
+  _tags:
+  - verb
+  - ed
   propagate_case: true
   allow_duplicate: false
-  triggers: ['sepp,']
+  trigger: sepp,
 - replace: 'separate '
-  _tags: [adjective]
+  _tags:
+  - adjective
   allow_duplicate: true
   propagate_case: true
-  triggers: ['sepj,']
+  trigger: sepj,
 - replace: 'separately '
-  _tags: [adverb, to, else]
+  _tags:
+  - adverb
+  - to
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['sepl,']
+  trigger: sepl,
 - replace: 'separation '
-  _tags: [noun, to, else]
+  _tags:
+  - noun
+  - to
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['sepm,']
+  trigger: sepm,
 - replace: 'separator '
-  _tags: [noun, to, else]
+  _tags:
+  - noun
+  - to
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['sepmw,']
+  trigger: sepmw,
 - replace: 'separable '
-  _tags: [adjective, to, else]
+  _tags:
+  - adjective
+  - to
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['sepb,']
+  trigger: sepb,
 - replace: 'separably '
-  _tags: [adverb, to, else]
+  _tags:
+  - adverb
+  - to
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['sepbl,']
+  trigger: sepbl,
 - replace: 'separability '
-  _tags: [noun, to, else]
+  _tags:
+  - noun
+  - to
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['sepbm,']
+  trigger: sepbm,
 - replace: 'separator '
   propagate_case: true
   allow_duplicate: false
-  triggers: ['sepmo,']
+  trigger: sepmo,

@@ -1,0 +1,112 @@
+name: _word_families_alert
+matches:
+- replace: 'alert '
+  propagate_case: true
+  _tags:
+  - to
+  - can
+  - else
+  - base
+  allow_duplicate: false
+  trigger: alew,
+- replace: 'alerts '
+  propagate_case: true
+  _tags:
+  - to
+  - can
+  - else
+  - plural
+  allow_duplicate: false
+  trigger: alews,
+- replace: 'alerting '
+  propagate_case: true
+  _tags:
+  - to
+  - can
+  - else
+  - ing
+  allow_duplicate: false
+  trigger: alewi,
+- replace: 'alerted '
+  propagate_case: true
+  _tags:
+  - to
+  - can
+  - else
+  - ed
+  - past
+  allow_duplicate: false
+  trigger: alewp,
+- replace: 'alerter '
+  propagate_case: true
+  _tags:
+  - to
+  - can
+  - else
+  - agent
+  allow_duplicate: false
+  trigger: aleww,
+- replace: 'alertable '
+  propagate_case: true
+  _tags:
+  - to
+  - can
+  - else
+  - adjective
+  - able
+  allow_duplicate: false
+  trigger: alewb,
+- replace: 'alertness '
+  propagate_case: true
+  _tags:
+  - to
+  - can
+  - else
+  - noun
+  allow_duplicate: false
+  trigger: alewn,
+- replace: 'this alert '
+  propagate_case: true
+  _tags:
+  - to
+  - can
+  - else
+  - demonstrative
+  allow_duplicate: false
+  trigger: izalew,
+- replace: 'that alert '
+  propagate_case: true
+  _tags:
+  - to
+  - can
+  - else
+  - demonstrative
+  allow_duplicate: false
+  trigger: azalew,
+- replace: 'these alert '
+  propagate_case: true
+  _tags:
+  - to
+  - can
+  - else
+  - demonstrative
+  allow_duplicate: false
+  trigger: ezalew,
+- replace: 'those alert '
+  propagate_case: true
+  _tags:
+  - to
+  - can
+  - else
+  - demonstrative
+  allow_duplicate: false
+  trigger: ozalew,
+- replace: 'alert to the '
+  propagate_case: true
+  _tags:
+  - to
+  - can
+  - else
+  - directional
+  allow_duplicate: false
+  trigger: alew2h,

@@ -1,32 +1,66 @@
-# ⚠️  WARNING: AUTO-GENERATED FILE - DO NOT EDIT DIRECTLY!
-# This file is generated from word_version by:
-#   scripts/convert_to_tokenized_word_version.py
-# Edit source in space_version and re-run conversions.
-# Tokenizes trailing spaces in triggers to an explicit token.
-# Removes right_word property for tokenized version.
-# Adds trailing space to replacements that don't have one.
-# Current token: ','
-
-name: word-families-register
-parent: default
+name: _word_families_register
 matches:
 - replace: 'register '
   propagate_case: true
   allow_duplicate: false
-  triggers: ['reg,']
+  trigger: weg,
 - replace: 'registers '
   propagate_case: true
   allow_duplicate: false
-  triggers: ['regs,']
+  trigger: wegs,
 - replace: 'registering '
   propagate_case: true
   allow_duplicate: false
-  triggers: ['regi,']
+  trigger: wegi,
 - replace: 'registered '
   propagate_case: true
   allow_duplicate: false
-  triggers: ['regp,']
+  trigger: wegp,
 - replace: 'registration '
   propagate_case: true
   allow_duplicate: false
-  triggers: ['regm,']
+  trigger: wegm,
+- replace: 'registry '
+  propagate_case: true
+  allow_duplicate: false
+  trigger: wegy,
+- replace: 'registries '
+  propagate_case: true
+  allow_duplicate: false
+  trigger: wegys,
+- replace: 'registrar '
+  propagate_case: true
+  allow_duplicate: false
+  trigger: wegw,
+- replace: 'registrars '
+  propagate_case: true
+  allow_duplicate: false
+  trigger: wegws,
+- replace: 'registerable '
+  propagate_case: true
+  allow_duplicate: false
+  trigger: wegb,
+- replace: 'register this '
+  propagate_case: true
+  allow_duplicate: false
+  trigger: wegiz,
+- replace: 'register that '
+  propagate_case: true
+  allow_duplicate: false
+  trigger: wegaz,
+- replace: 'register these '
+  propagate_case: true
+  allow_duplicate: false
+  trigger: wegez,
+- replace: 'register those '
+  propagate_case: true
+  allow_duplicate: false
+  trigger: wegoz,
+- replace: 'register the '
+  propagate_case: true
+  allow_duplicate: false
+  trigger: wegh,
+- replace: 'register it '
+  propagate_case: true
+  allow_duplicate: false
+  trigger: wegx,

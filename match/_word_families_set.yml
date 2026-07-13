@@ -1,137 +1,169 @@
-# ⚠️  WARNING: AUTO-GENERATED FILE - DO NOT EDIT DIRECTLY!
-# This file is generated from word_version by:
-#   scripts/convert_to_tokenized_word_version.py
-# Edit source in space_version and re-run conversions.
-# Tokenizes trailing spaces in triggers to an explicit token.
-# Removes right_word property for tokenized version.
-# Adds trailing space to replacements that don't have one.
-# Current token: ','
-
-name: word-family-set
-parent: default
+name: _word_families_set
 matches:
 - replace: 'set '
-  _tags: [verb, frequent-verb]
+  _tags:
+  - verb
+  - frequent-verb
   propagate_case: true
   allow_duplicate: false
-  triggers: ['se,']
+  trigger: se,
 - replace: 'sets '
-  _tags: [verb]
+  _tags:
+  - verb
   propagate_case: true
   allow_duplicate: false
-  triggers: ['ses,']
+  trigger: ses,
 - replace: 'setting '
-  _tags: [verb, ing]
+  _tags:
+  - verb
+  - ing
   propagate_case: true
   allow_duplicate: false
-  triggers: ['sei,']
+  trigger: sei,
 - replace: 'setting '
-  _tags: [noun]
+  _tags:
+  - noun
   propagate_case: true
   allow_duplicate: false
-  triggers: ['sem,']
+  trigger: sem,
 - replace: 'settings '
-  _tags: [noun]
+  _tags:
+  - noun
   propagate_case: true
   allow_duplicate: false
-  triggers: ['sems,']
+  trigger: sems,
 - replace: 'reset '
-  _tags: [verb, re-prefix]
+  _tags:
+  - verb
+  - re-prefix
   propagate_case: true
   allow_duplicate: false
-  triggers: ['wse,']
+  trigger: wse,
 - replace: 'resets '
-  _tags: [verb]
+  _tags:
+  - verb
   propagate_case: true
   allow_duplicate: false
-  triggers: ['wses,']
+  trigger: wses,
 - replace: 'resetting '
-  _tags: [verb, ing]
+  _tags:
+  - verb
+  - ing
   propagate_case: true
   allow_duplicate: false
-  triggers: ['wsei,']
+  trigger: wsei,
 - replace: 'reset '
-  _tags: [verb, ed]
+  _tags:
+  - verb
+  - ed
   propagate_case: true
   allow_duplicate: false
-  triggers: ['wsep,']
+  trigger: wsep,
 - replace: 'resettable '
-  _tags: [adjective]
+  _tags:
+  - adjective
   propagate_case: true
   allow_duplicate: false
-  triggers: ['wseb,']
+  trigger: wseb,
 - replace: 'resettably '
-  _tags: [adverb]
+  _tags:
+  - adverb
   propagate_case: true
   allow_duplicate: false
-  triggers: ['wsebl,']
+  trigger: wsebl,
 - replace: 'set '
-  _tags: [frequent-verb]
+  _tags:
+  - frequent-verb
   allow_duplicate: true
   propagate_case: true
-  triggers: ['set,']
+  trigger: set,
 - replace: 'set this '
-  _tags: [frequent-verb, demonstrative]
+  _tags:
+  - frequent-verb
+  - demonstrative
   allow_duplicate: true
   propagate_case: true
-  triggers: ['setiz,']
+  trigger: setiz,
 - replace: 'set that '
-  _tags: [frequent-verb, demonstrative]
+  _tags:
+  - frequent-verb
+  - demonstrative
   allow_duplicate: true
   propagate_case: true
-  triggers: ['setaz,']
+  trigger: setaz,
 - replace: 'set these '
-  _tags: [frequent-verb, demonstrative]
+  _tags:
+  - frequent-verb
+  - demonstrative
   allow_duplicate: true
   propagate_case: true
-  triggers: ['setez,']
+  trigger: setez,
 - replace: 'set those '
-  _tags: [frequent-verb, demonstrative]
+  _tags:
+  - frequent-verb
+  - demonstrative
   allow_duplicate: true
   propagate_case: true
-  triggers: ['setoz,']
+  trigger: setoz,
 - replace: 'setup '
-  _tags: [noun]
+  _tags:
+  - noun
   allow_duplicate: true
   propagate_case: true
-  triggers: ['setu,']
+  trigger: setu,
 - replace: 'setup this '
-  _tags: [noun, demonstrative]
+  _tags:
+  - noun
+  - demonstrative
   allow_duplicate: true
   propagate_case: true
-  triggers: ['setuiz,']
+  trigger: setuiz,
 - replace: 'setup that '
-  _tags: [noun, demonstrative]
+  _tags:
+  - noun
+  - demonstrative
   allow_duplicate: true
   propagate_case: true
-  triggers: ['setuaz,']
+  trigger: setuaz,
 - replace: 'setup these '
-  _tags: [noun, demonstrative]
+  _tags:
+  - noun
+  - demonstrative
   allow_duplicate: true
   propagate_case: true
-  triggers: ['setuez,']
+  trigger: setuez,
 - replace: 'setup those '
-  _tags: [noun, demonstrative]
+  _tags:
+  - noun
+  - demonstrative
   allow_duplicate: true
   propagate_case: true
-  triggers: ['setuoz,']
+  trigger: setuoz,
 - replace: 'set this up '
-  _tags: [frequent-verb, demonstrative]
+  _tags:
+  - frequent-verb
+  - demonstrative
   allow_duplicate: true
   propagate_case: true
-  triggers: ['setizu,']
+  trigger: setizu,
 - replace: 'set that up '
-  _tags: [frequent-verb, demonstrative]
+  _tags:
+  - frequent-verb
+  - demonstrative
   allow_duplicate: true
   propagate_case: true
-  triggers: ['setazu,']
+  trigger: setazu,
 - replace: 'set these up '
-  _tags: [frequent-verb, demonstrative]
+  _tags:
+  - frequent-verb
+  - demonstrative
   allow_duplicate: true
   propagate_case: true
-  triggers: ['setezu,']
+  trigger: setezu,
 - replace: 'set those up '
-  _tags: [frequent-verb, demonstrative]
+  _tags:
+  - frequent-verb
+  - demonstrative
   allow_duplicate: true
   propagate_case: true
-  triggers: ['setozu,']
+  trigger: setozu,

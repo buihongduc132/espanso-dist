@@ -1,162 +1,264 @@
-# ⚠️  WARNING: AUTO-GENERATED FILE - DO NOT EDIT DIRECTLY!
-# This file is generated from word_version by:
-#   scripts/convert_to_tokenized_word_version.py
-# Edit source in space_version and re-run conversions.
-# Tokenizes trailing spaces in triggers to an explicit token.
-# Removes right_word property for tokenized version.
-# Adds trailing space to replacements that don't have one.
-# Current token: ','
-
-name: word-families-force-fork
-parent: default
+name: _word_families_force_fork
 matches:
 - replace: 'force '
-  _tags: [to, verb, else]
+  _tags:
+  - to
+  - verb
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['fwe,']
+  trigger: fwe,
 - replace: 'forces '
-  _tags: [s, to, verb, else]
+  _tags:
+  - s
+  - to
+  - verb
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['fwes,']
+  trigger: fwes,
 - replace: 'forcing '
-  _tags: [ing, to, verb, else]
+  _tags:
+  - ing
+  - to
+  - verb
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['fwei,']
+  trigger: fwei,
 - replace: 'forced '
-  _tags: [ed, to, verb, else, would]
+  _tags:
+  - ed
+  - to
+  - verb
+  - else
+  - would
   propagate_case: true
   allow_duplicate: false
-  triggers: ['fwep,']
+  trigger: fwep,
 - replace: 'forcer '
-  _tags: [noun, to, else]
+  _tags:
+  - noun
+  - to
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['fwew,']
+  trigger: fwew,
 - replace: 'forcers '
-  _tags: [noun, plural, to, else]
+  _tags:
+  - noun
+  - plural
+  - to
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['fwews,']
+  trigger: fwews,
 - replace: 'forcement '
-  _tags: [noun, to, else]
+  _tags:
+  - noun
+  - to
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['fwem,']
+  trigger: fwem,
 - replace: 'forceable '
-  _tags: [adjective, can, else]
+  _tags:
+  - adjective
+  - can
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['fweb,']
+  trigger: fweb,
 - replace: 'forceably '
-  _tags: [adverb, can, else]
+  _tags:
+  - adverb
+  - can
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['fwebl,']
+  trigger: fwebl,
 - replace: 'fork '
-  _tags: [to, verb, else]
+  _tags:
+  - to
+  - verb
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['fwk,']
+  trigger: fwk,
 - replace: 'forks '
-  _tags: [s, to, verb, else]
+  _tags:
+  - s
+  - to
+  - verb
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['fwks,']
+  trigger: fwks,
 - replace: 'forking '
-  _tags: [ing, to, verb, else]
+  _tags:
+  - ing
+  - to
+  - verb
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['fwki,']
+  trigger: fwki,
 - replace: 'forked '
-  _tags: [ed, to, verb, else, would]
+  _tags:
+  - ed
+  - to
+  - verb
+  - else
+  - would
   propagate_case: true
   allow_duplicate: false
-  triggers: ['fwkp,']
+  trigger: fwkp,
 - replace: 'forker '
-  _tags: [noun, to, else]
+  _tags:
+  - noun
+  - to
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['fwkw,']
+  trigger: fwkw,
 - replace: 'forkers '
-  _tags: [noun, plural, to, else]
+  _tags:
+  - noun
+  - plural
+  - to
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['fwkws,']
+  trigger: fwkws,
 - replace: 'forkment '
-  _tags: [noun, to, else]
+  _tags:
+  - noun
+  - to
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['fwkm,']
+  trigger: fwkm,
 - replace: 'forkable '
-  _tags: [adjective, can, else]
+  _tags:
+  - adjective
+  - can
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['fwkb,']
+  trigger: fwkb,
 - replace: 'forkably '
-  _tags: [adverb, can, else]
+  _tags:
+  - adverb
+  - can
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['fwkbl,']
+  trigger: fwkbl,
 - replace: 'force this '
-  _tags: [demonstrative, to, verb, else]
+  _tags:
+  - demonstrative
+  - to
+  - verb
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['fweiz,']
+  trigger: fweiz,
 - replace: 'force that '
-  _tags: [demonstrative, to, verb, else]
+  _tags:
+  - demonstrative
+  - to
+  - verb
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['fweaz,']
+  trigger: fweaz,
 - replace: 'force these '
-  _tags: [demonstrative, to, verb, else]
+  _tags:
+  - demonstrative
+  - to
+  - verb
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['fweez,']
+  trigger: fweez,
 - replace: 'force those '
-  _tags: [demonstrative, to, verb, else]
+  _tags:
+  - demonstrative
+  - to
+  - verb
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['fweoz,']
+  trigger: fweoz,
 - replace: 'force the '
-  _tags: [article, to, verb, else]
+  _tags:
+  - article
+  - to
+  - verb
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['fweh,']
+  trigger: fweh,
 - replace: 'force it '
-  _tags: [pronoun, to, verb, else]
+  _tags:
+  - pronoun
+  - to
+  - verb
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['fwex,']
+  trigger: fwex,
 - replace: 'fork this '
-  _tags: [demonstrative, to, verb, else]
+  _tags:
+  - demonstrative
+  - to
+  - verb
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['fwkiz,']
+  trigger: fwkiz,
 - replace: 'fork that '
-  _tags: [demonstrative, to, verb, else]
+  _tags:
+  - demonstrative
+  - to
+  - verb
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['fwkaz,']
+  trigger: fwkaz,
 - replace: 'fork these '
-  _tags: [demonstrative, to, verb, else]
+  _tags:
+  - demonstrative
+  - to
+  - verb
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['fwkez,']
+  trigger: fwkez,
 - replace: 'fork those '
-  _tags: [demonstrative, to, verb, else]
+  _tags:
+  - demonstrative
+  - to
+  - verb
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['fwkoz,']
+  trigger: fwkoz,
 - replace: 'fork the '
-  _tags: [article, to, verb, else]
+  _tags:
+  - article
+  - to
+  - verb
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['fwkh,']
+  trigger: fwkh,
 - replace: 'fork it '
-  _tags: [pronoun, to, verb, else]
+  _tags:
+  - pronoun
+  - to
+  - verb
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['fwkx,']
+  trigger: fwkx,

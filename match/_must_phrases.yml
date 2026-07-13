@@ -1,102 +1,94 @@
-# ⚠️  WARNING: AUTO-GENERATED FILE - DO NOT EDIT DIRECTLY!
-# This file is generated from word_version by:
-#   scripts/convert_to_tokenized_word_version.py
-# Edit source in space_version and re-run conversions.
-# Tokenizes trailing spaces in triggers to an explicit token.
-# Removes right_word property for tokenized version.
-# Adds trailing space to replacements that don't have one.
-# Current token: ','
-
 matches:
 - replace: 'must not '
   propagate_case: true
   allow_duplicate: false
-  triggers: ['msn,']
+  trigger: msn,
 - replace: 'must be '
   propagate_case: true
   allow_duplicate: false
-  triggers: ['msb,']
+  trigger: msb,
 - replace: 'must be like '
   propagate_case: true
   allow_duplicate: false
-  triggers: ['msblk,']
+  trigger: msblk,
 - replace: 'must not be '
   propagate_case: true
   allow_duplicate: false
-  triggers: ['msnb,']
+  trigger: msnb,
 - replace: 'must not be like '
   propagate_case: true
   allow_duplicate: false
-  triggers: ['msnblk,']
+  trigger: msnblk,
 - replace: 'this must '
   propagate_case: true
   allow_duplicate: false
-  triggers: ['izms,']
+  trigger: izms,
 - replace: 'that must '
   propagate_case: true
   allow_duplicate: false
-  triggers: ['azms,']
+  trigger: azms,
 - replace: 'these must '
   propagate_case: true
   allow_duplicate: false
-  triggers: ['ezms,']
+  trigger: ezms,
 - replace: 'those must '
   propagate_case: true
   allow_duplicate: false
-  triggers: ['ozms,']
+  trigger: ozms,
 - replace: 'this must be '
   propagate_case: true
   allow_duplicate: false
-  triggers: ['izmsb,']
+  trigger: izmsb,
 - replace: 'that must be '
   propagate_case: true
   allow_duplicate: false
-  triggers: ['azmsb,']
+  trigger: azmsb,
 - replace: 'these must be '
   propagate_case: true
   allow_duplicate: false
-  triggers: ['ezmsb,']
+  trigger: ezmsb,
 - replace: 'those must be '
   propagate_case: true
   allow_duplicate: false
-  triggers: ['ozmsb,']
+  trigger: ozmsb,
 - replace: 'what must '
   propagate_case: true
   allow_duplicate: false
-  triggers: ['wtms,']
+  trigger: wtms,
 - replace: 'when must '
   propagate_case: true
   allow_duplicate: false
-  triggers: ['wnms,']
+  trigger: wnms,
 - replace: 'where must '
   propagate_case: true
   allow_duplicate: false
-  triggers: ['wrms,']
+  trigger: wrms,
 - replace: 'why must '
   propagate_case: true
   allow_duplicate: false
-  triggers: ['wyms,']
+  trigger: wyms,
 - replace: 'how must '
   propagate_case: true
   allow_duplicate: false
-  triggers: ['hwms,']
+  trigger: hwms,
 - replace: 'what must be '
   propagate_case: true
   allow_duplicate: false
-  triggers: ['wtmsb,']
+  trigger: wtmsb,
 - replace: 'when must be '
   propagate_case: true
   allow_duplicate: false
-  triggers: ['wnmsb,']
+  trigger: wnmsb,
 - replace: 'where must be '
   propagate_case: true
   allow_duplicate: false
-  triggers: ['wrmsb,']
+  trigger: wrmsb,
 - replace: 'why must be '
   propagate_case: true
   allow_duplicate: false
-  triggers: ['wymsb,']
+  trigger: wymsb,
 - replace: 'how must be '
   propagate_case: true
   allow_duplicate: false
-  triggers: ['hwmsb,']
+  trigger: hwmsb,
+name: _must_phrases

@@ -1,55 +1,79 @@
-# ⚠️  WARNING: AUTO-GENERATED FILE - DO NOT EDIT DIRECTLY!
-# This file is generated from word_version by:
-#   scripts/convert_to_tokenized_word_version.py
-# Edit source in space_version and re-run conversions.
-# Tokenizes trailing spaces in triggers to an explicit token.
-# Removes right_word property for tokenized version.
-# Adds trailing space to replacements that don't have one.
-# Current token: ','
-
 matches:
 - replace: 'picture '
-  _tags: [to, can, else]
+  _tags:
+  - to
+  - can
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['piq,']
+  trigger: piq,
 - replace: 'pictures '
-  _tags: [to, can, else]
+  _tags:
+  - to
+  - can
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['piqs,']
+  trigger: piqs,
 - replace: 'picturing '
-  _tags: [to, can, ing, else]
+  _tags:
+  - to
+  - can
+  - ing
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['piqi,']
+  trigger: piqi,
 - replace: 'pictured '
-  _tags: [to, can, ed, would, else]
+  _tags:
+  - to
+  - can
+  - ed
+  - would
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['piqp,']
+  trigger: piqp,
 - replace: 'picturing '
-  _tags: [noun, to, can, else]
+  _tags:
+  - noun
+  - to
+  - can
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['piqm,']
+  trigger: piqm,
 - replace: 'pictorial '
-  _tags: [to, can, be, else]
+  _tags:
+  - to
+  - can
+  - be
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['piqj,']
+  trigger: piqj,
 - replace: 'pictorially '
-  _tags: [to, can, else]
+  _tags:
+  - to
+  - can
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['piqjl,']
+  trigger: piqjl,
 - replace: 'picturable '
-  _tags: [to, can, else]
+  _tags:
+  - to
+  - can
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['piqb,']
+  trigger: piqb,
 - replace: 'picturably '
-  _tags: [to, can, else]
+  _tags:
+  - to
+  - can
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['piqbl,']
+  trigger: piqbl,
+name: _word_families_picture

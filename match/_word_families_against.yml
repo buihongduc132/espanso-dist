@@ -1,67 +1,100 @@
-# ⚠️  WARNING: AUTO-GENERATED FILE - DO NOT EDIT DIRECTLY!
-# This file is generated from word_version by:
-#   scripts/convert_to_tokenized_word_version.py
-# Edit source in space_version and re-run conversions.
-# Tokenizes trailing spaces in triggers to an explicit token.
-# Removes right_word property for tokenized version.
-# Adds trailing space to replacements that don't have one.
-# Current token: ','
-
-name: word-families-against
-parent: default
+name: _word_families_against
 matches:
 - replace: 'against '
-  _tags: [preposition, to, else]
+  _tags:
+  - preposition
+  - to
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['ag1,']
+  trigger: ag1,
 - replace: 'against this '
-  _tags: [preposition, demonstrative, to, else]
+  _tags:
+  - preposition
+  - demonstrative
+  - to
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['ag1iz,']
+  trigger: ag1iz,
 - replace: 'against that '
-  _tags: [preposition, demonstrative, to, else]
+  _tags:
+  - preposition
+  - demonstrative
+  - to
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['ag1az,']
+  trigger: ag1az,
 - replace: 'against these '
-  _tags: [preposition, demonstrative, to, else]
+  _tags:
+  - preposition
+  - demonstrative
+  - to
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['ag1ez,']
+  trigger: ag1ez,
 - replace: 'against those '
-  _tags: [preposition, demonstrative, to, else]
+  _tags:
+  - preposition
+  - demonstrative
+  - to
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['ag1oz,']
+  trigger: ag1oz,
 - replace: 'against the '
-  _tags: [preposition, article, to, else]
+  _tags:
+  - preposition
+  - article
+  - to
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['ag1h,']
+  trigger: ag1h,
 - replace: 'against all '
-  _tags: [preposition, quantifier, to, else]
+  _tags:
+  - preposition
+  - quantifier
+  - to
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['ag1a,']
+  trigger: ag1a,
 - replace: 'against all of '
-  _tags: [preposition, quantifier, to, else]
+  _tags:
+  - preposition
+  - quantifier
+  - to
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['ag1ao,']
+  trigger: ag1ao,
 - replace: 'against some '
-  _tags: [preposition, quantifier, to, else]
+  _tags:
+  - preposition
+  - quantifier
+  - to
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['ag1sm,']
+  trigger: ag1sm,
 - replace: 'against some of '
-  _tags: [preposition, quantifier, to, else]
+  _tags:
+  - preposition
+  - quantifier
+  - to
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['ag1smo,']
+  trigger: ag1smo,
 - replace: 'against each '
-  _tags: [preposition, quantifier, to, else]
+  _tags:
+  - preposition
+  - quantifier
+  - to
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['ag1eh,']
+  trigger: ag1eh,

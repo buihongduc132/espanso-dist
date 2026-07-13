@@ -1,400 +1,657 @@
-# ⚠️  WARNING: AUTO-GENERATED FILE - DO NOT EDIT DIRECTLY!
-# This file is generated from word_version by:
-#   scripts/convert_to_tokenized_word_version.py
-# Edit source in space_version and re-run conversions.
-# Tokenizes trailing spaces in triggers to an explicit token.
-# Removes right_word property for tokenized version.
-# Adds trailing space to replacements that don't have one.
-# Current token: ','
-
-name: word-families-missing
-parent: default
+name: _word_families_missing
 matches:
 - replace: 'load '
-  _tags: [the, can, else]
+  _tags:
+  - the
+  - can
+  - else
   allow_duplicate: true
   propagate_case: true
-  triggers: ['loa,']
+  trigger: loa,
 - replace: 'loads '
-  _tags: [the, to, else]
+  _tags:
+  - the
+  - to
+  - else
   allow_duplicate: true
   propagate_case: true
-  triggers: ['loas,']
+  trigger: loas,
 - replace: 'loading '
-  _tags: [the, ing, can, else]
+  _tags:
+  - the
+  - ing
+  - can
+  - else
   allow_duplicate: true
   propagate_case: true
-  triggers: ['loai,']
+  trigger: loai,
 - replace: 'loaded '
-  _tags: [the, can, ed, would, else]
+  _tags:
+  - the
+  - can
+  - ed
+  - would
+  - else
   allow_duplicate: true
   propagate_case: true
-  triggers: ['loap,']
+  trigger: loap,
+- replace: 'unload '
+  _tags:
+  - to
+  - can
+  - else
+  propagate_case: true
+  allow_duplicate: false
+  trigger: uloa,
+- replace: 'unloading '
+  _tags:
+  - ing
+  - to
+  - can
+  propagate_case: true
+  allow_duplicate: false
+  trigger: uloai,
+- replace: 'unloaded '
+  _tags:
+  - the
+  - can
+  - ed
+  - would
+  - else
+  propagate_case: true
+  allow_duplicate: false
+  trigger: uloap,
+- replace: 'unloads '
+  _tags:
+  - to
+  - can
+  - else
+  propagate_case: true
+  allow_duplicate: false
+  trigger: uloas,
 - replace: 'open '
-  _tags: [the, can, else]
+  _tags:
+  - the
+  - can
+  - else
   allow_duplicate: true
   propagate_case: true
-  triggers: ['ope,']
+  trigger: ope,
 - replace: 'opens '
-  _tags: [the, to, else]
+  _tags:
+  - the
+  - to
+  - else
   allow_duplicate: true
   propagate_case: true
-  triggers: ['opes,']
+  trigger: opes,
 - replace: 'opening '
-  _tags: [the, ing, can, else]
+  _tags:
+  - the
+  - ing
+  - can
+  - else
   allow_duplicate: true
   propagate_case: true
-  triggers: ['opei,']
+  trigger: opei,
 - replace: 'opened '
-  _tags: [the, can, ed, would, else]
+  _tags:
+  - the
+  - can
+  - ed
+  - would
+  - else
   allow_duplicate: true
   propagate_case: true
-  triggers: ['opep,']
+  trigger: opep,
 - replace: 'run '
-  _tags: [the, can, else]
+  _tags:
+  - the
+  - can
+  - else
   allow_duplicate: true
   propagate_case: true
-  triggers: ['wun,']
+  trigger: wun,
 - replace: 'runs '
-  _tags: [the, to, else]
+  _tags:
+  - the
+  - to
+  - else
   allow_duplicate: true
   propagate_case: true
-  triggers: ['wuns,']
+  trigger: wuns,
 - replace: 'ran '
-  _tags: [the, can, ed, would, else]
+  _tags:
+  - the
+  - can
+  - ed
+  - would
+  - else
   allow_duplicate: true
   propagate_case: true
-  triggers: ['wunp,']
+  trigger: wunp,
 - replace: 'runner '
-  _tags: [the, can, else, noun]
+  _tags:
+  - the
+  - can
+  - else
+  - noun
   allow_duplicate: true
   propagate_case: true
-  triggers: ['wunw,']
+  trigger: wunw,
 - replace: 'runtime '
-  _tags: [noun, the, can, else]
+  _tags:
+  - noun
+  - the
+  - can
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['wunt,']
+  trigger: wunt,
 - replace: 'edits '
-  _tags: [the, to, else]
+  _tags:
+  - the
+  - to
+  - else
   allow_duplicate: true
   propagate_case: true
-  triggers: ['edis,']
+  trigger: edis,
 - replace: 'editing '
-  _tags: [the, ing, can, else]
+  _tags:
+  - the
+  - ing
+  - can
+  - else
   allow_duplicate: true
   propagate_case: true
-  triggers: ['edii,']
+  trigger: edii,
 - replace: 'edited '
-  _tags: [the, can, ed, would, else]
+  _tags:
+  - the
+  - can
+  - ed
+  - would
+  - else
   allow_duplicate: true
   propagate_case: true
-  triggers: ['edip,']
+  trigger: edip,
 - replace: 'editable '
-  _tags: [adjective, the, can, else]
+  _tags:
+  - adjective
+  - the
+  - can
+  - else
   allow_duplicate: true
   propagate_case: true
-  triggers: ['edib,']
+  trigger: edib,
 - replace: 'insert '
-  _tags: [the, can, else]
+  _tags:
+  - the
+  - can
+  - else
   allow_duplicate: true
   propagate_case: true
-  triggers: ['ins,']
+  trigger: ins,
 - replace: 'inserts '
-  _tags: [the, to, else]
+  _tags:
+  - the
+  - to
+  - else
   allow_duplicate: true
   propagate_case: true
-  triggers: ['inss,']
+  trigger: inss,
 - replace: 'inserting '
-  _tags: [the, ing, can, else]
+  _tags:
+  - the
+  - ing
+  - can
+  - else
   allow_duplicate: true
   propagate_case: true
-  triggers: ['insi,']
+  trigger: insi,
 - replace: 'inserted '
-  _tags: [the, can, ed, would, else]
+  _tags:
+  - the
+  - can
+  - ed
+  - would
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['insk,']
+  trigger: insk,
 - replace: 'clear '
-  _tags: [the, can, else]
+  _tags:
+  - the
+  - can
+  - else
   allow_duplicate: true
   duplicate_group: qleL-clearly
   propagate_case: true
-  triggers: ['qlel,']
+  trigger: qlel,
 - replace: 'clears '
-  _tags: [the, to, else]
+  _tags:
+  - the
+  - to
+  - else
   allow_duplicate: true
   duplicate_group: qleLS-clears
   propagate_case: true
-  triggers: ['qlels,']
+  trigger: qlels,
 - replace: 'clearing '
-  _tags: [the, ing, can, else]
+  _tags:
+  - the
+  - ing
+  - can
+  - else
   allow_duplicate: true
   duplicate_group: qleLI-clearing
   propagate_case: true
-  triggers: ['qleli,']
+  trigger: qleli,
 - replace: 'cleared '
-  _tags: [the, can, ed, else]
+  _tags:
+  - the
+  - can
+  - ed
+  - else
   allow_duplicate: true
   duplicate_group: qleLP-cleared
   propagate_case: true
-  triggers: ['qlelp,']
+  trigger: qlelp,
 - replace: 'clearance '
-  _tags: [the, can, else]
+  _tags:
+  - the
+  - can
+  - else
   allow_duplicate: true
   duplicate_group: qleLM-clearance
   propagate_case: true
-  triggers: ['qlelm,']
+  trigger: qlelm,
 - replace: 'clearable '
-  _tags: [the, can, else]
+  _tags:
+  - the
+  - can
+  - else
   allow_duplicate: true
   duplicate_group: qleLJ-clearable
   propagate_case: true
-  triggers: ['qlelj,']
+  trigger: qlelj,
 - replace: 'clearably '
-  _tags: [the, can, else]
+  _tags:
+  - the
+  - can
+  - else
   allow_duplicate: true
   duplicate_group: qleLJL-clearably
   propagate_case: true
-  triggers: ['qleljl,']
+  trigger: qleljl,
 - replace: 'invest '
-  _tags: [to, can, else]
+  _tags:
+  - to
+  - can
+  - else
   allow_duplicate: true
   duplicate_group: inve-invest
   propagate_case: true
-  triggers: ['inve,']
+  trigger: inve,
 - replace: 'invests '
-  _tags: [the, to, else]
+  _tags:
+  - the
+  - to
+  - else
   allow_duplicate: true
   duplicate_group: inveS-invests
   propagate_case: true
-  triggers: ['inves,']
+  trigger: inves,
 - replace: 'investing '
-  _tags: [the, ing, can, else]
+  _tags:
+  - the
+  - ing
+  - can
+  - else
   allow_duplicate: true
   duplicate_group: inveI-investing
   propagate_case: true
-  triggers: ['invei,']
+  trigger: invei,
 - replace: 'invested '
-  _tags: [the, ed, can, else]
+  _tags:
+  - the
+  - ed
+  - can
+  - else
   allow_duplicate: true
   duplicate_group: inveP-invested
   propagate_case: true
-  triggers: ['invep,']
+  trigger: invep,
 - replace: 'investment '
-  _tags: [the, can, else]
+  _tags:
+  - the
+  - can
+  - else
   allow_duplicate: true
   duplicate_group: inveM-investment
   propagate_case: true
-  triggers: ['invem,']
+  trigger: invem,
 - replace: 'investments '
-  _tags: [the, to, else]
+  _tags:
+  - the
+  - to
+  - else
   allow_duplicate: true
   duplicate_group: inveM-investment
   propagate_case: true
-  triggers: ['invems,']
+  trigger: invems,
 - replace: 'investor '
-  _tags: [the, can, else]
+  _tags:
+  - the
+  - can
+  - else
   allow_duplicate: true
   duplicate_group: injew-investor
   propagate_case: true
-  triggers: ['invew,']
+  trigger: invew,
 - replace: 'investors '
-  _tags: [the, to, else]
+  _tags:
+  - the
+  - to
+  - else
   allow_duplicate: true
   duplicate_group: injew-investor
   propagate_case: true
-  triggers: ['invews,']
+  trigger: invews,
 - replace: 'inherit '
-  _tags: [to, can, else]
+  _tags:
+  - to
+  - can
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['inhe,']
+  trigger: inhe,
 - replace: 'inherits '
-  _tags: [the, to, else]
+  _tags:
+  - the
+  - to
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['inhes,']
+  trigger: inhes,
 - replace: 'inheriting '
-  _tags: [the, ing, can, else]
+  _tags:
+  - the
+  - ing
+  - can
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['inhei,']
+  trigger: inhei,
 - replace: 'inherited '
-  _tags: [the, can, ed, would, else]
+  _tags:
+  - the
+  - can
+  - ed
+  - would
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['inhep,']
+  trigger: inhep,
 - replace: 'inheritance '
-  _tags: [the, can, else]
+  _tags:
+  - the
+  - can
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['inhem,']
+  trigger: inhem,
 - replace: 'inheritances '
-  _tags: [the, to, else]
+  _tags:
+  - the
+  - to
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['inhems,']
+  trigger: inhems,
 - replace: 'inheritor '
-  _tags: [the, can, else]
+  _tags:
+  - the
+  - can
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['inhew,']
+  trigger: inhew,
 - replace: 'inheritors '
-  _tags: [the, to, else]
+  _tags:
+  - the
+  - to
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['inhews,']
+  trigger: inhews,
 - replace: 'inheritable '
-  _tags: [adjective, else]
+  _tags:
+  - adjective
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['inheb,']
+  trigger: inheb,
 - replace: 'inheritably '
-  _tags: [adverb, else]
+  _tags:
+  - adverb
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['inhebl,']
+  trigger: inhebl,
 - replace: 'inherent '
-  _tags: [adjective, else]
+  _tags:
+  - adjective
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['inhej,']
+  trigger: inhej,
 - replace: 'inherently '
-  _tags: [adverb, else]
+  _tags:
+  - adverb
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['inhejl,']
+  trigger: inhejl,
 - replace: 'evidence '
-  _tags: [the, can, else]
+  _tags:
+  - the
+  - can
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['ejil,']
+  trigger: ejil,
 - replace: 'evidences '
-  _tags: [the, to, else]
+  _tags:
+  - the
+  - to
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['ejils,']
+  trigger: ejils,
 - replace: 'evidencing '
-  _tags: [the, ing, can, else]
+  _tags:
+  - the
+  - ing
+  - can
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['ejili,']
+  trigger: ejili,
 - replace: 'evidenced '
-  _tags: [the, ed, can, else]
+  _tags:
+  - the
+  - ed
+  - can
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['ejilp,']
+  trigger: ejilp,
 - replace: 'evidential '
-  _tags: [the, can, else]
+  _tags:
+  - the
+  - can
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['ejilm,']
+  trigger: ejilm,
 - replace: 'evidentiary '
-  _tags: [the, can, else]
+  _tags:
+  - the
+  - can
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['ejilj,']
+  trigger: ejilj,
 - replace: 'evidentially '
-  _tags: [the, can, else]
+  _tags:
+  - the
+  - can
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['ejiljl,']
+  trigger: ejiljl,
 - replace: 'relevant '
-  _tags: [adjective, the, can, else]
+  _tags:
+  - adjective
+  - the
+  - can
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['welaj,']
+  trigger: welaj,
 - replace: 'investor '
   propagate_case: true
   allow_duplicate: false
-  triggers: ['inveo,']
+  trigger: inveo,
 - replace: 'inheritor '
   propagate_case: true
   allow_duplicate: false
-  triggers: ['inheo,']
+  trigger: inheo,
 - replace: 'penetrate '
-  _tags: [can, else]
+  _tags:
+  - can
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['pne,']
+  trigger: pne,
 - replace: 'penetrates '
-  _tags: [can, else]
+  _tags:
+  - can
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['pnes,']
+  trigger: pnes,
 - replace: 'penetrated '
-  _tags: [can, else]
+  _tags:
+  - can
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['pnep,']
+  trigger: pnep,
 - replace: 'penetrating '
-  _tags: [can, else]
+  _tags:
+  - can
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['pnei,']
+  trigger: pnei,
 - replace: 'penetration '
-  _tags: [the, can, else]
+  _tags:
+  - the
+  - can
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['pnem,']
+  trigger: pnem,
 - replace: 'penetrations '
-  _tags: [the, can, else]
+  _tags:
+  - the
+  - can
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['pnems,']
+  trigger: pnems,
 - replace: 'penetrator '
-  _tags: [the, can, else]
+  _tags:
+  - the
+  - can
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['pnew,']
+  trigger: pnew,
 - replace: 'penetrators '
-  _tags: [the, can, else]
+  _tags:
+  - the
+  - can
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['pnews,']
+  trigger: pnews,
 - replace: 'penalty '
-  _tags: [the, can, else]
+  _tags:
+  - the
+  - can
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['pna,']
+  trigger: pna,
 - replace: 'penalties '
-  _tags: [the, can, else]
+  _tags:
+  - the
+  - can
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['pnas,']
+  trigger: pnas,
 - replace: 'penalize '
-  _tags: [can, else]
+  _tags:
+  - can
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['pnaz,']
+  trigger: pnaz,
 - replace: 'penalizes '
-  _tags: [can, else]
+  _tags:
+  - can
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['pnazs,']
+  trigger: pnazs,
 - replace: 'penalized '
-  _tags: [can, else]
+  _tags:
+  - can
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['pnazp,']
+  trigger: pnazp,
 - replace: 'penalizing '
-  _tags: [can, else]
+  _tags:
+  - can
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['pnazi,']
+  trigger: pnazi,
 - replace: 'penalization '
-  _tags: [the, can, else]
+  _tags:
+  - the
+  - can
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['pnazm,']
+  trigger: pnazm,
 - replace: 'penalizations '
-  _tags: [the, can, else]
+  _tags:
+  - the
+  - can
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['pnazms,']
+  trigger: pnazms,
 - replace: 'penalizable '
-  _tags: [can, else]
+  _tags:
+  - can
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['pnazj,']
+  trigger: pnazj,

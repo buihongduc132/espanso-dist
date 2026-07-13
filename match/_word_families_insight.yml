@@ -1,0 +1,162 @@
+name: _word_families_insight
+matches:
+- replace: 'insight '
+  _tags:
+  - noun
+  - else
+  propagate_case: true
+  allow_duplicate: false
+  trigger: ins9,
+- replace: 'insights '
+  _tags:
+  - noun
+  - else
+  propagate_case: true
+  allow_duplicate: false
+  trigger: ins9s,
+- replace: 'insightful '
+  _tags:
+  - adjective
+  - else
+  propagate_case: true
+  allow_duplicate: false
+  trigger: ins9j,
+- replace: 'insightfully '
+  _tags:
+  - adverb
+  - else
+  propagate_case: true
+  allow_duplicate: false
+  trigger: ins9jl,
+- replace: 'this insight '
+  _tags:
+  - demonstrative
+  - th_foundation
+  propagate_case: true
+  allow_duplicate: false
+  trigger: izins9,
+- replace: 'that insight '
+  _tags:
+  - demonstrative
+  - th_foundation
+  propagate_case: true
+  allow_duplicate: false
+  trigger: azins9,
+- replace: 'these insights '
+  _tags:
+  - demonstrative
+  - th_foundation
+  - plural
+  propagate_case: true
+  allow_duplicate: false
+  trigger: ezins9s,
+- replace: 'those insights '
+  _tags:
+  - demonstrative
+  - th_foundation
+  - plural
+  propagate_case: true
+  allow_duplicate: false
+  trigger: ozins9s,
+- replace: 'insight this '
+  _tags:
+  - demonstrative
+  - th_foundation
+  propagate_case: true
+  allow_duplicate: false
+  trigger: ins9iz,
+- replace: 'insight that '
+  _tags:
+  - demonstrative
+  - th_foundation
+  propagate_case: true
+  allow_duplicate: false
+  trigger: ins9az,
+- replace: 'insight these '
+  _tags:
+  - demonstrative
+  - th_foundation
+  propagate_case: true
+  allow_duplicate: false
+  trigger: ins9ez,
+- replace: 'insight those '
+  _tags:
+  - demonstrative
+  - th_foundation
+  propagate_case: true
+  allow_duplicate: false
+  trigger: ins9oz,
+- replace: 'insight it '
+  _tags:
+  - pronoun
+  propagate_case: true
+  allow_duplicate: false
+  trigger: ins9it,
+- replace: 'insight them '
+  _tags:
+  - pronoun
+  propagate_case: true
+  allow_duplicate: false
+  trigger: ins9mm,
+- replace: 'insight the '
+  _tags:
+  - pronoun
+  propagate_case: true
+  allow_duplicate: false
+  trigger: ins9h,
+- replace: 'what insight '
+  _tags:
+  - question
+  propagate_case: true
+  allow_duplicate: false
+  trigger: wtins9,
+- replace: 'where insight '
+  _tags:
+  - question
+  propagate_case: true
+  allow_duplicate: false
+  trigger: wwins9,
+- replace: 'when insight '
+  _tags:
+  - question
+  propagate_case: true
+  allow_duplicate: false
+  trigger: wnins9,
+- replace: 'why insight '
+  _tags:
+  - question
+  propagate_case: true
+  allow_duplicate: false
+  trigger: wyins9,
+- replace: 'how insight '
+  _tags:
+  - question
+  propagate_case: true
+  allow_duplicate: false
+  trigger: hwins9,
+- replace: 'insight to the '
+  _tags:
+  - directional
+  propagate_case: true
+  allow_duplicate: false
+  trigger: ins92h,
+- replace: 'from the insight '
+  _tags:
+  - directional
+  propagate_case: true
+  allow_duplicate: false
+  trigger: 22hins9,
+- replace: 'from the insights '
+  _tags:
+  - directional
+  propagate_case: true
+  allow_duplicate: false
+  trigger: 22hins9s,
+- replace: 'insight have '
+  propagate_case: true
+  allow_duplicate: false
+  trigger: ins9ha,
+- replace: 'insight has '
+  propagate_case: true
+  allow_duplicate: false
+  trigger: ins9hass,

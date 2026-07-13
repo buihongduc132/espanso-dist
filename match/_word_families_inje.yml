@@ -1,91 +1,153 @@
-# ⚠️  WARNING: AUTO-GENERATED FILE - DO NOT EDIT DIRECTLY!
-# This file is generated from word_version by:
-#   scripts/convert_to_tokenized_word_version.py
-# Edit source in space_version and re-run conversions.
-# Tokenizes trailing spaces in triggers to an explicit token.
-# Removes right_word property for tokenized version.
-# Adds trailing space to replacements that don't have one.
-# Current token: ','
-
-name: word-families-inje
-parent: default
+name: _word_families_inje
 matches:
 - replace: 'investigate '
-  _tags: [to, can, else, verb]
+  _tags:
+  - to
+  - can
+  - else
+  - verb
   allow_duplicate: true
   duplicate_group: injea-investigate
   propagate_case: true
-  triggers: ['injea,']
+  trigger: injea,
 - replace: 'investigate '
-  _tags: [to, can, else, verb]
+  _tags:
+  - to
+  - can
+  - else
+  - verb
   allow_duplicate: true
   duplicate_group: injea-investigate
   propagate_case: true
-  triggers: ['inje,']
+  trigger: inje,
 - replace: 'investigates '
-  _tags: [to, can, else, verb]
+  _tags:
+  - to
+  - can
+  - else
+  - verb
   allow_duplicate: true
   duplicate_group: injea-investigate
   propagate_case: true
-  triggers: ['injes,']
+  trigger: injes,
 - replace: 'investigating '
-  _tags: [ing, to, can, else, verb, pronoun]
+  _tags:
+  - ing
+  - to
+  - can
+  - else
+  - verb
+  - pronoun
   allow_duplicate: true
   duplicate_group: injea-investigate
   propagate_case: true
-  triggers: ['injei,']
+  trigger: injei,
 - replace: 'investigated '
-  _tags: [ed, would, to, can, else, verb]
+  _tags:
+  - ed
+  - would
+  - to
+  - can
+  - else
+  - verb
   allow_duplicate: true
   duplicate_group: injea-investigate
   propagate_case: true
-  triggers: ['injep,']
+  trigger: injep,
 - replace: 'investigator '
-  _tags: [noun, to, can, else]
+  _tags:
+  - noun
+  - to
+  - can
+  - else
   allow_duplicate: true
   duplicate_group: injea-investigate
   propagate_case: true
-  triggers: ['injew,']
+  trigger: injew,
 - replace: 'investigators '
-  _tags: [noun, to, can, else]
+  _tags:
+  - noun
+  - to
+  - can
+  - else
   allow_duplicate: true
   duplicate_group: injea-investigate
   propagate_case: true
-  triggers: ['injews,']
+  trigger: injews,
 - replace: 'investigable '
-  _tags: [adjective, to, can, else]
+  _tags:
+  - adjective
+  - to
+  - can
+  - else
   allow_duplicate: true
   duplicate_group: injea-investigate
   propagate_case: true
-  triggers: ['injeb,']
+  trigger: injeb,
 - replace: 'investigably '
-  _tags: [adverb, to, can, else]
+  _tags:
+  - adverb
+  - to
+  - can
+  - else
   allow_duplicate: true
   duplicate_group: injea-investigate
   propagate_case: true
-  triggers: ['injebl,']
+  trigger: injebl,
 - replace: 'investigate to the '
-  _tags: [to, can, else]
+  _tags:
+  - to
+  - can
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['inje2h,']
+  trigger: inje2h,
 - replace: 'investigate this '
-  _tags: [demonstrative, to, can, else]
+  _tags:
+  - demonstrative
+  - to
+  - can
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['injeiz,']
+  trigger: injeiz,
 - replace: 'investigate that '
-  _tags: [demonstrative, to, can, else]
+  _tags:
+  - demonstrative
+  - to
+  - can
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['injeaz,']
+  trigger: injeaz,
 - replace: 'investigate every '
-  _tags: [to, can, else]
+  _tags:
+  - to
+  - can
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['injee,']
+  trigger: injee,
 - replace: 'investigate all '
-  _tags: [to, can, else]
+  _tags:
+  - to
+  - can
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['injeal,']
+  trigger: injeal,
+- replace: 'investigative '
+  _tags:
+  - adjective
+  - to
+  - else
+  propagate_case: true
+  allow_duplicate: false
+  trigger: injej,
+- replace: 'investigatively '
+  _tags:
+  - adverb
+  - else
+  propagate_case: true
+  allow_duplicate: false
+  trigger: injejl,

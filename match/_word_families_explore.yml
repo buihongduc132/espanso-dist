@@ -1,0 +1,78 @@
+name: _word_families_explore
+matches:
+- replace: 'explore '
+  propagate_case: true
+  allow_duplicate: false
+  trigger: expr,
+- replace: 'explores '
+  propagate_case: true
+  allow_duplicate: false
+  trigger: exprs,
+- replace: 'exploring '
+  propagate_case: true
+  allow_duplicate: false
+  trigger: expri,
+- replace: 'explored '
+  propagate_case: true
+  allow_duplicate: false
+  trigger: exprp,
+- replace: 'exploration '
+  propagate_case: true
+  allow_duplicate: false
+  trigger: exprm,
+- replace: 'explorations '
+  propagate_case: true
+  allow_duplicate: false
+  trigger: exprms,
+- replace: 'explorer '
+  propagate_case: true
+  allow_duplicate: false
+  trigger: exprw,
+- replace: 'explorers '
+  propagate_case: true
+  allow_duplicate: false
+  trigger: exprws,
+- replace: 'exploratory '
+  propagate_case: true
+  allow_duplicate: false
+  trigger: exprj,
+- replace: 'exploratorily '
+  propagate_case: true
+  allow_duplicate: false
+  trigger: exprjl,
+- replace: 'explore this '
+  propagate_case: true
+  allow_duplicate: false
+  trigger: expriz,
+- replace: 'explore that '
+  propagate_case: true
+  allow_duplicate: false
+  trigger: expraz,
+- replace: 'explore these '
+  propagate_case: true
+  allow_duplicate: false
+  trigger: exprez,
+- replace: 'explore those '
+  propagate_case: true
+  allow_duplicate: false
+  trigger: exproz,
+- replace: 'explore the '
+  propagate_case: true
+  allow_duplicate: false
+  trigger: exprh,
+- replace: 'explore to '
+  propagate_case: true
+  allow_duplicate: false
+  trigger: expr2,
+- replace: 'explore to the '
+  propagate_case: true
+  allow_duplicate: false
+  trigger: expr2h,
+- replace: 'explore from '
+  propagate_case: true
+  allow_duplicate: false
+  trigger: expr-2,
+- replace: 'explore from the '
+  propagate_case: true
+  allow_duplicate: false
+  trigger: expr-2h,

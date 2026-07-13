@@ -1,0 +1,370 @@
+matches:
+- replace: 'to  '
+  _tags:
+  - to
+  - preposition
+  - directional
+  - 222_group
+  allow_duplicate: false
+  trigger: 2,
+- replace: 'from '
+  _tags:
+  - from
+  - preposition
+  - directional
+  - 222_group
+  propagate_case: true
+  allow_duplicate: false
+  trigger: 22,
+- replace: 'to the '
+  _tags:
+  - to
+  - preposition
+  - directional
+  - article
+  - 222_group
+  propagate_case: true
+  allow_duplicate: false
+  trigger: 2he,
+- replace: 'from the '
+  _tags:
+  - from
+  - preposition
+  - directional
+  - article
+  - 222_group
+  propagate_case: true
+  allow_duplicate: false
+  trigger: 22he,
+- replace: 'to the '
+  _tags:
+  - to
+  - preposition
+  - directional
+  - article
+  - 222_group
+  propagate_case: true
+  allow_duplicate: false
+  trigger: 2h,
+- replace: 'from the '
+  _tags:
+  - from
+  - preposition
+  - directional
+  - article
+  - 222_group
+  propagate_case: true
+  allow_duplicate: false
+  trigger: 22h,
+- replace: 'to this '
+  _tags:
+  - to
+  - preposition
+  - directional
+  - demonstrative
+  - 222_group
+  propagate_case: true
+  allow_duplicate: false
+  trigger: 2iz,
+- replace: 'to that '
+  _tags:
+  - to
+  - preposition
+  - directional
+  - demonstrative
+  - 222_group
+  propagate_case: true
+  allow_duplicate: false
+  trigger: 2az,
+- replace: 'to these '
+  _tags:
+  - to
+  - preposition
+  - directional
+  - demonstrative
+  - 222_group
+  propagate_case: true
+  allow_duplicate: false
+  trigger: 2ez,
+- replace: 'to those '
+  _tags:
+  - to
+  - preposition
+  - directional
+  - demonstrative
+  - 222_group
+  propagate_case: true
+  allow_duplicate: false
+  trigger: 2oz,
+- replace: 'from this '
+  _tags:
+  - from
+  - preposition
+  - directional
+  - demonstrative
+  - 222_group
+  propagate_case: true
+  allow_duplicate: false
+  trigger: 22iz,
+- replace: 'from that '
+  _tags:
+  - from
+  - preposition
+  - directional
+  - demonstrative
+  - 222_group
+  propagate_case: true
+  allow_duplicate: false
+  trigger: 22az,
+- replace: 'from these '
+  _tags:
+  - from
+  - preposition
+  - directional
+  - demonstrative
+  - 222_group
+  propagate_case: true
+  allow_duplicate: false
+  trigger: 22ez,
+- replace: 'from those '
+  _tags:
+  - from
+  - preposition
+  - directional
+  - demonstrative
+  - 222_group
+  propagate_case: true
+  allow_duplicate: false
+  trigger: 22oz,
+- replace: 'to all '
+  _tags:
+  - to
+  - preposition
+  - directional
+  - quantifier
+  - 222_group
+  propagate_case: true
+  allow_duplicate: false
+  trigger: 2a,
+- replace: 'to some '
+  _tags:
+  - to
+  - preposition
+  - directional
+  - quantifier
+  - 222_group
+  propagate_case: true
+  allow_duplicate: false
+  trigger: 2sm,
+- replace: 'to each '
+  _tags:
+  - to
+  - preposition
+  - directional
+  - quantifier
+  - 222_group
+  propagate_case: true
+  allow_duplicate: false
+  trigger: 2eh,
+- replace: 'from all '
+  _tags:
+  - from
+  - preposition
+  - directional
+  - quantifier
+  - 222_group
+  propagate_case: true
+  allow_duplicate: false
+  trigger: 22a,
+- replace: 'from some '
+  _tags:
+  - from
+  - preposition
+  - directional
+  - quantifier
+  - 222_group
+  propagate_case: true
+  allow_duplicate: false
+  trigger: 22sm,
+- replace: 'from each '
+  _tags:
+  - from
+  - preposition
+  - directional
+  - quantifier
+  - 222_group
+  propagate_case: true
+  allow_duplicate: false
+  trigger: 22eh,
+- replace: 'to one '
+  _tags:
+  - to
+  - preposition
+  - directional
+  - quantifier
+  - 222_group
+  propagate_case: true
+  allow_duplicate: false
+  trigger: 2o,
+- replace: 'from one '
+  _tags:
+  - from
+  - preposition
+  - directional
+  - quantifier
+  - 222_group
+  propagate_case: true
+  allow_duplicate: false
+  trigger: 22o,
+- replace: 'to other '
+  _tags:
+  - to
+  - preposition
+  - directional
+  - quantifier
+  - 222_group
+  propagate_case: true
+  allow_duplicate: false
+  trigger: 2ot,
+- replace: 'to another '
+  _tags:
+  - to
+  - preposition
+  - directional
+  - quantifier
+  - 222_group
+  propagate_case: true
+  allow_duplicate: false
+  trigger: 2ao,
+- replace: 'from other '
+  _tags:
+  - from
+  - preposition
+  - directional
+  - quantifier
+  - 222_group
+  propagate_case: true
+  allow_duplicate: false
+  trigger: 22ot,
+- replace: 'from another '
+  _tags:
+  - from
+  - preposition
+  - directional
+  - quantifier
+  - 222_group
+  propagate_case: true
+  allow_duplicate: false
+  trigger: 22ao,
+- replace: 'to whenever '
+  _tags:
+  - to
+  - preposition
+  - directional
+  - wh_ever
+  - 222_group
+  propagate_case: true
+  allow_duplicate: false
+  trigger: 2wnj,
+- replace: 'to whatever '
+  _tags:
+  - to
+  - preposition
+  - directional
+  - wh_ever
+  - 222_group
+  propagate_case: true
+  allow_duplicate: false
+  trigger: 2wtj,
+- replace: 'to wherever '
+  _tags:
+  - to
+  - preposition
+  - directional
+  - wh_ever
+  - 222_group
+  propagate_case: true
+  allow_duplicate: false
+  trigger: 2wwj,
+- replace: 'to however '
+  _tags:
+  - to
+  - preposition
+  - directional
+  - wh_ever
+  - 222_group
+  propagate_case: true
+  allow_duplicate: false
+  trigger: 2hwj,
+- replace: 'from whenever '
+  _tags:
+  - from
+  - preposition
+  - directional
+  - wh_ever
+  - 222_group
+  propagate_case: true
+  allow_duplicate: false
+  trigger: 22wnj,
+- replace: 'from whatever '
+  _tags:
+  - from
+  - preposition
+  - directional
+  - wh_ever
+  - 222_group
+  propagate_case: true
+  allow_duplicate: false
+  trigger: 22wtj,
+- replace: 'from wherever '
+  _tags:
+  - from
+  - preposition
+  - directional
+  - wh_ever
+  - 222_group
+  propagate_case: true
+  allow_duplicate: false
+  trigger: 22wwj,
+- replace: 'from however '
+  _tags:
+  - from
+  - preposition
+  - directional
+  - wh_ever
+  - 222_group
+  propagate_case: true
+  allow_duplicate: false
+  trigger: 22hwj,
+- replace: 'to me '
+  _tags:
+  - to
+  - preposition
+  - directional
+  - pronoun
+  - 222_group
+  propagate_case: true
+  allow_duplicate: false
+  trigger: 2m,
+- replace: 'from me '
+  _tags:
+  - from
+  - preposition
+  - directional
+  - pronoun
+  - 222_group
+  propagate_case: true
+  allow_duplicate: false
+  trigger: 22m,
+- replace: 'to be the '
+  _tags:
+  - to
+  - preposition
+  - directional
+  - article
+  - 222_group
+  propagate_case: true
+  allow_duplicate: false
+  trigger: 2bh,
+enable: false
+name: _directional_base

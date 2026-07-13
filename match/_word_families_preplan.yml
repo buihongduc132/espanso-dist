@@ -1,0 +1,26 @@
+name: _word_families_preplan
+matches:
+- replace: 'preplan '
+  propagate_case: true
+  allow_duplicate: false
+  trigger: pwpl,
+- replace: 'preplans '
+  propagate_case: true
+  allow_duplicate: false
+  trigger: pwpls,
+- replace: 'preplanning '
+  propagate_case: true
+  allow_duplicate: false
+  trigger: pwpli,
+- replace: 'preplanned '
+  propagate_case: true
+  allow_duplicate: false
+  trigger: pwplp,
+- replace: 'preplanion '
+  propagate_case: true
+  allow_duplicate: false
+  trigger: pwplm,
+- replace: 'preplanable '
+  propagate_case: true
+  allow_duplicate: false
+  trigger: pwplb,

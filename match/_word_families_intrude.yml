@@ -1,0 +1,84 @@
+name: _word_families_intrude
+matches:
+- replace: 'intrude '
+  _tags:
+  - can
+  - pronoun
+  - else
+  propagate_case: true
+  allow_duplicate: false
+  trigger: intru,
+- replace: 'intrudes '
+  _tags:
+  - can
+  - pronoun
+  - else
+  propagate_case: true
+  allow_duplicate: false
+  trigger: intrus,
+- replace: 'intruding '
+  _tags:
+  - ing
+  - can
+  - pronoun
+  - else
+  propagate_case: true
+  allow_duplicate: false
+  trigger: intrui,
+- replace: 'intruded '
+  _tags:
+  - ed
+  - can
+  - pronoun
+  - else
+  propagate_case: true
+  allow_duplicate: false
+  trigger: intrup,
+- replace: 'intrusion '
+  _tags:
+  - noun
+  - can
+  - else
+  propagate_case: true
+  allow_duplicate: false
+  trigger: intrum,
+- replace: 'intrusive '
+  _tags:
+  - adjective
+  - can
+  - else
+  propagate_case: true
+  allow_duplicate: false
+  trigger: intrul,
+- replace: 'intruder '
+  _tags:
+  - noun
+  - can
+  - else
+  propagate_case: true
+  allow_duplicate: false
+  trigger: intruw,
+- replace: 'intruders '
+  _tags:
+  - noun
+  - can
+  - else
+  propagate_case: true
+  allow_duplicate: false
+  trigger: intruws,
+- replace: 'intrude this '
+  propagate_case: true
+  allow_duplicate: false
+  trigger: intruiz,
+- replace: 'intrude that '
+  propagate_case: true
+  allow_duplicate: false
+  trigger: intruaz,
+- replace: 'intrude these '
+  propagate_case: true
+  allow_duplicate: false
+  trigger: intruez,
+- replace: 'intrude those '
+  propagate_case: true
+  allow_duplicate: false
+  trigger: intruoz,

@@ -1,183 +1,303 @@
-# ⚠️  WARNING: AUTO-GENERATED FILE - DO NOT EDIT DIRECTLY!
-# This file is generated from word_version by:
-#   scripts/convert_to_tokenized_word_version.py
-# Edit source in space_version and re-run conversions.
-# Tokenizes trailing spaces in triggers to an explicit token.
-# Removes right_word property for tokenized version.
-# Adds trailing space to replacements that don't have one.
-# Current token: ','
-
-name: how-combinations
-parent: default
+name: _how_combinations
 matches:
 - replace: 'how this '
-  _tags: [question, how, demonstrative, the]
+  _tags:
+  - question
+  - how
+  - demonstrative
+  - the
   propagate_case: true
   allow_duplicate: false
-  triggers: ['hwiz,']
+  trigger: hwiz,
 - replace: 'how that '
-  _tags: [question, how, demonstrative, the]
+  _tags:
+  - question
+  - how
+  - demonstrative
+  - the
   propagate_case: true
   allow_duplicate: false
-  triggers: ['hwaz,']
+  trigger: hwaz,
 - replace: 'how these '
-  _tags: [question, how, demonstrative, the]
+  _tags:
+  - question
+  - how
+  - demonstrative
+  - the
   propagate_case: true
   allow_duplicate: false
-  triggers: ['hwez,']
+  trigger: hwez,
 - replace: 'how those '
-  _tags: [question, how, demonstrative, the]
+  _tags:
+  - question
+  - how
+  - demonstrative
+  - the
   propagate_case: true
   allow_duplicate: false
-  triggers: ['hwoz,']
+  trigger: hwoz,
 - replace: 'how for '
-  _tags: [question, how, preposition]
+  _tags:
+  - question
+  - how
+  - preposition
   propagate_case: true
   allow_duplicate: false
-  triggers: ['hwf,']
+  trigger: hwf,
 - replace: 'how with '
-  _tags: [question, how, preposition]
+  _tags:
+  - question
+  - how
+  - preposition
   propagate_case: true
   allow_duplicate: false
-  triggers: ['hww,']
+  trigger: hww,
 - replace: 'how of '
-  _tags: [question, how, preposition]
+  _tags:
+  - question
+  - how
+  - preposition
   propagate_case: true
   allow_duplicate: false
-  triggers: ['hwo,']
+  trigger: hwo,
 - replace: 'how on '
-  _tags: [question, how, preposition]
+  _tags:
+  - question
+  - how
+  - preposition
   propagate_case: true
   allow_duplicate: false
-  triggers: ['hwon,']
+  trigger: hwon,
 - replace: 'how the '
-  _tags: [question, how, the]
+  _tags:
+  - question
+  - how
+  - the
   propagate_case: true
   allow_duplicate: false
-  triggers: ['hwh,']
+  trigger: hwh,
 - replace: 'how are '
-  _tags: [question, how, be]
+  _tags:
+  - question
+  - how
+  - be
   allow_duplicate: true
   propagate_case: true
-  triggers: ['hwa,']
+  trigger: hwa,
 - replace: 'how is '
-  _tags: [question, how, be]
+  _tags:
+  - question
+  - how
+  - be
   allow_duplicate: true
   propagate_case: true
-  triggers: ['hwt,']
+  trigger: hwt,
 - replace: 'how can '
-  _tags: [question, how, can]
+  _tags:
+  - question
+  - how
+  - can
   allow_duplicate: true
   propagate_case: true
-  triggers: ['hwq,']
+  trigger: hwq,
 - replace: 'how do '
-  _tags: [question, how, would]
+  _tags:
+  - question
+  - how
+  - would
   propagate_case: true
   allow_duplicate: false
-  triggers: ['hwu,']
+  trigger: hwu,
 - replace: 'how does '
-  _tags: [question, how, would]
+  _tags:
+  - question
+  - how
+  - would
   allow_duplicate: true
   propagate_case: true
-  triggers: ['hwuu,']
+  trigger: hwuu,
+- replace: 'how do not '
+  _tags:
+  - question
+  - how
+  - negate
+  propagate_case: true
+  allow_duplicate: false
+  trigger: hwun,
+- replace: 'how does not '
+  _tags:
+  - question
+  - how
+  - negate
+  propagate_case: true
+  allow_duplicate: false
+  trigger: hwuun,
 - replace: 'how what '
-  _tags: [question, how, what]
+  _tags:
+  - question
+  - how
+  - what
   propagate_case: true
   allow_duplicate: false
-  triggers: ['hwwt,']
+  trigger: hwwt,
 - replace: 'how where '
-  _tags: [question, how, where]
+  _tags:
+  - question
+  - how
+  - where
   propagate_case: true
   allow_duplicate: false
-  triggers: ['hwwr,']
+  trigger: hwwr,
 - replace: 'how when '
-  _tags: [question, how, when]
+  _tags:
+  - question
+  - how
+  - when
   propagate_case: true
   allow_duplicate: false
-  triggers: ['hwwn,']
+  trigger: hwwn,
 - replace: 'how why '
-  _tags: [question, how, why]
+  _tags:
+  - question
+  - how
+  - why
   propagate_case: true
   allow_duplicate: false
-  triggers: ['hwwy,']
+  trigger: hwwy,
 - replace: 'how which '
-  _tags: [question, how, pronoun]
+  _tags:
+  - question
+  - how
+  - pronoun
   propagate_case: true
   allow_duplicate: false
-  triggers: ['hwwi,']
+  trigger: hwwi,
 - replace: 'how I '
-  _tags: [question, how, pronoun]
+  _tags:
+  - question
+  - how
+  - pronoun
   propagate_case: true
   allow_duplicate: false
-  triggers: ['hwi,']
+  trigger: hwi,
 - replace: 'how we '
-  _tags: [question, how, pronoun]
+  _tags:
+  - question
+  - how
+  - pronoun
   propagate_case: true
   allow_duplicate: false
-  triggers: ['hwe,']
+  trigger: hwe,
 - replace: 'how they '
-  _tags: [question, how, pronoun]
+  _tags:
+  - question
+  - how
+  - pronoun
   propagate_case: true
   allow_duplicate: false
-  triggers: ['hwey,']
+  trigger: hwey,
 - replace: 'how them '
-  _tags: [question, how, pronoun]
+  _tags:
+  - question
+  - how
+  - pronoun
   propagate_case: true
   allow_duplicate: false
-  triggers: ['hwmm,']
+  trigger: hwmm,
 - replace: 'how them all '
-  _tags: [question, how, pronoun]
+  _tags:
+  - question
+  - how
+  - pronoun
   propagate_case: true
   allow_duplicate: false
-  triggers: ['hwmmal,']
+  trigger: hwmmal,
 - replace: 'how it '
-  _tags: [question, how, pronoun]
+  _tags:
+  - question
+  - how
+  - pronoun
   propagate_case: true
   allow_duplicate: false
-  triggers: ['hwx,']
+  trigger: hwx,
 - replace: 'how long '
-  _tags: [question, how, time]
+  _tags:
+  - question
+  - how
+  - time
   propagate_case: true
   allow_duplicate: false
-  triggers: ['hwl,']
+  trigger: hwl,
 - replace: 'how not to '
-  _tags: [question, how, negate, to]
+  _tags:
+  - question
+  - how
+  - negate
+  - to
   propagate_case: true
   allow_duplicate: false
-  triggers: ['hwn2,']
+  trigger: hwn2,
 - replace: 'how not can '
-  _tags: [question, how, negate, can]
+  _tags:
+  - question
+  - how
+  - negate
+  - can
   propagate_case: true
   allow_duplicate: false
-  triggers: ['hwnq,']
+  trigger: hwnq,
 - replace: 'how not is '
-  _tags: [question, how, negate, be]
+  _tags:
+  - question
+  - how
+  - negate
+  - be
   propagate_case: true
   allow_duplicate: false
-  triggers: ['hwnt,']
+  trigger: hwnt,
 - replace: 'how not are '
-  _tags: [question, how, negate, be]
+  _tags:
+  - question
+  - how
+  - negate
+  - be
   propagate_case: true
   allow_duplicate: false
-  triggers: ['hwna,']
+  trigger: hwna,
 - replace: 'how have '
-  _tags: [question, how, have]
+  _tags:
+  - question
+  - how
+  - have
   propagate_case: true
   allow_duplicate: false
-  triggers: ['hwha,']
+  trigger: hwha,
 - replace: 'how have been '
-  _tags: [question, how, have, been]
+  _tags:
+  - question
+  - how
+  - have
+  - been
   propagate_case: true
   allow_duplicate: false
-  triggers: ['hwhab,']
+  trigger: hwhab,
 - replace: 'how have not '
-  _tags: [question, how, have, not]
+  _tags:
+  - question
+  - how
+  - have
+  - not
   propagate_case: true
   allow_duplicate: false
-  triggers: ['hwhan,']
+  trigger: hwhan,
 - replace: 'how have not been '
-  _tags: [question, how, have, not, been]
+  _tags:
+  - question
+  - how
+  - have
+  - not
+  - been
   propagate_case: true
   allow_duplicate: false
-  triggers: ['hwhanb,']
+  trigger: hwhanb,
 enable: false

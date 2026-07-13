@@ -1,47 +1,58 @@
-# ⚠️  WARNING: AUTO-GENERATED FILE - DO NOT EDIT DIRECTLY!
-# This file is generated from word_version by:
-#   scripts/convert_to_tokenized_word_version.py
-# Edit source in space_version and re-run conversions.
-# Tokenizes trailing spaces in triggers to an explicit token.
-# Removes right_word property for tokenized version.
-# Adds trailing space to replacements that don't have one.
-# Current token: ','
-
-name: word-families-persist
-parent: default
+name: _word_families_persist
 matches:
 - replace: 'persist '
-  _tags: [verb, to, else]
+  _tags:
+  - verb
+  - to
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['pewsi,']
+  trigger: pewsi,
 - replace: 'persists '
-  _tags: [verb, to, else]
+  _tags:
+  - verb
+  - to
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['pewsis,']
+  trigger: pewsis,
 - replace: 'persisting '
-  _tags: [ing, verb, to, else]
+  _tags:
+  - ing
+  - verb
+  - to
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['pewsii,']
+  trigger: pewsii,
 - replace: 'persisted '
-  _tags: [ed, verb, to, else, would]
+  _tags:
+  - ed
+  - verb
+  - to
+  - else
+  - would
   propagate_case: true
   allow_duplicate: false
-  triggers: ['pewsip,']
+  trigger: pewsip,
 - replace: 'persistence '
-  _tags: [noun, else]
+  _tags:
+  - noun
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['pewsim,']
+  trigger: pewsim,
 - replace: 'persistent '
-  _tags: [adjective, else]
+  _tags:
+  - adjective
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['pewsij,']
+  trigger: pewsij,
 - replace: 'persistently '
-  _tags: [adverb, else]
+  _tags:
+  - adverb
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['pewsijl,']
+  trigger: pewsijl,

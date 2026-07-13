@@ -1,0 +1,134 @@
+name: _word_families_excuse
+matches:
+- replace: 'excuse '
+  _tags:
+  - to
+  - can
+  - else
+  _context_tags:
+  - social
+  - conversational
+  propagate_case: true
+  allow_duplicate: false
+  trigger: exqu`
+- replace: 'excuse me '
+  _tags:
+  - phrase
+  - else
+  _context_tags:
+  - social
+  - conversational
+  propagate_case: true
+  allow_duplicate: false
+  trigger: exqum`
+- replace: 'excuse '
+  _tags:
+  - to
+  - can
+  - else
+  _context_tags:
+  - engineering
+  - prompt
+  propagate_case: true
+  allow_duplicate: false
+  trigger: exqu,
+- replace: 'excuses '
+  _tags:
+  - to
+  - else
+  _context_tags:
+  - engineering
+  propagate_case: true
+  allow_duplicate: false
+  trigger: exqus,
+- replace: 'excusing '
+  _tags:
+  - ing
+  - else
+  _context_tags:
+  - engineering
+  propagate_case: true
+  allow_duplicate: false
+  trigger: exqui,
+- replace: 'excused '
+  _tags:
+  - ed
+  - else
+  _context_tags:
+  - engineering
+  propagate_case: true
+  allow_duplicate: false
+  trigger: exqup,
+- replace: 'excuser '
+  _tags:
+  - noun
+  - else
+  propagate_case: true
+  allow_duplicate: false
+  trigger: exquw,
+- replace: 'excusable '
+  _tags:
+  - adjective
+  - else
+  propagate_case: true
+  allow_duplicate: false
+  trigger: exqub,
+- replace: 'excusably '
+  _tags:
+  - adverb
+  - else
+  propagate_case: true
+  allow_duplicate: false
+  trigger: exqubl,
+- replace: 'excuse this '
+  _tags:
+  - verb
+  - demonstrative
+  - to
+  - else
+  propagate_case: true
+  allow_duplicate: false
+  trigger: exquiz,
+- replace: 'excuse that '
+  _tags:
+  - verb
+  - demonstrative
+  - to
+  - else
+  propagate_case: true
+  allow_duplicate: false
+  trigger: exquaz,
+- replace: 'excuse these '
+  _tags:
+  - verb
+  - demonstrative
+  - to
+  - else
+  propagate_case: true
+  allow_duplicate: false
+  trigger: exquez,
+- replace: 'excuse those '
+  _tags:
+  - verb
+  - demonstrative
+  - to
+  - else
+  propagate_case: true
+  allow_duplicate: false
+  trigger: exquoz,
+- replace: 'excuse the '
+  _tags:
+  - verb
+  - to
+  - else
+  propagate_case: true
+  allow_duplicate: false
+  trigger: exquh,
+- replace: 'excuse it '
+  _tags:
+  - verb
+  - to
+  - else
+  propagate_case: true
+  allow_duplicate: false
+  trigger: exqux,

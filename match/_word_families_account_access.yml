@@ -1,142 +1,293 @@
-# ⚠️  WARNING: AUTO-GENERATED FILE - DO NOT EDIT DIRECTLY!
-# This file is generated from word_version by:
-#   scripts/convert_to_tokenized_word_version.py
-# Edit source in space_version and re-run conversions.
-# Tokenizes trailing spaces in triggers to an explicit token.
-# Removes right_word property for tokenized version.
-# Adds trailing space to replacements that don't have one.
-# Current token: ','
-
-name: word-families-account-access
-parent: default
+name: _word_families_account_access
 matches:
 - replace: 'account '
-  _tags: [noun, to, can, else]
+  _tags:
+  - noun
+  - to
+  - can
+  - else
   allow_duplicate: true
   propagate_case: true
-  triggers: ['aqo,']
+  trigger: aqo,
 - replace: 'account '
-  _tags: [noun, to, can, else]
+  _tags:
+  - noun
+  - to
+  - can
+  - else
   allow_duplicate: true
   keep_case: true
-  triggers: ['aqO,']
+  trigger: aqO,
 - replace: 'accounts '
-  _tags: [noun, to, can, else]
+  _tags:
+  - noun
+  - to
+  - can
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['aqos,']
+  trigger: aqos,
 - replace: 'accounting '
-  _tags: [noun, ing, to, can, else]
+  _tags:
+  - noun
+  - ing
+  - to
+  - can
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['aqoi,']
+  trigger: aqoi,
 - replace: 'accounted '
-  _tags: [noun, ed, to, can, else]
+  _tags:
+  - noun
+  - ed
+  - to
+  - can
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['aqop,']
+  trigger: aqop,
 - replace: 'accountable '
-  _tags: [adjective, to, else]
+  _tags:
+  - adjective
+  - to
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['aqob,']
+  trigger: aqob,
 - replace: 'accountably '
-  _tags: [adverb, to, else]
+  _tags:
+  - adverb
+  - to
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['aqobl,']
+  trigger: aqobl,
 - replace: 'accountability '
-  _tags: [noun, to, else]
+  _tags:
+  - noun
+  - to
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['aqobm,']
+  trigger: aqobm,
 - replace: 'account for '
-  _tags: [phrase, to, else]
+  _tags:
+  - phrase
+  - to
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['aqo4,']
+  trigger: aqo4,
 - replace: 'account for the '
-  _tags: [phrase, the, to, else]
+  _tags:
+  - phrase
+  - the
+  - to
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['aqo4h,']
+  trigger: aqo4h,
 - replace: 'account for this '
-  _tags: [phrase, demonstrative, to, else]
+  _tags:
+  - phrase
+  - demonstrative
+  - to
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['aqo4iz,']
+  trigger: aqo4iz,
 - replace: 'account for that '
-  _tags: [phrase, demonstrative, to, else]
+  _tags:
+  - phrase
+  - demonstrative
+  - to
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['aqo4az,']
+  trigger: aqo4az,
 - replace: 'account for these '
-  _tags: [phrase, demonstrative, to, else]
+  _tags:
+  - phrase
+  - demonstrative
+  - to
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['aqo4ez,']
+  trigger: aqo4ez,
 - replace: 'account for those '
-  _tags: [phrase, demonstrative, to, else]
+  _tags:
+  - phrase
+  - demonstrative
+  - to
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['aqo4oz,']
+  trigger: aqo4oz,
 - replace: 'account to '
-  _tags: [phrase, to, else]
+  _tags:
+  - phrase
+  - to
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['aqo2,']
+  trigger: aqo2,
 - replace: 'account to the '
-  _tags: [phrase, the, to, else]
+  _tags:
+  - phrase
+  - the
+  - to
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['aqo2h,']
+  trigger: aqo2h,
 - replace: 'accept '
-  _tags: [to, can, else]
+  _tags:
+  - to
+  - can
+  - else
   allow_duplicate: true
   propagate_case: true
-  triggers: ['aqe,']
+  trigger: aqe,
 - replace: 'accept '
-  _tags: [to, can, else]
+  _tags:
+  - to
+  - can
+  - else
   allow_duplicate: true
   keep_case: true
-  triggers: ['aqE,']
+  trigger: aqE,
+- replace: 'accepted '
+  _tags:
+  - ed
+  - to
+  - else
+  propagate_case: true
+  allow_duplicate: false
+  trigger: aqep,
+- replace: 'accepting '
+  _tags:
+  - ing
+  - to
+  - else
+  propagate_case: true
+  allow_duplicate: false
+  trigger: aqei,
+- replace: 'accepts '
+  _tags:
+  - to
+  - else
+  propagate_case: true
+  allow_duplicate: false
+  trigger: aqes,
+- replace: 'acceptable '
+  _tags:
+  - adjective
+  - can
+  - else
+  propagate_case: true
+  allow_duplicate: false
+  trigger: aqef,
+- replace: 'acceptably '
+  _tags:
+  - adverb
+  - else
+  propagate_case: true
+  allow_duplicate: false
+  trigger: aqefl,
+- replace: 'acceptance '
+  _tags:
+  - noun
+  - to
+  - else
+  propagate_case: true
+  allow_duplicate: false
+  trigger: aqec,
+- replace: 'acceptances '
+  _tags:
+  - noun
+  - to
+  - else
+  propagate_case: true
+  allow_duplicate: false
+  trigger: aqecs,
+- replace: 'acceptor '
+  _tags:
+  - noun
+  - to
+  - else
+  propagate_case: true
+  allow_duplicate: false
+  trigger: aqew,
 - replace: 'password '
-  _tags: [account, credential, else]
+  _tags:
+  - account
+  - credential
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['pw,']
+  trigger: pw,
 - replace: 'passwords '
-  _tags: [account, credential, else]
+  _tags:
+  - account
+  - credential
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['pws,']
+  trigger: pws,
 - replace: 'accessibility '
-  _tags: [noun, to, can, else, pronoun]
+  _tags:
+  - noun
+  - to
+  - can
+  - else
+  - pronoun
   propagate_case: true
   allow_duplicate: false
-  triggers: ['aqeby,']
+  trigger: aqeby,
 - replace: 'accessibility tree '
-  _tags: [noun, to, can, else, pronoun]
+  _tags:
+  - noun
+  - to
+  - can
+  - else
+  - pronoun
   propagate_case: true
   allow_duplicate: false
-  triggers: ['aqeby3,']
+  trigger: aqeby3,
 - replace: 'accessibility mode '
-  _tags: [noun, to, can, else, pronoun]
+  _tags:
+  - noun
+  - to
+  - can
+  - else
+  - pronoun
   propagate_case: true
   allow_duplicate: false
-  triggers: ['aqebym,']
+  trigger: aqebym,
 - replace: 'accessible '
-  _tags: [adjective, to, can, else, pronoun]
+  _tags:
+  - adjective
+  - to
+  - can
+  - else
+  - pronoun
   propagate_case: true
   allow_duplicate: false
-  triggers: ['aqeb,']
+  trigger: aqeb,
 - replace: 'username '
-  _tags: [account, credential, else]
+  _tags:
+  - account
+  - credential
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['usn,']
+  trigger: usn,
 - replace: 'usernames '
-  _tags: [account, credential, else]
+  _tags:
+  - account
+  - credential
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['usns,']
+  trigger: usns,

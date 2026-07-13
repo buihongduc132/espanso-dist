@@ -1,32 +1,22 @@
-# ⚠️  WARNING: AUTO-GENERATED FILE - DO NOT EDIT DIRECTLY!
-# This file is generated from word_version by:
-#   scripts/convert_to_tokenized_word_version.py
-# Edit source in space_version and re-run conversions.
-# Tokenizes trailing spaces in triggers to an explicit token.
-# Removes right_word property for tokenized version.
-# Adds trailing space to replacements that don't have one.
-# Current token: ','
-
-name: domain-finance-trade
-parent: default
+name: _domain_finance_trade
 matches:
 - replace: 'trade '
   propagate_case: true
   allow_duplicate: false
-  triggers: ['f;tr,']
+  trigger: f;tr,
 - replace: 'trades '
   propagate_case: true
   allow_duplicate: false
-  triggers: ['f;trs,']
+  trigger: f;trs,
 - replace: 'trading '
   propagate_case: true
   allow_duplicate: false
-  triggers: ['f;tri,']
+  trigger: f;tri,
 - replace: 'traded '
   propagate_case: true
   allow_duplicate: false
-  triggers: ['f;trp,']
+  trigger: f;trp,
 - replace: 'trader '
   propagate_case: true
   allow_duplicate: false
-  triggers: ['f;trw,']
+  trigger: f;trw,

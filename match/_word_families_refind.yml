@@ -1,0 +1,46 @@
+name: _word_families_refind
+matches:
+- replace: 'refinder '
+  propagate_case: true
+  allow_duplicate: false
+  trigger: wfiw,
+- replace: 'refinders '
+  propagate_case: true
+  allow_duplicate: false
+  trigger: wfiws,
+- replace: 'refind this '
+  propagate_case: true
+  allow_duplicate: false
+  trigger: wfiiz,
+- replace: 'refind that '
+  propagate_case: true
+  allow_duplicate: false
+  trigger: wfiaz,
+- replace: 'refind these '
+  propagate_case: true
+  allow_duplicate: false
+  trigger: wfiez,
+- replace: 'refind those '
+  propagate_case: true
+  allow_duplicate: false
+  trigger: wfioz,
+- replace: 'refind the '
+  propagate_case: true
+  allow_duplicate: false
+  trigger: wfih,
+- replace: 'refind to '
+  propagate_case: true
+  allow_duplicate: false
+  trigger: wfi2,
+- replace: 'refind to the '
+  propagate_case: true
+  allow_duplicate: false
+  trigger: wfi2h,
+- replace: 'refind from '
+  propagate_case: true
+  allow_duplicate: false
+  trigger: wfi-2,
+- replace: 'refind from the '
+  propagate_case: true
+  allow_duplicate: false
+  trigger: wfi-2h,

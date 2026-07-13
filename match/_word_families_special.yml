@@ -1,42 +1,57 @@
-# ⚠️  WARNING: AUTO-GENERATED FILE - DO NOT EDIT DIRECTLY!
-# This file is generated from word_version by:
-#   scripts/convert_to_tokenized_word_version.py
-# Edit source in space_version and re-run conversions.
-# Tokenizes trailing spaces in triggers to an explicit token.
-# Removes right_word property for tokenized version.
-# Adds trailing space to replacements that don't have one.
-# Current token: ','
-
-name: word-families-special
-parent: default
+name: _word_families_special
 matches:
 - replace: 'special '
-  _tags: [adjective, can, pronoun, else]
+  _tags:
+  - adjective
+  - can
+  - pronoun
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['spe,']
+  trigger: spe,
 - replace: 'specials '
-  _tags: [noun, can, pronoun, else]
+  _tags:
+  - noun
+  - can
+  - pronoun
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['spes,']
+  trigger: spes,
 - replace: 'specially '
-  _tags: [adverb, can, pronoun, else]
+  _tags:
+  - adverb
+  - can
+  - pronoun
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['spel,']
+  trigger: spel,
 - replace: 'specialization '
-  _tags: [noun, can, pronoun, else]
+  _tags:
+  - noun
+  - can
+  - pronoun
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['spem,']
+  trigger: spem,
 - replace: 'specializing '
-  _tags: [ing, can, pronoun, else]
+  _tags:
+  - ing
+  - can
+  - pronoun
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['spei,']
+  trigger: spei,
 - replace: 'specialized '
-  _tags: [ed, would, can, pronoun, else]
+  _tags:
+  - ed
+  - would
+  - can
+  - pronoun
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['spep,']
+  trigger: spep,

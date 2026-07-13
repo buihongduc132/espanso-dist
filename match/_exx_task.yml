@@ -1,95 +1,146 @@
-# ⚠️  WARNING: AUTO-GENERATED FILE - DO NOT EDIT DIRECTLY!
-# This file is generated from word_version by:
-#   scripts/convert_to_tokenized_word_version.py
-# Edit source in space_version and re-run conversions.
-# Tokenizes trailing spaces in triggers to an explicit token.
-# Removes right_word property for tokenized version.
-# Adds trailing space to replacements that don't have one.
-# Current token: ','
-
 matches:
 - replace: 'task '
-  _tags: [can, pronoun, else]
+  _tags:
+  - can
+  - pronoun
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['sk,']
+  trigger: sk,
 - replace: 'task list '
-  _tags: [phrase, else]
+  _tags:
+  - phrase
+  - else
   allow_duplicate: true
   propagate_case: true
-  triggers: ['tskls,']
+  trigger: tskls,
 - replace: 'tasks '
-  _tags: [can, pronoun, else]
+  _tags:
+  - can
+  - pronoun
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['sks,']
+  trigger: sks,
 - replace: 'tasking '
-  _tags: [ing, can, pronoun, else]
+  _tags:
+  - ing
+  - can
+  - pronoun
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['ski,']
+  trigger: ski,
 - replace: 'tasked '
-  _tags: [ed, would, can, pronoun, else]
+  _tags:
+  - ed
+  - would
+  - can
+  - pronoun
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['skp,']
+  trigger: skp,
 - replace: 'task this '
-  _tags: [demonstrative, can, pronoun, else]
+  _tags:
+  - demonstrative
+  - can
+  - pronoun
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['skiz,']
+  trigger: skiz,
 - replace: 'task that '
-  _tags: [demonstrative, can, pronoun, else, have]
+  _tags:
+  - demonstrative
+  - can
+  - pronoun
+  - else
+  - have
   propagate_case: true
   allow_duplicate: false
-  triggers: ['skaz,']
+  trigger: skaz,
 - replace: 'task these '
-  _tags: [demonstrative, can, pronoun, else]
+  _tags:
+  - demonstrative
+  - can
+  - pronoun
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['skez,']
+  trigger: skez,
 - replace: 'task those '
-  _tags: [demonstrative, can, pronoun, else]
+  _tags:
+  - demonstrative
+  - can
+  - pronoun
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['skoz,']
+  trigger: skoz,
 - replace: 'task the '
-  _tags: [the, can, pronoun, else]
+  _tags:
+  - the
+  - can
+  - pronoun
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['skh,']
+  trigger: skh,
 - replace: 'task all '
-  _tags: [can, pronoun, else]
+  _tags:
+  - can
+  - pronoun
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['ska,']
+  trigger: ska,
 - replace: 'task some '
-  _tags: [can, pronoun, else]
+  _tags:
+  - can
+  - pronoun
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['sksm,']
+  trigger: sksm,
 - replace: 'task each '
-  _tags: [can, pronoun, else]
+  _tags:
+  - can
+  - pronoun
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['skeh,']
+  trigger: skeh,
 - replace: 'task for '
-  _tags: [can, pronoun, else]
+  _tags:
+  - can
+  - pronoun
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['skf,']
+  trigger: skf,
 - replace: 'task with '
-  _tags: [can, pronoun, else]
+  _tags:
+  - can
+  - pronoun
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['skw,']
+  trigger: skw,
 - replace: 'task of '
-  _tags: [can, pronoun, else]
+  _tags:
+  - can
+  - pronoun
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['sko,']
+  trigger: sko,
 - replace: 'tasks the '
-  _tags: [to, can, else]
+  _tags:
+  - to
+  - can
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['sksh,']
+  trigger: sksh,
+name: _exx_task

@@ -1,0 +1,112 @@
+name: _word_families_maintain
+matches:
+- replace: 'maintain '
+  propagate_case: true
+  _tags:
+  - to
+  - can
+  - else
+  - base
+  allow_duplicate: false
+  trigger: main,
+- replace: 'maintains '
+  propagate_case: true
+  _tags:
+  - to
+  - can
+  - else
+  - plural
+  allow_duplicate: false
+  trigger: mains,
+- replace: 'maintaining '
+  propagate_case: true
+  _tags:
+  - to
+  - can
+  - else
+  - ing
+  allow_duplicate: false
+  trigger: maini,
+- replace: 'maintained '
+  propagate_case: true
+  _tags:
+  - to
+  - can
+  - else
+  - ed
+  - past
+  allow_duplicate: false
+  trigger: mainp,
+- replace: 'maintainer '
+  propagate_case: true
+  _tags:
+  - to
+  - can
+  - else
+  - agent
+  allow_duplicate: false
+  trigger: mainw,
+- replace: 'maintainable '
+  propagate_case: true
+  _tags:
+  - to
+  - can
+  - else
+  - adjective
+  - able
+  allow_duplicate: false
+  trigger: mainb,
+- replace: 'maintenance '
+  propagate_case: true
+  _tags:
+  - to
+  - can
+  - else
+  - noun
+  allow_duplicate: false
+  trigger: mainm,
+- replace: 'this maintain '
+  propagate_case: true
+  _tags:
+  - to
+  - can
+  - else
+  - demonstrative
+  allow_duplicate: false
+  trigger: izmain,
+- replace: 'that maintain '
+  propagate_case: true
+  _tags:
+  - to
+  - can
+  - else
+  - demonstrative
+  allow_duplicate: false
+  trigger: azmain,
+- replace: 'these maintain '
+  propagate_case: true
+  _tags:
+  - to
+  - can
+  - else
+  - demonstrative
+  allow_duplicate: false
+  trigger: ezmain,
+- replace: 'those maintain '
+  propagate_case: true
+  _tags:
+  - to
+  - can
+  - else
+  - demonstrative
+  allow_duplicate: false
+  trigger: ozmain,
+- replace: 'maintain to the '
+  propagate_case: true
+  _tags:
+  - to
+  - can
+  - else
+  - directional
+  allow_duplicate: false
+  trigger: main2h,

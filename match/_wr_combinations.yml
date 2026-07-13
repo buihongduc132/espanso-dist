@@ -1,2757 +1,3845 @@
-# ⚠️  WARNING: AUTO-GENERATED FILE - DO NOT EDIT DIRECTLY!
-# This file is generated from word_version by:
-#   scripts/convert_to_tokenized_word_version.py
-# Edit source in space_version and re-run conversions.
-# Tokenizes trailing spaces in triggers to an explicit token.
-# Removes right_word property for tokenized version.
-# Adds trailing space to replacements that don't have one.
-# Current token: ','
-
-name: wr-combinations
-parent: default
+name: _wr_combinations
 matches:
 - replace: 'read instruction '
-  _tags: [w-r, w-r-+-<1>]
+  _tags:
+  - w-r
+  - w-r-+-<1>
   propagate_case: true
   allow_duplicate: false
-  triggers: ['w1in,']
+  trigger: w1in,
 - replace: 'read code '
-  _tags: [w-r, w-r-+-<1>]
+  _tags:
+  - w-r
+  - w-r-+-<1>
   propagate_case: true
   allow_duplicate: false
-  triggers: ['w1qo,']
+  trigger: w1qo,
 - replace: 'read script '
-  _tags: [w-r, w-r-+-<1>]
+  _tags:
+  - w-r
+  - w-r-+-<1>
   propagate_case: true
   allow_duplicate: false
-  triggers: ['w1si,']
+  trigger: w1si,
 - replace: 'read test '
-  _tags: [w-r, w-r-+-<1>]
+  _tags:
+  - w-r
+  - w-r-+-<1>
   propagate_case: true
   allow_duplicate: false
-  triggers: ['w1te,']
+  trigger: w1te,
 - replace: 'read commit '
-  _tags: [w-r, w-r-+-<1>]
+  _tags:
+  - w-r
+  - w-r-+-<1>
   propagate_case: true
   allow_duplicate: false
-  triggers: ['w1qmi,']
+  trigger: w1qmi,
 - replace: 'read delegate '
-  _tags: [w-r, w-r-+-<1>]
+  _tags:
+  - w-r
+  - w-r-+-<1>
   propagate_case: true
   allow_duplicate: false
-  triggers: ['w1dele,']
+  trigger: w1dele,
 - replace: 'read document '
-  _tags: [w-r, w-r-+-<1>]
+  _tags:
+  - w-r
+  - w-r-+-<1>
   propagate_case: true
   allow_duplicate: false
-  triggers: ['w1doq,']
+  trigger: w1doq,
 - replace: 'read remote '
-  _tags: [w-r, w-r-+-<1>]
+  _tags:
+  - w-r
+  - w-r-+-<1>
   propagate_case: true
   allow_duplicate: false
-  triggers: ['w1moe,']
+  trigger: w1moe,
 - replace: 'read local '
-  _tags: [w-r, w-r-+-<1>]
+  _tags:
+  - w-r
+  - w-r-+-<1>
   propagate_case: true
   allow_duplicate: false
-  triggers: ['w1lol,']
+  trigger: w1lol,
 - replace: 'read file '
-  _tags: [w-r, w-r-+-<1>]
+  _tags:
+  - w-r
+  - w-r-+-<1>
   propagate_case: true
   allow_duplicate: false
-  triggers: ['w1fl,']
+  trigger: w1fl,
 - replace: 'read files '
-  _tags: [w-r, w-r-+-<1>]
+  _tags:
+  - w-r
+  - w-r-+-<1>
   propagate_case: true
   allow_duplicate: false
-  triggers: ['w1fls,']
+  trigger: w1fls,
 - replace: 'read directory '
-  _tags: [w-r, w-r-+-<1>]
+  _tags:
+  - w-r
+  - w-r-+-<1>
   propagate_case: true
   allow_duplicate: false
-  triggers: ['w1diw,']
+  trigger: w1diw,
 - replace: 'read directories '
-  _tags: [w-r, w-r-+-<1>]
+  _tags:
+  - w-r
+  - w-r-+-<1>
   propagate_case: true
   allow_duplicate: false
-  triggers: ['w1diws,']
+  trigger: w1diws,
 - replace: 'read pull request '
-  _tags: [w-r, w-r-+-<1>]
+  _tags:
+  - w-r
+  - w-r-+-<1>
   propagate_case: true
   allow_duplicate: false
-  triggers: ['w1pw,']
+  trigger: w1pw,
 - replace: 'read if '
-  _tags: [w-r, w-r-+-<1>]
+  _tags:
+  - w-r
+  - w-r-+-<1>
   propagate_case: true
   allow_duplicate: false
-  triggers: ['w1f,']
+  trigger: w1f,
 - replace: 'read some '
-  _tags: [w-r, w-r-+-<1>]
+  _tags:
+  - w-r
+  - w-r-+-<1>
   propagate_case: true
   allow_duplicate: false
-  triggers: ['w1sm,']
+  trigger: w1sm,
 - replace: 'read more '
-  _tags: [w-r, w-r-+-<1>]
+  _tags:
+  - w-r
+  - w-r-+-<1>
   propagate_case: true
   allow_duplicate: false
-  triggers: ['w1ow,']
+  trigger: w1ow,
 - replace: 'read some more '
-  _tags: [w-r, w-r-+-<1>]
+  _tags:
+  - w-r
+  - w-r-+-<1>
   propagate_case: true
   allow_duplicate: false
-  triggers: ['w1smow,']
+  trigger: w1smow,
 - replace: 'read detail '
-  _tags: [w-r, w-r-+-<1>]
+  _tags:
+  - w-r
+  - w-r-+-<1>
   propagate_case: true
   allow_duplicate: false
-  triggers: ['w1de,']
+  trigger: w1de,
 - replace: 'read clear '
-  _tags: [w-r, w-r-+-<1>]
+  _tags:
+  - w-r
+  - w-r-+-<1>
   propagate_case: true
   allow_duplicate: false
-  triggers: ['w1qlw,']
+  trigger: w1qlw,
 - replace: 'read summary '
-  _tags: [w-r, w-r-+-<1>]
+  _tags:
+  - w-r
+  - w-r-+-<1>
   propagate_case: true
   allow_duplicate: false
-  triggers: ['w1su,']
+  trigger: w1su,
 - replace: 'read TODO '
-  _tags: [w-r, w-r-+-<1>]
+  _tags:
+  - w-r
+  - w-r-+-<1>
   propagate_case: true
   allow_duplicate: false
-  triggers: ['w1oo,']
+  trigger: w1oo,
 - replace: 'read WS_TODO '
-  _tags: [w-r, w-r-+-<1>]
+  _tags:
+  - w-r
+  - w-r-+-<1>
   propagate_case: true
   allow_duplicate: false
-  triggers: ['w1woo,']
+  trigger: w1woo,
 - replace: 'read git '
-  _tags: [w-r, w-r-+-<1>]
+  _tags:
+  - w-r
+  - w-r-+-<1>
   propagate_case: true
   allow_duplicate: false
-  triggers: ['w1it,']
+  trigger: w1it,
 - replace: 'read web '
-  _tags: [w-r, w-r-+-<1>]
+  _tags:
+  - w-r
+  - w-r-+-<1>
   propagate_case: true
   allow_duplicate: false
-  triggers: ['w1eb,']
+  trigger: w1eb,
 - replace: 'write instruction '
-  _tags: [w-r, w-r-+-<1>]
+  _tags:
+  - w-r
+  - w-r-+-<1>
   propagate_case: true
   allow_duplicate: false
-  triggers: ['w2in,']
+  trigger: w2in,
 - replace: 'write code '
-  _tags: [w-r, w-r-+-<1>]
+  _tags:
+  - w-r
+  - w-r-+-<1>
   propagate_case: true
   allow_duplicate: false
-  triggers: ['w2qo,']
+  trigger: w2qo,
 - replace: 'write script '
-  _tags: [w-r, w-r-+-<1>]
+  _tags:
+  - w-r
+  - w-r-+-<1>
   propagate_case: true
   allow_duplicate: false
-  triggers: ['w2si,']
+  trigger: w2si,
 - replace: 'write test '
-  _tags: [w-r, w-r-+-<1>]
+  _tags:
+  - w-r
+  - w-r-+-<1>
   propagate_case: true
   allow_duplicate: false
-  triggers: ['w2te,']
+  trigger: w2te,
 - replace: 'write commit '
-  _tags: [w-r, w-r-+-<1>]
+  _tags:
+  - w-r
+  - w-r-+-<1>
   propagate_case: true
   allow_duplicate: false
-  triggers: ['w2qmi,']
+  trigger: w2qmi,
 - replace: 'write document '
-  _tags: [w-r, w-r-+-<1>]
+  _tags:
+  - w-r
+  - w-r-+-<1>
   propagate_case: true
   allow_duplicate: false
-  triggers: ['w2doq,']
+  trigger: w2doq,
 - replace: 'write remote '
-  _tags: [w-r, w-r-+-<1>]
+  _tags:
+  - w-r
+  - w-r-+-<1>
   propagate_case: true
   allow_duplicate: false
-  triggers: ['w2moe,']
+  trigger: w2moe,
 - replace: 'write local '
-  _tags: [w-r, w-r-+-<1>]
+  _tags:
+  - w-r
+  - w-r-+-<1>
   propagate_case: true
   allow_duplicate: false
-  triggers: ['w2lol,']
+  trigger: w2lol,
 - replace: 'write file '
-  _tags: [w-r, w-r-+-<1>]
+  _tags:
+  - w-r
+  - w-r-+-<1>
   propagate_case: true
   allow_duplicate: false
-  triggers: ['w2fl,']
+  trigger: w2fl,
 - replace: 'write files '
-  _tags: [w-r, w-r-+-<1>]
+  _tags:
+  - w-r
+  - w-r-+-<1>
   propagate_case: true
   allow_duplicate: false
-  triggers: ['w2fls,']
+  trigger: w2fls,
 - replace: 'write directory '
-  _tags: [w-r, w-r-+-<1>]
+  _tags:
+  - w-r
+  - w-r-+-<1>
   propagate_case: true
   allow_duplicate: false
-  triggers: ['w2diw,']
+  trigger: w2diw,
 - replace: 'write directories '
-  _tags: [w-r, w-r-+-<1>]
+  _tags:
+  - w-r
+  - w-r-+-<1>
   propagate_case: true
   allow_duplicate: false
-  triggers: ['w2diws,']
+  trigger: w2diws,
 - replace: 'write pull request '
-  _tags: [w-r, w-r-+-<1>]
+  _tags:
+  - w-r
+  - w-r-+-<1>
   propagate_case: true
   allow_duplicate: false
-  triggers: ['w2pw,']
+  trigger: w2pw,
 - replace: 'write if '
-  _tags: [w-r, w-r-+-<1>]
+  _tags:
+  - w-r
+  - w-r-+-<1>
   propagate_case: true
   allow_duplicate: false
-  triggers: ['w2f,']
+  trigger: w2f,
 - replace: 'write some '
-  _tags: [w-r, w-r-+-<1>]
+  _tags:
+  - w-r
+  - w-r-+-<1>
   propagate_case: true
   allow_duplicate: false
-  triggers: ['w2sm,']
+  trigger: w2sm,
 - replace: 'write more '
-  _tags: [w-r, w-r-+-<1>]
+  _tags:
+  - w-r
+  - w-r-+-<1>
   propagate_case: true
   allow_duplicate: false
-  triggers: ['w2ow,']
+  trigger: w2ow,
 - replace: 'write some more '
-  _tags: [w-r, w-r-+-<1>]
+  _tags:
+  - w-r
+  - w-r-+-<1>
   propagate_case: true
   allow_duplicate: false
-  triggers: ['w2smow,']
+  trigger: w2smow,
 - replace: 'write detail '
-  _tags: [w-r, w-r-+-<1>]
+  _tags:
+  - w-r
+  - w-r-+-<1>
   propagate_case: true
   allow_duplicate: false
-  triggers: ['w2de,']
+  trigger: w2de,
 - replace: 'write clear '
-  _tags: [w-r, w-r-+-<1>]
+  _tags:
+  - w-r
+  - w-r-+-<1>
   propagate_case: true
   allow_duplicate: false
-  triggers: ['w2qlw,']
+  trigger: w2qlw,
 - replace: 'write summary '
-  _tags: [w-r, w-r-+-<1>]
+  _tags:
+  - w-r
+  - w-r-+-<1>
   propagate_case: true
   allow_duplicate: false
-  triggers: ['w2su,']
+  trigger: w2su,
 - replace: 'write TODO '
-  _tags: [w-r, w-r-+-<1>]
+  _tags:
+  - w-r
+  - w-r-+-<1>
   propagate_case: true
   allow_duplicate: false
-  triggers: ['w2oo,']
+  trigger: w2oo,
 - replace: 'write WS_TODO '
-  _tags: [w-r, w-r-+-<1>]
+  _tags:
+  - w-r
+  - w-r-+-<1>
   propagate_case: true
   allow_duplicate: false
-  triggers: ['w2woo,']
+  trigger: w2woo,
 - replace: 'write git '
-  _tags: [w-r, w-r-+-<1>]
+  _tags:
+  - w-r
+  - w-r-+-<1>
   propagate_case: true
   allow_duplicate: false
-  triggers: ['w2it,']
+  trigger: w2it,
 - replace: 'write web '
-  _tags: [w-r, w-r-+-<1>]
+  _tags:
+  - w-r
+  - w-r-+-<1>
   propagate_case: true
   allow_duplicate: false
-  triggers: ['w2eb,']
+  trigger: w2eb,
 - replace: 'read to '
-  _tags: [w-r, w-r-+-<2>]
+  _tags:
+  - w-r
+  - w-r-+-<2>
   propagate_case: true
   allow_duplicate: false
-  triggers: ['w1o,']
+  trigger: w1o,
 - replace: 'read from '
-  _tags: [w-r, w-r-+-<2>]
+  _tags:
+  - w-r
+  - w-r-+-<2>
   propagate_case: true
   allow_duplicate: false
-  triggers: ['w1fw,']
+  trigger: w1fw,
 - replace: 'read the '
-  _tags: [w-r, w-r-+-<2>]
+  _tags:
+  - w-r
+  - w-r-+-<2>
   propagate_case: true
   allow_duplicate: false
-  triggers: ['w1h,']
+  trigger: w1h,
 - replace: 'read it '
-  _tags: [w-r, w-r-+-<2>]
+  _tags:
+  - w-r
+  - w-r-+-<2>
   propagate_case: true
   allow_duplicate: false
-  triggers: ['w1x,']
+  trigger: w1x,
 - replace: 'write to '
-  _tags: [w-r, w-r-+-<2>]
+  _tags:
+  - w-r
+  - w-r-+-<2>
   propagate_case: true
   allow_duplicate: false
-  triggers: ['w2o,']
+  trigger: w2o,
 - replace: 'write from '
-  _tags: [w-r, w-r-+-<2>]
+  _tags:
+  - w-r
+  - w-r-+-<2>
   propagate_case: true
   allow_duplicate: false
-  triggers: ['w2fw,']
+  trigger: w2fw,
 - replace: 'write the '
-  _tags: [w-r, w-r-+-<2>]
+  _tags:
+  - w-r
+  - w-r-+-<2>
   propagate_case: true
   allow_duplicate: false
-  triggers: ['w2h,']
+  trigger: w2h,
 - replace: 'write it '
-  _tags: [w-r, w-r-+-<2>]
+  _tags:
+  - w-r
+  - w-r-+-<2>
   propagate_case: true
   allow_duplicate: false
-  triggers: ['w2x,']
+  trigger: w2x,
 - replace: 'read this '
-  _tags: [w-r, w-r-+-<th->]
+  _tags:
+  - w-r
+  - w-r-+-<th->
   propagate_case: true
   allow_duplicate: false
-  triggers: ['w1iz,']
+  trigger: w1iz,
 - replace: 'read that '
-  _tags: [w-r, w-r-+-<th->]
+  _tags:
+  - w-r
+  - w-r-+-<th->
   propagate_case: true
   allow_duplicate: false
-  triggers: ['w1az,']
+  trigger: w1az,
 - replace: 'read these '
-  _tags: [w-r, w-r-+-<th->]
+  _tags:
+  - w-r
+  - w-r-+-<th->
   propagate_case: true
   allow_duplicate: false
-  triggers: ['w1ez,']
+  trigger: w1ez,
 - replace: 'read those '
-  _tags: [w-r, w-r-+-<th->]
+  _tags:
+  - w-r
+  - w-r-+-<th->
   propagate_case: true
   allow_duplicate: false
-  triggers: ['w1oz,']
+  trigger: w1oz,
 - replace: 'read their '
-  _tags: [w-r, w-r-+-<th->]
+  _tags:
+  - w-r
+  - w-r-+-<th->
   propagate_case: true
   allow_duplicate: false
-  triggers: ['w1wz,']
+  trigger: w1wz,
 - replace: 'read the '
-  _tags: [w-r, w-r-+-<th->]
+  _tags:
+  - w-r
+  - w-r-+-<th->
   propagate_case: true
   allow_duplicate: false
-  triggers: ['w1he,']
+  trigger: w1he,
 - replace: 'write this '
-  _tags: [w-r, w-r-+-<th->]
+  _tags:
+  - w-r
+  - w-r-+-<th->
   propagate_case: true
   allow_duplicate: false
-  triggers: ['w2iz,']
+  trigger: w2iz,
 - replace: 'write that '
-  _tags: [w-r, w-r-+-<th->]
+  _tags:
+  - w-r
+  - w-r-+-<th->
   propagate_case: true
   allow_duplicate: false
-  triggers: ['w2az,']
+  trigger: w2az,
 - replace: 'write these '
-  _tags: [w-r, w-r-+-<th->]
+  _tags:
+  - w-r
+  - w-r-+-<th->
   propagate_case: true
   allow_duplicate: false
-  triggers: ['w2ez,']
+  trigger: w2ez,
 - replace: 'write those '
-  _tags: [w-r, w-r-+-<th->]
+  _tags:
+  - w-r
+  - w-r-+-<th->
   propagate_case: true
   allow_duplicate: false
-  triggers: ['w2oz,']
+  trigger: w2oz,
 - replace: 'write their '
-  _tags: [w-r, w-r-+-<th->]
+  _tags:
+  - w-r
+  - w-r-+-<th->
   propagate_case: true
   allow_duplicate: false
-  triggers: ['w2wz,']
+  trigger: w2wz,
 - replace: 'write the '
-  _tags: [w-r, w-r-+-<th->]
+  _tags:
+  - w-r
+  - w-r-+-<th->
   propagate_case: true
   allow_duplicate: false
-  triggers: ['w2he,']
+  trigger: w2he,
 - replace: 'read instruction to '
-  _tags: [w-r, w-r-+-<1>-+-<2>]
+  _tags:
+  - w-r
+  - w-r-+-<1>-+-<2>
   propagate_case: true
   allow_duplicate: false
-  triggers: ['w1ino,']
+  trigger: w1ino,
 - replace: 'read instruction from '
-  _tags: [w-r, w-r-+-<1>-+-<2>]
+  _tags:
+  - w-r
+  - w-r-+-<1>-+-<2>
   propagate_case: true
   allow_duplicate: false
-  triggers: ['w1infw,']
+  trigger: w1infw,
 - replace: 'read instruction the '
-  _tags: [w-r, w-r-+-<1>-+-<2>]
+  _tags:
+  - w-r
+  - w-r-+-<1>-+-<2>
   propagate_case: true
   allow_duplicate: false
-  triggers: ['w1inh,']
+  trigger: w1inh,
 - replace: 'read instruction it '
-  _tags: [w-r, w-r-+-<1>-+-<2>]
+  _tags:
+  - w-r
+  - w-r-+-<1>-+-<2>
   propagate_case: true
   allow_duplicate: false
-  triggers: ['w1inx,']
+  trigger: w1inx,
 - replace: 'read code to '
-  _tags: [w-r, w-r-+-<1>-+-<2>]
+  _tags:
+  - w-r
+  - w-r-+-<1>-+-<2>
   propagate_case: true
   allow_duplicate: false
-  triggers: ['w1qoo,']
+  trigger: w1qoo,
 - replace: 'read code from '
-  _tags: [w-r, w-r-+-<1>-+-<2>]
+  _tags:
+  - w-r
+  - w-r-+-<1>-+-<2>
   propagate_case: true
   allow_duplicate: false
-  triggers: ['w1qofw,']
+  trigger: w1qofw,
 - replace: 'read code the '
-  _tags: [w-r, w-r-+-<1>-+-<2>]
+  _tags:
+  - w-r
+  - w-r-+-<1>-+-<2>
   propagate_case: true
   allow_duplicate: false
-  triggers: ['w1qoh,']
+  trigger: w1qoh,
 - replace: 'read code it '
-  _tags: [w-r, w-r-+-<1>-+-<2>]
+  _tags:
+  - w-r
+  - w-r-+-<1>-+-<2>
   propagate_case: true
   allow_duplicate: false
-  triggers: ['w1qox,']
+  trigger: w1qox,
 - replace: 'read script to '
-  _tags: [w-r, w-r-+-<1>-+-<2>]
+  _tags:
+  - w-r
+  - w-r-+-<1>-+-<2>
   propagate_case: true
   allow_duplicate: false
-  triggers: ['w1sio,']
+  trigger: w1sio,
 - replace: 'read script from '
-  _tags: [w-r, w-r-+-<1>-+-<2>]
+  _tags:
+  - w-r
+  - w-r-+-<1>-+-<2>
   propagate_case: true
   allow_duplicate: false
-  triggers: ['w1sifw,']
+  trigger: w1sifw,
 - replace: 'read script the '
-  _tags: [w-r, w-r-+-<1>-+-<2>]
+  _tags:
+  - w-r
+  - w-r-+-<1>-+-<2>
   propagate_case: true
   allow_duplicate: false
-  triggers: ['w1sih,']
+  trigger: w1sih,
 - replace: 'read script it '
-  _tags: [w-r, w-r-+-<1>-+-<2>]
+  _tags:
+  - w-r
+  - w-r-+-<1>-+-<2>
   propagate_case: true
   allow_duplicate: false
-  triggers: ['w1six,']
+  trigger: w1six,
 - replace: 'read test to '
-  _tags: [w-r, w-r-+-<1>-+-<2>]
+  _tags:
+  - w-r
+  - w-r-+-<1>-+-<2>
   propagate_case: true
   allow_duplicate: false
-  triggers: ['w1teo,']
+  trigger: w1teo,
 - replace: 'read test from '
-  _tags: [w-r, w-r-+-<1>-+-<2>]
+  _tags:
+  - w-r
+  - w-r-+-<1>-+-<2>
   propagate_case: true
   allow_duplicate: false
-  triggers: ['w1tefw,']
+  trigger: w1tefw,
 - replace: 'read test the '
-  _tags: [w-r, w-r-+-<1>-+-<2>]
+  _tags:
+  - w-r
+  - w-r-+-<1>-+-<2>
   propagate_case: true
   allow_duplicate: false
-  triggers: ['w1teh,']
+  trigger: w1teh,
 - replace: 'read test it '
-  _tags: [w-r, w-r-+-<1>-+-<2>]
+  _tags:
+  - w-r
+  - w-r-+-<1>-+-<2>
   propagate_case: true
   allow_duplicate: false
-  triggers: ['w1tex,']
+  trigger: w1tex,
 - replace: 'read commit to '
-  _tags: [w-r, w-r-+-<1>-+-<2>]
+  _tags:
+  - w-r
+  - w-r-+-<1>-+-<2>
   propagate_case: true
   allow_duplicate: false
-  triggers: ['w1qmio,']
+  trigger: w1qmio,
 - replace: 'read commit from '
-  _tags: [w-r, w-r-+-<1>-+-<2>]
+  _tags:
+  - w-r
+  - w-r-+-<1>-+-<2>
   propagate_case: true
   allow_duplicate: false
-  triggers: ['w1qmifw,']
+  trigger: w1qmifw,
 - replace: 'read commit the '
-  _tags: [w-r, w-r-+-<1>-+-<2>]
+  _tags:
+  - w-r
+  - w-r-+-<1>-+-<2>
   propagate_case: true
   allow_duplicate: false
-  triggers: ['w1qmih,']
+  trigger: w1qmih,
 - replace: 'read commit it '
-  _tags: [w-r, w-r-+-<1>-+-<2>]
+  _tags:
+  - w-r
+  - w-r-+-<1>-+-<2>
   propagate_case: true
   allow_duplicate: false
-  triggers: ['w1qmix,']
+  trigger: w1qmix,
 - replace: 'read document to '
-  _tags: [w-r, w-r-+-<1>-+-<2>]
+  _tags:
+  - w-r
+  - w-r-+-<1>-+-<2>
   propagate_case: true
   allow_duplicate: false
-  triggers: ['w1doqo,']
+  trigger: w1doqo,
 - replace: 'read document from '
-  _tags: [w-r, w-r-+-<1>-+-<2>]
+  _tags:
+  - w-r
+  - w-r-+-<1>-+-<2>
   propagate_case: true
   allow_duplicate: false
-  triggers: ['w1doqfw,']
+  trigger: w1doqfw,
 - replace: 'read document the '
-  _tags: [w-r, w-r-+-<1>-+-<2>]
+  _tags:
+  - w-r
+  - w-r-+-<1>-+-<2>
   propagate_case: true
   allow_duplicate: false
-  triggers: ['w1doqh,']
+  trigger: w1doqh,
 - replace: 'read document it '
-  _tags: [w-r, w-r-+-<1>-+-<2>]
+  _tags:
+  - w-r
+  - w-r-+-<1>-+-<2>
   propagate_case: true
   allow_duplicate: false
-  triggers: ['w1doqx,']
+  trigger: w1doqx,
 - replace: 'read remote to '
-  _tags: [w-r, w-r-+-<1>-+-<2>]
+  _tags:
+  - w-r
+  - w-r-+-<1>-+-<2>
   propagate_case: true
   allow_duplicate: false
-  triggers: ['w1moeo,']
+  trigger: w1moeo,
 - replace: 'read remote from '
-  _tags: [w-r, w-r-+-<1>-+-<2>]
+  _tags:
+  - w-r
+  - w-r-+-<1>-+-<2>
   propagate_case: true
   allow_duplicate: false
-  triggers: ['w1moefw,']
+  trigger: w1moefw,
 - replace: 'read remote the '
-  _tags: [w-r, w-r-+-<1>-+-<2>]
+  _tags:
+  - w-r
+  - w-r-+-<1>-+-<2>
   propagate_case: true
   allow_duplicate: false
-  triggers: ['w1moeh,']
+  trigger: w1moeh,
 - replace: 'read remote it '
-  _tags: [w-r, w-r-+-<1>-+-<2>]
+  _tags:
+  - w-r
+  - w-r-+-<1>-+-<2>
   propagate_case: true
   allow_duplicate: false
-  triggers: ['w1moex,']
+  trigger: w1moex,
 - replace: 'read local to '
-  _tags: [w-r, w-r-+-<1>-+-<2>]
+  _tags:
+  - w-r
+  - w-r-+-<1>-+-<2>
   propagate_case: true
   allow_duplicate: false
-  triggers: ['w1lolo,']
+  trigger: w1lolo,
 - replace: 'read local from '
-  _tags: [w-r, w-r-+-<1>-+-<2>]
+  _tags:
+  - w-r
+  - w-r-+-<1>-+-<2>
   propagate_case: true
   allow_duplicate: false
-  triggers: ['w1lolfw,']
+  trigger: w1lolfw,
 - replace: 'read local the '
-  _tags: [w-r, w-r-+-<1>-+-<2>]
+  _tags:
+  - w-r
+  - w-r-+-<1>-+-<2>
   propagate_case: true
   allow_duplicate: false
-  triggers: ['w1lolh,']
+  trigger: w1lolh,
 - replace: 'read local it '
-  _tags: [w-r, w-r-+-<1>-+-<2>]
+  _tags:
+  - w-r
+  - w-r-+-<1>-+-<2>
   propagate_case: true
   allow_duplicate: false
-  triggers: ['w1lolx,']
+  trigger: w1lolx,
 - replace: 'read file to '
-  _tags: [w-r, w-r-+-<1>-+-<2>]
+  _tags:
+  - w-r
+  - w-r-+-<1>-+-<2>
   propagate_case: true
   allow_duplicate: false
-  triggers: ['w1flo,']
+  trigger: w1flo,
 - replace: 'read file from '
-  _tags: [w-r, w-r-+-<1>-+-<2>]
+  _tags:
+  - w-r
+  - w-r-+-<1>-+-<2>
   propagate_case: true
   allow_duplicate: false
-  triggers: ['w1flfw,']
+  trigger: w1flfw,
 - replace: 'read file the '
-  _tags: [w-r, w-r-+-<1>-+-<2>]
+  _tags:
+  - w-r
+  - w-r-+-<1>-+-<2>
   propagate_case: true
   allow_duplicate: false
-  triggers: ['w1flh,']
+  trigger: w1flh,
 - replace: 'read file it '
-  _tags: [w-r, w-r-+-<1>-+-<2>]
+  _tags:
+  - w-r
+  - w-r-+-<1>-+-<2>
   propagate_case: true
   allow_duplicate: false
-  triggers: ['w1flx,']
+  trigger: w1flx,
 - replace: 'read files to '
-  _tags: [w-r, w-r-+-<1>-+-<2>]
+  _tags:
+  - w-r
+  - w-r-+-<1>-+-<2>
   propagate_case: true
   allow_duplicate: false
-  triggers: ['w1flso,']
+  trigger: w1flso,
 - replace: 'read files from '
-  _tags: [w-r, w-r-+-<1>-+-<2>]
+  _tags:
+  - w-r
+  - w-r-+-<1>-+-<2>
   propagate_case: true
   allow_duplicate: false
-  triggers: ['w1flsfw,']
+  trigger: w1flsfw,
 - replace: 'read files the '
-  _tags: [w-r, w-r-+-<1>-+-<2>]
+  _tags:
+  - w-r
+  - w-r-+-<1>-+-<2>
   propagate_case: true
   allow_duplicate: false
-  triggers: ['w1flsh,']
+  trigger: w1flsh,
 - replace: 'read files it '
-  _tags: [w-r, w-r-+-<1>-+-<2>]
+  _tags:
+  - w-r
+  - w-r-+-<1>-+-<2>
   propagate_case: true
   allow_duplicate: false
-  triggers: ['w1flsx,']
+  trigger: w1flsx,
 - replace: 'read directory to '
-  _tags: [w-r, w-r-+-<1>-+-<2>]
+  _tags:
+  - w-r
+  - w-r-+-<1>-+-<2>
   propagate_case: true
   allow_duplicate: false
-  triggers: ['w1diwo,']
+  trigger: w1diwo,
 - replace: 'read directory from '
-  _tags: [w-r, w-r-+-<1>-+-<2>]
+  _tags:
+  - w-r
+  - w-r-+-<1>-+-<2>
   propagate_case: true
   allow_duplicate: false
-  triggers: ['w1diwfw,']
+  trigger: w1diwfw,
 - replace: 'read directory the '
-  _tags: [w-r, w-r-+-<1>-+-<2>]
+  _tags:
+  - w-r
+  - w-r-+-<1>-+-<2>
   propagate_case: true
   allow_duplicate: false
-  triggers: ['w1diwh,']
+  trigger: w1diwh,
 - replace: 'read directory it '
-  _tags: [w-r, w-r-+-<1>-+-<2>]
+  _tags:
+  - w-r
+  - w-r-+-<1>-+-<2>
   propagate_case: true
   allow_duplicate: false
-  triggers: ['w1diwx,']
+  trigger: w1diwx,
 - replace: 'read directories to '
-  _tags: [w-r, w-r-+-<1>-+-<2>]
+  _tags:
+  - w-r
+  - w-r-+-<1>-+-<2>
   propagate_case: true
   allow_duplicate: false
-  triggers: ['w1diwso,']
+  trigger: w1diwso,
 - replace: 'read directories from '
-  _tags: [w-r, w-r-+-<1>-+-<2>]
+  _tags:
+  - w-r
+  - w-r-+-<1>-+-<2>
   propagate_case: true
   allow_duplicate: false
-  triggers: ['w1diwsfw,']
+  trigger: w1diwsfw,
 - replace: 'read directories the '
-  _tags: [w-r, w-r-+-<1>-+-<2>]
+  _tags:
+  - w-r
+  - w-r-+-<1>-+-<2>
   propagate_case: true
   allow_duplicate: false
-  triggers: ['w1diwsh,']
+  trigger: w1diwsh,
 - replace: 'read directories it '
-  _tags: [w-r, w-r-+-<1>-+-<2>]
+  _tags:
+  - w-r
+  - w-r-+-<1>-+-<2>
   propagate_case: true
   allow_duplicate: false
-  triggers: ['w1diwsx,']
+  trigger: w1diwsx,
 - replace: 'read pull request to '
-  _tags: [w-r, w-r-+-<1>-+-<2>]
+  _tags:
+  - w-r
+  - w-r-+-<1>-+-<2>
   propagate_case: true
   allow_duplicate: false
-  triggers: ['w1pw2,']
+  trigger: w1pw2,
 - replace: 'read pull request from '
-  _tags: [w-r, w-r-+-<1>-+-<2>]
+  _tags:
+  - w-r
+  - w-r-+-<1>-+-<2>
   propagate_case: true
   allow_duplicate: false
-  triggers: ['w1pwfw,']
+  trigger: w1pwfw,
 - replace: 'read pull request the '
-  _tags: [w-r, w-r-+-<1>-+-<2>]
+  _tags:
+  - w-r
+  - w-r-+-<1>-+-<2>
   propagate_case: true
   allow_duplicate: false
-  triggers: ['w1pwh,']
+  trigger: w1pwh,
 - replace: 'read pull request it '
-  _tags: [w-r, w-r-+-<1>-+-<2>]
+  _tags:
+  - w-r
+  - w-r-+-<1>-+-<2>
   propagate_case: true
   allow_duplicate: false
-  triggers: ['w1pwx,']
+  trigger: w1pwx,
 - replace: 'read if to '
-  _tags: [w-r, w-r-+-<1>-+-<2>]
+  _tags:
+  - w-r
+  - w-r-+-<1>-+-<2>
   propagate_case: true
   allow_duplicate: false
-  triggers: ['w1fo,']
+  trigger: w1fo,
 - replace: 'read if from '
-  _tags: [w-r, w-r-+-<1>-+-<2>]
+  _tags:
+  - w-r
+  - w-r-+-<1>-+-<2>
   propagate_case: true
   allow_duplicate: false
-  triggers: ['w1ffw,']
+  trigger: w1ffw,
 - replace: 'read if the '
-  _tags: [w-r, w-r-+-<1>-+-<2>]
+  _tags:
+  - w-r
+  - w-r-+-<1>-+-<2>
   propagate_case: true
   allow_duplicate: false
-  triggers: ['w1fh,']
+  trigger: w1fh,
 - replace: 'read if it '
-  _tags: [w-r, w-r-+-<1>-+-<2>]
+  _tags:
+  - w-r
+  - w-r-+-<1>-+-<2>
   propagate_case: true
   allow_duplicate: false
-  triggers: ['w1fx,']
+  trigger: w1fx,
 - replace: 'read some to '
-  _tags: [w-r, w-r-+-<1>-+-<2>]
+  _tags:
+  - w-r
+  - w-r-+-<1>-+-<2>
   propagate_case: true
   allow_duplicate: false
-  triggers: ['w1smo,']
+  trigger: w1smo,
 - replace: 'read some from '
-  _tags: [w-r, w-r-+-<1>-+-<2>]
+  _tags:
+  - w-r
+  - w-r-+-<1>-+-<2>
   propagate_case: true
   allow_duplicate: false
-  triggers: ['w1smfw,']
+  trigger: w1smfw,
 - replace: 'read some the '
-  _tags: [w-r, w-r-+-<1>-+-<2>]
+  _tags:
+  - w-r
+  - w-r-+-<1>-+-<2>
   propagate_case: true
   allow_duplicate: false
-  triggers: ['w1smh,']
+  trigger: w1smh,
 - replace: 'read some it '
-  _tags: [w-r, w-r-+-<1>-+-<2>]
+  _tags:
+  - w-r
+  - w-r-+-<1>-+-<2>
   propagate_case: true
   allow_duplicate: false
-  triggers: ['w1smx,']
+  trigger: w1smx,
 - replace: 'read more to '
-  _tags: [w-r, w-r-+-<1>-+-<2>]
+  _tags:
+  - w-r
+  - w-r-+-<1>-+-<2>
   propagate_case: true
   allow_duplicate: false
-  triggers: ['w1owo,']
+  trigger: w1owo,
 - replace: 'read more from '
-  _tags: [w-r, w-r-+-<1>-+-<2>]
+  _tags:
+  - w-r
+  - w-r-+-<1>-+-<2>
   propagate_case: true
   allow_duplicate: false
-  triggers: ['w1owfw,']
+  trigger: w1owfw,
 - replace: 'read more the '
-  _tags: [w-r, w-r-+-<1>-+-<2>]
+  _tags:
+  - w-r
+  - w-r-+-<1>-+-<2>
   propagate_case: true
   allow_duplicate: false
-  triggers: ['w1owh,']
+  trigger: w1owh,
 - replace: 'read more it '
-  _tags: [w-r, w-r-+-<1>-+-<2>]
+  _tags:
+  - w-r
+  - w-r-+-<1>-+-<2>
   propagate_case: true
   allow_duplicate: false
-  triggers: ['w1owx,']
+  trigger: w1owx,
 - replace: 'read some more to '
-  _tags: [w-r, w-r-+-<1>-+-<2>]
+  _tags:
+  - w-r
+  - w-r-+-<1>-+-<2>
   propagate_case: true
   allow_duplicate: false
-  triggers: ['w1smowo,']
+  trigger: w1smowo,
 - replace: 'read some more from '
-  _tags: [w-r, w-r-+-<1>-+-<2>]
+  _tags:
+  - w-r
+  - w-r-+-<1>-+-<2>
   propagate_case: true
   allow_duplicate: false
-  triggers: ['w1smowfw,']
+  trigger: w1smowfw,
 - replace: 'read some more the '
-  _tags: [w-r, w-r-+-<1>-+-<2>]
+  _tags:
+  - w-r
+  - w-r-+-<1>-+-<2>
   propagate_case: true
   allow_duplicate: false
-  triggers: ['w1smowh,']
+  trigger: w1smowh,
 - replace: 'read some more it '
-  _tags: [w-r, w-r-+-<1>-+-<2>]
+  _tags:
+  - w-r
+  - w-r-+-<1>-+-<2>
   propagate_case: true
   allow_duplicate: false
-  triggers: ['w1smowx,']
+  trigger: w1smowx,
 - replace: 'read detail to '
-  _tags: [w-r, w-r-+-<1>-+-<2>]
+  _tags:
+  - w-r
+  - w-r-+-<1>-+-<2>
   propagate_case: true
   allow_duplicate: false
-  triggers: ['w1deo,']
+  trigger: w1deo,
 - replace: 'read detail from '
-  _tags: [w-r, w-r-+-<1>-+-<2>]
+  _tags:
+  - w-r
+  - w-r-+-<1>-+-<2>
   propagate_case: true
   allow_duplicate: false
-  triggers: ['w1defw,']
+  trigger: w1defw,
 - replace: 'read detail the '
-  _tags: [w-r, w-r-+-<1>-+-<2>]
+  _tags:
+  - w-r
+  - w-r-+-<1>-+-<2>
   propagate_case: true
   allow_duplicate: false
-  triggers: ['w1deh,']
+  trigger: w1deh,
 - replace: 'read detail it '
-  _tags: [w-r, w-r-+-<1>-+-<2>]
+  _tags:
+  - w-r
+  - w-r-+-<1>-+-<2>
   propagate_case: true
   allow_duplicate: false
-  triggers: ['w1dex,']
+  trigger: w1dex,
 - replace: 'read clear to '
-  _tags: [w-r, w-r-+-<1>-+-<2>]
+  _tags:
+  - w-r
+  - w-r-+-<1>-+-<2>
   propagate_case: true
   allow_duplicate: false
-  triggers: ['w1qlwo,']
+  trigger: w1qlwo,
 - replace: 'read clear from '
-  _tags: [w-r, w-r-+-<1>-+-<2>]
+  _tags:
+  - w-r
+  - w-r-+-<1>-+-<2>
   propagate_case: true
   allow_duplicate: false
-  triggers: ['w1qlwfw,']
+  trigger: w1qlwfw,
 - replace: 'read clear the '
-  _tags: [w-r, w-r-+-<1>-+-<2>]
+  _tags:
+  - w-r
+  - w-r-+-<1>-+-<2>
   propagate_case: true
   allow_duplicate: false
-  triggers: ['w1qlwh,']
+  trigger: w1qlwh,
 - replace: 'read clear it '
-  _tags: [w-r, w-r-+-<1>-+-<2>]
+  _tags:
+  - w-r
+  - w-r-+-<1>-+-<2>
   propagate_case: true
   allow_duplicate: false
-  triggers: ['w1qlwx,']
+  trigger: w1qlwx,
 - replace: 'read summary to '
-  _tags: [w-r, w-r-+-<1>-+-<2>]
+  _tags:
+  - w-r
+  - w-r-+-<1>-+-<2>
   propagate_case: true
   allow_duplicate: false
-  triggers: ['w1suo,']
+  trigger: w1suo,
 - replace: 'read summary from '
-  _tags: [w-r, w-r-+-<1>-+-<2>]
+  _tags:
+  - w-r
+  - w-r-+-<1>-+-<2>
   propagate_case: true
   allow_duplicate: false
-  triggers: ['w1sufw,']
+  trigger: w1sufw,
 - replace: 'read summary the '
-  _tags: [w-r, w-r-+-<1>-+-<2>]
+  _tags:
+  - w-r
+  - w-r-+-<1>-+-<2>
   propagate_case: true
   allow_duplicate: false
-  triggers: ['w1suh,']
+  trigger: w1suh,
 - replace: 'read summary it '
-  _tags: [w-r, w-r-+-<1>-+-<2>]
+  _tags:
+  - w-r
+  - w-r-+-<1>-+-<2>
   propagate_case: true
   allow_duplicate: false
-  triggers: ['w1sux,']
+  trigger: w1sux,
 - replace: 'read TODO to '
-  _tags: [w-r, w-r-+-<1>-+-<2>]
+  _tags:
+  - w-r
+  - w-r-+-<1>-+-<2>
   propagate_case: true
   allow_duplicate: false
-  triggers: ['w1ooo,']
+  trigger: w1ooo,
 - replace: 'read TODO from '
-  _tags: [w-r, w-r-+-<1>-+-<2>]
+  _tags:
+  - w-r
+  - w-r-+-<1>-+-<2>
   propagate_case: true
   allow_duplicate: false
-  triggers: ['w1oofw,']
+  trigger: w1oofw,
 - replace: 'read TODO the '
-  _tags: [w-r, w-r-+-<1>-+-<2>]
+  _tags:
+  - w-r
+  - w-r-+-<1>-+-<2>
   propagate_case: true
   allow_duplicate: false
-  triggers: ['w1ooh,']
+  trigger: w1ooh,
 - replace: 'read TODO it '
-  _tags: [w-r, w-r-+-<1>-+-<2>]
+  _tags:
+  - w-r
+  - w-r-+-<1>-+-<2>
   propagate_case: true
   allow_duplicate: false
-  triggers: ['w1oox,']
+  trigger: w1oox,
 - replace: 'read WS_TODO to '
-  _tags: [w-r, w-r-+-<1>-+-<2>]
+  _tags:
+  - w-r
+  - w-r-+-<1>-+-<2>
   propagate_case: true
   allow_duplicate: false
-  triggers: ['w1wooo,']
+  trigger: w1wooo,
 - replace: 'read WS_TODO from '
-  _tags: [w-r, w-r-+-<1>-+-<2>]
+  _tags:
+  - w-r
+  - w-r-+-<1>-+-<2>
   propagate_case: true
   allow_duplicate: false
-  triggers: ['w1woofw,']
+  trigger: w1woofw,
 - replace: 'read WS_TODO the '
-  _tags: [w-r, w-r-+-<1>-+-<2>]
+  _tags:
+  - w-r
+  - w-r-+-<1>-+-<2>
   propagate_case: true
   allow_duplicate: false
-  triggers: ['w1wooh,']
+  trigger: w1wooh,
 - replace: 'read WS_TODO it '
-  _tags: [w-r, w-r-+-<1>-+-<2>]
+  _tags:
+  - w-r
+  - w-r-+-<1>-+-<2>
   propagate_case: true
   allow_duplicate: false
-  triggers: ['w1woox,']
+  trigger: w1woox,
 - replace: 'read git to '
-  _tags: [w-r, w-r-+-<1>-+-<2>]
+  _tags:
+  - w-r
+  - w-r-+-<1>-+-<2>
   propagate_case: true
   allow_duplicate: false
-  triggers: ['w1ito,']
+  trigger: w1ito,
 - replace: 'read git from '
-  _tags: [w-r, w-r-+-<1>-+-<2>]
+  _tags:
+  - w-r
+  - w-r-+-<1>-+-<2>
   propagate_case: true
   allow_duplicate: false
-  triggers: ['w1itfw,']
+  trigger: w1itfw,
 - replace: 'read git the '
-  _tags: [w-r, w-r-+-<1>-+-<2>]
+  _tags:
+  - w-r
+  - w-r-+-<1>-+-<2>
   propagate_case: true
   allow_duplicate: false
-  triggers: ['w1ith,']
+  trigger: w1ith,
 - replace: 'read git it '
-  _tags: [w-r, w-r-+-<1>-+-<2>]
+  _tags:
+  - w-r
+  - w-r-+-<1>-+-<2>
   propagate_case: true
   allow_duplicate: false
-  triggers: ['w1itx,']
+  trigger: w1itx,
 - replace: 'read web to '
-  _tags: [w-r, w-r-+-<1>-+-<2>]
+  _tags:
+  - w-r
+  - w-r-+-<1>-+-<2>
   propagate_case: true
   allow_duplicate: false
-  triggers: ['w1ebo,']
+  trigger: w1ebo,
 - replace: 'read web from '
-  _tags: [w-r, w-r-+-<1>-+-<2>]
+  _tags:
+  - w-r
+  - w-r-+-<1>-+-<2>
   propagate_case: true
   allow_duplicate: false
-  triggers: ['w1ebfw,']
+  trigger: w1ebfw,
 - replace: 'read web the '
-  _tags: [w-r, w-r-+-<1>-+-<2>]
+  _tags:
+  - w-r
+  - w-r-+-<1>-+-<2>
   propagate_case: true
   allow_duplicate: false
-  triggers: ['w1ebh,']
+  trigger: w1ebh,
 - replace: 'read web it '
-  _tags: [w-r, w-r-+-<1>-+-<2>]
+  _tags:
+  - w-r
+  - w-r-+-<1>-+-<2>
   propagate_case: true
   allow_duplicate: false
-  triggers: ['w1ebx,']
+  trigger: w1ebx,
 - replace: 'write instruction to '
-  _tags: [w-r, w-r-+-<1>-+-<2>]
+  _tags:
+  - w-r
+  - w-r-+-<1>-+-<2>
   propagate_case: true
   allow_duplicate: false
-  triggers: ['w2ino,']
+  trigger: w2ino,
 - replace: 'write instruction from '
-  _tags: [w-r, w-r-+-<1>-+-<2>]
+  _tags:
+  - w-r
+  - w-r-+-<1>-+-<2>
   propagate_case: true
   allow_duplicate: false
-  triggers: ['w2infw,']
+  trigger: w2infw,
 - replace: 'write instruction the '
-  _tags: [w-r, w-r-+-<1>-+-<2>]
+  _tags:
+  - w-r
+  - w-r-+-<1>-+-<2>
   propagate_case: true
   allow_duplicate: false
-  triggers: ['w2inh,']
+  trigger: w2inh,
 - replace: 'write instruction it '
-  _tags: [w-r, w-r-+-<1>-+-<2>]
+  _tags:
+  - w-r
+  - w-r-+-<1>-+-<2>
   propagate_case: true
   allow_duplicate: false
-  triggers: ['w2inx,']
+  trigger: w2inx,
 - replace: 'write code to '
-  _tags: [w-r, w-r-+-<1>-+-<2>]
+  _tags:
+  - w-r
+  - w-r-+-<1>-+-<2>
   propagate_case: true
   allow_duplicate: false
-  triggers: ['w2qoo,']
+  trigger: w2qoo,
 - replace: 'write code from '
-  _tags: [w-r, w-r-+-<1>-+-<2>]
+  _tags:
+  - w-r
+  - w-r-+-<1>-+-<2>
   propagate_case: true
   allow_duplicate: false
-  triggers: ['w2qofw,']
+  trigger: w2qofw,
 - replace: 'write code the '
-  _tags: [w-r, w-r-+-<1>-+-<2>]
+  _tags:
+  - w-r
+  - w-r-+-<1>-+-<2>
   propagate_case: true
   allow_duplicate: false
-  triggers: ['w2qoh,']
+  trigger: w2qoh,
 - replace: 'write code it '
-  _tags: [w-r, w-r-+-<1>-+-<2>]
+  _tags:
+  - w-r
+  - w-r-+-<1>-+-<2>
   propagate_case: true
   allow_duplicate: false
-  triggers: ['w2qox,']
+  trigger: w2qox,
 - replace: 'write script to '
-  _tags: [w-r, w-r-+-<1>-+-<2>]
+  _tags:
+  - w-r
+  - w-r-+-<1>-+-<2>
   propagate_case: true
   allow_duplicate: false
-  triggers: ['w2sio,']
+  trigger: w2sio,
 - replace: 'write script from '
-  _tags: [w-r, w-r-+-<1>-+-<2>]
+  _tags:
+  - w-r
+  - w-r-+-<1>-+-<2>
   propagate_case: true
   allow_duplicate: false
-  triggers: ['w2sifw,']
+  trigger: w2sifw,
 - replace: 'write script the '
-  _tags: [w-r, w-r-+-<1>-+-<2>]
+  _tags:
+  - w-r
+  - w-r-+-<1>-+-<2>
   propagate_case: true
   allow_duplicate: false
-  triggers: ['w2sih,']
+  trigger: w2sih,
 - replace: 'write script it '
-  _tags: [w-r, w-r-+-<1>-+-<2>]
+  _tags:
+  - w-r
+  - w-r-+-<1>-+-<2>
   propagate_case: true
   allow_duplicate: false
-  triggers: ['w2six,']
+  trigger: w2six,
 - replace: 'write test to '
-  _tags: [w-r, w-r-+-<1>-+-<2>]
+  _tags:
+  - w-r
+  - w-r-+-<1>-+-<2>
   propagate_case: true
   allow_duplicate: false
-  triggers: ['w2teo,']
+  trigger: w2teo,
 - replace: 'write test from '
-  _tags: [w-r, w-r-+-<1>-+-<2>]
+  _tags:
+  - w-r
+  - w-r-+-<1>-+-<2>
   propagate_case: true
   allow_duplicate: false
-  triggers: ['w2tefw,']
+  trigger: w2tefw,
 - replace: 'write test the '
-  _tags: [w-r, w-r-+-<1>-+-<2>]
+  _tags:
+  - w-r
+  - w-r-+-<1>-+-<2>
   propagate_case: true
   allow_duplicate: false
-  triggers: ['w2teh,']
+  trigger: w2teh,
 - replace: 'write test it '
-  _tags: [w-r, w-r-+-<1>-+-<2>]
+  _tags:
+  - w-r
+  - w-r-+-<1>-+-<2>
   propagate_case: true
   allow_duplicate: false
-  triggers: ['w2tex,']
+  trigger: w2tex,
 - replace: 'write commit to '
-  _tags: [w-r, w-r-+-<1>-+-<2>]
+  _tags:
+  - w-r
+  - w-r-+-<1>-+-<2>
   propagate_case: true
   allow_duplicate: false
-  triggers: ['w2qmio,']
+  trigger: w2qmio,
 - replace: 'write commit from '
-  _tags: [w-r, w-r-+-<1>-+-<2>]
+  _tags:
+  - w-r
+  - w-r-+-<1>-+-<2>
   propagate_case: true
   allow_duplicate: false
-  triggers: ['w2qmifw,']
+  trigger: w2qmifw,
 - replace: 'write commit the '
-  _tags: [w-r, w-r-+-<1>-+-<2>]
+  _tags:
+  - w-r
+  - w-r-+-<1>-+-<2>
   propagate_case: true
   allow_duplicate: false
-  triggers: ['w2qmih,']
+  trigger: w2qmih,
 - replace: 'write commit it '
-  _tags: [w-r, w-r-+-<1>-+-<2>]
+  _tags:
+  - w-r
+  - w-r-+-<1>-+-<2>
   propagate_case: true
   allow_duplicate: false
-  triggers: ['w2qmix,']
+  trigger: w2qmix,
 - replace: 'write document to '
-  _tags: [w-r, w-r-+-<1>-+-<2>]
+  _tags:
+  - w-r
+  - w-r-+-<1>-+-<2>
   propagate_case: true
   allow_duplicate: false
-  triggers: ['w2doqo,']
+  trigger: w2doqo,
 - replace: 'write document from '
-  _tags: [w-r, w-r-+-<1>-+-<2>]
+  _tags:
+  - w-r
+  - w-r-+-<1>-+-<2>
   propagate_case: true
   allow_duplicate: false
-  triggers: ['w2doqfw,']
+  trigger: w2doqfw,
 - replace: 'write document the '
-  _tags: [w-r, w-r-+-<1>-+-<2>]
+  _tags:
+  - w-r
+  - w-r-+-<1>-+-<2>
   propagate_case: true
   allow_duplicate: false
-  triggers: ['w2doqh,']
+  trigger: w2doqh,
 - replace: 'write document it '
-  _tags: [w-r, w-r-+-<1>-+-<2>]
+  _tags:
+  - w-r
+  - w-r-+-<1>-+-<2>
   propagate_case: true
   allow_duplicate: false
-  triggers: ['w2doqx,']
+  trigger: w2doqx,
 - replace: 'write remote to '
-  _tags: [w-r, w-r-+-<1>-+-<2>]
+  _tags:
+  - w-r
+  - w-r-+-<1>-+-<2>
   propagate_case: true
   allow_duplicate: false
-  triggers: ['w2moeo,']
+  trigger: w2moeo,
 - replace: 'write remote from '
-  _tags: [w-r, w-r-+-<1>-+-<2>]
+  _tags:
+  - w-r
+  - w-r-+-<1>-+-<2>
   propagate_case: true
   allow_duplicate: false
-  triggers: ['w2moefw,']
+  trigger: w2moefw,
 - replace: 'write remote the '
-  _tags: [w-r, w-r-+-<1>-+-<2>]
+  _tags:
+  - w-r
+  - w-r-+-<1>-+-<2>
   propagate_case: true
   allow_duplicate: false
-  triggers: ['w2moeh,']
+  trigger: w2moeh,
 - replace: 'write remote it '
-  _tags: [w-r, w-r-+-<1>-+-<2>]
+  _tags:
+  - w-r
+  - w-r-+-<1>-+-<2>
   propagate_case: true
   allow_duplicate: false
-  triggers: ['w2moex,']
+  trigger: w2moex,
 - replace: 'write local to '
-  _tags: [w-r, w-r-+-<1>-+-<2>]
+  _tags:
+  - w-r
+  - w-r-+-<1>-+-<2>
   propagate_case: true
   allow_duplicate: false
-  triggers: ['w2lolo,']
+  trigger: w2lolo,
 - replace: 'write local from '
-  _tags: [w-r, w-r-+-<1>-+-<2>]
+  _tags:
+  - w-r
+  - w-r-+-<1>-+-<2>
   propagate_case: true
   allow_duplicate: false
-  triggers: ['w2lolfw,']
+  trigger: w2lolfw,
 - replace: 'write local the '
-  _tags: [w-r, w-r-+-<1>-+-<2>]
+  _tags:
+  - w-r
+  - w-r-+-<1>-+-<2>
   propagate_case: true
   allow_duplicate: false
-  triggers: ['w2lolh,']
+  trigger: w2lolh,
 - replace: 'write local it '
-  _tags: [w-r, w-r-+-<1>-+-<2>]
+  _tags:
+  - w-r
+  - w-r-+-<1>-+-<2>
   propagate_case: true
   allow_duplicate: false
-  triggers: ['w2lolx,']
+  trigger: w2lolx,
 - replace: 'write file to '
-  _tags: [w-r, w-r-+-<1>-+-<2>]
+  _tags:
+  - w-r
+  - w-r-+-<1>-+-<2>
   propagate_case: true
   allow_duplicate: false
-  triggers: ['w2flo,']
+  trigger: w2flo,
 - replace: 'write file from '
-  _tags: [w-r, w-r-+-<1>-+-<2>]
+  _tags:
+  - w-r
+  - w-r-+-<1>-+-<2>
   propagate_case: true
   allow_duplicate: false
-  triggers: ['w2flfw,']
+  trigger: w2flfw,
 - replace: 'write file the '
-  _tags: [w-r, w-r-+-<1>-+-<2>]
+  _tags:
+  - w-r
+  - w-r-+-<1>-+-<2>
   propagate_case: true
   allow_duplicate: false
-  triggers: ['w2flh,']
+  trigger: w2flh,
 - replace: 'write file it '
-  _tags: [w-r, w-r-+-<1>-+-<2>]
+  _tags:
+  - w-r
+  - w-r-+-<1>-+-<2>
   propagate_case: true
   allow_duplicate: false
-  triggers: ['w2flx,']
+  trigger: w2flx,
 - replace: 'write files to '
-  _tags: [w-r, w-r-+-<1>-+-<2>]
+  _tags:
+  - w-r
+  - w-r-+-<1>-+-<2>
   propagate_case: true
   allow_duplicate: false
-  triggers: ['w2flso,']
+  trigger: w2flso,
 - replace: 'write files from '
-  _tags: [w-r, w-r-+-<1>-+-<2>]
+  _tags:
+  - w-r
+  - w-r-+-<1>-+-<2>
   propagate_case: true
   allow_duplicate: false
-  triggers: ['w2flsfw,']
+  trigger: w2flsfw,
 - replace: 'write files the '
-  _tags: [w-r, w-r-+-<1>-+-<2>]
+  _tags:
+  - w-r
+  - w-r-+-<1>-+-<2>
   propagate_case: true
   allow_duplicate: false
-  triggers: ['w2flsh,']
+  trigger: w2flsh,
 - replace: 'write files it '
-  _tags: [w-r, w-r-+-<1>-+-<2>]
+  _tags:
+  - w-r
+  - w-r-+-<1>-+-<2>
   propagate_case: true
   allow_duplicate: false
-  triggers: ['w2flsx,']
+  trigger: w2flsx,
 - replace: 'write directory to '
-  _tags: [w-r, w-r-+-<1>-+-<2>]
+  _tags:
+  - w-r
+  - w-r-+-<1>-+-<2>
   propagate_case: true
   allow_duplicate: false
-  triggers: ['w2diwo,']
+  trigger: w2diwo,
 - replace: 'write directory from '
-  _tags: [w-r, w-r-+-<1>-+-<2>]
+  _tags:
+  - w-r
+  - w-r-+-<1>-+-<2>
   propagate_case: true
   allow_duplicate: false
-  triggers: ['w2diwfw,']
+  trigger: w2diwfw,
 - replace: 'write directory the '
-  _tags: [w-r, w-r-+-<1>-+-<2>]
+  _tags:
+  - w-r
+  - w-r-+-<1>-+-<2>
   propagate_case: true
   allow_duplicate: false
-  triggers: ['w2diwh,']
+  trigger: w2diwh,
 - replace: 'write directory it '
-  _tags: [w-r, w-r-+-<1>-+-<2>]
+  _tags:
+  - w-r
+  - w-r-+-<1>-+-<2>
   propagate_case: true
   allow_duplicate: false
-  triggers: ['w2diwx,']
+  trigger: w2diwx,
 - replace: 'write directories to '
-  _tags: [w-r, w-r-+-<1>-+-<2>]
+  _tags:
+  - w-r
+  - w-r-+-<1>-+-<2>
   propagate_case: true
   allow_duplicate: false
-  triggers: ['w2diwso,']
+  trigger: w2diwso,
 - replace: 'write directories from '
-  _tags: [w-r, w-r-+-<1>-+-<2>]
+  _tags:
+  - w-r
+  - w-r-+-<1>-+-<2>
   propagate_case: true
   allow_duplicate: false
-  triggers: ['w2diwsfw,']
+  trigger: w2diwsfw,
 - replace: 'write directories the '
-  _tags: [w-r, w-r-+-<1>-+-<2>]
+  _tags:
+  - w-r
+  - w-r-+-<1>-+-<2>
   propagate_case: true
   allow_duplicate: false
-  triggers: ['w2diwsh,']
+  trigger: w2diwsh,
 - replace: 'write directories it '
-  _tags: [w-r, w-r-+-<1>-+-<2>]
+  _tags:
+  - w-r
+  - w-r-+-<1>-+-<2>
   propagate_case: true
   allow_duplicate: false
-  triggers: ['w2diwsx,']
+  trigger: w2diwsx,
 - replace: 'write pull request to '
-  _tags: [w-r, w-r-+-<1>-+-<2>]
+  _tags:
+  - w-r
+  - w-r-+-<1>-+-<2>
   propagate_case: true
   allow_duplicate: false
-  triggers: ['w2pw2,']
+  trigger: w2pw2,
 - replace: 'write pull request from '
-  _tags: [w-r, w-r-+-<1>-+-<2>]
+  _tags:
+  - w-r
+  - w-r-+-<1>-+-<2>
   propagate_case: true
   allow_duplicate: false
-  triggers: ['w2pwfw,']
+  trigger: w2pwfw,
 - replace: 'write pull request the '
-  _tags: [w-r, w-r-+-<1>-+-<2>]
+  _tags:
+  - w-r
+  - w-r-+-<1>-+-<2>
   propagate_case: true
   allow_duplicate: false
-  triggers: ['w2pwh,']
+  trigger: w2pwh,
 - replace: 'write pull request it '
-  _tags: [w-r, w-r-+-<1>-+-<2>]
+  _tags:
+  - w-r
+  - w-r-+-<1>-+-<2>
   propagate_case: true
   allow_duplicate: false
-  triggers: ['w2pwx,']
+  trigger: w2pwx,
 - replace: 'write if to '
-  _tags: [w-r, w-r-+-<1>-+-<2>]
+  _tags:
+  - w-r
+  - w-r-+-<1>-+-<2>
   propagate_case: true
   allow_duplicate: false
-  triggers: ['w2fo,']
+  trigger: w2fo,
 - replace: 'write if from '
-  _tags: [w-r, w-r-+-<1>-+-<2>]
+  _tags:
+  - w-r
+  - w-r-+-<1>-+-<2>
   propagate_case: true
   allow_duplicate: false
-  triggers: ['w2ffw,']
+  trigger: w2ffw,
 - replace: 'write if the '
-  _tags: [w-r, w-r-+-<1>-+-<2>]
+  _tags:
+  - w-r
+  - w-r-+-<1>-+-<2>
   propagate_case: true
   allow_duplicate: false
-  triggers: ['w2fh,']
+  trigger: w2fh,
 - replace: 'write if it '
-  _tags: [w-r, w-r-+-<1>-+-<2>]
+  _tags:
+  - w-r
+  - w-r-+-<1>-+-<2>
   propagate_case: true
   allow_duplicate: false
-  triggers: ['w2fx,']
+  trigger: w2fx,
 - replace: 'write some to '
-  _tags: [w-r, w-r-+-<1>-+-<2>]
+  _tags:
+  - w-r
+  - w-r-+-<1>-+-<2>
   propagate_case: true
   allow_duplicate: false
-  triggers: ['w2smo,']
+  trigger: w2smo,
 - replace: 'write some from '
-  _tags: [w-r, w-r-+-<1>-+-<2>]
+  _tags:
+  - w-r
+  - w-r-+-<1>-+-<2>
   propagate_case: true
   allow_duplicate: false
-  triggers: ['w2smfw,']
+  trigger: w2smfw,
 - replace: 'write some the '
-  _tags: [w-r, w-r-+-<1>-+-<2>]
+  _tags:
+  - w-r
+  - w-r-+-<1>-+-<2>
   propagate_case: true
   allow_duplicate: false
-  triggers: ['w2smh,']
+  trigger: w2smh,
 - replace: 'write some it '
-  _tags: [w-r, w-r-+-<1>-+-<2>]
+  _tags:
+  - w-r
+  - w-r-+-<1>-+-<2>
   propagate_case: true
   allow_duplicate: false
-  triggers: ['w2smx,']
+  trigger: w2smx,
 - replace: 'write more to '
-  _tags: [w-r, w-r-+-<1>-+-<2>]
+  _tags:
+  - w-r
+  - w-r-+-<1>-+-<2>
   propagate_case: true
   allow_duplicate: false
-  triggers: ['w2owo,']
+  trigger: w2owo,
 - replace: 'write more from '
-  _tags: [w-r, w-r-+-<1>-+-<2>]
+  _tags:
+  - w-r
+  - w-r-+-<1>-+-<2>
   propagate_case: true
   allow_duplicate: false
-  triggers: ['w2owfw,']
+  trigger: w2owfw,
 - replace: 'write more the '
-  _tags: [w-r, w-r-+-<1>-+-<2>]
+  _tags:
+  - w-r
+  - w-r-+-<1>-+-<2>
   propagate_case: true
   allow_duplicate: false
-  triggers: ['w2owh,']
+  trigger: w2owh,
 - replace: 'write more it '
-  _tags: [w-r, w-r-+-<1>-+-<2>]
+  _tags:
+  - w-r
+  - w-r-+-<1>-+-<2>
   propagate_case: true
   allow_duplicate: false
-  triggers: ['w2owx,']
+  trigger: w2owx,
 - replace: 'write some more to '
-  _tags: [w-r, w-r-+-<1>-+-<2>]
+  _tags:
+  - w-r
+  - w-r-+-<1>-+-<2>
   propagate_case: true
   allow_duplicate: false
-  triggers: ['w2smowo,']
+  trigger: w2smowo,
 - replace: 'write some more from '
-  _tags: [w-r, w-r-+-<1>-+-<2>]
+  _tags:
+  - w-r
+  - w-r-+-<1>-+-<2>
   propagate_case: true
   allow_duplicate: false
-  triggers: ['w2smowfw,']
+  trigger: w2smowfw,
 - replace: 'write some more the '
-  _tags: [w-r, w-r-+-<1>-+-<2>]
+  _tags:
+  - w-r
+  - w-r-+-<1>-+-<2>
   propagate_case: true
   allow_duplicate: false
-  triggers: ['w2smowh,']
+  trigger: w2smowh,
 - replace: 'write some more it '
-  _tags: [w-r, w-r-+-<1>-+-<2>]
+  _tags:
+  - w-r
+  - w-r-+-<1>-+-<2>
   propagate_case: true
   allow_duplicate: false
-  triggers: ['w2smowx,']
+  trigger: w2smowx,
 - replace: 'write detail to '
-  _tags: [w-r, w-r-+-<1>-+-<2>]
+  _tags:
+  - w-r
+  - w-r-+-<1>-+-<2>
   propagate_case: true
   allow_duplicate: false
-  triggers: ['w2deo,']
+  trigger: w2deo,
 - replace: 'write detail from '
-  _tags: [w-r, w-r-+-<1>-+-<2>]
+  _tags:
+  - w-r
+  - w-r-+-<1>-+-<2>
   propagate_case: true
   allow_duplicate: false
-  triggers: ['w2defw,']
+  trigger: w2defw,
 - replace: 'write detail the '
-  _tags: [w-r, w-r-+-<1>-+-<2>]
+  _tags:
+  - w-r
+  - w-r-+-<1>-+-<2>
   propagate_case: true
   allow_duplicate: false
-  triggers: ['w2deh,']
+  trigger: w2deh,
 - replace: 'write detail it '
-  _tags: [w-r, w-r-+-<1>-+-<2>]
+  _tags:
+  - w-r
+  - w-r-+-<1>-+-<2>
   propagate_case: true
   allow_duplicate: false
-  triggers: ['w2dex,']
+  trigger: w2dex,
 - replace: 'write clear to '
-  _tags: [w-r, w-r-+-<1>-+-<2>]
+  _tags:
+  - w-r
+  - w-r-+-<1>-+-<2>
   propagate_case: true
   allow_duplicate: false
-  triggers: ['w2qlwo,']
+  trigger: w2qlwo,
 - replace: 'write clear from '
-  _tags: [w-r, w-r-+-<1>-+-<2>]
+  _tags:
+  - w-r
+  - w-r-+-<1>-+-<2>
   propagate_case: true
   allow_duplicate: false
-  triggers: ['w2qlwfw,']
+  trigger: w2qlwfw,
 - replace: 'write clear the '
-  _tags: [w-r, w-r-+-<1>-+-<2>]
+  _tags:
+  - w-r
+  - w-r-+-<1>-+-<2>
   propagate_case: true
   allow_duplicate: false
-  triggers: ['w2qlwh,']
+  trigger: w2qlwh,
 - replace: 'write clear it '
-  _tags: [w-r, w-r-+-<1>-+-<2>]
+  _tags:
+  - w-r
+  - w-r-+-<1>-+-<2>
   propagate_case: true
   allow_duplicate: false
-  triggers: ['w2qlwx,']
+  trigger: w2qlwx,
 - replace: 'write summary to '
-  _tags: [w-r, w-r-+-<1>-+-<2>]
+  _tags:
+  - w-r
+  - w-r-+-<1>-+-<2>
   propagate_case: true
   allow_duplicate: false
-  triggers: ['w2suo,']
+  trigger: w2suo,
 - replace: 'write summary from '
-  _tags: [w-r, w-r-+-<1>-+-<2>]
+  _tags:
+  - w-r
+  - w-r-+-<1>-+-<2>
   propagate_case: true
   allow_duplicate: false
-  triggers: ['w2sufw,']
+  trigger: w2sufw,
 - replace: 'write summary the '
-  _tags: [w-r, w-r-+-<1>-+-<2>]
+  _tags:
+  - w-r
+  - w-r-+-<1>-+-<2>
   propagate_case: true
   allow_duplicate: false
-  triggers: ['w2suh,']
+  trigger: w2suh,
 - replace: 'write summary it '
-  _tags: [w-r, w-r-+-<1>-+-<2>]
+  _tags:
+  - w-r
+  - w-r-+-<1>-+-<2>
   propagate_case: true
   allow_duplicate: false
-  triggers: ['w2sux,']
+  trigger: w2sux,
 - replace: 'write TODO to '
-  _tags: [w-r, w-r-+-<1>-+-<2>]
+  _tags:
+  - w-r
+  - w-r-+-<1>-+-<2>
   propagate_case: true
   allow_duplicate: false
-  triggers: ['w2ooo,']
+  trigger: w2ooo,
 - replace: 'write TODO from '
-  _tags: [w-r, w-r-+-<1>-+-<2>]
+  _tags:
+  - w-r
+  - w-r-+-<1>-+-<2>
   propagate_case: true
   allow_duplicate: false
-  triggers: ['w2oofw,']
+  trigger: w2oofw,
 - replace: 'write TODO the '
-  _tags: [w-r, w-r-+-<1>-+-<2>]
+  _tags:
+  - w-r
+  - w-r-+-<1>-+-<2>
   propagate_case: true
   allow_duplicate: false
-  triggers: ['w2ooh,']
+  trigger: w2ooh,
 - replace: 'write TODO it '
-  _tags: [w-r, w-r-+-<1>-+-<2>]
+  _tags:
+  - w-r
+  - w-r-+-<1>-+-<2>
   propagate_case: true
   allow_duplicate: false
-  triggers: ['w2oox,']
+  trigger: w2oox,
 - replace: 'write WS_TODO to '
-  _tags: [w-r, w-r-+-<1>-+-<2>]
+  _tags:
+  - w-r
+  - w-r-+-<1>-+-<2>
   propagate_case: true
   allow_duplicate: false
-  triggers: ['w2wooo,']
+  trigger: w2wooo,
 - replace: 'write WS_TODO from '
-  _tags: [w-r, w-r-+-<1>-+-<2>]
+  _tags:
+  - w-r
+  - w-r-+-<1>-+-<2>
   propagate_case: true
   allow_duplicate: false
-  triggers: ['w2woofw,']
+  trigger: w2woofw,
 - replace: 'write WS_TODO the '
-  _tags: [w-r, w-r-+-<1>-+-<2>]
+  _tags:
+  - w-r
+  - w-r-+-<1>-+-<2>
   propagate_case: true
   allow_duplicate: false
-  triggers: ['w2wooh,']
+  trigger: w2wooh,
 - replace: 'write WS_TODO it '
-  _tags: [w-r, w-r-+-<1>-+-<2>]
+  _tags:
+  - w-r
+  - w-r-+-<1>-+-<2>
   propagate_case: true
   allow_duplicate: false
-  triggers: ['w2woox,']
+  trigger: w2woox,
 - replace: 'write git to '
-  _tags: [w-r, w-r-+-<1>-+-<2>]
+  _tags:
+  - w-r
+  - w-r-+-<1>-+-<2>
   propagate_case: true
   allow_duplicate: false
-  triggers: ['w2ito,']
+  trigger: w2ito,
 - replace: 'write git from '
-  _tags: [w-r, w-r-+-<1>-+-<2>]
+  _tags:
+  - w-r
+  - w-r-+-<1>-+-<2>
   propagate_case: true
   allow_duplicate: false
-  triggers: ['w2itfw,']
+  trigger: w2itfw,
 - replace: 'write git the '
-  _tags: [w-r, w-r-+-<1>-+-<2>]
+  _tags:
+  - w-r
+  - w-r-+-<1>-+-<2>
   propagate_case: true
   allow_duplicate: false
-  triggers: ['w2ith,']
+  trigger: w2ith,
 - replace: 'write git it '
-  _tags: [w-r, w-r-+-<1>-+-<2>]
+  _tags:
+  - w-r
+  - w-r-+-<1>-+-<2>
   propagate_case: true
   allow_duplicate: false
-  triggers: ['w2itx,']
+  trigger: w2itx,
 - replace: 'write web to '
-  _tags: [w-r, w-r-+-<1>-+-<2>]
+  _tags:
+  - w-r
+  - w-r-+-<1>-+-<2>
   propagate_case: true
   allow_duplicate: false
-  triggers: ['w2ebo,']
+  trigger: w2ebo,
 - replace: 'write web from '
-  _tags: [w-r, w-r-+-<1>-+-<2>]
+  _tags:
+  - w-r
+  - w-r-+-<1>-+-<2>
   propagate_case: true
   allow_duplicate: false
-  triggers: ['w2ebfw,']
+  trigger: w2ebfw,
 - replace: 'write web the '
-  _tags: [w-r, w-r-+-<1>-+-<2>]
+  _tags:
+  - w-r
+  - w-r-+-<1>-+-<2>
   propagate_case: true
   allow_duplicate: false
-  triggers: ['w2ebh,']
+  trigger: w2ebh,
 - replace: 'write web it '
-  _tags: [w-r, w-r-+-<1>-+-<2>]
+  _tags:
+  - w-r
+  - w-r-+-<1>-+-<2>
   propagate_case: true
   allow_duplicate: false
-  triggers: ['w2ebx,']
+  trigger: w2ebx,
 - replace: 'read this instruction '
-  _tags: [w-r, w-r-+-<th->-+-<1>]
+  _tags:
+  - w-r
+  - w-r-+-<th->-+-<1>
   propagate_case: true
   allow_duplicate: false
-  triggers: ['w1izin,']
+  trigger: w1izin,
 - replace: 'read this code '
-  _tags: [w-r, w-r-+-<th->-+-<1>]
+  _tags:
+  - w-r
+  - w-r-+-<th->-+-<1>
   propagate_case: true
   allow_duplicate: false
-  triggers: ['w1izqo,']
+  trigger: w1izqo,
 - replace: 'read this script '
-  _tags: [w-r, w-r-+-<th->-+-<1>]
+  _tags:
+  - w-r
+  - w-r-+-<th->-+-<1>
   propagate_case: true
   allow_duplicate: false
-  triggers: ['w1izsi,']
+  trigger: w1izsi,
 - replace: 'read this test '
-  _tags: [w-r, w-r-+-<th->-+-<1>]
+  _tags:
+  - w-r
+  - w-r-+-<th->-+-<1>
   propagate_case: true
   allow_duplicate: false
-  triggers: ['w1izte,']
+  trigger: w1izte,
 - replace: 'read this commit '
-  _tags: [w-r, w-r-+-<th->-+-<1>]
+  _tags:
+  - w-r
+  - w-r-+-<th->-+-<1>
   propagate_case: true
   allow_duplicate: false
-  triggers: ['w1izqmi,']
+  trigger: w1izqmi,
 - replace: 'read this document '
-  _tags: [w-r, w-r-+-<th->-+-<1>]
+  _tags:
+  - w-r
+  - w-r-+-<th->-+-<1>
   propagate_case: true
   allow_duplicate: false
-  triggers: ['w1izdoq,']
+  trigger: w1izdoq,
 - replace: 'read this remote '
-  _tags: [w-r, w-r-+-<th->-+-<1>]
+  _tags:
+  - w-r
+  - w-r-+-<th->-+-<1>
   propagate_case: true
   allow_duplicate: false
-  triggers: ['w1izmoe,']
+  trigger: w1izmoe,
 - replace: 'read this local '
-  _tags: [w-r, w-r-+-<th->-+-<1>]
+  _tags:
+  - w-r
+  - w-r-+-<th->-+-<1>
   propagate_case: true
   allow_duplicate: false
-  triggers: ['w1izlol,']
+  trigger: w1izlol,
 - replace: 'read this file '
-  _tags: [w-r, w-r-+-<th->-+-<1>]
+  _tags:
+  - w-r
+  - w-r-+-<th->-+-<1>
   propagate_case: true
   allow_duplicate: false
-  triggers: ['w1izfl,']
+  trigger: w1izfl,
 - replace: 'read this files '
-  _tags: [w-r, w-r-+-<th->-+-<1>]
+  _tags:
+  - w-r
+  - w-r-+-<th->-+-<1>
   propagate_case: true
   allow_duplicate: false
-  triggers: ['w1izfls,']
+  trigger: w1izfls,
 - replace: 'read this directory '
-  _tags: [w-r, w-r-+-<th->-+-<1>]
+  _tags:
+  - w-r
+  - w-r-+-<th->-+-<1>
   propagate_case: true
   allow_duplicate: false
-  triggers: ['w1izdiw,']
+  trigger: w1izdiw,
 - replace: 'read this directories '
-  _tags: [w-r, w-r-+-<th->-+-<1>]
+  _tags:
+  - w-r
+  - w-r-+-<th->-+-<1>
   propagate_case: true
   allow_duplicate: false
-  triggers: ['w1izdiws,']
+  trigger: w1izdiws,
 - replace: 'read this pull request '
-  _tags: [w-r, w-r-+-<th->-+-<1>]
+  _tags:
+  - w-r
+  - w-r-+-<th->-+-<1>
   propagate_case: true
   allow_duplicate: false
-  triggers: ['w1izpw,']
+  trigger: w1izpw,
 - replace: 'read this if '
-  _tags: [w-r, w-r-+-<th->-+-<1>]
+  _tags:
+  - w-r
+  - w-r-+-<th->-+-<1>
   propagate_case: true
   allow_duplicate: false
-  triggers: ['w1izf,']
+  trigger: w1izf,
 - replace: 'read this some '
-  _tags: [w-r, w-r-+-<th->-+-<1>]
+  _tags:
+  - w-r
+  - w-r-+-<th->-+-<1>
   propagate_case: true
   allow_duplicate: false
-  triggers: ['w1izsm,']
+  trigger: w1izsm,
 - replace: 'read this more '
-  _tags: [w-r, w-r-+-<th->-+-<1>]
+  _tags:
+  - w-r
+  - w-r-+-<th->-+-<1>
   propagate_case: true
   allow_duplicate: false
-  triggers: ['w1izow,']
+  trigger: w1izow,
 - replace: 'read this some more '
-  _tags: [w-r, w-r-+-<th->-+-<1>]
+  _tags:
+  - w-r
+  - w-r-+-<th->-+-<1>
   propagate_case: true
   allow_duplicate: false
-  triggers: ['w1izsmow,']
+  trigger: w1izsmow,
 - replace: 'read this detail '
-  _tags: [w-r, w-r-+-<th->-+-<1>]
+  _tags:
+  - w-r
+  - w-r-+-<th->-+-<1>
   propagate_case: true
   allow_duplicate: false
-  triggers: ['w1izde,']
+  trigger: w1izde,
 - replace: 'read this clear '
-  _tags: [w-r, w-r-+-<th->-+-<1>]
+  _tags:
+  - w-r
+  - w-r-+-<th->-+-<1>
   propagate_case: true
   allow_duplicate: false
-  triggers: ['w1izqlw,']
+  trigger: w1izqlw,
 - replace: 'read this summary '
-  _tags: [w-r, w-r-+-<th->-+-<1>]
+  _tags:
+  - w-r
+  - w-r-+-<th->-+-<1>
   propagate_case: true
   allow_duplicate: false
-  triggers: ['w1izsu,']
+  trigger: w1izsu,
 - replace: 'read this TODO '
-  _tags: [w-r, w-r-+-<th->-+-<1>]
+  _tags:
+  - w-r
+  - w-r-+-<th->-+-<1>
   propagate_case: true
   allow_duplicate: false
-  triggers: ['w1izoo,']
+  trigger: w1izoo,
 - replace: 'read this WS_TODO '
-  _tags: [w-r, w-r-+-<th->-+-<1>]
+  _tags:
+  - w-r
+  - w-r-+-<th->-+-<1>
   propagate_case: true
   allow_duplicate: false
-  triggers: ['w1izwoo,']
+  trigger: w1izwoo,
 - replace: 'read this git '
-  _tags: [w-r, w-r-+-<th->-+-<1>]
+  _tags:
+  - w-r
+  - w-r-+-<th->-+-<1>
   propagate_case: true
   allow_duplicate: false
-  triggers: ['w1izit,']
+  trigger: w1izit,
 - replace: 'read this web '
-  _tags: [w-r, w-r-+-<th->-+-<1>]
+  _tags:
+  - w-r
+  - w-r-+-<th->-+-<1>
   propagate_case: true
   allow_duplicate: false
-  triggers: ['w1izeb,']
+  trigger: w1izeb,
 - replace: 'read that instruction '
-  _tags: [w-r, w-r-+-<th->-+-<1>]
+  _tags:
+  - w-r
+  - w-r-+-<th->-+-<1>
   propagate_case: true
   allow_duplicate: false
-  triggers: ['w1azin,']
+  trigger: w1azin,
 - replace: 'read that code '
-  _tags: [w-r, w-r-+-<th->-+-<1>]
+  _tags:
+  - w-r
+  - w-r-+-<th->-+-<1>
   propagate_case: true
   allow_duplicate: false
-  triggers: ['w1azqo,']
+  trigger: w1azqo,
 - replace: 'read that script '
-  _tags: [w-r, w-r-+-<th->-+-<1>]
+  _tags:
+  - w-r
+  - w-r-+-<th->-+-<1>
   propagate_case: true
   allow_duplicate: false
-  triggers: ['w1azsi,']
+  trigger: w1azsi,
 - replace: 'read that test '
-  _tags: [w-r, w-r-+-<th->-+-<1>]
+  _tags:
+  - w-r
+  - w-r-+-<th->-+-<1>
   propagate_case: true
   allow_duplicate: false
-  triggers: ['w1azte,']
+  trigger: w1azte,
 - replace: 'read that commit '
-  _tags: [w-r, w-r-+-<th->-+-<1>]
+  _tags:
+  - w-r
+  - w-r-+-<th->-+-<1>
   propagate_case: true
   allow_duplicate: false
-  triggers: ['w1azqmi,']
+  trigger: w1azqmi,
 - replace: 'read that document '
-  _tags: [w-r, w-r-+-<th->-+-<1>]
+  _tags:
+  - w-r
+  - w-r-+-<th->-+-<1>
   propagate_case: true
   allow_duplicate: false
-  triggers: ['w1azdoq,']
+  trigger: w1azdoq,
 - replace: 'read that remote '
-  _tags: [w-r, w-r-+-<th->-+-<1>]
+  _tags:
+  - w-r
+  - w-r-+-<th->-+-<1>
   propagate_case: true
   allow_duplicate: false
-  triggers: ['w1azmoe,']
+  trigger: w1azmoe,
 - replace: 'read that local '
-  _tags: [w-r, w-r-+-<th->-+-<1>]
+  _tags:
+  - w-r
+  - w-r-+-<th->-+-<1>
   propagate_case: true
   allow_duplicate: false
-  triggers: ['w1azlol,']
+  trigger: w1azlol,
 - replace: 'read that file '
-  _tags: [w-r, w-r-+-<th->-+-<1>]
+  _tags:
+  - w-r
+  - w-r-+-<th->-+-<1>
   propagate_case: true
   allow_duplicate: false
-  triggers: ['w1azfl,']
+  trigger: w1azfl,
 - replace: 'read that files '
-  _tags: [w-r, w-r-+-<th->-+-<1>]
+  _tags:
+  - w-r
+  - w-r-+-<th->-+-<1>
   propagate_case: true
   allow_duplicate: false
-  triggers: ['w1azfls,']
+  trigger: w1azfls,
 - replace: 'read that directory '
-  _tags: [w-r, w-r-+-<th->-+-<1>]
+  _tags:
+  - w-r
+  - w-r-+-<th->-+-<1>
   propagate_case: true
   allow_duplicate: false
-  triggers: ['w1azdiw,']
+  trigger: w1azdiw,
 - replace: 'read that directories '
-  _tags: [w-r, w-r-+-<th->-+-<1>]
+  _tags:
+  - w-r
+  - w-r-+-<th->-+-<1>
   propagate_case: true
   allow_duplicate: false
-  triggers: ['w1azdiws,']
+  trigger: w1azdiws,
 - replace: 'read that pull request '
-  _tags: [w-r, w-r-+-<th->-+-<1>]
+  _tags:
+  - w-r
+  - w-r-+-<th->-+-<1>
   propagate_case: true
   allow_duplicate: false
-  triggers: ['w1azpw,']
+  trigger: w1azpw,
 - replace: 'read that if '
-  _tags: [w-r, w-r-+-<th->-+-<1>]
+  _tags:
+  - w-r
+  - w-r-+-<th->-+-<1>
   propagate_case: true
   allow_duplicate: false
-  triggers: ['w1azf,']
+  trigger: w1azf,
 - replace: 'read that some '
-  _tags: [w-r, w-r-+-<th->-+-<1>]
+  _tags:
+  - w-r
+  - w-r-+-<th->-+-<1>
   propagate_case: true
   allow_duplicate: false
-  triggers: ['w1azsm,']
+  trigger: w1azsm,
 - replace: 'read that more '
-  _tags: [w-r, w-r-+-<th->-+-<1>]
+  _tags:
+  - w-r
+  - w-r-+-<th->-+-<1>
   propagate_case: true
   allow_duplicate: false
-  triggers: ['w1azow,']
+  trigger: w1azow,
 - replace: 'read that some more '
-  _tags: [w-r, w-r-+-<th->-+-<1>]
+  _tags:
+  - w-r
+  - w-r-+-<th->-+-<1>
   propagate_case: true
   allow_duplicate: false
-  triggers: ['w1azsmow,']
+  trigger: w1azsmow,
 - replace: 'read that detail '
-  _tags: [w-r, w-r-+-<th->-+-<1>]
+  _tags:
+  - w-r
+  - w-r-+-<th->-+-<1>
   propagate_case: true
   allow_duplicate: false
-  triggers: ['w1azde,']
+  trigger: w1azde,
 - replace: 'read that clear '
-  _tags: [w-r, w-r-+-<th->-+-<1>]
+  _tags:
+  - w-r
+  - w-r-+-<th->-+-<1>
   propagate_case: true
   allow_duplicate: false
-  triggers: ['w1azqlw,']
+  trigger: w1azqlw,
 - replace: 'read that summary '
-  _tags: [w-r, w-r-+-<th->-+-<1>]
+  _tags:
+  - w-r
+  - w-r-+-<th->-+-<1>
   propagate_case: true
   allow_duplicate: false
-  triggers: ['w1azsu,']
+  trigger: w1azsu,
 - replace: 'read that TODO '
-  _tags: [w-r, w-r-+-<th->-+-<1>]
+  _tags:
+  - w-r
+  - w-r-+-<th->-+-<1>
   propagate_case: true
   allow_duplicate: false
-  triggers: ['w1azoo,']
+  trigger: w1azoo,
 - replace: 'read that WS_TODO '
-  _tags: [w-r, w-r-+-<th->-+-<1>]
+  _tags:
+  - w-r
+  - w-r-+-<th->-+-<1>
   propagate_case: true
   allow_duplicate: false
-  triggers: ['w1azwoo,']
+  trigger: w1azwoo,
 - replace: 'read that git '
-  _tags: [w-r, w-r-+-<th->-+-<1>]
+  _tags:
+  - w-r
+  - w-r-+-<th->-+-<1>
   propagate_case: true
   allow_duplicate: false
-  triggers: ['w1azit,']
+  trigger: w1azit,
 - replace: 'read that web '
-  _tags: [w-r, w-r-+-<th->-+-<1>]
+  _tags:
+  - w-r
+  - w-r-+-<th->-+-<1>
   propagate_case: true
   allow_duplicate: false
-  triggers: ['w1azeb,']
+  trigger: w1azeb,
 - replace: 'read these instruction '
-  _tags: [w-r, w-r-+-<th->-+-<1>]
+  _tags:
+  - w-r
+  - w-r-+-<th->-+-<1>
   propagate_case: true
   allow_duplicate: false
-  triggers: ['w1ezin,']
+  trigger: w1ezin,
 - replace: 'read these code '
-  _tags: [w-r, w-r-+-<th->-+-<1>]
+  _tags:
+  - w-r
+  - w-r-+-<th->-+-<1>
   propagate_case: true
   allow_duplicate: false
-  triggers: ['w1ezqo,']
+  trigger: w1ezqo,
 - replace: 'read these script '
-  _tags: [w-r, w-r-+-<th->-+-<1>]
+  _tags:
+  - w-r
+  - w-r-+-<th->-+-<1>
   propagate_case: true
   allow_duplicate: false
-  triggers: ['w1ezsi,']
+  trigger: w1ezsi,
 - replace: 'read these test '
-  _tags: [w-r, w-r-+-<th->-+-<1>]
+  _tags:
+  - w-r
+  - w-r-+-<th->-+-<1>
   propagate_case: true
   allow_duplicate: false
-  triggers: ['w1ezte,']
+  trigger: w1ezte,
 - replace: 'read these commit '
-  _tags: [w-r, w-r-+-<th->-+-<1>]
+  _tags:
+  - w-r
+  - w-r-+-<th->-+-<1>
   propagate_case: true
   allow_duplicate: false
-  triggers: ['w1ezqmi,']
+  trigger: w1ezqmi,
 - replace: 'read these document '
-  _tags: [w-r, w-r-+-<th->-+-<1>]
+  _tags:
+  - w-r
+  - w-r-+-<th->-+-<1>
   propagate_case: true
   allow_duplicate: false
-  triggers: ['w1ezdoq,']
+  trigger: w1ezdoq,
 - replace: 'read these remote '
-  _tags: [w-r, w-r-+-<th->-+-<1>]
+  _tags:
+  - w-r
+  - w-r-+-<th->-+-<1>
   propagate_case: true
   allow_duplicate: false
-  triggers: ['w1ezmoe,']
+  trigger: w1ezmoe,
 - replace: 'read these local '
-  _tags: [w-r, w-r-+-<th->-+-<1>]
+  _tags:
+  - w-r
+  - w-r-+-<th->-+-<1>
   propagate_case: true
   allow_duplicate: false
-  triggers: ['w1ezlol,']
+  trigger: w1ezlol,
 - replace: 'read these file '
-  _tags: [w-r, w-r-+-<th->-+-<1>]
+  _tags:
+  - w-r
+  - w-r-+-<th->-+-<1>
   propagate_case: true
   allow_duplicate: false
-  triggers: ['w1ezfl,']
+  trigger: w1ezfl,
 - replace: 'read these files '
-  _tags: [w-r, w-r-+-<th->-+-<1>]
+  _tags:
+  - w-r
+  - w-r-+-<th->-+-<1>
   propagate_case: true
   allow_duplicate: false
-  triggers: ['w1ezfls,']
+  trigger: w1ezfls,
 - replace: 'read these directory '
-  _tags: [w-r, w-r-+-<th->-+-<1>]
+  _tags:
+  - w-r
+  - w-r-+-<th->-+-<1>
   propagate_case: true
   allow_duplicate: false
-  triggers: ['w1ezdiw,']
+  trigger: w1ezdiw,
 - replace: 'read these directories '
-  _tags: [w-r, w-r-+-<th->-+-<1>]
+  _tags:
+  - w-r
+  - w-r-+-<th->-+-<1>
   propagate_case: true
   allow_duplicate: false
-  triggers: ['w1ezdiws,']
+  trigger: w1ezdiws,
 - replace: 'read these pull request '
-  _tags: [w-r, w-r-+-<th->-+-<1>]
+  _tags:
+  - w-r
+  - w-r-+-<th->-+-<1>
   propagate_case: true
   allow_duplicate: false
-  triggers: ['w1ezpw,']
+  trigger: w1ezpw,
 - replace: 'read these if '
-  _tags: [w-r, w-r-+-<th->-+-<1>]
+  _tags:
+  - w-r
+  - w-r-+-<th->-+-<1>
   propagate_case: true
   allow_duplicate: false
-  triggers: ['w1ezf,']
+  trigger: w1ezf,
 - replace: 'read these some '
-  _tags: [w-r, w-r-+-<th->-+-<1>]
+  _tags:
+  - w-r
+  - w-r-+-<th->-+-<1>
   propagate_case: true
   allow_duplicate: false
-  triggers: ['w1ezsm,']
+  trigger: w1ezsm,
 - replace: 'read these more '
-  _tags: [w-r, w-r-+-<th->-+-<1>]
+  _tags:
+  - w-r
+  - w-r-+-<th->-+-<1>
   propagate_case: true
   allow_duplicate: false
-  triggers: ['w1ezow,']
+  trigger: w1ezow,
 - replace: 'read these some more '
-  _tags: [w-r, w-r-+-<th->-+-<1>]
+  _tags:
+  - w-r
+  - w-r-+-<th->-+-<1>
   propagate_case: true
   allow_duplicate: false
-  triggers: ['w1ezsmow,']
+  trigger: w1ezsmow,
 - replace: 'read these detail '
-  _tags: [w-r, w-r-+-<th->-+-<1>]
+  _tags:
+  - w-r
+  - w-r-+-<th->-+-<1>
   propagate_case: true
   allow_duplicate: false
-  triggers: ['w1ezde,']
+  trigger: w1ezde,
 - replace: 'read these clear '
-  _tags: [w-r, w-r-+-<th->-+-<1>]
+  _tags:
+  - w-r
+  - w-r-+-<th->-+-<1>
   propagate_case: true
   allow_duplicate: false
-  triggers: ['w1ezqlw,']
+  trigger: w1ezqlw,
 - replace: 'read these summary '
-  _tags: [w-r, w-r-+-<th->-+-<1>]
+  _tags:
+  - w-r
+  - w-r-+-<th->-+-<1>
   propagate_case: true
   allow_duplicate: false
-  triggers: ['w1ezsu,']
+  trigger: w1ezsu,
 - replace: 'read these TODO '
-  _tags: [w-r, w-r-+-<th->-+-<1>]
+  _tags:
+  - w-r
+  - w-r-+-<th->-+-<1>
   propagate_case: true
   allow_duplicate: false
-  triggers: ['w1ezoo,']
+  trigger: w1ezoo,
 - replace: 'read these WS_TODO '
-  _tags: [w-r, w-r-+-<th->-+-<1>]
+  _tags:
+  - w-r
+  - w-r-+-<th->-+-<1>
   propagate_case: true
   allow_duplicate: false
-  triggers: ['w1ezwoo,']
+  trigger: w1ezwoo,
 - replace: 'read these git '
-  _tags: [w-r, w-r-+-<th->-+-<1>]
+  _tags:
+  - w-r
+  - w-r-+-<th->-+-<1>
   propagate_case: true
   allow_duplicate: false
-  triggers: ['w1ezit,']
+  trigger: w1ezit,
 - replace: 'read these web '
-  _tags: [w-r, w-r-+-<th->-+-<1>]
+  _tags:
+  - w-r
+  - w-r-+-<th->-+-<1>
   propagate_case: true
   allow_duplicate: false
-  triggers: ['w1ezeb,']
+  trigger: w1ezeb,
 - replace: 'read those instruction '
-  _tags: [w-r, w-r-+-<th->-+-<1>]
+  _tags:
+  - w-r
+  - w-r-+-<th->-+-<1>
   propagate_case: true
   allow_duplicate: false
-  triggers: ['w1ozin,']
+  trigger: w1ozin,
 - replace: 'read those code '
-  _tags: [w-r, w-r-+-<th->-+-<1>]
+  _tags:
+  - w-r
+  - w-r-+-<th->-+-<1>
   propagate_case: true
   allow_duplicate: false
-  triggers: ['w1ozqo,']
+  trigger: w1ozqo,
 - replace: 'read those script '
-  _tags: [w-r, w-r-+-<th->-+-<1>]
+  _tags:
+  - w-r
+  - w-r-+-<th->-+-<1>
   propagate_case: true
   allow_duplicate: false
-  triggers: ['w1ozsi,']
+  trigger: w1ozsi,
 - replace: 'read those test '
-  _tags: [w-r, w-r-+-<th->-+-<1>]
+  _tags:
+  - w-r
+  - w-r-+-<th->-+-<1>
   propagate_case: true
   allow_duplicate: false
-  triggers: ['w1ozte,']
+  trigger: w1ozte,
 - replace: 'read those commit '
-  _tags: [w-r, w-r-+-<th->-+-<1>]
+  _tags:
+  - w-r
+  - w-r-+-<th->-+-<1>
   propagate_case: true
   allow_duplicate: false
-  triggers: ['w1ozqmi,']
+  trigger: w1ozqmi,
 - replace: 'read those document '
-  _tags: [w-r, w-r-+-<th->-+-<1>]
+  _tags:
+  - w-r
+  - w-r-+-<th->-+-<1>
   propagate_case: true
   allow_duplicate: false
-  triggers: ['w1ozdoq,']
+  trigger: w1ozdoq,
 - replace: 'read those remote '
-  _tags: [w-r, w-r-+-<th->-+-<1>]
+  _tags:
+  - w-r
+  - w-r-+-<th->-+-<1>
   propagate_case: true
   allow_duplicate: false
-  triggers: ['w1ozmoe,']
+  trigger: w1ozmoe,
 - replace: 'read those local '
-  _tags: [w-r, w-r-+-<th->-+-<1>]
+  _tags:
+  - w-r
+  - w-r-+-<th->-+-<1>
   propagate_case: true
   allow_duplicate: false
-  triggers: ['w1ozlol,']
+  trigger: w1ozlol,
 - replace: 'read those file '
-  _tags: [w-r, w-r-+-<th->-+-<1>]
+  _tags:
+  - w-r
+  - w-r-+-<th->-+-<1>
   propagate_case: true
   allow_duplicate: false
-  triggers: ['w1ozfl,']
+  trigger: w1ozfl,
 - replace: 'read those files '
-  _tags: [w-r, w-r-+-<th->-+-<1>]
+  _tags:
+  - w-r
+  - w-r-+-<th->-+-<1>
   propagate_case: true
   allow_duplicate: false
-  triggers: ['w1ozfls,']
+  trigger: w1ozfls,
 - replace: 'read those directory '
-  _tags: [w-r, w-r-+-<th->-+-<1>]
+  _tags:
+  - w-r
+  - w-r-+-<th->-+-<1>
   propagate_case: true
   allow_duplicate: false
-  triggers: ['w1ozdiw,']
+  trigger: w1ozdiw,
 - replace: 'read those directories '
-  _tags: [w-r, w-r-+-<th->-+-<1>]
+  _tags:
+  - w-r
+  - w-r-+-<th->-+-<1>
   propagate_case: true
   allow_duplicate: false
-  triggers: ['w1ozdiws,']
+  trigger: w1ozdiws,
 - replace: 'read those pull request '
-  _tags: [w-r, w-r-+-<th->-+-<1>]
+  _tags:
+  - w-r
+  - w-r-+-<th->-+-<1>
   propagate_case: true
   allow_duplicate: false
-  triggers: ['w1ozpw,']
+  trigger: w1ozpw,
 - replace: 'read those if '
-  _tags: [w-r, w-r-+-<th->-+-<1>]
+  _tags:
+  - w-r
+  - w-r-+-<th->-+-<1>
   propagate_case: true
   allow_duplicate: false
-  triggers: ['w1ozf,']
+  trigger: w1ozf,
 - replace: 'read those some '
-  _tags: [w-r, w-r-+-<th->-+-<1>]
+  _tags:
+  - w-r
+  - w-r-+-<th->-+-<1>
   propagate_case: true
   allow_duplicate: false
-  triggers: ['w1ozsm,']
+  trigger: w1ozsm,
 - replace: 'read those more '
-  _tags: [w-r, w-r-+-<th->-+-<1>]
+  _tags:
+  - w-r
+  - w-r-+-<th->-+-<1>
   propagate_case: true
   allow_duplicate: false
-  triggers: ['w1ozow,']
+  trigger: w1ozow,
 - replace: 'read those some more '
-  _tags: [w-r, w-r-+-<th->-+-<1>]
+  _tags:
+  - w-r
+  - w-r-+-<th->-+-<1>
   propagate_case: true
   allow_duplicate: false
-  triggers: ['w1ozsmow,']
+  trigger: w1ozsmow,
 - replace: 'read those detail '
-  _tags: [w-r, w-r-+-<th->-+-<1>]
+  _tags:
+  - w-r
+  - w-r-+-<th->-+-<1>
   propagate_case: true
   allow_duplicate: false
-  triggers: ['w1ozde,']
+  trigger: w1ozde,
 - replace: 'read those clear '
-  _tags: [w-r, w-r-+-<th->-+-<1>]
+  _tags:
+  - w-r
+  - w-r-+-<th->-+-<1>
   propagate_case: true
   allow_duplicate: false
-  triggers: ['w1ozqlw,']
+  trigger: w1ozqlw,
 - replace: 'read those summary '
-  _tags: [w-r, w-r-+-<th->-+-<1>]
+  _tags:
+  - w-r
+  - w-r-+-<th->-+-<1>
   propagate_case: true
   allow_duplicate: false
-  triggers: ['w1ozsu,']
+  trigger: w1ozsu,
 - replace: 'read those TODO '
-  _tags: [w-r, w-r-+-<th->-+-<1>]
+  _tags:
+  - w-r
+  - w-r-+-<th->-+-<1>
   propagate_case: true
   allow_duplicate: false
-  triggers: ['w1ozoo,']
+  trigger: w1ozoo,
 - replace: 'read those WS_TODO '
-  _tags: [w-r, w-r-+-<th->-+-<1>]
+  _tags:
+  - w-r
+  - w-r-+-<th->-+-<1>
   propagate_case: true
   allow_duplicate: false
-  triggers: ['w1ozwoo,']
+  trigger: w1ozwoo,
 - replace: 'read those git '
-  _tags: [w-r, w-r-+-<th->-+-<1>]
+  _tags:
+  - w-r
+  - w-r-+-<th->-+-<1>
   propagate_case: true
   allow_duplicate: false
-  triggers: ['w1ozit,']
+  trigger: w1ozit,
 - replace: 'read those web '
-  _tags: [w-r, w-r-+-<th->-+-<1>]
+  _tags:
+  - w-r
+  - w-r-+-<th->-+-<1>
   propagate_case: true
   allow_duplicate: false
-  triggers: ['w1ozeb,']
+  trigger: w1ozeb,
 - replace: 'read their instruction '
-  _tags: [w-r, w-r-+-<th->-+-<1>]
+  _tags:
+  - w-r
+  - w-r-+-<th->-+-<1>
   propagate_case: true
   allow_duplicate: false
-  triggers: ['w1wzin,']
+  trigger: w1wzin,
 - replace: 'read their code '
-  _tags: [w-r, w-r-+-<th->-+-<1>]
+  _tags:
+  - w-r
+  - w-r-+-<th->-+-<1>
   propagate_case: true
   allow_duplicate: false
-  triggers: ['w1wzqo,']
+  trigger: w1wzqo,
 - replace: 'read their script '
-  _tags: [w-r, w-r-+-<th->-+-<1>]
+  _tags:
+  - w-r
+  - w-r-+-<th->-+-<1>
   propagate_case: true
   allow_duplicate: false
-  triggers: ['w1wzsi,']
+  trigger: w1wzsi,
 - replace: 'read their test '
-  _tags: [w-r, w-r-+-<th->-+-<1>]
+  _tags:
+  - w-r
+  - w-r-+-<th->-+-<1>
   propagate_case: true
   allow_duplicate: false
-  triggers: ['w1wzte,']
+  trigger: w1wzte,
 - replace: 'read their commit '
-  _tags: [w-r, w-r-+-<th->-+-<1>]
+  _tags:
+  - w-r
+  - w-r-+-<th->-+-<1>
   propagate_case: true
   allow_duplicate: false
-  triggers: ['w1wzqmi,']
+  trigger: w1wzqmi,
 - replace: 'read their document '
-  _tags: [w-r, w-r-+-<th->-+-<1>]
+  _tags:
+  - w-r
+  - w-r-+-<th->-+-<1>
   propagate_case: true
   allow_duplicate: false
-  triggers: ['w1wzdoq,']
+  trigger: w1wzdoq,
 - replace: 'read their remote '
-  _tags: [w-r, w-r-+-<th->-+-<1>]
+  _tags:
+  - w-r
+  - w-r-+-<th->-+-<1>
   propagate_case: true
   allow_duplicate: false
-  triggers: ['w1wzmoe,']
+  trigger: w1wzmoe,
 - replace: 'read their local '
-  _tags: [w-r, w-r-+-<th->-+-<1>]
+  _tags:
+  - w-r
+  - w-r-+-<th->-+-<1>
   propagate_case: true
   allow_duplicate: false
-  triggers: ['w1wzlol,']
+  trigger: w1wzlol,
 - replace: 'read their file '
-  _tags: [w-r, w-r-+-<th->-+-<1>]
+  _tags:
+  - w-r
+  - w-r-+-<th->-+-<1>
   propagate_case: true
   allow_duplicate: false
-  triggers: ['w1wzfl,']
+  trigger: w1wzfl,
 - replace: 'read their files '
-  _tags: [w-r, w-r-+-<th->-+-<1>]
+  _tags:
+  - w-r
+  - w-r-+-<th->-+-<1>
   propagate_case: true
   allow_duplicate: false
-  triggers: ['w1wzfls,']
+  trigger: w1wzfls,
 - replace: 'read their directory '
-  _tags: [w-r, w-r-+-<th->-+-<1>]
+  _tags:
+  - w-r
+  - w-r-+-<th->-+-<1>
   propagate_case: true
   allow_duplicate: false
-  triggers: ['w1wzdiw,']
+  trigger: w1wzdiw,
 - replace: 'read their directories '
-  _tags: [w-r, w-r-+-<th->-+-<1>]
+  _tags:
+  - w-r
+  - w-r-+-<th->-+-<1>
   propagate_case: true
   allow_duplicate: false
-  triggers: ['w1wzdiws,']
+  trigger: w1wzdiws,
 - replace: 'read their pull request '
-  _tags: [w-r, w-r-+-<th->-+-<1>]
+  _tags:
+  - w-r
+  - w-r-+-<th->-+-<1>
   propagate_case: true
   allow_duplicate: false
-  triggers: ['w1wzpw,']
+  trigger: w1wzpw,
 - replace: 'read their if '
-  _tags: [w-r, w-r-+-<th->-+-<1>]
+  _tags:
+  - w-r
+  - w-r-+-<th->-+-<1>
   propagate_case: true
   allow_duplicate: false
-  triggers: ['w1wzf,']
+  trigger: w1wzf,
 - replace: 'read their some '
-  _tags: [w-r, w-r-+-<th->-+-<1>]
+  _tags:
+  - w-r
+  - w-r-+-<th->-+-<1>
   propagate_case: true
   allow_duplicate: false
-  triggers: ['w1wzsm,']
+  trigger: w1wzsm,
 - replace: 'read their more '
-  _tags: [w-r, w-r-+-<th->-+-<1>]
+  _tags:
+  - w-r
+  - w-r-+-<th->-+-<1>
   propagate_case: true
   allow_duplicate: false
-  triggers: ['w1wzow,']
+  trigger: w1wzow,
 - replace: 'read their some more '
-  _tags: [w-r, w-r-+-<th->-+-<1>]
+  _tags:
+  - w-r
+  - w-r-+-<th->-+-<1>
   propagate_case: true
   allow_duplicate: false
-  triggers: ['w1wzsmow,']
+  trigger: w1wzsmow,
 - replace: 'read their detail '
-  _tags: [w-r, w-r-+-<th->-+-<1>]
+  _tags:
+  - w-r
+  - w-r-+-<th->-+-<1>
   propagate_case: true
   allow_duplicate: false
-  triggers: ['w1wzde,']
+  trigger: w1wzde,
 - replace: 'read their clear '
-  _tags: [w-r, w-r-+-<th->-+-<1>]
+  _tags:
+  - w-r
+  - w-r-+-<th->-+-<1>
   propagate_case: true
   allow_duplicate: false
-  triggers: ['w1wzqlw,']
+  trigger: w1wzqlw,
 - replace: 'read their summary '
-  _tags: [w-r, w-r-+-<th->-+-<1>]
+  _tags:
+  - w-r
+  - w-r-+-<th->-+-<1>
   propagate_case: true
   allow_duplicate: false
-  triggers: ['w1wzsu,']
+  trigger: w1wzsu,
 - replace: 'read their TODO '
-  _tags: [w-r, w-r-+-<th->-+-<1>]
+  _tags:
+  - w-r
+  - w-r-+-<th->-+-<1>
   propagate_case: true
   allow_duplicate: false
-  triggers: ['w1wzoo,']
+  trigger: w1wzoo,
 - replace: 'read their WS_TODO '
-  _tags: [w-r, w-r-+-<th->-+-<1>]
+  _tags:
+  - w-r
+  - w-r-+-<th->-+-<1>
   propagate_case: true
   allow_duplicate: false
-  triggers: ['w1wzwoo,']
+  trigger: w1wzwoo,
 - replace: 'read their git '
-  _tags: [w-r, w-r-+-<th->-+-<1>]
+  _tags:
+  - w-r
+  - w-r-+-<th->-+-<1>
   propagate_case: true
   allow_duplicate: false
-  triggers: ['w1wzit,']
+  trigger: w1wzit,
 - replace: 'read their web '
-  _tags: [w-r, w-r-+-<th->-+-<1>]
+  _tags:
+  - w-r
+  - w-r-+-<th->-+-<1>
   propagate_case: true
   allow_duplicate: false
-  triggers: ['w1wzeb,']
+  trigger: w1wzeb,
 - replace: 'read the instruction '
-  _tags: [w-r, w-r-+-<th->-+-<1>]
+  _tags:
+  - w-r
+  - w-r-+-<th->-+-<1>
   propagate_case: true
   allow_duplicate: false
-  triggers: ['w1hein,']
+  trigger: w1hein,
 - replace: 'read the code '
-  _tags: [w-r, w-r-+-<th->-+-<1>]
+  _tags:
+  - w-r
+  - w-r-+-<th->-+-<1>
   propagate_case: true
   allow_duplicate: false
-  triggers: ['w1heqo,']
+  trigger: w1heqo,
 - replace: 'read the script '
-  _tags: [w-r, w-r-+-<th->-+-<1>]
+  _tags:
+  - w-r
+  - w-r-+-<th->-+-<1>
   propagate_case: true
   allow_duplicate: false
-  triggers: ['w1hesi,']
+  trigger: w1hesi,
 - replace: 'read the test '
-  _tags: [w-r, w-r-+-<th->-+-<1>]
+  _tags:
+  - w-r
+  - w-r-+-<th->-+-<1>
   propagate_case: true
   allow_duplicate: false
-  triggers: ['w1hete,']
+  trigger: w1hete,
 - replace: 'read the commit '
-  _tags: [w-r, w-r-+-<th->-+-<1>]
+  _tags:
+  - w-r
+  - w-r-+-<th->-+-<1>
   propagate_case: true
   allow_duplicate: false
-  triggers: ['w1heqmi,']
+  trigger: w1heqmi,
 - replace: 'read the document '
-  _tags: [w-r, w-r-+-<th->-+-<1>]
+  _tags:
+  - w-r
+  - w-r-+-<th->-+-<1>
   propagate_case: true
   allow_duplicate: false
-  triggers: ['w1hedoq,']
+  trigger: w1hedoq,
 - replace: 'read the remote '
-  _tags: [w-r, w-r-+-<th->-+-<1>]
+  _tags:
+  - w-r
+  - w-r-+-<th->-+-<1>
   propagate_case: true
   allow_duplicate: false
-  triggers: ['w1hemoe,']
+  trigger: w1hemoe,
 - replace: 'read the local '
-  _tags: [w-r, w-r-+-<th->-+-<1>]
+  _tags:
+  - w-r
+  - w-r-+-<th->-+-<1>
   propagate_case: true
   allow_duplicate: false
-  triggers: ['w1helol,']
+  trigger: w1helol,
 - replace: 'read the file '
-  _tags: [w-r, w-r-+-<th->-+-<1>]
+  _tags:
+  - w-r
+  - w-r-+-<th->-+-<1>
   propagate_case: true
   allow_duplicate: false
-  triggers: ['w1hefl,']
+  trigger: w1hefl,
 - replace: 'read the files '
-  _tags: [w-r, w-r-+-<th->-+-<1>]
+  _tags:
+  - w-r
+  - w-r-+-<th->-+-<1>
   propagate_case: true
   allow_duplicate: false
-  triggers: ['w1hefls,']
+  trigger: w1hefls,
 - replace: 'read the directory '
-  _tags: [w-r, w-r-+-<th->-+-<1>]
+  _tags:
+  - w-r
+  - w-r-+-<th->-+-<1>
   propagate_case: true
   allow_duplicate: false
-  triggers: ['w1hediw,']
+  trigger: w1hediw,
 - replace: 'read the directories '
-  _tags: [w-r, w-r-+-<th->-+-<1>]
+  _tags:
+  - w-r
+  - w-r-+-<th->-+-<1>
   propagate_case: true
   allow_duplicate: false
-  triggers: ['w1hediws,']
+  trigger: w1hediws,
 - replace: 'read the pull request '
-  _tags: [w-r, w-r-+-<th->-+-<1>]
+  _tags:
+  - w-r
+  - w-r-+-<th->-+-<1>
   propagate_case: true
   allow_duplicate: false
-  triggers: ['w1hepw,']
+  trigger: w1hepw,
 - replace: 'read the if '
-  _tags: [w-r, w-r-+-<th->-+-<1>]
+  _tags:
+  - w-r
+  - w-r-+-<th->-+-<1>
   propagate_case: true
   allow_duplicate: false
-  triggers: ['w1hef,']
+  trigger: w1hef,
 - replace: 'read the some '
-  _tags: [w-r, w-r-+-<th->-+-<1>]
+  _tags:
+  - w-r
+  - w-r-+-<th->-+-<1>
   propagate_case: true
   allow_duplicate: false
-  triggers: ['w1hesm,']
+  trigger: w1hesm,
 - replace: 'read the more '
-  _tags: [w-r, w-r-+-<th->-+-<1>]
+  _tags:
+  - w-r
+  - w-r-+-<th->-+-<1>
   propagate_case: true
   allow_duplicate: false
-  triggers: ['w1heow,']
+  trigger: w1heow,
 - replace: 'read the some more '
-  _tags: [w-r, w-r-+-<th->-+-<1>]
+  _tags:
+  - w-r
+  - w-r-+-<th->-+-<1>
   propagate_case: true
   allow_duplicate: false
-  triggers: ['w1hesmow,']
+  trigger: w1hesmow,
 - replace: 'read the detail '
-  _tags: [w-r, w-r-+-<th->-+-<1>]
+  _tags:
+  - w-r
+  - w-r-+-<th->-+-<1>
   propagate_case: true
   allow_duplicate: false
-  triggers: ['w1hede,']
+  trigger: w1hede,
 - replace: 'read the clear '
-  _tags: [w-r, w-r-+-<th->-+-<1>]
+  _tags:
+  - w-r
+  - w-r-+-<th->-+-<1>
   propagate_case: true
   allow_duplicate: false
-  triggers: ['w1heqlw,']
+  trigger: w1heqlw,
 - replace: 'read the summary '
-  _tags: [w-r, w-r-+-<th->-+-<1>]
+  _tags:
+  - w-r
+  - w-r-+-<th->-+-<1>
   propagate_case: true
   allow_duplicate: false
-  triggers: ['w1hesu,']
+  trigger: w1hesu,
 - replace: 'read the TODO '
-  _tags: [w-r, w-r-+-<th->-+-<1>]
+  _tags:
+  - w-r
+  - w-r-+-<th->-+-<1>
   propagate_case: true
   allow_duplicate: false
-  triggers: ['w1heoo,']
+  trigger: w1heoo,
 - replace: 'read the WS_TODO '
-  _tags: [w-r, w-r-+-<th->-+-<1>]
+  _tags:
+  - w-r
+  - w-r-+-<th->-+-<1>
   propagate_case: true
   allow_duplicate: false
-  triggers: ['w1hewoo,']
+  trigger: w1hewoo,
 - replace: 'read the git '
-  _tags: [w-r, w-r-+-<th->-+-<1>]
+  _tags:
+  - w-r
+  - w-r-+-<th->-+-<1>
   propagate_case: true
   allow_duplicate: false
-  triggers: ['w1heit,']
+  trigger: w1heit,
 - replace: 'read the web '
-  _tags: [w-r, w-r-+-<th->-+-<1>]
+  _tags:
+  - w-r
+  - w-r-+-<th->-+-<1>
   propagate_case: true
   allow_duplicate: false
-  triggers: ['w1heeb,']
+  trigger: w1heeb,
 - replace: 'write this instruction '
-  _tags: [w-r, w-r-+-<th->-+-<1>]
+  _tags:
+  - w-r
+  - w-r-+-<th->-+-<1>
   propagate_case: true
   allow_duplicate: false
-  triggers: ['w2izin,']
+  trigger: w2izin,
 - replace: 'write this code '
-  _tags: [w-r, w-r-+-<th->-+-<1>]
+  _tags:
+  - w-r
+  - w-r-+-<th->-+-<1>
   propagate_case: true
   allow_duplicate: false
-  triggers: ['w2izqo,']
+  trigger: w2izqo,
 - replace: 'write this script '
-  _tags: [w-r, w-r-+-<th->-+-<1>]
+  _tags:
+  - w-r
+  - w-r-+-<th->-+-<1>
   propagate_case: true
   allow_duplicate: false
-  triggers: ['w2izsi,']
+  trigger: w2izsi,
 - replace: 'write this test '
-  _tags: [w-r, w-r-+-<th->-+-<1>]
+  _tags:
+  - w-r
+  - w-r-+-<th->-+-<1>
   propagate_case: true
   allow_duplicate: false
-  triggers: ['w2izte,']
+  trigger: w2izte,
 - replace: 'write this commit '
-  _tags: [w-r, w-r-+-<th->-+-<1>]
+  _tags:
+  - w-r
+  - w-r-+-<th->-+-<1>
   propagate_case: true
   allow_duplicate: false
-  triggers: ['w2izqmi,']
+  trigger: w2izqmi,
 - replace: 'write this document '
-  _tags: [w-r, w-r-+-<th->-+-<1>]
+  _tags:
+  - w-r
+  - w-r-+-<th->-+-<1>
   propagate_case: true
   allow_duplicate: false
-  triggers: ['w2izdoq,']
+  trigger: w2izdoq,
 - replace: 'write this remote '
-  _tags: [w-r, w-r-+-<th->-+-<1>]
+  _tags:
+  - w-r
+  - w-r-+-<th->-+-<1>
   propagate_case: true
   allow_duplicate: false
-  triggers: ['w2izmoe,']
+  trigger: w2izmoe,
 - replace: 'write this local '
-  _tags: [w-r, w-r-+-<th->-+-<1>]
+  _tags:
+  - w-r
+  - w-r-+-<th->-+-<1>
   propagate_case: true
   allow_duplicate: false
-  triggers: ['w2izlol,']
+  trigger: w2izlol,
 - replace: 'write this file '
-  _tags: [w-r, w-r-+-<th->-+-<1>]
+  _tags:
+  - w-r
+  - w-r-+-<th->-+-<1>
   propagate_case: true
   allow_duplicate: false
-  triggers: ['w2izfl,']
+  trigger: w2izfl,
 - replace: 'write this files '
-  _tags: [w-r, w-r-+-<th->-+-<1>]
+  _tags:
+  - w-r
+  - w-r-+-<th->-+-<1>
   propagate_case: true
   allow_duplicate: false
-  triggers: ['w2izfls,']
+  trigger: w2izfls,
 - replace: 'write this directory '
-  _tags: [w-r, w-r-+-<th->-+-<1>]
+  _tags:
+  - w-r
+  - w-r-+-<th->-+-<1>
   propagate_case: true
   allow_duplicate: false
-  triggers: ['w2izdiw,']
+  trigger: w2izdiw,
 - replace: 'write this directories '
-  _tags: [w-r, w-r-+-<th->-+-<1>]
+  _tags:
+  - w-r
+  - w-r-+-<th->-+-<1>
   propagate_case: true
   allow_duplicate: false
-  triggers: ['w2izdiws,']
+  trigger: w2izdiws,
 - replace: 'write this pull request '
-  _tags: [w-r, w-r-+-<th->-+-<1>]
+  _tags:
+  - w-r
+  - w-r-+-<th->-+-<1>
   propagate_case: true
   allow_duplicate: false
-  triggers: ['w2izpw,']
+  trigger: w2izpw,
 - replace: 'write this if '
-  _tags: [w-r, w-r-+-<th->-+-<1>]
+  _tags:
+  - w-r
+  - w-r-+-<th->-+-<1>
   propagate_case: true
   allow_duplicate: false
-  triggers: ['w2izf,']
+  trigger: w2izf,
 - replace: 'write this some '
-  _tags: [w-r, w-r-+-<th->-+-<1>]
+  _tags:
+  - w-r
+  - w-r-+-<th->-+-<1>
   propagate_case: true
   allow_duplicate: false
-  triggers: ['w2izsm,']
+  trigger: w2izsm,
 - replace: 'write this more '
-  _tags: [w-r, w-r-+-<th->-+-<1>]
+  _tags:
+  - w-r
+  - w-r-+-<th->-+-<1>
   propagate_case: true
   allow_duplicate: false
-  triggers: ['w2izow,']
+  trigger: w2izow,
 - replace: 'write this some more '
-  _tags: [w-r, w-r-+-<th->-+-<1>]
+  _tags:
+  - w-r
+  - w-r-+-<th->-+-<1>
   propagate_case: true
   allow_duplicate: false
-  triggers: ['w2izsmow,']
+  trigger: w2izsmow,
 - replace: 'write this detail '
-  _tags: [w-r, w-r-+-<th->-+-<1>]
+  _tags:
+  - w-r
+  - w-r-+-<th->-+-<1>
   propagate_case: true
   allow_duplicate: false
-  triggers: ['w2izde,']
+  trigger: w2izde,
 - replace: 'write this clear '
-  _tags: [w-r, w-r-+-<th->-+-<1>]
+  _tags:
+  - w-r
+  - w-r-+-<th->-+-<1>
   propagate_case: true
   allow_duplicate: false
-  triggers: ['w2izqlw,']
+  trigger: w2izqlw,
 - replace: 'write this summary '
-  _tags: [w-r, w-r-+-<th->-+-<1>]
+  _tags:
+  - w-r
+  - w-r-+-<th->-+-<1>
   propagate_case: true
   allow_duplicate: false
-  triggers: ['w2izsu,']
+  trigger: w2izsu,
 - replace: 'write this TODO '
-  _tags: [w-r, w-r-+-<th->-+-<1>]
+  _tags:
+  - w-r
+  - w-r-+-<th->-+-<1>
   propagate_case: true
   allow_duplicate: false
-  triggers: ['w2izoo,']
+  trigger: w2izoo,
 - replace: 'write this WS_TODO '
-  _tags: [w-r, w-r-+-<th->-+-<1>]
+  _tags:
+  - w-r
+  - w-r-+-<th->-+-<1>
   propagate_case: true
   allow_duplicate: false
-  triggers: ['w2izwoo,']
+  trigger: w2izwoo,
 - replace: 'write this git '
-  _tags: [w-r, w-r-+-<th->-+-<1>]
+  _tags:
+  - w-r
+  - w-r-+-<th->-+-<1>
   propagate_case: true
   allow_duplicate: false
-  triggers: ['w2izit,']
+  trigger: w2izit,
 - replace: 'write this web '
-  _tags: [w-r, w-r-+-<th->-+-<1>]
+  _tags:
+  - w-r
+  - w-r-+-<th->-+-<1>
   propagate_case: true
   allow_duplicate: false
-  triggers: ['w2izeb,']
+  trigger: w2izeb,
 - replace: 'write that instruction '
-  _tags: [w-r, w-r-+-<th->-+-<1>]
+  _tags:
+  - w-r
+  - w-r-+-<th->-+-<1>
   propagate_case: true
   allow_duplicate: false
-  triggers: ['w2azin,']
+  trigger: w2azin,
 - replace: 'write that code '
-  _tags: [w-r, w-r-+-<th->-+-<1>]
+  _tags:
+  - w-r
+  - w-r-+-<th->-+-<1>
   propagate_case: true
   allow_duplicate: false
-  triggers: ['w2azqo,']
+  trigger: w2azqo,
 - replace: 'write that script '
-  _tags: [w-r, w-r-+-<th->-+-<1>]
+  _tags:
+  - w-r
+  - w-r-+-<th->-+-<1>
   propagate_case: true
   allow_duplicate: false
-  triggers: ['w2azsi,']
+  trigger: w2azsi,
 - replace: 'write that test '
-  _tags: [w-r, w-r-+-<th->-+-<1>]
+  _tags:
+  - w-r
+  - w-r-+-<th->-+-<1>
   propagate_case: true
   allow_duplicate: false
-  triggers: ['w2azte,']
+  trigger: w2azte,
 - replace: 'write that commit '
-  _tags: [w-r, w-r-+-<th->-+-<1>]
+  _tags:
+  - w-r
+  - w-r-+-<th->-+-<1>
   propagate_case: true
   allow_duplicate: false
-  triggers: ['w2azqmi,']
+  trigger: w2azqmi,
 - replace: 'write that document '
-  _tags: [w-r, w-r-+-<th->-+-<1>]
+  _tags:
+  - w-r
+  - w-r-+-<th->-+-<1>
   propagate_case: true
   allow_duplicate: false
-  triggers: ['w2azdoq,']
+  trigger: w2azdoq,
 - replace: 'write that remote '
-  _tags: [w-r, w-r-+-<th->-+-<1>]
+  _tags:
+  - w-r
+  - w-r-+-<th->-+-<1>
   propagate_case: true
   allow_duplicate: false
-  triggers: ['w2azmoe,']
+  trigger: w2azmoe,
 - replace: 'write that local '
-  _tags: [w-r, w-r-+-<th->-+-<1>]
+  _tags:
+  - w-r
+  - w-r-+-<th->-+-<1>
   propagate_case: true
   allow_duplicate: false
-  triggers: ['w2azlol,']
+  trigger: w2azlol,
 - replace: 'write that file '
-  _tags: [w-r, w-r-+-<th->-+-<1>]
+  _tags:
+  - w-r
+  - w-r-+-<th->-+-<1>
   propagate_case: true
   allow_duplicate: false
-  triggers: ['w2azfl,']
+  trigger: w2azfl,
 - replace: 'write that files '
-  _tags: [w-r, w-r-+-<th->-+-<1>]
+  _tags:
+  - w-r
+  - w-r-+-<th->-+-<1>
   propagate_case: true
   allow_duplicate: false
-  triggers: ['w2azfls,']
+  trigger: w2azfls,
 - replace: 'write that directory '
-  _tags: [w-r, w-r-+-<th->-+-<1>]
+  _tags:
+  - w-r
+  - w-r-+-<th->-+-<1>
   propagate_case: true
   allow_duplicate: false
-  triggers: ['w2azdiw,']
+  trigger: w2azdiw,
 - replace: 'write that directories '
-  _tags: [w-r, w-r-+-<th->-+-<1>]
+  _tags:
+  - w-r
+  - w-r-+-<th->-+-<1>
   propagate_case: true
   allow_duplicate: false
-  triggers: ['w2azdiws,']
+  trigger: w2azdiws,
 - replace: 'write that pull request '
-  _tags: [w-r, w-r-+-<th->-+-<1>]
+  _tags:
+  - w-r
+  - w-r-+-<th->-+-<1>
   propagate_case: true
   allow_duplicate: false
-  triggers: ['w2azpw,']
+  trigger: w2azpw,
 - replace: 'write that if '
-  _tags: [w-r, w-r-+-<th->-+-<1>]
+  _tags:
+  - w-r
+  - w-r-+-<th->-+-<1>
   propagate_case: true
   allow_duplicate: false
-  triggers: ['w2azf,']
+  trigger: w2azf,
 - replace: 'write that some '
-  _tags: [w-r, w-r-+-<th->-+-<1>]
+  _tags:
+  - w-r
+  - w-r-+-<th->-+-<1>
   propagate_case: true
   allow_duplicate: false
-  triggers: ['w2azsm,']
+  trigger: w2azsm,
 - replace: 'write that more '
-  _tags: [w-r, w-r-+-<th->-+-<1>]
+  _tags:
+  - w-r
+  - w-r-+-<th->-+-<1>
   propagate_case: true
   allow_duplicate: false
-  triggers: ['w2azow,']
+  trigger: w2azow,
 - replace: 'write that some more '
-  _tags: [w-r, w-r-+-<th->-+-<1>]
+  _tags:
+  - w-r
+  - w-r-+-<th->-+-<1>
   propagate_case: true
   allow_duplicate: false
-  triggers: ['w2azsmow,']
+  trigger: w2azsmow,
 - replace: 'write that detail '
-  _tags: [w-r, w-r-+-<th->-+-<1>]
+  _tags:
+  - w-r
+  - w-r-+-<th->-+-<1>
   propagate_case: true
   allow_duplicate: false
-  triggers: ['w2azde,']
+  trigger: w2azde,
 - replace: 'write that clear '
-  _tags: [w-r, w-r-+-<th->-+-<1>]
+  _tags:
+  - w-r
+  - w-r-+-<th->-+-<1>
   propagate_case: true
   allow_duplicate: false
-  triggers: ['w2azqlw,']
+  trigger: w2azqlw,
 - replace: 'write that summary '
-  _tags: [w-r, w-r-+-<th->-+-<1>]
+  _tags:
+  - w-r
+  - w-r-+-<th->-+-<1>
   propagate_case: true
   allow_duplicate: false
-  triggers: ['w2azsu,']
+  trigger: w2azsu,
 - replace: 'write that TODO '
-  _tags: [w-r, w-r-+-<th->-+-<1>]
+  _tags:
+  - w-r
+  - w-r-+-<th->-+-<1>
   propagate_case: true
   allow_duplicate: false
-  triggers: ['w2azoo,']
+  trigger: w2azoo,
 - replace: 'write that WS_TODO '
-  _tags: [w-r, w-r-+-<th->-+-<1>]
+  _tags:
+  - w-r
+  - w-r-+-<th->-+-<1>
   propagate_case: true
   allow_duplicate: false
-  triggers: ['w2azwoo,']
+  trigger: w2azwoo,
 - replace: 'write that git '
-  _tags: [w-r, w-r-+-<th->-+-<1>]
+  _tags:
+  - w-r
+  - w-r-+-<th->-+-<1>
   propagate_case: true
   allow_duplicate: false
-  triggers: ['w2azit,']
+  trigger: w2azit,
 - replace: 'write that web '
-  _tags: [w-r, w-r-+-<th->-+-<1>]
+  _tags:
+  - w-r
+  - w-r-+-<th->-+-<1>
   propagate_case: true
   allow_duplicate: false
-  triggers: ['w2azeb,']
+  trigger: w2azeb,
 - replace: 'write these instruction '
-  _tags: [w-r, w-r-+-<th->-+-<1>]
+  _tags:
+  - w-r
+  - w-r-+-<th->-+-<1>
   propagate_case: true
   allow_duplicate: false
-  triggers: ['w2ezin,']
+  trigger: w2ezin,
 - replace: 'write these code '
-  _tags: [w-r, w-r-+-<th->-+-<1>]
+  _tags:
+  - w-r
+  - w-r-+-<th->-+-<1>
   propagate_case: true
   allow_duplicate: false
-  triggers: ['w2ezqo,']
+  trigger: w2ezqo,
 - replace: 'write these script '
-  _tags: [w-r, w-r-+-<th->-+-<1>]
+  _tags:
+  - w-r
+  - w-r-+-<th->-+-<1>
   propagate_case: true
   allow_duplicate: false
-  triggers: ['w2ezsi,']
+  trigger: w2ezsi,
 - replace: 'write these test '
-  _tags: [w-r, w-r-+-<th->-+-<1>]
+  _tags:
+  - w-r
+  - w-r-+-<th->-+-<1>
   propagate_case: true
   allow_duplicate: false
-  triggers: ['w2ezte,']
+  trigger: w2ezte,
 - replace: 'write these commit '
-  _tags: [w-r, w-r-+-<th->-+-<1>]
+  _tags:
+  - w-r
+  - w-r-+-<th->-+-<1>
   propagate_case: true
   allow_duplicate: false
-  triggers: ['w2ezqmi,']
+  trigger: w2ezqmi,
 - replace: 'write these document '
-  _tags: [w-r, w-r-+-<th->-+-<1>]
+  _tags:
+  - w-r
+  - w-r-+-<th->-+-<1>
   propagate_case: true
   allow_duplicate: false
-  triggers: ['w2ezdoq,']
+  trigger: w2ezdoq,
 - replace: 'write these remote '
-  _tags: [w-r, w-r-+-<th->-+-<1>]
+  _tags:
+  - w-r
+  - w-r-+-<th->-+-<1>
   propagate_case: true
   allow_duplicate: false
-  triggers: ['w2ezmoe,']
+  trigger: w2ezmoe,
 - replace: 'write these local '
-  _tags: [w-r, w-r-+-<th->-+-<1>]
+  _tags:
+  - w-r
+  - w-r-+-<th->-+-<1>
   propagate_case: true
   allow_duplicate: false
-  triggers: ['w2ezlol,']
+  trigger: w2ezlol,
 - replace: 'write these file '
-  _tags: [w-r, w-r-+-<th->-+-<1>]
+  _tags:
+  - w-r
+  - w-r-+-<th->-+-<1>
   propagate_case: true
   allow_duplicate: false
-  triggers: ['w2ezfl,']
+  trigger: w2ezfl,
 - replace: 'write these files '
-  _tags: [w-r, w-r-+-<th->-+-<1>]
+  _tags:
+  - w-r
+  - w-r-+-<th->-+-<1>
   propagate_case: true
   allow_duplicate: false
-  triggers: ['w2ezfls,']
+  trigger: w2ezfls,
 - replace: 'write these directory '
-  _tags: [w-r, w-r-+-<th->-+-<1>]
+  _tags:
+  - w-r
+  - w-r-+-<th->-+-<1>
   propagate_case: true
   allow_duplicate: false
-  triggers: ['w2ezdiw,']
+  trigger: w2ezdiw,
 - replace: 'write these directories '
-  _tags: [w-r, w-r-+-<th->-+-<1>]
+  _tags:
+  - w-r
+  - w-r-+-<th->-+-<1>
   propagate_case: true
   allow_duplicate: false
-  triggers: ['w2ezdiws,']
+  trigger: w2ezdiws,
 - replace: 'write these pull request '
-  _tags: [w-r, w-r-+-<th->-+-<1>]
+  _tags:
+  - w-r
+  - w-r-+-<th->-+-<1>
   propagate_case: true
   allow_duplicate: false
-  triggers: ['w2ezpw,']
+  trigger: w2ezpw,
 - replace: 'write these if '
-  _tags: [w-r, w-r-+-<th->-+-<1>]
+  _tags:
+  - w-r
+  - w-r-+-<th->-+-<1>
   propagate_case: true
   allow_duplicate: false
-  triggers: ['w2ezf,']
+  trigger: w2ezf,
 - replace: 'write these some '
-  _tags: [w-r, w-r-+-<th->-+-<1>]
+  _tags:
+  - w-r
+  - w-r-+-<th->-+-<1>
   propagate_case: true
   allow_duplicate: false
-  triggers: ['w2ezsm,']
+  trigger: w2ezsm,
 - replace: 'write these more '
-  _tags: [w-r, w-r-+-<th->-+-<1>]
+  _tags:
+  - w-r
+  - w-r-+-<th->-+-<1>
   propagate_case: true
   allow_duplicate: false
-  triggers: ['w2ezow,']
+  trigger: w2ezow,
 - replace: 'write these some more '
-  _tags: [w-r, w-r-+-<th->-+-<1>]
+  _tags:
+  - w-r
+  - w-r-+-<th->-+-<1>
   propagate_case: true
   allow_duplicate: false
-  triggers: ['w2ezsmow,']
+  trigger: w2ezsmow,
 - replace: 'write these detail '
-  _tags: [w-r, w-r-+-<th->-+-<1>]
+  _tags:
+  - w-r
+  - w-r-+-<th->-+-<1>
   propagate_case: true
   allow_duplicate: false
-  triggers: ['w2ezde,']
+  trigger: w2ezde,
 - replace: 'write these clear '
-  _tags: [w-r, w-r-+-<th->-+-<1>]
+  _tags:
+  - w-r
+  - w-r-+-<th->-+-<1>
   propagate_case: true
   allow_duplicate: false
-  triggers: ['w2ezqlw,']
+  trigger: w2ezqlw,
 - replace: 'write these summary '
-  _tags: [w-r, w-r-+-<th->-+-<1>]
+  _tags:
+  - w-r
+  - w-r-+-<th->-+-<1>
   propagate_case: true
   allow_duplicate: false
-  triggers: ['w2ezsu,']
+  trigger: w2ezsu,
 - replace: 'write these TODO '
-  _tags: [w-r, w-r-+-<th->-+-<1>]
+  _tags:
+  - w-r
+  - w-r-+-<th->-+-<1>
   propagate_case: true
   allow_duplicate: false
-  triggers: ['w2ezoo,']
+  trigger: w2ezoo,
 - replace: 'write these WS_TODO '
-  _tags: [w-r, w-r-+-<th->-+-<1>]
+  _tags:
+  - w-r
+  - w-r-+-<th->-+-<1>
   propagate_case: true
   allow_duplicate: false
-  triggers: ['w2ezwoo,']
+  trigger: w2ezwoo,
 - replace: 'write these git '
-  _tags: [w-r, w-r-+-<th->-+-<1>]
+  _tags:
+  - w-r
+  - w-r-+-<th->-+-<1>
   propagate_case: true
   allow_duplicate: false
-  triggers: ['w2ezit,']
+  trigger: w2ezit,
 - replace: 'write these web '
-  _tags: [w-r, w-r-+-<th->-+-<1>]
+  _tags:
+  - w-r
+  - w-r-+-<th->-+-<1>
   propagate_case: true
   allow_duplicate: false
-  triggers: ['w2ezeb,']
+  trigger: w2ezeb,
 - replace: 'write those instruction '
-  _tags: [w-r, w-r-+-<th->-+-<1>]
+  _tags:
+  - w-r
+  - w-r-+-<th->-+-<1>
   propagate_case: true
   allow_duplicate: false
-  triggers: ['w2ozin,']
+  trigger: w2ozin,
 - replace: 'write those code '
-  _tags: [w-r, w-r-+-<th->-+-<1>]
+  _tags:
+  - w-r
+  - w-r-+-<th->-+-<1>
   propagate_case: true
   allow_duplicate: false
-  triggers: ['w2ozqo,']
+  trigger: w2ozqo,
 - replace: 'write those script '
-  _tags: [w-r, w-r-+-<th->-+-<1>]
+  _tags:
+  - w-r
+  - w-r-+-<th->-+-<1>
   propagate_case: true
   allow_duplicate: false
-  triggers: ['w2ozsi,']
+  trigger: w2ozsi,
 - replace: 'write those test '
-  _tags: [w-r, w-r-+-<th->-+-<1>]
+  _tags:
+  - w-r
+  - w-r-+-<th->-+-<1>
   propagate_case: true
   allow_duplicate: false
-  triggers: ['w2ozte,']
+  trigger: w2ozte,
 - replace: 'write those commit '
-  _tags: [w-r, w-r-+-<th->-+-<1>]
+  _tags:
+  - w-r
+  - w-r-+-<th->-+-<1>
   propagate_case: true
   allow_duplicate: false
-  triggers: ['w2ozqmi,']
+  trigger: w2ozqmi,
 - replace: 'write those document '
-  _tags: [w-r, w-r-+-<th->-+-<1>]
+  _tags:
+  - w-r
+  - w-r-+-<th->-+-<1>
   propagate_case: true
   allow_duplicate: false
-  triggers: ['w2ozdoq,']
+  trigger: w2ozdoq,
 - replace: 'write those remote '
-  _tags: [w-r, w-r-+-<th->-+-<1>]
+  _tags:
+  - w-r
+  - w-r-+-<th->-+-<1>
   propagate_case: true
   allow_duplicate: false
-  triggers: ['w2ozmoe,']
+  trigger: w2ozmoe,
 - replace: 'write those local '
-  _tags: [w-r, w-r-+-<th->-+-<1>]
+  _tags:
+  - w-r
+  - w-r-+-<th->-+-<1>
   propagate_case: true
   allow_duplicate: false
-  triggers: ['w2ozlol,']
+  trigger: w2ozlol,
 - replace: 'write those file '
-  _tags: [w-r, w-r-+-<th->-+-<1>]
+  _tags:
+  - w-r
+  - w-r-+-<th->-+-<1>
   propagate_case: true
   allow_duplicate: false
-  triggers: ['w2ozfl,']
+  trigger: w2ozfl,
 - replace: 'write those files '
-  _tags: [w-r, w-r-+-<th->-+-<1>]
+  _tags:
+  - w-r
+  - w-r-+-<th->-+-<1>
   propagate_case: true
   allow_duplicate: false
-  triggers: ['w2ozfls,']
+  trigger: w2ozfls,
 - replace: 'write those directory '
-  _tags: [w-r, w-r-+-<th->-+-<1>]
+  _tags:
+  - w-r
+  - w-r-+-<th->-+-<1>
   propagate_case: true
   allow_duplicate: false
-  triggers: ['w2ozdiw,']
+  trigger: w2ozdiw,
 - replace: 'write those directories '
-  _tags: [w-r, w-r-+-<th->-+-<1>]
+  _tags:
+  - w-r
+  - w-r-+-<th->-+-<1>
   propagate_case: true
   allow_duplicate: false
-  triggers: ['w2ozdiws,']
+  trigger: w2ozdiws,
 - replace: 'write those pull request '
-  _tags: [w-r, w-r-+-<th->-+-<1>]
+  _tags:
+  - w-r
+  - w-r-+-<th->-+-<1>
   propagate_case: true
   allow_duplicate: false
-  triggers: ['w2ozpw,']
+  trigger: w2ozpw,
 - replace: 'write those if '
-  _tags: [w-r, w-r-+-<th->-+-<1>]
+  _tags:
+  - w-r
+  - w-r-+-<th->-+-<1>
   propagate_case: true
   allow_duplicate: false
-  triggers: ['w2ozf,']
+  trigger: w2ozf,
 - replace: 'write those some '
-  _tags: [w-r, w-r-+-<th->-+-<1>]
+  _tags:
+  - w-r
+  - w-r-+-<th->-+-<1>
   propagate_case: true
   allow_duplicate: false
-  triggers: ['w2ozsm,']
+  trigger: w2ozsm,
 - replace: 'write those more '
-  _tags: [w-r, w-r-+-<th->-+-<1>]
+  _tags:
+  - w-r
+  - w-r-+-<th->-+-<1>
   propagate_case: true
   allow_duplicate: false
-  triggers: ['w2ozow,']
+  trigger: w2ozow,
 - replace: 'write those some more '
-  _tags: [w-r, w-r-+-<th->-+-<1>]
+  _tags:
+  - w-r
+  - w-r-+-<th->-+-<1>
   propagate_case: true
   allow_duplicate: false
-  triggers: ['w2ozsmow,']
+  trigger: w2ozsmow,
 - replace: 'write those detail '
-  _tags: [w-r, w-r-+-<th->-+-<1>]
+  _tags:
+  - w-r
+  - w-r-+-<th->-+-<1>
   propagate_case: true
   allow_duplicate: false
-  triggers: ['w2ozde,']
+  trigger: w2ozde,
 - replace: 'write those clear '
-  _tags: [w-r, w-r-+-<th->-+-<1>]
+  _tags:
+  - w-r
+  - w-r-+-<th->-+-<1>
   propagate_case: true
   allow_duplicate: false
-  triggers: ['w2ozqlw,']
+  trigger: w2ozqlw,
 - replace: 'write those summary '
-  _tags: [w-r, w-r-+-<th->-+-<1>]
+  _tags:
+  - w-r
+  - w-r-+-<th->-+-<1>
   propagate_case: true
   allow_duplicate: false
-  triggers: ['w2ozsu,']
+  trigger: w2ozsu,
 - replace: 'write those TODO '
-  _tags: [w-r, w-r-+-<th->-+-<1>]
+  _tags:
+  - w-r
+  - w-r-+-<th->-+-<1>
   propagate_case: true
   allow_duplicate: false
-  triggers: ['w2ozoo,']
+  trigger: w2ozoo,
 - replace: 'write those WS_TODO '
-  _tags: [w-r, w-r-+-<th->-+-<1>]
+  _tags:
+  - w-r
+  - w-r-+-<th->-+-<1>
   propagate_case: true
   allow_duplicate: false
-  triggers: ['w2ozwoo,']
+  trigger: w2ozwoo,
 - replace: 'write those git '
-  _tags: [w-r, w-r-+-<th->-+-<1>]
+  _tags:
+  - w-r
+  - w-r-+-<th->-+-<1>
   propagate_case: true
   allow_duplicate: false
-  triggers: ['w2ozit,']
+  trigger: w2ozit,
 - replace: 'write those web '
-  _tags: [w-r, w-r-+-<th->-+-<1>]
+  _tags:
+  - w-r
+  - w-r-+-<th->-+-<1>
   propagate_case: true
   allow_duplicate: false
-  triggers: ['w2ozeb,']
+  trigger: w2ozeb,
 - replace: 'write their instruction '
-  _tags: [w-r, w-r-+-<th->-+-<1>]
+  _tags:
+  - w-r
+  - w-r-+-<th->-+-<1>
   propagate_case: true
   allow_duplicate: false
-  triggers: ['w2wzin,']
+  trigger: w2wzin,
 - replace: 'write their code '
-  _tags: [w-r, w-r-+-<th->-+-<1>]
+  _tags:
+  - w-r
+  - w-r-+-<th->-+-<1>
   propagate_case: true
   allow_duplicate: false
-  triggers: ['w2wzqo,']
+  trigger: w2wzqo,
 - replace: 'write their script '
-  _tags: [w-r, w-r-+-<th->-+-<1>]
+  _tags:
+  - w-r
+  - w-r-+-<th->-+-<1>
   propagate_case: true
   allow_duplicate: false
-  triggers: ['w2wzsi,']
+  trigger: w2wzsi,
 - replace: 'write their test '
-  _tags: [w-r, w-r-+-<th->-+-<1>]
+  _tags:
+  - w-r
+  - w-r-+-<th->-+-<1>
   propagate_case: true
   allow_duplicate: false
-  triggers: ['w2wzte,']
+  trigger: w2wzte,
 - replace: 'write their commit '
-  _tags: [w-r, w-r-+-<th->-+-<1>]
+  _tags:
+  - w-r
+  - w-r-+-<th->-+-<1>
   propagate_case: true
   allow_duplicate: false
-  triggers: ['w2wzqmi,']
+  trigger: w2wzqmi,
 - replace: 'write their document '
-  _tags: [w-r, w-r-+-<th->-+-<1>]
+  _tags:
+  - w-r
+  - w-r-+-<th->-+-<1>
   propagate_case: true
   allow_duplicate: false
-  triggers: ['w2wzdoq,']
+  trigger: w2wzdoq,
 - replace: 'write their remote '
-  _tags: [w-r, w-r-+-<th->-+-<1>]
+  _tags:
+  - w-r
+  - w-r-+-<th->-+-<1>
   propagate_case: true
   allow_duplicate: false
-  triggers: ['w2wzmoe,']
+  trigger: w2wzmoe,
 - replace: 'write their local '
-  _tags: [w-r, w-r-+-<th->-+-<1>]
+  _tags:
+  - w-r
+  - w-r-+-<th->-+-<1>
   propagate_case: true
   allow_duplicate: false
-  triggers: ['w2wzlol,']
+  trigger: w2wzlol,
 - replace: 'write their file '
-  _tags: [w-r, w-r-+-<th->-+-<1>]
+  _tags:
+  - w-r
+  - w-r-+-<th->-+-<1>
   propagate_case: true
   allow_duplicate: false
-  triggers: ['w2wzfl,']
+  trigger: w2wzfl,
 - replace: 'write their files '
-  _tags: [w-r, w-r-+-<th->-+-<1>]
+  _tags:
+  - w-r
+  - w-r-+-<th->-+-<1>
   propagate_case: true
   allow_duplicate: false
-  triggers: ['w2wzfls,']
+  trigger: w2wzfls,
 - replace: 'write their directory '
-  _tags: [w-r, w-r-+-<th->-+-<1>]
+  _tags:
+  - w-r
+  - w-r-+-<th->-+-<1>
   propagate_case: true
   allow_duplicate: false
-  triggers: ['w2wzdiw,']
+  trigger: w2wzdiw,
 - replace: 'write their directories '
-  _tags: [w-r, w-r-+-<th->-+-<1>]
+  _tags:
+  - w-r
+  - w-r-+-<th->-+-<1>
   propagate_case: true
   allow_duplicate: false
-  triggers: ['w2wzdiws,']
+  trigger: w2wzdiws,
 - replace: 'write their pull request '
-  _tags: [w-r, w-r-+-<th->-+-<1>]
+  _tags:
+  - w-r
+  - w-r-+-<th->-+-<1>
   propagate_case: true
   allow_duplicate: false
-  triggers: ['w2wzpw,']
+  trigger: w2wzpw,
 - replace: 'write their if '
-  _tags: [w-r, w-r-+-<th->-+-<1>]
+  _tags:
+  - w-r
+  - w-r-+-<th->-+-<1>
   propagate_case: true
   allow_duplicate: false
-  triggers: ['w2wzf,']
+  trigger: w2wzf,
 - replace: 'write their some '
-  _tags: [w-r, w-r-+-<th->-+-<1>]
+  _tags:
+  - w-r
+  - w-r-+-<th->-+-<1>
   propagate_case: true
   allow_duplicate: false
-  triggers: ['w2wzsm,']
+  trigger: w2wzsm,
 - replace: 'write their more '
-  _tags: [w-r, w-r-+-<th->-+-<1>]
+  _tags:
+  - w-r
+  - w-r-+-<th->-+-<1>
   propagate_case: true
   allow_duplicate: false
-  triggers: ['w2wzow,']
+  trigger: w2wzow,
 - replace: 'write their some more '
-  _tags: [w-r, w-r-+-<th->-+-<1>]
+  _tags:
+  - w-r
+  - w-r-+-<th->-+-<1>
   propagate_case: true
   allow_duplicate: false
-  triggers: ['w2wzsmow,']
+  trigger: w2wzsmow,
 - replace: 'write their detail '
-  _tags: [w-r, w-r-+-<th->-+-<1>]
+  _tags:
+  - w-r
+  - w-r-+-<th->-+-<1>
   propagate_case: true
   allow_duplicate: false
-  triggers: ['w2wzde,']
+  trigger: w2wzde,
 - replace: 'write their clear '
-  _tags: [w-r, w-r-+-<th->-+-<1>]
+  _tags:
+  - w-r
+  - w-r-+-<th->-+-<1>
   propagate_case: true
   allow_duplicate: false
-  triggers: ['w2wzqlw,']
+  trigger: w2wzqlw,
 - replace: 'write their summary '
-  _tags: [w-r, w-r-+-<th->-+-<1>]
+  _tags:
+  - w-r
+  - w-r-+-<th->-+-<1>
   propagate_case: true
   allow_duplicate: false
-  triggers: ['w2wzsu,']
+  trigger: w2wzsu,
 - replace: 'write their TODO '
-  _tags: [w-r, w-r-+-<th->-+-<1>]
+  _tags:
+  - w-r
+  - w-r-+-<th->-+-<1>
   propagate_case: true
   allow_duplicate: false
-  triggers: ['w2wzoo,']
+  trigger: w2wzoo,
 - replace: 'write their WS_TODO '
-  _tags: [w-r, w-r-+-<th->-+-<1>]
+  _tags:
+  - w-r
+  - w-r-+-<th->-+-<1>
   propagate_case: true
   allow_duplicate: false
-  triggers: ['w2wzwoo,']
+  trigger: w2wzwoo,
 - replace: 'write their git '
-  _tags: [w-r, w-r-+-<th->-+-<1>]
+  _tags:
+  - w-r
+  - w-r-+-<th->-+-<1>
   propagate_case: true
   allow_duplicate: false
-  triggers: ['w2wzit,']
+  trigger: w2wzit,
 - replace: 'write their web '
-  _tags: [w-r, w-r-+-<th->-+-<1>]
+  _tags:
+  - w-r
+  - w-r-+-<th->-+-<1>
   propagate_case: true
   allow_duplicate: false
-  triggers: ['w2wzeb,']
+  trigger: w2wzeb,
 - replace: 'write the instruction '
-  _tags: [w-r, w-r-+-<th->-+-<1>]
+  _tags:
+  - w-r
+  - w-r-+-<th->-+-<1>
   propagate_case: true
   allow_duplicate: false
-  triggers: ['w2hein,']
+  trigger: w2hein,
 - replace: 'write the code '
-  _tags: [w-r, w-r-+-<th->-+-<1>]
+  _tags:
+  - w-r
+  - w-r-+-<th->-+-<1>
   propagate_case: true
   allow_duplicate: false
-  triggers: ['w2heqo,']
+  trigger: w2heqo,
 - replace: 'write the script '
-  _tags: [w-r, w-r-+-<th->-+-<1>]
+  _tags:
+  - w-r
+  - w-r-+-<th->-+-<1>
   propagate_case: true
   allow_duplicate: false
-  triggers: ['w2hesi,']
+  trigger: w2hesi,
 - replace: 'write the test '
-  _tags: [w-r, w-r-+-<th->-+-<1>]
+  _tags:
+  - w-r
+  - w-r-+-<th->-+-<1>
   propagate_case: true
   allow_duplicate: false
-  triggers: ['w2hete,']
+  trigger: w2hete,
 - replace: 'write the commit '
-  _tags: [w-r, w-r-+-<th->-+-<1>]
+  _tags:
+  - w-r
+  - w-r-+-<th->-+-<1>
   propagate_case: true
   allow_duplicate: false
-  triggers: ['w2heqmi,']
+  trigger: w2heqmi,
 - replace: 'write the document '
-  _tags: [w-r, w-r-+-<th->-+-<1>]
+  _tags:
+  - w-r
+  - w-r-+-<th->-+-<1>
   propagate_case: true
   allow_duplicate: false
-  triggers: ['w2hedoq,']
+  trigger: w2hedoq,
 - replace: 'write the remote '
-  _tags: [w-r, w-r-+-<th->-+-<1>]
+  _tags:
+  - w-r
+  - w-r-+-<th->-+-<1>
   propagate_case: true
   allow_duplicate: false
-  triggers: ['w2hemoe,']
+  trigger: w2hemoe,
 - replace: 'write the local '
-  _tags: [w-r, w-r-+-<th->-+-<1>]
+  _tags:
+  - w-r
+  - w-r-+-<th->-+-<1>
   propagate_case: true
   allow_duplicate: false
-  triggers: ['w2helol,']
+  trigger: w2helol,
 - replace: 'write the file '
-  _tags: [w-r, w-r-+-<th->-+-<1>]
+  _tags:
+  - w-r
+  - w-r-+-<th->-+-<1>
   propagate_case: true
   allow_duplicate: false
-  triggers: ['w2hefl,']
+  trigger: w2hefl,
 - replace: 'write the files '
-  _tags: [w-r, w-r-+-<th->-+-<1>]
+  _tags:
+  - w-r
+  - w-r-+-<th->-+-<1>
   propagate_case: true
   allow_duplicate: false
-  triggers: ['w2hefls,']
+  trigger: w2hefls,
 - replace: 'write the directory '
-  _tags: [w-r, w-r-+-<th->-+-<1>]
+  _tags:
+  - w-r
+  - w-r-+-<th->-+-<1>
   propagate_case: true
   allow_duplicate: false
-  triggers: ['w2hediw,']
+  trigger: w2hediw,
 - replace: 'write the directories '
-  _tags: [w-r, w-r-+-<th->-+-<1>]
+  _tags:
+  - w-r
+  - w-r-+-<th->-+-<1>
   propagate_case: true
   allow_duplicate: false
-  triggers: ['w2hediws,']
+  trigger: w2hediws,
 - replace: 'write the pull request '
-  _tags: [w-r, w-r-+-<th->-+-<1>]
+  _tags:
+  - w-r
+  - w-r-+-<th->-+-<1>
   propagate_case: true
   allow_duplicate: false
-  triggers: ['w2hepw,']
+  trigger: w2hepw,
 - replace: 'write the if '
-  _tags: [w-r, w-r-+-<th->-+-<1>]
+  _tags:
+  - w-r
+  - w-r-+-<th->-+-<1>
   propagate_case: true
   allow_duplicate: false
-  triggers: ['w2hef,']
+  trigger: w2hef,
 - replace: 'write the some '
-  _tags: [w-r, w-r-+-<th->-+-<1>]
+  _tags:
+  - w-r
+  - w-r-+-<th->-+-<1>
   propagate_case: true
   allow_duplicate: false
-  triggers: ['w2hesm,']
+  trigger: w2hesm,
 - replace: 'write the more '
-  _tags: [w-r, w-r-+-<th->-+-<1>]
+  _tags:
+  - w-r
+  - w-r-+-<th->-+-<1>
   propagate_case: true
   allow_duplicate: false
-  triggers: ['w2heow,']
+  trigger: w2heow,
 - replace: 'write the some more '
-  _tags: [w-r, w-r-+-<th->-+-<1>]
+  _tags:
+  - w-r
+  - w-r-+-<th->-+-<1>
   propagate_case: true
   allow_duplicate: false
-  triggers: ['w2hesmow,']
+  trigger: w2hesmow,
 - replace: 'write the detail '
-  _tags: [w-r, w-r-+-<th->-+-<1>]
+  _tags:
+  - w-r
+  - w-r-+-<th->-+-<1>
   propagate_case: true
   allow_duplicate: false
-  triggers: ['w2hede,']
+  trigger: w2hede,
 - replace: 'write the clear '
-  _tags: [w-r, w-r-+-<th->-+-<1>]
+  _tags:
+  - w-r
+  - w-r-+-<th->-+-<1>
   propagate_case: true
   allow_duplicate: false
-  triggers: ['w2heqlw,']
+  trigger: w2heqlw,
 - replace: 'write the summary '
-  _tags: [w-r, w-r-+-<th->-+-<1>]
+  _tags:
+  - w-r
+  - w-r-+-<th->-+-<1>
   propagate_case: true
   allow_duplicate: false
-  triggers: ['w2hesu,']
+  trigger: w2hesu,
 - replace: 'write the TODO '
-  _tags: [w-r, w-r-+-<th->-+-<1>]
+  _tags:
+  - w-r
+  - w-r-+-<th->-+-<1>
   propagate_case: true
   allow_duplicate: false
-  triggers: ['w2heoo,']
+  trigger: w2heoo,
 - replace: 'write the WS_TODO '
-  _tags: [w-r, w-r-+-<th->-+-<1>]
+  _tags:
+  - w-r
+  - w-r-+-<th->-+-<1>
   propagate_case: true
   allow_duplicate: false
-  triggers: ['w2hewoo,']
+  trigger: w2hewoo,
 - replace: 'write the git '
-  _tags: [w-r, w-r-+-<th->-+-<1>]
+  _tags:
+  - w-r
+  - w-r-+-<th->-+-<1>
   propagate_case: true
   allow_duplicate: false
-  triggers: ['w2heit,']
+  trigger: w2heit,
 - replace: 'write the web '
-  _tags: [w-r, w-r-+-<th->-+-<1>]
+  _tags:
+  - w-r
+  - w-r-+-<th->-+-<1>
   propagate_case: true
   allow_duplicate: false
-  triggers: ['w2heeb,']
+  trigger: w2heeb,

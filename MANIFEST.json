@@ -1,0 +1,1372 @@
+{
+  "schema_version": "1.0.0",
+  "generated_at": "2026-07-13T04:26:36.770827+00:00",
+  "trigger_count": 15420,
+  "file_count": 341,
+  "files": [
+    {
+      "file": "_1char.yml",
+      "count": 124
+    },
+    {
+      "file": "_4_for_patterns.yml",
+      "count": 65
+    },
+    {
+      "file": "_ai.yml",
+      "count": 3
+    },
+    {
+      "file": "_ai_instruct.yml",
+      "count": 17
+    },
+    {
+      "file": "_ai_suggestions.yml",
+      "count": 42
+    },
+    {
+      "file": "_all_any_combinations.yml",
+      "count": 23
+    },
+    {
+      "file": "_auto_tests_status.yml",
+      "count": 3
+    },
+    {
+      "file": "_auto_then_adjs_nz.yml",
+      "count": 20
+    },
+    {
+      "file": "_auto_then_nouns_nz.yml",
+      "count": 20
+    },
+    {
+      "file": "_auto_then_verbs.yml",
+      "count": 5
+    },
+    {
+      "file": "_auto_then_verbs_nz.yml",
+      "count": 195
+    },
+    {
+      "file": "_common2.yml",
+      "count": 296
+    },
+    {
+      "file": "_contractions.yml",
+      "count": 26
+    },
+    {
+      "file": "_counting_systems.yml",
+      "count": 51
+    },
+    {
+      "file": "_domain_finance_instrument.yml",
+      "count": 2
+    },
+    {
+      "file": "_domain_finance_trade.yml",
+      "count": 5
+    },
+    {
+      "file": "_domain_trading.yml",
+      "count": 28
+    },
+    {
+      "file": "_er_est.yml",
+      "count": 4
+    },
+    {
+      "file": "_expanded_words.yml",
+      "count": 146
+    },
+    {
+      "file": "_exx_backup.yml",
+      "count": 118
+    },
+    {
+      "file": "_exx_change.yml",
+      "count": 17
+    },
+    {
+      "file": "_exx_change_reverse.yml",
+      "count": 8
+    },
+    {
+      "file": "_exx_check.yml",
+      "count": 16
+    },
+    {
+      "file": "_exx_check_reverse.yml",
+      "count": 8
+    },
+    {
+      "file": "_exx_combine.yml",
+      "count": 13
+    },
+    {
+      "file": "_exx_combine_reverse.yml",
+      "count": 8
+    },
+    {
+      "file": "_exx_config.yml",
+      "count": 14
+    },
+    {
+      "file": "_exx_config_reverse.yml",
+      "count": 8
+    },
+    {
+      "file": "_exx_create.yml",
+      "count": 36
+    },
+    {
+      "file": "_exx_declare.yml",
+      "count": 19
+    },
+    {
+      "file": "_exx_do.yml",
+      "count": 46
+    },
+    {
+      "file": "_exx_document.yml",
+      "count": 13
+    },
+    {
+      "file": "_exx_document_reverse.yml",
+      "count": 16
+    },
+    {
+      "file": "_exx_edit.yml",
+      "count": 20
+    },
+    {
+      "file": "_exx_evolve.yml",
+      "count": 19
+    },
+    {
+      "file": "_exx_find.yml",
+      "count": 25
+    },
+    {
+      "file": "_exx_find_reverse.yml",
+      "count": 16
+    },
+    {
+      "file": "_exx_fix.yml",
+      "count": 53
+    },
+    {
+      "file": "_exx_flow.yml",
+      "count": 15
+    },
+    {
+      "file": "_exx_flow_reverse.yml",
+      "count": 18
+    },
+    {
+      "file": "_exx_imperative.yml",
+      "count": 19
+    },
+    {
+      "file": "_exx_interact.yml",
+      "count": 7
+    },
+    {
+      "file": "_exx_involve.yml",
+      "count": 19
+    },
+    {
+      "file": "_exx_like.yml",
+      "count": 24
+    },
+    {
+      "file": "_exx_modify.yml",
+      "count": 15
+    },
+    {
+      "file": "_exx_movement.yml",
+      "count": 26
+    },
+    {
+      "file": "_exx_note.yml",
+      "count": 19
+    },
+    {
+      "file": "_exx_ould_group.yml",
+      "count": 62
+    },
+    {
+      "file": "_exx_pack.yml",
+      "count": 7
+    },
+    {
+      "file": "_exx_pick.yml",
+      "count": 7
+    },
+    {
+      "file": "_exx_replace.yml",
+      "count": 15
+    },
+    {
+      "file": "_exx_replace_reverse.yml",
+      "count": 8
+    },
+    {
+      "file": "_exx_retro.yml",
+      "count": 19
+    },
+    {
+      "file": "_exx_rotate.yml",
+      "count": 25
+    },
+    {
+      "file": "_exx_self.yml",
+      "count": 19
+    },
+    {
+      "file": "_exx_self_evolve.yml",
+      "count": 19
+    },
+    {
+      "file": "_exx_start_stop.yml",
+      "count": 48
+    },
+    {
+      "file": "_exx_task.yml",
+      "count": 17
+    },
+    {
+      "file": "_exx_task_reverse.yml",
+      "count": 19
+    },
+    {
+      "file": "_exx_update.yml",
+      "count": 20
+    },
+    {
+      "file": "_exx_verb_extensions.yml",
+      "count": 36
+    },
+    {
+      "file": "_exx_view.yml",
+      "count": 7
+    },
+    {
+      "file": "_exx_whole.yml",
+      "count": 33
+    },
+    {
+      "file": "_exx_whole_reverse.yml",
+      "count": 8
+    },
+    {
+      "file": "_forms.yml",
+      "count": 1
+    },
+    {
+      "file": "_frequent_verbs.yml",
+      "count": 217
+    },
+    {
+      "file": "_how_combinations.yml",
+      "count": 36
+    },
+    {
+      "file": "_images.yml",
+      "count": 3
+    },
+    {
+      "file": "_must_phrases.yml",
+      "count": 23
+    },
+    {
+      "file": "_need_to_combinations.yml",
+      "count": 15
+    },
+    {
+      "file": "_operator_all_any_combinations.yml",
+      "count": 91
+    },
+    {
+      "file": "_operator_combinations.yml",
+      "count": 36
+    },
+    {
+      "file": "_phrases.yml",
+      "count": 432
+    },
+    {
+      "file": "_phrases_all_of.yml",
+      "count": 6
+    },
+    {
+      "file": "_phrases_misc.yml",
+      "count": 52
+    },
+    {
+      "file": "_pom_qox.yml",
+      "count": 17
+    },
+    {
+      "file": "_prefix_auto.yml",
+      "count": 3614
+    },
+    {
+      "file": "_prepositions.yml",
+      "count": 3
+    },
+    {
+      "file": "_python.yml",
+      "count": 1
+    },
+    {
+      "file": "_qlip.yml",
+      "count": 4
+    },
+    {
+      "file": "_qon_com_delegate.yml",
+      "count": 33
+    },
+    {
+      "file": "_semicolon_categories.yml",
+      "count": 12
+    },
+    {
+      "file": "_should_able.yml",
+      "count": 12
+    },
+    {
+      "file": "_software.yml",
+      "count": 158
+    },
+    {
+      "file": "_systematic_combinations.yml",
+      "count": 44
+    },
+    {
+      "file": "_there_phrases.yml",
+      "count": 18
+    },
+    {
+      "file": "_thh_do_combinations.yml",
+      "count": 2
+    },
+    {
+      "file": "_thh_system.yml",
+      "count": 32
+    },
+    {
+      "file": "_thh_wh_xou_combinations.yml",
+      "count": 15
+    },
+    {
+      "file": "_time_base.yml",
+      "count": 262
+    },
+    {
+      "file": "_time_relative_phrases.yml",
+      "count": 5
+    },
+    {
+      "file": "_wh_combinations.yml",
+      "count": 54
+    },
+    {
+      "file": "_wh_do_combinations.yml",
+      "count": 26
+    },
+    {
+      "file": "_wh_ever.yml",
+      "count": 5
+    },
+    {
+      "file": "_wh_th_combinations.yml",
+      "count": 20
+    },
+    {
+      "file": "_wh_th_modal_combinations.yml",
+      "count": 42
+    },
+    {
+      "file": "_word_3_2token.yml",
+      "count": 378
+    },
+    {
+      "file": "_word_3_3token.yml",
+      "count": 157
+    },
+    {
+      "file": "_word_3_4token_more.yml",
+      "count": 23
+    },
+    {
+      "file": "_word_3_complex_foundations.yml",
+      "count": 19
+    },
+    {
+      "file": "_word_3_preposition_of.yml",
+      "count": 16
+    },
+    {
+      "file": "_word_3_standalone.yml",
+      "count": 106
+    },
+    {
+      "file": "_word_3_three_token.yml",
+      "count": 33
+    },
+    {
+      "file": "_word_3_verb_2token.yml",
+      "count": 65
+    },
+    {
+      "file": "_word_3_verb_3token.yml",
+      "count": 157
+    },
+    {
+      "file": "_word_3_with_without_demonstratives.yml",
+      "count": 20
+    },
+    {
+      "file": "_word_else_expansions.yml",
+      "count": 19
+    },
+    {
+      "file": "_word_families_1.yml",
+      "count": 663
+    },
+    {
+      "file": "_word_families_10.yml",
+      "count": 130
+    },
+    {
+      "file": "_word_families_11.yml",
+      "count": 201
+    },
+    {
+      "file": "_word_families_12.yml",
+      "count": 51
+    },
+    {
+      "file": "_word_families_2.yml",
+      "count": 369
+    },
+    {
+      "file": "_word_families_3.yml",
+      "count": 624
+    },
+    {
+      "file": "_word_families_4.yml",
+      "count": 418
+    },
+    {
+      "file": "_word_families_5.yml",
+      "count": 235
+    },
+    {
+      "file": "_word_families_6.yml",
+      "count": 43
+    },
+    {
+      "file": "_word_families_7.yml",
+      "count": 6
+    },
+    {
+      "file": "_word_families_8.yml",
+      "count": 136
+    },
+    {
+      "file": "_word_families_9.yml",
+      "count": 25
+    },
+    {
+      "file": "_word_families_about.yml",
+      "count": 11
+    },
+    {
+      "file": "_word_families_account_access.yml",
+      "count": 34
+    },
+    {
+      "file": "_word_families_action.yml",
+      "count": 22
+    },
+    {
+      "file": "_word_families_add_remove.yml",
+      "count": 8
+    },
+    {
+      "file": "_word_families_adjust.yml",
+      "count": 29
+    },
+    {
+      "file": "_word_families_against.yml",
+      "count": 11
+    },
+    {
+      "file": "_word_families_agnostic.yml",
+      "count": 9
+    },
+    {
+      "file": "_word_families_alarm.yml",
+      "count": 12
+    },
+    {
+      "file": "_word_families_alert.yml",
+      "count": 12
+    },
+    {
+      "file": "_word_families_alt.yml",
+      "count": 45
+    },
+    {
+      "file": "_word_families_amount.yml",
+      "count": 5
+    },
+    {
+      "file": "_word_families_answer.yml",
+      "count": 6
+    },
+    {
+      "file": "_word_families_any_another.yml",
+      "count": 46
+    },
+    {
+      "file": "_word_families_argument.yml",
+      "count": 22
+    },
+    {
+      "file": "_word_families_around.yml",
+      "count": 17
+    },
+    {
+      "file": "_word_families_assign.yml",
+      "count": 28
+    },
+    {
+      "file": "_word_families_assist.yml",
+      "count": 29
+    },
+    {
+      "file": "_word_families_average.yml",
+      "count": 12
+    },
+    {
+      "file": "_word_families_backup.yml",
+      "count": 5
+    },
+    {
+      "file": "_word_families_begin.yml",
+      "count": 10
+    },
+    {
+      "file": "_word_families_benefit.yml",
+      "count": 17
+    },
+    {
+      "file": "_word_families_box.yml",
+      "count": 27
+    },
+    {
+      "file": "_word_families_browse.yml",
+      "count": 11
+    },
+    {
+      "file": "_word_families_build.yml",
+      "count": 54
+    },
+    {
+      "file": "_word_families_bullet.yml",
+      "count": 5
+    },
+    {
+      "file": "_word_families_charge.yml",
+      "count": 9
+    },
+    {
+      "file": "_word_families_check.yml",
+      "count": 1
+    },
+    {
+      "file": "_word_families_check_why.yml",
+      "count": 25
+    },
+    {
+      "file": "_word_families_clear.yml",
+      "count": 11
+    },
+    {
+      "file": "_word_families_close.yml",
+      "count": 23
+    },
+    {
+      "file": "_word_families_co_exist.yml",
+      "count": 6
+    },
+    {
+      "file": "_word_families_collide.yml",
+      "count": 17
+    },
+    {
+      "file": "_word_families_compact.yml",
+      "count": 13
+    },
+    {
+      "file": "_word_families_compress.yml",
+      "count": 7
+    },
+    {
+      "file": "_word_families_conflict.yml",
+      "count": 8
+    },
+    {
+      "file": "_word_families_confuse.yml",
+      "count": 13
+    },
+    {
+      "file": "_word_families_conspiracy.yml",
+      "count": 13
+    },
+    {
+      "file": "_word_families_construct.yml",
+      "count": 10
+    },
+    {
+      "file": "_word_families_continue.yml",
+      "count": 12
+    },
+    {
+      "file": "_word_families_contract.yml",
+      "count": 9
+    },
+    {
+      "file": "_word_families_contribute.yml",
+      "count": 31
+    },
+    {
+      "file": "_word_families_couple.yml",
+      "count": 17
+    },
+    {
+      "file": "_word_families_cover_up.yml",
+      "count": 6
+    },
+    {
+      "file": "_word_families_creative.yml",
+      "count": 5
+    },
+    {
+      "file": "_word_families_deal.yml",
+      "count": 7
+    },
+    {
+      "file": "_word_families_declare.yml",
+      "count": 11
+    },
+    {
+      "file": "_word_families_deep.yml",
+      "count": 7
+    },
+    {
+      "file": "_word_families_defer.yml",
+      "count": 4
+    },
+    {
+      "file": "_word_families_denotation.yml",
+      "count": 15
+    },
+    {
+      "file": "_word_families_describe.yml",
+      "count": 28
+    },
+    {
+      "file": "_word_families_diagnose.yml",
+      "count": 17
+    },
+    {
+      "file": "_word_families_discuss.yml",
+      "count": 10
+    },
+    {
+      "file": "_word_families_disrupt.yml",
+      "count": 12
+    },
+    {
+      "file": "_word_families_dynamic.yml",
+      "count": 7
+    },
+    {
+      "file": "_word_families_eliminate.yml",
+      "count": 31
+    },
+    {
+      "file": "_word_families_enforce.yml",
+      "count": 14
+    },
+    {
+      "file": "_word_families_especial.yml",
+      "count": 10
+    },
+    {
+      "file": "_word_families_evolve.yml",
+      "count": 16
+    },
+    {
+      "file": "_word_families_excuse.yml",
+      "count": 15
+    },
+    {
+      "file": "_word_families_exhaust.yml",
+      "count": 30
+    },
+    {
+      "file": "_word_families_exist.yml",
+      "count": 19
+    },
+    {
+      "file": "_word_families_explore.yml",
+      "count": 19
+    },
+    {
+      "file": "_word_families_fail.yml",
+      "count": 10
+    },
+    {
+      "file": "_word_families_family.yml",
+      "count": 2
+    },
+    {
+      "file": "_word_families_force_fork.yml",
+      "count": 30
+    },
+    {
+      "file": "_word_families_foundation.yml",
+      "count": 27
+    },
+    {
+      "file": "_word_families_fund_full_empty.yml",
+      "count": 37
+    },
+    {
+      "file": "_word_families_g_h.yml",
+      "count": 165
+    },
+    {
+      "file": "_word_families_gate.yml",
+      "count": 13
+    },
+    {
+      "file": "_word_families_ge.yml",
+      "count": 8
+    },
+    {
+      "file": "_word_families_generic.yml",
+      "count": 2
+    },
+    {
+      "file": "_word_families_gift.yml",
+      "count": 9
+    },
+    {
+      "file": "_word_families_git.yml",
+      "count": 63
+    },
+    {
+      "file": "_word_families_global.yml",
+      "count": 2
+    },
+    {
+      "file": "_word_families_groom.yml",
+      "count": 6
+    },
+    {
+      "file": "_word_families_home.yml",
+      "count": 17
+    },
+    {
+      "file": "_word_families_imperative.yml",
+      "count": 11
+    },
+    {
+      "file": "_word_families_inference.yml",
+      "count": 11
+    },
+    {
+      "file": "_word_families_ingest.yml",
+      "count": 5
+    },
+    {
+      "file": "_word_families_inje.yml",
+      "count": 16
+    },
+    {
+      "file": "_word_families_insight.yml",
+      "count": 25
+    },
+    {
+      "file": "_word_families_intrude.yml",
+      "count": 12
+    },
+    {
+      "file": "_word_families_involve.yml",
+      "count": 15
+    },
+    {
+      "file": "_word_families_io_testing.yml",
+      "count": 87
+    },
+    {
+      "file": "_word_families_judge.yml",
+      "count": 6
+    },
+    {
+      "file": "_word_families_kill.yml",
+      "count": 6
+    },
+    {
+      "file": "_word_families_local.yml",
+      "count": 23
+    },
+    {
+      "file": "_word_families_lock.yml",
+      "count": 13
+    },
+    {
+      "file": "_word_families_maintain.yml",
+      "count": 12
+    },
+    {
+      "file": "_word_families_manage.yml",
+      "count": 37
+    },
+    {
+      "file": "_word_families_matrix.yml",
+      "count": 8
+    },
+    {
+      "file": "_word_families_milestone.yml",
+      "count": 4
+    },
+    {
+      "file": "_word_families_mismatch.yml",
+      "count": 5
+    },
+    {
+      "file": "_word_families_missing.yml",
+      "count": 79
+    },
+    {
+      "file": "_word_families_model.yml",
+      "count": 16
+    },
+    {
+      "file": "_word_families_modify.yml",
+      "count": 6
+    },
+    {
+      "file": "_word_families_module.yml",
+      "count": 4
+    },
+    {
+      "file": "_word_families_mon.yml",
+      "count": 15
+    },
+    {
+      "file": "_word_families_necessary.yml",
+      "count": 3
+    },
+    {
+      "file": "_word_families_necessity.yml",
+      "count": 2
+    },
+    {
+      "file": "_word_families_negative.yml",
+      "count": 8
+    },
+    {
+      "file": "_word_families_negligible.yml",
+      "count": 7
+    },
+    {
+      "file": "_word_families_nomad.yml",
+      "count": 3
+    },
+    {
+      "file": "_word_families_note.yml",
+      "count": 11
+    },
+    {
+      "file": "_word_families_number.yml",
+      "count": 6
+    },
+    {
+      "file": "_word_families_object.yml",
+      "count": 31
+    },
+    {
+      "file": "_word_families_occur.yml",
+      "count": 6
+    },
+    {
+      "file": "_word_families_open_source.yml",
+      "count": 7
+    },
+    {
+      "file": "_word_families_opportunity.yml",
+      "count": 2
+    },
+    {
+      "file": "_word_families_orchestrate.yml",
+      "count": 7
+    },
+    {
+      "file": "_word_families_order.yml",
+      "count": 9
+    },
+    {
+      "file": "_word_families_ou.yml",
+      "count": 11
+    },
+    {
+      "file": "_word_families_persist.yml",
+      "count": 7
+    },
+    {
+      "file": "_word_families_picture.yml",
+      "count": 9
+    },
+    {
+      "file": "_word_families_plan.yml",
+      "count": 18
+    },
+    {
+      "file": "_word_families_pose.yml",
+      "count": 11
+    },
+    {
+      "file": "_word_families_poss.yml",
+      "count": 9
+    },
+    {
+      "file": "_word_families_practice.yml",
+      "count": 9
+    },
+    {
+      "file": "_word_families_preassign.yml",
+      "count": 6
+    },
+    {
+      "file": "_word_families_prebuild.yml",
+      "count": 6
+    },
+    {
+      "file": "_word_families_precalculate.yml",
+      "count": 6
+    },
+    {
+      "file": "_word_families_precheck.yml",
+      "count": 6
+    },
+    {
+      "file": "_word_families_precommit.yml",
+      "count": 27
+    },
+    {
+      "file": "_word_families_preconfig.yml",
+      "count": 6
+    },
+    {
+      "file": "_word_families_prefer.yml",
+      "count": 8
+    },
+    {
+      "file": "_word_families_preorder.yml",
+      "count": 6
+    },
+    {
+      "file": "_word_families_prepare.yml",
+      "count": 10
+    },
+    {
+      "file": "_word_families_preplan.yml",
+      "count": 6
+    },
+    {
+      "file": "_word_families_present.yml",
+      "count": 6
+    },
+    {
+      "file": "_word_families_preset.yml",
+      "count": 6
+    },
+    {
+      "file": "_word_families_pretest.yml",
+      "count": 6
+    },
+    {
+      "file": "_word_families_preview.yml",
+      "count": 6
+    },
+    {
+      "file": "_word_families_price.yml",
+      "count": 3
+    },
+    {
+      "file": "_word_families_prompt.yml",
+      "count": 13
+    },
+    {
+      "file": "_word_families_protocol.yml",
+      "count": 9
+    },
+    {
+      "file": "_word_families_proxy.yml",
+      "count": 4
+    },
+    {
+      "file": "_word_families_prune.yml",
+      "count": 4
+    },
+    {
+      "file": "_word_families_public.yml",
+      "count": 2
+    },
+    {
+      "file": "_word_families_publish.yml",
+      "count": 12
+    },
+    {
+      "file": "_word_families_ready.yml",
+      "count": 4
+    },
+    {
+      "file": "_word_families_reciprocal.yml",
+      "count": 8
+    },
+    {
+      "file": "_word_families_recover.yml",
+      "count": 9
+    },
+    {
+      "file": "_word_families_recovery.yml",
+      "count": 7
+    },
+    {
+      "file": "_word_families_redo.yml",
+      "count": 3
+    },
+    {
+      "file": "_word_families_refind.yml",
+      "count": 11
+    },
+    {
+      "file": "_word_families_register.yml",
+      "count": 16
+    },
+    {
+      "file": "_word_families_regression.yml",
+      "count": 21
+    },
+    {
+      "file": "_word_families_remote.yml",
+      "count": 17
+    },
+    {
+      "file": "_word_families_report_repo.yml",
+      "count": 31
+    },
+    {
+      "file": "_word_families_request.yml",
+      "count": 18
+    },
+    {
+      "file": "_word_families_research.yml",
+      "count": 11
+    },
+    {
+      "file": "_word_families_resilience.yml",
+      "count": 9
+    },
+    {
+      "file": "_word_families_resist.yml",
+      "count": 21
+    },
+    {
+      "file": "_word_families_resume.yml",
+      "count": 5
+    },
+    {
+      "file": "_word_families_retro.yml",
+      "count": 11
+    },
+    {
+      "file": "_word_families_reuse.yml",
+      "count": 10
+    },
+    {
+      "file": "_word_families_robust.yml",
+      "count": 16
+    },
+    {
+      "file": "_word_families_room.yml",
+      "count": 8
+    },
+    {
+      "file": "_word_families_rough.yml",
+      "count": 3
+    },
+    {
+      "file": "_word_families_satisfy.yml",
+      "count": 22
+    },
+    {
+      "file": "_word_families_schedule.yml",
+      "count": 8
+    },
+    {
+      "file": "_word_families_screen.yml",
+      "count": 9
+    },
+    {
+      "file": "_word_families_search.yml",
+      "count": 17
+    },
+    {
+      "file": "_word_families_search_web.yml",
+      "count": 25
+    },
+    {
+      "file": "_word_families_separate.yml",
+      "count": 12
+    },
+    {
+      "file": "_word_families_set.yml",
+      "count": 25
+    },
+    {
+      "file": "_word_families_similar.yml",
+      "count": 6
+    },
+    {
+      "file": "_word_families_simulate.yml",
+      "count": 6
+    },
+    {
+      "file": "_word_families_situation.yml",
+      "count": 54
+    },
+    {
+      "file": "_word_families_skill.yml",
+      "count": 25
+    },
+    {
+      "file": "_word_families_some.yml",
+      "count": 26
+    },
+    {
+      "file": "_word_families_sophisticate.yml",
+      "count": 8
+    },
+    {
+      "file": "_word_families_special.yml",
+      "count": 6
+    },
+    {
+      "file": "_word_families_sprint.yml",
+      "count": 8
+    },
+    {
+      "file": "_word_families_stack.yml",
+      "count": 6
+    },
+    {
+      "file": "_word_families_stimulate.yml",
+      "count": 4
+    },
+    {
+      "file": "_word_families_struggle.yml",
+      "count": 6
+    },
+    {
+      "file": "_word_families_surface.yml",
+      "count": 13
+    },
+    {
+      "file": "_word_families_sweep.yml",
+      "count": 10
+    },
+    {
+      "file": "_word_families_symbol.yml",
+      "count": 11
+    },
+    {
+      "file": "_word_families_tackle.yml",
+      "count": 6
+    },
+    {
+      "file": "_word_families_team.yml",
+      "count": 27
+    },
+    {
+      "file": "_word_families_template.yml",
+      "count": 27
+    },
+    {
+      "file": "_word_families_test.yml",
+      "count": 10
+    },
+    {
+      "file": "_word_families_theater.yml",
+      "count": 7
+    },
+    {
+      "file": "_word_families_time.yml",
+      "count": 16
+    },
+    {
+      "file": "_word_families_tools.yml",
+      "count": 15
+    },
+    {
+      "file": "_word_families_track.yml",
+      "count": 14
+    },
+    {
+      "file": "_word_families_transit.yml",
+      "count": 20
+    },
+    {
+      "file": "_word_families_try.yml",
+      "count": 8
+    },
+    {
+      "file": "_word_families_upgrade.yml",
+      "count": 25
+    },
+    {
+      "file": "_word_families_valid.yml",
+      "count": 105
+    },
+    {
+      "file": "_word_families_value.yml",
+      "count": 27
+    },
+    {
+      "file": "_word_families_vector.yml",
+      "count": 6
+    },
+    {
+      "file": "_word_families_vendor.yml",
+      "count": 42
+    },
+    {
+      "file": "_word_families_violate.yml",
+      "count": 8
+    },
+    {
+      "file": "_word_families_vis.yml",
+      "count": 45
+    },
+    {
+      "file": "_word_families_volume.yml",
+      "count": 26
+    },
+    {
+      "file": "_word_families_w12.yml",
+      "count": 3
+    },
+    {
+      "file": "_word_families_wait_numeric.yml",
+      "count": 25
+    },
+    {
+      "file": "_word_families_want.yml",
+      "count": 8
+    },
+    {
+      "file": "_word_families_weje.yml",
+      "count": 18
+    },
+    {
+      "file": "_word_families_wem.yml",
+      "count": 11
+    },
+    {
+      "file": "_word_families_workspace.yml",
+      "count": 8
+    },
+    {
+      "file": "_word_families_wot.yml",
+      "count": 8
+    },
+    {
+      "file": "_word_families_wrap.yml",
+      "count": 55
+    },
+    {
+      "file": "_wr_combinations.yml",
+      "count": 549
+    },
+    {
+      "file": "_wr_standalone.yml",
+      "count": 12
+    },
+    {
+      "file": "_xou_combinations.yml",
+      "count": 3
+    },
+    {
+      "file": "_ya_m_pronouns.yml",
+      "count": 3
+    },
+    {
+      "file": "_directional_base.yml",
+      "count": 37
+    },
+    {
+      "file": "_directional_exx_verbs.yml",
+      "count": 54
+    },
+    {
+      "file": "_directional_foundations.yml",
+      "count": 29
+    },
+    {
+      "file": "_directional_places.yml",
+      "count": 28
+    },
+    {
+      "file": "_directional_verbs.yml",
+      "count": 32
+    },
+    {
+      "file": "_exact_word_families_1.yml",
+      "count": 5
+    },
+    {
+      "file": "_exact_word_families_2.yml",
+      "count": 12
+    },
+    {
+      "file": "_exact_word_families_3.yml",
+      "count": 77
+    },
+    {
+      "file": "_exact_word_families_4.yml",
+      "count": 35
+    },
+    {
+      "file": "_exact_word_families_5.yml",
+      "count": 18
+    },
+    {
+      "file": "word_3_four_plus_token.yml",
+      "count": 2
+    },
+    {
+      "file": "base.yml",
+      "count": 8
+    }
+  ]
+}

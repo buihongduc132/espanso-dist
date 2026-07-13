@@ -1,87 +1,143 @@
-# ⚠️  WARNING: AUTO-GENERATED FILE - DO NOT EDIT DIRECTLY!
-# This file is generated from word_version by:
-#   scripts/convert_to_tokenized_word_version.py
-# Edit source in space_version and re-run conversions.
-# Tokenizes trailing spaces in triggers to an explicit token.
-# Removes right_word property for tokenized version.
-# Adds trailing space to replacements that don't have one.
-# Current token: ','
-
-name: word_3_preposition_of
-parent: default
+name: _word_3_preposition_of
 matches:
 - replace: 'of this '
-  _tags: [pronoun, the, demonstrative, to, be]
+  _tags:
+  - pronoun
+  - the
+  - demonstrative
+  - to
+  - be
   allow_duplicate: true
   propagate_case: true
-  triggers: ['oiz,']
+  trigger: oiz,
 - replace: 'of that '
-  _tags: [demonstrative, have, to, the]
+  _tags:
+  - demonstrative
+  - have
+  - to
+  - the
   allow_duplicate: true
   propagate_case: true
-  triggers: ['oaz,']
+  trigger: oaz,
 - replace: 'of these '
-  _tags: [demonstrative, the, to, else]
+  _tags:
+  - demonstrative
+  - the
+  - to
+  - else
   allow_duplicate: true
   propagate_case: true
-  triggers: ['oez,']
+  trigger: oez,
 - replace: 'of those '
-  _tags: [demonstrative, the, to, else]
+  _tags:
+  - demonstrative
+  - the
+  - to
+  - else
   allow_duplicate: true
   propagate_case: true
-  triggers: ['ooz,']
-- triggers: ['oh,', 'ohe,']
-  replace: 'of the '
-  _tags: [the, to, else]
+  trigger: ooz,
+- replace: 'of the '
+  _tags: &id001
+  - the
+  - to
+  - else
   allow_duplicate: true
   propagate_case: true
+  trigger: oh,
+- replace: 'of the '
+  _tags: *id001
+  allow_duplicate: true
+  propagate_case: true
+  trigger: ohe,
 - replace: 'of them '
-  _tags: [them, the, to, else]
+  _tags:
+  - them
+  - the
+  - to
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['omm,']
+  trigger: omm,
 - replace: 'of them all '
-  _tags: [them, the, to, else]
+  _tags:
+  - them
+  - the
+  - to
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['ommal,']
+  trigger: ommal,
 - replace: 'of you '
-  _tags: [pronoun]
+  _tags:
+  - pronoun
   propagate_case: true
   allow_duplicate: false
-  triggers: ['oya,']
+  trigger: oya,
 - replace: 'of your '
-  _tags: [pronoun, possessive]
+  _tags:
+  - pronoun
+  - possessive
   propagate_case: true
   allow_duplicate: false
-  triggers: ['oyw,']
+  trigger: oyw,
 - replace: 'of what '
-  _tags: [question, will, the, what, to, have]
+  _tags:
+  - question
+  - will
+  - the
+  - what
+  - to
+  - have
   propagate_case: true
   allow_duplicate: false
-  triggers: ['owt,']
+  trigger: owt,
 - replace: 'of where '
-  _tags: [question, place, will, the, where, else]
+  _tags:
+  - question
+  - place
+  - will
+  - the
+  - where
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['owwh,']
+  trigger: owwh,
 - replace: 'of when '
-  _tags: [question, will, when, the, time, else]
+  _tags:
+  - question
+  - will
+  - when
+  - the
+  - time
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['own,']
+  trigger: own,
 - replace: 'of how '
-  _tags: [question, will, the, how]
+  _tags:
+  - question
+  - will
+  - the
+  - how
   propagate_case: true
   allow_duplicate: false
-  triggers: ['ohw,']
+  trigger: ohw,
 - replace: 'of which '
-  _tags: [will, can, the, pronoun]
+  _tags:
+  - will
+  - can
+  - the
+  - pronoun
   propagate_case: true
   allow_duplicate: false
-  triggers: ['owhi,']
+  trigger: owhi,
 - replace: 'of why '
-  _tags: [question, why, will, the]
+  _tags:
+  - question
+  - why
+  - will
+  - the
   propagate_case: true
   allow_duplicate: false
-  triggers: ['owy,']
+  trigger: owy,

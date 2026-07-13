@@ -1,0 +1,62 @@
+name: _word_families_deal
+matches:
+- replace: 'deal '
+  _tags:
+  - verb
+  - noun
+  - to
+  - else
+  propagate_case: true
+  allow_duplicate: false
+  trigger: dea,
+- replace: 'deals '
+  _tags:
+  - verb
+  - noun
+  - to
+  - else
+  propagate_case: true
+  allow_duplicate: false
+  trigger: deas,
+- replace: 'dealing '
+  _tags:
+  - ing
+  - verb
+  - to
+  - else
+  propagate_case: true
+  allow_duplicate: false
+  trigger: deai,
+- replace: 'dealt '
+  _tags:
+  - ed
+  - verb
+  - to
+  - else
+  propagate_case: true
+  allow_duplicate: false
+  trigger: deap,
+- replace: 'dealer '
+  _tags:
+  - noun
+  - to
+  - else
+  propagate_case: true
+  allow_duplicate: false
+  trigger: deaw,
+- replace: 'dealers '
+  _tags:
+  - noun
+  - to
+  - else
+  propagate_case: true
+  allow_duplicate: false
+  trigger: deaws,
+- replace: 'dealings '
+  _tags:
+  - noun
+  - to
+  - else
+  propagate_case: true
+  allow_duplicate: false
+  trigger: deais,

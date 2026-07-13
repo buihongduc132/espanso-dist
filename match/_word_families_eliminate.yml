@@ -1,166 +1,301 @@
-# ⚠️  WARNING: AUTO-GENERATED FILE - DO NOT EDIT DIRECTLY!
-# This file is generated from word_version by:
-#   scripts/convert_to_tokenized_word_version.py
-# Edit source in space_version and re-run conversions.
-# Tokenizes trailing spaces in triggers to an explicit token.
-# Removes right_word property for tokenized version.
-# Adds trailing space to replacements that don't have one.
-# Current token: ','
-
-name: word-families-eliminate
-parent: default
+name: _word_families_eliminate
 matches:
 - replace: 'eliminate '
-  _tags: [to, can, else, verb]
+  _tags:
+  - to
+  - can
+  - else
+  - verb
   allow_duplicate: true
   propagate_case: true
-  triggers: ['eli,']
+  trigger: eli,
 - replace: 'eliminates '
-  _tags: [to, can, else, verb]
+  _tags:
+  - to
+  - can
+  - else
+  - verb
   allow_duplicate: true
   propagate_case: true
-  triggers: ['elis,']
+  trigger: elis,
 - replace: 'eliminating '
-  _tags: [ing, to, can, else, verb, pronoun]
+  _tags:
+  - ing
+  - to
+  - can
+  - else
+  - verb
+  - pronoun
   allow_duplicate: true
   propagate_case: true
-  triggers: ['elii,']
+  trigger: elii,
 - replace: 'eliminated '
-  _tags: [ed, would, to, can, else, verb]
+  _tags:
+  - ed
+  - would
+  - to
+  - can
+  - else
+  - verb
   allow_duplicate: true
   propagate_case: true
-  triggers: ['elip,']
+  trigger: elip,
 - replace: 'elimination '
-  _tags: [noun, to, can, else]
+  _tags:
+  - noun
+  - to
+  - can
+  - else
   allow_duplicate: true
   propagate_case: true
-  triggers: ['elim,']
+  trigger: elim,
 - replace: 'eliminator '
-  _tags: [noun, to, can, else]
+  _tags:
+  - noun
+  - to
+  - can
+  - else
   allow_duplicate: true
   propagate_case: true
-  triggers: ['eliw,']
+  trigger: eliw,
 - replace: 'eliminators '
-  _tags: [noun, to, can, else]
+  _tags:
+  - noun
+  - to
+  - can
+  - else
   allow_duplicate: true
   propagate_case: true
-  triggers: ['eliws,']
+  trigger: eliws,
 - replace: 'eliminable '
-  _tags: [adjective, to, can, else]
+  _tags:
+  - adjective
+  - to
+  - can
+  - else
   allow_duplicate: true
   propagate_case: true
-  triggers: ['elij,']
+  trigger: elij,
 - replace: 'eliminably '
-  _tags: [adjective, to, can, else]
+  _tags:
+  - adjective
+  - to
+  - can
+  - else
   allow_duplicate: true
   propagate_case: true
-  triggers: ['elijl,']
+  trigger: elijl,
 - replace: 'eliminability '
-  _tags: [noun, adjective, to, can, else]
+  _tags:
+  - noun
+  - adjective
+  - to
+  - can
+  - else
   allow_duplicate: true
   propagate_case: true
-  triggers: ['elijm,']
+  trigger: elijm,
 - replace: 'ineliminable '
-  _tags: [negate, adjective, to, can, else]
+  _tags:
+  - negate
+  - adjective
+  - to
+  - can
+  - else
   allow_duplicate: true
   propagate_case: true
-  triggers: ['ieli,']
+  trigger: ieli,
 - replace: 'ineliminably '
-  _tags: [negate, adjective, to, can, else]
+  _tags:
+  - negate
+  - adjective
+  - to
+  - can
+  - else
   allow_duplicate: true
   propagate_case: true
-  triggers: ['ielil,']
+  trigger: ielil,
 - replace: 'ineliminability '
-  _tags: [negate, noun, adjective, to, can, else]
+  _tags:
+  - negate
+  - noun
+  - adjective
+  - to
+  - can
+  - else
   allow_duplicate: true
   propagate_case: true
-  triggers: ['ielim,']
+  trigger: ielim,
 - replace: 're-eliminate '
-  _tags: [to, can, else, verb]
+  _tags:
+  - to
+  - can
+  - else
+  - verb
   allow_duplicate: true
   propagate_case: true
-  triggers: ['welni,']
+  trigger: welni,
 - replace: 're-eliminates '
-  _tags: [to, can, else, verb]
+  _tags:
+  - to
+  - can
+  - else
+  - verb
   allow_duplicate: true
   propagate_case: true
-  triggers: ['welnis,']
+  trigger: welnis,
 - replace: 're-eliminating '
-  _tags: [ing, to, can, else, verb, pronoun]
+  _tags:
+  - ing
+  - to
+  - can
+  - else
+  - verb
+  - pronoun
   allow_duplicate: true
   propagate_case: true
-  triggers: ['welnii,']
+  trigger: welnii,
 - replace: 're-eliminated '
-  _tags: [ed, would, to, can, else, verb]
+  _tags:
+  - ed
+  - would
+  - to
+  - can
+  - else
+  - verb
   allow_duplicate: true
   propagate_case: true
-  triggers: ['welnip,']
+  trigger: welnip,
 - replace: 're-elimination '
-  _tags: [noun, to, can, else]
+  _tags:
+  - noun
+  - to
+  - can
+  - else
   allow_duplicate: true
   propagate_case: true
-  triggers: ['welnim,']
+  trigger: welnim,
 - replace: 'pre-eliminate '
-  _tags: [to, can, else, verb]
+  _tags:
+  - to
+  - can
+  - else
+  - verb
   allow_duplicate: true
   propagate_case: true
-  triggers: ['peli,']
+  trigger: peli,
 - replace: 'pre-eliminates '
-  _tags: [to, can, else, verb]
+  _tags:
+  - to
+  - can
+  - else
+  - verb
   allow_duplicate: true
   propagate_case: true
-  triggers: ['pelis,']
+  trigger: pelis,
 - replace: 'pre-eliminating '
-  _tags: [ing, to, can, else, verb, pronoun]
+  _tags:
+  - ing
+  - to
+  - can
+  - else
+  - verb
+  - pronoun
   allow_duplicate: true
   propagate_case: true
-  triggers: ['pelii,']
+  trigger: pelii,
 - replace: 'pre-eliminated '
-  _tags: [ed, would, to, can, else, verb]
+  _tags:
+  - ed
+  - would
+  - to
+  - can
+  - else
+  - verb
   allow_duplicate: true
   propagate_case: true
-  triggers: ['pelip,']
+  trigger: pelip,
 - replace: 'auto-eliminate '
-  _tags: [to, can, else, verb]
+  _tags:
+  - to
+  - can
+  - else
+  - verb
   allow_duplicate: true
   propagate_case: true
-  triggers: ['aeli,']
+  trigger: aeli,
 - replace: 'auto-eliminates '
-  _tags: [to, can, else, verb]
+  _tags:
+  - to
+  - can
+  - else
+  - verb
   allow_duplicate: true
   propagate_case: true
-  triggers: ['aelis,']
+  trigger: aelis,
 - replace: 'auto-eliminating '
-  _tags: [ing, to, can, else, verb, pronoun]
+  _tags:
+  - ing
+  - to
+  - can
+  - else
+  - verb
+  - pronoun
   allow_duplicate: true
   propagate_case: true
-  triggers: ['aelii,']
+  trigger: aelii,
 - replace: 'auto-eliminated '
-  _tags: [ed, would, to, can, else, verb]
+  _tags:
+  - ed
+  - would
+  - to
+  - can
+  - else
+  - verb
   allow_duplicate: true
   propagate_case: true
-  triggers: ['aelip,']
+  trigger: aelip,
 - replace: 'self-eliminate '
-  _tags: [to, can, else, verb]
+  _tags:
+  - to
+  - can
+  - else
+  - verb
   allow_duplicate: true
   propagate_case: true
-  triggers: ['selfe,']
+  trigger: selfe,
 - replace: 'self-eliminates '
-  _tags: [to, can, else, verb]
+  _tags:
+  - to
+  - can
+  - else
+  - verb
   allow_duplicate: true
   propagate_case: true
-  triggers: ['selfes,']
+  trigger: selfes,
 - replace: 'self-eliminating '
-  _tags: [ing, to, can, else, verb, pronoun]
+  _tags:
+  - ing
+  - to
+  - can
+  - else
+  - verb
+  - pronoun
   allow_duplicate: true
   propagate_case: true
-  triggers: ['selfei,']
+  trigger: selfei,
 - replace: 'self-eliminated '
-  _tags: [ed, would, to, can, else, verb]
+  _tags:
+  - ed
+  - would
+  - to
+  - can
+  - else
+  - verb
   allow_duplicate: true
   propagate_case: true
-  triggers: ['selfep,']
+  trigger: selfep,
 - replace: 'eliminator '
   propagate_case: true
   allow_duplicate: false
-  triggers: ['elio,']
+  trigger: elio,

@@ -1,127 +1,208 @@
-# ⚠️  WARNING: AUTO-GENERATED FILE - DO NOT EDIT DIRECTLY!
-# This file is generated from word_version by:
-#   scripts/convert_to_tokenized_word_version.py
-# Edit source in space_version and re-run conversions.
-# Tokenizes trailing spaces in triggers to an explicit token.
-# Removes right_word property for tokenized version.
-# Adds trailing space to replacements that don't have one.
-# Current token: ','
-
-name: word-families-local
-parent: default
+name: _word_families_local
 matches:
 - replace: 'local '
-  _tags: [can, pronoun, else]
+  _tags:
+  - can
+  - pronoun
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['lol,']
+  trigger: lol,
 - replace: 'locals '
-  _tags: [can, pronoun, else]
+  _tags:
+  - can
+  - pronoun
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['lols,']
+  trigger: lols,
 - replace: 'locally '
-  _tags: [can, pronoun, else]
+  _tags:
+  - can
+  - pronoun
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['loll,']
+  trigger: loll,
 - replace: 'localization '
-  _tags: [noun, can, pronoun, else]
+  _tags:
+  - noun
+  - can
+  - pronoun
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['lolm,']
+  trigger: lolm,
 - replace: 'localizing '
-  _tags: [ing, can, pronoun, else]
+  _tags:
+  - ing
+  - can
+  - pronoun
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['loli,']
+  trigger: loli,
 - replace: 'localized '
-  _tags: [ed, would, can, pronoun, else]
+  _tags:
+  - ed
+  - would
+  - can
+  - pronoun
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['lolp,']
+  trigger: lolp,
 - replace: 'localhost '
-  _tags: [noun, can, pronoun, else]
+  _tags:
+  - noun
+  - can
+  - pronoun
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['lolh,']
+  trigger: lolh,
 - replace: 'local server '
-  _tags: [noun, can, pronoun, else]
+  _tags:
+  - noun
+  - can
+  - pronoun
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['lolw,']
+  trigger: lolw,
 - replace: 'local servers '
-  _tags: [noun, can, pronoun, else]
+  _tags:
+  - noun
+  - can
+  - pronoun
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['lolws,']
+  trigger: lolws,
 - replace: 'local branch '
-  _tags: [noun, can, pronoun, else]
+  _tags:
+  - noun
+  - can
+  - pronoun
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['lolb,']
+  trigger: lolb,
 - replace: 'local branches '
-  _tags: [noun, can, pronoun, else]
+  _tags:
+  - noun
+  - can
+  - pronoun
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['lolbs,']
+  trigger: lolbs,
 - replace: 'local file '
-  _tags: [noun, can, pronoun, else]
+  _tags:
+  - noun
+  - can
+  - pronoun
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['lolf,']
+  trigger: lolf,
 - replace: 'local files '
-  _tags: [noun, can, pronoun, else]
+  _tags:
+  - noun
+  - can
+  - pronoun
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['lolfs,']
+  trigger: lolfs,
 - replace: 'local directory '
-  _tags: [noun, can, pronoun, else]
+  _tags:
+  - noun
+  - can
+  - pronoun
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['lold,']
+  trigger: lold,
 - replace: 'local directories '
-  _tags: [noun, can, pronoun, else]
+  _tags:
+  - noun
+  - can
+  - pronoun
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['lolds,']
+  trigger: lolds,
 - replace: 'local environment '
-  _tags: [noun, can, pronoun, else]
+  _tags:
+  - noun
+  - can
+  - pronoun
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['lole,']
+  trigger: lole,
 - replace: 'local environments '
-  _tags: [noun, can, pronoun, else]
+  _tags:
+  - noun
+  - can
+  - pronoun
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['loles,']
+  trigger: loles,
 - replace: 'local configuration '
-  _tags: [noun, can, pronoun, else]
+  _tags:
+  - noun
+  - can
+  - pronoun
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['lolq,']
+  trigger: lolq,
 - replace: 'local configurations '
-  _tags: [noun, can, pronoun, else]
+  _tags:
+  - noun
+  - can
+  - pronoun
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['lolqs,']
+  trigger: lolqs,
 - replace: 'local testing '
-  _tags: [noun, ing, can, pronoun, else]
+  _tags:
+  - noun
+  - ing
+  - can
+  - pronoun
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['lolt,']
+  trigger: lolt,
 - replace: 'local development '
-  _tags: [noun, can, pronoun, else]
+  _tags:
+  - noun
+  - can
+  - pronoun
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['lolv,']
+  trigger: lolv,
 - replace: 'local repository '
-  _tags: [noun, can, pronoun, else]
+  _tags:
+  - noun
+  - can
+  - pronoun
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['lolr,']
+  trigger: lolr,
 - replace: 'local repositories '
-  _tags: [noun, can, pronoun, else]
+  _tags:
+  - noun
+  - can
+  - pronoun
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['lolrs,']
+  trigger: lolrs,

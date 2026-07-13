@@ -1,146 +1,265 @@
-# ⚠️  WARNING: AUTO-GENERATED FILE - DO NOT EDIT DIRECTLY!
-# This file is generated from word_version by:
-#   scripts/convert_to_tokenized_word_version.py
-# Edit source in space_version and re-run conversions.
-# Tokenizes trailing spaces in triggers to an explicit token.
-# Removes right_word property for tokenized version.
-# Adds trailing space to replacements that don't have one.
-# Current token: ','
-
-name: word-families-value
-parent: default
+name: _word_families_value
 matches:
 - replace: 'value '
-  _tags: [noun, to, can, else]
+  _tags:
+  - noun
+  - to
+  - can
+  - else
   allow_duplicate: true
   propagate_case: true
-  triggers: ['jal,']
+  trigger: jal,
 - replace: 'values '
-  _tags: [noun, to, can, else]
+  _tags:
+  - noun
+  - to
+  - can
+  - else
   allow_duplicate: true
   propagate_case: true
-  triggers: ['jals,']
+  trigger: jals,
 - replace: 'valuing '
-  _tags: [ing, noun, to, can, else]
+  _tags:
+  - ing
+  - noun
+  - to
+  - can
+  - else
   allow_duplicate: true
   propagate_case: true
-  triggers: ['jali,']
+  trigger: jali,
 - replace: 'valued '
-  _tags: [ed, would, noun, to, can, else]
+  _tags:
+  - ed
+  - would
+  - noun
+  - to
+  - can
+  - else
   allow_duplicate: true
   propagate_case: true
-  triggers: ['jalp,']
+  trigger: jalp,
 - replace: 'valuer '
-  _tags: [noun, to, can, else]
+  _tags:
+  - noun
+  - to
+  - can
+  - else
   allow_duplicate: true
   propagate_case: true
-  triggers: ['jalw,']
+  trigger: jalw,
 - replace: 'valuable '
-  _tags: [adjective, noun, to, can, else]
+  _tags:
+  - adjective
+  - noun
+  - to
+  - can
+  - else
   allow_duplicate: true
   propagate_case: true
-  triggers: ['jalj,']
+  trigger: jalj,
 - replace: 'valuably '
-  _tags: [adjective, to, can, else]
+  _tags:
+  - adjective
+  - to
+  - can
+  - else
   allow_duplicate: true
   propagate_case: true
-  triggers: ['jaljl,']
+  trigger: jaljl,
 - replace: 'valuableness '
-  _tags: [noun, adjective, to, can, else]
+  _tags:
+  - noun
+  - adjective
+  - to
+  - can
+  - else
   allow_duplicate: true
   propagate_case: true
-  triggers: ['jaljm,']
+  trigger: jaljm,
 - replace: 'valuation '
-  _tags: [noun, to, can, else]
+  _tags:
+  - noun
+  - to
+  - can
+  - else
   allow_duplicate: true
   propagate_case: true
-  triggers: ['jalm,']
+  trigger: jalm,
 - replace: 'valuator '
-  _tags: [noun, to, can, else]
+  _tags:
+  - noun
+  - to
+  - can
+  - else
   allow_duplicate: true
   propagate_case: true
-  triggers: ['jalmw,']
+  trigger: jalmw,
 - replace: 'devalue '
-  _tags: [negate, noun, to, can, else]
+  _tags:
+  - negate
+  - noun
+  - to
+  - can
+  - else
   allow_duplicate: true
   propagate_case: true
-  triggers: ['djal,']
+  trigger: djal,
 - replace: 'devalues '
-  _tags: [negate, noun, to, can, else]
+  _tags:
+  - negate
+  - noun
+  - to
+  - can
+  - else
   allow_duplicate: true
   propagate_case: true
-  triggers: ['djals,']
+  trigger: djals,
 - replace: 'devaluing '
-  _tags: [negate, ing, noun, to, can, else]
+  _tags:
+  - negate
+  - ing
+  - noun
+  - to
+  - can
+  - else
   allow_duplicate: true
   propagate_case: true
-  triggers: ['djali,']
+  trigger: djali,
 - replace: 'devalued '
-  _tags: [negate, ed, would, noun, to, can, else]
+  _tags:
+  - negate
+  - ed
+  - would
+  - noun
+  - to
+  - can
+  - else
   allow_duplicate: true
   propagate_case: true
-  triggers: ['djalp,']
+  trigger: djalp,
 - replace: 'devaluation '
-  _tags: [negate, noun, to, can, else]
+  _tags:
+  - negate
+  - noun
+  - to
+  - can
+  - else
   allow_duplicate: true
   propagate_case: true
-  triggers: ['djalm,']
+  trigger: djalm,
 - replace: 'devaluer '
-  _tags: [negate, noun, to, can, else]
+  _tags:
+  - negate
+  - noun
+  - to
+  - can
+  - else
   allow_duplicate: true
   propagate_case: true
-  triggers: ['djalw,']
+  trigger: djalw,
 - replace: 'undervalue '
-  _tags: [negate, noun, to, can, else]
+  _tags:
+  - negate
+  - noun
+  - to
+  - can
+  - else
   allow_duplicate: true
   propagate_case: true
-  triggers: ['ujal,']
+  trigger: ujal,
 - replace: 'undervalues '
-  _tags: [negate, noun, to, can, else]
+  _tags:
+  - negate
+  - noun
+  - to
+  - can
+  - else
   allow_duplicate: true
   propagate_case: true
-  triggers: ['ujals,']
+  trigger: ujals,
 - replace: 'undervaluing '
-  _tags: [negate, ing, noun, to, can, else]
+  _tags:
+  - negate
+  - ing
+  - noun
+  - to
+  - can
+  - else
   allow_duplicate: true
   propagate_case: true
-  triggers: ['ujali,']
+  trigger: ujali,
 - replace: 'undervalued '
-  _tags: [negate, ed, would, noun, to, can, else]
+  _tags:
+  - negate
+  - ed
+  - would
+  - noun
+  - to
+  - can
+  - else
   allow_duplicate: true
   propagate_case: true
-  triggers: ['ujalp,']
+  trigger: ujalp,
 - replace: 'undervaluation '
-  _tags: [negate, noun, to, can, else]
+  _tags:
+  - negate
+  - noun
+  - to
+  - can
+  - else
   allow_duplicate: true
   propagate_case: true
-  triggers: ['ujalm,']
+  trigger: ujalm,
 - replace: 'overvalue '
-  _tags: [noun, to, can, else]
+  _tags:
+  - noun
+  - to
+  - can
+  - else
   allow_duplicate: true
   propagate_case: true
-  triggers: ['ojal,']
+  trigger: ojal,
 - replace: 'overvalues '
-  _tags: [noun, to, can, else]
+  _tags:
+  - noun
+  - to
+  - can
+  - else
   allow_duplicate: true
   propagate_case: true
-  triggers: ['ojals,']
+  trigger: ojals,
 - replace: 'overvaluing '
-  _tags: [ing, noun, to, can, else]
+  _tags:
+  - ing
+  - noun
+  - to
+  - can
+  - else
   allow_duplicate: true
   propagate_case: true
-  triggers: ['ojali,']
+  trigger: ojali,
 - replace: 'overvalued '
-  _tags: [ed, would, noun, to, can, else]
+  _tags:
+  - ed
+  - would
+  - noun
+  - to
+  - can
+  - else
   allow_duplicate: true
   propagate_case: true
-  triggers: ['ojalp,']
+  trigger: ojalp,
 - replace: 'overvaluation '
-  _tags: [noun, to, can, else]
+  _tags:
+  - noun
+  - to
+  - can
+  - else
   allow_duplicate: true
   propagate_case: true
-  triggers: ['ojalm,']
+  trigger: ojalm,
 - replace: 'valuator '
   propagate_case: true
   allow_duplicate: false
-  triggers: ['jalmo,']
+  trigger: jalmo,

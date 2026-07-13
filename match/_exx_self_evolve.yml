@@ -1,107 +1,200 @@
-# ⚠️  WARNING: AUTO-GENERATED FILE - DO NOT EDIT DIRECTLY!
-# This file is generated from word_version by:
-#   scripts/convert_to_tokenized_word_version.py
-# Edit source in space_version and re-run conversions.
-# Tokenizes trailing spaces in triggers to an explicit token.
-# Removes right_word property for tokenized version.
-# Adds trailing space to replacements that don't have one.
-# Current token: ','
-
-name: exx_self_evolve
-parent: default
+name: _exx_self_evolve
 matches:
 - replace: 'self evolve '
-  _tags: [to, can, else, verb, pronoun]
+  _tags:
+  - to
+  - can
+  - else
+  - verb
+  - pronoun
   propagate_case: true
   allow_duplicate: false
-  triggers: ['sfevo,']
+  trigger: sfevo,
 - replace: 'self evolves '
-  _tags: [to, can, else, verb, pronoun]
+  _tags:
+  - to
+  - can
+  - else
+  - verb
+  - pronoun
   propagate_case: true
   allow_duplicate: false
-  triggers: ['sfevos,']
+  trigger: sfevos,
 - replace: 'self evolving '
-  _tags: [ing, to, can, else, verb, pronoun]
+  _tags:
+  - ing
+  - to
+  - can
+  - else
+  - verb
+  - pronoun
   propagate_case: true
   allow_duplicate: false
-  triggers: ['sfevoi,']
+  trigger: sfevoi,
 - replace: 'self evolved '
-  _tags: [ed, would, to, can, else, verb, pronoun]
+  _tags:
+  - ed
+  - would
+  - to
+  - can
+  - else
+  - verb
+  - pronoun
   propagate_case: true
   allow_duplicate: false
-  triggers: ['sfevop,']
+  trigger: sfevop,
 - replace: 'self evolve this '
-  _tags: [demonstrative, to, can, else, verb, pronoun]
+  _tags:
+  - demonstrative
+  - to
+  - can
+  - else
+  - verb
+  - pronoun
   propagate_case: true
   allow_duplicate: false
-  triggers: ['sfevoiz,']
+  trigger: sfevoiz,
 - replace: 'self evolve that '
-  _tags: [demonstrative, to, can, else, verb, pronoun]
+  _tags:
+  - demonstrative
+  - to
+  - can
+  - else
+  - verb
+  - pronoun
   propagate_case: true
   allow_duplicate: false
-  triggers: ['sfevoaz,']
+  trigger: sfevoaz,
 - replace: 'self evolve these '
-  _tags: [demonstrative, to, can, else, verb, pronoun]
+  _tags:
+  - demonstrative
+  - to
+  - can
+  - else
+  - verb
+  - pronoun
   propagate_case: true
   allow_duplicate: false
-  triggers: ['sfevomez,']
+  trigger: sfevomez,
 - replace: 'self evolve those '
-  _tags: [demonstrative, to, can, else, verb, pronoun]
+  _tags:
+  - demonstrative
+  - to
+  - can
+  - else
+  - verb
+  - pronoun
   propagate_case: true
   allow_duplicate: false
-  triggers: ['sfevooz,']
+  trigger: sfevooz,
 - replace: 'be self evolve '
-  _tags: [to, can, be, verb, pronoun]
+  _tags:
+  - to
+  - can
+  - be
+  - verb
+  - pronoun
   propagate_case: true
   allow_duplicate: false
-  triggers: ['bsfevo,']
+  trigger: bsfevo,
 - replace: 'is self evolve '
-  _tags: [to, can, be, verb, pronoun]
+  _tags:
+  - to
+  - can
+  - be
+  - verb
+  - pronoun
   propagate_case: true
   allow_duplicate: false
-  triggers: ['bsfevos,']
+  trigger: bsfevos,
 - replace: 'was self evolve '
-  _tags: [to, can, be, verb, pronoun]
+  _tags:
+  - to
+  - can
+  - be
+  - verb
+  - pronoun
   propagate_case: true
   allow_duplicate: false
-  triggers: ['bsfevop,']
+  trigger: bsfevop,
 - replace: 'not self evolve '
-  _tags: [negate, to, can, verb, pronoun]
+  _tags:
+  - negate
+  - to
+  - can
+  - verb
+  - pronoun
   propagate_case: true
   allow_duplicate: false
-  triggers: ['nsfevo,']
+  trigger: nsfevo,
 - replace: 'is not self evolve '
-  _tags: [negate, to, can, be, verb, pronoun]
+  _tags:
+  - negate
+  - to
+  - can
+  - be
+  - verb
+  - pronoun
   propagate_case: true
   allow_duplicate: false
-  triggers: ['nsfevos,']
+  trigger: nsfevos,
 - replace: 'have self evolve '
-  _tags: [to, can, have, verb, pronoun]
+  _tags:
+  - to
+  - can
+  - have
+  - verb
+  - pronoun
   propagate_case: true
   allow_duplicate: false
-  triggers: ['hsfevo,']
+  trigger: hsfevo,
 - replace: 'has self evolve '
-  _tags: [to, can, have, verb, pronoun]
+  _tags:
+  - to
+  - can
+  - have
+  - verb
+  - pronoun
   propagate_case: true
   allow_duplicate: false
-  triggers: ['hsfevos,']
+  trigger: hsfevos,
 - replace: 'what self evolve '
-  _tags: [question, to, can, verb, pronoun]
+  _tags:
+  - question
+  - to
+  - can
+  - verb
+  - pronoun
   propagate_case: true
   allow_duplicate: false
-  triggers: ['wtsfevo,']
+  trigger: wtsfevo,
 - replace: 'where self evolve '
-  _tags: [question, to, can, verb, pronoun]
+  _tags:
+  - question
+  - to
+  - can
+  - verb
+  - pronoun
   propagate_case: true
   allow_duplicate: false
-  triggers: ['wrsfevo,']
+  trigger: wrsfevo,
 - replace: 'when self evolve '
-  _tags: [question, to, can, verb, pronoun]
+  _tags:
+  - question
+  - to
+  - can
+  - verb
+  - pronoun
   propagate_case: true
   allow_duplicate: false
-  triggers: ['wnsfevo,']
+  trigger: wnsfevo,
 - replace: 'why self evolve '
-  _tags: [question, to, can, verb, pronoun]
+  _tags:
+  - question
+  - to
+  - can
+  - verb
+  - pronoun
   propagate_case: true
   allow_duplicate: false
-  triggers: ['wysfevo,']
+  trigger: wysfevo,

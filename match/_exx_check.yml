@@ -1,92 +1,144 @@
-# ⚠️  WARNING: AUTO-GENERATED FILE - DO NOT EDIT DIRECTLY!
-# This file is generated from word_version by:
-#   scripts/convert_to_tokenized_word_version.py
-# Edit source in space_version and re-run conversions.
-# Tokenizes trailing spaces in triggers to an explicit token.
-# Removes right_word property for tokenized version.
-# Adds trailing space to replacements that don't have one.
-# Current token: ','
-
-name: exx-check
-parent: default
+name: _exx_check
 matches:
 - replace: 'check '
-  _tags: [the, can, else]
+  _tags:
+  - the
+  - can
+  - else
   allow_duplicate: true
   propagate_case: true
-  triggers: ['hk,']
+  trigger: hk,
 - replace: 'checks '
-  _tags: [ours, the, to, else]
+  _tags:
+  - ours
+  - the
+  - to
+  - else
   allow_duplicate: true
   propagate_case: true
-  triggers: ['hks,']
+  trigger: hks,
 - replace: 'checking '
-  _tags: [pronoun, the, ing, can, else]
+  _tags:
+  - pronoun
+  - the
+  - ing
+  - can
+  - else
   allow_duplicate: true
   propagate_case: true
-  triggers: ['hki,']
+  trigger: hki,
 - replace: 'checked '
-  _tags: [the, can, ed, would, else]
+  _tags:
+  - the
+  - can
+  - ed
+  - would
+  - else
   allow_duplicate: true
   propagate_case: true
-  triggers: ['hkp,']
+  trigger: hkp,
 - replace: 'checker '
-  _tags: [noun, else]
+  _tags:
+  - noun
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['hkw,']
+  trigger: hkw,
 - replace: 'checkout '
-  _tags: [git, can, else]
+  _tags:
+  - git
+  - can
+  - else
   allow_duplicate: true
   propagate_case: true
-  triggers: ['hko,']
+  trigger: hko,
 - replace: 'check if '
-  _tags: [question, the, can, else]
+  _tags:
+  - question
+  - the
+  - can
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['hkf,']
+  trigger: hkf,
 - replace: 'check this '
-  _tags: [demonstrative, the, can, else, frequent-verb]
+  _tags:
+  - demonstrative
+  - the
+  - can
+  - else
+  - frequent-verb
   propagate_case: true
   allow_duplicate: false
-  triggers: ['hkiz,']
+  trigger: hkiz,
 - replace: 'check that '
-  _tags: [demonstrative, the, can, else, have, frequent-verb]
+  _tags:
+  - demonstrative
+  - the
+  - can
+  - else
+  - have
+  - frequent-verb
   propagate_case: true
   allow_duplicate: false
-  triggers: ['hkaz,']
+  trigger: hkaz,
 - replace: 'check these '
-  _tags: [demonstrative, the, can, else, frequent-verb]
+  _tags:
+  - demonstrative
+  - the
+  - can
+  - else
+  - frequent-verb
   propagate_case: true
   allow_duplicate: false
-  triggers: ['hkez,']
+  trigger: hkez,
 - replace: 'check those '
-  _tags: [demonstrative, the, can, else, frequent-verb]
+  _tags:
+  - demonstrative
+  - the
+  - can
+  - else
+  - frequent-verb
   propagate_case: true
   allow_duplicate: false
-  triggers: ['hkoz,']
+  trigger: hkoz,
 - replace: 'check the '
-  _tags: [the, can, else, frequent-verb]
+  _tags:
+  - the
+  - can
+  - else
+  - frequent-verb
   propagate_case: true
   allow_duplicate: false
-  triggers: ['hkh,']
+  trigger: hkh,
 - replace: 'check all '
-  _tags: [the, can, else]
+  _tags:
+  - the
+  - can
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['hka,']
+  trigger: hka,
 - replace: 'check some '
-  _tags: [the, can, else]
+  _tags:
+  - the
+  - can
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['hksm,']
+  trigger: hksm,
 - replace: 'check each '
-  _tags: [the, can, else]
+  _tags:
+  - the
+  - can
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['hkeh,']
+  trigger: hkeh,
 - replace: 'check list '
-  _tags: [phrase, else]
+  _tags:
+  - phrase
+  - else
   allow_duplicate: true
   propagate_case: true
-  triggers: ['hkls,']
+  trigger: hkls,

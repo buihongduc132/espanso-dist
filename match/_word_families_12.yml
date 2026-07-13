@@ -1,265 +1,462 @@
-# ⚠️  WARNING: AUTO-GENERATED FILE - DO NOT EDIT DIRECTLY!
-# This file is generated from word_version by:
-#   scripts/convert_to_tokenized_word_version.py
-# Edit source in space_version and re-run conversions.
-# Tokenizes trailing spaces in triggers to an explicit token.
-# Removes right_word property for tokenized version.
-# Adds trailing space to replacements that don't have one.
-# Current token: ','
-
 matches:
 - replace: 'collecter '
-  _tags: [noun, can, else]
+  _tags:
+  - noun
+  - can
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['qolw,']
+  trigger: qolw,
 - replace: 'collecters '
-  _tags: [noun, can, else]
+  _tags:
+  - noun
+  - can
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['qolws,']
+  trigger: qolws,
 - replace: 'collectering '
-  _tags: [ing, can, else, pronoun]
+  _tags:
+  - ing
+  - can
+  - else
+  - pronoun
   propagate_case: true
   allow_duplicate: false
-  triggers: ['qolwi,']
+  trigger: qolwi,
 - replace: 'collectered '
-  _tags: [ed, can, else, would]
+  _tags:
+  - ed
+  - can
+  - else
+  - would
   propagate_case: true
   allow_duplicate: false
-  triggers: ['qolwp,']
+  trigger: qolwp,
 - replace: 'collector '
-  _tags: [noun, can, else]
+  _tags:
+  - noun
+  - can
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['qolo,']
+  trigger: qolo,
 - replace: 'collectors '
-  _tags: [noun, can, else]
+  _tags:
+  - noun
+  - can
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['qolos,']
+  trigger: qolos,
 - replace: 'collectoring '
-  _tags: [ing, can, else, pronoun]
+  _tags:
+  - ing
+  - can
+  - else
+  - pronoun
   propagate_case: true
   allow_duplicate: false
-  triggers: ['qoloi,']
+  trigger: qoloi,
 - replace: 'collected '
-  _tags: [ed, can, else, would]
+  _tags:
+  - ed
+  - can
+  - else
+  - would
   propagate_case: true
   allow_duplicate: false
-  triggers: ['qolop,']
+  trigger: qolop,
 - replace: 'forward '
-  _tags: [will, would]
+  _tags:
+  - will
+  - would
   propagate_case: true
   allow_duplicate: false
-  triggers: ['foww,']
+  trigger: foww,
 - replace: 'forwarded '
-  _tags: [ed, will, would, else]
+  _tags:
+  - ed
+  - will
+  - would
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['fowwp,']
+  trigger: fowwp,
 - replace: 'forwarding '
-  _tags: [will, would, ing, pronoun]
+  _tags:
+  - will
+  - would
+  - ing
+  - pronoun
   propagate_case: true
   allow_duplicate: false
-  triggers: ['fowwi,']
+  trigger: fowwi,
 - replace: 'forwards '
-  _tags: [will, would]
+  _tags:
+  - will
+  - would
   propagate_case: true
   allow_duplicate: false
-  triggers: ['fowws,']
+  trigger: fowws,
 - replace: 'together '
-  _tags: [the, to, else]
+  _tags:
+  - the
+  - to
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['toge,']
+  trigger: toge,
 - replace: 'mech '
-  _tags: [noun, can, pronoun, else]
+  _tags:
+  - noun
+  - can
+  - pronoun
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['meq,']
+  trigger: meq,
 - replace: 'mechs '
-  _tags: [noun, can, pronoun, else]
+  _tags:
+  - noun
+  - can
+  - pronoun
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['meqs,']
+  trigger: meqs,
 - replace: 'mechanizing '
-  _tags: [ing, can, pronoun, else]
+  _tags:
+  - ing
+  - can
+  - pronoun
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['meqi,']
+  trigger: meqi,
 - replace: 'mechanized '
-  _tags: [ed, would, can, pronoun, else]
+  _tags:
+  - ed
+  - would
+  - can
+  - pronoun
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['meqp,']
+  trigger: meqp,
 - replace: 'mechanization '
-  _tags: [noun, can, pronoun, else]
+  _tags:
+  - noun
+  - can
+  - pronoun
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['meqm,']
+  trigger: meqm,
 - replace: 'mechanic '
-  _tags: [noun, can, pronoun, else, have]
+  _tags:
+  - noun
+  - can
+  - pronoun
+  - else
+  - have
   propagate_case: true
   allow_duplicate: false
-  triggers: ['meqa,']
+  trigger: meqa,
 - replace: 'mechanics '
-  _tags: [noun, can, pronoun, else, have]
+  _tags:
+  - noun
+  - can
+  - pronoun
+  - else
+  - have
   propagate_case: true
   allow_duplicate: false
-  triggers: ['meqas,']
+  trigger: meqas,
 - replace: 'mechanism '
-  _tags: [noun, can, pronoun, else, be, have]
+  _tags:
+  - noun
+  - can
+  - pronoun
+  - else
+  - be
+  - have
   propagate_case: true
   allow_duplicate: false
-  triggers: ['meqam,']
+  trigger: meqam,
 - replace: 'mechanic''s '
-  _tags: [noun, can, pronoun, else, would, have]
+  _tags:
+  - noun
+  - can
+  - pronoun
+  - else
+  - would
+  - have
   propagate_case: true
   allow_duplicate: false
-  triggers: ['meqad,']
+  trigger: meqad,
 - replace: 'character '
-  _tags: [the, to, can, else, have]
+  _tags:
+  - the
+  - to
+  - can
+  - else
+  - have
   propagate_case: true
   allow_duplicate: false
-  triggers: ['qhaw,']
+  trigger: qhaw,
 - replace: 'charactered '
-  _tags: [the, have, can, to, ed, would, else]
+  _tags:
+  - the
+  - have
+  - can
+  - to
+  - ed
+  - would
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['qhawp,']
+  trigger: qhawp,
 - replace: 'charactering '
-  _tags: [pronoun, the, ing, to, can, else, have]
+  _tags:
+  - pronoun
+  - the
+  - ing
+  - to
+  - can
+  - else
+  - have
   propagate_case: true
   allow_duplicate: false
-  triggers: ['qhawi,']
+  trigger: qhawi,
 - replace: 'characters '
-  _tags: [the, to, can, else, have]
+  _tags:
+  - the
+  - to
+  - can
+  - else
+  - have
   propagate_case: true
   allow_duplicate: false
-  triggers: ['qhaws,']
+  trigger: qhaws,
 - replace: 'characteristic '
-  _tags: [pronoun, the, to, can, be, else, have]
+  _tags:
+  - pronoun
+  - the
+  - to
+  - can
+  - be
+  - else
+  - have
   propagate_case: true
   allow_duplicate: false
-  triggers: ['qhawt,']
+  trigger: qhawt,
 - replace: 'characteristics '
-  _tags: [pronoun, the, to, can, be, else, have]
+  _tags:
+  - pronoun
+  - the
+  - to
+  - can
+  - be
+  - else
+  - have
   propagate_case: true
   allow_duplicate: false
-  triggers: ['qhas,']
+  trigger: qhas,
 - replace: 'though '
-  _tags: [to, the]
+  _tags:
+  - to
+  - the
   propagate_case: true
   allow_duplicate: false
-  triggers: ['thog,']
+  trigger: thog,
 - replace: 'put '
-  _tags: [to]
+  _tags:
+  - to
   propagate_case: true
   allow_duplicate: false
-  triggers: ['put,']
+  trigger: put,
 - replace: 'putting '
-  _tags: [to, ing, pronoun]
+  _tags:
+  - to
+  - ing
+  - pronoun
   propagate_case: true
   allow_duplicate: false
-  triggers: ['puti,']
+  trigger: puti,
 - replace: 'put '
-  _tags: [to, would]
+  _tags:
+  - to
+  - would
   propagate_case: true
   allow_duplicate: false
-  triggers: ['putd,']
+  trigger: putd,
 - replace: 'puts '
-  _tags: [to]
+  _tags:
+  - to
   propagate_case: true
   allow_duplicate: false
-  triggers: ['puts,']
+  trigger: puts,
 - replace: 'are there '
-  _tags: [place, the, to, be, else]
+  _tags:
+  - place
+  - the
+  - to
+  - be
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['aew,']
+  trigger: aew,
 - replace: 'is there '
-  _tags: [place, pronoun, the, to, be, else]
+  _tags:
+  - place
+  - pronoun
+  - the
+  - to
+  - be
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['tew,']
+  trigger: tew,
 - replace: 'was there '
-  _tags: [place, will, the, to, be, else]
+  _tags:
+  - place
+  - will
+  - the
+  - to
+  - be
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['wwasew,']
+  trigger: wwasew,
 - replace: 'were there '
-  _tags: [place, pronoun, will, the, to, be, else]
+  _tags:
+  - place
+  - pronoun
+  - will
+  - the
+  - to
+  - be
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['wwassew,']
+  trigger: wwassew,
 - replace: 'are here '
-  _tags: [place, the, to, be, else]
+  _tags:
+  - place
+  - the
+  - to
+  - be
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['awe,']
+  trigger: awe,
 - replace: 'is here '
-  _tags: [place, pronoun, the, to, be, else]
+  _tags:
+  - place
+  - pronoun
+  - the
+  - to
+  - be
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['twe,']
+  trigger: twe,
 - replace: 'was here '
-  _tags: [place, will, the, to, be, else]
+  _tags:
+  - place
+  - will
+  - the
+  - to
+  - be
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['wwaswe,']
+  trigger: wwaswe,
 - replace: 'were here '
-  _tags: [place, pronoun, will, the, to, be, else]
+  _tags:
+  - place
+  - pronoun
+  - will
+  - the
+  - to
+  - be
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['wwasswe,']
+  trigger: wwasswe,
 - replace: 'is there '
-  _tags: [alias]
+  _tags:
+  - alias
   allow_duplicate: true
   propagate_case: true
-  triggers: ['isth,']
+  trigger: isth,
 - replace: 'was there '
-  _tags: [alias]
+  _tags:
+  - alias
   allow_duplicate: true
   propagate_case: true
-  triggers: ['wast,']
+  trigger: wast,
 - replace: 'were there '
-  _tags: [alias]
+  _tags:
+  - alias
   allow_duplicate: true
   propagate_case: true
-  triggers: ['wewet,']
+  trigger: wewet,
 - replace: 'was here '
-  _tags: [alias]
+  _tags:
+  - alias
   allow_duplicate: true
   propagate_case: true
-  triggers: ['aswe,']
+  trigger: aswe,
 - replace: 'were here '
-  _tags: [alias]
+  _tags:
+  - alias
   allow_duplicate: true
   propagate_case: true
-  triggers: ['asswe,']
+  trigger: asswe,
 - replace: 'was there '
-  _tags: [alias]
+  _tags:
+  - alias
   allow_duplicate: true
   propagate_case: true
-  triggers: ['asew,']
+  trigger: asew,
 - replace: 'were there '
-  _tags: [place, pronoun, the, to, be, else]
+  _tags:
+  - place
+  - pronoun
+  - the
+  - to
+  - be
+  - else
   allow_duplicate: true
   propagate_case: true
-  triggers: ['assew,']
+  trigger: assew,
 - replace: 'mechanical '
-  _tags: [adjective, can, pronoun, else]
+  _tags:
+  - adjective
+  - can
+  - pronoun
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['meqj,']
+  trigger: meqj,
 - replace: 'mechanize '
-  _tags: [to, can, pronoun, else]
+  _tags:
+  - to
+  - can
+  - pronoun
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['meqz,']
+  trigger: meqz,
 - replace: 'mechanically '
-  _tags: [adverb, can, pronoun, else]
+  _tags:
+  - adverb
+  - can
+  - pronoun
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['meqjl,']
+  trigger: meqjl,
+name: _word_families_12

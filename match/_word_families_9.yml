@@ -1,114 +1,108 @@
-# ⚠️  WARNING: AUTO-GENERATED FILE - DO NOT EDIT DIRECTLY!
-# This file is generated from word_version by:
-#   scripts/convert_to_tokenized_word_version.py
-# Edit source in space_version and re-run conversions.
-# Tokenizes trailing spaces in triggers to an explicit token.
-# Removes right_word property for tokenized version.
-# Adds trailing space to replacements that don't have one.
-# Current token: ','
-
-name: word-families-patterns
-parent: default
+name: _word_families_9
 matches:
 - replace: 'pattern '
-  _tags: [to, else]
+  _tags:
+  - to
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['patt,']
+  trigger: patt,
 - replace: 'patterns '
-  _tags: [to, else]
+  _tags:
+  - to
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['patts,']
+  trigger: patts,
 - replace: 'episode '
   propagate_case: true
   allow_duplicate: false
-  triggers: ['epi,']
+  trigger: epi,
 - replace: 'episodes '
   propagate_case: true
   allow_duplicate: false
-  triggers: ['epis,']
+  trigger: epis,
 - replace: 'episoding '
   propagate_case: true
   allow_duplicate: false
-  triggers: ['epii,']
+  trigger: epii,
 - replace: 'episoded '
   propagate_case: true
   allow_duplicate: false
-  triggers: ['epip,']
+  trigger: epip,
 - replace: 'episodic '
   propagate_case: true
   allow_duplicate: false
-  triggers: ['epij,']
+  trigger: epij,
 - replace: 'episodically '
   propagate_case: true
   allow_duplicate: false
-  triggers: ['epijl,']
+  trigger: epijl,
 - replace: 'episodeness '
   propagate_case: true
   allow_duplicate: false
-  triggers: ['epin,']
+  trigger: epin,
 - replace: 'what episode '
   propagate_case: true
   allow_duplicate: false
-  triggers: ['whtepi,']
+  trigger: whtepi,
 - replace: 'where episode '
   propagate_case: true
   allow_duplicate: false
-  triggers: ['whrepi,']
+  trigger: whrepi,
 - replace: 'when episode '
   propagate_case: true
   allow_duplicate: false
-  triggers: ['whnepi,']
+  trigger: whnepi,
 - replace: 'which episode '
   propagate_case: true
   allow_duplicate: false
-  triggers: ['whlepi,']
+  trigger: whlepi,
 - replace: 'how episode '
   propagate_case: true
   allow_duplicate: false
-  triggers: ['howepi,']
+  trigger: howepi,
 - replace: 'episode to the '
   propagate_case: true
   allow_duplicate: false
-  triggers: ['epi2h,']
+  trigger: epi2h,
 - replace: 'episode from the '
   propagate_case: true
   allow_duplicate: false
-  triggers: ['epi-2h,']
+  trigger: epi-2h,
 - replace: 'episode from '
   propagate_case: true
   allow_duplicate: false
-  triggers: ['epi-2,']
+  trigger: epi-2,
 - replace: 'episode '
   propagate_case: true
   allow_duplicate: false
-  triggers: ['epim,']
+  trigger: epim,
 - replace: 'this episode '
   propagate_case: true
   allow_duplicate: false
-  triggers: ['izepi,']
+  trigger: izepi,
 - replace: 'that episode '
   propagate_case: true
   allow_duplicate: false
-  triggers: ['azepi,']
+  trigger: azepi,
 - replace: 'these episodes '
   propagate_case: true
   allow_duplicate: false
-  triggers: ['ezepis,']
+  trigger: ezepis,
 - replace: 'those episodes '
   propagate_case: true
   allow_duplicate: false
-  triggers: ['ozepis,']
+  trigger: ozepis,
 - replace: 'episode number '
   propagate_case: true
   allow_duplicate: false
-  triggers: ['epn,']
+  trigger: epn,
 - replace: 'these episode '
   propagate_case: true
   allow_duplicate: false
-  triggers: ['ezepi,']
+  trigger: ezepi,
 - replace: 'those episode '
   propagate_case: true
   allow_duplicate: false
-  triggers: ['ozepi,']
+  trigger: ozepi,

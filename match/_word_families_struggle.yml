@@ -1,0 +1,54 @@
+name: _word_families_struggle
+matches:
+- replace: 'struggle '
+  _tags:
+  - verb
+  - noun
+  - to
+  - else
+  propagate_case: true
+  allow_duplicate: false
+  trigger: strul,
+- replace: 'struggles '
+  _tags:
+  - verb
+  - noun
+  - to
+  - else
+  propagate_case: true
+  allow_duplicate: false
+  trigger: struls,
+- replace: 'struggling '
+  _tags:
+  - ing
+  - verb
+  - to
+  - else
+  propagate_case: true
+  allow_duplicate: false
+  trigger: struli,
+- replace: 'struggled '
+  _tags:
+  - ed
+  - verb
+  - to
+  - else
+  propagate_case: true
+  allow_duplicate: false
+  trigger: strulp,
+- replace: 'struggler '
+  _tags:
+  - noun
+  - to
+  - else
+  propagate_case: true
+  allow_duplicate: false
+  trigger: strulw,
+- replace: 'strugglers '
+  _tags:
+  - noun
+  - to
+  - else
+  propagate_case: true
+  allow_duplicate: false
+  trigger: strulws,

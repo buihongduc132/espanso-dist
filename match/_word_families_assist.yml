@@ -1,0 +1,200 @@
+name: _word_families_assist
+matches:
+- replace: 'assist '
+  _tags:
+  - noun
+  - verb
+  - to
+  - else
+  propagate_case: true
+  allow_duplicate: false
+  trigger: asit,
+- replace: 'assists '
+  _tags:
+  - noun
+  - plural
+  - verb
+  - to
+  - else
+  propagate_case: true
+  allow_duplicate: false
+  trigger: asits,
+- replace: 'assisting '
+  _tags:
+  - ing
+  - verb
+  - to
+  - else
+  propagate_case: true
+  allow_duplicate: false
+  trigger: asiti,
+- replace: 'assisted '
+  _tags:
+  - ed
+  - verb
+  - to
+  - else
+  propagate_case: true
+  allow_duplicate: false
+  trigger: asitp,
+- replace: 'assistance '
+  _tags:
+  - noun
+  - to
+  - else
+  propagate_case: true
+  allow_duplicate: false
+  trigger: asitm,
+- replace: 'assistant '
+  _tags:
+  - noun
+  - to
+  - else
+  propagate_case: true
+  allow_duplicate: false
+  trigger: asitw,
+- replace: 'assistants '
+  _tags:
+  - noun
+  - plural
+  - to
+  - else
+  propagate_case: true
+  allow_duplicate: false
+  trigger: asitws,
+- replace: 'this assist '
+  _tags:
+  - demonstrative
+  - th_foundation
+  propagate_case: true
+  allow_duplicate: false
+  trigger: izasit,
+- replace: 'that assist '
+  _tags:
+  - demonstrative
+  - th_foundation
+  propagate_case: true
+  allow_duplicate: false
+  trigger: azasit,
+- replace: 'these assists '
+  _tags:
+  - demonstrative
+  - th_foundation
+  - plural
+  propagate_case: true
+  allow_duplicate: false
+  trigger: ezasits,
+- replace: 'those assists '
+  _tags:
+  - demonstrative
+  - th_foundation
+  - plural
+  propagate_case: true
+  allow_duplicate: false
+  trigger: ozasits,
+- replace: 'assist this '
+  _tags:
+  - demonstrative
+  - th_foundation
+  propagate_case: true
+  allow_duplicate: false
+  trigger: asitiz,
+- replace: 'assist that '
+  _tags:
+  - demonstrative
+  - th_foundation
+  propagate_case: true
+  allow_duplicate: false
+  trigger: asitaz,
+- replace: 'assist these '
+  _tags:
+  - demonstrative
+  - th_foundation
+  propagate_case: true
+  allow_duplicate: false
+  trigger: asitez,
+- replace: 'assist those '
+  _tags:
+  - demonstrative
+  - th_foundation
+  propagate_case: true
+  allow_duplicate: false
+  trigger: asitoz,
+- replace: 'assist it '
+  _tags:
+  - pronoun
+  propagate_case: true
+  allow_duplicate: false
+  trigger: asitit,
+- replace: 'assist them '
+  _tags:
+  - pronoun
+  propagate_case: true
+  allow_duplicate: false
+  trigger: asitmm,
+- replace: 'assist the '
+  _tags:
+  - pronoun
+  propagate_case: true
+  allow_duplicate: false
+  trigger: asith,
+- replace: 'what assist '
+  _tags:
+  - question
+  propagate_case: true
+  allow_duplicate: false
+  trigger: wtasit,
+- replace: 'where assist '
+  _tags:
+  - question
+  propagate_case: true
+  allow_duplicate: false
+  trigger: wwasit,
+- replace: 'when assist '
+  _tags:
+  - question
+  propagate_case: true
+  allow_duplicate: false
+  trigger: wnasit,
+- replace: 'why assist '
+  _tags:
+  - question
+  propagate_case: true
+  allow_duplicate: false
+  trigger: wyasit,
+- replace: 'how assist '
+  _tags:
+  - question
+  propagate_case: true
+  allow_duplicate: false
+  trigger: hwasit,
+- replace: 'assist to the '
+  _tags:
+  - directional
+  propagate_case: true
+  allow_duplicate: false
+  trigger: asit2h,
+- replace: 'from the assist '
+  _tags:
+  - directional
+  propagate_case: true
+  allow_duplicate: false
+  trigger: 22hasit,
+- replace: 'from the assists '
+  _tags:
+  - directional
+  propagate_case: true
+  allow_duplicate: false
+  trigger: 22hasits,
+- replace: 'assist have '
+  propagate_case: true
+  allow_duplicate: false
+  trigger: asitha,
+- replace: 'assist has '
+  propagate_case: true
+  allow_duplicate: false
+  trigger: asithass,
+- replace: 'then assist '
+  propagate_case: true
+  allow_duplicate: false
+  trigger: nzasit,

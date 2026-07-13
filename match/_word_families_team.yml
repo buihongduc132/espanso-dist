@@ -1,0 +1,188 @@
+name: _word_families_team
+matches:
+- replace: 'team '
+  _tags:
+  - noun
+  - verb
+  - to
+  - else
+  propagate_case: true
+  allow_duplicate: false
+  trigger: tee,
+- replace: 'teams '
+  _tags:
+  - noun
+  - plural
+  - verb
+  - to
+  - else
+  propagate_case: true
+  allow_duplicate: false
+  trigger: tees,
+- replace: 'teaming '
+  _tags:
+  - ing
+  - verb
+  - to
+  - else
+  propagate_case: true
+  allow_duplicate: false
+  trigger: teei,
+- replace: 'teamed '
+  _tags:
+  - ed
+  - verb
+  - to
+  - else
+  propagate_case: true
+  allow_duplicate: false
+  trigger: teep,
+- replace: 'team member '
+  _tags:
+  - noun
+  - to
+  - else
+  propagate_case: true
+  allow_duplicate: false
+  trigger: teem,
+- replace: 'team members '
+  _tags:
+  - noun
+  - plural
+  - to
+  - else
+  propagate_case: true
+  allow_duplicate: false
+  trigger: teems,
+- replace: 'this team '
+  _tags:
+  - demonstrative
+  - th_foundation
+  propagate_case: true
+  allow_duplicate: false
+  trigger: iztee,
+- replace: 'that team '
+  _tags:
+  - demonstrative
+  - th_foundation
+  propagate_case: true
+  allow_duplicate: false
+  trigger: aztee,
+- replace: 'these teams '
+  _tags:
+  - demonstrative
+  - th_foundation
+  - plural
+  propagate_case: true
+  allow_duplicate: false
+  trigger: eztees,
+- replace: 'those teams '
+  _tags:
+  - demonstrative
+  - th_foundation
+  - plural
+  propagate_case: true
+  allow_duplicate: false
+  trigger: oztees,
+- replace: 'team this '
+  _tags:
+  - demonstrative
+  - th_foundation
+  propagate_case: true
+  allow_duplicate: false
+  trigger: teeiz,
+- replace: 'team that '
+  _tags:
+  - demonstrative
+  - th_foundation
+  propagate_case: true
+  allow_duplicate: false
+  trigger: teeaz,
+- replace: 'team these '
+  _tags:
+  - demonstrative
+  - th_foundation
+  propagate_case: true
+  allow_duplicate: false
+  trigger: teeez,
+- replace: 'team those '
+  _tags:
+  - demonstrative
+  - th_foundation
+  propagate_case: true
+  allow_duplicate: false
+  trigger: teeoz,
+- replace: 'team it '
+  _tags:
+  - pronoun
+  propagate_case: true
+  allow_duplicate: false
+  trigger: teeit,
+- replace: 'team them '
+  _tags:
+  - pronoun
+  propagate_case: true
+  allow_duplicate: false
+  trigger: teemm,
+- replace: 'team the '
+  _tags:
+  - pronoun
+  propagate_case: true
+  allow_duplicate: false
+  trigger: teeh,
+- replace: 'what team '
+  _tags:
+  - question
+  propagate_case: true
+  allow_duplicate: false
+  trigger: wttee,
+- replace: 'where team '
+  _tags:
+  - question
+  propagate_case: true
+  allow_duplicate: false
+  trigger: wwtee,
+- replace: 'when team '
+  _tags:
+  - question
+  propagate_case: true
+  allow_duplicate: false
+  trigger: wntee,
+- replace: 'why team '
+  _tags:
+  - question
+  propagate_case: true
+  allow_duplicate: false
+  trigger: wytee,
+- replace: 'how team '
+  _tags:
+  - question
+  propagate_case: true
+  allow_duplicate: false
+  trigger: hwtee,
+- replace: 'team to the '
+  _tags:
+  - directional
+  propagate_case: true
+  allow_duplicate: false
+  trigger: tee2h,
+- replace: 'from the team '
+  _tags:
+  - directional
+  propagate_case: true
+  allow_duplicate: false
+  trigger: 22htee,
+- replace: 'from the teams '
+  _tags:
+  - directional
+  propagate_case: true
+  allow_duplicate: false
+  trigger: 22htees,
+- replace: 'team have '
+  propagate_case: true
+  allow_duplicate: false
+  trigger: teeha,
+- replace: 'team has '
+  propagate_case: true
+  allow_duplicate: false
+  trigger: teehass,

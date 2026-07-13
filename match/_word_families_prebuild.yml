@@ -1,0 +1,26 @@
+name: _word_families_prebuild
+matches:
+- replace: 'prebuild '
+  propagate_case: true
+  allow_duplicate: false
+  trigger: pwbui,
+- replace: 'prebuilds '
+  propagate_case: true
+  allow_duplicate: false
+  trigger: pwbuis,
+- replace: 'prebuilding '
+  propagate_case: true
+  allow_duplicate: false
+  trigger: pwbuii,
+- replace: 'prebuilt '
+  propagate_case: true
+  allow_duplicate: false
+  trigger: pwbuip,
+- replace: 'prebuildion '
+  propagate_case: true
+  allow_duplicate: false
+  trigger: pwbuim,
+- replace: 'prebuildable '
+  propagate_case: true
+  allow_duplicate: false
+  trigger: pwbuib,

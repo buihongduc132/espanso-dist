@@ -1,0 +1,136 @@
+name: _word_families_couple
+matches:
+- replace: 'couple '
+  _tags:
+  - can
+  - pronoun
+  - else
+  propagate_case: true
+  allow_duplicate: false
+  trigger: qoup,
+- replace: 'couples '
+  _tags:
+  - can
+  - pronoun
+  - else
+  propagate_case: true
+  allow_duplicate: false
+  trigger: qoups,
+- replace: 'coupling '
+  _tags:
+  - ing
+  - can
+  - pronoun
+  - else
+  propagate_case: true
+  allow_duplicate: false
+  trigger: qoupi,
+- replace: 'coupled '
+  _tags:
+  - ed
+  - would
+  - can
+  - pronoun
+  - else
+  propagate_case: true
+  allow_duplicate: false
+  trigger: qoupp,
+- replace: 'coupler '
+  _tags:
+  - noun
+  - can
+  - pronoun
+  - else
+  propagate_case: true
+  allow_duplicate: false
+  trigger: qoupw,
+- replace: 'couplers '
+  _tags:
+  - noun
+  - can
+  - pronoun
+  - else
+  propagate_case: true
+  allow_duplicate: false
+  trigger: qoupws,
+- replace: 'decouple '
+  _tags:
+  - prefix
+  - can
+  - pronoun
+  - else
+  propagate_case: true
+  allow_duplicate: false
+  trigger: dqoup,
+- replace: 'decoupling '
+  _tags:
+  - prefix
+  - ing
+  - can
+  - pronoun
+  - else
+  propagate_case: true
+  allow_duplicate: false
+  trigger: dqoupi,
+- replace: 'decoupled '
+  _tags:
+  - prefix
+  - ed
+  - can
+  - pronoun
+  - else
+  propagate_case: true
+  allow_duplicate: false
+  trigger: dqoupp,
+- replace: 'uncouple '
+  _tags:
+  - prefix
+  - negate
+  - can
+  - pronoun
+  - else
+  propagate_case: true
+  allow_duplicate: false
+  trigger: uqoup,
+- replace: 'uncoupling '
+  _tags:
+  - prefix
+  - negate
+  - ing
+  - can
+  - pronoun
+  - else
+  propagate_case: true
+  allow_duplicate: false
+  trigger: uqoupi,
+- replace: 'uncoupled '
+  _tags:
+  - prefix
+  - negate
+  - ed
+  - can
+  - pronoun
+  - else
+  propagate_case: true
+  allow_duplicate: false
+  trigger: uqoupp,
+- replace: 'couple this '
+  propagate_case: true
+  allow_duplicate: false
+  trigger: qoupiz,
+- replace: 'couple that '
+  propagate_case: true
+  allow_duplicate: false
+  trigger: qoupaz,
+- replace: 'couple these '
+  propagate_case: true
+  allow_duplicate: false
+  trigger: qoupez,
+- replace: 'couple those '
+  propagate_case: true
+  allow_duplicate: false
+  trigger: qoupoz,
+- replace: 'couple to the '
+  propagate_case: true
+  allow_duplicate: false
+  trigger: qoup2h,

@@ -1,602 +1,1104 @@
-# ⚠️  WARNING: AUTO-GENERATED FILE - DO NOT EDIT DIRECTLY!
-# This file is generated from word_version by:
-#   scripts/convert_to_tokenized_word_version.py
-# Edit source in space_version and re-run conversions.
-# Tokenizes trailing spaces in triggers to an explicit token.
-# Removes right_word property for tokenized version.
-# Adds trailing space to replacements that don't have one.
-# Current token: ','
-
-name: exx-backup
-parent: default
+name: _exx_backup
 matches:
 - replace: 'backup '
-  _tags: [to, can, else]
+  _tags:
+  - to
+  - can
+  - else
   allow_duplicate: true
   propagate_case: true
-  triggers: ['bak,']
+  trigger: bak,
 - replace: 'backup this '
-  _tags: [demonstrative, to, can, else]
+  _tags:
+  - demonstrative
+  - to
+  - can
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['bakiz,']
+  trigger: bakiz,
 - replace: 'backup that '
-  _tags: [demonstrative, to, can, else]
+  _tags:
+  - demonstrative
+  - to
+  - can
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['bakaz,']
+  trigger: bakaz,
 - replace: 'backup these '
-  _tags: [demonstrative, to, can, else]
+  _tags:
+  - demonstrative
+  - to
+  - can
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['bakez,']
+  trigger: bakez,
 - replace: 'backup those '
-  _tags: [demonstrative, to, can, else]
+  _tags:
+  - demonstrative
+  - to
+  - can
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['bakoz,']
+  trigger: bakoz,
 - replace: 'backup the '
-  _tags: [article, to, can, else]
+  _tags:
+  - article
+  - to
+  - can
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['bakh,']
+  trigger: bakh,
 - replace: 'backup all '
-  _tags: [quantifier, to, can, else]
+  _tags:
+  - quantifier
+  - to
+  - can
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['baka,']
+  trigger: baka,
 - replace: 'backup some '
-  _tags: [quantifier, to, can, else]
+  _tags:
+  - quantifier
+  - to
+  - can
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['baksm,']
+  trigger: baksm,
 - replace: 'backup each '
-  _tags: [quantifier, to, can, else]
+  _tags:
+  - quantifier
+  - to
+  - can
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['bakeh,']
+  trigger: bakeh,
 - replace: 'the backup '
-  _tags: [article, to, can, else]
+  _tags:
+  - article
+  - to
+  - can
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['hbak,']
+  trigger: hbak,
 - replace: 'the backup this '
-  _tags: [article, demonstrative, to, can, else]
+  _tags:
+  - article
+  - demonstrative
+  - to
+  - can
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['hbakiz,']
+  trigger: hbakiz,
 - replace: 'the backup that '
-  _tags: [article, demonstrative, to, can, else]
+  _tags:
+  - article
+  - demonstrative
+  - to
+  - can
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['hbakaz,']
+  trigger: hbakaz,
 - replace: 'the backup these '
-  _tags: [article, demonstrative, to, can, else]
+  _tags:
+  - article
+  - demonstrative
+  - to
+  - can
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['hbakez,']
+  trigger: hbakez,
 - replace: 'the backup those '
-  _tags: [article, demonstrative, to, can, else]
+  _tags:
+  - article
+  - demonstrative
+  - to
+  - can
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['hbakoz,']
+  trigger: hbakoz,
 - replace: 'the backup which '
-  _tags: [article, relative, to, can, else]
+  _tags:
+  - article
+  - relative
+  - to
+  - can
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['hbakwh,']
+  trigger: hbakwh,
 - replace: 'the backup who '
-  _tags: [article, relative, to, can, else]
+  _tags:
+  - article
+  - relative
+  - to
+  - can
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['hbakwho,']
+  trigger: hbakwho,
 - replace: 'the backup when '
-  _tags: [article, relative, to, can, else]
+  _tags:
+  - article
+  - relative
+  - to
+  - can
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['hbakwhen,']
+  trigger: hbakwhen,
 - replace: 'the backup where '
-  _tags: [article, relative, to, can, else]
+  _tags:
+  - article
+  - relative
+  - to
+  - can
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['hbakwhere,']
+  trigger: hbakwhere,
 - replace: 'the backup why '
-  _tags: [article, relative, to, can, else]
+  _tags:
+  - article
+  - relative
+  - to
+  - can
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['hbakwhy,']
+  trigger: hbakwhy,
 - replace: 'the backup how '
-  _tags: [article, relative, to, can, else]
+  _tags:
+  - article
+  - relative
+  - to
+  - can
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['hbakhow,']
+  trigger: hbakhow,
 - replace: 'backuped '
-  _tags: [ed, would, to, can, else]
+  _tags:
+  - ed
+  - would
+  - to
+  - can
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['bakp,']
+  trigger: bakp,
 - replace: 'backups '
-  _tags: [noun, to, can, else]
+  _tags:
+  - noun
+  - to
+  - can
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['baks,']
+  trigger: baks,
 - replace: 'backupper '
-  _tags: [noun, to, can, else]
+  _tags:
+  - noun
+  - to
+  - can
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['bakw,']
+  trigger: bakw,
 - replace: 'backup to '
-  _tags: [to, can, else, preposition]
+  _tags:
+  - to
+  - can
+  - else
+  - preposition
   propagate_case: true
   allow_duplicate: false
-  triggers: ['bak2,']
+  trigger: bak2,
 - replace: 'backup from '
-  _tags: [to, can, else, preposition]
+  _tags:
+  - to
+  - can
+  - else
+  - preposition
   propagate_case: true
   allow_duplicate: false
-  triggers: ['bak22,']
+  trigger: bak22,
 - replace: 'to backup '
-  _tags: [to, can, else, preposition]
+  _tags:
+  - to
+  - can
+  - else
+  - preposition
   propagate_case: true
   allow_duplicate: false
-  triggers: ['2bak,']
+  trigger: 2bak,
 - replace: 'from backup '
-  _tags: [to, can, else, preposition]
+  _tags:
+  - to
+  - can
+  - else
+  - preposition
   propagate_case: true
   allow_duplicate: false
-  triggers: ['22bak,']
+  trigger: 22bak,
 - replace: 'backup to this '
-  _tags: [to, can, else, preposition, demonstrative]
+  _tags:
+  - to
+  - can
+  - else
+  - preposition
+  - demonstrative
   propagate_case: true
   allow_duplicate: false
-  triggers: ['bak2iz,']
+  trigger: bak2iz,
 - replace: 'backup to that '
-  _tags: [to, can, else, preposition, demonstrative]
+  _tags:
+  - to
+  - can
+  - else
+  - preposition
+  - demonstrative
   propagate_case: true
   allow_duplicate: false
-  triggers: ['bak2az,']
+  trigger: bak2az,
 - replace: 'backup to these '
-  _tags: [to, can, else, preposition, demonstrative]
+  _tags:
+  - to
+  - can
+  - else
+  - preposition
+  - demonstrative
   propagate_case: true
   allow_duplicate: false
-  triggers: ['bak2ez,']
+  trigger: bak2ez,
 - replace: 'backup to those '
-  _tags: [to, can, else, preposition, demonstrative]
+  _tags:
+  - to
+  - can
+  - else
+  - preposition
+  - demonstrative
   propagate_case: true
   allow_duplicate: false
-  triggers: ['bak2oz,']
+  trigger: bak2oz,
 - replace: 'backup from this '
-  _tags: [to, can, else, preposition, demonstrative]
+  _tags:
+  - to
+  - can
+  - else
+  - preposition
+  - demonstrative
   propagate_case: true
   allow_duplicate: false
-  triggers: ['bak22iz,']
+  trigger: bak22iz,
 - replace: 'backup from that '
-  _tags: [to, can, else, preposition, demonstrative]
+  _tags:
+  - to
+  - can
+  - else
+  - preposition
+  - demonstrative
   propagate_case: true
   allow_duplicate: false
-  triggers: ['bak22az,']
+  trigger: bak22az,
 - replace: 'backup from these '
-  _tags: [to, can, else, preposition, demonstrative]
+  _tags:
+  - to
+  - can
+  - else
+  - preposition
+  - demonstrative
   propagate_case: true
   allow_duplicate: false
-  triggers: ['bak22ez,']
+  trigger: bak22ez,
 - replace: 'backup from those '
-  _tags: [to, can, else, preposition, demonstrative]
+  _tags:
+  - to
+  - can
+  - else
+  - preposition
+  - demonstrative
   propagate_case: true
   allow_duplicate: false
-  triggers: ['bak22oz,']
+  trigger: bak22oz,
 - replace: 'backup to the '
-  _tags: [to, can, else, preposition, article]
+  _tags:
+  - to
+  - can
+  - else
+  - preposition
+  - article
   propagate_case: true
   allow_duplicate: false
-  triggers: ['bak2h,']
+  trigger: bak2h,
 - replace: 'backup from the '
-  _tags: [to, can, else, preposition, article]
+  _tags:
+  - to
+  - can
+  - else
+  - preposition
+  - article
   propagate_case: true
   allow_duplicate: false
-  triggers: ['bak22h,']
+  trigger: bak22h,
 - replace: 'backup to here '
-  _tags: [to, can, else, preposition, location]
+  _tags:
+  - to
+  - can
+  - else
+  - preposition
+  - location
   propagate_case: true
   allow_duplicate: false
-  triggers: ['bak2here,']
+  trigger: bak2here,
 - replace: 'backup to there '
-  _tags: [to, can, else, preposition, location]
+  _tags:
+  - to
+  - can
+  - else
+  - preposition
+  - location
   propagate_case: true
   allow_duplicate: false
-  triggers: ['bak2there,']
+  trigger: bak2there,
 - replace: 'backup from here '
-  _tags: [to, can, else, preposition, location]
+  _tags:
+  - to
+  - can
+  - else
+  - preposition
+  - location
   propagate_case: true
   allow_duplicate: false
-  triggers: ['bak22here,']
+  trigger: bak22here,
 - replace: 'backup from there '
-  _tags: [to, can, else, preposition, location]
+  _tags:
+  - to
+  - can
+  - else
+  - preposition
+  - location
   propagate_case: true
   allow_duplicate: false
-  triggers: ['bak22there,']
+  trigger: bak22there,
 - replace: 'backup commit '
-  _tags: [git, to, can, else]
+  _tags:
+  - git
+  - to
+  - can
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['bakqmi,']
+  trigger: bakqmi,
 - replace: 'backup branch '
-  _tags: [git, to, can, else]
+  _tags:
+  - git
+  - to
+  - can
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['bakbw,']
+  trigger: bakbw,
 - replace: 'backup repository '
-  _tags: [git, to, can, else]
+  _tags:
+  - git
+  - to
+  - can
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['bakwpo,']
+  trigger: bakwpo,
 - replace: 'auto backup '
-  _tags: [to, can, else, verb]
+  _tags:
+  - to
+  - can
+  - else
+  - verb
   propagate_case: true
   allow_duplicate: false
-  triggers: ['abak,']
+  trigger: abak,
 - replace: 'auto backuping '
-  _tags: [ing, to, can, else, verb, pronoun]
+  _tags:
+  - ing
+  - to
+  - can
+  - else
+  - verb
+  - pronoun
   propagate_case: true
   allow_duplicate: false
-  triggers: ['abaki,']
+  trigger: abaki,
 - replace: 'auto backuped '
-  _tags: [ed, would, to, can, else, verb]
+  _tags:
+  - ed
+  - would
+  - to
+  - can
+  - else
+  - verb
   propagate_case: true
   allow_duplicate: false
-  triggers: ['abakp,']
+  trigger: abakp,
 - replace: 'auto backups '
-  _tags: [noun, to, can, else]
+  _tags:
+  - noun
+  - to
+  - can
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['abaks,']
+  trigger: abaks,
 - replace: 'auto backupper '
-  _tags: [noun, to, can, else]
+  _tags:
+  - noun
+  - to
+  - can
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['abakw,']
+  trigger: abakw,
 - replace: 'auto backup this '
-  _tags: [demonstrative, to, can, else]
+  _tags:
+  - demonstrative
+  - to
+  - can
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['abakiz,']
+  trigger: abakiz,
 - replace: 'auto backup that '
-  _tags: [demonstrative, to, can, else]
+  _tags:
+  - demonstrative
+  - to
+  - can
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['abakaz,']
+  trigger: abakaz,
 - replace: 'auto backup these '
-  _tags: [demonstrative, to, can, else]
+  _tags:
+  - demonstrative
+  - to
+  - can
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['abakez,']
+  trigger: abakez,
 - replace: 'auto backup those '
-  _tags: [demonstrative, to, can, else]
+  _tags:
+  - demonstrative
+  - to
+  - can
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['abakoz,']
+  trigger: abakoz,
 - replace: 'auto backup the '
-  _tags: [article, to, can, else]
+  _tags:
+  - article
+  - to
+  - can
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['abakh,']
+  trigger: abakh,
 - replace: 'auto backup all '
-  _tags: [quantifier, to, can, else]
+  _tags:
+  - quantifier
+  - to
+  - can
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['abaka,']
+  trigger: abaka,
 - replace: 'auto backup some '
-  _tags: [quantifier, to, can, else]
+  _tags:
+  - quantifier
+  - to
+  - can
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['abaksm,']
+  trigger: abaksm,
 - replace: 'manual backup '
-  _tags: [to, can, else, verb]
+  _tags:
+  - to
+  - can
+  - else
+  - verb
   propagate_case: true
   allow_duplicate: false
-  triggers: ['mbak,']
+  trigger: mbak,
 - replace: 'manual backuping '
-  _tags: [ing, to, can, else, verb, pronoun]
+  _tags:
+  - ing
+  - to
+  - can
+  - else
+  - verb
+  - pronoun
   propagate_case: true
   allow_duplicate: false
-  triggers: ['mbaki,']
+  trigger: mbaki,
 - replace: 'manual backuped '
-  _tags: [ed, would, to, can, else, verb]
+  _tags:
+  - ed
+  - would
+  - to
+  - can
+  - else
+  - verb
   propagate_case: true
   allow_duplicate: false
-  triggers: ['mbakp,']
+  trigger: mbakp,
 - replace: 'manual backups '
-  _tags: [noun, to, can, else]
+  _tags:
+  - noun
+  - to
+  - can
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['mbaks,']
+  trigger: mbaks,
 - replace: 'manual backupper '
-  _tags: [noun, to, can, else]
+  _tags:
+  - noun
+  - to
+  - can
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['mbakw,']
+  trigger: mbakw,
 - replace: 'manual backup this '
-  _tags: [demonstrative, to, can, else]
+  _tags:
+  - demonstrative
+  - to
+  - can
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['mbakiz,']
+  trigger: mbakiz,
 - replace: 'manual backup that '
-  _tags: [demonstrative, to, can, else]
+  _tags:
+  - demonstrative
+  - to
+  - can
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['mbakaz,']
+  trigger: mbakaz,
 - replace: 'manual backup these '
-  _tags: [demonstrative, to, can, else]
+  _tags:
+  - demonstrative
+  - to
+  - can
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['mbakez,']
+  trigger: mbakez,
 - replace: 'manual backup those '
-  _tags: [demonstrative, to, can, else]
+  _tags:
+  - demonstrative
+  - to
+  - can
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['mbakoz,']
+  trigger: mbakoz,
 - replace: 'manual backup the '
-  _tags: [article, to, can, else]
+  _tags:
+  - article
+  - to
+  - can
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['mbakh,']
+  trigger: mbakh,
 - replace: 'manual backup all '
-  _tags: [quantifier, to, can, else]
+  _tags:
+  - quantifier
+  - to
+  - can
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['mbaka,']
+  trigger: mbaka,
 - replace: 'manual backup some '
-  _tags: [quantifier, to, can, else]
+  _tags:
+  - quantifier
+  - to
+  - can
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['mbaksm,']
+  trigger: mbaksm,
 - replace: 'incremental backup '
-  _tags: [to, can, else, verb]
+  _tags:
+  - to
+  - can
+  - else
+  - verb
   propagate_case: true
   allow_duplicate: false
-  triggers: ['ibak,']
+  trigger: ibak,
 - replace: 'incremental backuping '
-  _tags: [ing, to, can, else, verb, pronoun]
+  _tags:
+  - ing
+  - to
+  - can
+  - else
+  - verb
+  - pronoun
   propagate_case: true
   allow_duplicate: false
-  triggers: ['ibaki,']
+  trigger: ibaki,
 - replace: 'incremental backuped '
-  _tags: [ed, would, to, can, else, verb]
+  _tags:
+  - ed
+  - would
+  - to
+  - can
+  - else
+  - verb
   propagate_case: true
   allow_duplicate: false
-  triggers: ['ibakp,']
+  trigger: ibakp,
 - replace: 'incremental backups '
-  _tags: [noun, to, can, else]
+  _tags:
+  - noun
+  - to
+  - can
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['ibaks,']
+  trigger: ibaks,
 - replace: 'incremental backupper '
-  _tags: [noun, to, can, else]
+  _tags:
+  - noun
+  - to
+  - can
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['ibakw,']
+  trigger: ibakw,
 - replace: 'incremental backup this '
-  _tags: [demonstrative, to, can, else]
+  _tags:
+  - demonstrative
+  - to
+  - can
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['ibakiz,']
+  trigger: ibakiz,
 - replace: 'incremental backup that '
-  _tags: [demonstrative, to, can, else]
+  _tags:
+  - demonstrative
+  - to
+  - can
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['ibakaz,']
+  trigger: ibakaz,
 - replace: 'incremental backup these '
-  _tags: [demonstrative, to, can, else]
+  _tags:
+  - demonstrative
+  - to
+  - can
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['ibakez,']
+  trigger: ibakez,
 - replace: 'incremental backup those '
-  _tags: [demonstrative, to, can, else]
+  _tags:
+  - demonstrative
+  - to
+  - can
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['ibakoz,']
+  trigger: ibakoz,
 - replace: 'incremental backup the '
-  _tags: [article, to, can, else]
+  _tags:
+  - article
+  - to
+  - can
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['ibakh,']
+  trigger: ibakh,
 - replace: 'incremental backup all '
-  _tags: [quantifier, to, can, else]
+  _tags:
+  - quantifier
+  - to
+  - can
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['ibaka,']
+  trigger: ibaka,
 - replace: 'incremental backup some '
-  _tags: [quantifier, to, can, else]
+  _tags:
+  - quantifier
+  - to
+  - can
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['ibaksm,']
+  trigger: ibaksm,
 - replace: 'full backup '
-  _tags: [to, can, else, verb]
+  _tags:
+  - to
+  - can
+  - else
+  - verb
   propagate_case: true
   allow_duplicate: false
-  triggers: ['fbak,']
+  trigger: fbak,
 - replace: 'full backuping '
-  _tags: [ing, to, can, else, verb, pronoun]
+  _tags:
+  - ing
+  - to
+  - can
+  - else
+  - verb
+  - pronoun
   propagate_case: true
   allow_duplicate: false
-  triggers: ['fbaki,']
+  trigger: fbaki,
 - replace: 'full backuped '
-  _tags: [ed, would, to, can, else, verb]
+  _tags:
+  - ed
+  - would
+  - to
+  - can
+  - else
+  - verb
   propagate_case: true
   allow_duplicate: false
-  triggers: ['fbakp,']
+  trigger: fbakp,
 - replace: 'full backups '
-  _tags: [noun, to, can, else]
+  _tags:
+  - noun
+  - to
+  - can
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['fbaks,']
+  trigger: fbaks,
 - replace: 'full backupper '
-  _tags: [noun, to, can, else]
+  _tags:
+  - noun
+  - to
+  - can
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['fbakw,']
+  trigger: fbakw,
 - replace: 'full backup this '
-  _tags: [demonstrative, to, can, else]
+  _tags:
+  - demonstrative
+  - to
+  - can
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['fbakiz,']
+  trigger: fbakiz,
 - replace: 'full backup that '
-  _tags: [demonstrative, to, can, else]
+  _tags:
+  - demonstrative
+  - to
+  - can
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['fbakaz,']
+  trigger: fbakaz,
 - replace: 'full backup these '
-  _tags: [demonstrative, to, can, else]
+  _tags:
+  - demonstrative
+  - to
+  - can
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['fbakez,']
+  trigger: fbakez,
 - replace: 'full backup those '
-  _tags: [demonstrative, to, can, else]
+  _tags:
+  - demonstrative
+  - to
+  - can
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['fbakoz,']
+  trigger: fbakoz,
 - replace: 'full backup the '
-  _tags: [article, to, can, else]
+  _tags:
+  - article
+  - to
+  - can
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['fbakh,']
+  trigger: fbakh,
 - replace: 'full backup all '
-  _tags: [quantifier, to, can, else]
+  _tags:
+  - quantifier
+  - to
+  - can
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['fbaka,']
+  trigger: fbaka,
 - replace: 'full backup some '
-  _tags: [quantifier, to, can, else]
+  _tags:
+  - quantifier
+  - to
+  - can
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['fbaksm,']
+  trigger: fbaksm,
 - replace: 'backup of '
-  _tags: [preposition, to, can, else]
+  _tags:
+  - preposition
+  - to
+  - can
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['bako,']
+  trigger: bako,
 - replace: 'backup if '
-  _tags: [conditional, to, can, else]
+  _tags:
+  - conditional
+  - to
+  - can
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['bakf,']
+  trigger: bakf,
 - replace: 'backup in '
-  _tags: [preposition, to, can, else]
+  _tags:
+  - preposition
+  - to
+  - can
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['baki,']
+  trigger: baki,
 - replace: 'backup on '
-  _tags: [preposition, to, can, else]
+  _tags:
+  - preposition
+  - to
+  - can
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['bakon,']
+  trigger: bakon,
 - replace: 'backup at '
-  _tags: [preposition, to, can, else]
+  _tags:
+  - preposition
+  - to
+  - can
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['bakat,']
+  trigger: bakat,
 - replace: 'backup by '
-  _tags: [preposition, to, can, else]
+  _tags:
+  - preposition
+  - to
+  - can
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['bakby,']
+  trigger: bakby,
 - replace: 'backup with '
-  _tags: [preposition, to, can, else]
+  _tags:
+  - preposition
+  - to
+  - can
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['bakwith,']
+  trigger: bakwith,
 - replace: 'backup for '
-  _tags: [preposition, to, can, else]
+  _tags:
+  - preposition
+  - to
+  - can
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['bakfor,']
+  trigger: bakfor,
 - replace: 'backup and '
-  _tags: [conjunction, to, can, else]
+  _tags:
+  - conjunction
+  - to
+  - can
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['bakand,']
+  trigger: bakand,
 - replace: 'backup or '
-  _tags: [conjunction, to, can, else]
+  _tags:
+  - conjunction
+  - to
+  - can
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['bakor,']
+  trigger: bakor,
 - replace: 'backup but '
-  _tags: [conjunction, to, can, else]
+  _tags:
+  - conjunction
+  - to
+  - can
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['bakbut,']
+  trigger: bakbut,
 - replace: 'backup can '
-  _tags: [modal, to, can, else]
+  _tags:
+  - modal
+  - to
+  - can
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['bakqan,']
+  trigger: bakqan,
 - replace: 'backup will '
-  _tags: [modal, to, can, else]
+  _tags:
+  - modal
+  - to
+  - can
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['bakwill,']
+  trigger: bakwill,
 - replace: 'backup should '
-  _tags: [modal, to, can, else]
+  _tags:
+  - modal
+  - to
+  - can
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['bakshould,']
+  trigger: bakshould,
 - replace: 'backup must '
-  _tags: [modal, to, can, else]
+  _tags:
+  - modal
+  - to
+  - can
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['bakmust,']
+  trigger: bakmust,
 - replace: 'backup it '
-  _tags: [pronoun, to, can, else]
+  _tags:
+  - pronoun
+  - to
+  - can
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['bakit,']
+  trigger: bakit,
 - replace: 'backup them '
-  _tags: [pronoun, to, can, else]
+  _tags:
+  - pronoun
+  - to
+  - can
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['bakmm,']
+  trigger: bakmm,
 - replace: 'backup them all '
-  _tags: [pronoun, to, can, else]
+  _tags:
+  - pronoun
+  - to
+  - can
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['bakmmal,']
+  trigger: bakmmal,
 - replace: 'backup you '
-  _tags: [pronoun, to, can, else]
+  _tags:
+  - pronoun
+  - to
+  - can
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['bakya,']
+  trigger: bakya,
 - replace: 'backup us '
-  _tags: [pronoun, to, can, else]
+  _tags:
+  - pronoun
+  - to
+  - can
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['bakus,']
+  trigger: bakus,
 - replace: 'backup now '
-  _tags: [time, to, can, else]
+  _tags:
+  - time
+  - to
+  - can
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['baknow,']
+  trigger: baknow,
 - replace: 'backup later '
-  _tags: [time, to, can, else]
+  _tags:
+  - time
+  - to
+  - can
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['baklater,']
+  trigger: baklater,
 - replace: 'backup today '
-  _tags: [time, to, can, else]
+  _tags:
+  - time
+  - to
+  - can
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['baktoday,']
+  trigger: baktoday,
 - replace: 'backup daily '
-  _tags: [frequency, to, can, else]
+  _tags:
+  - frequency
+  - to
+  - can
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['bakdaily,']
+  trigger: bakdaily,
 - replace: 'backup weekly '
-  _tags: [frequency, to, can, else]
+  _tags:
+  - frequency
+  - to
+  - can
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['bakweekly,']
+  trigger: bakweekly,
 - replace: 'backup monthly '
-  _tags: [frequency, to, can, else]
+  _tags:
+  - frequency
+  - to
+  - can
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['bakmonthly,']
+  trigger: bakmonthly,

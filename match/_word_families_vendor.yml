@@ -1,218 +1,400 @@
-# ⚠️  WARNING: AUTO-GENERATED FILE - DO NOT EDIT DIRECTLY!
-# This file is generated from word_version by:
-#   scripts/convert_to_tokenized_word_version.py
-# Edit source in space_version and re-run conversions.
-# Tokenizes trailing spaces in triggers to an explicit token.
-# Removes right_word property for tokenized version.
-# Adds trailing space to replacements that don't have one.
-# Current token: ','
-
-name: word-families-vendor
-parent: default
+name: _word_families_vendor
 matches:
 - replace: 'vendor '
-  _tags: [noun, to, can, else]
+  _tags:
+  - noun
+  - to
+  - can
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['jend,']
+  trigger: jend,
 - replace: 'vendors '
-  _tags: [noun, to, can, else]
+  _tags:
+  - noun
+  - to
+  - can
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['jends,']
+  trigger: jends,
 - replace: 'vendoring '
-  _tags: [verb, ing, to, can, else]
+  _tags:
+  - verb
+  - ing
+  - to
+  - can
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['jendi,']
+  trigger: jendi,
 - replace: 'vendored '
-  _tags: [verb, ed, to, can, else]
+  _tags:
+  - verb
+  - ed
+  - to
+  - can
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['jendp,']
+  trigger: jendp,
 - replace: 'vendorization '
-  _tags: [noun, to, can, else]
+  _tags:
+  - noun
+  - to
+  - can
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['jendm,']
+  trigger: jendm,
 - replace: 'vendorizations '
-  _tags: [noun, to, can, else]
+  _tags:
+  - noun
+  - to
+  - can
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['jendms,']
+  trigger: jendms,
 - replace: 'vendable '
-  _tags: [adjective, to, can, else]
+  _tags:
+  - adjective
+  - to
+  - can
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['jendb,']
+  trigger: jendb,
 - replace: 'vendably '
-  _tags: [adverb, to, can, else]
+  _tags:
+  - adverb
+  - to
+  - can
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['jendbl,']
+  trigger: jendbl,
 - replace: 'vendability '
-  _tags: [noun, to, can, else]
+  _tags:
+  - noun
+  - to
+  - can
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['jendbm,']
+  trigger: jendbm,
 - replace: 'vendableness '
-  _tags: [noun, to, can, else]
+  _tags:
+  - noun
+  - to
+  - can
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['jendjm,']
+  trigger: jendjm,
 - replace: 'vendorize '
-  _tags: [verb, to, can, else]
+  _tags:
+  - verb
+  - to
+  - can
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['jendz,']
+  trigger: jendz,
 - replace: 'vendorizes '
-  _tags: [verb, to, can, else]
+  _tags:
+  - verb
+  - to
+  - can
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['jendzs,']
+  trigger: jendzs,
 - replace: 'vendorizing '
-  _tags: [verb, ing, to, can, else]
+  _tags:
+  - verb
+  - ing
+  - to
+  - can
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['jendzi,']
+  trigger: jendzi,
 - replace: 'vendorized '
-  _tags: [verb, ed, to, can, else]
+  _tags:
+  - verb
+  - ed
+  - to
+  - can
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['jendzp,']
+  trigger: jendzp,
 - replace: 'de-vendorize '
-  _tags: [negate, verb, to, can, else]
+  _tags:
+  - negate
+  - verb
+  - to
+  - can
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['djendz,']
+  trigger: djendz,
 - replace: 'de-vendorizing '
-  _tags: [negate, verb, ing, to, can, else]
+  _tags:
+  - negate
+  - verb
+  - ing
+  - to
+  - can
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['djendzi,']
+  trigger: djendzi,
 - replace: 'de-vendorized '
-  _tags: [negate, verb, ed, to, can, else]
+  _tags:
+  - negate
+  - verb
+  - ed
+  - to
+  - can
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['djendzp,']
+  trigger: djendzp,
 - replace: 'de-vendorizes '
-  _tags: [negate, verb, to, can, else]
+  _tags:
+  - negate
+  - verb
+  - to
+  - can
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['djendzs,']
+  trigger: djendzs,
 - replace: 're-vendorize '
-  _tags: [prefix, verb, to, can, else]
+  _tags:
+  - prefix
+  - verb
+  - to
+  - can
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['wjendz,']
+  trigger: wjendz,
 - replace: 're-vendorizing '
-  _tags: [prefix, verb, ing, to, can, else]
+  _tags:
+  - prefix
+  - verb
+  - ing
+  - to
+  - can
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['wjendzi,']
+  trigger: wjendzi,
 - replace: 're-vendorized '
-  _tags: [prefix, verb, ed, to, can, else]
+  _tags:
+  - prefix
+  - verb
+  - ed
+  - to
+  - can
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['wjendzp,']
+  trigger: wjendzp,
 - replace: 're-vendorizes '
-  _tags: [prefix, verb, to, can, else]
+  _tags:
+  - prefix
+  - verb
+  - to
+  - can
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['wjendzs,']
+  trigger: wjendzs,
 - replace: 'this vendor '
-  _tags: [demonstrative, th_foundation, to, can, else]
+  _tags:
+  - demonstrative
+  - th_foundation
+  - to
+  - can
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['izjend,']
+  trigger: izjend,
 - replace: 'that vendor '
-  _tags: [demonstrative, th_foundation, to, can, else]
+  _tags:
+  - demonstrative
+  - th_foundation
+  - to
+  - can
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['azjend,']
+  trigger: azjend,
 - replace: 'these vendors '
-  _tags: [demonstrative, th_foundation, to, can, else]
+  _tags:
+  - demonstrative
+  - th_foundation
+  - to
+  - can
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['ezjends,']
+  trigger: ezjends,
 - replace: 'those vendors '
-  _tags: [demonstrative, th_foundation, to, can, else]
+  _tags:
+  - demonstrative
+  - th_foundation
+  - to
+  - can
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['ozjends,']
+  trigger: ozjends,
 - replace: 'what vendor '
-  _tags: [question, to, can, else]
+  _tags:
+  - question
+  - to
+  - can
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['wtjend,']
+  trigger: wtjend,
 - replace: 'when vendor '
-  _tags: [question, to, can, else]
+  _tags:
+  - question
+  - to
+  - can
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['wnjend,']
+  trigger: wnjend,
 - replace: 'why vendor '
-  _tags: [question, to, can, else]
+  _tags:
+  - question
+  - to
+  - can
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['wyjend,']
+  trigger: wyjend,
 - replace: 'where vendor '
-  _tags: [question, to, can, else]
+  _tags:
+  - question
+  - to
+  - can
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['wwjend,']
+  trigger: wwjend,
 - replace: 'how vendor '
-  _tags: [question, to, can, else]
+  _tags:
+  - question
+  - to
+  - can
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['hwjend,']
+  trigger: hwjend,
 - replace: 'vendor to the '
-  _tags: [directional, to, can, else]
+  _tags:
+  - directional
+  - to
+  - can
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['jend2h,']
+  trigger: jend2h,
 - replace: 'vendors to the '
-  _tags: [directional, to, can, else]
+  _tags:
+  - directional
+  - to
+  - can
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['jends2h,']
+  trigger: jends2h,
 - replace: 'from the vendor '
-  _tags: [directional, from, can, else]
+  _tags:
+  - directional
+  - from
+  - can
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['22hjend,']
+  trigger: 22hjend,
 - replace: 'from the vendors '
-  _tags: [directional, from, can, else]
+  _tags:
+  - directional
+  - from
+  - can
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['22hjends,']
+  trigger: 22hjends,
 - replace: 'vendor it '
-  _tags: [pronoun, to, can, else]
+  _tags:
+  - pronoun
+  - to
+  - can
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['jendit,']
+  trigger: jendit,
 - replace: 'vendor have '
-  _tags: [helper, to, can, else]
+  _tags:
+  - helper
+  - to
+  - can
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['jendhv,']
+  trigger: jendhv,
 - replace: 'vendor has '
-  _tags: [helper, to, can, else]
+  _tags:
+  - helper
+  - to
+  - can
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['jendhass,']
+  trigger: jendhass,
 - replace: 'single vendor '
-  _tags: [counting, singular, to, can, else]
+  _tags:
+  - counting
+  - singular
+  - to
+  - can
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['1jend,']
+  trigger: 1jend,
 - replace: 'multiple vendors '
-  _tags: [counting, plural, to, can, else]
+  _tags:
+  - counting
+  - plural
+  - to
+  - can
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['8jend,']
+  trigger: 8jend,
 - replace: 'first vendor '
-  _tags: [ordinal, counting, to, can, else]
-  triggers: [',1jend,']
+  _tags:
+  - ordinal
+  - counting
+  - to
+  - can
+  - else
+  trigger: ',1jend,'
 - replace: 'last vendor '
-  _tags: [ordinal, counting, to, can, else]
-  triggers: [',0jend,']
+  _tags:
+  - ordinal
+  - counting
+  - to
+  - can
+  - else
+  trigger: ',0jend,'

@@ -1,105 +1,166 @@
-# ⚠️  WARNING: AUTO-GENERATED FILE - DO NOT EDIT DIRECTLY!
-# This file is generated from word_version by:
-#   scripts/convert_to_tokenized_word_version.py
-# Edit source in space_version and re-run conversions.
-# Tokenizes trailing spaces in triggers to an explicit token.
-# Removes right_word property for tokenized version.
-# Adds trailing space to replacements that don't have one.
-# Current token: ','
-
 matches:
 - replace: 'this task '
-  _tags: [demonstrative, can, pronoun, else]
+  _tags:
+  - demonstrative
+  - can
+  - pronoun
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['izsk,']
+  trigger: izsk,
 - replace: 'that task '
-  _tags: [demonstrative, can, pronoun, else, have]
+  _tags:
+  - demonstrative
+  - can
+  - pronoun
+  - else
+  - have
   propagate_case: true
   allow_duplicate: false
-  triggers: ['azsk,']
+  trigger: azsk,
 - replace: 'these task '
-  _tags: [demonstrative, can, pronoun, else]
+  _tags:
+  - demonstrative
+  - can
+  - pronoun
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['ezsk,']
+  trigger: ezsk,
 - replace: 'those task '
-  _tags: [demonstrative, can, pronoun, else]
+  _tags:
+  - demonstrative
+  - can
+  - pronoun
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['ozsk,']
+  trigger: ozsk,
 - replace: 'the task '
-  _tags: [the, can, pronoun, else]
+  _tags:
+  - the
+  - can
+  - pronoun
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['hsk,']
+  trigger: hsk,
 - replace: 'all task '
-  _tags: [can, pronoun, else]
+  _tags:
+  - can
+  - pronoun
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['ask,']
+  trigger: ask,
 - replace: 'some task '
-  _tags: [can, pronoun, else]
+  _tags:
+  - can
+  - pronoun
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['smsk,']
+  trigger: smsk,
 - replace: 'each task '
-  _tags: [can, pronoun, else]
+  _tags:
+  - can
+  - pronoun
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['ehsk,']
+  trigger: ehsk,
 - replace: 'for task '
-  _tags: [can, pronoun, else]
+  _tags:
+  - can
+  - pronoun
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['fsk,']
+  trigger: fsk,
 - replace: 'with task '
-  _tags: [can, pronoun, else]
+  _tags:
+  - can
+  - pronoun
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['wsk,']
+  trigger: wsk,
 - replace: 'of task '
-  _tags: [can, pronoun, else]
+  _tags:
+  - can
+  - pronoun
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['osk,']
+  trigger: osk,
 - replace: 'this tasks '
-  _tags: [demonstrative, can, pronoun, else]
+  _tags:
+  - demonstrative
+  - can
+  - pronoun
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['izsks,']
+  trigger: izsks,
 - replace: 'that tasks '
-  _tags: [demonstrative, can, pronoun, else, have]
+  _tags:
+  - demonstrative
+  - can
+  - pronoun
+  - else
+  - have
   propagate_case: true
   allow_duplicate: false
-  triggers: ['azsks,']
+  trigger: azsks,
 - replace: 'these tasks '
-  _tags: [demonstrative, can, pronoun, else]
+  _tags:
+  - demonstrative
+  - can
+  - pronoun
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['ezsks,']
+  trigger: ezsks,
 - replace: 'those tasks '
-  _tags: [demonstrative, can, pronoun, else]
+  _tags:
+  - demonstrative
+  - can
+  - pronoun
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['ozsks,']
+  trigger: ozsks,
 - replace: 'the tasks '
-  _tags: [the, can, pronoun, else]
+  _tags:
+  - the
+  - can
+  - pronoun
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['hsks,']
+  trigger: hsks,
 - replace: 'all tasks '
-  _tags: [can, pronoun, else]
+  _tags:
+  - can
+  - pronoun
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['asks,']
+  trigger: asks,
 - replace: 'some tasks '
-  _tags: [can, pronoun, else]
+  _tags:
+  - can
+  - pronoun
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['smsks,']
+  trigger: smsks,
 - replace: 'each tasks '
-  _tags: [can, pronoun, else]
+  _tags:
+  - can
+  - pronoun
+  - else
   propagate_case: true
   allow_duplicate: false
-  triggers: ['ehsks,']
+  trigger: ehsks,
+name: _exx_task_reverse

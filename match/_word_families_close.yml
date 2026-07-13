@@ -1,127 +1,198 @@
-# ⚠️  WARNING: AUTO-GENERATED FILE - DO NOT EDIT DIRECTLY!
-# This file is generated from word_version by:
-#   scripts/convert_to_tokenized_word_version.py
-# Edit source in space_version and re-run conversions.
-# Tokenizes trailing spaces in triggers to an explicit token.
-# Removes right_word property for tokenized version.
-# Adds trailing space to replacements that don't have one.
-# Current token: ','
-
-name: word-families-close
-parent: default
+name: _word_families_close
 matches:
 - replace: 'close '
-  _tags: [the, can, else]
+  _tags:
+  - the
+  - can
+  - else
   allow_duplicate: true
   propagate_case: true
-  triggers: ['qlo,']
+  trigger: qlo,
 - replace: 'closes '
-  _tags: [the, to, else]
+  _tags:
+  - the
+  - to
+  - else
   allow_duplicate: true
   propagate_case: true
-  triggers: ['qlos,']
+  trigger: qlos,
 - replace: 'closing '
-  _tags: [the, ing, can, else]
+  _tags:
+  - the
+  - ing
+  - can
+  - else
   allow_duplicate: true
   propagate_case: true
-  triggers: ['qloi,']
+  trigger: qloi,
 - replace: 'closed '
-  _tags: [the, can, ed, would, else]
+  _tags:
+  - the
+  - can
+  - ed
+  - would
+  - else
   allow_duplicate: true
   propagate_case: true
-  triggers: ['qlop,']
+  trigger: qlop,
 - replace: 'closer '
-  _tags: [the, can, else]
+  _tags:
+  - the
+  - can
+  - else
   allow_duplicate: true
   propagate_case: true
-  triggers: ['qlow,']
+  trigger: qlow,
 - replace: 'close this '
-  _tags: [the, this, can, else]
+  _tags:
+  - the
+  - this
+  - can
+  - else
   allow_duplicate: true
   propagate_case: true
-  triggers: ['qloiz,']
+  trigger: qloiz,
 - replace: 'close that '
-  _tags: [the, that, can, else]
+  _tags:
+  - the
+  - that
+  - can
+  - else
   allow_duplicate: true
   propagate_case: true
-  triggers: ['qloaz,']
+  trigger: qloaz,
 - replace: 'close these '
-  _tags: [the, these, can, else]
+  _tags:
+  - the
+  - these
+  - can
+  - else
   allow_duplicate: true
   propagate_case: true
-  triggers: ['qloez,']
+  trigger: qloez,
 - replace: 'close those '
-  _tags: [the, those, can, else]
+  _tags:
+  - the
+  - those
+  - can
+  - else
   allow_duplicate: true
   propagate_case: true
-  triggers: ['qlooz,']
+  trigger: qlooz,
 - replace: 'close file '
-  _tags: [the, file, can, else]
+  _tags:
+  - the
+  - file
+  - can
+  - else
   allow_duplicate: true
   propagate_case: true
-  triggers: ['qlofi,']
+  trigger: qlofi,
 - replace: 'close document '
-  _tags: [the, document, can, else]
+  _tags:
+  - the
+  - document
+  - can
+  - else
   allow_duplicate: true
   propagate_case: true
-  triggers: ['qlodo,']
+  trigger: qlodo,
 - replace: 'close window '
-  _tags: [the, window, can, else]
+  _tags:
+  - the
+  - window
+  - can
+  - else
   allow_duplicate: true
   propagate_case: true
-  triggers: ['qlowi,']
+  trigger: qlowi,
 - replace: 'close tab '
-  _tags: [the, tab, can, else]
+  _tags:
+  - the
+  - tab
+  - can
+  - else
   allow_duplicate: true
   propagate_case: true
-  triggers: ['qlota,']
+  trigger: qlota,
 - replace: 'close to '
-  _tags: [the, to, can, else]
+  _tags:
+  - the
+  - to
+  - can
+  - else
   allow_duplicate: true
   propagate_case: true
-  triggers: ['qloto,']
+  trigger: qloto,
 - replace: 'close to the '
-  _tags: [the, to, can, else]
+  _tags:
+  - the
+  - to
+  - can
+  - else
   allow_duplicate: true
   propagate_case: true
-  triggers: ['qlo2h,']
+  trigger: qlo2h,
 - replace: 'close by '
-  _tags: [the, by, can, else]
+  _tags:
+  - the
+  - by
+  - can
+  - else
   allow_duplicate: true
   propagate_case: true
-  triggers: ['qloby,']
+  trigger: qloby,
 - replace: 'can close '
-  _tags: [can, else]
+  _tags:
+  - can
+  - else
   allow_duplicate: true
   propagate_case: true
-  triggers: ['qqlo,']
+  trigger: qqlo,
 - replace: 'will close '
-  _tags: [will, else]
+  _tags:
+  - will
+  - else
   allow_duplicate: true
   propagate_case: true
-  triggers: ['wqlo,']
+  trigger: wqlo,
 - replace: 'should close '
-  _tags: [should, else]
+  _tags:
+  - should
+  - else
   allow_duplicate: true
   propagate_case: true
-  triggers: ['shqlo,']
+  trigger: shqlo,
 - replace: 'not close '
-  _tags: [not, negate, else]
+  _tags:
+  - not
+  - negate
+  - else
   allow_duplicate: true
   propagate_case: true
-  triggers: ['nqlo,']
+  trigger: nqlo,
 - replace: 'don''t close '
-  _tags: [not, negate, else]
+  _tags:
+  - not
+  - negate
+  - else
   allow_duplicate: true
   propagate_case: true
-  triggers: ['dqlo,']
+  trigger: dqlo,
 - replace: 'close it '
-  _tags: [the, pronoun, can, else]
+  _tags:
+  - the
+  - pronoun
+  - can
+  - else
   allow_duplicate: true
   propagate_case: true
-  triggers: ['qloit,']
+  trigger: qloit,
 - replace: 'close the '
-  _tags: [the, can, else]
+  _tags:
+  - the
+  - can
+  - else
   allow_duplicate: true
   propagate_case: true
-  triggers: ['qlohe,']
+  trigger: qlohe,

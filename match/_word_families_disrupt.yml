@@ -1,0 +1,84 @@
+name: _word_families_disrupt
+matches:
+- replace: 'disrupt '
+  _tags:
+  - can
+  - pronoun
+  - else
+  propagate_case: true
+  allow_duplicate: false
+  trigger: diswu,
+- replace: 'disrupts '
+  _tags:
+  - can
+  - pronoun
+  - else
+  propagate_case: true
+  allow_duplicate: false
+  trigger: diswus,
+- replace: 'disrupting '
+  _tags:
+  - ing
+  - can
+  - pronoun
+  - else
+  propagate_case: true
+  allow_duplicate: false
+  trigger: diswui,
+- replace: 'disrupted '
+  _tags:
+  - ed
+  - can
+  - pronoun
+  - else
+  propagate_case: true
+  allow_duplicate: false
+  trigger: diswup,
+- replace: 'disruption '
+  _tags:
+  - noun
+  - can
+  - else
+  propagate_case: true
+  allow_duplicate: false
+  trigger: diswum,
+- replace: 'disruptive '
+  _tags:
+  - adjective
+  - can
+  - else
+  propagate_case: true
+  allow_duplicate: false
+  trigger: diswul,
+- replace: 'disruptor '
+  _tags:
+  - noun
+  - can
+  - else
+  propagate_case: true
+  allow_duplicate: false
+  trigger: diswuw,
+- replace: 'disruptors '
+  _tags:
+  - noun
+  - can
+  - else
+  propagate_case: true
+  allow_duplicate: false
+  trigger: diswuws,
+- replace: 'disrupt this '
+  propagate_case: true
+  allow_duplicate: false
+  trigger: diswuiz,
+- replace: 'disrupt that '
+  propagate_case: true
+  allow_duplicate: false
+  trigger: diswuaz,
+- replace: 'disrupt these '
+  propagate_case: true
+  allow_duplicate: false
+  trigger: diswuez,
+- replace: 'disrupt those '
+  propagate_case: true
+  allow_duplicate: false
+  trigger: diswuoz,

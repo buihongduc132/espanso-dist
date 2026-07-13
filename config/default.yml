@@ -1,0 +1,14 @@
+search_shortcut: SHIFT+CTRL+E
+toggle_key: RIGHT_CTRL
+min_trigger_length: 1
+backend: Inject
+inject_delay: 0
+undo_backspace: false
+search_trigger: ::sea
+use_standard_includes: false
+extra_includes:
+  - ../match/*.yml
+
+# Override keyboard layout to prevent xkbcommon crashes with input methods (fcitx5/Unikey)
+keyboard_layout:
+  layout: us

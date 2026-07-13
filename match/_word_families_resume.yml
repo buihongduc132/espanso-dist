@@ -1,37 +1,40 @@
-# ⚠️  WARNING: AUTO-GENERATED FILE - DO NOT EDIT DIRECTLY!
-# This file is generated from word_version by:
-#   scripts/convert_to_tokenized_word_version.py
-# Edit source in space_version and re-run conversions.
-# Tokenizes trailing spaces in triggers to an explicit token.
-# Removes right_word property for tokenized version.
-# Adds trailing space to replacements that don't have one.
-# Current token: ','
-
-name: word-families-weu
-parent: default
+name: _word_families_resume
 matches:
 - replace: 'resume '
-  _tags: [action, continue]
+  _tags:
+  - action
+  - continue
   propagate_case: true
   allow_duplicate: false
-  triggers: ['weu,']
+  trigger: weu,
 - replace: 'resumes '
-  _tags: [action, continue]
+  _tags:
+  - action
+  - continue
   propagate_case: true
   allow_duplicate: false
-  triggers: ['weus,']
+  trigger: weus,
 - replace: 'resumed '
-  _tags: [action, continue, past]
+  _tags:
+  - action
+  - continue
+  - past
   propagate_case: true
   allow_duplicate: false
-  triggers: ['weud,']
+  trigger: weud,
 - replace: 'resuming '
-  _tags: [action, continue, present]
+  _tags:
+  - action
+  - continue
+  - present
   propagate_case: true
   allow_duplicate: false
-  triggers: ['weug,']
+  trigger: weug,
 - replace: 'resumption '
-  _tags: [noun, action, continue]
+  _tags:
+  - noun
+  - action
+  - continue
   propagate_case: true
   allow_duplicate: false
-  triggers: ['weum,']
+  trigger: weum,
