@@ -21,15 +21,65 @@ GITHUB_TOKEN=ghp_xxx curl -sL https://raw.githubusercontent.com/buihongduc132/es
 
 ### What the installer does (idempotent — safe to re-run)
 
-1. **Detects OS + arch** (Linux / macOS / Windows) and the espanso config dir.
+1. **Detects OS + arch** (Linux / macOS / Windows) and routes to the matching
+   platform installer (`install.sh` auto-detects and execs it).
 2. **Installs espanso** if the binary is missing:
    - Linux: official install script → `.deb` → AppImage fallback
-   - macOS: Homebrew → official `.zip`
+   - macOS: Homebrew → official `.zip`/`.dmg`, with `com.apple.quarantine` strip
    - Windows: official `Espanso-Win-Installer-x86_64.exe`
-3. **Clones / pulls** this repo into `~/.config/espanso/espanso-dist-clone/`.
-4. **Deploys** `match/*.yml` (flat) + `config/default.yml`.
-5. **Starts / restarts** espanso (systemd on Linux, CLI on macOS/Windows).
-6. **Verifies** the trigger count loaded at runtime.
+3. **Clones / pulls** this repo into `<config_dir>/espanso-dist-clone/`.
+4. **Deploys** `match/*.yml` (flat) + `config/default.yml` to the platform's
+   config dir (see [Config dirs](#config-directories-per-platform) below).
+5. **Starts / restarts** espanso:
+   - Linux: `systemctl --user restart espanso.service` (fallback: `nohup daemon`)
+   - macOS: `espanso start`, and on the known launcher-timeout it falls back to a
+     `daemon`-mode LaunchAgent (`RunAtLoad` + `KeepAlive`)
+   - Windows: `espanso start` → `espanso daemon`
+6. **Verifies** the trigger count loaded at runtime (`espanso match list`).
+
+### Platform-specific installers
+
+`install.sh` is a thin auto-detecting dispatcher. For explicit per-platform use
+(or when piping `curl | bash` is not desirable), call the matching entry script
+directly. All flags pass through unchanged.
+
+| Script                | Platform | Config dir                                                        |
+| --------------------- | -------- | ----------------------------------------------------------------- |
+| `./install.sh`        | auto     | detects OS, execs the right one below                             |
+| `./install-linux.sh`  | Linux    | `~/.config/espanso` (Flatpak sandbox path if present)             |
+| `./install-macos.sh`  | macOS    | auto-detected via `espanso path`, else `~/.config/espanso`, else `~/Library/Application Support/espanso` |
+| `./install-windows.sh`| Windows  | `%APPDATA%\espanso` (Git Bash / MSYS2 / Cygwin)                   |
+
+The three entry scripts source `lib/common.sh`, which holds all the
+platform-agnostic logic (clone, deploy, verify, idempotent `--update`). To
+update to the latest triggers, re-run any of them with `--update` — it compares
+the installed `.trigger-pack-version` against the remote `VERSION` and
+re-deploys only when newer (or always, with `--force`).
+
+```bash
+# Linux explicit
+curl -sL https://raw.githubusercontent.com/buihongduc132/espanso-dist/main/install-linux.sh | bash
+# macOS explicit
+curl -sL https://raw.githubusercontent.com/buihongduc132/espanso-dist/main/install-macos.sh | bash
+```
+
+> **Note (macOS):** the macOS installer ships fixes for the two known blockers —
+> App Translocation (quarantine strip) and the `launcher` timeout (daemon-mode
+> LaunchAgent fallback). See `flow/findings/2026-07-13_espanso_macos_install_blockers.md`
+> in `espanso-config` for full details. After install, grant **Accessibility**
+> (System Settings → Privacy & Security) to Espanso, then restart the worker
+> (`pkill -f espanso` — the LaunchAgent auto-respawns it).
+
+#### Config directories per platform
+
+The installer writes to one canonical path per platform (overridable with
+`ESPANSO_CONFIG_DIR`):
+
+| OS      | Default config dir                                          |
+| ------- | ---------------------------------------------------------- |
+| Linux   | `~/.config/espanso`                                        |
+| macOS   | what `espanso path` reports (auto), else `~/.config/espanso` |
+| Windows | `%APPDATA%\espanso` (`~\AppData\Roaming\espanso`)          |
 
 ## Commands
 
@@ -94,8 +144,30 @@ Then: `mise run espanso-sync`
 
 ## File Structure
 
+### This repo (espanso-dist)
+
 ```
-~/.config/espanso/
+espanso-dist/
+├── install.sh                   # auto-detecting dispatcher (execs the platform script)
+├── install-linux.sh             # Linux entry (sources lib/common.sh)
+├── install-macos.sh             # macOS entry (sources lib/common.sh; ships macOS fixes)
+├── install-windows.sh           # Windows entry (Git Bash; sources lib/common.sh)
+├── lib/
+│   └── common.sh                # shared library: clone, deploy, verify, --update
+├── match/                       # flat tokenized .yml (deployment-ready, 340+ files)
+├── espanso-install/             # iOS export / legacy format (290+ files)
+├── config/
+│   └── default.yml              # espanso runtime config
+├── default.yml                  # same, at root (back-comat)
+├── version.json                 # build metadata (git ref, timestamp, file count)
+├── VERSION                      # version stamp (compared by --update)
+└── MANIFEST.json                # trigger manifest
+```
+
+### Installed layout (`<config_dir>/`)
+
+```
+~/.config/espanso/               # Linux / macOS(XDG)   — Windows: %APPDATA%\espanso
 ├── conf/match/                  # empty (mirrors source-machine layout)
 ├── config/
 │   └── default.yml              # espanso runtime config (keyboard, includes, backend)
@@ -113,14 +185,6 @@ Then: `mise run espanso-sync`
 ├── install.sh                   # saved installer for self-update
 └── .trigger-pack-version        # installed version stamp
 ```
-
-## OS-Specific Paths
-
-| OS      | Config directory                                          |
-| ------- | -------------------------------------------------------- |
-| Linux   | `~/.config/espanso/`                                      |
-| macOS   | `~/Library/Application Support/espanso/`                  |
-| Windows | `%APPDATA%\espanso\` (i.e. `~\AppData\Roaming\espanso\`) |
 
 
 ## License
