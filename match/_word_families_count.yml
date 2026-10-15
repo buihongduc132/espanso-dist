@@ -1,0 +1,50 @@
+name: _word_families_count
+matches:
+- replace: 'count '
+  _tags:
+  - verb
+  - to
+  - can
+  - else
+  - pronoun
+  - rate_count_metric
+  allow_duplicate: true
+  propagate_case: true
+  trigger: qnt,
+- replace: 'countable '
+  _tags:
+  - nlp-morphology
+  - adjective
+  _note: MorphyNet derivational edge::count->countable (able); nlp_morphology.md
+  propagate_case: true
+  allow_duplicate: false
+  trigger: qntb,
+- replace: 'counts '
+  duplicate_group: qnts-conflict
+  _tags:
+  - verb
+  - else
+  - pronoun
+  allow_duplicate: true
+  propagate_case: true
+  trigger: qnts,
+- replace: 'counting '
+  _tags:
+  - ing
+  - verb
+  - can
+  - else
+  - pronoun
+  allow_duplicate: true
+  propagate_case: true
+  trigger: qnti,
+- replace: 'counted '
+  _tags:
+  - ed
+  - verb
+  - would
+  - else
+  - pronoun
+  allow_duplicate: true
+  propagate_case: true
+  trigger: qntp,

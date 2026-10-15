@@ -1,0 +1,44 @@
+name: _word_families_pallet
+matches:
+- replace: 'pallet '
+  _tags:
+  - noun
+  propagate_case: true
+  allow_duplicate: false
+  trigger: pale,
+- replace: 'pallets '
+  _tags:
+  - noun
+  propagate_case: true
+  allow_duplicate: false
+  trigger: pales,
+- replace: 'this pallet '
+  _tags:
+  - phrase
+  propagate_case: true
+  allow_duplicate: false
+  trigger: izpale,
+- replace: 'that pallet '
+  _tags:
+  - phrase
+  propagate_case: true
+  allow_duplicate: false
+  trigger: azpale,
+- replace: 'these pallets '
+  _tags:
+  - phrase
+  propagate_case: true
+  allow_duplicate: false
+  trigger: ezpales,
+- replace: 'those pallets '
+  _tags:
+  - phrase
+  propagate_case: true
+  allow_duplicate: false
+  trigger: ozpales,
+- replace: 'the pallet '
+  _tags:
+  - phrase
+  propagate_case: true
+  allow_duplicate: false
+  trigger: hpale,

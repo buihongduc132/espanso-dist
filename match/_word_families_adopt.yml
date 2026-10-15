@@ -1,0 +1,124 @@
+name: _word_families_adopt
+matches:
+- replace: 'adopt '
+  _tags:
+  - verb
+  propagate_case: true
+  allow_duplicate: false
+  trigger: adop,
+- replace: 'adopts '
+  _tags:
+  - verb
+  propagate_case: true
+  allow_duplicate: false
+  trigger: adops,
+- replace: 'adopting '
+  _tags:
+  - verb
+  - ing
+  propagate_case: true
+  allow_duplicate: false
+  trigger: adopi,
+- replace: 'adopted '
+  _tags:
+  - verb
+  - ed
+  propagate_case: true
+  allow_duplicate: false
+  trigger: adopp,
+- replace: 'adoption '
+  _tags:
+  - noun
+  propagate_case: true
+  allow_duplicate: false
+  trigger: adopm,
+- replace: 'adoptions '
+  _tags:
+  - noun
+  propagate_case: true
+  allow_duplicate: false
+  trigger: adopms,
+- replace: 'adopter '
+  _tags:
+  - noun
+  propagate_case: true
+  allow_duplicate: false
+  trigger: adopw,
+- replace: 'adopters '
+  _tags:
+  - noun
+  propagate_case: true
+  allow_duplicate: false
+  trigger: adopws,
+- replace: 'adoptable '
+  _tags:
+  - adjective
+  propagate_case: true
+  allow_duplicate: false
+  trigger: adopb,
+- replace: 'adopt this '
+  _tags:
+  - phrase
+  propagate_case: true
+  allow_duplicate: false
+  trigger: adopiz,
+- replace: 'adopt that '
+  _tags:
+  - phrase
+  propagate_case: true
+  allow_duplicate: false
+  trigger: adopaz,
+- replace: 'adopt these '
+  _tags:
+  - phrase
+  propagate_case: true
+  allow_duplicate: false
+  trigger: adopez,
+- replace: 'adopt those '
+  _tags:
+  - phrase
+  propagate_case: true
+  allow_duplicate: false
+  trigger: adopoz,
+- replace: 'adopt the '
+  _tags:
+  - phrase
+  propagate_case: true
+  allow_duplicate: false
+  trigger: adoph,
+- replace: 'this adoption '
+  _tags:
+  - phrase
+  propagate_case: true
+  allow_duplicate: false
+  trigger: izadopm,
+- replace: 'that adoption '
+  _tags:
+  - phrase
+  propagate_case: true
+  allow_duplicate: false
+  trigger: azadopm,
+- replace: 'these adoptions '
+  _tags:
+  - phrase
+  propagate_case: true
+  allow_duplicate: false
+  trigger: ezadopms,
+- replace: 'those adoptions '
+  _tags:
+  - phrase
+  propagate_case: true
+  allow_duplicate: false
+  trigger: ozadopms,
+- replace: 'the adoption '
+  _tags:
+  - phrase
+  propagate_case: true
+  allow_duplicate: false
+  trigger: hadopm,
+- replace: 'then adopt '
+  _tags:
+  - phrase
+  propagate_case: true
+  allow_duplicate: false
+  trigger: nzadop,

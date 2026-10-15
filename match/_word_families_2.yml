@@ -1193,6 +1193,14 @@ matches:
   propagate_case: true
   allow_duplicate: false
   trigger: dete,
+- replace: 'detectable '
+  _tags:
+  - adjective
+  - able
+  - auto-b
+  propagate_case: true
+  allow_duplicate: false
+  trigger: deteb,
 - replace: 'detected '
   _tags:
   - to
@@ -1664,6 +1672,7 @@ matches:
   - success
   - can
   - else
+  - rate_count_metric
   - noun
   propagate_case: true
   allow_duplicate: false
@@ -1747,6 +1756,20 @@ matches:
   propagate_case: true
   allow_duplicate: false
   trigger: suql,
+- replace: 'success rate '
+  _tags:
+  - noun
+  - rate_count_metric
+  propagate_case: true
+  allow_duplicate: false
+  trigger: suqwa,
+- replace: 'success count '
+  _tags:
+  - noun
+  - rate_count_metric
+  propagate_case: true
+  allow_duplicate: false
+  trigger: suqqo,
 - replace: 'not success '
   _tags:
   - success
@@ -2514,6 +2537,14 @@ matches:
   propagate_case: true
   allow_duplicate: false
   trigger: naj,
+- replace: 'navigates '
+  _tags:
+  - to
+  - else
+  - pronoun
+  propagate_case: true
+  allow_duplicate: false
+  trigger: najs,
 - replace: 'nav bar '
   propagate_case: true
   allow_duplicate: false
@@ -2527,7 +2558,7 @@ matches:
   - else
   propagate_case: true
   allow_duplicate: false
-  trigger: naje,
+  trigger: najp,
 - replace: 'navigating '
   _tags:
   - to
@@ -2980,6 +3011,38 @@ matches:
   propagate_case: true
   allow_duplicate: false
   trigger: reas,
+- replace: 'reasonable '
+  _tags:
+  - nlp-morphology
+  - adjective
+  _note: MorphyNet derivational edge::reason->reasonable (able); nlp_morphology.md
+  propagate_case: true
+  allow_duplicate: false
+  trigger: reasb,
+- replace: 'reasoning '
+  _tags:
+  - nlp-morphology
+  - inflection
+  _note: LemmInflect dictionary (inflect_oov=False)::reason->reasoning (VBG); nlp_morphology.md
+  propagate_case: true
+  allow_duplicate: false
+  trigger: reasi,
+- replace: 'reasoned '
+  _tags:
+  - nlp-morphology
+  - inflection
+  _note: LemmInflect dictionary (inflect_oov=False)::reason->reasoned (VBD); nlp_morphology.md
+  propagate_case: true
+  allow_duplicate: false
+  trigger: reasp,
+- replace: 'reasons '
+  _tags:
+  - nlp-morphology
+  - inflection
+  _note: LemmInflect dictionary (inflect_oov=False)::reason->reasons (VBZ); nlp_morphology.md
+  propagate_case: true
+  allow_duplicate: false
+  trigger: reass,
 - replace: 'reasons '
   _tags:
   - noun
@@ -3034,6 +3097,14 @@ matches:
   propagate_case: true
   allow_duplicate: false
   trigger: cycms,
+- replace: 'cycles '
+  _tags:
+  - to
+  - can
+  - else
+  propagate_case: true
+  allow_duplicate: false
+  trigger: cycs,
 - replace: 'cycled '
   _tags:
   - ed
@@ -3043,16 +3114,7 @@ matches:
   - else
   propagate_case: true
   allow_duplicate: false
-  trigger: cycep,
-- replace: 'cycle '
-  _tags:
-  - verb
-  - to
-  - can
-  - else
-  propagate_case: true
-  allow_duplicate: false
-  trigger: cyce,
+  trigger: cycp,
 - replace: 'cycling '
   _tags:
   - ing

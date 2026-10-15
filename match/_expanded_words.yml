@@ -25,7 +25,35 @@ matches:
   - parser
   propagate_case: true
   allow_duplicate: false
-  trigger: 3si,
+  trigger: 3si`
+- replace: 'sister '
+  _tags:
+  - noun
+  - else
+  propagate_case: true
+  allow_duplicate: false
+  trigger: si`
+- replace: 'babysitter '
+  _tags:
+  - noun
+  - else
+  propagate_case: true
+  allow_duplicate: false
+  trigger: bsi`
+- replace: 'brother '
+  _tags:
+  - noun
+  - else
+  propagate_case: true
+  allow_duplicate: false
+  trigger: bw`
+- replace: 'sibling '
+  _tags:
+  - noun
+  - else
+  propagate_case: true
+  allow_duplicate: false
+  trigger: sib`
 - replace: 'LangChain '
   _tags:
   - software

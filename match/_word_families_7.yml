@@ -1,23 +1,5 @@
 name: _word_families_7
 matches:
-- replace: 'numeric '
-  _tags:
-  - can
-  - else
-  - pronoun
-  propagate_case: true
-  allow_duplicate: false
-  trigger: numq,
-- replace: 'numerically '
-  _tags:
-  - pronoun
-  - possessive
-  - will
-  - can
-  - else
-  propagate_case: true
-  allow_duplicate: false
-  trigger: numy,
 - replace: 'frequency '
   _tags:
   - can

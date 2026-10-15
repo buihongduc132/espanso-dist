@@ -2,52 +2,227 @@ name: _word_families_number
 matches:
 - replace: 'number '
   _tags:
-  - can
-  - pronoun
+  - noun
+  - verb
+  - to
   - else
-  allow_duplicate: true
   propagate_case: true
-  trigger: num,
+  allow_duplicate: false
+  trigger: nub,
 - replace: 'number of '
   _tags:
   - number
   - of
   - phrase
-  allow_duplicate: true
   propagate_case: true
+  allow_duplicate: false
   trigger: numo,
+- replace: 'number of '
+  _tags:
+  - number
+  - of
+  - phrase
+  propagate_case: true
+  allow_duplicate: false
+  trigger: nubo,
 - replace: 'numbers '
   _tags:
-  - can
-  - pronoun
+  - noun
+  - plural
+  - verb
+  - to
   - else
-  allow_duplicate: true
   propagate_case: true
-  trigger: nums,
+  allow_duplicate: false
+  trigger: nubs,
 - replace: 'numbering '
   _tags:
   - ing
-  - can
-  - pronoun
+  - verb
+  - to
   - else
-  allow_duplicate: true
   propagate_case: true
-  trigger: numi,
+  allow_duplicate: false
+  trigger: nubi,
 - replace: 'numbered '
   _tags:
   - ed
-  - would
-  - can
-  - pronoun
+  - verb
+  - to
   - else
-  allow_duplicate: true
   propagate_case: true
-  trigger: nump,
+  allow_duplicate: false
+  trigger: nubp,
 - replace: 'numerical '
   _tags:
-  - can
-  - pronoun
+  - adjective
+  - to
   - else
-  allow_duplicate: true
   propagate_case: true
-  trigger: numl,
+  allow_duplicate: false
+  trigger: nubl,
+- replace: 'numeric '
+  _tags:
+  - adjective
+  - to
+  - else
+  propagate_case: true
+  allow_duplicate: false
+  trigger: nubq,
+- replace: 'numerically '
+  _tags:
+  - adverb
+  - to
+  - else
+  propagate_case: true
+  allow_duplicate: false
+  trigger: nuby,
+- replace: 'this number '
+  _tags:
+  - demonstrative
+  - th_foundation
+  propagate_case: true
+  allow_duplicate: false
+  trigger: iznub,
+- replace: 'that number '
+  _tags:
+  - demonstrative
+  - th_foundation
+  propagate_case: true
+  allow_duplicate: false
+  trigger: aznub,
+- replace: 'these numbers '
+  _tags:
+  - demonstrative
+  - th_foundation
+  - plural
+  propagate_case: true
+  allow_duplicate: false
+  trigger: eznubs,
+- replace: 'those numbers '
+  _tags:
+  - demonstrative
+  - th_foundation
+  - plural
+  propagate_case: true
+  allow_duplicate: false
+  trigger: oznubs,
+- replace: 'number this '
+  _tags:
+  - demonstrative
+  - th_foundation
+  propagate_case: true
+  allow_duplicate: false
+  trigger: nubiz,
+- replace: 'number that '
+  _tags:
+  - demonstrative
+  - th_foundation
+  propagate_case: true
+  allow_duplicate: false
+  trigger: nubaz,
+- replace: 'number these '
+  _tags:
+  - demonstrative
+  - th_foundation
+  propagate_case: true
+  allow_duplicate: false
+  trigger: nubez,
+- replace: 'number those '
+  _tags:
+  - demonstrative
+  - th_foundation
+  propagate_case: true
+  allow_duplicate: false
+  trigger: nuboz,
+- replace: 'number it '
+  _tags:
+  - pronoun
+  propagate_case: true
+  allow_duplicate: false
+  trigger: nubit,
+- replace: 'number them '
+  _tags:
+  - pronoun
+  propagate_case: true
+  allow_duplicate: false
+  trigger: nubmm,
+- replace: 'number the '
+  _tags:
+  - pronoun
+  propagate_case: true
+  allow_duplicate: false
+  trigger: nubh,
+- replace: 'the number '
+  _tags:
+  - pronoun
+  propagate_case: true
+  allow_duplicate: false
+  trigger: hnub,
+- replace: 'the numbers '
+  _tags:
+  - pronoun
+  - plural
+  propagate_case: true
+  allow_duplicate: false
+  trigger: hnubs,
+- replace: 'what number '
+  _tags:
+  - question
+  propagate_case: true
+  allow_duplicate: false
+  trigger: wtnub,
+- replace: 'where number '
+  _tags:
+  - question
+  propagate_case: true
+  allow_duplicate: false
+  trigger: wwnub,
+- replace: 'when number '
+  _tags:
+  - question
+  propagate_case: true
+  allow_duplicate: false
+  trigger: wnnub,
+- replace: 'why number '
+  _tags:
+  - question
+  propagate_case: true
+  allow_duplicate: false
+  trigger: wynub,
+- replace: 'how number '
+  _tags:
+  - question
+  propagate_case: true
+  allow_duplicate: false
+  trigger: hwnub,
+- replace: 'number to the '
+  _tags:
+  - directional
+  propagate_case: true
+  allow_duplicate: false
+  trigger: nub2h,
+- replace: 'from the number '
+  _tags:
+  - directional
+  propagate_case: true
+  allow_duplicate: false
+  trigger: 22hnub,
+- replace: 'from the numbers '
+  _tags:
+  - directional
+  propagate_case: true
+  allow_duplicate: false
+  trigger: 22hnubs,
+- replace: 'number have '
+  propagate_case: true
+  allow_duplicate: false
+  trigger: nubha,
+- replace: 'number has '
+  propagate_case: true
+  allow_duplicate: false
+  trigger: nubhass,
+- replace: 'then number '
+  propagate_case: true
+  allow_duplicate: false
+  trigger: nznub,

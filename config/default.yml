@@ -1,7 +1,6 @@
 search_shortcut: SHIFT+CTRL+E
 toggle_key: RIGHT_CTRL
 min_trigger_length: 1
-backend: Inject
 inject_delay: 0
 undo_backspace: false
 search_trigger: ::sea

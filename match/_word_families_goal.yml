@@ -1,0 +1,44 @@
+name: _word_families_goal
+matches:
+- replace: 'goal '
+  _tags:
+  - noun
+  propagate_case: true
+  allow_duplicate: false
+  trigger: gol,
+- replace: 'goals '
+  _tags:
+  - noun
+  propagate_case: true
+  allow_duplicate: false
+  trigger: gols,
+- replace: 'this goal '
+  _tags:
+  - phrase
+  propagate_case: true
+  allow_duplicate: false
+  trigger: izgol,
+- replace: 'that goal '
+  _tags:
+  - phrase
+  propagate_case: true
+  allow_duplicate: false
+  trigger: azgol,
+- replace: 'these goals '
+  _tags:
+  - phrase
+  propagate_case: true
+  allow_duplicate: false
+  trigger: ezgols,
+- replace: 'those goals '
+  _tags:
+  - phrase
+  propagate_case: true
+  allow_duplicate: false
+  trigger: ozgols,
+- replace: 'the goal '
+  _tags:
+  - phrase
+  propagate_case: true
+  allow_duplicate: false
+  trigger: hgol,

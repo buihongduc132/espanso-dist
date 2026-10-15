@@ -293,6 +293,14 @@ matches:
   propagate_case: true
   allow_duplicate: false
   trigger: all,
+- replace: 'allowable '
+  _tags:
+  - adjective
+  - able
+  - auto-b
+  propagate_case: true
+  allow_duplicate: false
+  trigger: allb,
 - replace: 'allows '
   _tags:
   - to

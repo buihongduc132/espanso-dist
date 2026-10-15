@@ -1076,6 +1076,46 @@ matches:
   propagate_case: true
   allow_duplicate: false
   trigger: opewj,
+- replace: 'operable '
+  _tags:
+  - nlp-morphology
+  - adjective
+  _note: MorphyNet derivational edge::operate->operable (able); nlp_morphology.md
+  propagate_case: true
+  allow_duplicate: false
+  trigger: opewjb,
+- replace: 'inoperable '
+  _tags:
+  - nlp-morphology
+  - prefix
+  _note: MorphyNet derivational edge::operable->inoperable (in); nlp_morphology.md
+  propagate_case: true
+  allow_duplicate: false
+  trigger: iopewjb,
+- replace: 'operating '
+  _tags:
+  - nlp-morphology
+  - inflection
+  _note: LemmInflect dictionary (inflect_oov=False)::operate->operating (VBG); nlp_morphology.md
+  propagate_case: true
+  allow_duplicate: false
+  trigger: opewji,
+- replace: 'operated '
+  _tags:
+  - nlp-morphology
+  - inflection
+  _note: LemmInflect dictionary (inflect_oov=False)::operate->operated (VBD); nlp_morphology.md
+  propagate_case: true
+  allow_duplicate: false
+  trigger: opewjp,
+- replace: 'operates '
+  _tags:
+  - nlp-morphology
+  - inflection
+  _note: LemmInflect dictionary (inflect_oov=False)::operate->operates (VBZ); nlp_morphology.md
+  propagate_case: true
+  allow_duplicate: false
+  trigger: opewjs,
 - replace: 'operates '
   _tags:
   - to

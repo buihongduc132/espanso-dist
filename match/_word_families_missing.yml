@@ -190,14 +190,25 @@ matches:
   - can
   - else
   allow_duplicate: true
+  duplicate_group: inserts-conflict
   propagate_case: true
   trigger: ins,
 - replace: 'inserts '
+  allow_duplicate: true
+  duplicate_group: inserts-conflict
   _tags:
   - the
   - to
   - else
+  propagate_case: true
+  trigger: inss,
+- replace: 'inserts '
   allow_duplicate: true
+  duplicate_group: inserts-conflict
+  _tags:
+  - the
+  - to
+  - else
   propagate_case: true
   trigger: inss,
 - replace: 'inserting '
@@ -210,6 +221,7 @@ matches:
   propagate_case: true
   trigger: insi,
 - replace: 'inserted '
+  allow_duplicate: true
   _tags:
   - the
   - can
@@ -217,8 +229,7 @@ matches:
   - would
   - else
   propagate_case: true
-  allow_duplicate: false
-  trigger: insk,
+  trigger: insp,
 - replace: 'clear '
   _tags:
   - the

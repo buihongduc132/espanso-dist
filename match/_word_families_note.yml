@@ -10,6 +10,14 @@ matches:
   duplicate_group: no-negate-vs-note
   propagate_case: true
   trigger: no,
+- replace: 'notable '
+  _tags:
+  - adjective
+  - able
+  - auto-b
+  propagate_case: true
+  allow_duplicate: false
+  trigger: nob,
 - replace: 'notes '
   _tags:
   - to

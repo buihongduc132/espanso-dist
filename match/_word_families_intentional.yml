@@ -1,0 +1,68 @@
+name: _word_families_intentional
+matches:
+- replace: 'intentional '
+  _tags:
+  - adjective
+  propagate_case: true
+  allow_duplicate: false
+  trigger: inteml,
+- replace: 'intentionally '
+  _tags:
+  - adverb
+  propagate_case: true
+  allow_duplicate: false
+  trigger: intemll,
+- replace: 'intentionality '
+  _tags:
+  - noun
+  propagate_case: true
+  allow_duplicate: false
+  trigger: intemly,
+- replace: 'unintentional '
+  _tags:
+  - adjective
+  propagate_case: true
+  allow_duplicate: false
+  trigger: uinteml,
+- replace: 'unintentionally '
+  _tags:
+  - adverb
+  propagate_case: true
+  allow_duplicate: false
+  trigger: uintemll,
+- replace: 'this intentional '
+  _tags:
+  - phrase
+  propagate_case: true
+  allow_duplicate: false
+  trigger: izinteml,
+- replace: 'that intentional '
+  _tags:
+  - phrase
+  propagate_case: true
+  allow_duplicate: false
+  trigger: azinteml,
+- replace: 'the intentional '
+  _tags:
+  - phrase
+  propagate_case: true
+  allow_duplicate: false
+  trigger: hinteml,
+- replace: 'this unintentional '
+  _tags:
+  - phrase
+  propagate_case: true
+  allow_duplicate: false
+  trigger: izuinteml,
+- replace: 'that unintentional '
+  _tags:
+  - phrase
+  propagate_case: true
+  allow_duplicate: false
+  trigger: azuinteml,
+- replace: 'the unintentional '
+  _tags:
+  - phrase
+  propagate_case: true
+  allow_duplicate: false
+  trigger: huinteml,

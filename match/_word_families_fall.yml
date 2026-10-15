@@ -1,0 +1,104 @@
+name: _word_families_fall
+matches:
+- replace: 'fall '
+  _tags:
+  - verb
+  - noun
+  propagate_case: true
+  allow_duplicate: false
+  trigger: fal,
+- replace: 'falls '
+  _tags:
+  - verb
+  - noun
+  propagate_case: true
+  allow_duplicate: false
+  trigger: fals,
+- replace: 'falling '
+  _tags:
+  - verb
+  - ing
+  propagate_case: true
+  allow_duplicate: false
+  trigger: fali,
+- replace: 'fell '
+  _tags:
+  - verb
+  propagate_case: true
+  allow_duplicate: false
+  trigger: falp,
+- replace: 'fallen '
+  _tags:
+  - verb
+  - ed
+  propagate_case: true
+  allow_duplicate: false
+  trigger: fald,
+- replace: 'fallback '
+  _tags:
+  - noun
+  - software
+  propagate_case: true
+  allow_duplicate: false
+  trigger: falb,
+- replace: 'fallbacks '
+  _tags:
+  - noun
+  - software
+  propagate_case: true
+  allow_duplicate: false
+  trigger: falbs,
+- replace: 'fall this '
+  _tags:
+  - phrase
+  propagate_case: true
+  allow_duplicate: false
+  trigger: faliz,
+- replace: 'fall that '
+  _tags:
+  - phrase
+  propagate_case: true
+  allow_duplicate: false
+  trigger: falaz,
+- replace: 'fall the '
+  _tags:
+  - phrase
+  propagate_case: true
+  allow_duplicate: false
+  trigger: falh,
+- replace: 'then fall '
+  _tags:
+  - phrase
+  propagate_case: true
+  allow_duplicate: false
+  trigger: nzfal,
+- replace: 'this fallback '
+  _tags:
+  - phrase
+  propagate_case: true
+  allow_duplicate: false
+  trigger: izfalb,
+- replace: 'that fallback '
+  _tags:
+  - phrase
+  propagate_case: true
+  allow_duplicate: false
+  trigger: azfalb,
+- replace: 'these fallbacks '
+  _tags:
+  - phrase
+  propagate_case: true
+  allow_duplicate: false
+  trigger: ezfalbs,
+- replace: 'those fallbacks '
+  _tags:
+  - phrase
+  propagate_case: true
+  allow_duplicate: false
+  trigger: ozfalbs,
+- replace: 'the fallback '
+  _tags:
+  - phrase
+  propagate_case: true
+  allow_duplicate: false
+  trigger: hfalb,

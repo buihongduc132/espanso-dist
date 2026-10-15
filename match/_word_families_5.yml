@@ -434,6 +434,14 @@ matches:
   propagate_case: true
   allow_duplicate: false
   trigger: jie,
+- replace: 'viewable '
+  _tags:
+  - nlp-morphology
+  - adjective
+  _note: MorphyNet derivational edge::view->viewable (able); nlp_morphology.md
+  propagate_case: true
+  allow_duplicate: false
+  trigger: jieb,
 - replace: 'viewing '
   _tags:
   - ing
@@ -511,6 +519,38 @@ matches:
   propagate_case: true
   allow_duplicate: false
   trigger: sewjq,
+- replace: 'serviceable '
+  _tags:
+  - nlp-morphology
+  - adjective
+  _note: MorphyNet derivational edge::service->serviceable (able); nlp_morphology.md
+  propagate_case: true
+  allow_duplicate: false
+  trigger: sewjqb,
+- replace: 'servicing '
+  _tags:
+  - nlp-morphology
+  - inflection
+  _note: LemmInflect dictionary (inflect_oov=False)::service->servicing (VBG); nlp_morphology.md
+  propagate_case: true
+  allow_duplicate: false
+  trigger: sewjqi,
+- replace: 'serviced '
+  _tags:
+  - nlp-morphology
+  - inflection
+  _note: LemmInflect dictionary (inflect_oov=False)::service->serviced (VBD); nlp_morphology.md
+  propagate_case: true
+  allow_duplicate: false
+  trigger: sewjqp,
+- replace: 'services '
+  _tags:
+  - nlp-morphology
+  - inflection
+  _note: LemmInflect dictionary (inflect_oov=False)::service->services (VBZ); nlp_morphology.md
+  propagate_case: true
+  allow_duplicate: false
+  trigger: sewjqs,
 - replace: 'services '
   _tags:
   - can
@@ -1201,6 +1241,14 @@ matches:
   propagate_case: true
   allow_duplicate: false
   trigger: aqhi,
+- replace: 'achievable '
+  _tags:
+  - nlp-morphology
+  - adjective
+  _note: MorphyNet derivational edge::achieve->achievable (able); nlp_morphology.md
+  propagate_case: true
+  allow_duplicate: false
+  trigger: aqhib,
 - replace: 'achieved '
   _tags:
   - pronoun
@@ -1522,6 +1570,16 @@ matches:
   propagate_case: true
   allow_duplicate: false
   trigger: handi,
+- replace: 'handled '
+  _tags:
+  - ed
+  - the
+  - else
+  - would
+  - have
+  propagate_case: true
+  allow_duplicate: false
+  trigger: handp,
 - replace: 'handled '
   _tags:
   - ed

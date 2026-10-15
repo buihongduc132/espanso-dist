@@ -324,14 +324,14 @@ matches:
   allow_duplicate: false
   trigger: qoas`
 - replace: 'inspect '
+  allow_duplicate: true
   _tags:
   - to
   - can
   - else
   - pronoun
   propagate_case: true
-  allow_duplicate: false
-  trigger: insp,
+  trigger: inspe,
 - replace: 'inspecting '
   _tags:
   - pronoun
@@ -341,7 +341,7 @@ matches:
   - else
   propagate_case: true
   allow_duplicate: false
-  trigger: inspi,
+  trigger: inspei,
 - replace: 'inspected '
   _tags:
   - pronoun
@@ -352,7 +352,7 @@ matches:
   - else
   propagate_case: true
   allow_duplicate: false
-  trigger: inspp,
+  trigger: inspep,
 - replace: 'inspection '
   _tags:
   - pronoun
@@ -362,7 +362,7 @@ matches:
   - else
   propagate_case: true
   allow_duplicate: false
-  trigger: inspm,
+  trigger: inspem,
 - replace: 'inspector '
   _tags:
   - noun
@@ -372,7 +372,7 @@ matches:
   - else
   propagate_case: true
   allow_duplicate: false
-  trigger: inspw,
+  trigger: inspew,
 - replace: 'inspectors '
   _tags:
   - noun
@@ -382,7 +382,7 @@ matches:
   - else
   propagate_case: true
   allow_duplicate: false
-  trigger: inspws,
+  trigger: inspews,
 - replace: 'consider '
   _tags:
   - pronoun

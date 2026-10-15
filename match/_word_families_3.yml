@@ -812,6 +812,22 @@ matches:
   propagate_case: true
   allow_duplicate: false
   trigger: agwe,
+- replace: 'agreeable '
+  _tags:
+  - adjective
+  - able
+  - auto-b
+  propagate_case: true
+  allow_duplicate: false
+  trigger: agweb,
+- replace: 'disagreeable '
+  _tags:
+  - nlp-morphology
+  - prefix
+  _note: MorphyNet derivational edge::agreeable->disagreeable (dis); nlp_morphology.md
+  propagate_case: true
+  allow_duplicate: false
+  trigger: dagweb,
 - replace: 'agreed '
   _tags:
   - ed
@@ -1094,6 +1110,14 @@ matches:
   allow_duplicate: true
   propagate_case: true
   trigger: dep,
+- replace: 'dependable '
+  _tags:
+  - nlp-morphology
+  - adjective
+  _note: MorphyNet derivational edge::depend->dependable (able); nlp_morphology.md
+  propagate_case: true
+  allow_duplicate: false
+  trigger: depb,
 - replace: 'depended '
   _tags:
   - ed
@@ -1777,6 +1801,15 @@ matches:
   - pronoun
   propagate_case: true
   allow_duplicate: false
+  trigger: guidp,
+- replace: 'guided '
+  _tags:
+  - ed
+  - would
+  - else
+  - pronoun
+  propagate_case: true
+  allow_duplicate: false
   trigger: guipp,
 - replace: 'guiding '
   _tags:
@@ -2420,6 +2453,14 @@ matches:
   propagate_case: true
   allow_duplicate: false
   trigger: ext,
+- replace: 'extensible '
+  _tags:
+  - nlp-morphology
+  - adjective
+  _note: MorphyNet derivational edge::extend->extensible (ible); nlp_morphology.md
+  propagate_case: true
+  allow_duplicate: false
+  trigger: extb,
 - replace: 'extended '
   _tags:
   - ed

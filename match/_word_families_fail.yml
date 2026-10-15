@@ -6,6 +6,7 @@ matches:
   - to
   - can
   - else
+  - rate_count_metric
   propagate_case: true
   allow_duplicate: false
   trigger: fai,
@@ -71,3 +72,17 @@ matches:
   propagate_case: true
   allow_duplicate: false
   trigger: faip2,
+- replace: 'fail rate '
+  _tags:
+  - noun
+  - rate_count_metric
+  propagate_case: true
+  allow_duplicate: false
+  trigger: faiwa,
+- replace: 'fail count '
+  _tags:
+  - noun
+  - rate_count_metric
+  propagate_case: true
+  allow_duplicate: false
+  trigger: faiqo,

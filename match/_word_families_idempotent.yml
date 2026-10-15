@@ -1,0 +1,38 @@
+name: _word_families_idempotent
+matches:
+- replace: 'idempotent '
+  _tags:
+  - adjective
+  propagate_case: true
+  allow_duplicate: false
+  trigger: idem,
+- replace: 'idempotency '
+  _tags:
+  - noun
+  propagate_case: true
+  allow_duplicate: false
+  trigger: idemy,
+- replace: 'idempotently '
+  _tags:
+  - adverb
+  propagate_case: true
+  allow_duplicate: false
+  trigger: ideml,
+- replace: 'this idempotent '
+  _tags:
+  - phrase
+  propagate_case: true
+  allow_duplicate: false
+  trigger: izidem,
+- replace: 'that idempotent '
+  _tags:
+  - phrase
+  propagate_case: true
+  allow_duplicate: false
+  trigger: azidem,
+- replace: 'the idempotent '
+  _tags:
+  - phrase
+  propagate_case: true
+  allow_duplicate: false
+  trigger: hidem,

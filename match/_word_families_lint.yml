@@ -1,0 +1,110 @@
+name: _word_families_lint
+matches:
+- replace: 'lint '
+  _tags:
+  - noun
+  - verb
+  propagate_case: true
+  allow_duplicate: false
+  trigger: lit,
+- replace: 'lints '
+  _tags:
+  - noun
+  - verb
+  propagate_case: true
+  allow_duplicate: false
+  trigger: lits,
+- replace: 'linting '
+  _tags:
+  - verb
+  - ing
+  propagate_case: true
+  allow_duplicate: false
+  trigger: liti,
+- replace: 'linted '
+  _tags:
+  - verb
+  - ed
+  propagate_case: true
+  allow_duplicate: false
+  trigger: litp,
+- replace: 'linter '
+  _tags:
+  - noun
+  - software
+  propagate_case: true
+  allow_duplicate: false
+  trigger: litw,
+- replace: 'linters '
+  _tags:
+  - noun
+  - software
+  propagate_case: true
+  allow_duplicate: false
+  trigger: litws,
+- replace: 'lint this '
+  _tags:
+  - phrase
+  propagate_case: true
+  allow_duplicate: false
+  trigger: litiz,
+- replace: 'lint that '
+  _tags:
+  - phrase
+  propagate_case: true
+  allow_duplicate: false
+  trigger: litaz,
+- replace: 'lint these '
+  _tags:
+  - phrase
+  propagate_case: true
+  allow_duplicate: false
+  trigger: litez,
+- replace: 'lint those '
+  _tags:
+  - phrase
+  propagate_case: true
+  allow_duplicate: false
+  trigger: litoz,
+- replace: 'lint the '
+  _tags:
+  - phrase
+  propagate_case: true
+  allow_duplicate: false
+  trigger: lith,
+- replace: 'then lint '
+  _tags:
+  - phrase
+  propagate_case: true
+  allow_duplicate: false
+  trigger: nzlit,
+- replace: 'this linter '
+  _tags:
+  - phrase
+  propagate_case: true
+  allow_duplicate: false
+  trigger: izlitw,
+- replace: 'that linter '
+  _tags:
+  - phrase
+  propagate_case: true
+  allow_duplicate: false
+  trigger: azlitw,
+- replace: 'these linters '
+  _tags:
+  - phrase
+  propagate_case: true
+  allow_duplicate: false
+  trigger: ezlitws,
+- replace: 'those linters '
+  _tags:
+  - phrase
+  propagate_case: true
+  allow_duplicate: false
+  trigger: ozlitws,
+- replace: 'the linter '
+  _tags:
+  - phrase
+  propagate_case: true
+  allow_duplicate: false
+  trigger: hlitw,

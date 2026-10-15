@@ -1386,6 +1386,24 @@ matches:
   propagate_case: true
   allow_duplicate: false
   trigger: dli,
+- replace: 'delint '
+  _tags:
+  - prefix
+  - auto-prefix
+  - negate
+  _note: prefix-auto::lit
+  propagate_case: true
+  allow_duplicate: false
+  trigger: dlit,
+- replace: 'delinter '
+  _tags:
+  - prefix
+  - auto-prefix
+  - negate
+  _note: prefix-auto::litw
+  propagate_case: true
+  allow_duplicate: false
+  trigger: dlitw,
 - replace: 'deline '
   _tags:
   - prefix
@@ -1661,10 +1679,10 @@ matches:
   - prefix
   - auto-prefix
   - negate
-  _note: prefix-auto::nuM
+  _note: prefix-auto::nub
   propagate_case: true
   allow_duplicate: false
-  trigger: dnum,
+  trigger: dnub,
 - replace: 'discontinue '
   _tags:
   - prefix
@@ -1845,6 +1863,15 @@ matches:
   propagate_case: true
   allow_duplicate: false
   trigger: dpaiys,
+- replace: 'depass '
+  _tags:
+  - prefix
+  - auto-prefix
+  - negate
+  _note: prefix-auto::pas
+  propagate_case: true
+  allow_duplicate: false
+  trigger: dpas,
 - replace: 'dispatch '
   _tags:
   - prefix
@@ -2934,6 +2961,15 @@ matches:
   propagate_case: true
   allow_duplicate: false
   trigger: dqnsim,
+- replace: 'discount '
+  _tags:
+  - prefix
+  - auto-prefix
+  - negate
+  _note: prefix-auto::qnt
+  propagate_case: true
+  allow_duplicate: false
+  trigger: dqnt,
 - replace: 'discontent '
   _tags:
   - prefix
@@ -3015,6 +3051,14 @@ matches:
   propagate_case: true
   allow_duplicate: false
   trigger: dqoj,
+- replace: 'rediscover '
+  _tags:
+  - nlp-morphology
+  - prefix
+  _note: MorphyNet derivational edge::discover->rediscover (re); nlp_morphology.md
+  propagate_case: true
+  allow_duplicate: false
+  trigger: wdqoj,
 - replace: 'discovering '
   _tags:
   - prefix
@@ -4482,6 +4526,24 @@ matches:
   propagate_case: true
   allow_duplicate: false
   trigger: iaqqwm,
+- replace: 'inarguable '
+  _tags:
+  - prefix
+  - auto-prefix
+  - negate
+  _note: prefix-auto::awgB
+  propagate_case: true
+  allow_duplicate: false
+  trigger: iawgb,
+- replace: 'inarguably '
+  _tags:
+  - prefix
+  - auto-prefix
+  - negate
+  _note: prefix-auto::awgBL
+  propagate_case: true
+  allow_duplicate: false
+  trigger: iawgbl,
 - replace: 'imbranch '
   _tags:
   - prefix
@@ -4617,6 +4679,15 @@ matches:
   propagate_case: true
   allow_duplicate: false
   trigger: ideqij,
+- replace: 'indesirable '
+  _tags:
+  - prefix
+  - auto-prefix
+  - negate
+  _note: prefix-auto::desiwB
+  propagate_case: true
+  allow_duplicate: false
+  trigger: idesiwb,
 - replace: 'indecisive '
   _tags:
   - prefix
@@ -5265,6 +5336,24 @@ matches:
   propagate_case: true
   allow_duplicate: false
   trigger: ifo,
+- replace: 'infall '
+  _tags:
+  - prefix
+  - auto-prefix
+  - negate
+  _note: prefix-auto::fal
+  propagate_case: true
+  allow_duplicate: false
+  trigger: ifal,
+- replace: 'infalling '
+  _tags:
+  - prefix
+  - auto-prefix
+  - negate
+  _note: prefix-auto::falI
+  propagate_case: true
+  allow_duplicate: false
+  trigger: ifali,
 - replace: 'infound '
   _tags:
   - prefix
@@ -5373,6 +5462,14 @@ matches:
   propagate_case: true
   allow_duplicate: false
   trigger: ifowm,
+- replace: 'disinformation '
+  _tags:
+  - nlp-morphology
+  - prefix
+  _note: MorphyNet derivational edge::information->disinformation (dis); nlp_morphology.md
+  propagate_case: true
+  allow_duplicate: false
+  trigger: difowm,
 - replace: 'informed '
   _tags:
   - prefix
@@ -6147,6 +6244,15 @@ matches:
   propagate_case: true
   allow_duplicate: false
   trigger: ipak,
+- replace: 'impasses '
+  _tags:
+  - prefix
+  - auto-prefix
+  - negate
+  _note: prefix-auto::pasS
+  propagate_case: true
+  allow_duplicate: false
+  trigger: ipass,
 - replace: 'inpayment '
   _tags:
   - prefix
@@ -6741,6 +6847,42 @@ matches:
   propagate_case: true
   allow_duplicate: false
   trigger: iqmpli,
+- replace: 'incompact '
+  _tags:
+  - prefix
+  - auto-prefix
+  - negate
+  _note: prefix-auto::qmpt
+  propagate_case: true
+  allow_duplicate: false
+  trigger: iqmpt,
+- replace: 'incompactness '
+  _tags:
+  - prefix
+  - auto-prefix
+  - negate
+  _note: prefix-auto::qmptJ
+  propagate_case: true
+  allow_duplicate: false
+  trigger: iqmptj,
+- replace: 'incompacted '
+  _tags:
+  - prefix
+  - auto-prefix
+  - negate
+  _note: prefix-auto::qmptP
+  propagate_case: true
+  allow_duplicate: false
+  trigger: iqmptp,
+- replace: 'incompactly '
+  _tags:
+  - prefix
+  - auto-prefix
+  - negate
+  _note: prefix-auto::qmpty
+  propagate_case: true
+  allow_duplicate: false
+  trigger: iqmpty,
 - replace: 'incomparable '
   _tags:
   - prefix
@@ -7335,6 +7477,15 @@ matches:
   propagate_case: true
   allow_duplicate: false
   trigger: isewj,
+- replace: 'insister '
+  _tags:
+  - prefix
+  - auto-prefix
+  - negate
+  _note: prefix-auto::si`
+  propagate_case: true
+  allow_duplicate: false
+  trigger: isi`
 - replace: 'insimulate '
   _tags:
   - prefix
@@ -7380,6 +7531,15 @@ matches:
   propagate_case: true
   allow_duplicate: false
   trigger: istop,
+- replace: 'insubjection '
+  _tags:
+  - prefix
+  - auto-prefix
+  - negate
+  _note: prefix-auto::subjM
+  propagate_case: true
+  allow_duplicate: false
+  trigger: isubjm,
 - replace: 'insufficient '
   _tags:
   - prefix
@@ -7866,6 +8026,33 @@ matches:
   propagate_case: true
   allow_duplicate: false
   trigger: iwesilm,
+- replace: 'irresistible '
+  _tags:
+  - prefix
+  - auto-prefix
+  - negate
+  _note: prefix-auto::wesisB
+  propagate_case: true
+  allow_duplicate: false
+  trigger: iwesisb,
+- replace: 'irresistibly '
+  _tags:
+  - prefix
+  - auto-prefix
+  - negate
+  _note: prefix-auto::wesisBL
+  propagate_case: true
+  allow_duplicate: false
+  trigger: iwesisbl,
+- replace: 'irresistance '
+  _tags:
+  - prefix
+  - auto-prefix
+  - negate
+  _note: prefix-auto::wesisM
+  propagate_case: true
+  allow_duplicate: false
+  trigger: iwesism,
 - replace: 'irresponsible '
   _tags:
   - prefix
@@ -8487,6 +8674,42 @@ matches:
   propagate_case: true
   allow_duplicate: false
   trigger: uadl,
+- replace: 'unadopt '
+  _tags:
+  - prefix
+  - auto-prefix
+  - negate
+  _note: prefix-auto::adop
+  propagate_case: true
+  allow_duplicate: false
+  trigger: uadop,
+- replace: 'unadoptable '
+  _tags:
+  - prefix
+  - auto-prefix
+  - negate
+  _note: prefix-auto::adopB
+  propagate_case: true
+  allow_duplicate: false
+  trigger: uadopb,
+- replace: 'unadoption '
+  _tags:
+  - prefix
+  - auto-prefix
+  - negate
+  _note: prefix-auto::adopM
+  propagate_case: true
+  allow_duplicate: false
+  trigger: uadopm,
+- replace: 'unadopted '
+  _tags:
+  - prefix
+  - auto-prefix
+  - negate
+  _note: prefix-auto::adopP
+  propagate_case: true
+  allow_duplicate: false
+  trigger: uadopp,
 - replace: 'unaffecting '
   _tags:
   - prefix
@@ -8568,6 +8791,15 @@ matches:
   propagate_case: true
   allow_duplicate: false
   trigger: uajdi,
+- replace: 'unavoided '
+  _tags:
+  - prefix
+  - auto-prefix
+  - negate
+  _note: prefix-auto::ajDP
+  propagate_case: true
+  allow_duplicate: false
+  trigger: uajdp,
 - replace: 'unavoided '
   _tags:
   - prefix
@@ -9018,6 +9250,15 @@ matches:
   propagate_case: true
   allow_duplicate: false
   trigger: uaqt,
+- replace: 'unactionable '
+  _tags:
+  - prefix
+  - auto-prefix
+  - negate
+  _note: prefix-auto::aqTB
+  propagate_case: true
+  allow_duplicate: false
+  trigger: uaqtb,
 - replace: 'unactivity '
   _tags:
   - prefix
@@ -9396,6 +9637,69 @@ matches:
   propagate_case: true
   allow_duplicate: false
   trigger: uautoq,
+- replace: 'unarguable '
+  _tags:
+  - prefix
+  - auto-prefix
+  - negate
+  _note: prefix-auto::awgB
+  propagate_case: true
+  allow_duplicate: false
+  trigger: uawgb,
+- replace: 'unarguably '
+  _tags:
+  - prefix
+  - auto-prefix
+  - negate
+  _note: prefix-auto::awgBL
+  propagate_case: true
+  allow_duplicate: false
+  trigger: uawgbl,
+- replace: 'unarguing '
+  _tags:
+  - prefix
+  - auto-prefix
+  - negate
+  _note: prefix-auto::awgI
+  propagate_case: true
+  allow_duplicate: false
+  trigger: uawgi,
+- replace: 'unargumentative '
+  _tags:
+  - prefix
+  - auto-prefix
+  - negate
+  _note: prefix-auto::awgJ
+  propagate_case: true
+  allow_duplicate: false
+  trigger: uawgj,
+- replace: 'unargumentatively '
+  _tags:
+  - prefix
+  - auto-prefix
+  - negate
+  _note: prefix-auto::awgJL
+  propagate_case: true
+  allow_duplicate: false
+  trigger: uawgjl,
+- replace: 'unargumentativeness '
+  _tags:
+  - prefix
+  - auto-prefix
+  - negate
+  _note: prefix-auto::awgN
+  propagate_case: true
+  allow_duplicate: false
+  trigger: uawgn,
+- replace: 'unargued '
+  _tags:
+  - prefix
+  - auto-prefix
+  - negate
+  _note: prefix-auto::awgP
+  propagate_case: true
+  allow_duplicate: false
+  trigger: uawgp,
 - replace: 'unbacked '
   _tags:
   - prefix
@@ -10089,6 +10393,15 @@ matches:
   propagate_case: true
   allow_duplicate: false
   trigger: udeqwi,
+- replace: 'undecreased '
+  _tags:
+  - prefix
+  - auto-prefix
+  - negate
+  _note: prefix-auto::deqwP
+  propagate_case: true
+  allow_duplicate: false
+  trigger: udeqwp,
 - replace: 'undesign '
   _tags:
   - prefix
@@ -10116,6 +10429,60 @@ matches:
   propagate_case: true
   allow_duplicate: false
   trigger: udesgp,
+- replace: 'undesire '
+  _tags:
+  - prefix
+  - auto-prefix
+  - negate
+  _note: prefix-auto::desiw
+  propagate_case: true
+  allow_duplicate: false
+  trigger: udesiw,
+- replace: 'undesirable '
+  _tags:
+  - prefix
+  - auto-prefix
+  - negate
+  _note: prefix-auto::desiwB
+  propagate_case: true
+  allow_duplicate: false
+  trigger: udesiwb,
+- replace: 'undesirably '
+  _tags:
+  - prefix
+  - auto-prefix
+  - negate
+  _note: prefix-auto::desiwBL
+  propagate_case: true
+  allow_duplicate: false
+  trigger: udesiwbl,
+- replace: 'undesirability '
+  _tags:
+  - prefix
+  - auto-prefix
+  - negate
+  _note: prefix-auto::desiwBY
+  propagate_case: true
+  allow_duplicate: false
+  trigger: udesiwby,
+- replace: 'undesiring '
+  _tags:
+  - prefix
+  - auto-prefix
+  - negate
+  _note: prefix-auto::desiwI
+  propagate_case: true
+  allow_duplicate: false
+  trigger: udesiwi,
+- replace: 'undesired '
+  _tags:
+  - prefix
+  - auto-prefix
+  - negate
+  _note: prefix-auto::desiwP
+  propagate_case: true
+  allow_duplicate: false
+  trigger: udesiwp,
 - replace: 'undecisive '
   _tags:
   - prefix
@@ -10971,6 +11338,15 @@ matches:
   propagate_case: true
   allow_duplicate: false
   trigger: uensp,
+- replace: 'unescaped '
+  _tags:
+  - prefix
+  - auto-prefix
+  - negate
+  _note: prefix-auto::esqP
+  propagate_case: true
+  allow_duplicate: false
+  trigger: uesqp,
 - replace: 'unestimable '
   _tags:
   - prefix
@@ -11322,6 +11698,24 @@ matches:
   propagate_case: true
   allow_duplicate: false
   trigger: uexpop,
+- replace: 'unexploratory '
+  _tags:
+  - prefix
+  - auto-prefix
+  - negate
+  _note: prefix-auto::expRJ
+  propagate_case: true
+  allow_duplicate: false
+  trigger: uexprj,
+- replace: 'unexplored '
+  _tags:
+  - prefix
+  - auto-prefix
+  - negate
+  _note: prefix-auto::expRP
+  propagate_case: true
+  allow_duplicate: false
+  trigger: uexprp,
 - replace: 'unexcludable '
   _tags:
   - prefix
@@ -11520,6 +11914,42 @@ matches:
   propagate_case: true
   allow_duplicate: false
   trigger: ufaip,
+- replace: 'unfallen '
+  _tags:
+  - prefix
+  - auto-prefix
+  - negate
+  _note: prefix-auto::falD
+  propagate_case: true
+  allow_duplicate: false
+  trigger: ufald,
+- replace: 'unfalling '
+  _tags:
+  - prefix
+  - auto-prefix
+  - negate
+  _note: prefix-auto::falI
+  propagate_case: true
+  allow_duplicate: false
+  trigger: ufali,
+- replace: 'unfarming '
+  _tags:
+  - prefix
+  - auto-prefix
+  - negate
+  _note: prefix-auto::fawI
+  propagate_case: true
+  allow_duplicate: false
+  trigger: ufawi,
+- replace: 'unfarmed '
+  _tags:
+  - prefix
+  - auto-prefix
+  - negate
+  _note: prefix-auto::fawP
+  propagate_case: true
+  allow_duplicate: false
+  trigger: ufawp,
 - replace: 'undeclare '
   _tags:
   - prefix
@@ -11849,19 +12279,10 @@ matches:
   - prefix
   - auto-prefix
   - negate
-  _note: prefix-auto::fowmP
+  _note: prefix-auto::fowmaP
   propagate_case: true
   allow_duplicate: false
-  trigger: ufowmp,
-- replace: 'unformatted '
-  _tags:
-  - prefix
-  - auto-prefix
-  - negate
-  _note: prefix-auto::frmP
-  propagate_case: true
-  allow_duplicate: false
-  trigger: ufrmp,
+  trigger: ufowmap,
 - replace: 'unfull '
   _tags:
   - prefix
@@ -12173,6 +12594,15 @@ matches:
   - prefix
   - auto-prefix
   - negate
+  _note: prefix-auto::guiDP
+  propagate_case: true
+  allow_duplicate: false
+  trigger: uguidp,
+- replace: 'unguided '
+  _tags:
+  - prefix
+  - auto-prefix
+  - negate
   _note: prefix-auto::guiPP
   propagate_case: true
   allow_duplicate: false
@@ -12303,6 +12733,15 @@ matches:
   propagate_case: true
   allow_duplicate: false
   trigger: uhaii,
+- replace: 'unhandled '
+  _tags:
+  - prefix
+  - auto-prefix
+  - negate
+  _note: prefix-auto::hanDP
+  propagate_case: true
+  allow_duplicate: false
+  trigger: uhandp,
 - replace: 'unhandled '
   _tags:
   - prefix
@@ -12780,6 +13219,15 @@ matches:
   propagate_case: true
   allow_duplicate: false
   trigger: uimprinvi,
+- replace: 'uninserted '
+  _tags:
+  - prefix
+  - auto-prefix
+  - negate
+  _note: prefix-auto::inSP
+  propagate_case: true
+  allow_duplicate: false
+  trigger: uinsp,
 - replace: 'unindividual '
   _tags:
   - prefix
@@ -13023,15 +13471,6 @@ matches:
   propagate_case: true
   allow_duplicate: false
   trigger: uins9j,
-- replace: 'uninserted '
-  _tags:
-  - prefix
-  - auto-prefix
-  - negate
-  _note: prefix-auto::insK
-  propagate_case: true
-  allow_duplicate: false
-  trigger: uinsk,
 - replace: 'uninstalled '
   _tags:
   - prefix
@@ -13041,15 +13480,6 @@ matches:
   propagate_case: true
   allow_duplicate: false
   trigger: uinslp,
-- replace: 'uninspected '
-  _tags:
-  - prefix
-  - auto-prefix
-  - negate
-  _note: prefix-auto::insPP
-  propagate_case: true
-  allow_duplicate: false
-  trigger: uinspp,
 - replace: 'uninstructing '
   _tags:
   - prefix
@@ -13068,6 +13498,15 @@ matches:
   propagate_case: true
   allow_duplicate: false
   trigger: uinstp,
+- replace: 'uninspected '
+  _tags:
+  - prefix
+  - auto-prefix
+  - negate
+  _note: prefix-auto::inspeP
+  propagate_case: true
+  allow_duplicate: false
+  trigger: uinspep,
 - replace: 'uninstanced '
   _tags:
   - prefix
@@ -13131,6 +13570,15 @@ matches:
   propagate_case: true
   allow_duplicate: false
   trigger: uintep,
+- replace: 'unintentionality '
+  _tags:
+  - prefix
+  - auto-prefix
+  - negate
+  _note: prefix-auto::intemlY
+  propagate_case: true
+  allow_duplicate: false
+  trigger: uintemly,
 - replace: 'uninterruption '
   _tags:
   - prefix
@@ -13806,6 +14254,15 @@ matches:
   propagate_case: true
   allow_duplicate: false
   trigger: ulis,
+- replace: 'unlives '
+  _tags:
+  - prefix
+  - auto-prefix
+  - negate
+  _note: prefix-auto::lifS
+  propagate_case: true
+  allow_duplicate: false
+  trigger: ulifs,
 - replace: 'unlevel '
   _tags:
   - prefix
@@ -14009,10 +14466,10 @@ matches:
   - prefix
   - auto-prefix
   - negate
-  _note: prefix-auto::lopE
+  _note: prefix-auto::lopP
   propagate_case: true
   allow_duplicate: false
-  trigger: ulope,
+  trigger: ulopp,
 - replace: 'unlocated '
   _tags:
   - prefix
@@ -14423,10 +14880,10 @@ matches:
   - prefix
   - auto-prefix
   - negate
-  _note: prefix-auto::najE
+  _note: prefix-auto::najP
   propagate_case: true
   allow_duplicate: false
-  trigger: unaje,
+  trigger: unajp,
 - replace: 'unnatural '
   _tags:
   - prefix
@@ -14594,28 +15051,28 @@ matches:
   - prefix
   - auto-prefix
   - negate
-  _note: prefix-auto::nuM
+  _note: prefix-auto::nub
   propagate_case: true
   allow_duplicate: false
-  trigger: unum,
+  trigger: unub,
 - replace: 'unnumerical '
   _tags:
   - prefix
   - auto-prefix
   - negate
-  _note: prefix-auto::nuML
+  _note: prefix-auto::nubL
   propagate_case: true
   allow_duplicate: false
-  trigger: unuml,
+  trigger: unubl,
 - replace: 'unnumbered '
   _tags:
   - prefix
   - auto-prefix
   - negate
-  _note: prefix-auto::nuMP
+  _note: prefix-auto::nubP
   propagate_case: true
   allow_duplicate: false
-  trigger: unump,
+  trigger: unubp,
 - replace: 'unflowing '
   _tags:
   - prefix
@@ -14976,6 +15433,33 @@ matches:
   propagate_case: true
   allow_duplicate: false
   trigger: upakw,
+- replace: 'unpass '
+  _tags:
+  - prefix
+  - auto-prefix
+  - negate
+  _note: prefix-auto::pas
+  propagate_case: true
+  allow_duplicate: false
+  trigger: upas,
+- replace: 'unpassing '
+  _tags:
+  - prefix
+  - auto-prefix
+  - negate
+  _note: prefix-auto::pasI
+  propagate_case: true
+  allow_duplicate: false
+  trigger: upasi,
+- replace: 'unpassed '
+  _tags:
+  - prefix
+  - auto-prefix
+  - negate
+  _note: prefix-auto::pasP
+  propagate_case: true
+  allow_duplicate: false
+  trigger: upasp,
 - replace: 'unpatched '
   _tags:
   - prefix
@@ -15170,10 +15654,10 @@ matches:
   - prefix
   - auto-prefix
   - negate
-  _note: prefix-auto::philo
+  _note: prefix-auto::phio
   propagate_case: true
   allow_duplicate: false
-  trigger: uphilo,
+  trigger: uphio,
 - replace: 'unphrased '
   _tags:
   - prefix
@@ -15327,33 +15811,6 @@ matches:
   propagate_case: true
   allow_duplicate: false
   trigger: uplanp,
-- replace: 'unplan '
-  _tags:
-  - prefix
-  - auto-prefix
-  - negate
-  _note: prefix-auto::pln
-  propagate_case: true
-  allow_duplicate: false
-  trigger: upln,
-- replace: 'unplanning '
-  _tags:
-  - prefix
-  - auto-prefix
-  - negate
-  _note: prefix-auto::plnI
-  propagate_case: true
-  allow_duplicate: false
-  trigger: uplni,
-- replace: 'unplanned '
-  _tags:
-  - prefix
-  - auto-prefix
-  - negate
-  _note: prefix-auto::plnP
-  propagate_case: true
-  allow_duplicate: false
-  trigger: uplnp,
 - replace: 'unpenalized '
   _tags:
   - prefix
@@ -15948,6 +16405,15 @@ matches:
   propagate_case: true
   allow_duplicate: false
   trigger: upwjip,
+- replace: 'unpreviewed '
+  _tags:
+  - prefix
+  - auto-prefix
+  - negate
+  _note: prefix-auto::pwjieP
+  propagate_case: true
+  allow_duplicate: false
+  trigger: upwjiep,
 - replace: 'unprofessional '
   _tags:
   - prefix
@@ -16695,6 +17161,24 @@ matches:
   propagate_case: true
   allow_duplicate: false
   trigger: uqmplip,
+- replace: 'uncompact '
+  _tags:
+  - prefix
+  - auto-prefix
+  - negate
+  _note: prefix-auto::qmpt
+  propagate_case: true
+  allow_duplicate: false
+  trigger: uqmpt,
+- replace: 'uncompacted '
+  _tags:
+  - prefix
+  - auto-prefix
+  - negate
+  _note: prefix-auto::qmptP
+  propagate_case: true
+  allow_duplicate: false
+  trigger: uqmptp,
 - replace: 'uncomparable '
   _tags:
   - prefix
@@ -18243,6 +18727,15 @@ matches:
   propagate_case: true
   allow_duplicate: false
   trigger: ushwp,
+- replace: 'unsister '
+  _tags:
+  - prefix
+  - auto-prefix
+  - negate
+  _note: prefix-auto::si`
+  propagate_case: true
+  allow_duplicate: false
+  trigger: usi`
 - replace: 'unsignable '
   _tags:
   - prefix
@@ -18972,6 +19465,51 @@ matches:
   propagate_case: true
   allow_duplicate: false
   trigger: usubp,
+- replace: 'unsubject '
+  _tags:
+  - prefix
+  - auto-prefix
+  - negate
+  _note: prefix-auto::subj
+  propagate_case: true
+  allow_duplicate: false
+  trigger: usubj,
+- replace: 'unsubjection '
+  _tags:
+  - prefix
+  - auto-prefix
+  - negate
+  _note: prefix-auto::subjM
+  propagate_case: true
+  allow_duplicate: false
+  trigger: usubjm,
+- replace: 'unsubjected '
+  _tags:
+  - prefix
+  - auto-prefix
+  - negate
+  _note: prefix-auto::subjP
+  propagate_case: true
+  allow_duplicate: false
+  trigger: usubjp,
+- replace: 'unsubjective '
+  _tags:
+  - prefix
+  - auto-prefix
+  - negate
+  _note: prefix-auto::subjV
+  propagate_case: true
+  allow_duplicate: false
+  trigger: usubjv,
+- replace: 'unsubjectively '
+  _tags:
+  - prefix
+  - auto-prefix
+  - negate
+  _note: prefix-auto::subjVL
+  propagate_case: true
+  allow_duplicate: false
+  trigger: usubjvl,
 - replace: 'unsufficient '
   _tags:
   - prefix
@@ -19854,6 +20392,15 @@ matches:
   propagate_case: true
   allow_duplicate: false
   trigger: uw8p,
+- replace: 'unworded '
+  _tags:
+  - prefix
+  - auto-prefix
+  - negate
+  _note: prefix-auto::wDP
+  propagate_case: true
+  allow_duplicate: false
+  trigger: uwdp,
 - replace: 'unwork '
   _tags:
   - prefix
@@ -20520,6 +21067,69 @@ matches:
   propagate_case: true
   allow_duplicate: false
   trigger: uwesil,
+- replace: 'unresistible '
+  _tags:
+  - prefix
+  - auto-prefix
+  - negate
+  _note: prefix-auto::wesisB
+  propagate_case: true
+  allow_duplicate: false
+  trigger: uwesisb,
+- replace: 'unresistibly '
+  _tags:
+  - prefix
+  - auto-prefix
+  - negate
+  _note: prefix-auto::wesisBL
+  propagate_case: true
+  allow_duplicate: false
+  trigger: uwesisbl,
+- replace: 'unresisting '
+  _tags:
+  - prefix
+  - auto-prefix
+  - negate
+  _note: prefix-auto::wesisI
+  propagate_case: true
+  allow_duplicate: false
+  trigger: uwesisi,
+- replace: 'unresistant '
+  _tags:
+  - prefix
+  - auto-prefix
+  - negate
+  _note: prefix-auto::wesisJ
+  propagate_case: true
+  allow_duplicate: false
+  trigger: uwesisj,
+- replace: 'unresistantly '
+  _tags:
+  - prefix
+  - auto-prefix
+  - negate
+  _note: prefix-auto::wesisJL
+  propagate_case: true
+  allow_duplicate: false
+  trigger: uwesisjl,
+- replace: 'unresistance '
+  _tags:
+  - prefix
+  - auto-prefix
+  - negate
+  _note: prefix-auto::wesisM
+  propagate_case: true
+  allow_duplicate: false
+  trigger: uwesism,
+- replace: 'unresisted '
+  _tags:
+  - prefix
+  - auto-prefix
+  - negate
+  _note: prefix-auto::wesisP
+  propagate_case: true
+  allow_duplicate: false
+  trigger: uwesisp,
 - replace: 'unresponsible '
   _tags:
   - prefix
@@ -21312,6 +21922,51 @@ matches:
   propagate_case: true
   allow_duplicate: false
   trigger: wadjuw,
+- replace: 'readopt '
+  _tags:
+  - prefix
+  - auto-prefix
+  - re-prefix
+  _note: prefix-auto::adop
+  propagate_case: true
+  allow_duplicate: false
+  trigger: wadop,
+- replace: 'readopting '
+  _tags:
+  - prefix
+  - auto-prefix
+  - re-prefix
+  _note: prefix-auto::adopI
+  propagate_case: true
+  allow_duplicate: false
+  trigger: wadopi,
+- replace: 'readoption '
+  _tags:
+  - prefix
+  - auto-prefix
+  - re-prefix
+  _note: prefix-auto::adopM
+  propagate_case: true
+  allow_duplicate: false
+  trigger: wadopm,
+- replace: 'readopted '
+  _tags:
+  - prefix
+  - auto-prefix
+  - re-prefix
+  _note: prefix-auto::adopP
+  propagate_case: true
+  allow_duplicate: false
+  trigger: wadopp,
+- replace: 'readopts '
+  _tags:
+  - prefix
+  - auto-prefix
+  - re-prefix
+  _note: prefix-auto::adopS
+  propagate_case: true
+  allow_duplicate: false
+  trigger: wadops,
 - replace: 'reaffect '
   _tags:
   - prefix
@@ -22127,10 +22782,37 @@ matches:
   - prefix
   - auto-prefix
   - re-prefix
+  _note: prefix-auto::awg
+  propagate_case: true
+  allow_duplicate: false
+  trigger: wawg,
+- replace: 'reargument '
+  _tags:
+  - prefix
+  - auto-prefix
+  - re-prefix
   _note: prefix-auto::awgG
   propagate_case: true
   allow_duplicate: false
   trigger: wawgg,
+- replace: 'rearguing '
+  _tags:
+  - prefix
+  - auto-prefix
+  - re-prefix
+  _note: prefix-auto::awgI
+  propagate_case: true
+  allow_duplicate: false
+  trigger: wawgi,
+- replace: 'reargued '
+  _tags:
+  - prefix
+  - auto-prefix
+  - re-prefix
+  _note: prefix-auto::awgP
+  propagate_case: true
+  allow_duplicate: false
+  trigger: wawgp,
 - replace: 'reback '
   _tags:
   - prefix
@@ -22401,24 +23083,14 @@ matches:
   propagate_case: true
   allow_duplicate: false
   trigger: wcyc,
-- replace: 'recycle '
+- replace: 'recyclable '
   _tags:
-  - prefix
-  - auto-prefix
-  - re-prefix
-  _note: prefix-auto::cycE
+  - nlp-morphology
+  - adjective
+  _note: MorphyNet derivational edge::recycle->recyclable (able); nlp_morphology.md
   propagate_case: true
   allow_duplicate: false
-  trigger: wcyce,
-- replace: 'recycled '
-  _tags:
-  - prefix
-  - auto-prefix
-  - re-prefix
-  _note: prefix-auto::cycEP
-  propagate_case: true
-  allow_duplicate: false
-  trigger: wcycep,
+  trigger: wcycb,
 - replace: 'recycling '
   _tags:
   - prefix
@@ -22437,6 +23109,24 @@ matches:
   propagate_case: true
   allow_duplicate: false
   trigger: wcycms,
+- replace: 'recycled '
+  _tags:
+  - prefix
+  - auto-prefix
+  - re-prefix
+  _note: prefix-auto::cycP
+  propagate_case: true
+  allow_duplicate: false
+  trigger: wcycp,
+- replace: 'recycles '
+  _tags:
+  - prefix
+  - auto-prefix
+  - re-prefix
+  _note: prefix-auto::cycS
+  propagate_case: true
+  allow_duplicate: false
+  trigger: wcycs,
 - replace: 'redate '
   _tags:
   - prefix
@@ -22959,6 +23649,15 @@ matches:
   propagate_case: true
   allow_duplicate: false
   trigger: wdesgs,
+- replace: 'redesire '
+  _tags:
+  - prefix
+  - auto-prefix
+  - re-prefix
+  _note: prefix-auto::desiw
+  propagate_case: true
+  allow_duplicate: false
+  trigger: wdesiw,
 - replace: 'redecision '
   _tags:
   - prefix
@@ -23837,19 +24536,37 @@ matches:
   - prefix
   - auto-prefix
   - re-prefix
-  _note: prefix-auto::explinv
+  _note: prefix-auto::expR
   propagate_case: true
   allow_duplicate: false
-  trigger: wexplinv,
+  trigger: wexpr,
 - replace: 'reexploring '
   _tags:
   - prefix
   - auto-prefix
   - re-prefix
-  _note: prefix-auto::explinvI
+  _note: prefix-auto::expRI
   propagate_case: true
   allow_duplicate: false
-  trigger: wexplinvi,
+  trigger: wexpri,
+- replace: 'reexploration '
+  _tags:
+  - prefix
+  - auto-prefix
+  - re-prefix
+  _note: prefix-auto::expRM
+  propagate_case: true
+  allow_duplicate: false
+  trigger: wexprm,
+- replace: 'reexplored '
+  _tags:
+  - prefix
+  - auto-prefix
+  - re-prefix
+  _note: prefix-auto::expRP
+  propagate_case: true
+  allow_duplicate: false
+  trigger: wexprp,
 - replace: 'retrade '
   _tags:
   - prefix
@@ -23886,6 +24603,51 @@ matches:
   propagate_case: true
   allow_duplicate: false
   trigger: wfm,
+- replace: 'refall '
+  _tags:
+  - prefix
+  - auto-prefix
+  - re-prefix
+  _note: prefix-auto::fal
+  propagate_case: true
+  allow_duplicate: false
+  trigger: wfal,
+- replace: 'refallen '
+  _tags:
+  - prefix
+  - auto-prefix
+  - re-prefix
+  _note: prefix-auto::falD
+  propagate_case: true
+  allow_duplicate: false
+  trigger: wfald,
+- replace: 'refalling '
+  _tags:
+  - prefix
+  - auto-prefix
+  - re-prefix
+  _note: prefix-auto::falI
+  propagate_case: true
+  allow_duplicate: false
+  trigger: wfali,
+- replace: 'refell '
+  _tags:
+  - prefix
+  - auto-prefix
+  - re-prefix
+  _note: prefix-auto::falP
+  propagate_case: true
+  allow_duplicate: false
+  trigger: wfalp,
+- replace: 'refalls '
+  _tags:
+  - prefix
+  - auto-prefix
+  - re-prefix
+  _note: prefix-auto::falS
+  propagate_case: true
+  allow_duplicate: false
+  trigger: wfals,
 - replace: 'redeclare '
   _tags:
   - prefix
@@ -24255,15 +25017,6 @@ matches:
   propagate_case: true
   allow_duplicate: false
   trigger: wfowd`
-- replace: 'reformatting '
-  _tags:
-  - prefix
-  - auto-prefix
-  - re-prefix
-  _note: prefix-auto::fowmI
-  propagate_case: true
-  allow_duplicate: false
-  trigger: wfowmi,
 - replace: 'reformulate '
   _tags:
   - prefix
@@ -24300,60 +25053,42 @@ matches:
   propagate_case: true
   allow_duplicate: false
   trigger: wfowmlp,
-- replace: 'reformatted '
-  _tags:
-  - prefix
-  - auto-prefix
-  - re-prefix
-  _note: prefix-auto::fowmP
-  propagate_case: true
-  allow_duplicate: false
-  trigger: wfowmp,
-- replace: 'reformats '
-  _tags:
-  - prefix
-  - auto-prefix
-  - re-prefix
-  _note: prefix-auto::fowmS
-  propagate_case: true
-  allow_duplicate: false
-  trigger: wfowms,
 - replace: 'reformat '
   _tags:
   - prefix
   - auto-prefix
   - re-prefix
-  _note: prefix-auto::frm
+  _note: prefix-auto::fowma
   propagate_case: true
   allow_duplicate: false
-  trigger: wfrm,
+  trigger: wfowma,
 - replace: 'reformatting '
   _tags:
   - prefix
   - auto-prefix
   - re-prefix
-  _note: prefix-auto::frmI
+  _note: prefix-auto::fowmaI
   propagate_case: true
   allow_duplicate: false
-  trigger: wfrmi,
+  trigger: wfowmai,
 - replace: 'reformatted '
   _tags:
   - prefix
   - auto-prefix
   - re-prefix
-  _note: prefix-auto::frmP
+  _note: prefix-auto::fowmaP
   propagate_case: true
   allow_duplicate: false
-  trigger: wfrmp,
+  trigger: wfowmap,
 - replace: 'reformats '
   _tags:
   - prefix
   - auto-prefix
   - re-prefix
-  _note: prefix-auto::frmS
+  _note: prefix-auto::fowmaS
   propagate_case: true
   allow_duplicate: false
-  trigger: wfrms,
+  trigger: wfowmas,
 - replace: 'refund '
   _tags:
   - prefix
@@ -24575,6 +25310,15 @@ matches:
   - prefix
   - auto-prefix
   - re-prefix
+  _note: prefix-auto::guiDP
+  propagate_case: true
+  allow_duplicate: false
+  trigger: wguidp,
+- replace: 'reguided '
+  _tags:
+  - prefix
+  - auto-prefix
+  - re-prefix
   _note: prefix-auto::guiPP
   propagate_case: true
   allow_duplicate: false
@@ -24723,6 +25467,15 @@ matches:
   propagate_case: true
   allow_duplicate: false
   trigger: whandi,
+- replace: 'rehandled '
+  _tags:
+  - prefix
+  - auto-prefix
+  - re-prefix
+  _note: prefix-auto::hanDP
+  propagate_case: true
+  allow_duplicate: false
+  trigger: whandp,
 - replace: 'rehandles '
   _tags:
   - prefix
@@ -25065,6 +25818,15 @@ matches:
   propagate_case: true
   allow_duplicate: false
   trigger: winsi,
+- replace: 'reinserted '
+  _tags:
+  - prefix
+  - auto-prefix
+  - re-prefix
+  _note: prefix-auto::inSP
+  propagate_case: true
+  allow_duplicate: false
+  trigger: winsp,
 - replace: 'reinfer '
   _tags:
   - prefix
@@ -25362,15 +26124,6 @@ matches:
   propagate_case: true
   allow_duplicate: false
   trigger: winqwp,
-- replace: 'reinserted '
-  _tags:
-  - prefix
-  - auto-prefix
-  - re-prefix
-  _note: prefix-auto::insK
-  propagate_case: true
-  allow_duplicate: false
-  trigger: winsk,
 - replace: 'reinstall '
   _tags:
   - prefix
@@ -25416,51 +26169,6 @@ matches:
   propagate_case: true
   allow_duplicate: false
   trigger: winsls,
-- replace: 'reinspect '
-  _tags:
-  - prefix
-  - auto-prefix
-  - re-prefix
-  _note: prefix-auto::insP
-  propagate_case: true
-  allow_duplicate: false
-  trigger: winsp,
-- replace: 'reinspecting '
-  _tags:
-  - prefix
-  - auto-prefix
-  - re-prefix
-  _note: prefix-auto::insPI
-  propagate_case: true
-  allow_duplicate: false
-  trigger: winspi,
-- replace: 'reinspection '
-  _tags:
-  - prefix
-  - auto-prefix
-  - re-prefix
-  _note: prefix-auto::insPM
-  propagate_case: true
-  allow_duplicate: false
-  trigger: winspm,
-- replace: 'reinspected '
-  _tags:
-  - prefix
-  - auto-prefix
-  - re-prefix
-  _note: prefix-auto::insPP
-  propagate_case: true
-  allow_duplicate: false
-  trigger: winspp,
-- replace: 'reinspector '
-  _tags:
-  - prefix
-  - auto-prefix
-  - re-prefix
-  _note: prefix-auto::insPw
-  propagate_case: true
-  allow_duplicate: false
-  trigger: winspw,
 - replace: 'reinserts '
   _tags:
   - prefix
@@ -25506,6 +26214,51 @@ matches:
   propagate_case: true
   allow_duplicate: false
   trigger: winstp,
+- replace: 'reinspect '
+  _tags:
+  - prefix
+  - auto-prefix
+  - re-prefix
+  _note: prefix-auto::inspe
+  propagate_case: true
+  allow_duplicate: false
+  trigger: winspe,
+- replace: 'reinspecting '
+  _tags:
+  - prefix
+  - auto-prefix
+  - re-prefix
+  _note: prefix-auto::inspeI
+  propagate_case: true
+  allow_duplicate: false
+  trigger: winspei,
+- replace: 'reinspection '
+  _tags:
+  - prefix
+  - auto-prefix
+  - re-prefix
+  _note: prefix-auto::inspeM
+  propagate_case: true
+  allow_duplicate: false
+  trigger: winspem,
+- replace: 'reinspected '
+  _tags:
+  - prefix
+  - auto-prefix
+  - re-prefix
+  _note: prefix-auto::inspeP
+  propagate_case: true
+  allow_duplicate: false
+  trigger: winspep,
+- replace: 'reinspector '
+  _tags:
+  - prefix
+  - auto-prefix
+  - re-prefix
+  _note: prefix-auto::inspew
+  propagate_case: true
+  allow_duplicate: false
+  trigger: winspew,
 - replace: 'reinstall '
   _tags:
   - prefix
@@ -26424,6 +27177,15 @@ matches:
   propagate_case: true
   allow_duplicate: false
   trigger: wlip,
+- replace: 'relives '
+  _tags:
+  - prefix
+  - auto-prefix
+  - re-prefix
+  _note: prefix-auto::lifS
+  propagate_case: true
+  allow_duplicate: false
+  trigger: wlifs,
 - replace: 'relevel '
   _tags:
   - prefix
@@ -27180,15 +27942,6 @@ matches:
   propagate_case: true
   allow_duplicate: false
   trigger: wnaj,
-- replace: 'renavigated '
-  _tags:
-  - prefix
-  - auto-prefix
-  - re-prefix
-  _note: prefix-auto::najE
-  propagate_case: true
-  allow_duplicate: false
-  trigger: wnaje,
 - replace: 'renavigating '
   _tags:
   - prefix
@@ -27207,6 +27960,15 @@ matches:
   propagate_case: true
   allow_duplicate: false
   trigger: wnajm,
+- replace: 'renavigated '
+  _tags:
+  - prefix
+  - auto-prefix
+  - re-prefix
+  _note: prefix-auto::najP
+  propagate_case: true
+  allow_duplicate: false
+  trigger: wnajp,
 - replace: 'renegate '
   _tags:
   - prefix
@@ -27311,37 +28073,37 @@ matches:
   - prefix
   - auto-prefix
   - re-prefix
-  _note: prefix-auto::nuM
+  _note: prefix-auto::nub
   propagate_case: true
   allow_duplicate: false
-  trigger: wnum,
+  trigger: wnub,
 - replace: 'renumbering '
   _tags:
   - prefix
   - auto-prefix
   - re-prefix
-  _note: prefix-auto::nuMI
+  _note: prefix-auto::nubI
   propagate_case: true
   allow_duplicate: false
-  trigger: wnumi,
+  trigger: wnubi,
 - replace: 'renumbered '
   _tags:
   - prefix
   - auto-prefix
   - re-prefix
-  _note: prefix-auto::nuMP
+  _note: prefix-auto::nubP
   propagate_case: true
   allow_duplicate: false
-  trigger: wnump,
+  trigger: wnubp,
 - replace: 'renumbers '
   _tags:
   - prefix
   - auto-prefix
   - re-prefix
-  _note: prefix-auto::nuMS
+  _note: prefix-auto::nubS
   propagate_case: true
   allow_duplicate: false
-  trigger: wnums,
+  trigger: wnubs,
 - replace: 'reflowing '
   _tags:
   - prefix
@@ -27774,6 +28536,14 @@ matches:
   propagate_case: true
   allow_duplicate: false
   trigger: wpai,
+- replace: 'disrepair '
+  _tags:
+  - nlp-morphology
+  - prefix
+  _note: MorphyNet derivational edge::repair->disrepair (dis); nlp_morphology.md
+  propagate_case: true
+  allow_duplicate: false
+  trigger: dwpai,
 - replace: 'repairing '
   _tags:
   - prefix
@@ -27864,6 +28634,42 @@ matches:
   propagate_case: true
   allow_duplicate: false
   trigger: wpakw,
+- replace: 'repass '
+  _tags:
+  - prefix
+  - auto-prefix
+  - re-prefix
+  _note: prefix-auto::pas
+  propagate_case: true
+  allow_duplicate: false
+  trigger: wpas,
+- replace: 'repassing '
+  _tags:
+  - prefix
+  - auto-prefix
+  - re-prefix
+  _note: prefix-auto::pasI
+  propagate_case: true
+  allow_duplicate: false
+  trigger: wpasi,
+- replace: 'repassed '
+  _tags:
+  - prefix
+  - auto-prefix
+  - re-prefix
+  _note: prefix-auto::pasP
+  propagate_case: true
+  allow_duplicate: false
+  trigger: wpasp,
+- replace: 'repasses '
+  _tags:
+  - prefix
+  - auto-prefix
+  - re-prefix
+  _note: prefix-auto::pasS
+  propagate_case: true
+  allow_duplicate: false
+  trigger: wpass,
 - replace: 'repatch '
   _tags:
   - prefix
@@ -28053,6 +28859,15 @@ matches:
   propagate_case: true
   allow_duplicate: false
   trigger: wpkii,
+- replace: 'replan '
+  _tags:
+  - prefix
+  - auto-prefix
+  - re-prefix
+  _note: prefix-auto::pl
+  propagate_case: true
+  allow_duplicate: false
+  trigger: wpl,
 - replace: 'replace '
   _tags:
   - prefix
@@ -28062,6 +28877,22 @@ matches:
   propagate_case: true
   allow_duplicate: false
   trigger: wpla,
+- replace: 'replaceable '
+  _tags:
+  - nlp-morphology
+  - adjective
+  _note: MorphyNet derivational edge::replace->replaceable (able); nlp_morphology.md
+  propagate_case: true
+  allow_duplicate: false
+  trigger: wplab,
+- replace: 'irreplaceable '
+  _tags:
+  - nlp-morphology
+  - prefix
+  _note: MorphyNet derivational edge::replaceable->irreplaceable (in); nlp_morphology.md
+  propagate_case: true
+  allow_duplicate: false
+  trigger: iwplab,
 - replace: 'replacing '
   _tags:
   - prefix
@@ -28112,6 +28943,33 @@ matches:
   - prefix
   - auto-prefix
   - re-prefix
+  _note: prefix-auto::plI
+  propagate_case: true
+  allow_duplicate: false
+  trigger: wpli,
+- replace: 'replanned '
+  _tags:
+  - prefix
+  - auto-prefix
+  - re-prefix
+  _note: prefix-auto::plP
+  propagate_case: true
+  allow_duplicate: false
+  trigger: wplp,
+- replace: 'replans '
+  _tags:
+  - prefix
+  - auto-prefix
+  - re-prefix
+  _note: prefix-auto::plS
+  propagate_case: true
+  allow_duplicate: false
+  trigger: wpls,
+- replace: 'replanning '
+  _tags:
+  - prefix
+  - auto-prefix
+  - re-prefix
   _note: prefix-auto::planI
   propagate_case: true
   allow_duplicate: false
@@ -28125,42 +28983,6 @@ matches:
   propagate_case: true
   allow_duplicate: false
   trigger: wplanp,
-- replace: 'replan '
-  _tags:
-  - prefix
-  - auto-prefix
-  - re-prefix
-  _note: prefix-auto::pln
-  propagate_case: true
-  allow_duplicate: false
-  trigger: wpln,
-- replace: 'replanning '
-  _tags:
-  - prefix
-  - auto-prefix
-  - re-prefix
-  _note: prefix-auto::plnI
-  propagate_case: true
-  allow_duplicate: false
-  trigger: wplni,
-- replace: 'replanned '
-  _tags:
-  - prefix
-  - auto-prefix
-  - re-prefix
-  _note: prefix-auto::plnP
-  propagate_case: true
-  allow_duplicate: false
-  trigger: wplnp,
-- replace: 'replans '
-  _tags:
-  - prefix
-  - auto-prefix
-  - re-prefix
-  _note: prefix-auto::plnS
-  propagate_case: true
-  allow_duplicate: false
-  trigger: wplns,
 - replace: 'repenalize '
   _tags:
   - prefix
@@ -29412,6 +30234,15 @@ matches:
   propagate_case: true
   allow_duplicate: false
   trigger: wqmplim,
+- replace: 'recompact '
+  _tags:
+  - prefix
+  - auto-prefix
+  - re-prefix
+  _note: prefix-auto::qmpt
+  propagate_case: true
+  allow_duplicate: false
+  trigger: wqmpt,
 - replace: 'recompare '
   _tags:
   - prefix
@@ -29871,6 +30702,24 @@ matches:
   propagate_case: true
   allow_duplicate: false
   trigger: wqnsos,
+- replace: 'recount '
+  _tags:
+  - prefix
+  - auto-prefix
+  - re-prefix
+  _note: prefix-auto::qnt
+  propagate_case: true
+  allow_duplicate: false
+  trigger: wqnt,
+- replace: 'recounts '
+  _tags:
+  - prefix
+  - auto-prefix
+  - re-prefix
+  _note: prefix-auto::qntS
+  propagate_case: true
+  allow_duplicate: false
+  trigger: wqnts,
 - replace: 'recontract '
   _tags:
   - prefix
@@ -30933,6 +31782,15 @@ matches:
   propagate_case: true
   allow_duplicate: false
   trigger: wshws,
+- replace: 'resister '
+  _tags:
+  - prefix
+  - auto-prefix
+  - re-prefix
+  _note: prefix-auto::si`
+  propagate_case: true
+  allow_duplicate: false
+  trigger: wsi`
 - replace: 'resign '
   _tags:
   - prefix
@@ -31554,6 +32412,24 @@ matches:
   propagate_case: true
   allow_duplicate: false
   trigger: wsubs,
+- replace: 'resubject '
+  _tags:
+  - prefix
+  - auto-prefix
+  - re-prefix
+  _note: prefix-auto::subj
+  propagate_case: true
+  allow_duplicate: false
+  trigger: wsubj,
+- replace: 'resubjection '
+  _tags:
+  - prefix
+  - auto-prefix
+  - re-prefix
+  _note: prefix-auto::subjM
+  propagate_case: true
+  allow_duplicate: false
+  trigger: wsubjm,
 - replace: 'resubscriber '
   _tags:
   - prefix
@@ -32229,6 +33105,14 @@ matches:
   propagate_case: true
   allow_duplicate: false
   trigger: wuse,
+- replace: 'reusable '
+  _tags:
+  - nlp-morphology
+  - adjective
+  _note: MorphyNet derivational edge::reuse->reusable (able); nlp_morphology.md
+  propagate_case: true
+  allow_duplicate: false
+  trigger: wuseb,
 - replace: 'reusing '
   _tags:
   - prefix
@@ -32328,6 +33212,15 @@ matches:
   propagate_case: true
   allow_duplicate: false
   trigger: wwdi,
+- replace: 'reworded '
+  _tags:
+  - prefix
+  - auto-prefix
+  - re-prefix
+  _note: prefix-auto::wDP
+  propagate_case: true
+  allow_duplicate: false
+  trigger: wwdp,
 - replace: 'rewords '
   _tags:
   - prefix

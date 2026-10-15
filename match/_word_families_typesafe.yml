@@ -1,0 +1,32 @@
+name: _word_families_typesafe
+matches:
+- replace: 'typesafe '
+  _tags:
+  - adjective
+  propagate_case: true
+  allow_duplicate: false
+  trigger: typs,
+- replace: 'typesafety '
+  _tags:
+  - noun
+  propagate_case: true
+  allow_duplicate: false
+  trigger: typsy,
+- replace: 'this typesafe '
+  _tags:
+  - phrase
+  propagate_case: true
+  allow_duplicate: false
+  trigger: iztyps,
+- replace: 'that typesafe '
+  _tags:
+  - phrase
+  propagate_case: true
+  allow_duplicate: false
+  trigger: aztyps,
+- replace: 'the typesafe '
+  _tags:
+  - phrase
+  propagate_case: true
+  allow_duplicate: false
+  trigger: htyps,

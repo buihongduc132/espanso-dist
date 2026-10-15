@@ -1,8 +1,8 @@
 {
   "schema_version": "1.0.0",
-  "generated_at": "2026-07-13T06:45:19.797734+00:00",
-  "trigger_count": 15420,
-  "file_count": 341,
+  "generated_at": "2026-10-15T08:53:32.432668+00:00",
+  "trigger_count": 15888,
+  "file_count": 357,
   "files": [
     {
       "file": "_1char.yml",
@@ -78,7 +78,7 @@
     },
     {
       "file": "_expanded_words.yml",
-      "count": 146
+      "count": 150
     },
     {
       "file": "_exx_backup.yml",
@@ -294,7 +294,7 @@
     },
     {
       "file": "_phrases.yml",
-      "count": 432
+      "count": 467
     },
     {
       "file": "_phrases_all_of.yml",
@@ -310,7 +310,7 @@
     },
     {
       "file": "_prefix_auto.yml",
-      "count": 3614
+      "count": 3714
     },
     {
       "file": "_prepositions.yml",
@@ -330,7 +330,7 @@
     },
     {
       "file": "_semicolon_categories.yml",
-      "count": 12
+      "count": 16
     },
     {
       "file": "_should_able.yml",
@@ -338,7 +338,7 @@
     },
     {
       "file": "_software.yml",
-      "count": 158
+      "count": 171
     },
     {
       "file": "_systematic_combinations.yml",
@@ -434,15 +434,15 @@
     },
     {
       "file": "_word_families_1.yml",
-      "count": 663
+      "count": 677
     },
     {
       "file": "_word_families_10.yml",
-      "count": 130
+      "count": 135
     },
     {
       "file": "_word_families_11.yml",
-      "count": 201
+      "count": 206
     },
     {
       "file": "_word_families_12.yml",
@@ -450,27 +450,27 @@
     },
     {
       "file": "_word_families_2.yml",
-      "count": 369
+      "count": 377
     },
     {
       "file": "_word_families_3.yml",
-      "count": 624
+      "count": 629
     },
     {
       "file": "_word_families_4.yml",
-      "count": 418
+      "count": 426
     },
     {
       "file": "_word_families_5.yml",
-      "count": 235
+      "count": 242
     },
     {
       "file": "_word_families_6.yml",
-      "count": 43
+      "count": 52
     },
     {
       "file": "_word_families_7.yml",
-      "count": 6
+      "count": 4
     },
     {
       "file": "_word_families_8.yml",
@@ -498,7 +498,11 @@
     },
     {
       "file": "_word_families_adjust.yml",
-      "count": 29
+      "count": 30
+    },
+    {
+      "file": "_word_families_adopt.yml",
+      "count": 20
     },
     {
       "file": "_word_families_against.yml",
@@ -530,7 +534,7 @@
     },
     {
       "file": "_word_families_any_another.yml",
-      "count": 46
+      "count": 47
     },
     {
       "file": "_word_families_argument.yml",
@@ -630,7 +634,7 @@
     },
     {
       "file": "_word_families_construct.yml",
-      "count": 10
+      "count": 12
     },
     {
       "file": "_word_families_continue.yml",
@@ -643,6 +647,10 @@
     {
       "file": "_word_families_contribute.yml",
       "count": 31
+    },
+    {
+      "file": "_word_families_count.yml",
+      "count": 5
     },
     {
       "file": "_word_families_couple.yml",
@@ -679,6 +687,10 @@
     {
       "file": "_word_families_describe.yml",
       "count": 28
+    },
+    {
+      "file": "_word_families_desire.yml",
+      "count": 17
     },
     {
       "file": "_word_families_diagnose.yml",
@@ -730,11 +742,19 @@
     },
     {
       "file": "_word_families_fail.yml",
-      "count": 10
+      "count": 12
+    },
+    {
+      "file": "_word_families_fall.yml",
+      "count": 16
     },
     {
       "file": "_word_families_family.yml",
       "count": 2
+    },
+    {
+      "file": "_word_families_farm.yml",
+      "count": 20
     },
     {
       "file": "_word_families_force_fork.yml",
@@ -777,12 +797,20 @@
       "count": 2
     },
     {
+      "file": "_word_families_goal.yml",
+      "count": 7
+    },
+    {
       "file": "_word_families_groom.yml",
       "count": 6
     },
     {
       "file": "_word_families_home.yml",
       "count": 17
+    },
+    {
+      "file": "_word_families_idempotent.yml",
+      "count": 6
     },
     {
       "file": "_word_families_imperative.yml",
@@ -805,8 +833,16 @@
       "count": 25
     },
     {
+      "file": "_word_families_intentional.yml",
+      "count": 11
+    },
+    {
       "file": "_word_families_intrude.yml",
       "count": 12
+    },
+    {
+      "file": "_word_families_inventory.yml",
+      "count": 28
     },
     {
       "file": "_word_families_involve.yml",
@@ -825,6 +861,14 @@
       "count": 6
     },
     {
+      "file": "_word_families_life.yml",
+      "count": 14
+    },
+    {
+      "file": "_word_families_lint.yml",
+      "count": 17
+    },
+    {
       "file": "_word_families_local.yml",
       "count": 23
     },
@@ -838,7 +882,7 @@
     },
     {
       "file": "_word_families_manage.yml",
-      "count": 37
+      "count": 38
     },
     {
       "file": "_word_families_matrix.yml",
@@ -854,7 +898,7 @@
     },
     {
       "file": "_word_families_missing.yml",
-      "count": 79
+      "count": 80
     },
     {
       "file": "_word_families_model.yml",
@@ -894,11 +938,11 @@
     },
     {
       "file": "_word_families_note.yml",
-      "count": 11
+      "count": 12
     },
     {
       "file": "_word_families_number.yml",
-      "count": 6
+      "count": 33
     },
     {
       "file": "_word_families_object.yml",
@@ -929,7 +973,19 @@
       "count": 11
     },
     {
+      "file": "_word_families_pallet.yml",
+      "count": 7
+    },
+    {
+      "file": "_word_families_pass.yml",
+      "count": 10
+    },
+    {
       "file": "_word_families_persist.yml",
+      "count": 7
+    },
+    {
+      "file": "_word_families_persona.yml",
       "count": 7
     },
     {
@@ -950,7 +1006,7 @@
     },
     {
       "file": "_word_families_practice.yml",
-      "count": 9
+      "count": 10
     },
     {
       "file": "_word_families_preassign.yml",
@@ -994,7 +1050,7 @@
     },
     {
       "file": "_word_families_present.yml",
-      "count": 6
+      "count": 7
     },
     {
       "file": "_word_families_preset.yml",
@@ -1138,7 +1194,7 @@
     },
     {
       "file": "_word_families_separate.yml",
-      "count": 12
+      "count": 17
     },
     {
       "file": "_word_families_set.yml",
@@ -1187,6 +1243,10 @@
     {
       "file": "_word_families_struggle.yml",
       "count": 6
+    },
+    {
+      "file": "_word_families_subject.yml",
+      "count": 19
     },
     {
       "file": "_word_families_surface.yml",
@@ -1241,6 +1301,10 @@
       "count": 8
     },
     {
+      "file": "_word_families_typesafe.yml",
+      "count": 5
+    },
+    {
       "file": "_word_families_upgrade.yml",
       "count": 25
     },
@@ -1250,7 +1314,7 @@
     },
     {
       "file": "_word_families_value.yml",
-      "count": 27
+      "count": 28
     },
     {
       "file": "_word_families_vector.yml",

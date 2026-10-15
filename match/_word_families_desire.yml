@@ -1,0 +1,108 @@
+name: _word_families_desire
+matches:
+- replace: 'desire '
+  _tags:
+  - verb
+  - noun
+  propagate_case: true
+  allow_duplicate: false
+  trigger: desiw,
+- replace: 'desires '
+  _tags:
+  - verb
+  - noun
+  propagate_case: true
+  allow_duplicate: false
+  trigger: desiws,
+- replace: 'desiring '
+  _tags:
+  - verb
+  - ing
+  propagate_case: true
+  allow_duplicate: false
+  trigger: desiwi,
+- replace: 'desired '
+  _tags:
+  - verb
+  - ed
+  propagate_case: true
+  allow_duplicate: false
+  trigger: desiwp,
+- replace: 'desirable '
+  _tags:
+  - adjective
+  propagate_case: true
+  allow_duplicate: false
+  trigger: desiwb,
+- replace: 'desirability '
+  _tags:
+  - noun
+  propagate_case: true
+  allow_duplicate: false
+  trigger: desiwby,
+- replace: 'desirably '
+  _tags:
+  - adverb
+  propagate_case: true
+  allow_duplicate: false
+  trigger: desiwbl,
+- replace: 'this desire '
+  _tags:
+  - phrase
+  propagate_case: true
+  allow_duplicate: false
+  trigger: izdesiw,
+- replace: 'that desire '
+  _tags:
+  - phrase
+  propagate_case: true
+  allow_duplicate: false
+  trigger: azdesiw,
+- replace: 'these desires '
+  _tags:
+  - phrase
+  propagate_case: true
+  allow_duplicate: false
+  trigger: ezdesiws,
+- replace: 'those desires '
+  _tags:
+  - phrase
+  propagate_case: true
+  allow_duplicate: false
+  trigger: ozdesiws,
+- replace: 'the desire '
+  _tags:
+  - phrase
+  propagate_case: true
+  allow_duplicate: false
+  trigger: hdesiw,
+- replace: 'then desire '
+  _tags:
+  - phrase
+  propagate_case: true
+  allow_duplicate: false
+  trigger: nzdesiw,
+- replace: 'desire to '
+  _tags:
+  - phrase
+  propagate_case: true
+  allow_duplicate: false
+  trigger: desiw2,
+- replace: 'desires to '
+  _tags:
+  - phrase
+  propagate_case: true
+  allow_duplicate: false
+  trigger: desiws2,
+- replace: 'desiring to '
+  _tags:
+  - phrase
+  propagate_case: true
+  allow_duplicate: false
+  trigger: desiwi2,
+- replace: 'desired to '
+  _tags:
+  - phrase
+  propagate_case: true
+  allow_duplicate: false
+  trigger: desiwp2,

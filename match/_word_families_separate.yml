@@ -32,6 +32,46 @@ matches:
   allow_duplicate: true
   propagate_case: true
   trigger: sepj,
+- replace: 'separable '
+  _tags:
+  - nlp-morphology
+  - adjective
+  _note: MorphyNet derivational edge::separate->separable (able); nlp_morphology.md
+  propagate_case: true
+  allow_duplicate: false
+  trigger: sepjb,
+- replace: 'inseparable '
+  _tags:
+  - nlp-morphology
+  - prefix
+  _note: MorphyNet derivational edge::separable->inseparable (in); nlp_morphology.md
+  propagate_case: true
+  allow_duplicate: false
+  trigger: isepjb,
+- replace: 'separating '
+  _tags:
+  - nlp-morphology
+  - inflection
+  _note: LemmInflect dictionary (inflect_oov=False)::separate->separating (VBG); nlp_morphology.md
+  propagate_case: true
+  allow_duplicate: false
+  trigger: sepji,
+- replace: 'separated '
+  _tags:
+  - nlp-morphology
+  - inflection
+  _note: LemmInflect dictionary (inflect_oov=False)::separate->separated (VBD); nlp_morphology.md
+  propagate_case: true
+  allow_duplicate: false
+  trigger: sepjp,
+- replace: 'separates '
+  _tags:
+  - nlp-morphology
+  - inflection
+  _note: LemmInflect dictionary (inflect_oov=False)::separate->separates (VBZ); nlp_morphology.md
+  propagate_case: true
+  allow_duplicate: false
+  trigger: sepjs,
 - replace: 'separately '
   _tags:
   - adverb

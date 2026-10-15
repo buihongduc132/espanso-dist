@@ -52,6 +52,7 @@ matches:
   allow_duplicate: false
   trigger: ozpls,
 - replace: 'what plan '
+  duplicate_group: wtpl-conflict
   allow_duplicate: true
   propagate_case: true
   trigger: wtpl,

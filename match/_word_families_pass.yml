@@ -1,0 +1,85 @@
+name: _word_families_pass
+matches:
+- replace: 'pass '
+  _tags:
+  - verb
+  - to
+  - can
+  - else
+  - pronoun
+  - rate_count_metric
+  propagate_case: true
+  allow_duplicate: false
+  trigger: pas,
+- replace: 'passable '
+  _tags:
+  - adjective
+  - able
+  - auto-b
+  propagate_case: true
+  allow_duplicate: false
+  trigger: pasb,
+- replace: 'impassable '
+  _tags:
+  - nlp-morphology
+  - prefix
+  _note: MorphyNet derivational edge::passable->impassable (im); nlp_morphology.md
+  propagate_case: true
+  allow_duplicate: false
+  trigger: ipasb,
+- replace: 'passes '
+  _tags:
+  - verb
+  - else
+  - pronoun
+  propagate_case: true
+  allow_duplicate: false
+  trigger: pass,
+- replace: 'passing '
+  _tags:
+  - ing
+  - verb
+  - can
+  - else
+  - pronoun
+  propagate_case: true
+  allow_duplicate: false
+  trigger: pasi,
+- replace: 'passed '
+  _tags:
+  - ed
+  - verb
+  - would
+  - else
+  - pronoun
+  propagate_case: true
+  allow_duplicate: false
+  trigger: pasp,
+- replace: 'fail / pass '
+  _tags:
+  - noun
+  - else
+  propagate_case: true
+  allow_duplicate: false
+  trigger: fapa,
+- replace: 'pass / fail '
+  _tags:
+  - noun
+  - else
+  propagate_case: true
+  allow_duplicate: false
+  trigger: pafa,
+- replace: 'pass rate '
+  _tags:
+  - noun
+  - rate_count_metric
+  propagate_case: true
+  allow_duplicate: false
+  trigger: paswa,
+- replace: 'pass count '
+  _tags:
+  - noun
+  - rate_count_metric
+  propagate_case: true
+  allow_duplicate: false
+  trigger: pasqo,

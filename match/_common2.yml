@@ -807,7 +807,7 @@ matches:
   - else
   propagate_case: true
   allow_duplicate: false
-  trigger: ojeww,
+  trigger: ovla,
 - replace: 'software '
   _tags:
   - will

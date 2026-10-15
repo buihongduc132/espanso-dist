@@ -35,40 +35,6 @@ matches:
   propagate_case: true
   allow_duplicate: false
   trigger: exqlp,
-- replace: 'count '
-  _tags:
-  - to
-  - can
-  propagate_case: true
-  allow_duplicate: false
-  trigger: qct,
-- replace: 'countable '
-  _tags:
-  - adjective
-  - can
-  - else
-  propagate_case: true
-  allow_duplicate: false
-  trigger: qctb,
-- replace: 'counting '
-  _tags:
-  - to
-  - can
-  - ing
-  - pronoun
-  propagate_case: true
-  allow_duplicate: false
-  trigger: qnti,
-- replace: 'counted '
-  _tags:
-  - to
-  - can
-  - ed
-  - would
-  - else
-  propagate_case: true
-  allow_duplicate: false
-  trigger: qntp,
 - replace: 'delete '
   _tags:
   - to
@@ -579,12 +545,13 @@ matches:
   propagate_case: true
   trigger: qnx,
 - replace: 'continuous '
+  duplicate_group: qnts-conflict
+  allow_duplicate: true
   _tags:
   - to
   - can
   - pronoun
   propagate_case: true
-  allow_duplicate: false
   trigger: qnts,
 - replace: 'continuously '
   _tags:
@@ -758,6 +725,22 @@ matches:
   keep_case: true
   allow_duplicate: false
   trigger: wemj,
+- replace: 'removable '
+  _tags:
+  - nlp-morphology
+  - adjective
+  _note: MorphyNet derivational edge::remove->removable (able); nlp_morphology.md
+  propagate_case: true
+  allow_duplicate: false
+  trigger: wemjb,
+- replace: 'removable '
+  _tags:
+  - nlp-morphology
+  - adjective
+  _note: MorphyNet derivational edge::remove->removable (able); nlp_morphology.md
+  propagate_case: true
+  allow_duplicate: false
+  trigger: wmb,
 - replace: 'removing '
   _tags: &id002
   - ing
@@ -907,6 +890,23 @@ matches:
   propagate_case: true
   allow_duplicate: false
   trigger: deqw,
+- replace: 'decreases '
+  _tags:
+  - can
+  - else
+  - would
+  propagate_case: true
+  allow_duplicate: false
+  trigger: deqws,
+- replace: 'decreased '
+  _tags:
+  - ed
+  - can
+  - else
+  - would
+  propagate_case: true
+  allow_duplicate: false
+  trigger: deqwp,
 - replace: 'decreasing '
   _tags:
   - pronoun
@@ -2037,6 +2037,21 @@ matches:
   propagate_case: true
   allow_duplicate: false
   trigger: esq,
+- replace: 'escapes '
+  _tags:
+  - can
+  - else
+  propagate_case: true
+  allow_duplicate: false
+  trigger: esqs,
+- replace: 'escaped '
+  _tags:
+  - ed
+  - can
+  - else
+  propagate_case: true
+  allow_duplicate: false
+  trigger: esqp,
 - replace: 'escaping '
   _tags:
   - ing
@@ -2321,6 +2336,41 @@ matches:
   propagate_case: true
   allow_duplicate: false
   trigger: wegqo,
+- replace: 'recognizable '
+  _tags:
+  - nlp-morphology
+  - adjective
+  _note: MorphyNet derivational edge::recognize->recognizable (able); nlp_morphology.md
+  propagate_case: true
+  allow_duplicate: false
+  trigger: wegqob,
+- replace: 'recognizing '
+  _tags:
+  - nlp-morphology
+  - inflection
+  _note: LemmInflect dictionary (inflect_oov=False)::recognize->recognizing (VBG);
+    nlp_morphology.md
+  propagate_case: true
+  allow_duplicate: false
+  trigger: wegqoi,
+- replace: 'recognized '
+  _tags:
+  - nlp-morphology
+  - inflection
+  _note: LemmInflect dictionary (inflect_oov=False)::recognize->recognized (VBD);
+    nlp_morphology.md
+  propagate_case: true
+  allow_duplicate: false
+  trigger: wegqop,
+- replace: 'recognizes '
+  _tags:
+  - nlp-morphology
+  - inflection
+  _note: LemmInflect dictionary (inflect_oov=False)::recognize->recognizes (VBZ);
+    nlp_morphology.md
+  propagate_case: true
+  allow_duplicate: false
+  trigger: wegqos,
 - replace: 'recognize this '
   _tags:
   - demonstrative
@@ -3152,6 +3202,14 @@ matches:
   propagate_case: true
   allow_duplicate: false
   trigger: weqj,
+- replace: 'receivable '
+  _tags:
+  - adjective
+  - able
+  - auto-b
+  propagate_case: true
+  allow_duplicate: false
+  trigger: weqjb,
 - replace: 'receiving '
   _tags:
   - ing
@@ -3331,6 +3389,22 @@ matches:
   propagate_case: true
   allow_duplicate: false
   trigger: meas,
+- replace: 'measurable '
+  _tags:
+  - adjective
+  - able
+  - auto-b
+  propagate_case: true
+  allow_duplicate: false
+  trigger: measb,
+- replace: 'immeasurable '
+  _tags:
+  - nlp-morphology
+  - prefix
+  _note: MorphyNet derivational edge::measurable->immeasurable (im); nlp_morphology.md
+  propagate_case: true
+  allow_duplicate: false
+  trigger: imeasb,
 - replace: 'measuring '
   _tags:
   - ing
@@ -3574,6 +3648,38 @@ matches:
   propagate_case: true
   allow_duplicate: false
   trigger: wepe,
+- replace: 'repeatable '
+  _tags:
+  - nlp-morphology
+  - adjective
+  _note: MorphyNet derivational edge::repeat->repeatable (able); nlp_morphology.md
+  propagate_case: true
+  allow_duplicate: false
+  trigger: wepeb,
+- replace: 'repeating '
+  _tags:
+  - nlp-morphology
+  - inflection
+  _note: LemmInflect dictionary (inflect_oov=False)::repeat->repeating (VBG); nlp_morphology.md
+  propagate_case: true
+  allow_duplicate: false
+  trigger: wepei,
+- replace: 'repeated '
+  _tags:
+  - nlp-morphology
+  - inflection
+  _note: LemmInflect dictionary (inflect_oov=False)::repeat->repeated (VBD); nlp_morphology.md
+  propagate_case: true
+  allow_duplicate: false
+  trigger: wepep,
+- replace: 'repeats '
+  _tags:
+  - nlp-morphology
+  - inflection
+  _note: LemmInflect dictionary (inflect_oov=False)::repeat->repeats (VBZ); nlp_morphology.md
+  propagate_case: true
+  allow_duplicate: false
+  trigger: wepes,
 - replace: 'repeatedly '
   _tags:
   - ed
@@ -4036,6 +4142,14 @@ matches:
   propagate_case: true
   allow_duplicate: false
   trigger: qnje,
+- replace: 'convertible '
+  _tags:
+  - adjective
+  - able
+  - auto-b
+  propagate_case: true
+  allow_duplicate: false
+  trigger: qnjeb,
 - replace: 'converting '
   _tags:
   - pronoun

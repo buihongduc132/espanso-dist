@@ -46,26 +46,6 @@ matches:
   propagate_case: true
   allow_duplicate: false
   trigger: fowp,
-- replace: 'formatter '
-  _tags:
-  - noun
-  - to
-  - else
-  - pronoun
-  allow_duplicate: true
-  _duplicate_group: fowm_format
-  propagate_case: true
-  trigger: fowmw,
-- replace: 'formatters '
-  _tags:
-  - noun
-  - to
-  - else
-  - pronoun
-  allow_duplicate: true
-  _duplicate_group: fowm_format
-  propagate_case: true
-  trigger: fowmws,
 - replace: 'formal '
   _tags:
   - adjective
@@ -110,7 +90,7 @@ matches:
   - noun
   propagate_case: true
   allow_duplicate: false
-  trigger: frm,
+  trigger: fowma,
 - replace: 'formats '
   _tags:
   - to
@@ -119,7 +99,7 @@ matches:
   - noun
   propagate_case: true
   allow_duplicate: false
-  trigger: frms,
+  trigger: fowmas,
 - replace: 'formatting '
   _tags:
   - ing
@@ -129,7 +109,7 @@ matches:
   - verb
   propagate_case: true
   allow_duplicate: false
-  trigger: frmi,
+  trigger: fowmai,
 - replace: 'formatted '
   _tags:
   - ed
@@ -140,7 +120,7 @@ matches:
   - verb
   propagate_case: true
   allow_duplicate: false
-  trigger: frmp,
+  trigger: fowmap,
 - replace: 'formattable '
   _tags:
   - adjective
@@ -148,7 +128,25 @@ matches:
   - else
   propagate_case: true
   allow_duplicate: false
-  trigger: frmb,
+  trigger: fowmab,
+- replace: 'formatter '
+  _tags:
+  - noun
+  - to
+  - else
+  - pronoun
+  propagate_case: true
+  allow_duplicate: false
+  trigger: fowmaw,
+- replace: 'formatters '
+  _tags:
+  - noun
+  - to
+  - else
+  - pronoun
+  propagate_case: true
+  allow_duplicate: false
+  trigger: fowmaws,
 - replace: 'format this '
   _tags:
   - demonstrative
@@ -158,7 +156,7 @@ matches:
   - verb
   propagate_case: true
   allow_duplicate: false
-  trigger: frmiz,
+  trigger: fowmaiz,
 - replace: 'format that '
   _tags:
   - demonstrative
@@ -168,7 +166,7 @@ matches:
   - verb
   propagate_case: true
   allow_duplicate: false
-  trigger: frmaz,
+  trigger: fowmaaz,
 - replace: 'format these '
   _tags:
   - demonstrative
@@ -178,7 +176,7 @@ matches:
   - verb
   propagate_case: true
   allow_duplicate: false
-  trigger: frmez,
+  trigger: fowmaez,
 - replace: 'format those '
   _tags:
   - demonstrative
@@ -188,7 +186,7 @@ matches:
   - verb
   propagate_case: true
   allow_duplicate: false
-  trigger: frmoz,
+  trigger: fowmaoz,
 - replace: 'improve '
   _tags:
   - pronoun
@@ -300,6 +298,14 @@ matches:
   propagate_case: true
   allow_duplicate: false
   trigger: lopms,
+- replace: 'loops '
+  _tags:
+  - to
+  - can
+  - else
+  propagate_case: true
+  allow_duplicate: false
+  trigger: lops,
 - replace: 'looped '
   _tags:
   - ed
@@ -309,7 +315,7 @@ matches:
   - else
   propagate_case: true
   allow_duplicate: false
-  trigger: lope,
+  trigger: lopp,
 - replace: 'looping '
   _tags:
   - ing
@@ -935,6 +941,38 @@ matches:
   propagate_case: true
   allow_duplicate: false
   trigger: imge,
+- replace: 'imaginable '
+  _tags:
+  - nlp-morphology
+  - adjective
+  _note: MorphyNet derivational edge::imagine->imaginable (able); nlp_morphology.md
+  propagate_case: true
+  allow_duplicate: false
+  trigger: imgeb,
+- replace: 'imagining '
+  _tags:
+  - nlp-morphology
+  - inflection
+  _note: LemmInflect dictionary (inflect_oov=False)::imagine->imagining (VBG); nlp_morphology.md
+  propagate_case: true
+  allow_duplicate: false
+  trigger: imgei,
+- replace: 'imagined '
+  _tags:
+  - nlp-morphology
+  - inflection
+  _note: LemmInflect dictionary (inflect_oov=False)::imagine->imagined (VBD); nlp_morphology.md
+  propagate_case: true
+  allow_duplicate: false
+  trigger: imgep,
+- replace: 'imagines '
+  _tags:
+  - nlp-morphology
+  - inflection
+  _note: LemmInflect dictionary (inflect_oov=False)::imagine->imagines (VBZ); nlp_morphology.md
+  propagate_case: true
+  allow_duplicate: false
+  trigger: imges,
 - replace: 'imaging '
   _tags:
   - pronoun
@@ -1220,6 +1258,14 @@ matches:
   propagate_case: true
   allow_duplicate: false
   trigger: solj,
+- replace: 'solvable '
+  _tags:
+  - nlp-morphology
+  - adjective
+  _note: MorphyNet derivational edge::solve->solvable (able); nlp_morphology.md
+  propagate_case: true
+  allow_duplicate: false
+  trigger: soljb,
 - replace: 'solved '
   _tags:
   - ed
@@ -1840,6 +1886,14 @@ matches:
   propagate_case: true
   allow_duplicate: false
   trigger: wds,
+- replace: 'worded '
+  _tags:
+  - will
+  - would
+  - ed
+  propagate_case: true
+  allow_duplicate: false
+  trigger: wdp,
 - replace: 'use '
   _tags: &id007
   - to
@@ -1853,6 +1907,14 @@ matches:
   propagate_case: true
   allow_duplicate: false
   trigger: use,
+- replace: 'usable '
+  _tags:
+  - nlp-morphology
+  - adjective
+  _note: MorphyNet derivational edge::use->usable (able); nlp_morphology.md
+  propagate_case: true
+  allow_duplicate: false
+  trigger: useb,
 - replace: 'uses '
   _tags: &id008
   - to
@@ -2232,6 +2294,22 @@ matches:
   propagate_case: true
   allow_duplicate: false
   trigger: ajd,
+- replace: 'avoids '
+  _tags:
+  - would
+  - pronoun
+  propagate_case: true
+  allow_duplicate: false
+  trigger: ajds,
+- replace: 'avoided '
+  _tags:
+  - ed
+  - would
+  - else
+  - pronoun
+  propagate_case: true
+  allow_duplicate: false
+  trigger: ajdp,
 - replace: 'avoided '
   _tags:
   - ed
@@ -2368,9 +2446,8 @@ matches:
   _tags:
   - to
   - else
-  allow_duplicate: true
-  _duplicate_group: fowm_format
   propagate_case: true
+  allow_duplicate: false
   trigger: fowml,
 - replace: 'formulated '
   _tags:
@@ -2378,9 +2455,8 @@ matches:
   - to
   - else
   - would
-  allow_duplicate: true
-  _duplicate_group: fowm_format
   propagate_case: true
+  allow_duplicate: false
   trigger: fowmlp,
 - replace: 'formulating '
   _tags:
@@ -2388,9 +2464,8 @@ matches:
   - to
   - else
   - pronoun
-  allow_duplicate: true
-  _duplicate_group: fowm_format
   propagate_case: true
+  allow_duplicate: false
   trigger: fowmli,
 - replace: 'formulation '
   _tags:
@@ -2398,24 +2473,21 @@ matches:
   - to
   - else
   - pronoun
-  allow_duplicate: true
-  _duplicate_group: fowm_format
   propagate_case: true
+  allow_duplicate: false
   trigger: fowmlm,
 - replace: 'formula '
   _tags:
   - else
-  allow_duplicate: true
-  _duplicate_group: fowm_format
   propagate_case: true
+  allow_duplicate: false
   trigger: fowmu,
 - replace: 'formulas '
   _tags:
   - else
-  allow_duplicate: true
-  _duplicate_group: fowm_format
   propagate_case: true
-  trigger: fowmas,
+  allow_duplicate: false
+  trigger: fowmus,
 - replace: 'courage '
   _tags:
   - possessive
@@ -2424,6 +2496,14 @@ matches:
   propagate_case: true
   allow_duplicate: false
   trigger: qouw,
+- replace: 'discourage '
+  _tags:
+  - nlp-morphology
+  - prefix
+  _note: MorphyNet derivational edge::courage->discourage (dis); nlp_morphology.md
+  propagate_case: true
+  allow_duplicate: false
+  trigger: dqouw,
 - replace: 'encourage '
   _tags:
   - possessive
@@ -3413,32 +3493,3 @@ matches:
   propagate_case: true
   allow_duplicate: false
   trigger: intewqo,
-- replace: 'formatting '
-  _tags:
-  - to
-  - ing
-  - pronoun
-  - else
-  allow_duplicate: true
-  _duplicate_group: fowm_format
-  propagate_case: true
-  trigger: fowmi,
-- replace: 'formats '
-  _tags:
-  - to
-  - else
-  - pronoun
-  allow_duplicate: true
-  _duplicate_group: fowm_format
-  propagate_case: true
-  trigger: fowms,
-- replace: 'formatted '
-  _tags:
-  - ed
-  - to
-  - else
-  - would
-  allow_duplicate: true
-  _duplicate_group: fowm_format
-  propagate_case: true
-  trigger: fowmp,

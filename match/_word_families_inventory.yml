@@ -1,0 +1,188 @@
+name: _word_families_inventory
+matches:
+- replace: 'inventory '
+  _tags:
+  - noun
+  - verb
+  - to
+  - else
+  propagate_case: true
+  allow_duplicate: false
+  trigger: ijen,
+- replace: 'inventories '
+  _tags:
+  - noun
+  - plural
+  - verb
+  - to
+  - else
+  propagate_case: true
+  allow_duplicate: false
+  trigger: ijens,
+- replace: 'inventorying '
+  _tags:
+  - ing
+  - verb
+  - to
+  - else
+  propagate_case: true
+  allow_duplicate: false
+  trigger: ijeni,
+- replace: 'inventoried '
+  _tags:
+  - ed
+  - verb
+  - to
+  - else
+  propagate_case: true
+  allow_duplicate: false
+  trigger: ijenp,
+- replace: 'this inventory '
+  _tags:
+  - demonstrative
+  - th_foundation
+  propagate_case: true
+  allow_duplicate: false
+  trigger: izijen,
+- replace: 'that inventory '
+  _tags:
+  - demonstrative
+  - th_foundation
+  propagate_case: true
+  allow_duplicate: false
+  trigger: azijen,
+- replace: 'these inventories '
+  _tags:
+  - demonstrative
+  - th_foundation
+  - plural
+  propagate_case: true
+  allow_duplicate: false
+  trigger: ezijens,
+- replace: 'those inventories '
+  _tags:
+  - demonstrative
+  - th_foundation
+  - plural
+  propagate_case: true
+  allow_duplicate: false
+  trigger: ozijens,
+- replace: 'inventory this '
+  _tags:
+  - demonstrative
+  - th_foundation
+  propagate_case: true
+  allow_duplicate: false
+  trigger: ijeniz,
+- replace: 'inventory that '
+  _tags:
+  - demonstrative
+  - th_foundation
+  propagate_case: true
+  allow_duplicate: false
+  trigger: ijenaz,
+- replace: 'inventory these '
+  _tags:
+  - demonstrative
+  - th_foundation
+  propagate_case: true
+  allow_duplicate: false
+  trigger: ijenez,
+- replace: 'inventory those '
+  _tags:
+  - demonstrative
+  - th_foundation
+  propagate_case: true
+  allow_duplicate: false
+  trigger: ijenoz,
+- replace: 'inventory it '
+  _tags:
+  - pronoun
+  propagate_case: true
+  allow_duplicate: false
+  trigger: ijenit,
+- replace: 'inventory them '
+  _tags:
+  - pronoun
+  propagate_case: true
+  allow_duplicate: false
+  trigger: ijenmm,
+- replace: 'inventory the '
+  _tags:
+  - pronoun
+  propagate_case: true
+  allow_duplicate: false
+  trigger: ijenh,
+- replace: 'the inventory '
+  _tags:
+  - pronoun
+  propagate_case: true
+  allow_duplicate: false
+  trigger: hijen,
+- replace: 'the inventories '
+  _tags:
+  - pronoun
+  - plural
+  propagate_case: true
+  allow_duplicate: false
+  trigger: hijens,
+- replace: 'what inventory '
+  _tags:
+  - question
+  propagate_case: true
+  allow_duplicate: false
+  trigger: wtijen,
+- replace: 'where inventory '
+  _tags:
+  - question
+  propagate_case: true
+  allow_duplicate: false
+  trigger: wwijen,
+- replace: 'when inventory '
+  _tags:
+  - question
+  propagate_case: true
+  allow_duplicate: false
+  trigger: wnijen,
+- replace: 'why inventory '
+  _tags:
+  - question
+  propagate_case: true
+  allow_duplicate: false
+  trigger: wyijen,
+- replace: 'how inventory '
+  _tags:
+  - question
+  propagate_case: true
+  allow_duplicate: false
+  trigger: hwijen,
+- replace: 'inventory to the '
+  _tags:
+  - directional
+  propagate_case: true
+  allow_duplicate: false
+  trigger: ijen2h,
+- replace: 'from the inventory '
+  _tags:
+  - directional
+  propagate_case: true
+  allow_duplicate: false
+  trigger: 22hijen,
+- replace: 'from the inventories '
+  _tags:
+  - directional
+  propagate_case: true
+  allow_duplicate: false
+  trigger: 22hijens,
+- replace: 'inventory have '
+  propagate_case: true
+  allow_duplicate: false
+  trigger: ijenha,
+- replace: 'inventory has '
+  propagate_case: true
+  allow_duplicate: false
+  trigger: ijenhass,
+- replace: 'then inventory '
+  propagate_case: true
+  allow_duplicate: false
+  trigger: nzijen,

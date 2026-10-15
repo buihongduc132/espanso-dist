@@ -356,6 +356,251 @@ matches:
   propagate_case: true
   allow_duplicate: false
   trigger: dnoz`
+- replace: 'done it '
+  _tags:
+  - done
+  - phrase
+  propagate_case: true
+  allow_duplicate: false
+  trigger: dnx`
+- replace: 'done for '
+  _tags:
+  - done
+  - phrase
+  propagate_case: true
+  allow_duplicate: false
+  trigger: dn4`
+- replace: 'done for it '
+  _tags:
+  - done
+  - phrase
+  propagate_case: true
+  allow_duplicate: false
+  trigger: dn4x`
+- replace: 'done for the '
+  _tags:
+  - done
+  - phrase
+  propagate_case: true
+  allow_duplicate: false
+  trigger: dn4h`
+- replace: 'done for this '
+  _tags:
+  - done
+  - phrase
+  propagate_case: true
+  allow_duplicate: false
+  trigger: dn4iz`
+- replace: 'done for that '
+  _tags:
+  - done
+  - phrase
+  propagate_case: true
+  allow_duplicate: false
+  trigger: dn4az`
+- replace: 'done for these '
+  _tags:
+  - done
+  - phrase
+  propagate_case: true
+  allow_duplicate: false
+  trigger: dn4ez`
+- replace: 'done for those '
+  _tags:
+  - done
+  - phrase
+  propagate_case: true
+  allow_duplicate: false
+  trigger: dn4oz`
+- replace: 'done to '
+  _tags:
+  - done
+  - phrase
+  propagate_case: true
+  allow_duplicate: false
+  trigger: dn2`
+- replace: 'done to it '
+  _tags:
+  - done
+  - phrase
+  propagate_case: true
+  allow_duplicate: false
+  trigger: dn2x`
+- replace: 'done to the '
+  _tags:
+  - done
+  - phrase
+  propagate_case: true
+  allow_duplicate: false
+  trigger: dn2h`
+- replace: 'done to this '
+  _tags:
+  - done
+  - phrase
+  propagate_case: true
+  allow_duplicate: false
+  trigger: dn2iz`
+- replace: 'done to that '
+  _tags:
+  - done
+  - phrase
+  propagate_case: true
+  allow_duplicate: false
+  trigger: dn2az`
+- replace: 'done to these '
+  _tags:
+  - done
+  - phrase
+  propagate_case: true
+  allow_duplicate: false
+  trigger: dn2ez`
+- replace: 'done to those '
+  _tags:
+  - done
+  - phrase
+  propagate_case: true
+  allow_duplicate: false
+  trigger: dn2oz`
+- replace: 'done from '
+  _tags:
+  - done
+  - phrase
+  propagate_case: true
+  allow_duplicate: false
+  trigger: dn22`
+- replace: 'done from it '
+  _tags:
+  - done
+  - phrase
+  propagate_case: true
+  allow_duplicate: false
+  trigger: dn22x`
+- replace: 'done from the '
+  _tags:
+  - done
+  - phrase
+  propagate_case: true
+  allow_duplicate: false
+  trigger: dn22h`
+- replace: 'done from this '
+  _tags:
+  - done
+  - phrase
+  propagate_case: true
+  allow_duplicate: false
+  trigger: dn22iz`
+- replace: 'done from that '
+  _tags:
+  - done
+  - phrase
+  propagate_case: true
+  allow_duplicate: false
+  trigger: dn22az`
+- replace: 'done from these '
+  _tags:
+  - done
+  - phrase
+  propagate_case: true
+  allow_duplicate: false
+  trigger: dn22ez`
+- replace: 'done from those '
+  _tags:
+  - done
+  - phrase
+  propagate_case: true
+  allow_duplicate: false
+  trigger: dn22oz`
+- replace: 'done by '
+  _tags:
+  - done
+  - phrase
+  propagate_case: true
+  allow_duplicate: false
+  trigger: dnb`
+- replace: 'done by it '
+  _tags:
+  - done
+  - phrase
+  propagate_case: true
+  allow_duplicate: false
+  trigger: dnbx`
+- replace: 'done by the '
+  _tags:
+  - done
+  - phrase
+  propagate_case: true
+  allow_duplicate: false
+  trigger: dnbh`
+- replace: 'done by this '
+  _tags:
+  - done
+  - phrase
+  propagate_case: true
+  allow_duplicate: false
+  trigger: dnbiz`
+- replace: 'done by that '
+  _tags:
+  - done
+  - phrase
+  propagate_case: true
+  allow_duplicate: false
+  trigger: dnbaz`
+- replace: 'done by these '
+  _tags:
+  - done
+  - phrase
+  propagate_case: true
+  allow_duplicate: false
+  trigger: dnbez`
+- replace: 'done by those '
+  _tags:
+  - done
+  - phrase
+  propagate_case: true
+  allow_duplicate: false
+  trigger: dnboz`
+- replace: 'done with it '
+  _tags:
+  - done
+  - phrase
+  propagate_case: true
+  allow_duplicate: false
+  trigger: dnwx`
+- replace: 'done with the '
+  _tags:
+  - done
+  - phrase
+  propagate_case: true
+  allow_duplicate: false
+  trigger: dnwh`
+- replace: 'done with this '
+  _tags:
+  - done
+  - phrase
+  propagate_case: true
+  allow_duplicate: false
+  trigger: dnwiz`
+- replace: 'done with that '
+  _tags:
+  - done
+  - phrase
+  propagate_case: true
+  allow_duplicate: false
+  trigger: dnwaz`
+- replace: 'done with these '
+  _tags:
+  - done
+  - phrase
+  propagate_case: true
+  allow_duplicate: false
+  trigger: dnwez`
+- replace: 'done with those '
+  _tags:
+  - done
+  - phrase
+  propagate_case: true
+  allow_duplicate: false
+  trigger: dnwoz`
 - replace: 'by the '
   _tags:
   - phrase

@@ -8,6 +8,14 @@ matches:
   propagate_case: true
   allow_duplicate: false
   trigger: pwaq,
+- replace: 'practicable '
+  _tags:
+  - adjective
+  - able
+  - auto-b
+  propagate_case: true
+  allow_duplicate: false
+  trigger: pwaqb,
 - replace: 'practices '
   _tags:
   - to

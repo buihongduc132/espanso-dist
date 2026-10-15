@@ -10,6 +10,14 @@ matches:
   propagate_case: true
   allow_duplicate: false
   trigger: qntru,
+- replace: 'deconstruct '
+  _tags:
+  - nlp-morphology
+  - prefix
+  _note: MorphyNet derivational edge::construct->deconstruct (de); nlp_morphology.md
+  propagate_case: true
+  allow_duplicate: false
+  trigger: dqntru,
 - replace: 'constructs '
   _tags:
   - noun
@@ -53,6 +61,14 @@ matches:
   propagate_case: true
   allow_duplicate: false
   trigger: qntrum,
+- replace: 'deconstruction '
+  _tags:
+  - nlp-morphology
+  - prefix
+  _note: MorphyNet derivational edge::construction->deconstruction (de); nlp_morphology.md
+  propagate_case: true
+  allow_duplicate: false
+  trigger: dqntrum,
 - replace: 'constructions '
   _tags:
   - noun

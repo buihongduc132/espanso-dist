@@ -405,6 +405,14 @@ matches:
   propagate_case: true
   allow_duplicate: false
   trigger: expa,
+- replace: 'expandable '
+  _tags:
+  - nlp-morphology
+  - adjective
+  _note: MorphyNet derivational edge::expand->expandable (able); nlp_morphology.md
+  propagate_case: true
+  allow_duplicate: false
+  trigger: expab,
 - replace: 'expander '
   _tags:
   - would
@@ -793,6 +801,38 @@ matches:
   propagate_case: true
   allow_duplicate: false
   trigger: pwm,
+- replace: 'printable '
+  _tags:
+  - nlp-morphology
+  - adjective
+  _note: MorphyNet derivational edge::print->printable (able); nlp_morphology.md
+  propagate_case: true
+  allow_duplicate: false
+  trigger: pwmb,
+- replace: 'printing '
+  _tags:
+  - nlp-morphology
+  - inflection
+  _note: LemmInflect dictionary (inflect_oov=False)::print->printing (VBG); nlp_morphology.md
+  propagate_case: true
+  allow_duplicate: false
+  trigger: pwmi,
+- replace: 'printed '
+  _tags:
+  - nlp-morphology
+  - inflection
+  _note: LemmInflect dictionary (inflect_oov=False)::print->printed (VBD); nlp_morphology.md
+  propagate_case: true
+  allow_duplicate: false
+  trigger: pwmp,
+- replace: 'prints '
+  _tags:
+  - nlp-morphology
+  - inflection
+  _note: LemmInflect dictionary (inflect_oov=False)::print->prints (VBZ); nlp_morphology.md
+  propagate_case: true
+  allow_duplicate: false
+  trigger: pwms,
 - replace: 'prints '
   _tags:
   - to

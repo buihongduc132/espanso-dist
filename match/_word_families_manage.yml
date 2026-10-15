@@ -9,6 +9,14 @@ matches:
   allow_duplicate: true
   propagate_case: true
   trigger: mn,
+- replace: 'manageable '
+  _tags:
+  - adjective
+  - able
+  - auto-b
+  propagate_case: true
+  allow_duplicate: false
+  trigger: mnb,
 - replace: 'manages '
   _tags:
   - to

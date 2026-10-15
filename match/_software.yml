@@ -444,7 +444,14 @@ matches:
   - else
   propagate_case: true
   allow_duplicate: false
-  trigger: apk,
+  trigger: apk`
+- replace: 'API_KEY '
+  _tags:
+  - pronoun
+  - else
+  propagate_case: true
+  allow_duplicate: false
+  trigger: APK`
 - replace: 'api calls '
   _tags:
   - software
@@ -452,18 +459,6 @@ matches:
   propagate_case: true
   allow_duplicate: false
   trigger: apqa`
-- replace: 'API_KEY '
-  _tags: &id001
-  - pronoun
-  - else
-  propagate_case: true
-  allow_duplicate: false
-  trigger: APK,,,
-- replace: 'API_KEY '
-  _tags: *id001
-  propagate_case: true
-  allow_duplicate: false
-  trigger: AP_K,
 - replace: 'file '
   _tags:
   - noun
@@ -521,8 +516,20 @@ matches:
   propagate_case: true
   allow_duplicate: false
   trigger: md;g,
+- replace: 'ops/ansible/inventory/bug '
+  propagate_case: true
+  allow_duplicate: false
+  trigger: inje;bu,
+- replace: 'ops/ansible/inventory/feat '
+  propagate_case: true
+  allow_duplicate: false
+  trigger: inje;fea,
+- replace: 'ops/ansible/inventory/all '
+  propagate_case: true
+  allow_duplicate: false
+  trigger: inje;a,
 - replace: "- triggers: [\"__\"]\n  replace: \"__\"\n "
-  _tags: &id002
+  _tags: &id001
   - to
   - can
   - else
@@ -531,7 +538,7 @@ matches:
   allow_duplicate: false
   trigger: :es,
 - replace: "- triggers: [\"__\"]\n  replace: \"__\"\n "
-  _tags: *id002
+  _tags: *id001
   propagate_case: true
   allow_duplicate: false
   trigger: :estrig,
@@ -1133,3 +1140,80 @@ matches:
   propagate_case: true
   allow_duplicate: false
   trigger: hewm`
+- replace: 'herdr '
+  _tags:
+  - software
+  - else
+  propagate_case: true
+  allow_duplicate: false
+  trigger: hww`
+- replace: 'hermes '
+  _tags:
+  - software
+  - else
+  propagate_case: true
+  allow_duplicate: false
+  trigger: hew`
+- replace: 'multica '
+  _tags:
+  - software
+  - else
+  propagate_case: true
+  allow_duplicate: false
+  trigger: mqa`
+- replace: 'multica issues '
+  _tags:
+  - software
+  - else
+  propagate_case: true
+  allow_duplicate: false
+  trigger: mqais`
+- replace: 'multica remote '
+  _tags:
+  - software
+  - else
+  propagate_case: true
+  allow_duplicate: false
+  trigger: mqamoe`
+- replace: 'multica local '
+  _tags:
+  - software
+  - else
+  propagate_case: true
+  allow_duplicate: false
+  trigger: mqalol`
+- replace: 'branchlet '
+  _tags:
+  - software
+  - else
+  propagate_case: true
+  allow_duplicate: false
+  trigger: bwl`
+- replace: 'codeql '
+  _tags:
+  - software
+  - else
+  propagate_case: true
+  allow_duplicate: false
+  trigger: qoq`
+- replace: 'ast-grep '
+  _tags:
+  - software
+  - else
+  propagate_case: true
+  allow_duplicate: false
+  trigger: astg`
+- replace: 'server url '
+  _tags:
+  - software
+  - else
+  propagate_case: true
+  allow_duplicate: false
+  trigger: swu`
+- replace: 'SERVER_URL '
+  _tags:
+  - software
+  - else
+  propagate_case: true
+  allow_duplicate: false
+  trigger: swu_`

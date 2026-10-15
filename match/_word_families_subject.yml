@@ -1,0 +1,120 @@
+name: _word_families_subject
+matches:
+- replace: 'subject '
+  _tags:
+  - noun
+  - verb
+  propagate_case: true
+  allow_duplicate: false
+  trigger: subj,
+- replace: 'subjects '
+  _tags:
+  - noun
+  - verb
+  propagate_case: true
+  allow_duplicate: false
+  trigger: subjs,
+- replace: 'subjecting '
+  _tags:
+  - verb
+  - ing
+  propagate_case: true
+  allow_duplicate: false
+  trigger: subji,
+- replace: 'subjected '
+  _tags:
+  - verb
+  - ed
+  propagate_case: true
+  allow_duplicate: false
+  trigger: subjp,
+- replace: 'subjective '
+  _tags:
+  - adjective
+  propagate_case: true
+  allow_duplicate: false
+  trigger: subjv,
+- replace: 'subjectively '
+  _tags:
+  - adverb
+  propagate_case: true
+  allow_duplicate: false
+  trigger: subjvl,
+- replace: 'subjectivity '
+  _tags:
+  - noun
+  propagate_case: true
+  allow_duplicate: false
+  trigger: subjvy,
+- replace: 'subjection '
+  _tags:
+  - noun
+  propagate_case: true
+  allow_duplicate: false
+  trigger: subjm,
+- replace: 'subject this '
+  _tags:
+  - phrase
+  propagate_case: true
+  allow_duplicate: false
+  trigger: subjiz,
+- replace: 'subject that '
+  _tags:
+  - phrase
+  propagate_case: true
+  allow_duplicate: false
+  trigger: subjaz,
+- replace: 'subject these '
+  _tags:
+  - phrase
+  propagate_case: true
+  allow_duplicate: false
+  trigger: subjez,
+- replace: 'subject those '
+  _tags:
+  - phrase
+  propagate_case: true
+  allow_duplicate: false
+  trigger: subjoz,
+- replace: 'subject the '
+  _tags:
+  - phrase
+  propagate_case: true
+  allow_duplicate: false
+  trigger: subjh,
+- replace: 'this subject '
+  _tags:
+  - phrase
+  propagate_case: true
+  allow_duplicate: false
+  trigger: izsubj,
+- replace: 'that subject '
+  _tags:
+  - phrase
+  propagate_case: true
+  allow_duplicate: false
+  trigger: azsubj,
+- replace: 'these subjects '
+  _tags:
+  - phrase
+  propagate_case: true
+  allow_duplicate: false
+  trigger: ezsubjs,
+- replace: 'those subjects '
+  _tags:
+  - phrase
+  propagate_case: true
+  allow_duplicate: false
+  trigger: ozsubjs,
+- replace: 'the subject '
+  _tags:
+  - phrase
+  propagate_case: true
+  allow_duplicate: false
+  trigger: hsubj,
+- replace: 'then subject '
+  _tags:
+  - phrase
+  propagate_case: true
+  allow_duplicate: false
+  trigger: nzsubj,

@@ -8,6 +8,14 @@ matches:
   propagate_case: true
   allow_duplicate: false
   trigger: pwes,
+- replace: 'presentable '
+  _tags:
+  - adjective
+  - able
+  - auto-b
+  propagate_case: true
+  allow_duplicate: false
+  trigger: pwesb,
 - replace: 'presents '
   _tags:
   - verb

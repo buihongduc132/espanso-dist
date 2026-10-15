@@ -1,8 +1,9 @@
 name: _word_families_opportunity
 matches:
 - replace: 'opportunity '
+  allow_duplicate: true
+  duplicate_group: opp-conflict
   propagate_case: true
-  allow_duplicate: false
   trigger: opp,
 - replace: 'opportunities '
   propagate_case: true

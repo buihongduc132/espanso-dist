@@ -1,0 +1,88 @@
+name: _word_families_life
+matches:
+- replace: 'life '
+  _tags:
+  - noun
+  propagate_case: true
+  allow_duplicate: false
+  trigger: lif,
+- replace: 'lives '
+  _tags:
+  - noun
+  propagate_case: true
+  allow_duplicate: false
+  trigger: lifs,
+- replace: 'lifecycle '
+  _tags:
+  - noun
+  - software
+  propagate_case: true
+  allow_duplicate: false
+  trigger: lifc,
+- replace: 'lifecycles '
+  _tags:
+  - noun
+  - software
+  propagate_case: true
+  allow_duplicate: false
+  trigger: lifcs,
+- replace: 'this life '
+  _tags:
+  - phrase
+  propagate_case: true
+  allow_duplicate: false
+  trigger: izlif,
+- replace: 'that life '
+  _tags:
+  - phrase
+  propagate_case: true
+  allow_duplicate: false
+  trigger: azlif,
+- replace: 'these lives '
+  _tags:
+  - phrase
+  propagate_case: true
+  allow_duplicate: false
+  trigger: ezlifs,
+- replace: 'those lives '
+  _tags:
+  - phrase
+  propagate_case: true
+  allow_duplicate: false
+  trigger: ozlifs,
+- replace: 'the life '
+  _tags:
+  - phrase
+  propagate_case: true
+  allow_duplicate: false
+  trigger: hlif,
+- replace: 'this lifecycle '
+  _tags:
+  - phrase
+  propagate_case: true
+  allow_duplicate: false
+  trigger: izlifc,
+- replace: 'that lifecycle '
+  _tags:
+  - phrase
+  propagate_case: true
+  allow_duplicate: false
+  trigger: azlifc,
+- replace: 'these lifecycles '
+  _tags:
+  - phrase
+  propagate_case: true
+  allow_duplicate: false
+  trigger: ezlifcs,
+- replace: 'those lifecycles '
+  _tags:
+  - phrase
+  propagate_case: true
+  allow_duplicate: false
+  trigger: ozlifcs,
+- replace: 'the lifecycle '
+  _tags:
+  - phrase
+  propagate_case: true
+  allow_duplicate: false
+  trigger: hlifc,

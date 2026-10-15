@@ -272,7 +272,6 @@ write_default_config() {
 search_shortcut: SHIFT+CTRL+E
 toggle_key: RIGHT_CTRL
 min_trigger_length: 1
-backend: Inject
 inject_delay: 0
 undo_backspace: false
 search_trigger: ::sea
@@ -348,9 +347,17 @@ cmd_install() {
 
 	# 2. Fetch dist
 	step "Fetch Trigger Pack"
-	local workdir="$config_dir/${CLONE_DIR_NAME}"
-	[[ "$force" == "--force" && -d "$workdir" ]] && rm -rf "$workdir"
-	local src_dir; src_dir="$(fetch_dist "$workdir")"
+	local src_dir=""
+	local script_parent
+	script_parent="$(cd "$SCRIPT_DIR" && pwd)"
+	if [[ -d "$script_parent/match" && -n "$(find "$script_parent/match" -name '*.yml' 2>/dev/null | head -1)" && "$force" != "--force" ]]; then
+		info "Using local package directory: $script_parent"
+		src_dir="$script_parent"
+	else
+		local workdir="$config_dir/${CLONE_DIR_NAME}"
+		[[ "$force" == "--force" && -d "$workdir" ]] && rm -rf "$workdir"
+		src_dir="$(fetch_dist "$workdir")"
+	fi
 
 	# 3. Deploy
 	step "Deploy Config"

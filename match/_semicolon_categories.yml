@@ -12,7 +12,7 @@ matches:
   propagate_case: true
   allow_duplicate: false
   trigger: fl;pl,
-- replace: 'flow/{plans,requirements,intentions,lessons_learn,troubleshootings,findings} '
+- replace: 'flow/{plans,requirements,intentions,lessons_learn,troubleshootings,findings,philosophy,as-code,problems,bugs} '
   propagate_case: true
   allow_duplicate: false
   trigger: fl;aa,
@@ -28,6 +28,22 @@ matches:
   propagate_case: true
   allow_duplicate: false
   trigger: fl;fi,
+- replace: 'flow/philosophy/ '
+  propagate_case: true
+  allow_duplicate: false
+  trigger: fl;phio,
+- replace: 'flow/as-code/ '
+  propagate_case: true
+  allow_duplicate: false
+  trigger: fl;asc,
+- replace: 'flow/problems/ '
+  propagate_case: true
+  allow_duplicate: false
+  trigger: fl;prb,
+- replace: 'flow/bugs/ '
+  propagate_case: true
+  allow_duplicate: false
+  trigger: fl;b,
 - replace: 'openspec-propose '
   propagate_case: true
   allow_duplicate: false

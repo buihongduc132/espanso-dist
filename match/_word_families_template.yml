@@ -108,6 +108,7 @@ matches:
   allow_duplicate: false
   trigger: ptpls,
 - replace: 'retemplate '
+  duplicate_group: wtpl-conflict
   _tags:
   - verb
   - to

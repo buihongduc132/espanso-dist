@@ -1,0 +1,44 @@
+name: _word_families_persona
+matches:
+- replace: 'persona '
+  _tags:
+  - noun
+  propagate_case: true
+  allow_duplicate: false
+  trigger: pewsa,
+- replace: 'personas '
+  _tags:
+  - noun
+  propagate_case: true
+  allow_duplicate: false
+  trigger: pewsas,
+- replace: 'this persona '
+  _tags:
+  - phrase
+  propagate_case: true
+  allow_duplicate: false
+  trigger: izpewsa,
+- replace: 'that persona '
+  _tags:
+  - phrase
+  propagate_case: true
+  allow_duplicate: false
+  trigger: azpewsa,
+- replace: 'these personas '
+  _tags:
+  - phrase
+  propagate_case: true
+  allow_duplicate: false
+  trigger: ezpewsas,
+- replace: 'those personas '
+  _tags:
+  - phrase
+  propagate_case: true
+  allow_duplicate: false
+  trigger: ozpewsas,
+- replace: 'the persona '
+  _tags:
+  - phrase
+  propagate_case: true
+  allow_duplicate: false
+  trigger: hpewsa,

@@ -223,6 +223,38 @@ matches:
   propagate_case: true
   allow_duplicate: false
   trigger: pwejn,
+- replace: 'preventable '
+  _tags:
+  - nlp-morphology
+  - adjective
+  _note: MorphyNet derivational edge::prevent->preventable (able); nlp_morphology.md
+  propagate_case: true
+  allow_duplicate: false
+  trigger: pwejnb,
+- replace: 'preventing '
+  _tags:
+  - nlp-morphology
+  - inflection
+  _note: LemmInflect dictionary (inflect_oov=False)::prevent->preventing (VBG); nlp_morphology.md
+  propagate_case: true
+  allow_duplicate: false
+  trigger: pwejni,
+- replace: 'prevented '
+  _tags:
+  - nlp-morphology
+  - inflection
+  _note: LemmInflect dictionary (inflect_oov=False)::prevent->prevented (VBD); nlp_morphology.md
+  propagate_case: true
+  allow_duplicate: false
+  trigger: pwejnp,
+- replace: 'prevents '
+  _tags:
+  - nlp-morphology
+  - inflection
+  _note: LemmInflect dictionary (inflect_oov=False)::prevent->prevents (VBZ); nlp_morphology.md
+  propagate_case: true
+  allow_duplicate: false
+  trigger: pwejns,
 - replace: 'preventing '
   _tags:
   - ing
@@ -278,7 +310,14 @@ matches:
   - else
   propagate_case: true
   allow_duplicate: false
-  trigger: philo,
+  trigger: phio,
+- replace: 'philosophisticated '
+  _tags:
+  - adjective
+  - else
+  propagate_case: true
+  allow_duplicate: false
+  trigger: phiost,
 - replace: 'override '
   _tags:
   - to
@@ -286,7 +325,7 @@ matches:
   - pronoun
   propagate_case: true
   allow_duplicate: false
-  trigger: ojew,
+  trigger: ojeww,
 - replace: 'overridable '
   _tags:
   - adjective
@@ -294,15 +333,7 @@ matches:
   - else
   propagate_case: true
   allow_duplicate: false
-  trigger: ojewb,
-- replace: 'override '
-  _tags:
-  - would
-  - else
-  - pronoun
-  propagate_case: true
-  allow_duplicate: false
-  trigger: ojewi,
+  trigger: ojewwb,
 - replace: 'overriding '
   _tags:
   - ing
@@ -311,15 +342,25 @@ matches:
   - pronoun
   propagate_case: true
   allow_duplicate: false
-  trigger: ojewii,
-- replace: 'overridden '
+  trigger: ojewwi,
+- replace: 'overrode '
   _tags:
+  - verb
   - would
   - else
   - pronoun
   propagate_case: true
   allow_duplicate: false
-  trigger: ojewid,
+  trigger: ojewwp,
+- replace: 'overridden '
+  _tags:
+  - verb
+  - would
+  - else
+  - pronoun
+  propagate_case: true
+  allow_duplicate: false
+  trigger: ojewwd,
 - replace: 'overrides '
   _tags:
   - be
@@ -328,15 +369,7 @@ matches:
   - would
   propagate_case: true
   allow_duplicate: false
-  trigger: ojewis,
-- replace: 'override '
-  _tags:
-  - would
-  - else
-  - pronoun
-  propagate_case: true
-  allow_duplicate: false
-  trigger: ojewin,
+  trigger: ojewws,
 - replace: 'overrider '
   _tags:
   - would
@@ -344,12 +377,40 @@ matches:
   - pronoun
   propagate_case: true
   allow_duplicate: false
-  trigger: ojewiw,
-- replace: 'overrode '
+  trigger: ojewww,
+- replace: 'override this '
   _tags:
-  - ed
-  - would
-  - else
+  - phrase
   propagate_case: true
   allow_duplicate: false
-  trigger: ojewp,
+  trigger: ojewwiz,
+- replace: 'override that '
+  _tags:
+  - phrase
+  propagate_case: true
+  allow_duplicate: false
+  trigger: ojewwaz,
+- replace: 'override these '
+  _tags:
+  - phrase
+  propagate_case: true
+  allow_duplicate: false
+  trigger: ojewwez,
+- replace: 'override those '
+  _tags:
+  - phrase
+  propagate_case: true
+  allow_duplicate: false
+  trigger: ojewwoz,
+- replace: 'override the '
+  _tags:
+  - phrase
+  propagate_case: true
+  allow_duplicate: false
+  trigger: ojewwh,
+- replace: 'then override '
+  _tags:
+  - phrase
+  propagate_case: true
+  allow_duplicate: false
+  trigger: nzojeww,

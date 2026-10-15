@@ -1,0 +1,126 @@
+name: _word_families_farm
+matches:
+- replace: 'farm '
+  _tags:
+  - noun
+  - verb
+  propagate_case: true
+  allow_duplicate: false
+  trigger: faw,
+- replace: 'farms '
+  _tags:
+  - noun
+  - verb
+  propagate_case: true
+  allow_duplicate: false
+  trigger: faws,
+- replace: 'farming '
+  _tags:
+  - verb
+  - ing
+  propagate_case: true
+  allow_duplicate: false
+  trigger: fawi,
+- replace: 'farmed '
+  _tags:
+  - verb
+  - ed
+  propagate_case: true
+  allow_duplicate: false
+  trigger: fawp,
+- replace: 'farmer '
+  _tags:
+  - noun
+  propagate_case: true
+  allow_duplicate: false
+  trigger: faww,
+- replace: 'farmers '
+  _tags:
+  - noun
+  propagate_case: true
+  allow_duplicate: false
+  trigger: fawws,
+- replace: 'this farm '
+  _tags:
+  - phrase
+  propagate_case: true
+  allow_duplicate: false
+  trigger: izfaw,
+- replace: 'that farm '
+  _tags:
+  - phrase
+  propagate_case: true
+  allow_duplicate: false
+  trigger: azfaw,
+- replace: 'these farms '
+  _tags:
+  - phrase
+  propagate_case: true
+  allow_duplicate: false
+  trigger: ezfaws,
+- replace: 'those farms '
+  _tags:
+  - phrase
+  propagate_case: true
+  allow_duplicate: false
+  trigger: ozfaws,
+- replace: 'the farm '
+  _tags:
+  - phrase
+  propagate_case: true
+  allow_duplicate: false
+  trigger: hfaw,
+- replace: 'this farmer '
+  _tags:
+  - phrase
+  propagate_case: true
+  allow_duplicate: false
+  trigger: izfaww,
+- replace: 'that farmer '
+  _tags:
+  - phrase
+  propagate_case: true
+  allow_duplicate: false
+  trigger: azfaww,
+- replace: 'these farmers '
+  _tags:
+  - phrase
+  propagate_case: true
+  allow_duplicate: false
+  trigger: ezfawws,
+- replace: 'those farmers '
+  _tags:
+  - phrase
+  propagate_case: true
+  allow_duplicate: false
+  trigger: ozfawws,
+- replace: 'the farmer '
+  _tags:
+  - phrase
+  propagate_case: true
+  allow_duplicate: false
+  trigger: hfaww,
+- replace: 'farm this '
+  _tags:
+  - phrase
+  propagate_case: true
+  allow_duplicate: false
+  trigger: fawiz,
+- replace: 'farm that '
+  _tags:
+  - phrase
+  propagate_case: true
+  allow_duplicate: false
+  trigger: fawaz,
+- replace: 'farm the '
+  _tags:
+  - phrase
+  propagate_case: true
+  allow_duplicate: false
+  trigger: fawh,
+- replace: 'then farm '
+  _tags:
+  - phrase
+  propagate_case: true
+  allow_duplicate: false
+  trigger: nzfaw,
