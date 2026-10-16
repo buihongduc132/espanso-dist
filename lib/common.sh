@@ -260,10 +260,13 @@ deploy_files() {
 	version=$(http_get_text "${GITHUB_RAW}/VERSION" 2>/dev/null || echo "$(date -u +%Y%m%d%H%M%S)")
 	echo "$version" > "$config_dir/.trigger-pack-version"
 
-	# Persist this installer (the dispatcher) for future self-updates.
-	# If invoked via a platform entry script, copy that too for traceability.
+	# Persist this installer + shared lib for future self-updates.
 	cp "$ENTRY_SCRIPT" "$config_dir/install.sh" 2>/dev/null || true
 	chmod +x "$config_dir/install.sh" 2>/dev/null || true
+	if [[ -n "${SCRIPT_DIR:-}" && -f "$SCRIPT_DIR/lib/common.sh" ]]; then
+		mkdir -p "$config_dir/lib" 2>/dev/null || true
+		cp "$SCRIPT_DIR/lib/common.sh" "$config_dir/lib/common.sh" 2>/dev/null || true
+	fi
 }
 
 write_default_config() {
