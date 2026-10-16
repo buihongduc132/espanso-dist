@@ -969,7 +969,7 @@ matches:
   - else
   propagate_case: true
   allow_duplicate: false
-  trigger: alomiz,
+  trigger: lomiz,
 - replace: 'all of that '
   _tags:
   - pronoun
@@ -978,7 +978,7 @@ matches:
   - else
   propagate_case: true
   allow_duplicate: false
-  trigger: alomaz,
+  trigger: lomaz,
 - replace: 'all of these '
   _tags:
   - pronoun
@@ -987,7 +987,7 @@ matches:
   - else
   propagate_case: true
   allow_duplicate: false
-  trigger: alomez,
+  trigger: lomez,
 - replace: 'all of those '
   _tags:
   - pronoun
@@ -996,7 +996,7 @@ matches:
   - else
   propagate_case: true
   allow_duplicate: false
-  trigger: alomoz,
+  trigger: lomoz,
 - replace: 'none of them '
   _tags:
   - pronoun
@@ -2821,14 +2821,6 @@ matches:
   propagate_case: true
   allow_duplicate: false
   trigger: faiat,
-- replace: 'all the '
-  _tags:
-  - the
-  - to
-  - else
-  propagate_case: true
-  allow_duplicate: false
-  trigger: ahe,
 - replace: 'all the thing '
   _tags:
   - the
@@ -2836,7 +2828,7 @@ matches:
   - else
   propagate_case: true
   allow_duplicate: false
-  trigger: ahet,
+  trigger: lhet,
 - replace: 'all the thing '
   _tags:
   - the
@@ -2844,7 +2836,7 @@ matches:
   - else
   propagate_case: true
   allow_duplicate: false
-  trigger: alhy,
+  trigger: lhy,
 - replace: 'all the things '
   _tags:
   - the
@@ -2852,7 +2844,7 @@ matches:
   - else
   propagate_case: true
   allow_duplicate: false
-  trigger: ahethg,
+  trigger: lhethg,
 - replace: 'all the works '
   _tags:
   - the
@@ -2860,7 +2852,7 @@ matches:
   - else
   propagate_case: true
   allow_duplicate: false
-  trigger: ahew,
+  trigger: lhew,
 - replace: 'all the work '
   _tags:
   - the
@@ -2868,7 +2860,7 @@ matches:
   - else
   propagate_case: true
   allow_duplicate: false
-  trigger: ahewk,
+  trigger: lhewk,
 - replace: 'all the docs '
   _tags:
   - the
@@ -2876,7 +2868,7 @@ matches:
   - else
   propagate_case: true
   allow_duplicate: false
-  trigger: ahedo,
+  trigger: lhedo,
 - replace: 'all the code '
   _tags:
   - the
@@ -2884,7 +2876,7 @@ matches:
   - else
   propagate_case: true
   allow_duplicate: false
-  trigger: aheqo,
+  trigger: lheqo,
 - replace: 'all the tickets '
   _tags:
   - the
@@ -2892,7 +2884,7 @@ matches:
   - else
   propagate_case: true
   allow_duplicate: false
-  trigger: aheti,
+  trigger: lheti,
 - replace: 'each '
   _tags:
   - the

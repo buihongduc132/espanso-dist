@@ -513,16 +513,6 @@ matches:
   propagate_case: true
   allow_duplicate: false
   trigger: this,
-- replace: 'nothing. '
-  _tags:
-  - pronoun
-  - the
-  - ing
-  - to
-  - negate
-  propagate_case: true
-  allow_duplicate: false
-  trigger: nthi,
 - replace: 'list '
   _tags:
   - to
@@ -791,28 +781,28 @@ matches:
   - demonstrative
   propagate_case: true
   allow_duplicate: false
-  trigger: aliz,
+  trigger: liz,
 - replace: 'all that '
   _tags:
   - quantifier
   - demonstrative
   allow_duplicate: true
   propagate_case: true
-  trigger: alaz,
+  trigger: laz,
 - replace: 'all these '
   _tags:
   - quantifier
   - demonstrative
   propagate_case: true
   allow_duplicate: false
-  trigger: alez,
+  trigger: lez,
 - replace: 'all those '
   _tags:
   - quantifier
   - demonstrative
   propagate_case: true
   allow_duplicate: false
-  trigger: aloz,
+  trigger: loz,
 - replace: 'in this '
   _tags:
   - preposition

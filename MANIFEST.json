@@ -1,12 +1,12 @@
 {
   "schema_version": "1.0.0",
-  "generated_at": "2026-10-15T08:53:32.432668+00:00",
-  "trigger_count": 15888,
-  "file_count": 357,
+  "generated_at": "2026-10-16T12:48:04.067447+00:00",
+  "trigger_count": 15928,
+  "file_count": 356,
   "files": [
     {
       "file": "_1char.yml",
-      "count": 124
+      "count": 122
     },
     {
       "file": "_4_for_patterns.yml",
@@ -50,7 +50,7 @@
     },
     {
       "file": "_common2.yml",
-      "count": 296
+      "count": 295
     },
     {
       "file": "_contractions.yml",
@@ -189,10 +189,6 @@
       "count": 26
     },
     {
-      "file": "_exx_note.yml",
-      "count": 19
-    },
-    {
       "file": "_exx_ould_group.yml",
       "count": 62
     },
@@ -258,7 +254,7 @@
     },
     {
       "file": "_exx_whole_reverse.yml",
-      "count": 8
+      "count": 7
     },
     {
       "file": "_forms.yml",
@@ -293,8 +289,12 @@
       "count": 36
     },
     {
+      "file": "_phrase_heads.yml",
+      "count": 81
+    },
+    {
       "file": "_phrases.yml",
-      "count": 467
+      "count": 466
     },
     {
       "file": "_phrases_all_of.yml",
@@ -430,7 +430,7 @@
     },
     {
       "file": "_word_else_expansions.yml",
-      "count": 19
+      "count": 17
     },
     {
       "file": "_word_families_1.yml",
@@ -450,7 +450,7 @@
     },
     {
       "file": "_word_families_2.yml",
-      "count": 377
+      "count": 375
     },
     {
       "file": "_word_families_3.yml",
@@ -458,7 +458,7 @@
     },
     {
       "file": "_word_families_4.yml",
-      "count": 426
+      "count": 425
     },
     {
       "file": "_word_families_5.yml",
@@ -935,10 +935,6 @@
     {
       "file": "_word_families_nomad.yml",
       "count": 3
-    },
-    {
-      "file": "_word_families_note.yml",
-      "count": 12
     },
     {
       "file": "_word_families_number.yml",

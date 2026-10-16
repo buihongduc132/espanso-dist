@@ -52,7 +52,7 @@ matches:
   - else
   propagate_case: true
   allow_duplicate: false
-  trigger: aqmb,
+  trigger: lqmb,
 - replace: 'some combine '
   _tags:
   - to

@@ -6,39 +6,39 @@ matches:
   - else
   allow_duplicate: false
   propagate_case: true
-  trigger: alo,
+  trigger: lo,
 - replace: 'all of this '
   _tags:
   - pronoun
   - else
   allow_duplicate: false
   propagate_case: true
-  trigger: aloiz,
+  trigger: loiz,
 - replace: 'all of that '
   _tags:
   - pronoun
   - else
   allow_duplicate: false
   propagate_case: true
-  trigger: aloaz,
+  trigger: loaz,
 - replace: 'all of these '
   _tags:
   - pronoun
   - else
   allow_duplicate: false
   propagate_case: true
-  trigger: aloez,
+  trigger: loez,
 - replace: 'all of which '
   _tags:
   - pronoun
   - else
   allow_duplicate: false
   propagate_case: true
-  trigger: alowi,
+  trigger: lowi,
 - replace: 'all others '
   _tags:
   - quantifier
   - else
   allow_duplicate: false
   propagate_case: true
-  trigger: alot,
+  trigger: lot,

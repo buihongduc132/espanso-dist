@@ -1,7 +1,8 @@
 search_shortcut: SHIFT+CTRL+E
 toggle_key: RIGHT_CTRL
 min_trigger_length: 1
-inject_delay: 0
+# Small inter-event delay prevents dropped EVDEV characters under load.
+inject_delay: 5
 undo_backspace: false
 search_trigger: ::sea
 use_standard_includes: false

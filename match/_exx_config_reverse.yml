@@ -52,7 +52,7 @@ matches:
   - else
   propagate_case: true
   allow_duplicate: false
-  trigger: aqnf,
+  trigger: lqnf,
 - replace: 'some config '
   _tags:
   - to

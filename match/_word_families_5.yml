@@ -1387,7 +1387,7 @@ matches:
   - else
   propagate_case: true
   allow_duplicate: false
-  trigger: lo,
+  trigger: lw,
 - replace: 'lower '
   _tags:
   - will
@@ -1395,7 +1395,7 @@ matches:
   - else
   propagate_case: true
   allow_duplicate: false
-  trigger: L`
+  trigger: lww,
 - replace: 'lowest '
   _tags:
   - will
@@ -1404,7 +1404,7 @@ matches:
   - pronoun
   propagate_case: true
   allow_duplicate: false
-  trigger: lot,
+  trigger: lwt,
 - replace: 'high '
   _tags:
   - the

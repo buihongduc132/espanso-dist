@@ -8,7 +8,7 @@ matches:
   - passed
   propagate_case: true
   allow_duplicate: false
-  trigger: atsp,
+  trigger: ltsp,
 - replace: 'tests failed '
   _tags:
   - test

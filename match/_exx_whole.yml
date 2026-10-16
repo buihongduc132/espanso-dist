@@ -180,7 +180,7 @@ matches:
   - else
   propagate_case: true
   allow_duplicate: false
-  trigger: les,
+  trigger: /1S,
 - replace: 'whole this '
   _tags:
   - demonstrative
@@ -188,7 +188,7 @@ matches:
   - else
   propagate_case: true
   allow_duplicate: false
-  trigger: leiz,
+  trigger: /1iz,
 - replace: 'whole that '
   _tags:
   - demonstrative
@@ -197,7 +197,7 @@ matches:
   - have
   propagate_case: true
   allow_duplicate: false
-  trigger: leaz,
+  trigger: /1az,
 - replace: 'whole these '
   _tags:
   - demonstrative
@@ -205,7 +205,7 @@ matches:
   - else
   propagate_case: true
   allow_duplicate: false
-  trigger: leez,
+  trigger: /1ez,
 - replace: 'whole those '
   _tags:
   - demonstrative
@@ -213,28 +213,28 @@ matches:
   - else
   propagate_case: true
   allow_duplicate: false
-  trigger: leoz,
+  trigger: /1oz,
 - replace: 'whole the '
   _tags:
   - the
   - else
   propagate_case: true
   allow_duplicate: false
-  trigger: leh,
+  trigger: /1h,
 - replace: 'whole some '
   _tags:
   - the
   - else
   propagate_case: true
   allow_duplicate: false
-  trigger: lesm,
+  trigger: /1sm,
 - replace: 'whole each '
   _tags:
   - the
   - else
   propagate_case: true
   allow_duplicate: false
-  trigger: leeh,
+  trigger: /1eh,
 - replace: 'no need '
   _tags:
   - phrase

@@ -53,7 +53,7 @@ matches:
   - else
   propagate_case: true
   allow_duplicate: false
-  trigger: afi,
+  trigger: lfi,
 - replace: 'some find '
   _tags:
   - to
@@ -125,7 +125,7 @@ matches:
   - else
   propagate_case: true
   allow_duplicate: false
-  trigger: afis,
+  trigger: lfis,
 - replace: 'some finds '
   _tags:
   - to

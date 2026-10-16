@@ -1033,9 +1033,8 @@ matches:
   - negate
   - to
   - else
-  allow_duplicate: true
-  duplicate_group: no-negate-vs-note
   propagate_case: true
+  allow_duplicate: false
   trigger: no,
 - replace: 'augment '
   _tags:

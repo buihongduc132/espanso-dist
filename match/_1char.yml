@@ -677,7 +677,7 @@ matches:
   - the
   - else
   trigger: /1,
-- replace: '(the whole) '
+- replace: 'the whole '
   _tags:
   - question
   - will
@@ -812,10 +812,6 @@ matches:
   - to
   - can
   trigger: noz,
-- replace: 'nothing '
-  trigger: nt,
-- replace: 'nothing else '
-  trigger: nte,
 - replace: 'about '
   _tags:
   - to

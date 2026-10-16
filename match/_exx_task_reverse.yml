@@ -52,7 +52,7 @@ matches:
   - else
   propagate_case: true
   allow_duplicate: false
-  trigger: ask,
+  trigger: lsk,
 - replace: 'some task '
   _tags:
   - can
@@ -146,7 +146,7 @@ matches:
   - else
   propagate_case: true
   allow_duplicate: false
-  trigger: asks,
+  trigger: lsks,
 - replace: 'some tasks '
   _tags:
   - can

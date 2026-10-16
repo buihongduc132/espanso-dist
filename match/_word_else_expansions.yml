@@ -104,22 +104,6 @@ matches:
   propagate_case: true
   allow_duplicate: false
   trigger: yy1e`
-- replace: 'nothing else '
-  _tags:
-  - else
-  - pronoun
-  - negate
-  propagate_case: true
-  allow_duplicate: false
-  trigger: ntie`
-- replace: 'no one else '
-  _tags:
-  - else
-  - pronoun
-  - negate
-  propagate_case: true
-  allow_duplicate: false
-  trigger: n1e`
 - replace: 'somebody else '
   _tags:
   - else

@@ -52,7 +52,7 @@ matches:
   - else
   propagate_case: true
   allow_duplicate: false
-  trigger: ahg,
+  trigger: lhg,
 - replace: 'some change '
   _tags:
   - to

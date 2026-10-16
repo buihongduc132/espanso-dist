@@ -52,7 +52,7 @@ matches:
   - else
   propagate_case: true
   allow_duplicate: false
-  trigger: aow,
+  trigger: low,
 - replace: 'some flow '
   _tags:
   - can
@@ -138,7 +138,7 @@ matches:
   - else
   propagate_case: true
   allow_duplicate: false
-  trigger: aows,
+  trigger: lows,
 - replace: 'some flows '
   _tags:
   - can

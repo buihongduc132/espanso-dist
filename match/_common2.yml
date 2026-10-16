@@ -104,16 +104,6 @@ matches:
   propagate_case: true
   allow_duplicate: false
   trigger: uwhg,
-- replace: 'nothing '
-  _tags:
-  - pronoun
-  - the
-  - ing
-  - to
-  - negate
-  propagate_case: true
-  allow_duplicate: false
-  trigger: notg,
 - replace: 'be able '
   _tags:
   - else
@@ -695,12 +685,12 @@ matches:
   - else
   propagate_case: true
   allow_duplicate: false
-  trigger: alh,
+  trigger: lh,
 - replace: 'all the '
   _tags: *id003
   propagate_case: true
   allow_duplicate: false
-  trigger: alhe,
+  trigger: lhe,
 - replace: 'always '
   _tags:
   - ours
@@ -1144,7 +1134,7 @@ matches:
   - the
   propagate_case: true
   allow_duplicate: false
-  trigger: atho,
+  trigger: ltho,
 - replace: 'sure '
   _tags:
   - adjective

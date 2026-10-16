@@ -18,7 +18,7 @@ matches:
   - else
   propagate_case: true
   allow_duplicate: false
-  trigger: alomm,
+  trigger: lomm,
 - replace: 'all of the '
   _tags:
   - article
@@ -27,7 +27,7 @@ matches:
   - else
   propagate_case: true
   allow_duplicate: false
-  trigger: aloh,
+  trigger: loh,
 - replace: 'all of those '
   _tags:
   - will
@@ -37,7 +37,7 @@ matches:
   - else
   propagate_case: true
   allow_duplicate: false
-  trigger: alooz,
+  trigger: looz,
 - replace: 'all those available '
   _tags:
   - pronoun
@@ -48,7 +48,7 @@ matches:
   - else
   propagate_case: true
   allow_duplicate: false
-  trigger: alozaj,
+  trigger: lozaj,
 - replace: 'any of '
   _tags:
   - quantifier

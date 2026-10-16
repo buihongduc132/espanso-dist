@@ -2327,20 +2327,6 @@ matches:
   propagate_case: true
   allow_duplicate: false
   trigger: pwgwl,
-- replace: 'no one '
-  _tags:
-  - negate
-  - else
-  propagate_case: true
-  allow_duplicate: false
-  trigger: ne,
-- replace: 'no one else '
-  _tags:
-  - negate
-  - else
-  propagate_case: true
-  allow_duplicate: false
-  trigger: nel,
 - replace: 'nowhere '
   _tags:
   - negate

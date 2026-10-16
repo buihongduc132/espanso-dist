@@ -1,0 +1,731 @@
+name: _phrase_heads
+matches:
+- replace: 'nothing '
+  _tags:
+  - phrase-heads
+  - compound
+  _note: '2026-10-15 approved phrase_heads.yml; issue #85'
+  propagate_case: true
+  left_word: true
+  allow_duplicate: false
+  trigger: ni,
+- replace: 'nothing else '
+  _tags:
+  - phrase-heads
+  - compound
+  _note: '2026-10-15 approved phrase_heads.yml; issue #85'
+  propagate_case: true
+  left_word: true
+  allow_duplicate: false
+  trigger: nie,
+- replace: 'no one '
+  _tags:
+  - phrase-heads
+  - compound
+  _note: '2026-10-15 approved phrase_heads.yml; issue #85'
+  propagate_case: true
+  left_word: true
+  allow_duplicate: false
+  trigger: n1,
+- replace: 'no one else '
+  _tags:
+  - phrase-heads
+  - compound
+  _note: '2026-10-15 approved phrase_heads.yml; issue #85'
+  propagate_case: true
+  left_word: true
+  allow_duplicate: false
+  trigger: n1e,
+- replace: 'a document '
+  _tags:
+  - phrase-heads
+  - a
+  _note: '2026-10-15 approved phrase_heads.yml; issue #85'
+  propagate_case: true
+  left_word: true
+  allow_duplicate: false
+  trigger: adoq,
+- replace: 'no document '
+  _tags:
+  - phrase-heads
+  - 'no'
+  _note: '2026-10-15 approved phrase_heads.yml; issue #85'
+  propagate_case: true
+  left_word: true
+  allow_duplicate: false
+  trigger: zdoq,
+- replace: 'not document '
+  _tags:
+  - phrase-heads
+  - not
+  _note: '2026-10-15 approved phrase_heads.yml; issue #85'
+  propagate_case: true
+  left_word: true
+  allow_duplicate: false
+  trigger: ndoq,
+- replace: 'one document '
+  _tags:
+  - phrase-heads
+  - one
+  _note: '2026-10-15 approved phrase_heads.yml; issue #85'
+  propagate_case: true
+  left_word: true
+  allow_duplicate: false
+  trigger: 1doq,
+- replace: 'no documents '
+  _tags:
+  - phrase-heads
+  - 'no'
+  _note: '2026-10-15 approved phrase_heads.yml; issue #85'
+  propagate_case: true
+  left_word: true
+  allow_duplicate: false
+  trigger: zdoqs,
+- replace: 'not documents '
+  _tags:
+  - phrase-heads
+  - not
+  _note: '2026-10-15 approved phrase_heads.yml; issue #85'
+  propagate_case: true
+  left_word: true
+  allow_duplicate: false
+  trigger: ndoqs,
+- replace: 'a whole '
+  _tags:
+  - phrase-heads
+  - a
+  _note: '2026-10-15 approved phrase_heads.yml; issue #85'
+  propagate_case: true
+  left_word: true
+  allow_duplicate: false
+  trigger: a/1,
+- replace: 'no whole '
+  _tags:
+  - phrase-heads
+  - 'no'
+  _note: '2026-10-15 approved phrase_heads.yml; issue #85'
+  propagate_case: true
+  left_word: true
+  allow_duplicate: false
+  trigger: z/1,
+- replace: 'not whole '
+  _tags:
+  - phrase-heads
+  - not
+  _note: '2026-10-15 approved phrase_heads.yml; issue #85'
+  propagate_case: true
+  left_word: true
+  allow_duplicate: false
+  trigger: n/1,
+- replace: 'one whole '
+  _tags:
+  - phrase-heads
+  - one
+  _note: '2026-10-15 approved phrase_heads.yml; issue #85'
+  propagate_case: true
+  left_word: true
+  allow_duplicate: false
+  trigger: 1/1,
+- replace: 'a find '
+  _tags:
+  - phrase-heads
+  - a
+  _note: '2026-10-15 approved phrase_heads.yml; issue #85'
+  propagate_case: true
+  left_word: true
+  allow_duplicate: false
+  trigger: afi,
+- replace: 'no find '
+  _tags:
+  - phrase-heads
+  - 'no'
+  _note: '2026-10-15 approved phrase_heads.yml; issue #85'
+  propagate_case: true
+  left_word: true
+  allow_duplicate: false
+  trigger: zfi,
+- replace: 'not find '
+  _tags:
+  - phrase-heads
+  - not
+  _note: '2026-10-15 approved phrase_heads.yml; issue #85'
+  propagate_case: true
+  left_word: true
+  allow_duplicate: false
+  trigger: nfi,
+- replace: 'one find '
+  _tags:
+  - phrase-heads
+  - one
+  _note: '2026-10-15 approved phrase_heads.yml; issue #85'
+  propagate_case: true
+  left_word: true
+  allow_duplicate: false
+  trigger: 1fi,
+- replace: 'no finds '
+  _tags:
+  - phrase-heads
+  - 'no'
+  _note: '2026-10-15 approved phrase_heads.yml; issue #85'
+  propagate_case: true
+  left_word: true
+  allow_duplicate: false
+  trigger: zfis,
+- replace: 'not finds '
+  _tags:
+  - phrase-heads
+  - not
+  _note: '2026-10-15 approved phrase_heads.yml; issue #85'
+  propagate_case: true
+  left_word: true
+  allow_duplicate: false
+  trigger: nfis,
+- replace: 'not the '
+  _tags:
+  - phrase-heads
+  - not
+  _note: '2026-10-15 approved phrase_heads.yml; issue #85'
+  propagate_case: true
+  left_word: true
+  allow_duplicate: false
+  trigger: nh,
+- replace: 'not the '
+  _tags:
+  - phrase-heads
+  - not
+  _note: '2026-10-15 approved phrase_heads.yml; issue #85'
+  propagate_case: true
+  left_word: true
+  allow_duplicate: false
+  trigger: nhe,
+- replace: 'not the docs '
+  _tags:
+  - phrase-heads
+  - not
+  _note: '2026-10-15 approved phrase_heads.yml; issue #85'
+  propagate_case: true
+  left_word: true
+  allow_duplicate: false
+  trigger: nhedo,
+- replace: 'not the code '
+  _tags:
+  - phrase-heads
+  - not
+  _note: '2026-10-15 approved phrase_heads.yml; issue #85'
+  propagate_case: true
+  left_word: true
+  allow_duplicate: false
+  trigger: nheqo,
+- replace: 'not the thing '
+  _tags:
+  - phrase-heads
+  - not
+  _note: '2026-10-15 approved phrase_heads.yml; issue #85'
+  propagate_case: true
+  left_word: true
+  allow_duplicate: false
+  trigger: nhet,
+- replace: 'not the things '
+  _tags:
+  - phrase-heads
+  - not
+  _note: '2026-10-15 approved phrase_heads.yml; issue #85'
+  propagate_case: true
+  left_word: true
+  allow_duplicate: false
+  trigger: nhethg,
+- replace: 'not the tickets '
+  _tags:
+  - phrase-heads
+  - not
+  _note: '2026-10-15 approved phrase_heads.yml; issue #85'
+  propagate_case: true
+  left_word: true
+  allow_duplicate: false
+  trigger: nheti,
+- replace: 'not the works '
+  _tags:
+  - phrase-heads
+  - not
+  _note: '2026-10-15 approved phrase_heads.yml; issue #85'
+  propagate_case: true
+  left_word: true
+  allow_duplicate: false
+  trigger: nhew,
+- replace: 'not the work '
+  _tags:
+  - phrase-heads
+  - not
+  _note: '2026-10-15 approved phrase_heads.yml; issue #85'
+  propagate_case: true
+  left_word: true
+  allow_duplicate: false
+  trigger: nhewk,
+- replace: 'a change '
+  _tags:
+  - phrase-heads
+  - a
+  _note: '2026-10-15 approved phrase_heads.yml; issue #85'
+  propagate_case: true
+  left_word: true
+  allow_duplicate: false
+  trigger: ahg,
+- replace: 'no change '
+  _tags:
+  - phrase-heads
+  - 'no'
+  _note: '2026-10-15 approved phrase_heads.yml; issue #85'
+  propagate_case: true
+  left_word: true
+  allow_duplicate: false
+  trigger: zhg,
+- replace: 'not change '
+  _tags:
+  - phrase-heads
+  - not
+  _note: '2026-10-15 approved phrase_heads.yml; issue #85'
+  propagate_case: true
+  left_word: true
+  allow_duplicate: false
+  trigger: nhg,
+- replace: 'one change '
+  _tags:
+  - phrase-heads
+  - one
+  _note: '2026-10-15 approved phrase_heads.yml; issue #85'
+  propagate_case: true
+  left_word: true
+  allow_duplicate: false
+  trigger: 1hg,
+- replace: 'a check '
+  _tags:
+  - phrase-heads
+  - a
+  _note: '2026-10-15 approved phrase_heads.yml; issue #85'
+  propagate_case: true
+  left_word: true
+  allow_duplicate: false
+  trigger: ahk,
+- replace: 'no check '
+  _tags:
+  - phrase-heads
+  - 'no'
+  _note: '2026-10-15 approved phrase_heads.yml; issue #85'
+  propagate_case: true
+  left_word: true
+  allow_duplicate: false
+  trigger: zhk,
+- replace: 'not check '
+  _tags:
+  - phrase-heads
+  - not
+  _note: '2026-10-15 approved phrase_heads.yml; issue #85'
+  propagate_case: true
+  left_word: true
+  allow_duplicate: false
+  trigger: nhk,
+- replace: 'one check '
+  _tags:
+  - phrase-heads
+  - one
+  _note: '2026-10-15 approved phrase_heads.yml; issue #85'
+  propagate_case: true
+  left_word: true
+  allow_duplicate: false
+  trigger: 1hk,
+- replace: 'not the thing '
+  _tags:
+  - phrase-heads
+  - not
+  _note: '2026-10-15 approved phrase_heads.yml; issue #85'
+  propagate_case: true
+  left_word: true
+  allow_duplicate: false
+  trigger: nhy,
+- replace: 'not of that '
+  _tags:
+  - phrase-heads
+  - not
+  _note: '2026-10-15 approved phrase_heads.yml; issue #85'
+  propagate_case: true
+  left_word: true
+  allow_duplicate: false
+  trigger: noaz,
+- replace: 'one of that '
+  _tags:
+  - phrase-heads
+  - one
+  _note: '2026-10-15 approved phrase_heads.yml; issue #85'
+  propagate_case: true
+  left_word: true
+  allow_duplicate: false
+  trigger: 1oaz,
+- replace: 'not of these '
+  _tags:
+  - phrase-heads
+  - not
+  _note: '2026-10-15 approved phrase_heads.yml; issue #85'
+  propagate_case: true
+  left_word: true
+  allow_duplicate: false
+  trigger: noez,
+- replace: 'one of these '
+  _tags:
+  - phrase-heads
+  - one
+  _note: '2026-10-15 approved phrase_heads.yml; issue #85'
+  propagate_case: true
+  left_word: true
+  allow_duplicate: false
+  trigger: 1oez,
+- replace: 'not of the '
+  _tags:
+  - phrase-heads
+  - not
+  _note: '2026-10-15 approved phrase_heads.yml; issue #85'
+  propagate_case: true
+  left_word: true
+  allow_duplicate: false
+  trigger: noh,
+- replace: 'one of the '
+  _tags:
+  - phrase-heads
+  - one
+  _note: '2026-10-15 approved phrase_heads.yml; issue #85'
+  propagate_case: true
+  left_word: true
+  allow_duplicate: false
+  trigger: 1oh,
+- replace: 'not of this '
+  _tags:
+  - phrase-heads
+  - not
+  _note: '2026-10-15 approved phrase_heads.yml; issue #85'
+  propagate_case: true
+  left_word: true
+  allow_duplicate: false
+  trigger: noiz,
+- replace: 'one of this '
+  _tags:
+  - phrase-heads
+  - one
+  _note: '2026-10-15 approved phrase_heads.yml; issue #85'
+  propagate_case: true
+  left_word: true
+  allow_duplicate: false
+  trigger: 1oiz,
+- replace: 'not of that '
+  _tags:
+  - phrase-heads
+  - not
+  _note: '2026-10-15 approved phrase_heads.yml; issue #85'
+  propagate_case: true
+  left_word: true
+  allow_duplicate: false
+  trigger: nomaz,
+- replace: 'one of that '
+  _tags:
+  - phrase-heads
+  - one
+  _note: '2026-10-15 approved phrase_heads.yml; issue #85'
+  propagate_case: true
+  left_word: true
+  allow_duplicate: false
+  trigger: 1omaz,
+- replace: 'not of these '
+  _tags:
+  - phrase-heads
+  - not
+  _note: '2026-10-15 approved phrase_heads.yml; issue #85'
+  propagate_case: true
+  left_word: true
+  allow_duplicate: false
+  trigger: nomez,
+- replace: 'one of these '
+  _tags:
+  - phrase-heads
+  - one
+  _note: '2026-10-15 approved phrase_heads.yml; issue #85'
+  propagate_case: true
+  left_word: true
+  allow_duplicate: false
+  trigger: 1omez,
+- replace: 'not of this '
+  _tags:
+  - phrase-heads
+  - not
+  _note: '2026-10-15 approved phrase_heads.yml; issue #85'
+  propagate_case: true
+  left_word: true
+  allow_duplicate: false
+  trigger: nomiz,
+- replace: 'one of this '
+  _tags:
+  - phrase-heads
+  - one
+  _note: '2026-10-15 approved phrase_heads.yml; issue #85'
+  propagate_case: true
+  left_word: true
+  allow_duplicate: false
+  trigger: 1omiz,
+- replace: 'not of them '
+  _tags:
+  - phrase-heads
+  - not
+  _note: '2026-10-15 approved phrase_heads.yml; issue #85'
+  propagate_case: true
+  left_word: true
+  allow_duplicate: false
+  trigger: nomm,
+- replace: 'one of them '
+  _tags:
+  - phrase-heads
+  - one
+  _note: '2026-10-15 approved phrase_heads.yml; issue #85'
+  propagate_case: true
+  left_word: true
+  allow_duplicate: false
+  trigger: 1omm,
+- replace: 'not of those '
+  _tags:
+  - phrase-heads
+  - not
+  _note: '2026-10-15 approved phrase_heads.yml; issue #85'
+  propagate_case: true
+  left_word: true
+  allow_duplicate: false
+  trigger: nomoz,
+- replace: 'one of those '
+  _tags:
+  - phrase-heads
+  - one
+  _note: '2026-10-15 approved phrase_heads.yml; issue #85'
+  propagate_case: true
+  left_word: true
+  allow_duplicate: false
+  trigger: 1omoz,
+- replace: 'not of those '
+  _tags:
+  - phrase-heads
+  - not
+  _note: '2026-10-15 approved phrase_heads.yml; issue #85'
+  propagate_case: true
+  left_word: true
+  allow_duplicate: false
+  trigger: nooz,
+- replace: 'one of those '
+  _tags:
+  - phrase-heads
+  - one
+  _note: '2026-10-15 approved phrase_heads.yml; issue #85'
+  propagate_case: true
+  left_word: true
+  allow_duplicate: false
+  trigger: 1ooz,
+- replace: 'no others '
+  _tags:
+  - phrase-heads
+  - 'no'
+  _note: '2026-10-15 approved phrase_heads.yml; issue #85'
+  propagate_case: true
+  left_word: true
+  allow_duplicate: false
+  trigger: zot,
+- replace: 'not others '
+  _tags:
+  - phrase-heads
+  - not
+  _note: '2026-10-15 approved phrase_heads.yml; issue #85'
+  propagate_case: true
+  left_word: true
+  allow_duplicate: false
+  trigger: not,
+- replace: 'a flow '
+  _tags:
+  - phrase-heads
+  - a
+  _note: '2026-10-15 approved phrase_heads.yml; issue #85'
+  propagate_case: true
+  left_word: true
+  allow_duplicate: false
+  trigger: aow,
+- replace: 'no flow '
+  _tags:
+  - phrase-heads
+  - 'no'
+  _note: '2026-10-15 approved phrase_heads.yml; issue #85'
+  propagate_case: true
+  left_word: true
+  allow_duplicate: false
+  trigger: zow,
+- replace: 'not flow '
+  _tags:
+  - phrase-heads
+  - not
+  _note: '2026-10-15 approved phrase_heads.yml; issue #85'
+  propagate_case: true
+  left_word: true
+  allow_duplicate: false
+  trigger: now,
+- replace: 'one flow '
+  _tags:
+  - phrase-heads
+  - one
+  _note: '2026-10-15 approved phrase_heads.yml; issue #85'
+  propagate_case: true
+  left_word: true
+  allow_duplicate: false
+  trigger: 1ow,
+- replace: 'not of which '
+  _tags:
+  - phrase-heads
+  - not
+  _note: '2026-10-15 approved phrase_heads.yml; issue #85'
+  propagate_case: true
+  left_word: true
+  allow_duplicate: false
+  trigger: nowi,
+- replace: 'one of which '
+  _tags:
+  - phrase-heads
+  - one
+  _note: '2026-10-15 approved phrase_heads.yml; issue #85'
+  propagate_case: true
+  left_word: true
+  allow_duplicate: false
+  trigger: 1owi,
+- replace: 'no flows '
+  _tags:
+  - phrase-heads
+  - 'no'
+  _note: '2026-10-15 approved phrase_heads.yml; issue #85'
+  propagate_case: true
+  left_word: true
+  allow_duplicate: false
+  trigger: zows,
+- replace: 'not flows '
+  _tags:
+  - phrase-heads
+  - not
+  _note: '2026-10-15 approved phrase_heads.yml; issue #85'
+  propagate_case: true
+  left_word: true
+  allow_duplicate: false
+  trigger: nows,
+- replace: 'not those available '
+  _tags:
+  - phrase-heads
+  - not
+  _note: '2026-10-15 approved phrase_heads.yml; issue #85'
+  propagate_case: true
+  left_word: true
+  allow_duplicate: false
+  trigger: nozaj,
+- replace: 'not combine '
+  _tags:
+  - phrase-heads
+  - not
+  _note: '2026-10-15 approved phrase_heads.yml; issue #85'
+  propagate_case: true
+  left_word: true
+  allow_duplicate: false
+  trigger: nqmb,
+- replace: 'a config '
+  _tags:
+  - phrase-heads
+  - a
+  _note: '2026-10-15 approved phrase_heads.yml; issue #85'
+  propagate_case: true
+  left_word: true
+  allow_duplicate: false
+  trigger: aqnf,
+- replace: 'no config '
+  _tags:
+  - phrase-heads
+  - 'no'
+  _note: '2026-10-15 approved phrase_heads.yml; issue #85'
+  propagate_case: true
+  left_word: true
+  allow_duplicate: false
+  trigger: zqnf,
+- replace: 'not config '
+  _tags:
+  - phrase-heads
+  - not
+  _note: '2026-10-15 approved phrase_heads.yml; issue #85'
+  propagate_case: true
+  left_word: true
+  allow_duplicate: false
+  trigger: nqnf,
+- replace: 'one config '
+  _tags:
+  - phrase-heads
+  - one
+  _note: '2026-10-15 approved phrase_heads.yml; issue #85'
+  propagate_case: true
+  left_word: true
+  allow_duplicate: false
+  trigger: 1qnf,
+- replace: 'a task '
+  _tags:
+  - phrase-heads
+  - a
+  _note: '2026-10-15 approved phrase_heads.yml; issue #85'
+  propagate_case: true
+  left_word: true
+  allow_duplicate: false
+  trigger: ask,
+- replace: 'no task '
+  _tags:
+  - phrase-heads
+  - 'no'
+  _note: '2026-10-15 approved phrase_heads.yml; issue #85'
+  propagate_case: true
+  left_word: true
+  allow_duplicate: false
+  trigger: zsk,
+- replace: 'not task '
+  _tags:
+  - phrase-heads
+  - not
+  _note: '2026-10-15 approved phrase_heads.yml; issue #85'
+  propagate_case: true
+  left_word: true
+  allow_duplicate: false
+  trigger: nsk,
+- replace: 'no tasks '
+  _tags:
+  - phrase-heads
+  - 'no'
+  _note: '2026-10-15 approved phrase_heads.yml; issue #85'
+  propagate_case: true
+  left_word: true
+  allow_duplicate: false
+  trigger: zsks,
+- replace: 'not tasks '
+  _tags:
+  - phrase-heads
+  - not
+  _note: '2026-10-15 approved phrase_heads.yml; issue #85'
+  propagate_case: true
+  left_word: true
+  allow_duplicate: false
+  trigger: nsks,
+- replace: 'not the others '
+  _tags:
+  - phrase-heads
+  - not
+  _note: '2026-10-15 approved phrase_heads.yml; issue #85'
+  propagate_case: true
+  left_word: true
+  allow_duplicate: false
+  trigger: ntho,
+- replace: 'not replace '
+  _tags:
+  - phrase-heads
+  - not
+  _note: '2026-10-15 approved phrase_heads.yml; issue #85'
+  propagate_case: true
+  left_word: true
+  allow_duplicate: false
+  trigger: nwew,

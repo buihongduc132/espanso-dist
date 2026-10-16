@@ -7,7 +7,7 @@ matches:
   - else
   propagate_case: true
   allow_duplicate: false
-  trigger: izle,
+  trigger: iz/1,
 - replace: 'that whole '
   _tags:
   - demonstrative
@@ -17,7 +17,7 @@ matches:
   - have
   propagate_case: true
   allow_duplicate: false
-  trigger: azle,
+  trigger: az/1,
 - replace: 'these whole '
   _tags:
   - demonstrative
@@ -26,7 +26,7 @@ matches:
   - else
   propagate_case: true
   allow_duplicate: false
-  trigger: ezle,
+  trigger: ez/1,
 - replace: 'those whole '
   _tags:
   - demonstrative
@@ -35,16 +35,7 @@ matches:
   - else
   propagate_case: true
   allow_duplicate: false
-  trigger: ozle,
-- replace: 'the whole '
-  _tags:
-  - the
-  - to
-  - can
-  - else
-  propagate_case: true
-  allow_duplicate: false
-  trigger: hle,
+  trigger: oz/1,
 - replace: 'all whole '
   _tags:
   - to
@@ -52,7 +43,7 @@ matches:
   - else
   propagate_case: true
   allow_duplicate: false
-  trigger: ale,
+  trigger: l/1,
 - replace: 'some whole '
   _tags:
   - to
@@ -60,7 +51,7 @@ matches:
   - else
   propagate_case: true
   allow_duplicate: false
-  trigger: smle,
+  trigger: sm/1,
 - replace: 'each whole '
   _tags:
   - the
@@ -69,5 +60,5 @@ matches:
   - else
   propagate_case: true
   allow_duplicate: false
-  trigger: ehle,
+  trigger: eh/1,
 name: _exx_whole_reverse
